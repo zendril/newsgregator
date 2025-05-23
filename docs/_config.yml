@@ -12,24 +12,14 @@ markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-
-# Exclude from processing
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor
-  - .idea
-  - .gradle
-  - build
-  - .git
-  - src
-  - gradle
-
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true
 # Include folders
-include:
-  - "docs"
-  - "docs/*.md"
+#include:
+#  - "docs"
+#  - "docs/*.md"
 
 # Collections
 collections:
