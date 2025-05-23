@@ -16,13 +16,6 @@ plugins:
 relative_links:
   enabled: true
   collections: true
-# Include folders
-#include:
-#  - "docs"
-#  - "docs/*.md"
-# Process Markdown files in docs folder
-#keep_files:
-#  - docs
 
 # Collections
 collections:
