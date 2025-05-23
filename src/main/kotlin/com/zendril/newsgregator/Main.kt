@@ -13,6 +13,8 @@ import com.zendril.newsgregator.retrievers.YoutubeRetriever
 import kotlinx.coroutines.runBlocking
 import kotlinx.serialization.json.Json
 import java.io.File
+import java.time.LocalDateTime
+import java.time.format.DateTimeFormatter
 import kotlin.system.exitProcess
 
 fun main(args: Array<String>) = runBlocking {
@@ -22,6 +24,7 @@ fun main(args: Array<String>) = runBlocking {
     var configFile = "config.json"
     var dryRun = false
     var debug = false
+    var outputDir = "output"
 
     args.forEachIndexed { index, arg ->
         when {
@@ -32,7 +35,13 @@ fun main(args: Array<String>) = runBlocking {
                     configFile = args[index + 1]
                 }
             }
+            arg == "--output" || arg == "-o" -> {
+                if (index + 1 < args.size) {
+                    outputDir = args[index + 1]
+                }
+            }
             arg.startsWith("--config=") -> configFile = arg.substringAfter("=")
+            arg.startsWith("--output=") -> outputDir = arg.substringAfter("=")
             index == 0 && !arg.startsWith("-") -> configFile = arg
         }
     }
@@ -91,6 +100,9 @@ fun main(args: Array<String>) = runBlocking {
         println("========")
         println(summary)
         println("========")
+
+        // Save summary to file
+        saveSummaryToFile(summary, outputDir)
     }
 
     println("Done!")
@@ -161,11 +173,86 @@ private fun initializeLlmService(config: Configuration): LlmService {
             config.llm.apiKey = apiKey
         }
     }
-    
+
     // Always use Gemini service regardless of provider in config
     return GeminiService(config.llm).also {
         if (config.llm.provider.lowercase() != "gemini") {
             println("Note: Using Gemini provider regardless of configuration (${config.llm.provider})")
         }
     }
+}
+
+/**
+ * Saves the summary to a file in the specified output directory
+ */
+private fun saveSummaryToFile(summary: String, outputDir: String) {
+    try {
+        // Create output directory if it doesn't exist
+        val directory = File(outputDir)
+        if (!directory.exists()) {
+            directory.mkdirs()
+        }
+
+        // Generate timestamp for the filename
+        val timestamp = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd"))
+        val filename = "$timestamp-summary.md"
+
+        // Create the file
+        val outputFile = File(directory, filename)
+
+        // Add header with timestamp
+        val headerTimestamp = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"))
+        val content = "# News Summary - $headerTimestamp\n\n$summary"
+
+        // Write to file
+        outputFile.writeText(content)
+
+        // Also create/update an index.md file that lists all summaries
+        updateIndexFile(directory, filename)
+
+        println("Summary saved to ${outputFile.absolutePath}")
+    } catch (e: Exception) {
+        println("Error saving summary to file: ${e.message}")
+    }
+}
+
+/**
+ * Updates the index.md file with a link to the new summary
+ */
+private fun updateIndexFile(directory: File, newFilename: String) {
+    val indexFile = File(directory, "index.md")
+
+    // Create header for index file
+    val header = "# News Summaries\n\n"
+
+    // Get the date from the filename (yyyy-MM-dd)
+    val date = newFilename.substringBefore("-summary.md")
+
+    // Create entry for the new file
+    val newEntry = "- [$date](./$newFilename)\n"
+
+    // If index file exists, read it and add the new entry at the top (after header)
+    val content = if (indexFile.exists()) {
+        val existingContent = indexFile.readText()
+        if (existingContent.contains(newEntry)) {
+            // Entry already exists, don't add it again
+            existingContent
+        } else {
+            // Add new entry after header
+            val lines = existingContent.lines().toMutableList()
+            if (lines.size >= 2) {
+                lines.add(2, newEntry)
+                lines.joinToString("\n")
+            } else {
+                // If file is too short, recreate it
+                header + newEntry
+            }
+        }
+    } else {
+        // Create new index file
+        header + newEntry
+    }
+
+    // Write the updated content to the index file
+    indexFile.writeText(content)
 }

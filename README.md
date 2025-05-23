@@ -156,3 +156,47 @@ A flexible configuration system will be implemented to support different retriev
    - Interfacing with LLM APIs
 4. Implement the configuration system
 5. Implement error handling and retry mechanisms for resilient data retrieval
+
+## GitHub Actions Integration
+
+The application is configured to run automatically on GitHub using GitHub Actions:
+
+1. **Daily Scheduled Run**: The application runs daily at 8:00 AM UTC to fetch and summarize the latest news.
+2. **Manual Triggering**: You can also trigger the workflow manually from the Actions tab in your GitHub repository.
+3. **Dependency Caching**: The workflow uses Gradle caching to speed up builds.
+4. **GitHub Pages Publishing**: The generated summaries are published to GitHub Pages automatically.
+
+### Setting Up GitHub Actions
+
+1. **Configure GitHub Secrets**:
+   - Go to your repository's Settings > Secrets and variables > Actions
+   - Add a new repository secret named `GEMINI_API_KEY` with your Gemini API key
+
+2. **Enable GitHub Pages**:
+   - Go to your repository's Settings > Pages
+   - Under "Build and deployment", select "GitHub Actions" as the source
+
+3. **First Run**:
+   - Go to the Actions tab in your repository
+   - Select the "Daily News Summary" workflow
+   - Click "Run workflow" to trigger the first run manually
+
+### Running Locally
+
+To run the application locally:
+
+```bash
+# Run with default configuration
+./gradlew run
+
+# Run with custom configuration file
+./gradlew run --args="--config custom-config.json"
+
+# Run in dry-run mode (no LLM calls)
+./gradlew run --args="--dry-run"
+
+# Specify output directory for summaries
+./gradlew run --args="--output custom-output-dir"
+```
+
+The application will save summaries to the specified output directory (default: "output") and maintain an index.md file with links to all summaries.
