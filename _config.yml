@@ -1,0 +1,37 @@
+# Jekyll configuration for GitHub Pages
+title: Newsgregator
+description: Daily news summaries curated from various sources
+theme: jekyll-theme-cayman
+
+# GitHub Pages settings
+baseurl: "/newsgregator" # The subpath of your site, e.g. /blog
+url: "" # The base hostname & protocol, e.g. http://example.com
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .idea
+  - .gradle
+  - build
+  - .git
+
+# Include folders
+include:
+  - docs
+
+# Default front matter for files
+defaults:
+  -
+    scope:
+      path: "" # All files
+    values:
+      layout: "default"
