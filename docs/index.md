@@ -1,24 +1,21 @@
-# News Summaries
 ---
 layout: default
-title: Docs Directory Index
+title: Newsgregator Daily Summaries
 ---
 
-# Docs Directory Index
+# Newsgregator Daily News Summaries
 
-All summaries generated for Newsgregator are stored in this directory.
+This page contains daily summaries of news articles curated from various sources.
 
 ## Recent Summaries
 
-{% assign sorted_pages = site.pages | sort: 'path' | reverse %}
+{% assign sorted_pages = site.pages | sort: 'date' | reverse %}
 {% for page in sorted_pages %}
-  {% if page.path contains 'docs/' and page.path != 'docs/index.md' and page.name contains '.md' %}
-    {% assign filename = page.name | remove: '.md' %}
-    * [{{ filename }}]({{ site.baseurl }}{{ page.url }})
+  {% if page.path contains 'docs/' and page.path contains '.md' and page.path != 'docs/index.md' %}
+    {% assign filename = page.path | split: '/' | last %}
+    {% assign date_parts = filename | remove: '.md' | split: '-' %}
+    {% if date_parts.size >= 3 %}
+      * [{{ date_parts[0] }}-{{ date_parts[1] }}-{{ date_parts[2] }}]({{ site.baseurl }}{{ page.url }})
+    {% endif %}
   {% endif %}
 {% endfor %}
-- [2025-05-23](./2025-05-23-summary.md)
-
-This page contains daily summaries of news articles from various sources. The summaries are generated automatically using the Newsgregator tool and Google's Gemini AI.
-
-New summaries will be added daily. Check back for updates!
