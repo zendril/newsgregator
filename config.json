@@ -1,6 +1,12 @@
 {
   "sources": [
     {
+      "name": "AI News",
+      "type": "rss",
+      "url": "https://news.smol.ai/rss.xml",
+      "maxResults": 20
+    },
+    {
       "name": "ChatGPTCoding",
       "type": "reddit",
       "subreddit": "ChatGPTCoding",

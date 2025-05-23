@@ -150,6 +150,18 @@ private suspend fun retrieveAllContent(retrievers: List<ContentRetriever>): List
  * Initializes the LLM service based on the configuration
  */
 private fun initializeLlmService(config: Configuration): LlmService {
+    // Check if API key is provided
+    if (config.llm.apiKey.isBlank()) {
+        println("Reading GEMINI_API_KEY environment variable.")
+        // Try to get API key from environment variable
+        val apiKey = System.getenv("GEMINI_API_KEY")
+        if (apiKey.isNullOrBlank()) {
+            println("Error: No Gemini API key found in environment. Summary functionality will not work.")
+        } else {
+            config.llm.apiKey = apiKey
+        }
+    }
+    
     // Always use Gemini service regardless of provider in config
     return GeminiService(config.llm).also {
         if (config.llm.provider.lowercase() != "gemini") {

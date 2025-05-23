@@ -196,55 +196,61 @@ class RedditRetriever(
             println("DEBUG: Max results: ${source.maxResults}")
         }
         
-        return retrieveContentDirectly(subreddit, sortBy.toString().lowercase())
-
-//        try {
-//            // Try using JRAW if direct API is not specified
-//            val paginator = redditClient.subreddit(subreddit).posts()
-//                .sorting(sortBy)
-//                .limit(source.maxResults)
-//                .build()
-//
-//            if (debug) {
-//                println("DEBUG: Built paginator, retrieving posts...")
-//            }
-//
-//            val posts = paginator.next()
-//
-//            if (debug) {
-//                println("DEBUG: Retrieved ${posts.size} posts from Reddit")
-//            }
-//
-//            return posts.map { submission ->
-//                ContentItem(
-//                    id = submission.id,
-//                    title = submission.title,
-//                    content = submission.selfText ?: "[No content]",
-//                    url = submission.url,
-//                    publishDate = ZonedDateTime.ofInstant(
-//                        Instant.ofEpochSecond(submission.created.time / 1000),
-//                        ZoneId.systemDefault()
-//                    ),
-//                    author = submission.author,
-//                    sourceType = SourceType.REDDIT,
-//                    sourceName = source.name,
-//                    metadata = mapOf(
-//                        "subreddit" to subreddit,
-//                        "score" to submission.score.toString(),
-//                        "commentCount" to submission.commentCount.toString(),
-//                        "isNsfw" to submission.isNsfw.toString()
-//                    )
-//                )
-//            }
-//        } catch (e: Exception) {
-//            if (debug) {
-//                println("DEBUG: JRAW retrieval failed: ${e.message}")
-//                println("DEBUG: Falling back to direct JSON API access")
-//            }
-//
-//            // If JRAW fails, fall back to direct JSON API access
-//            return retrieveContentDirectly(subreddit, sortBy.toString().lowercase())
-//        }
+        // Check if we should use direct API access (for public subreddits)
+        if (source.useDirectApi) {
+            if (debug) {
+                println("DEBUG: Using direct JSON API access as configured")
+            }
+            return retrieveContentDirectly(subreddit, sortBy.toString().lowercase())
+        }
+        
+        try {
+            // Try using JRAW if direct API is not specified
+            val paginator = redditClient.subreddit(subreddit).posts()
+                .sorting(sortBy)
+                .limit(source.maxResults)
+                .build()
+            
+            if (debug) {
+                println("DEBUG: Built paginator, retrieving posts...")
+            }
+            
+            val posts = paginator.next()
+            
+            if (debug) {
+                println("DEBUG: Retrieved ${posts.size} posts from Reddit")
+            }
+            
+            return posts.map { submission ->
+                ContentItem(
+                    id = submission.id,
+                    title = submission.title,
+                    content = submission.selfText ?: "[No content]",
+                    url = submission.url,
+                    publishDate = ZonedDateTime.ofInstant(
+                        Instant.ofEpochSecond(submission.created.time / 1000),
+                        ZoneId.systemDefault()
+                    ),
+                    author = submission.author,
+                    sourceType = SourceType.REDDIT,
+                    sourceName = source.name,
+                    metadata = mapOf(
+                        "subreddit" to subreddit,
+                        "score" to submission.score.toString(),
+                        "commentCount" to submission.commentCount.toString(),
+                        "isNsfw" to submission.isNsfw.toString()
+                    )
+                )
+            }
+        } catch (e: Exception) {
+            if (debug) {
+                println("DEBUG: JRAW retrieval failed: ${e.message}")
+                println("DEBUG: Falling back to direct JSON API access")
+            }
+            
+            // If JRAW fails, fall back to direct JSON API access
+            return retrieveContentDirectly(subreddit, sortBy.toString().lowercase())
+        }
     }
     
     /**

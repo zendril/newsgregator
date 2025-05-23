@@ -13,16 +13,19 @@ repositories {
     maven { url = uri("https://maven.google.com") } // Google's Maven repository
 }
 
+
 dependencies {
     // Kotlin standard library and coroutines
     implementation("org.jetbrains.kotlin:kotlin-stdlib")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4")
 
     // HTTP client
-    implementation("io.ktor:ktor-client-core:2.2.3")
-    implementation("io.ktor:ktor-client-cio:2.2.3")
-    implementation("io.ktor:ktor-client-content-negotiation:2.2.3")
-    implementation("io.ktor:ktor-serialization-kotlinx-json:2.2.3")
+    implementation("io.ktor:ktor-client-core-jvm:3.1.3")
+    implementation("io.ktor:ktor-client-cio-jvm:3.1.3")
+    runtimeOnly("io.ktor:ktor-client-okhttp-jvm:3.1.3")
+    implementation("io.ktor:ktor-client-content-negotiation:2.3.8")
+    implementation("io.ktor:ktor-serialization-kotlinx-json:2.3.8")
+    implementation("io.ktor:ktor-client-logging:2.3.8")
 
     // HTML parsing
     implementation("org.jsoup:jsoup:1.15.3")
@@ -42,10 +45,8 @@ dependencies {
     // RSS parsing
     implementation("com.rometools:rome:1.18.0")
 
-    // Google Cloud Vertex AI for Gemini API access (JVM-compatible)
-    implementation("com.google.cloud:google-cloud-aiplatform:3.50.0")
-    implementation("com.google.cloud:google-cloud-core:2.27.0")
-    implementation("com.google.cloud:google-cloud-vertexai:0.8.0")
+    // Generative AI KMP SDK
+    implementation("dev.shreyaspatil.generativeai:generativeai-google-jvm:0.9.0-1.1.0")
 
     // Logging
     implementation("org.slf4j:slf4j-api:2.0.6")
