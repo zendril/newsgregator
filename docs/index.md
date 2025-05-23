@@ -1,26 +1,20 @@
 # News Summaries
 ---
 layout: default
-title: Newsgregator Daily Summaries
+title: Docs Directory Index
 ---
 
-# Newsgregator Daily News Summaries
+# Docs Directory Index
 
-This page contains daily summaries of news articles curated from various sources.
+All summaries generated for Newsgregator are stored in this directory.
 
 ## Recent Summaries
 
-{% for file in site.static_files %}
-  {% if file.path contains '/docs/' and file.extname == '.md' and file.name != 'index.md' %}
-    {% assign filename_parts = file.name | split: '.' %}
-    {% assign filename_no_ext = filename_parts | first %}
-    {% assign date_parts = filename_no_ext | split: '-' %}
-    {% if date_parts.size >= 3 %}
-      {% assign year = date_parts[0] %}
-      {% assign month = date_parts[1] %}
-      {% assign day = date_parts[2] %}
-      * [{{ year }}-{{ month }}-{{ day }}]({{ site.baseurl }}{{ file.path | remove: '.md' }})
-    {% endif %}
+{% assign sorted_pages = site.pages | sort: 'path' | reverse %}
+{% for page in sorted_pages %}
+  {% if page.path contains 'docs/' and page.path != 'docs/index.md' and page.name contains '.md' %}
+    {% assign filename = page.name | remove: '.md' %}
+    * [{{ filename }}]({{ site.baseurl }}{{ page.url }})
   {% endif %}
 {% endfor %}
 - [2025-05-23](./2025-05-23-summary.md)

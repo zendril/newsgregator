@@ -37,6 +37,22 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
           ./gradlew run --args="--output docs"
+          
+      - name: Add Jekyll front matter to new files
+        run: |
+          for file in docs/*.md; do
+            if [ "$file" != "docs/index.md" ] && ! grep -q "^---" "$file"; then
+              echo "Adding front matter to $file"
+              datepart=$(basename "$file" .md)
+              tmp_file=$(mktemp)
+              echo "---" > "$tmp_file"
+              echo "layout: default" >> "$tmp_file"
+              echo "title: News Summary for $datepart" >> "$tmp_file"
+              echo "---" >> "$tmp_file"
+              cat "$file" >> "$tmp_file"
+              mv "$tmp_file" "$file"
+            fi
+          done
       
       - name: Commit and push if there are changes
         run: |

@@ -23,15 +23,27 @@ exclude:
   - .gradle
   - build
   - .git
+  - src
+  - gradle
 
 # Include folders
 include:
-  - docs
+  - "docs"
+  - "docs/*.md"
+
+# Collections
+collections:
+  summaries:
+    output: true
+    permalink: /:collection/:name
 
 # Default front matter for files
 defaults:
-  -
-    scope:
-      path: "" # All files
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+  - scope:
+      path: "docs"
     values:
       layout: "default"
