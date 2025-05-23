@@ -12,14 +12,11 @@ This page contains daily summaries of news articles curated from various sources
 <ul>
 {% assign sorted_pages = site.pages | sort: 'date' | reverse %}
 {% for page in sorted_pages %}
-    {% if page.path contains '.md' and page.path != 'docs/index.md' %}
-        {% assign filename = page.path | split: '/' | last %}
-        {% assign date_parts = filename | remove: '.md' | split: '-' %}
-        {% if date_parts.size >= 3 %}
+    {% if page.path contains '.md' and page.path != 'index.md' %}
+        {% assign filename = page.path | split: '/' | last | remove: '.md' %}
         <li>
-          <a href="{{ site.baseurl }}/docs/{{ filename }}.html">{{ filename }} Summary</a>
+          <a href="{{ site.baseurl }}/{{ filename }}.html">{{ filename }}</a>
         </li>
-        {% endif %}
     {% endif %}
 {% endfor %}
 </ul>
