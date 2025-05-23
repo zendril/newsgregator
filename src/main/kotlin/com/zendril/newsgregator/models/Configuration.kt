@@ -56,6 +56,7 @@ data class SourceConfig(
     // Reddit specific properties
     val subreddit: String? = null,
     val sortBy: String? = null,
+    val useDirectApi: Boolean = false, // Use direct Reddit JSON API instead of OAuth
 
     // Common properties
     val maxResults: Int = 10,

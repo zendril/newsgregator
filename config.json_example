@@ -24,14 +24,16 @@
       "type": "reddit",
       "subreddit": "programming",
       "sortBy": "hot",
-      "maxResults": 15
+      "maxResults": 15,
+      "useDirectApi": true
     },
     {
       "name": "Kotlin Subreddit",
       "type": "reddit",
       "subreddit": "kotlin",
       "sortBy": "new",
-      "maxResults": 10
+      "maxResults": 10,
+      "useDirectApi": true
     },
     {
       "name": "AI News",

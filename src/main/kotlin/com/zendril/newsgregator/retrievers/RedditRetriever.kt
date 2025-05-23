@@ -196,53 +196,55 @@ class RedditRetriever(
             println("DEBUG: Max results: ${source.maxResults}")
         }
         
-        try {
-            // First try using JRAW
-            val paginator = redditClient.subreddit(subreddit).posts()
-                .sorting(sortBy)
-                .limit(source.maxResults)
-                .build()
-            
-            if (debug) {
-                println("DEBUG: Built paginator, retrieving posts...")
-            }
-            
-            val posts = paginator.next()
-            
-            if (debug) {
-                println("DEBUG: Retrieved ${posts.size} posts from Reddit")
-            }
-            
-            return posts.map { submission ->
-                ContentItem(
-                    id = submission.id,
-                    title = submission.title,
-                    content = submission.selfText ?: "[No content]",
-                    url = submission.url,
-                    publishDate = ZonedDateTime.ofInstant(
-                        Instant.ofEpochSecond(submission.created.time / 1000),
-                        ZoneId.systemDefault()
-                    ),
-                    author = submission.author,
-                    sourceType = SourceType.REDDIT,
-                    sourceName = source.name,
-                    metadata = mapOf(
-                        "subreddit" to subreddit,
-                        "score" to submission.score.toString(),
-                        "commentCount" to submission.commentCount.toString(),
-                        "isNsfw" to submission.isNsfw.toString()
-                    )
-                )
-            }
-        } catch (e: Exception) {
-            if (debug) {
-                println("DEBUG: JRAW retrieval failed: ${e.message}")
-                println("DEBUG: Falling back to direct JSON API access")
-            }
-            
-            // If JRAW fails, fall back to direct JSON API access
-            return retrieveContentDirectly(subreddit, sortBy.toString().lowercase())
-        }
+        return retrieveContentDirectly(subreddit, sortBy.toString().lowercase())
+
+//        try {
+//            // Try using JRAW if direct API is not specified
+//            val paginator = redditClient.subreddit(subreddit).posts()
+//                .sorting(sortBy)
+//                .limit(source.maxResults)
+//                .build()
+//
+//            if (debug) {
+//                println("DEBUG: Built paginator, retrieving posts...")
+//            }
+//
+//            val posts = paginator.next()
+//
+//            if (debug) {
+//                println("DEBUG: Retrieved ${posts.size} posts from Reddit")
+//            }
+//
+//            return posts.map { submission ->
+//                ContentItem(
+//                    id = submission.id,
+//                    title = submission.title,
+//                    content = submission.selfText ?: "[No content]",
+//                    url = submission.url,
+//                    publishDate = ZonedDateTime.ofInstant(
+//                        Instant.ofEpochSecond(submission.created.time / 1000),
+//                        ZoneId.systemDefault()
+//                    ),
+//                    author = submission.author,
+//                    sourceType = SourceType.REDDIT,
+//                    sourceName = source.name,
+//                    metadata = mapOf(
+//                        "subreddit" to subreddit,
+//                        "score" to submission.score.toString(),
+//                        "commentCount" to submission.commentCount.toString(),
+//                        "isNsfw" to submission.isNsfw.toString()
+//                    )
+//                )
+//            }
+//        } catch (e: Exception) {
+//            if (debug) {
+//                println("DEBUG: JRAW retrieval failed: ${e.message}")
+//                println("DEBUG: Falling back to direct JSON API access")
+//            }
+//
+//            // If JRAW fails, fall back to direct JSON API access
+//            return retrieveContentDirectly(subreddit, sortBy.toString().lowercase())
+//        }
     }
     
     /**
@@ -254,7 +256,9 @@ class RedditRetriever(
             println("DEBUG: Using direct JSON API for r/$subreddit/$sort.json")
         }
         
-        val url = "https://www.reddit.com/r/$subreddit/$sort.json"
+        // Add query parameters to filter for posts from the last day (86400 seconds = 1 day)
+        val oneDayAgo = (System.currentTimeMillis() / 1000) - 86400
+        val url = "https://www.reddit.com/r/$subreddit/$sort.json?t=day&after=t3_${oneDayAgo}"
         
         if (debug) {
             println("DEBUG: Requesting $url")
@@ -334,7 +338,7 @@ class RedditRetriever(
             "top" -> SubredditSort.TOP
             "rising" -> SubredditSort.RISING
             "controversial" -> SubredditSort.CONTROVERSIAL
-            else -> SubredditSort.HOT // Default
+            else -> SubredditSort.NEW // Changed default from HOT to NEW
         }
     }
 }

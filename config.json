@@ -4,8 +4,9 @@
       "name": "ChatGPTCoding",
       "type": "reddit",
       "subreddit": "ChatGPTCoding",
-      "sortBy": "hot",
-      "maxResults": 15
+      "sortBy": "new",
+      "maxResults": 100,
+      "useDirectApi": true
     }
   ],
   "global": {

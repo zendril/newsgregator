@@ -62,8 +62,6 @@ fun main(args: Array<String>) = runBlocking {
 
     println("Retrieved ${allContent.size} content items")
 
-    // Initialize LLM service based on configuration
-    val llmService = initializeLlmService(config)
 
     // Display content if in dry run mode
     if (config.llm.dryRun && allContent.isNotEmpty()) {
@@ -74,6 +72,7 @@ fun main(args: Array<String>) = runBlocking {
             println("Title: ${item.title}")
             println("Source: ${item.sourceName}")
             println("URL: ${item.url}")
+            println("Score: ${item.metadata["score"]}")
             println("Content: ${item.content.take(200)}${if (item.content.length > 200) "..." else ""}")
             println("--------")
         }
@@ -83,6 +82,9 @@ fun main(args: Array<String>) = runBlocking {
 
     // Process and summarize content with LLM if not in dry run mode
     else if (config.llm.summarizeContent && allContent.isNotEmpty()) {
+        // Initialize LLM service based on configuration
+        val llmService = initializeLlmService(config)
+
         println("Summarizing content with ${config.llm.provider} (${config.llm.model})...")
         val summary = llmService.summarizeContent(allContent)
         println("\nSummary:")
