@@ -20,6 +20,9 @@ relative_links:
 #include:
 #  - "docs"
 #  - "docs/*.md"
+# Process Markdown files in docs folder
+#keep_files:
+#  - docs
 
 # Collections
 collections:
@@ -37,3 +40,4 @@ defaults:
       path: "docs"
     values:
       layout: "default"
+
