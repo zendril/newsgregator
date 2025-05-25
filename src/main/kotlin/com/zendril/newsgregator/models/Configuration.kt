@@ -51,7 +51,7 @@ data class SourceConfig(
 
     // YouTube specific properties
     val channelId: String? = null,
-    val playlistId: String? = null,
+    val channelHandle: String? = null, // Channel handle (e.g., "@AICodeKing")
 
     // Reddit specific properties
     val subreddit: String? = null,
@@ -84,8 +84,7 @@ data class LlmConfig(
     val provider: String = "gemini",
     var apiKey: String = "", // Making apiKey mutable so we can update it at runtime
     val model: String = "gemini-2.5-flash-preview-05-20",
-    val maxTokens: Int = 500,
-    val temperature: Double = 0.7,
-    var dryRun: Boolean = false,
+//    val maxTokens: Int = 500,
+//    val temperature: Double = 0.7,
     val summaryPrompt: String = "Summarize the following news content in a concise way:"
 )

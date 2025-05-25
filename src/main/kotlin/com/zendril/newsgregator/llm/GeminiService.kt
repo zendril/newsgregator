@@ -12,11 +12,15 @@ import kotlinx.coroutines.withContext
  * Implementation of LLM service using Google's Gemini model with generative-ai-kmp
  */
 class GeminiService(private val config: LlmConfig) : LlmService {
-    // Initialize the Generative AI model
-    private val generativeModel by lazy {
-        GenerativeModel(
+
+    // Create a new instance of GenerativeModel
+    private fun createFreshModel(): GenerativeModel {
+        return GenerativeModel(
             modelName = config.model,
             apiKey = config.apiKey,
+            generationConfig = generationConfig {
+                responseMimeType = "text/plain"
+            }
 //            generationConfig = generationConfig {
 //                temperature = config.temperature.toFloat()
 //                topK = 40
@@ -26,30 +30,60 @@ class GeminiService(private val config: LlmConfig) : LlmService {
         )
     }
 
-    override suspend fun summarizeContent(contentItems: List<ContentItem>): String {
+    override suspend fun summarizeContent(contentItems: List<ContentItem>, prompt: String?): String {
         if (contentItems.isEmpty()) {
             return "No content to summarize."
         }
-
+    
         // For multiple items, create a combined prompt with all content
         val combinedContent = contentItems.joinToString("\n\n") { 
-            "Title: ${it.title}\nSource: ${it.sourceName}\nSource Url: ${it.url}\nContent: ${it.content}"
+            "Title: ${it.title}\nSource: ${it.sourceName}\nSource Url: ${it.url}\nContent: ${it.content}\nMetadata: ${it.metadata}"
         }
-
-//        val prompt = "${config.summaryPrompt}\n\n$combinedContent\n\nPlease provide a concise summary of these articles, highlighting the key points and any common themes."
-        val prompt = "${config.summaryPrompt}\n\n$combinedContent\n\nPlease provide a briefing showing each article concisely, highlighting the key points and including a link to the article, post or video. At the beginning, provide an overview summary for all articles highlighting key themes. Following that please provide a list of anything that appears to be a product announcement or release. Provide in Github markdown format."
-        return generateSummary(prompt)
+    
+        val effectivePrompt = "${prompt ?: config.summaryPrompt}\n\n$combinedContent"
+        return generateSummary(effectivePrompt)
     }
 
-    override suspend fun summarizeContentItem(contentItem: ContentItem): String {
-        val prompt = "${config.summaryPrompt}\n\nTitle: ${contentItem.title}\nSource: ${contentItem.sourceName}\nContent: ${contentItem.content}"
-        return generateSummary(prompt)
+    override suspend fun summarizeContentItem(contentItem: ContentItem, prompt: String?): String {
+        val effectivePrompt = "${prompt ?: config.summaryPrompt}\n\nTitle: ${contentItem.title}\nSource: ${contentItem.sourceName}\nContent: ${contentItem.content}\nMetadata: ${contentItem.metadata}"
+        return generateSummary(effectivePrompt)
+    }
+    
+    override suspend fun transcribeVideo(url: String, customPrompt: String?): String {
+        val defaultPrompt = "Provide a full transcript for this video: $url"
+        val prompt = customPrompt ?: defaultPrompt
+        println("DEBUG: Sending prompt to llm: $prompt")
+
+        val message = content("user") {
+            fileData(
+                uri = "$url",
+                mimeType = "video/*"
+            )
+            text("Provide a full transcript for this video: ")
+        }
+
+        return try {
+            withContext(Dispatchers.IO) {
+                // Use a fresh model instance for each transcription request
+                val freshModel = createFreshModel()
+                val response = freshModel.generateContent(message)
+                val llmResponse = response.text ?: "Failed to generate summary."
+                println("DEBUG: llmResponse: $llmResponse")
+                llmResponse
+            }
+        } catch (e: Exception) {
+            "Error generating summary: ${e.message}"
+            "Error generating summary: ${e.message}\n${e.stackTraceToString().lines().take(5).joinToString("\n")}"
+        }
+
     }
 
     private suspend fun generateSummary(prompt: String): String {
         return try {
             withContext(Dispatchers.IO) {
-                val response = generativeModel.generateContent(content {
+                // Use a fresh model instance for each summary request
+                val freshModel = createFreshModel()
+                val response = freshModel.generateContent(content {
                     text(prompt)
                 })
                 response.text ?: "Failed to generate summary."

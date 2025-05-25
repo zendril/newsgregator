@@ -26,6 +26,13 @@
       "timeRangeDays": 2
     },
     {
+            "name": "AI Code King YouTube Channel",
+            "type": "youtube",
+            "channelHandle": "@AICodeKing",
+            "maxResults": 10,
+            "timeRangeDays": 2
+          },
+          {
       "name": "Kotlin Playlist",
       "type": "youtube",
       "playlistId": "PLlFc5cFwUnmy_oVc9YQzjasSNoAk4hk_C",
@@ -94,5 +101,12 @@
   "global": {
     "cacheTimeMinutes": 60,
     "userAgent": "Newsgregator/1.0"
+  },
+  "llm": {
+    "provider": "gemini",
+    "model": "gemini-2.5-flash-preview-05-20",
+    "maxTokens": 500,
+    "temperature": 0.7,
+    "summaryPrompt": "Create a detailed summary of the following news content, highlighting the key developments and insights. Include specific details where possible and organize the information by topic:"
   }
 }

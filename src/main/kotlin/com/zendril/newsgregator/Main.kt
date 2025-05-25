@@ -22,13 +22,13 @@ fun main(args: Array<String>) = runBlocking {
 
     // Parse command line arguments
     var configFile = "config.json"
-    var dryRun = false
+    var skipLlmSummary = false
     var debug = false
     var outputDir = "output"
 
     args.forEachIndexed { index, arg ->
         when {
-            arg == "--dry-run" || arg == "-d" -> dryRun = true
+            arg == "--skip-llm-summary" -> skipLlmSummary = true
             arg == "--debug" -> debug = true
             arg == "--config" || arg == "-c" -> {
                 if (index + 1 < args.size) {
@@ -54,13 +54,6 @@ fun main(args: Array<String>) = runBlocking {
         exitProcess(1)
     }
 
-    // Override configuration with command line arguments
-    if (dryRun) {
-        println("Dry run mode enabled via command line")
-        config.llm.dryRun = true
-        // When dry run is enabled, we'll still process content but not summarize it with LLM
-    }
-
     println("Loaded ${config.sources.size} sources from configuration")
 
     // Initialize source retrievers based on configuration
@@ -83,7 +76,7 @@ fun main(args: Array<String>) = runBlocking {
 
 
     // Display content if in dry run mode
-    if (config.llm.dryRun && allContent.isNotEmpty()) {
+    if (skipLlmSummary && allContent.isNotEmpty()) {
         if (debug) {
             println("DRY RUN MODE: Content that would be sent to the LLM:")
             println("========")
@@ -94,6 +87,9 @@ fun main(args: Array<String>) = runBlocking {
                 println("URL: ${item.url}")
                 println("Score: ${item.metadata["score"]}")
                 println("Content: ${item.content.take(200)}${if (item.content.length > 200) "..." else ""}")
+                // print metadata
+                println("Metadata:")
+                item.metadata.forEach { (key, value) -> println("$key: $value") }
                 println("--------")
             }
             println("========")
@@ -139,9 +135,16 @@ private fun loadConfiguration(configFile: String): Configuration {
 private suspend fun initializeRetrievers(config: Configuration, debug: Boolean = false): List<ContentRetriever> {
     val retrievers = mutableListOf<ContentRetriever>()
 
+    // Initialize LLM service first if needed
+    val llmService = if (config.llm.provider.isNotBlank()) {
+        initializeLlmService(config)
+    } else {
+        null
+    }
+
     for (source in config.sources) {
         val retriever = when (source.type) {
-            SourceType.YOUTUBE -> YoutubeRetriever(source)
+            SourceType.YOUTUBE -> YoutubeRetriever(source, debug, llmService)
             SourceType.REDDIT -> RedditRetriever(source, debug)
             SourceType.RSS -> RssRetriever(source)
             SourceType.SCRAPE -> WebScraperRetriever(source)
