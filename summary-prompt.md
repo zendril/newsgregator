@@ -40,3 +40,26 @@ For the entire batch of content items provided from all sources:
     *   The entire output must be in Github markdown format.
 
 **Example Structure (Illustrative - for multiple source types):**
+
+```markdown
+## Unified Content Digest
+
+**Global Overview:**
+[Brief overview synthesizing discussions, trends, and sentiments across all provided content items. e.g., "This period's content highlights significant advancements in AI model efficiency, with several new open-source tools announced. Discussions indicate a growing interest in practical applications of large language models across various industries, alongside some concerns about ethical implications."]
+
+**Key Information:**
+
+### Product Announcements & Releases
+*   **[Product/Feature Name] Version X.Y Released:** [Brief summary. e.g., "The new version includes enhanced data processing capabilities and a redesigned user interface."] - (Source: Article - [Link to Article])
+*   **New AI Assistant for [Platform]:** [Summary. e.g., "A YouTube video showcased a new AI assistant integrated into their platform, promising streamlined workflows."] - (Source: YouTube Video - [Link to Video])
+*   **Open Beta for [Tool Name]:** [Summary. e.g., "A Reddit post announced the open beta for a new developer tool focused on code generation."] - (Source: Reddit Post - [Link to Reddit Post])
+
+
+### Research Breakthroughs & Significant Findings
+*   **Novel Approach to [Specific Problem]:** [Summary. e.g., "An academic paper detailed a new algorithm reducing computational costs for training by 30%."] - (Source: Article - [Link to Paper])
+*   **Study on LLM Interpretability:** [Summary. e.g., "Key findings from a recent study on how to better understand LLM decision-making were discussed in a popular tech blog."] - (Source: Blog Post - [Link to Blog Post])
+
+**Promotional Offers:**
+*   **[Offer Description]:** [Details of the offer. e.g., "Early bird discount for the upcoming [Conference Name]."] - (Source: Article - [Link to Article])
+*   **[Offer Description]:** [Details of the offer. e.g., "Limited-time 20% off all courses on [Platform Name]."] - (Source: YouTube Video - [Link to Video Description/Channel])
+```

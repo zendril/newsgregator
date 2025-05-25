@@ -1,42 +1,6 @@
 {
   "sources": [
     {
-      "name": "AI News RSS",
-      "type": "rss",
-      "url": "https://news.smol.ai/rss.xml",
-      "maxResults": 20,
-      "timeRangeDays": 1
-    },
-    {
-      "name": "AI Techpark RSS",
-      "type": "rss",
-      "url": "https://ai-techpark.com/category/ai/feed/",
-      "maxResults": 20,
-      "timeRangeDays": 1
-    },
-    {
-      "name": "ArtificialIntelligence-news RSS",
-      "type": "rss",
-      "url": "https://www.artificialintelligence-news.com/feed/",
-      "maxResults": 20,
-      "timeRangeDays": 1
-    },
-    {
-      "name": "ChatGPTCoding",
-      "type": "reddit",
-      "subreddit": "ChatGPTCoding",
-      "sortBy": "new",
-      "maxResults": 100,
-      "timeRangeDays": 1
-    },
-    {
-      "name": "AI Code King YouTube Channel",
-      "type": "youtube",
-      "channelHandle": "@AICodeKing",
-      "maxResults": 10,
-      "timeRangeDays": 1
-    },
-    {
       "name": "AI Explained YouTube Channel",
       "type": "youtube",
       "channelHandle": "@aiexplained-official",
@@ -58,12 +22,14 @@
       "timeRangeDays": 1
     },
     {
-      "name": "This day in AI YouTube Channel",
-      "type": "youtube",
-      "channelHandle": "@thisdayinai",
-      "maxResults": 10,
+      "name": "ArtificialInteligence",
+      "type": "reddit",
+      "subreddit": "ArtificialInteligence",
+      "sortBy": "new",
+      "maxResults": 50,
       "timeRangeDays": 1
-    }
+    },
+
   ],
   "global": {
     "cacheTimeMinutes": 60,
