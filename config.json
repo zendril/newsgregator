@@ -1,18 +1,11 @@
 {
   "sources": [
     {
-      "name": "AI News",
-      "type": "rss",
-      "url": "https://news.smol.ai/rss.xml",
-      "maxResults": 20
-    },
-    {
-      "name": "ChatGPTCoding",
-      "type": "reddit",
-      "subreddit": "ChatGPTCoding",
-      "sortBy": "new",
-      "maxResults": 100,
-      "useDirectApi": true
+      "name": "Google Developers YouTube Channel",
+      "type": "youtube",
+      "channelId": "UC_x5XG1OV2P6uZZ5FSM9Ttw",
+      "maxResults": 10,
+      "timeRangeDays": 2
     }
   ],
   "global": {

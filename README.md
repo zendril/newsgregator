@@ -114,7 +114,6 @@ A flexible configuration system will be implemented to support different retriev
       "subreddit": "programming",
       "sortBy": "hot",
       "maxResults": 25,
-      "useDirectApi": true
     },
     {
       "name": "Example News Site",

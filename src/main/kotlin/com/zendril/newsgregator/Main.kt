@@ -71,26 +71,38 @@ fun main(args: Array<String>) = runBlocking {
 
     println("Retrieved ${allContent.size} content items")
 
+    // print the number of items retrieved from each content type
+    allContent.groupBy { it.sourceType }.forEach { (type, items) ->
+        println("Retrieved ${items.size} $type items")
+        // and further break it down by each name withing each type
+        items.groupBy { it.sourceName }.forEach { (name, items) ->
+            println("-----> ${items.size} $type/$name items")
+        }
+        println("=======================")
+    }
+
 
     // Display content if in dry run mode
     if (config.llm.dryRun && allContent.isNotEmpty()) {
-        println("DRY RUN MODE: Content that would be sent to the LLM:")
-        println("========")
-        allContent.forEachIndexed { index, item ->
-            println("ITEM ${index + 1}:")
-            println("Title: ${item.title}")
-            println("Source: ${item.sourceName}")
-            println("URL: ${item.url}")
-            println("Score: ${item.metadata["score"]}")
-            println("Content: ${item.content.take(200)}${if (item.content.length > 200) "..." else ""}")
-            println("--------")
+        if (debug) {
+            println("DRY RUN MODE: Content that would be sent to the LLM:")
+            println("========")
+            allContent.forEachIndexed { index, item ->
+                println("ITEM ${index + 1}:")
+                println("Title: ${item.title}")
+                println("Source: ${item.sourceName}")
+                println("URL: ${item.url}")
+                println("Score: ${item.metadata["score"]}")
+                println("Content: ${item.content.take(200)}${if (item.content.length > 200) "..." else ""}")
+                println("--------")
+            }
+            println("========")
         }
-        println("========")
         println("DRY RUN MODE: LLM call skipped")
     }
 
     // Process and summarize content with LLM if not in dry run mode
-    else if (config.llm.summarizeContent && allContent.isNotEmpty()) {
+    else if (allContent.isNotEmpty()) {
         // Initialize LLM service based on configuration
         val llmService = initializeLlmService(config)
 

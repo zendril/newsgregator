@@ -3,10 +3,6 @@ layout: default
 title: Newsgregator Daily Summaries
 ---
 
-# Newsgregator Daily News Summaries
-
-This page contains daily summaries of news articles curated from various sources.
-
 ## Recent Summaries
 
 <ul>

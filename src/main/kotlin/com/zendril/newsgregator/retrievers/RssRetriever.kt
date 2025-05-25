@@ -35,20 +35,32 @@ class RssRetriever(override val source: SourceConfig) : ContentRetriever {
         
         return processFeed(feed)
     }
-    
+
     private fun processFeed(feed: SyndFeed): List<ContentItem> {
-        val entries = feed.entries.take(source.maxResults)
-        
+        // print the total number of entries
+        println("Total number of entries: ${feed.entries.size}")
+        val entries = feed.entries
+            .filter { entry ->
+                entry.publishedDate?.toInstant()?.let { pubDate ->
+                    val daysAgo = ZonedDateTime.now().minusDays(source.timeRangeDays.toLong()).toInstant()
+                    pubDate.isAfter(daysAgo)
+                } ?: false
+            }
+            .take(source.maxResults)
+
+        // print the number of entries (that were filtered)
+        println("Number of entries after filtering: ${entries.size}")
+
         return entries.map { entry ->
             val content = entry.description?.value ?: entry.contents.firstOrNull()?.value ?: ""
-            
+
             ContentItem(
                 id = entry.uri ?: entry.link,
                 title = entry.title,
                 content = content,
                 url = entry.link,
-                publishDate = entry.publishedDate?.toInstant()?.let { 
-                    ZonedDateTime.ofInstant(it, ZoneId.systemDefault()) 
+                publishDate = entry.publishedDate?.toInstant()?.let {
+                    ZonedDateTime.ofInstant(it, ZoneId.systemDefault())
                 },
                 author = entry.author,
                 sourceType = SourceType.RSS,

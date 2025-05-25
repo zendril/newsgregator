@@ -1,23 +1,36 @@
 {
   "sources": [
-      {
-        "name": "AI News",
-        "type": "rss",
-        "url": "https://news.smol.ai/rss.xml",
-        "maxResults": 10
-      },
+    {
+      "name": "AI News",
+      "type": "rss",
+      "url": "https://news.smol.ai/rss.xml",
+      "maxResults": 20,
+      "timeRangeDays": 2
+    }
+  ,
+    {
+      "name": "ChatGPTCoding",
+      "type": "reddit",
+      "subreddit": "ChatGPTCoding",
+      "sortBy": "new",
+      "maxResults": 100,
+      "timeRangeDays": 2
+    }
+
 
     {
       "name": "Google Developers YouTube Channel",
       "type": "youtube",
       "channelId": "UC_x5XG1OV2P6uZZ5FSM9Ttw",
-      "maxResults": 10
+      "maxResults": 10,
+      "timeRangeDays": 2
     },
     {
       "name": "Kotlin Playlist",
       "type": "youtube",
       "playlistId": "PLlFc5cFwUnmy_oVc9YQzjasSNoAk4hk_C",
-      "maxResults": 5
+      "maxResults": 5,
+      "timeRangeDays": 2
     },
     {
       "name": "Programming Subreddit",
@@ -25,7 +38,8 @@
       "subreddit": "programming",
       "sortBy": "hot",
       "maxResults": 15,
-      "useDirectApi": true
+      "useDirectApi": true,
+      "timeRangeDays": 2
     },
     {
       "name": "Kotlin Subreddit",
@@ -33,25 +47,29 @@
       "subreddit": "kotlin",
       "sortBy": "new",
       "maxResults": 10,
-      "useDirectApi": true
+      "useDirectApi": true,
+      "timeRangeDays": 2
     },
     {
       "name": "AI News",
       "type": "rss",
       "url": "https://news.smol.ai/rss.xml",
-      "maxResults": 10
+      "maxResults": 10,
+      "timeRangeDays": 2
     },
     {
       "name": "BBC News Technology",
       "type": "rss",
       "url": "http://feeds.bbci.co.uk/news/technology/rss.xml",
-      "maxResults": 10
+      "maxResults": 10,
+      "timeRangeDays": 2
     },
     {
       "name": "Hacker News",
       "type": "scrape",
       "url": "https://news.ycombinator.com/",
       "maxResults": 20,
+      "timeRangeDays": 2,
       "selectors": {
         "articles": ".athing",
         "title": ".titleline > a",
@@ -64,6 +82,7 @@
       "type": "scrape",
       "url": "https://dev.to/t/kotlin",
       "maxResults": 10,
+      "timeRangeDays": 2,
       "selectors": {
         "articles": "article.crayons-story",
         "title": "h3.crayons-story__title a",

@@ -13,6 +13,7 @@ import kotlinx.serialization.json.Json
 import net.dean.jraw.RedditClient
 import net.dean.jraw.http.OkHttpNetworkAdapter
 import net.dean.jraw.http.UserAgent
+import net.dean.jraw.models.Submission
 import net.dean.jraw.models.SubredditSort
 import net.dean.jraw.oauth.Credentials
 import net.dean.jraw.oauth.OAuthHelper
@@ -196,61 +197,7 @@ class RedditRetriever(
             println("DEBUG: Max results: ${source.maxResults}")
         }
         
-        // Check if we should use direct API access (for public subreddits)
-        if (source.useDirectApi) {
-            if (debug) {
-                println("DEBUG: Using direct JSON API access as configured")
-            }
-            return retrieveContentDirectly(subreddit, sortBy.toString().lowercase())
-        }
-        
-        try {
-            // Try using JRAW if direct API is not specified
-            val paginator = redditClient.subreddit(subreddit).posts()
-                .sorting(sortBy)
-                .limit(source.maxResults)
-                .build()
-            
-            if (debug) {
-                println("DEBUG: Built paginator, retrieving posts...")
-            }
-            
-            val posts = paginator.next()
-            
-            if (debug) {
-                println("DEBUG: Retrieved ${posts.size} posts from Reddit")
-            }
-            
-            return posts.map { submission ->
-                ContentItem(
-                    id = submission.id,
-                    title = submission.title,
-                    content = submission.selfText ?: "[No content]",
-                    url = submission.url,
-                    publishDate = ZonedDateTime.ofInstant(
-                        Instant.ofEpochSecond(submission.created.time / 1000),
-                        ZoneId.systemDefault()
-                    ),
-                    author = submission.author,
-                    sourceType = SourceType.REDDIT,
-                    sourceName = source.name,
-                    metadata = mapOf(
-                        "subreddit" to subreddit,
-                        "score" to submission.score.toString(),
-                        "commentCount" to submission.commentCount.toString(),
-                        "isNsfw" to submission.isNsfw.toString()
-                    )
-                )
-            }
-        } catch (e: Exception) {
-            if (debug) {
-                println("DEBUG: JRAW retrieval failed: ${e.message}")
-                println("DEBUG: Falling back to direct JSON API access")
-            }
-            
-            // If JRAW fails, fall back to direct JSON API access
-            return retrieveContentDirectly(subreddit, sortBy.toString().lowercase())
-        }
+        return retrieveContentDirectly(subreddit, sortBy.toString().lowercase())
     }
     
     /**
@@ -262,54 +209,94 @@ class RedditRetriever(
             println("DEBUG: Using direct JSON API for r/$subreddit/$sort.json")
         }
         
-        // Add query parameters to filter for posts from the last day (86400 seconds = 1 day)
-        val oneDayAgo = (System.currentTimeMillis() / 1000) - 86400
-        val url = "https://www.reddit.com/r/$subreddit/$sort.json?t=day&after=t3_${oneDayAgo}"
-        
-        if (debug) {
-            println("DEBUG: Requesting $url")
-        }
+        // Calculate time range based on configuration
+        val secondsPerDay = 86400
+        val timeRangeSeconds = source.timeRangeDays * secondsPerDay
+        val cutoffTimeSeconds = (System.currentTimeMillis() / 1000) - timeRangeSeconds
         
         try {
-            val response = httpClient.get(url) {
-                headers {
-                    append("User-Agent", "com.zendril.newsgregator:1.0.0 (by /u/zendril)")
+            val allResults = mutableListOf<RedditChild>()
+            var after: String? = null
+            
+            // Keep fetching pages until we have enough results or no more pages
+            while (allResults.size < source.maxResults) {
+                if (debug) {
+                    println("DEBUG: Fetching page with after=$after, current results: ${allResults.size}")
+                }
+                
+                // Fetch a page of results
+                val pageResult = fetchRedditPage(subreddit, sort, after, cutoffTimeSeconds)
+                
+                // No more results available
+                if (pageResult.children.isEmpty() || pageResult.after == null) {
+                    if (debug) {
+                        println("DEBUG: No more results available, ending pagination")
+                    }
+                    break
+                }
+                
+                // Add the new results to our collection
+                allResults.addAll(pageResult.children)
+                
+                // Update the "after" token for the next page
+                after = pageResult.after
+                
+                // If we've reached or exceeded the desired number of results, stop fetching
+                if (allResults.size >= source.maxResults) {
+                    if (debug) {
+                        println("DEBUG: Reached desired number of results, ending pagination")
+                    }
+                    break
                 }
             }
             
-            val responseText = response.bodyAsText()
-            
             if (debug) {
-                println("DEBUG: Received response with status: ${response.status}")
-                println("DEBUG: Response length: ${responseText.length} characters")
+                println("DEBUG: Retrieved ${allResults.size} total results after pagination")
             }
             
-            // Parse the JSON response using kotlinx.serialization
-            val json = Json { ignoreUnknownKeys = true }
-            val listing = json.decodeFromString(RedditListing.serializer(), responseText)
-            
-            return listing.data.children.take(source.maxResults).map { child ->
-                val post = child.data
-                ContentItem(
-                    id = post.id,
-                    title = post.title,
-                    content = post.selftext ?: "[No content]",
-                    url = post.url,
-                    publishDate = ZonedDateTime.ofInstant(
-                        Instant.ofEpochSecond(post.created.toLong()),
-                        ZoneId.systemDefault()
-                    ),
-                    author = post.author,
-                    sourceType = SourceType.REDDIT,
-                    sourceName = source.name,
-                    metadata = mapOf(
-                        "subreddit" to subreddit,
-                        "score" to post.score.toString(),
-                        "commentCount" to post.num_comments.toString(),
-                        "isNsfw" to post.over_18.toString()
+            // Process and return the results
+            return allResults
+                .filter { child ->
+                    // Filter posts based on creation time and timeRangeDays
+                    try {
+                        val postTime = when (val created = child.data.created) {
+                            is Double -> created.toLong()
+                            is Long -> created
+                            is String -> created.toDoubleOrNull()?.toLong() ?: 0L
+                            else -> 0L
+                        }
+                        postTime >= cutoffTimeSeconds
+                    } catch (e: Exception) {
+                        if (debug) {
+                            println("DEBUG: Error parsing created time: ${e.message}")
+                        }
+                        // Include posts with unparseable dates by default
+                        true
+                    }
+                }
+                .take(source.maxResults)
+                .map { child ->
+                    val post = child.data
+                    ContentItem(
+                        id = post.id,
+                        title = post.title,
+                        content = post.selftext ?: "[No content]",
+                        url = post.url,
+                        publishDate = ZonedDateTime.ofInstant(
+                            Instant.ofEpochSecond(post.created.toLong()),
+                            ZoneId.systemDefault()
+                        ),
+                        author = post.author,
+                        sourceType = SourceType.REDDIT,
+                        sourceName = source.name,
+                        metadata = mapOf(
+                            "subreddit" to subreddit,
+                            "score" to post.score.toString(),
+                            "commentCount" to post.num_comments.toString(),
+                            "isNsfw" to post.over_18.toString()
+                        )
                     )
-                )
-            }
+                }
         } catch (e: Exception) {
             // Absolute last resort - return a minimal list with just the subreddit info
             if (debug) {
@@ -335,6 +322,48 @@ class RedditRetriever(
                 )
             )
         }
+    }
+    
+    /**
+     * Fetches a single page of Reddit posts
+     * 
+     * @param subreddit The subreddit to fetch from
+     * @param sort The sort method to use
+     * @param after The "after" token from the previous page (null for first page)
+     * @param cutoffTimeSeconds The cutoff time for filtering posts
+     * @return The listing data containing posts and pagination information
+     */
+    private suspend fun fetchRedditPage(subreddit: String, sort: String, after: String?, cutoffTimeSeconds: Long): RedditListingData {
+        // Construct URL with proper pagination parameters
+        val baseUrl = "https://www.reddit.com/r/$subreddit/$sort.json?t=day"
+        val url = if (after != null) {
+            "$baseUrl&after=$after"
+        } else {
+            baseUrl
+        }
+        
+        if (debug) {
+            println("DEBUG: Requesting $url with time range of ${source.timeRangeDays} days")
+        }
+        
+        val response = httpClient.get(url) {
+            headers {
+                append("User-Agent", "com.zendril.newsgregator:1.0.0 (by /u/zendril)")
+            }
+        }
+        
+        val responseText = response.bodyAsText()
+        
+        if (debug) {
+            println("DEBUG: Received response with status: ${response.status}")
+            println("DEBUG: Response length: ${responseText.length} characters")
+        }
+        
+        // Parse the JSON response using kotlinx.serialization
+        val json = Json { ignoreUnknownKeys = true }
+        val listing = json.decodeFromString(RedditListing.serializer(), responseText)
+        
+        return listing.data
     }
     
     private fun parseSortBy(sortBy: String?): SubredditSort {

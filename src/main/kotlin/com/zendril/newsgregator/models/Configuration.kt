@@ -56,10 +56,10 @@ data class SourceConfig(
     // Reddit specific properties
     val subreddit: String? = null,
     val sortBy: String? = null,
-    val useDirectApi: Boolean = false, // Use direct Reddit JSON API instead of OAuth
 
     // Common properties
     val maxResults: Int = 10,
+    val timeRangeDays: Int = 2, // Number of days to retrieve content for
 
     // Web scraping specific properties
     val selectors: ScrapingSelectors? = null
@@ -86,7 +86,6 @@ data class LlmConfig(
     val model: String = "gemini-2.5-flash-preview-05-20",
     val maxTokens: Int = 500,
     val temperature: Double = 0.7,
-    var summarizeContent: Boolean = true,
     var dryRun: Boolean = false,
     val summaryPrompt: String = "Summarize the following news content in a concise way:"
 )
