@@ -1,0 +1,104 @@
+{
+  "sources": [
+    {
+      "name": "AI News RSS",
+      "type": "rss",
+      "url": "https://news.smol.ai/rss.xml",
+      "maxResults": 20,
+      "timeRangeDays": 1
+    },
+    {
+      "name": "AI Techpark RSS",
+      "type": "rss",
+      "url": "https://ai-techpark.com/category/ai/feed/",
+      "maxResults": 20,
+      "timeRangeDays": 1
+    },
+    {
+      "name": "ArtificialIntelligence-news RSS",
+      "type": "rss",
+      "url": "https://www.artificialintelligence-news.com/feed/",
+      "maxResults": 20,
+      "timeRangeDays": 1
+    },
+    {
+      "name": "ChatGPTCoding",
+      "type": "reddit",
+      "subreddit": "ChatGPTCoding",
+      "sortBy": "new",
+      "maxResults": 100,
+      "timeRangeDays": 1
+    },
+    {
+      "name": "AI Code King YouTube Channel",
+      "type": "youtube",
+      "channelHandle": "@AICodeKing",
+      "maxResults": 10,
+      "timeRangeDays": 1
+    },
+    {
+      "name": "AI Explained YouTube Channel",
+      "type": "youtube",
+      "channelHandle": "@aiexplained-official",
+      "maxResults": 10,
+      "timeRangeDays": 1
+    },
+    {
+      "name": "Dwarkesh Patel YouTube Channel",
+      "type": "youtube",
+      "channelHandle": "@DwarkeshPatel",
+      "maxResults": 10,
+      "timeRangeDays": 1
+    },
+    {
+      "name": "bycloud YouTube Channel",
+      "type": "youtube",
+      "channelHandle": "@bycloudAI",
+      "maxResults": 10,
+      "timeRangeDays": 1
+    },
+    {
+      "name": "This day in AI YouTube Channel",
+      "type": "youtube",
+      "channelHandle": "@thisdayinai",
+      "maxResults": 10,
+      "timeRangeDays": 1
+    }
+  ],
+  "global": {
+    "cacheTimeMinutes": 60,
+    "userAgent": "Newsgregator/1.0"
+  },
+  "llm": {
+    "provider": "gemini",
+    "model": "gemini-2.5-flash-preview-05-20",
+    "summaryPrompt": "Please provide a briefing showing each article concisely, highlighting the key points and including a link to the article, post or video. For each item that is a youtube video, get the transcription from the video to use before summarizing. At the beginning, provide an overview summary for all articles highlighting key themes. Following that please provide a list of anything that appears to be a product announcement or releases, do not include any promotional offers. Instead, put promotional offers in their own section after the product announcement section. Provide in Github markdown format: "
+  }
+}
+
+    {
+      "name": "Hacker News",
+      "type": "scrape",
+      "url": "https://news.ycombinator.com/",
+      "maxResults": 20,
+      "timeRangeDays": 2,
+      "selectors": {
+        "articles": ".athing",
+        "title": ".titleline > a",
+        "content": ".titleline > a",
+        "date": null
+      }
+    },
+    {
+      "name": "Dev.to Kotlin Articles",
+      "type": "scrape",
+      "url": "https://dev.to/t/kotlin",
+      "maxResults": 10,
+      "timeRangeDays": 2,
+      "selectors": {
+        "articles": "article.crayons-story",
+        "title": "h3.crayons-story__title a",
+        "content": "div.crayons-story__snippet",
+        "date": "time"
+      }
+    }
