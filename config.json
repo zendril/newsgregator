@@ -1,9 +1,23 @@
 {
   "sources": [
     {
-      "name": "AI News",
+      "name": "AI News RSS",
       "type": "rss",
       "url": "https://news.smol.ai/rss.xml",
+      "maxResults": 20,
+      "timeRangeDays": 1
+    },
+    {
+      "name": "AI Techpark RSS",
+      "type": "rss",
+      "url": "https://ai-techpark.com/category/ai/feed/",
+      "maxResults": 20,
+      "timeRangeDays": 1
+    },
+    {
+      "name": "ArtificialIntelligence-news RSS",
+      "type": "rss",
+      "url": "https://www.artificialintelligence-news.com/feed/",
       "maxResults": 20,
       "timeRangeDays": 1
     },
@@ -19,6 +33,34 @@
       "name": "AI Code King YouTube Channel",
       "type": "youtube",
       "channelHandle": "@AICodeKing",
+      "maxResults": 10,
+      "timeRangeDays": 1
+    },
+    {
+      "name": "AI Explained YouTube Channel",
+      "type": "youtube",
+      "channelHandle": "@aiexplained-official",
+      "maxResults": 10,
+      "timeRangeDays": 1
+    },
+    {
+      "name": "Dwarkesh Patel YouTube Channel",
+      "type": "youtube",
+      "channelHandle": "@DwarkeshPatel",
+      "maxResults": 10,
+      "timeRangeDays": 1
+    },
+    {
+      "name": "bycloud YouTube Channel",
+      "type": "youtube",
+      "channelHandle": "@bycloudAI",
+      "maxResults": 10,
+      "timeRangeDays": 1
+    },
+    {
+      "name": "This day in AI YouTube Channel",
+      "type": "youtube",
+      "channelHandle": "@thisdayinai",
       "maxResults": 10,
       "timeRangeDays": 1
     }

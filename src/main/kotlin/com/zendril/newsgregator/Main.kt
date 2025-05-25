@@ -132,7 +132,7 @@ private fun loadConfiguration(configFile: String): Configuration {
 /**
  * Initializes content retrievers based on the configuration
  */
-private suspend fun initializeRetrievers(config: Configuration, debug: Boolean = false): List<ContentRetriever> {
+private fun initializeRetrievers(config: Configuration, debug: Boolean = false): List<ContentRetriever> {
     val retrievers = mutableListOf<ContentRetriever>()
 
     // Initialize LLM service first if needed

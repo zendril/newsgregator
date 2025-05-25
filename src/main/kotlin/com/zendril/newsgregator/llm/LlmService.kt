@@ -1,7 +1,6 @@
 package com.zendril.newsgregator.llm
 
 import com.zendril.newsgregator.models.ContentItem
-import com.zendril.newsgregator.models.LlmConfig
 
 /**
  * Interface for LLM (Large Language Model) services

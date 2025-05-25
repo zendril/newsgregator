@@ -1,99 +1,13 @@
 # newsgregator
 Curate news from specified sources, feed them into LLM to summarize.
 
-## Language Options for Scraping Code
-
-### Kotlin (User's Preference)
-**Pros:**
-- Modern language with concise syntax and strong type safety
-- Excellent interoperability with Java libraries (can use any Java scraping library)
-- Coroutines for efficient asynchronous programming (important for web scraping)
-- Good HTTP client libraries (ktor, fuel, etc.)
-- Seamless integration with Spring Boot if needed for a larger application
-- Null safety features reduce runtime errors
-- Extension functions allow for clean, readable code
-
-**Cons:**
-- Smaller ecosystem specifically for web scraping compared to Python
-- May require more boilerplate code than Python for some scraping tasks
-- Slightly steeper learning curve for developers not familiar with JVM languages
-
-### Python (Alternative)
-**Pros:**
-- Rich ecosystem for web scraping (BeautifulSoup, Scrapy, Selenium, etc.)
-- Simplest syntax and lowest barrier to entry
-- Extensive libraries for data processing (pandas, numpy)
-- Direct integration with many LLM frameworks
-- Rapid prototyping capabilities
-- Large community support for scraping-related issues
-
-**Cons:**
-- Dynamic typing can lead to runtime errors
-- Performance can be slower than JVM languages
-- Concurrency model not as elegant as Kotlin coroutines
-- Package management can be messy
-
-### JavaScript/TypeScript (Alternative)
-**Pros:**
-- Native browser integration (Puppeteer, Playwright)
-- Good for handling dynamic content that requires JavaScript execution
-- TypeScript offers improved type safety
-- Rich ecosystem with libraries like Cheerio, Axios
-- Asynchronous programming with Promises/async-await
-
-**Cons:**
-- Less robust for large-scale data processing
-- Dependency management can become complex
-- Browser automation adds overhead
-
-## Recommendation
-
-**Kotlin** would be an excellent choice for this project, especially if:
-- You're already familiar with Kotlin
-- You anticipate scaling the application
-- You value type safety and robust error handling
-- You need efficient concurrent operations (multiple sources scraped simultaneously)
-
-Kotlin can leverage libraries like:
-- **jsoup** for HTML parsing
-- **ktor** for HTTP requests
-- **kotlinx.serialization** for data serialization
-- **kotlinx.coroutines** for concurrent scraping
-
-For a project that involves both web scraping and LLM integration, Kotlin provides a good balance of performance, safety, and maintainability. The coroutines feature is particularly valuable for handling multiple news sources efficiently.
-
 ## Data Retrieval Methods
+Supported retrieval methods:
 
-Different sources require different methods of data retrieval:
-
-### API-Based Retrieval
-1. **YouTube Data API**
-   - Official API for accessing YouTube content
-   - Requires API key from Google Cloud Console
-   - Provides structured data including video metadata, comments, etc.
-   - Rate limits apply (quota system)
-   - Libraries: [YouTube Data API Client Library for Java](https://developers.google.com/youtube/v3/quickstart/java)
-
-2. **Reddit API**
-   - Official Reddit API for accessing subreddit content
-   - Requires OAuth authentication
-   - Can retrieve posts, comments, and other content from specific subreddits
-   - Rate limits apply
-   - Libraries: [JRAW (Java Reddit API Wrapper)](https://github.com/mattbdean/JRAW)
-
-### RSS/XML Feeds
-- Many news sites and blogs provide RSS feeds
-- Structured XML format that's easy to parse
-- No authentication required for public feeds
-- Limited to what the publisher includes in the feed
-- Libraries: [Rome](https://github.com/rometools/rome) for Java/Kotlin
-
-### Web Scraping
-- Used when no API or RSS feed is available
-- Extracts data directly from HTML
-- More fragile (breaks when site layout changes)
-- May require handling of JavaScript-rendered content
-- Libraries: jsoup for HTML parsing
+* YouTube Channels
+* Subreddits
+* RSS/XML Feeds
+* Web Scraping (Not tested/used)
 
 ## Configuration Structure
 
@@ -102,59 +16,40 @@ A flexible configuration system will be implemented to support different retriev
 ```json
 {
   "sources": [
-    {
-      "name": "Example YouTube Channel",
-      "type": "youtube",
-      "channelId": "UC_x5XG1OV2P6uZZ5FSM9Ttw",
-      "maxResults": 10
-    },
-    {
-      "name": "Example Subreddit",
-      "type": "reddit",
-      "subreddit": "programming",
-      "sortBy": "hot",
-      "maxResults": 25,
-    },
-    {
-      "name": "Example News Site",
-      "type": "rss",
-      "url": "https://example.com/feed.xml"
-    },
-    {
-      "name": "Example Blog",
-      "type": "scrape",
-      "url": "https://example.com/blog",
-      "selectors": {
-        "articles": ".article-container",
-        "title": ".article-title",
-        "content": ".article-content",
-        "date": ".article-date"
-      }
-    }
+     {
+        "name": "ArtificialIntelligence-news RSS",
+        "type": "rss",
+        "url": "https://www.artificialintelligence-news.com/feed/",
+        "maxResults": 20,
+        "timeRangeDays": 1
+     },
+     {
+        "name": "ChatGPTCoding",
+        "type": "reddit",
+        "subreddit": "ChatGPTCoding",
+        "sortBy": "new",
+        "maxResults": 100,
+        "timeRangeDays": 1
+     },
+     {
+        "name": "AI Code King YouTube Channel",
+        "type": "youtube",
+        "channelHandle": "@AICodeKing",
+        "maxResults": 10,
+        "timeRangeDays": 1
+     }
   ],
-  "global": {
-    "cacheTimeMinutes": 60,
-    "userAgent": "Newsgregator/1.0"
-  }
+   "global": {
+      "cacheTimeMinutes": 60,
+      "userAgent": "Newsgregator/1.0"
+   },
+   "llm": {
+      "provider": "gemini",
+      "model": "gemini-2.5-flash-preview-05-20",
+      "summaryPrompt": "Please provide a briefing showing each article concisely, highlighting the key points and including a link to the article, post or video. For each item that is a youtube video, get the transcription from the video to use before summarizing. At the beginning, provide an overview summary for all articles highlighting key themes. Following that please provide a list of anything that appears to be a product announcement or releases, do not include any promotional offers. Instead, put promotional offers in their own section after the product announcement section. Provide in Github markdown format: "
+   }
 }
 ```
-
-## Next Steps
-
-1. Set up a Kotlin project with Gradle
-2. Add dependencies for:
-   - HTTP client (ktor)
-   - HTML parsing (jsoup)
-   - JSON processing (kotlinx.serialization)
-   - YouTube Data API client
-   - Reddit API client (JRAW)
-   - RSS parsing (Rome)
-3. Create a modular architecture that allows for:
-   - Adding new data sources easily with different retrieval methods
-   - Processing and cleaning content from various sources
-   - Interfacing with LLM APIs
-4. Implement the configuration system
-5. Implement error handling and retry mechanisms for resilient data retrieval
 
 ## GitHub Actions Integration
 
@@ -170,10 +65,11 @@ The application is configured to run automatically on GitHub using GitHub Action
 1. **Configure GitHub Secrets**:
    - Go to your repository's Settings > Secrets and variables > Actions
    - Add a new repository secret named `GEMINI_API_KEY` with your Gemini API key
+   - Add a new repository secret named `YOUTUBE_API_KEY` with your YouTube API key
 
 2. **Enable GitHub Pages**:
    - Go to your repository's Settings > Pages
-   - Under "Build and deployment", select "GitHub Actions" as the source
+   - Under "Build and deployment", select "Deploy from branch" as the source
 
 3. **First Run**:
    - Go to the Actions tab in your repository
@@ -196,6 +92,10 @@ To run the application locally:
 
 # Specify output directory for summaries
 ./gradlew run --args="--output custom-output-dir"
+
+# Spit out a bunch of debug output
+./gradlew run --args="--debug"
+
 ```
 
 The application will save summaries to the specified output directory (default: "output") and maintain an index.md file with links to all summaries.

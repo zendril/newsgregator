@@ -56,7 +56,7 @@ class GeminiService(private val config: LlmConfig) : LlmService {
 
         val message = content("user") {
             fileData(
-                uri = "$url",
+                uri = url,
                 mimeType = "video/*"
             )
             text("Provide a full transcript for this video: ")
