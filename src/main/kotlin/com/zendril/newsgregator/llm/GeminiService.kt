@@ -40,12 +40,12 @@ class GeminiService(private val config: LlmConfig) : LlmService {
             "Title: ${it.title}\nSource: ${it.sourceName}\nSource Url: ${it.url}\nContent: ${it.content}\nMetadata: ${it.metadata}"
         }
     
-        val effectivePrompt = "${prompt ?: config.summaryPrompt}\n\n$combinedContent"
+        val effectivePrompt = "${prompt ?: config.getSummaryPrompt()}\n\n$combinedContent"
         return generateSummary(effectivePrompt)
     }
 
     override suspend fun summarizeContentItem(contentItem: ContentItem, prompt: String?): String {
-        val effectivePrompt = "${prompt ?: config.summaryPrompt}\n\nTitle: ${contentItem.title}\nSource: ${contentItem.sourceName}\nContent: ${contentItem.content}\nMetadata: ${contentItem.metadata}"
+        val effectivePrompt = "${prompt ?: config.getSummaryPrompt()}\n\nTitle: ${contentItem.title}\nSource: ${contentItem.sourceName}\nContent: ${contentItem.content}\nMetadata: ${contentItem.metadata}"
         return generateSummary(effectivePrompt)
     }
     

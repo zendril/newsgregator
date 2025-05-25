@@ -2,6 +2,8 @@ package com.zendril.newsgregator.models
 
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
+import kotlinx.serialization.Transient
+import java.io.File
 
 /**
  * Main configuration class that holds all settings for the application
@@ -86,5 +88,24 @@ data class LlmConfig(
     val model: String = "gemini-2.5-flash-preview-05-20",
 //    val maxTokens: Int = 500,
 //    val temperature: Double = 0.7,
-    val summaryPrompt: String = "Summarize the following news content in a concise way:"
-)
+    val summaryPromptFile: String = "summary-prompt.md"
+) {
+    @Transient
+    private var loadedPrompt: String? = null
+    
+    /**
+     * Gets the summary prompt by loading it from the file if needed
+     */
+    fun getSummaryPrompt(): String {
+        if (loadedPrompt == null) {
+            try {
+                loadedPrompt = File(summaryPromptFile).readText()
+            } catch (e: Exception) {
+                // Fail and exit the program if file cannot be read
+                println("Error: Could not read summary prompt file: ${e.message}")
+                System.exit(1) // Exit the program with non-zero status code
+            }
+        }
+        return loadedPrompt!!
+    }
+}

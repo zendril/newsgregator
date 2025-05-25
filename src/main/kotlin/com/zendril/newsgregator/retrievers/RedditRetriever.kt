@@ -8,6 +8,7 @@ import io.ktor.client.engine.cio.CIO
 import io.ktor.client.request.get
 import io.ktor.client.request.headers
 import io.ktor.client.statement.bodyAsText
+import io.ktor.http.headers
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.json.Json
 import net.dean.jraw.RedditClient
@@ -80,60 +81,78 @@ class RedditRetriever(
             OkHttpNetworkAdapter(userAgent, httpClient)
         }
         
-        // Try to create a Reddit client with proper authentication
+        // Get client credentials from environment variables
+        val clientId = System.getenv("REDDIT_CLIENT_ID") 
+            ?: throw IllegalStateException("REDDIT_CLIENT_ID environment variable not set")
+        val clientSecret = System.getenv("REDDIT_CLIENT_SECRET") 
+            ?: throw IllegalStateException("REDDIT_CLIENT_SECRET environment variable not set")
+        
+        if (debug) {
+            println("DEBUG: Retrieved client credentials from environment variables")
+            println("DEBUG: Client ID length: ${clientId.length}")
+            println("DEBUG: Client secret length: ${clientSecret.length}")
+        }
+        
         try {
-            // First try using OAuth authentication
+            // Create userless credentials for OAuth authentication
+            val credentials = Credentials.userless(clientId, clientSecret, UUID.randomUUID())
+            
             if (debug) {
-                println("DEBUG: Attempting OAuth authentication with Reddit")
+                println("DEBUG: Created userless credentials, attempting OAuth authentication")
             }
             
-            val clientId = System.getenv("REDDIT_CLIENT_ID") 
-                ?: throw IllegalStateException("REDDIT_CLIENT_ID environment variable not set")
-            val clientSecret = System.getenv("REDDIT_CLIENT_SECRET") 
-                ?: throw IllegalStateException("REDDIT_CLIENT_SECRET environment variable not set")
+            // Create the token store - we'll use NoopTokenStore for simplicity
+            // In a production app, you might want to use a persistent token store
+            val tokenStore = NoopTokenStore()
             
-            val credentials = Credentials.userless(clientId, clientSecret, UUID.randomUUID())
-            OAuthHelper.automatic(adapter, credentials)
+            // Create and return the authenticated client
+            val redditClient = OAuthHelper.automatic(adapter, credentials, tokenStore)
+            
+            if (debug) {
+                println("DEBUG: Successfully authenticated with Reddit API")
+                println("DEBUG: Auth status: ${redditClient.authManager.currentUsername() ?: "userless"}")
+            }
+            
+            return@lazy redditClient
+            
         } catch (e: Exception) {
-            // If OAuth fails, try anonymous access for public subreddits
+            // If OAuth fails, log the error and try again with more detailed error handling
             if (debug) {
                 println("DEBUG: OAuth authentication failed: ${e.message}")
-                println("DEBUG: Falling back to anonymous access for public subreddit")
                 e.printStackTrace()
             }
             
-            // Create an anonymous client as a fallback
-            val anonymousUserAgent = UserAgent("bot", "com.zendril.newsgregator", "1.0.0", "anonymous")
-            val anonymousAdapter = OkHttpNetworkAdapter(anonymousUserAgent)
-            val anonymousCredentials = Credentials.userless(
-                "public_anonymous_access", 
-                "", 
-                UUID.randomUUID()
-            )
-            
             try {
-                // Try automatic authentication with anonymous credentials
-                return@lazy OAuthHelper.automatic(anonymousAdapter, anonymousCredentials)
-            } catch (ex: Exception) {
-                // Last resort - create a minimal client
+                // Try again with more explicit error handling
+                val credentials = Credentials.userless(clientId, clientSecret, UUID.randomUUID())
+                val tokenStore = NoopTokenStore()
+                
+                // Try with explicit authentication - for userless auth, we still need to use automatic
+                val redditClient = OAuthHelper.automatic(adapter, credentials, tokenStore)
+                
                 if (debug) {
-                    println("DEBUG: Even anonymous authentication failed. Will use direct API fallback.")
+                    println("DEBUG: Successfully authenticated with explicit method")
+                }
+                
+                return@lazy redditClient
+            } catch (ex: Exception) {
+                // If all OAuth attempts fail, create a last resort minimal client
+                if (debug) {
+                    println("DEBUG: All OAuth authentication attempts failed: ${ex.message}")
+                    println("DEBUG: Creating minimal client as last resort")
                     ex.printStackTrace()
                 }
                 
-                // Create a minimal client with no-op token store
-                val noopTokenStore = NoopTokenStore()
-                val authHelper = OAuthHelper.interactive(anonymousAdapter, anonymousCredentials, noopTokenStore)
+                // Create a minimal client with anonymous credentials
+                val anonymousUserAgent = UserAgent("bot", "com.zendril.newsgregator", "1.0.0", "anonymous")
+                val anonymousAdapter = OkHttpNetworkAdapter(anonymousUserAgent)
+                val anonymousCredentials = Credentials.userless(
+                    clientId, 
+                    clientSecret, 
+                    UUID.randomUUID()
+                )
                 
-                // OAuthHelper.interactive returns StatefulAuthHelper, not RedditClient
-                // For userless authentication, create a Reddit client directly
-                val minimalClient = OAuthHelper.automatic(anonymousAdapter, anonymousCredentials)
-                
-                if (debug) {
-                    println("DEBUG: Created minimal Reddit client as fallback")
-                }
-                
-                return@lazy minimalClient
+                return@lazy OAuthHelper.automatic(anonymousAdapter, anonymousCredentials)
             }
         }
     }
@@ -197,7 +216,104 @@ class RedditRetriever(
             println("DEBUG: Max results: ${source.maxResults}")
         }
         
-        return retrieveContentDirectly(subreddit, sortBy.toString().lowercase())
+        return try {
+            // First try using the authenticated JRAW client
+            if (debug) {
+                println("DEBUG: Attempting to retrieve content using authenticated JRAW client")
+            }
+            retrieveContentUsingJraw(subreddit, sortBy)
+        } catch (e: Exception) {
+            // Fall back to direct API method if JRAW fails
+            if (debug) {
+                println("DEBUG: JRAW retrieval failed: ${e.message}. Falling back to direct API method.")
+                e.printStackTrace()
+            }
+            retrieveContentDirectly(subreddit, sortBy.toString().lowercase())
+        }
+    }
+    
+    /**
+     * Retrieves Reddit content using the authenticated JRAW client
+     */
+    private fun retrieveContentUsingJraw(subreddit: String, sort: SubredditSort): List<ContentItem> {
+        if (debug) {
+            println("DEBUG: Using JRAW client for r/$subreddit with sort $sort")
+        }
+        
+        // Calculate time range based on configuration
+        val secondsPerDay = 86400
+        val timeRangeSeconds = source.timeRangeDays * secondsPerDay
+        val cutoffTimeSeconds = (System.currentTimeMillis() / 1000) - timeRangeSeconds
+        
+        try {
+            // Build the paginator for the subreddit with the specified sort
+            val paginator = redditClient.subreddit(subreddit).posts()
+                .sorting(sort)
+                .limit(25) // Reddit API limit per page
+                .build()
+            
+            val allSubmissions = mutableListOf<Submission>()
+            
+            // Keep fetching pages until we have enough results or run out of pages
+            for (page in paginator) {
+                if (debug) {
+                    println("DEBUG: Fetched page with ${page.size} submissions, total so far: ${allSubmissions.size}")
+                }
+                
+                // Filter posts by creation time
+                val validPosts = page.filter { submission ->
+                    submission.created.time / 1000 >= cutoffTimeSeconds
+                }
+                
+                allSubmissions.addAll(validPosts)
+                
+                // Stop if we've reached the desired number of results
+                if (allSubmissions.size >= source.maxResults) {
+                    if (debug) {
+                        println("DEBUG: Reached desired number of results, ending pagination")
+                    }
+                    break
+                }
+                
+                // Reddit has a rate limit, so add a small delay between requests
+                Thread.sleep(100)
+            }
+            
+            if (debug) {
+                println("DEBUG: Retrieved ${allSubmissions.size} total submissions after pagination")
+            }
+            
+            // Convert submissions to ContentItems and return the results
+            return allSubmissions
+                .take(source.maxResults)
+                .map { submission ->
+                    ContentItem(
+                        id = submission.id,
+                        title = submission.title,
+                        content = submission.selfText.takeIf { it!!.isNotBlank() } ?: "[No content]",
+                        url = submission.url,
+                        publishDate = ZonedDateTime.ofInstant(
+                            Instant.ofEpochMilli(submission.created.time),
+                            ZoneId.systemDefault()
+                        ),
+                        author = submission.author,
+                        sourceType = SourceType.REDDIT,
+                        sourceName = source.name,
+                        metadata = mapOf(
+                            "subreddit" to subreddit,
+                            "score" to submission.score.toString(),
+                            "commentCount" to submission.commentCount.toString(),
+                            "isNsfw" to submission.isNsfw.toString()
+                        )
+                    )
+                }
+        } catch (e: Exception) {
+            if (debug) {
+                println("DEBUG: Error retrieving content using JRAW: ${e.message}")
+                e.printStackTrace()
+            }
+            throw e
+        }
     }
     
     /**
@@ -334,8 +450,25 @@ class RedditRetriever(
      * @return The listing data containing posts and pagination information
      */
     private suspend fun fetchRedditPage(subreddit: String, sort: String, after: String?, cutoffTimeSeconds: Long): RedditListingData {
-        // Construct URL with proper pagination parameters
-        val baseUrl = "https://www.reddit.com/r/$subreddit/$sort.json?t=day"
+        // Try to get an access token for authenticated requests
+        val accessToken = try {
+            // This is a fallback method to get the access token if direct JRAW usage fails
+            getAccessToken()
+        } catch (e: Exception) {
+            if (debug) {
+                println("DEBUG: Failed to get access token, falling back to unauthenticated API: ${e.message}")
+                e.printStackTrace()
+            }
+            null
+        }
+        
+        // Construct URL with proper pagination parameters - use OAuth endpoint if token is available
+        val baseUrl = if (accessToken != null) {
+            "https://oauth.reddit.com/r/$subreddit/${sort?.lowercase()}.json?t=day"
+        } else {
+            "https://www.reddit.com/r/$subreddit/${sort?.lowercase()}.json?t=day"
+        }
+        
         val url = if (after != null) {
             "$baseUrl&after=$after"
         } else {
@@ -344,19 +477,27 @@ class RedditRetriever(
         
         if (debug) {
             println("DEBUG: Requesting $url with time range of ${source.timeRangeDays} days")
+            println("DEBUG: Using ${if (accessToken != null) "authenticated" else "unauthenticated"} API endpoint")
         }
         
-        val response = httpClient.get(url) {
+        val finalUrl = url
+        val response = httpClient.get(finalUrl) {
             headers {
                 append("User-Agent", "com.zendril.newsgregator:1.0.0 (by /u/zendril)")
+                
+                // Add authorization header if we have an access token
+                if (accessToken != null) {
+                    append("Authorization", "Bearer $accessToken")
+                }
             }
         }
         
         val responseText = response.bodyAsText()
         
         if (debug) {
-            println("DEBUG: Received response with status: ${response.status}")
+            println("DEBUG: Received response with status: ${response.status.value}")
             println("DEBUG: Response length: ${responseText.length} characters")
+            println("DEBUG: Using ${if (accessToken != null) "authenticated" else "unauthenticated"} API")
         }
         
         // Parse the JSON response using kotlinx.serialization
@@ -366,14 +507,43 @@ class RedditRetriever(
         return listing.data
     }
     
+    /**
+     * Gets an access token for Reddit API requests using client credentials
+     */
+    private fun getAccessToken(): String? {
+        try {
+            // Try to get the access token from the redditClient if it's already initialized
+            val client = redditClient
+            
+            // In JRAW, we can get the current access token from the AuthManager
+            // The accessToken property might be null, so we need to handle that case
+            return client.authManager.accessToken?.also { token ->
+                if (debug) {
+                    println("DEBUG: Successfully retrieved access token from redditClient")
+                }
+            }
+        } catch (e: Exception) {
+            if (debug) {
+                println("DEBUG: Failed to get access token from redditClient: ${e.message}")
+                e.printStackTrace()
+            }
+            return null
+        }
+    }
+    
     private fun parseSortBy(sortBy: String?): SubredditSort {
-        return when (sortBy?.lowercase()) {
-            "hot" -> SubredditSort.HOT
-            "new" -> SubredditSort.NEW
-            "top" -> SubredditSort.TOP
-            "rising" -> SubredditSort.RISING
-            "controversial" -> SubredditSort.CONTROVERSIAL
-            else -> SubredditSort.NEW // Changed default from HOT to NEW
+            // Handle null case explicitly first
+            if (sortBy == null) {
+                return SubredditSort.NEW
+            }
+            
+            return when (sortBy.lowercase()) {
+                "hot" -> SubredditSort.HOT
+                "new" -> SubredditSort.NEW
+                "top" -> SubredditSort.TOP
+                "rising" -> SubredditSort.RISING
+                "controversial" -> SubredditSort.CONTROVERSIAL
+                else -> SubredditSort.NEW // Default case
         }
     }
 }
