@@ -46,11 +46,10 @@
       "timeRangeDays": 1
     },
     {
-      "name": "ChatGPTCoding",
-      "type": "reddit",
-      "subreddit": "ChatGPTCoding",
-      "sortBy": "new",
-      "maxResults": 100,
+      "name": "AI Models substack",
+      "type": "rss",
+      "url": "https://aimodels.substack.com/feed",
+      "maxResults": 20,
       "timeRangeDays": 1
     },
     {
