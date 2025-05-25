@@ -2,8 +2,8 @@ name: Daily News Summary
 
 on:
   schedule:
-    # Run daily at 8:00 AM UTC
-    - cron: '0 8 * * *'
+    # Run daily at 8:00 AM ET
+    - cron: '0 12 * * *'
   workflow_dispatch:
     # Allow manual triggering
 
