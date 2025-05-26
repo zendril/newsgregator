@@ -1,17 +1,12 @@
 ---
 layout: default
-- [2025-05-26](./2025-05-26-summary.md)
-
-- [2025-05-25](./2025-05-25-summary.md)
-
-- [2025-05-24](./2025-05-24-summary.md)
-
-- [2025-05-23](./2025-05-23-summary.md)
 
 title: Newsgregator Daily Summaries
 ---
 
-## Recent Summaries
+# Newsgregator
+
+## Daily Summaries
 
 <ul>
 {% assign sorted_pages = site.pages | sort: 'date' | reverse %}
