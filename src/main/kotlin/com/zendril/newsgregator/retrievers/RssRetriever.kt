@@ -13,6 +13,7 @@ import io.ktor.client.statement.*
 import java.io.ByteArrayInputStream
 import java.time.ZoneId
 import java.time.ZonedDateTime
+import java.time.temporal.ChronoUnit
 
 /**
  * Retrieves content from RSS/XML feeds
@@ -39,11 +40,19 @@ class RssRetriever(override val source: SourceConfig) : ContentRetriever {
     private fun processFeed(feed: SyndFeed): List<ContentItem> {
         // print the total number of entries
         println("Total number of entries: ${feed.entries.size}")
+        
+        // Calculate date range boundaries
+        val now = ZonedDateTime.now()
+        val startOfRange = now.minusDays(source.timeRangeDays.toLong())
+            .truncatedTo(ChronoUnit.DAYS)
+        val endOfRange = now.truncatedTo(ChronoUnit.DAYS)
+            .minusNanos(1)
+        
         val entries = feed.entries
             .filter { entry ->
                 entry.publishedDate?.toInstant()?.let { pubDate ->
-                    val daysAgo = ZonedDateTime.now().minusDays(source.timeRangeDays.toLong()).toInstant()
-                    pubDate.isAfter(daysAgo)
+                    val zonedPubDate = ZonedDateTime.ofInstant(pubDate, ZoneId.systemDefault())
+                    !zonedPubDate.isBefore(startOfRange) && !zonedPubDate.isAfter(endOfRange)
                 } ?: false
             }
             .take(source.maxResults)

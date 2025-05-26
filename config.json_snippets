@@ -1,6 +1,44 @@
 {
   "sources": [
     {
+      "name": "ArtificialInteligence",
+      "type": "reddit",
+      "subreddit": "ArtificialInteligence",
+      "sortBy": "new",
+      "maxResults": 50,
+      "timeRangeDays": 1
+    },
+    {
+      "name": "ChatGPTCoding",
+      "type": "reddit",
+      "subreddit": "ChatGPTCoding",
+      "sortBy": "new",
+      "maxResults": 25,
+      "timeRangeDays": 1
+    },
+    {
+      "name": "artificial",
+      "type": "reddit",
+      "subreddit": "artificial",
+      "sortBy": "new",
+      "maxResults": 25,
+      "timeRangeDays": 1
+    },
+    {
+      "name": "AI Code King YouTube Channel",
+      "type": "youtube",
+      "channelHandle": "@AICodeKing",
+      "maxResults": 10,
+      "timeRangeDays": 1
+    },
+    {
+      "name": "This day in AI YouTube Channel",
+      "type": "youtube",
+      "channelHandle": "@thisdayinai",
+      "maxResults": 10,
+      "timeRangeDays": 1
+    },
+    {
       "name": "AI Explained YouTube Channel",
       "type": "youtube",
       "channelHandle": "@aiexplained-official",
@@ -20,15 +58,7 @@
       "channelHandle": "@bycloudAI",
       "maxResults": 10,
       "timeRangeDays": 1
-    },
-    {
-      "name": "ArtificialInteligence",
-      "type": "reddit",
-      "subreddit": "ArtificialInteligence",
-      "sortBy": "new",
-      "maxResults": 50,
-      "timeRangeDays": 1
-    },
+    }
 
   ],
   "global": {

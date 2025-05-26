@@ -194,14 +194,23 @@ class YoutubeRetriever(
 
     /**
      * Checks if a given publish date is within the specified time range days
-     */
-    private fun isWithinTimeRange(publishDate: ZonedDateTime?): Boolean {
-        if (publishDate == null) return false
-
-        val now = ZonedDateTime.now()
-        val daysAgo = ChronoUnit.DAYS.between(publishDate, now)
-
-        return daysAgo >= 0 && daysAgo <= source.timeRangeDays
+         * Includes all content from startOfRange to endOfRange inclusive
+         */
+        private fun isWithinTimeRange(publishDate: ZonedDateTime?): Boolean {
+            if (publishDate == null) return false
+    
+            val now = ZonedDateTime.now()
+            
+            // Calculate the start of the day for the range (e.g., 2025-05-20 00:00:00)
+            val startOfRange = now.minusDays(source.timeRangeDays.toLong())
+                .truncatedTo(ChronoUnit.DAYS)
+                
+            // Calculate the end of the range (end of yesterday, e.g., 2025-05-21 23:59:59.999999999)
+            val endOfRange = now.truncatedTo(ChronoUnit.DAYS)
+                .minusNanos(1)
+                
+            // Check if the publish date is within the range (inclusive)
+            return !publishDate.isBefore(startOfRange) && !publishDate.isAfter(endOfRange)
     }
 
     private fun convertToContentItem(searchResult: SearchResult): ContentItem {
