@@ -24,7 +24,8 @@
     {
       "name": "AI Models substack",
       "type": "rss",
-      "url": "https://aimodels.substack.com/feed/",
+      "url": "https://aimodels.substack.com/feed",
+      "clientType": "playwright",
       "maxResults": 20,
       "timeRangeDays": 1
     }

@@ -15,6 +15,8 @@ repositories {
 
 
 dependencies {
+    // Add Playwright dependency for browser automation
+    implementation("com.microsoft.playwright:playwright:1.40.0")
     // Kotlin standard library and coroutines
     implementation("org.jetbrains.kotlin:kotlin-stdlib")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4")

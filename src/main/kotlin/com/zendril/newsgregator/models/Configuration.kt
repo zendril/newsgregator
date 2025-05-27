@@ -43,6 +43,18 @@ enum class SourceType {
 }
 
 /**
+ * Enum representing the different client types for RSS feeds
+ */
+@Serializable
+enum class ClientType {
+    @SerialName("http")
+    HTTP,
+
+    @SerialName("playwright")
+    PLAYWRIGHT
+}
+
+/**
  * Base configuration for a content source
  */
 @Serializable
@@ -58,6 +70,9 @@ data class SourceConfig(
     // Reddit specific properties
     val subreddit: String? = null,
     val sortBy: String? = null,
+
+    // RSS specific properties
+    val clientType: ClientType = ClientType.HTTP, // Default to HTTP client
 
     // Common properties
     val maxResults: Int = 10,
