@@ -60,6 +60,8 @@ fun main(args: Array<String>) = runBlocking {
     // Initialize source retrievers based on configuration
     val retrievers = initializeRetrievers(config, debug)
 
+    println("Initialized ${retrievers.size} content retrievers")
+
     // Fetch content from all sources
     val allContent = retrieveAllContent(retrievers)
 

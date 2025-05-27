@@ -39,7 +39,7 @@ jobs:
           REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
           REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
         run: |
-          ./gradlew run --args="--output docs"
+          ./gradlew run --args="--output docs --skip-llm-summary"
           
       - name: Add Jekyll front matter to new files
         run: |
