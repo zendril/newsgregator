@@ -9,5 +9,5 @@ jobs:
       - name: Curl RSS Feed
         run: |
           echo "Testing curl request to aimodels.substack.com RSS feed..."
-          curl -L -c cookiejar.txt -b cookiejar.txt -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64)..." https://aimodels.substack.com/feed
+          curl -v -X GET --location "https://aimodels.substack.com/feed.rss"
           echo "Curl request completed."
