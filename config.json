@@ -22,11 +22,62 @@
       "timeRangeDays": 1
     },
     {
-      "name": "AI Models substack",
-      "type": "rss",
-      "url": "https://aimodels.substack.com/feed",
-      "clientType": "playwright",
-      "maxResults": 20,
+      "name": "ArtificialInteligence",
+      "type": "reddit",
+      "subreddit": "ArtificialInteligence",
+      "sortBy": "new",
+      "maxResults": 50,
+      "timeRangeDays": 1
+    },
+    {
+      "name": "ChatGPTCoding",
+      "type": "reddit",
+      "subreddit": "ChatGPTCoding",
+      "sortBy": "new",
+      "maxResults": 25,
+      "timeRangeDays": 1
+    },
+    {
+      "name": "artificial",
+      "type": "reddit",
+      "subreddit": "artificial",
+      "sortBy": "new",
+      "maxResults": 25,
+      "timeRangeDays": 1
+    },
+    {
+      "name": "AI Code King YouTube Channel",
+      "type": "youtube",
+      "channelHandle": "@AICodeKing",
+      "maxResults": 10,
+      "timeRangeDays": 1
+    },
+    {
+      "name": "This day in AI YouTube Channel",
+      "type": "youtube",
+      "channelHandle": "@thisdayinai",
+      "maxResults": 10,
+      "timeRangeDays": 1
+    },
+    {
+      "name": "AI Explained YouTube Channel",
+      "type": "youtube",
+      "channelHandle": "@aiexplained-official",
+      "maxResults": 10,
+      "timeRangeDays": 1
+    },
+    {
+      "name": "Dwarkesh Patel YouTube Channel",
+      "type": "youtube",
+      "channelHandle": "@DwarkeshPatel",
+      "maxResults": 10,
+      "timeRangeDays": 1
+    },
+    {
+      "name": "bycloud YouTube Channel",
+      "type": "youtube",
+      "channelHandle": "@bycloudAI",
+      "maxResults": 10,
       "timeRangeDays": 1
     }
   ],

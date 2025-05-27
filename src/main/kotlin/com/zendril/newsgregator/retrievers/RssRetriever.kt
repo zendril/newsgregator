@@ -95,7 +95,7 @@ class RssRetriever(override val source: SourceConfig, private val userAgent: Str
                     println("Warning: Content-Type is not XML. Got: ${response.headerValue("Content-Type")}")
                 }
 
-                println("Content: $content")
+//                println("Content: $content")
 
                 return parseRssFeed(content)
             }
