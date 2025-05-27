@@ -1,0 +1,13 @@
+name: Test curl RSS feed
+on:
+  workflow_dispatch:  # This allows the workflow to be manually triggered
+
+jobs:
+  test-curl:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Curl RSS Feed
+        run: |
+          echo "Testing curl request to aimodels.substack.com RSS feed..."
+          curl -v -X GET --location "https://aimodels.substack.com/feed"
+          echo "Curl request completed."
