@@ -153,7 +153,7 @@ private fun initializeRetrievers(config: Configuration, debug: Boolean = false):
         val retriever = when (source.type) {
             SourceType.YOUTUBE -> YoutubeRetriever(source, debug, llmService)
             SourceType.REDDIT -> RedditRetriever(source, debug)
-            SourceType.RSS -> RssRetriever(source)
+            SourceType.RSS -> RssRetriever(source, config.global.userAgent)
             SourceType.SCRAPE -> WebScraperRetriever(source)
         }
         retrievers.add(retriever)

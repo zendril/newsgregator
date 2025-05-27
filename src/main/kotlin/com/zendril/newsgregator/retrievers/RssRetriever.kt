@@ -8,8 +8,10 @@ import com.zendril.newsgregator.models.SourceConfig
 import com.zendril.newsgregator.models.SourceType
 import io.ktor.client.*
 import io.ktor.client.engine.cio.*
+import io.ktor.client.plugins.*
 import io.ktor.client.request.*
 import io.ktor.client.statement.*
+import io.ktor.http.*
 import java.io.ByteArrayInputStream
 import java.time.ZoneId
 import java.time.ZonedDateTime
@@ -18,9 +20,12 @@ import java.time.temporal.ChronoUnit
 /**
  * Retrieves content from RSS/XML feeds
  */
-class RssRetriever(override val source: SourceConfig) : ContentRetriever {
+class RssRetriever(override val source: SourceConfig, private val userAgent: String) : ContentRetriever {
     private val httpClient = HttpClient(CIO) {
         expectSuccess = true
+        defaultRequest {
+            header(HttpHeaders.UserAgent, userAgent)
+        }
     }
     
     override suspend fun retrieveContent(): List<ContentItem> {
@@ -38,8 +43,8 @@ class RssRetriever(override val source: SourceConfig) : ContentRetriever {
     }
 
     private fun processFeed(feed: SyndFeed): List<ContentItem> {
-        // print the total number of entries
-        println("Total number of entries: ${feed.entries.size}")
+        // print the total number of entries and the source name
+        println("Total number of entries for ${feed.title}: ${feed.entries.size}")
         
         // Calculate date range boundaries
         val now = ZonedDateTime.now()
