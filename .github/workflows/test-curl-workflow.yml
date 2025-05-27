@@ -5,9 +5,12 @@ on:
 jobs:
   test-curl:
     runs-on: ubuntu-latest
+    env:
+      SUBSTACK_USERNAME: ${{ secrets.SUBSTACK_USERNAME }}
+      SUBSTACK_PASSWORD: ${{ secrets.SUBSTACK_PASSWORD }}
     steps:
       - name: Curl RSS Feed
         run: |
           echo "Testing curl request to aimodels.substack.com RSS feed..."
-          curl -v -X GET --location "https://aimodels.substack.com/feed.rss"
+          curl -v -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" -u "$SUBSTACK_USERNAME:$SUBSTACK_PASSWORD" --location "https://aimodels.substack.com/feed.rss"
           echo "Curl request completed."
