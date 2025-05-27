@@ -1,5 +1,7 @@
 ---
 layout: default
+- [2025-05-27](./2025-05-27-summary.md)
+
 
 title: Newsgregator Daily Summaries
 ---
