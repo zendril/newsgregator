@@ -11,6 +11,7 @@ import com.zendril.newsgregator.retrievers.RssRetriever
 import com.zendril.newsgregator.retrievers.WebScraperRetriever
 import com.zendril.newsgregator.retrievers.YoutubeRetriever
 import kotlinx.coroutines.runBlocking
+import kotlinx.serialization.encodeToString
 import kotlinx.serialization.json.Json
 import java.io.File
 import java.time.LocalDateTime
@@ -74,6 +75,10 @@ fun main(args: Array<String>) = runBlocking {
         println("=======================")
     }
 
+    // Save raw content items to JSON file
+    if (allContent.isNotEmpty()) {
+        saveContentItemsToJson(allContent, outputDir)
+    }
 
     // Display content if in dry run mode
     if (skipLlmSummary && allContent.isNotEmpty()) {
@@ -270,4 +275,39 @@ private fun updateIndexFile(directory: File, newFilename: String) {
 
     // Write the updated content to the index file
     indexFile.writeText(content)
+}
+
+
+/**
+ * Saves the content items to a JSON file in the specified output directory
+ */
+private fun saveContentItemsToJson(contentItems: List<ContentItem>, outputDir: String) {
+    try {
+        // Create output directory if it doesn't exist
+        val directory = File(outputDir)
+        if (!directory.exists()) {
+            directory.mkdirs()
+        }
+
+        // Generate timestamp for the filename
+        val timestamp = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd"))
+        val filename = "$timestamp-raw.json"
+
+        // Create the file
+        val outputFile = File(directory, filename)
+
+        // Create a pretty-printed JSON of the content items
+        val jsonFormat = Json { 
+            prettyPrint = true 
+            encodeDefaults = true
+        }
+        val jsonContent = jsonFormat.encodeToString(contentItems)
+
+        // Write to file
+        outputFile.writeText(jsonContent)
+
+        println("Raw content items saved to ${outputFile.absolutePath}")
+    } catch (e: Exception) {
+        println("Error saving content items to JSON file: ${e.message}")
+    }
 }
