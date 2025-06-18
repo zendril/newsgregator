@@ -100,7 +100,7 @@ data class ScrapingSelectors(
 data class LlmConfig(
     val provider: String = "gemini",
     var apiKey: String = "", // Making apiKey mutable so we can update it at runtime
-    val model: String = "gemini-2.5-flash-preview-05-20",
+    val model: String = "gemini-2.5-flash",
 //    val maxTokens: Int = 500,
 //    val temperature: Double = 0.7,
     val summaryPromptFile: String = "summary-prompt.md"

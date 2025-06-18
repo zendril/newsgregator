@@ -45,7 +45,7 @@ A flexible configuration system will be implemented to support different retriev
    },
    "llm": {
       "provider": "gemini",
-      "model": "gemini-2.5-flash-preview-05-20",
+      "model": "gemini-2.5-flash",
       "summaryPrompt": "Please provide a briefing showing each article concisely, highlighting the key points and including a link to the article, post or video. For each item that is a youtube video, get the transcription from the video to use before summarizing. At the beginning, provide an overview summary for all articles highlighting key themes. Following that please provide a list of anything that appears to be a product announcement or releases, do not include any promotional offers. Instead, put promotional offers in their own section after the product announcement section. Provide in Github markdown format: "
    }
 }
