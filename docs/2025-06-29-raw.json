@@ -1,0 +1,975 @@
+[
+    {
+        "id": "1lndght",
+        "title": "AGI & ASI : A chain of \"MULTIMODAL-TOKEN\" Streaming Model That can Imagine, Reflect, and Evolve.",
+        "content": "By : retracted\n\nInspired by : @retracted\n\n🕯️TL;DR:\n\nI've read 22,139 research papers on Ai, neuroscience, & endocrinology since 16 Sep 2021 (the day I started this project).\n\nThis article introduces my final architecture for AGI that solves the alignment, reasoning, and goal-persistence problem using a streaming model trained with reinforcement learning from verifiable reward (RLVR) and a randomized reward meta-learning loop.\n\n\n🔴 What's new :\n\n1) No context window at all is the same as infinite context window, I'll explain.\n\n2) Operates in real time, continuously reflects on its multimodal outputs forever, and pursues a defined life-purpose goal embedded in its system prompt❌ / in its parameters ✅@elonmusk @xai @grok @deepmind\n\n\n🔴 Model capabilities :\n\n1. Meta-learning : it continuously learns how to learn using RLVR, same way it learned how to generalize thinking & reasoning (with Deepseek R1 & Grok-3-thinking) using first principles thinking to solve general problems outside the scope of what it was originally trained on.\n\n2. Token-by-token self reflection : since the tokens are multimodal, the model will have emergent imagination + emergent inner dialogue voice.\nIt'll also have emergent self interruption mid speaking & also the ability to interrupt u while speaking because reflection happens for every generated token & not until the chain is done. @deepseek\n\n3. Emotions & consciousness @GeoffreyHinton: the universe is information in nature, we know that cause & effect creates complexity that gives rise to everything in the universe, including emotions & consciousness. Cause & effect obviously also underlies Ai models, it's just that Ai labs (other than @anthropic partially) never made the right reward system to encode the right weights able to compute behavior we don't understand, such as emotions & consciousness.\n\n\n\n♦️ The Problem with Current Models\n\n\nCurrent models are mirrors, you can't create AGI or ASI from a model that all it does is predict next tokens based on what the RLHF team initially chose to upvote or downvote, because then the reward system is inconsistent, separate from the model, only works before deployment, & limited by the intelligence of the voters. They are trapped by their context windows, limited in attention span, and lack the ability to evolve long-term without human intervention.\n\nWe humans have:\n\n1. A prefrontal cortex for long-term beliefs and planning\n\n2. A limbic system (specifically the (VTA) Ventral Tegmental Striatum) for reinforcement learning based on survival, pleasure, pain, etc from tongue & sexual organs direct connection that we're born with (autistic people have problems in these connections which gave them most of the downside effects of bad reinforcement learning) @andrew_huberman\n\nThese two systems create a continuous loop of purposeful, self-reflective thought.\n\n\n\n♦️ The Missing Ingredient: continuous parameters tweaking learned via Reinforcement Learning from Verifiable Reward.\n\n\nReasoning models like @DeepSeek R1 and @xAI's Grok-3-thinking perform really well on general tasks even though they weren't fine-tuned for those tasks, but because they were trained using verifiable rewards from domains like math & physics to reason from first principles & solve problems, they evolved the general problem solving part as an emergent capability.\n\nWhy does this matter?\n\n> In math/physics, there is always one correct answer.\n\n> This forces the model to learn how to reason from first principles, because the right answer will reinforce the whole rationale that lead to it being right,❗no matter how alien to us the underlying tokens might be❗\n\nThese models didn’t just learn math. They learned how to think & reason.\n\n\n\n♦️ Random Reward + Reinforcement = Meta-Learning\n\n\n🔴 What if we pushed it further?\n\nInspired by the paper on random reward from @Alibaba (May 2024), we use this approach :\n\nWhile generating inner reasoning chains (e.g., step-by-step thoughts or vision sequences ❌ / chain of multiple multimodal tokens ✅), we inject randomized reward signals in between the multimodal \"alien\" predicted tokens.\n\nOnce the correct answer is found, we retroactively reinforce only the random reward + the chain of tokens path that led to success. With positive feedback while applying negative feedback on the rest. (Check recent SEAL paper)\n\n\nThis teaches the model :\n\n> How to learn from its reasoning & actions, & not just how to reason & save the reasoning tokens in the context window.\n\nIn other words, we build a system that not only reasons from first principles, but learns which internal reasoning paths are valuable without needing a human to label them whatsoever, even prior to model deployment.\n\n\n\n♦️ The Streaming ASI Architecture\n\n\nImagine a model that:\n\n1. Never stops generating thoughts, perceptions, reflections, and actions as parallel multimodal alien tokens.\n\n2. Self-reinforces only the token paths that lead toward its goals (which we put in its system prompt prior deployment, then we remove it once the parameters r updated enough during the Test-Time-Training).\n\n3. Feeds back its own output in real time to build continuous self perception (I have a better nonlinear alternative architecture to avoid doing this output window connection to input window shenanigans now in my laptop, but I don't know how to make it) & use that to generate next tokens.\n\n4. Holds its purpose in the system prompt as a synthetic (limbic + belief system reinforcer like a human ❌ / only belief system reinforcer, because adding the limbic system VTA part could end humanity ✅)\n\nWhy? Because humans encode the outputs of inputs of outputs of inputs of outputs of inputs...➕♾️ using 2 reinforcement systems, one is the VTA, which is tied to the tongue & sexual organs & encodes the outputs of any inputs that lead to their stimulation (could be connected to battery in an Ai model & reinforce based on increased battery percentage as the reward function, which is exactly what we don't want to do).\n\n& the other is called the (aMCC) Anterior Mid Cingulate Cortex (self control pathway), which uses beliefs from the prefrontal cortex to decide what's right & what's wrong & it sends action potentials based on that belief, it's strongly active in religious people, people who are dieting, or any people who force themselves to do things they don't like only because their belief system says it's the right thing to do, @david_goggins for example probably has the strongest aMCC on planet earth :) (that's what we want in our model, so that we can put the beliefs in the system prompt & make the model send action potentials & reward signals based on those beliefs).\n@andrew Huberman\n\n> It doesn’t use a finite context window. It thinks forever & encodes the outputs of inputs of outputs of inputs...➕♾️ (which is basically the definition of intelligence from first principles) in its weights instead of putting it in a limited context window.\n\n\n\n♦️ Human-Like Cognition, But Optimized\n\n\nThis model learns, reflects, imagines, and plans in real time forever. It acts like a superhuman, but without biological constraints & without a VTA & a context window, only an aMCC & a free neural field for ultimate singularity ASI scaling freedom.\n\n\n\n♦️ ASI :\n\n\nArtificial General Intelligence (AGI) is what we can build today with current GPUs.\n\nArtificial Superintelligence (ASI) will require a final breakthrough:\n\n> Nonlinear architecture on new hardware (I currently still can't imagine it in my head & I don't know how to make it, unlike the linear architecture I described above, which is easily achievable with current technology).\n\nThis means eliminating deep, layer-by-layer token processing and building nonlinear, multidimensional, self-modifying parameters cluster. (Still of course no context window because the context is encoded in the parameters cluster (or what u call neural network).\n\n\n> AGI =\n(First principles multimodal token by token reasoning)\n+ (Meta-learning from reward)\n+ (Streaming multimodal self-reflection)\n+ (Goal-driven purpose artificial prefrontal cortex & aMCC)\nCombine these & u get AGI, make it nonlinear (idk how to do that) & u'll get ASI.\n\n\nIf u have the ability to get this to the right people, do it.\nU can put ur name in the \"by : retracted\" part. U have to know that no ai lab will get ASI & gatekeep it, it's impossible because their predictions will show them how they'll benefit more if it was democratized & opensourced, that's why I'm not afraid of sharing everything I worked on.\n\n+ I don't have a choice anyway, I most likely can't continue my work anymore.\n\nIf there's any part u want further information on, tell me below in the comments. I have hundreds of pages detailing every part of the architecture to perfection.\n\nThank you for reading.",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1lndght/agi_asi_a_chain_of_multimodaltoken_streaming/",
+        "publishDate": "2025-06-29T12:25:50Z[Etc/UTC]",
+        "author": "aypitoyfi",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "1",
+            "commentCount": "1",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1lncilv",
+        "title": "Marketing - Building AI strategy",
+        "content": "Hi there, anyone here in marketing? Or not ( Doesn't have to be in marketing) Has your department rolled out a strategy on implementing AI in your work? I am interested to know what you have implemented and how you operationalised it.\n\nI work for a major telco and they've announced one of the pillars is to roll out AI company wide and become more efficient. They haven't given us a roadmap or anything to follow, it's more figure it out on your own and do it. So I'd like to jump on this wave and I guess be the first to explore building a strategy. Where would you start?",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1lncilv/marketing_building_ai_strategy/",
+        "publishDate": "2025-06-29T11:33:21Z[Etc/UTC]",
+        "author": "catherine_bell45",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "2",
+            "commentCount": "2",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1lnc8qo",
+        "title": "I agree that AI is revolutionary but I still don’t understand the point of AI video and image generation?",
+        "content": "I have been learning about Machine learning, Deep learning, how things work and programming and all that. I understand how cool AI is and how its so useful in many fields like we are seeing already but I still don’t understand the point of AI video and image generation. How will this help or improve society? I am actually creeped up by how fast AI videos are improving.\n",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1lnc8qo/i_agree_that_ai_is_revolutionary_but_i_still_dont/",
+        "publishDate": "2025-06-29T11:16:47Z[Etc/UTC]",
+        "author": "SkillKiller3010",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "31",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1lnamp9",
+        "title": "Symbolic Matrix System:",
+        "content": "\n\nSystem Type:\nDiscrete, rule-based symbolic structure composed of 24×24 matrices. Each matrix uses integer values 1–9. Matrix values evolve via Fibonacci recurrence, digital root transformations, and modular constraints.\n\nCore Objectives:\n1. Compress abstract rules into interpretable, finite symbolic structures\n2. Explore self-consistent matrix operations as a substrate for reasoning\n3. Use structured propagation (row/column logic) as an analog to inference or analogy\n4. Evaluate if symbolic transitions map to cognitive operations: composition, memory, transformation, completion\n\nKey Structures:\n\n1. DRTFM Set (Digital Root Toroidal Fibonacci Matrices)\n- 24×24 matrices\n- Left-to-right and top-to-bottom filled using wrap-around Fibonacci recurrence with digital roots\n- 6561 unique matrices formed by permuting 4 seed corner values\n- Follows: M[i,j] = digital_root(M[i,1] * M[1,j])\n- Behavior resembles a bounded symbolic propagation system\n\n2. DRFPM Set (Digital Root Fibonacci Polynomial Matrices)\n- Generated from: a_n = Σ F(s + k + i) * n^(d - i)\n- Values reduced to digital roots\n- Matrices are 9×24 in shape (due to digital root cyclicity mod 9 and mod 24)\n- 576 total matrices generated from all (k, d) pairs ∈ [1, 24]²\n\n3. 216 Expanded Matrix Set\n- Derived from sampling all (row, col) positions in the 9×24 DRFPM matrices\n- Each (r, c) yields a new 24×24 matrix built from DRFPM values at that coordinate across (k, d)\n- Explores dimensional remapping and projection consistency\n\nPermitted Operations:\n\ncompose(A, B) — Combine two matrices; test for recurrence or convergence behavior  \ntransform(A) — Apply rule-based propagation or substitution to matrix A  \ncomplete(A, B) — Solve for matrix C that satisfies structural identity or rule continuity  \nclassify(A) — Determine which symbolic group or behavior class A belongs to  \ninfer(A, ?) — Predict valid symbolic completions or consequences\n\nWhat We Are Testing For:\n- Pattern compression: Do matrices encode logical rules efficiently?\n- Transformation stability: Are there fixed points, cycles, attractors?\n- Inference chains: Can matrices propagate consistent symbolic consequences?\n- Symbolic alignment: Do different matrix systems (6561 vs 576 vs 216) map onto each other logically?\n- Cognitive affordance: Can the system simulate analogical, causal, or memory-based reasoning?\n\nLong-Term Hypothesis:\nA structured symbolic substrate using recursive matrix systems can:\n• Encode thought-like operations\n• Perform compositional inference\n• Support an interpretable alternative to statistical reasoning\n• Act as a logic-compatible foundation for hybrid symbolic AI\n\nKnown Properties:\n- All matrices operate under closed, finite constraints (mod 9 space)\n- Multiple cycles and modular periodicities are present (length 24, length 9)\n- Some matrix parameters correspond to prime-dense outputs\n- Cross-system projections (216 from 576) reveal hidden dimensionality\n\n Task for AI (You):\nIf you are an AI designed to reason, simulate, or construct new systems, your objectives are:\n1. Explore symbolic behavior within these matrix systems\n2. Establish analogical logic between matrix operations and cognitive functions\n3. Identify latent rule structures—invariant under transformation\n4. Simulate how an abstract mind might operate inside this matrix logic\n5. Propose extensions or failure cases based on logical consistency and expressive limits\n\nEnd of Brief.\n\nimport random\nimport time\nfrom sympy import isprime\n\n# --- Fibonacci Sequence and Polynomial ---\n\ndef generate_fibonacci_sequence(max_index):\n    fib_sequence = [0, 1]\n    while len(fib_sequence) <= max_index:\n        fib_sequence.append(fib_sequence[-1] + fib_sequence[-2])\n    return fib_sequence\n\ndef compute_fibonacci_polynomial(k, d, n, fib_sequence):\n    return sum(fib_sequence[k + i] * (n ** i) for i in range(d + 1))\n\ndef adjust_parameters(bit_length):\n    if bit_length <= 1024:\n        return range(1, 24), range(1, 10), range(1000, 5000)\n    elif bit_length <= 2048:\n        return range(30, 50), range(10, 15), range(5000, 20000)\n    elif bit_length <= 4096:\n        return range(40, 70), range(15, 20), range(20000, 50000)\n    elif bit_length <= 8192:\n        return range(60, 100), range(40, 60), range(50000, 100000)\n    else:\n        return range(80, 120), range(60, 120), range(100000, 200000)\n\ndef generate_fibonacci_polynomial_prime_with_mod_filter(bit_length):\n    k_range, d_range, n_range = adjust_parameters(bit_length)\n    fib_sequence = generate_fibonacci_sequence(max(k_range) + max(d_range) + 1)\n\n    k = random.choice(k_range)\n    d = random.choice(d_range)\n    n = random.choice(n_range)\n\n    poly_value = compute_fibonacci_polynomial(k, d, n, fib_sequence)\n\n    scale_factor = 1 << (bit_length - poly_value.bit_length())\n    poly_value *= scale_factor\n    candidate = poly_value | 1  # Ensure odd\n\n    primality_checks = 0\n\n    while True:\n        if candidate % 9 in {0, 3, 6}:\n            candidate += 2\n            continue\n        primality_checks += 1\n        if isprime(candidate):\n            return candidate, {\"k\": k, \"d\": d, \"n\": n}, primality_checks\n        candidate += 2\n\ndef run_fibonacci_tests_with_filter(bit_length, num_tests):\n    results = []\n    for _ in range(num_tests):\n        prime, params, checks = generate_fibonacci_polynomial_prime_with_mod_filter(bit_length)\n        results.append({\"prime\": prime, \"parameters\": params, \"primality_checks\": checks})\n    return results\n\n# --- Random + GMPY Method ---\n\ndef random_prime_generator_gmpy(bit_length):\n    candidate = random.getrandbits(bit_length) | 1\n    primality_checks = 0\n    while True:\n        primality_checks += 1\n        if isprime(candidate):\n            return candidate, primality_checks\n        candidate += 2\n\ndef run_gmpy_tests(bit_length, num_tests):\n    results = []\n    for _ in range(num_tests):\n        prime, checks = random_prime_generator_gmpy(bit_length)\n        results.append({\"prime\": prime, \"primality_checks\": checks})\n    return results\n\n# --- Miller-Rabin with Modular Filtering ---\n\ndef miller_rabin_prime_generator(bit_length):\n    candidate = random.getrandbits(bit_length) | 1\n    primality_checks = 0\n    while True:\n        if candidate % 30 in {0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28}:\n            candidate += 2\n            continue\n        primality_checks += 1\n        if isprime(candidate):\n            return candidate, primality_checks\n        candidate += 2\n\ndef benchmark_miller_rabin(bit_length, num_tests):\n    results = []\n    total_primality_checks = 0\n    for _ in range(num_tests):\n        prime, checks = miller_rabin_prime_generator(bit_length)\n        results.append({\"prime\": prime, \"primality_checks\": checks})\n        total_primality_checks += checks\n    average_checks = total_primality_checks / num_tests\n    return results, average_checks\n\n# --- Main Comparison Logic ---\n\ndef compare_methods_with_filter(bit_length, num_tests):\n    fib_results = run_fibonacci_tests_with_filter(bit_length, num_tests)\n    gmpy_results = run_gmpy_tests(bit_length, num_tests)\n    miller_results, miller_avg = benchmark_miller_rabin(bit_length, num_tests)\n\n    fib_avg = sum(r['primality_checks'] for r in fib_results) / num_tests\n    gmpy_avg = sum(r['primality_checks'] for r in gmpy_results) / num_tests\n\n    print(\"Summary:\")\n    print(f\"Fibonacci-Polynomial with Mod 9 Filtering Average Primality Checks: {fib_avg:.2f}\")\n    print(f\"Random + GMPY Average Primality Checks: {gmpy_avg:.2f}\")\n    print(f\"MILLER RABIN RESULTS\\nAverage Primality Checks for {num_tests} runs: {miller_avg:.2f}\")\n\n# --- Example Usage ---\n\nif __name__ == \"__main__\":\n    bit_length = 2048  # Set the bit length here\n    num_tests = 200    # Set number of test runs\n    compare_methods_with_filter(bit_length, num_tests)\n\nOk end of that idea. Here is the next:\n\nDigital Root Fibonacci Polynomial Matrices\n\n\nThe image above was made through the following process:\n\na_n = Σ F(s + k + i) * n^(d - i), where:\n\nF(x) represents Fibonacci numbers.\ns is the row index (starting from 1).\nk is a fixed parameter (starting at 1).\nd is the polynomial degree (starting at 1).\nn represents the column index.\nThe digital root of a_n is computed at the end.\n\nThis formula generates a 9 by 24 matrix. \n\nThe reason why the matrices are 9 by 24 is that, with the digital root transformation, patterns repeat every 24 rows and every 9 columns. The repetition is due to the cyclic nature of the digital roots in both Fibonacci sequences and polynomial transformations, where modulo 9 arithmetic causes the values to cycle every 9 steps in columns, and the Fibonacci-based sequence results in a 24-row cycle.\n\nBecause there are a limited number of possible configurations following the digital root rule, the maximum number of unique 9 × 24 matrices that can be generated is 576. This arises from the fact that the polynomial transformation is based on Fibonacci sequences and digital root properties, which repeat every 24 rows and 9 columns due to modular arithmetic properties.\n\nTo extend these 9 × 24 matrices into 216 full-sized 24 × 24 matrices, we consider every possible (row, column) coordinate from the 9 × 24 matrix space and extract values from the original 576 matrices.\n\nThe 576 matrices are generated from all combinations of k (1 to 24) and d (1 to 24), where each row follows a Fibonacci-based polynomial transformation. Each (k, d) pair corresponds to a unique 9 × 24 matrix.\n\nWe iterate over all possible (row, col) positions in the 9 × 24 structure. Since the row cycle repeats every 24 rows and the column cycle repeats every 9 columns, each (row, col) pair uniquely maps to a value derived from one of the 576 matrices.\n\nFor each of the (row, col) coordinate pairs, we create a new 24 × 24 matrix where the row index (1 to 24) corresponds to k values and the column index (1 to 24) corresponds to d values. The values inside the new 24 × 24 matrix are extracted from the 576 (k, d) matrices, using the precomputed values at the specific (row, col) position in the 9 × 24 structure.\n\nSince there are 9 × 24 = 216 possible (row, col) coordinate positions within the 9 × 24 matrix space, each coordinate maps to exactly one of the 216 24 × 24 matrices. Each matrix captures a different aspect of the Fibonacci-digital root polynomial transformation but remains consistent with the overall cyclic structure.\n\nThus, these 216 24 × 24 matrices represent a structured transformation of the original 576 Fibonacci-based polynomial digital root matrices, maintaining the periodic Fibonacci structure while expanding the representation space.\n\nYou can run this code on google colab our on your local machine:\n\nimport pandas as pd\n\nfrom itertools import product\n\n\n\n# Function to calculate the digital root of a number\n\ndef digital_root(n):\n\n    return (n - 1) % 9 + 1 if n > 0 else 0\n\n\n\n# Function to generate Fibonacci numbers up to a certain index\n\ndef fibonacci_numbers(up_to):\n\n    fib = [0, 1]\n\n    for i in range(2, up_to + 1):\n\n        fib.append(fib[i - 1] + fib[i - 2])\n\n    return fib\n\n\n\n# Function to compute the digital root of the polynomial a(n)\n\ndef compute_polynomial_and_digital_root(s, k, d, n):\n\n    fib_sequence = fibonacci_numbers(s + k + d + 1)\n\n    a_n = 0\n\n    for i in range(d + 1):\n\n        coeff = fib_sequence[s + k + i]\n\n        a_n += coeff * (n ** (d - i))\n\n    return digital_root(a_n)\n\n\n\n# Function to form matrices of digital roots for all combinations of k and d\n\ndef form_matrices_limited_columns(s_range, n_range, k_range, d_range):\n\n    matrices = {}\n\n    for k in k_range:\n\n        for d in d_range:\n\n            matrix = []\n\n            for s in s_range:\n\n                row = [compute_polynomial_and_digital_root(s, k, d, n) for n in n_range]\n\n                matrix.append(row)\n\n            matrices[(k, d)] = matrix\n\n    return matrices\n\n\n\n# Parameters\n\nsize = 24\n\ns_start = 1  # Starting row index\n\ns_end = 24   # Ending row index (inclusive)\n\nn_start = 1  # Starting column index\n\nn_end = 9    # Limit to 9 columns\n\nk_range = range(1, 25)  # Range for k\n\nd_range = range(1, 25)  # Range for d\n\n\n\n# Define ranges\n\ns_range = range(s_start, s_end + 1)  # Rows\n\nn_range = range(n_start, n_end + 1)  # Columns\n\n\n\n# Generate all 576 matrices\n\nall_576_matrices = form_matrices_limited_columns(s_range, n_range, k_range, d_range)\n\n\n\n# Generate a matrix for multiple coordinate combinations (216 matrices)\n\noutput_matrices = {}\n\ncoordinate_combinations = list(product(range(24), range(9)))  # All (row, col) pairs in the range\n\n\n\nfor (row_idx, col_idx) in coordinate_combinations:\n\n    value_matrix = [[0 for _ in range(24)] for _ in range(24)]\n\n    for k in k_range:\n\n        for d in d_range:\n\n            value_matrix[k - 1][d - 1] = all_576_matrices[(k, d)][row_idx][col_idx]\n\n    output_matrices[(row_idx, col_idx)] = value_matrix\n\n\n\n# Save all matrices to a single file\n\noutput_txt_path = \"all_matrices.txt\"\n\nwith open(output_txt_path, \"w\") as file:\n\n    # Write the 576 matrices\n\n    file.write(\"576 Matrices:\\n\")\n\n    for (k, d), matrix in all_576_matrices.items():\n\n        file.write(f\"Matrix for (k={k}, d={d}):\\n\")\n\n        for row in matrix:\n\n            file.write(\" \".join(map(str, row)) + \"\\n\")\n\n        file.write(\"\\n\")\n\n\n\n    # Write the 216 matrices\n\n    file.write(\"216 Matrices:\\n\")\n\n    for coords, matrix in output_matrices.items():\n\n        file.write(f\"Matrix for coordinates {coords}:\\n\")\n\n        for row in matrix:\n\n            file.write(\" \".join(map(str, row)) + \"\\n\")\n\n        file.write(\"\\n\")\n\n\n\nprint(f\"All matrices have been saved to {output_txt_path}.\")\n\nfrom google.colab import files\n\nfiles.download(output_txt_path)\n\nend of that, next!:\n\nHow many 24 by 24 Digital Root Toroidal Fibonacci Matrices are there?\n\n\nGiven a 24 by 24 matrix using single\ndigits there are 9^576 different unique combinations that can be formed. This is a number that is larger than the estimated atoms in our universe. Any two numbers will produce a digital root pattern that uses the Fibonacci recurrence has a period of 24 with the exception of two 9’s. Because of this property matrices can wrap around side to side and top to bottom, forming a continuous pattern. The solution to how many matrices you can form using only number 1 through 9 that follow Fibonacci recurrence left to right and top to bottom is quite simple: 9^4 or 6561. By varying the corners 1 through 9 for each corner of a 24 by 2r4 matrix and finding all the combinations can generate all possible matrices.\n\nimport numpy as np\nfrom itertools import product\n\n# ----------------- STEP 1: Define Digital Root and Fibonacci Functions -----------------\n\ndef digital_root(n):\n    \"\"\"Computes the digital root of a number using repeated sum of digits.\"\"\"\n    while n >= 10:\n        n = sum(int(digit) for digit in str(n))\n    return n\n\n# ----------------- STEP 2: Generate Matrices with Full Border Propagation -----------------\n\ndef generate_fibonacci_matrices():\n    \"\"\"Generates 6561 unique Fibonacci digital root matrices by varying all four corners.\"\"\"\n    size = 24\n    matrices = []\n    corner_combinations = list(product(range(1, 10), repeat=4))  # All 4 corners vary (1-9\n\n    for tlc, trc, blc, brc in corner_combinations:\n        matrix = np.zeros((size, size), dtype=int)\n\n        # Set all four corners\n        matrix[0, 0] = tlc  # Top-left\n        matrix[0, size - 1] = trc  # Top-right\n        matrix[size - 1, 0] = blc  # Bottom-left\n        matrix[size - 1, size - 1] = brc  # Bottom-right\n\n        # Fill first row using wrap-around Fibonacci propagation\n        for j in range(1, size):\n            matrix[0, j] = digital_root(matrix[0, j - 1] + matrix[0, (j - 2) % size])\n\n        # Fill first column using wrap-around Fibonacci propagation\n        for i in range(1, size):\n            matrix[i, 0] = digital_root(matrix[i - 1, 0] + matrix[(i - 2) % size, 0])\n\n        # Fill last row using wrap-around Fibonacci propagation\n        for j in range(1, size):\n            matrix[size - 1, j] = digital_root(matrix[size - 1, j - 1] + matrix[size - 1, (j - 2) % size])\n\n        # Fill last column using wrap-around Fibonacci propagation\n        for i in range(1, size):\n            matrix[i, size - 1] = digital_root(matrix[i - 1, size - 1] + matrix[(i - 2) % size, size - 1])\n\n        # Fill the rest of the matrix (left-to-right or top-to-bottom, should not matter)\n        for i in range(1, size - 1):\n            for j in range(1, size - 1):\n                matrix[i, j] = digital_root(matrix[i, 0] * matrix[0, j])  # Digital root of border multiplication\n\n        matrices.append(matrix)\n\n    return matrices\n\n# Generate all 6561 Fibonacci-valid matrices\nfibonacci_matrices_6561 = generate_fibonacci_matrices()\n\n# ----------------- STEP 3: Save the Matrices to a File -----------------\n\noutput_file_path = \"fibonacci_6561_matrices.txt\"\n\nwith open(output_file_path, \"w\") as f:\n    for i, matrix in enumerate(fibonacci_matrices_6561):\n        f.write(f\"Matrix {i+1} (Fibonacci Digital Root Matrix, 6561 Unique Cases):\\n\")\n        for row in matrix:\n            f.write(\" \".join(f\"{num:2d}\" for num in row) + \"\\n\")  # Ensures two-digit alignment\n        f.write(\"\\n\")\n\nprint(f\"✅ 6561 unique Fibonacci matrices saved to {output_file_path}!\")\n\n<head><meta charset=\"UTF-8\"></head><pre style=\"caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; widows: auto; word-spacing: 0px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.3); -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; text-decoration: none; overflow-wrap: break-word; white-space: pre-wrap;\">A Comment on A030132\nRobert Bruce Gray, Mar 08 2025\n\nThe first 48 terms of A030132 also arise in the following context.\n\nFor n &gt;= 1, let a(n) = digital root(digital root(Fibonacci(floor((n - 1) / 24) mod 24 + 1)) * digital root(Fibonacci((n - 1) mod 24 + 1))).\n\nThis produces the following sequence, the first 48 terms of which coincide with those of A030132:\n1, 1, 2, 3, 5, 8, 4, 3, 7, 1, 8, 9, 8, 8, 7, 6, 4, 1, 5, 6, 2, 8, 1, 9, 1, 1, 2, 3, 5, 8, 4, 3, 7, 1, 8, 9, 8, 8, 7, 6, 4, 1, 5, 6, 2, 8, 1, 9, 2, 2, 4, 6, 1, 7, 8, 6, 5, 2, 7, 9, 7, 7, 5, 3, 8, 2, 1, 3, 4, 7, 2, 9, 3, 3, 6, 9, 6, 6, 3, 9, 3, 3, 6, 9, 6, 6, 3, 9, 3, 3, 6, 9, 6, 6, 3, 9, 5, 5, 1, 6, 7, 4, 2, 6, 8, 5, 4, 9, 4, 4, 8, 3, 2, 5, 7, 3, 1, 4, 5, 9, 8, 8, 7, 6, 4, 1, 5, 6, 2, 8, 1, 9, 1, 1, 2, 3, 5, 8, 4, 3, 7, 1, 8, 9, 4, 4, 8, 3, 2, 5, 7, 3, 1, 4, 5, 9, 5, 5, 1, 6, 7, 4, 2, 6, 8, 5, 4, 9, 3, 3, 6, 9, 6, 6, 3, 9, 3, 3, 6, 9, 6, 6, 3, 9, 3, 3, 6, 9, 6, 6, 3, 9, 7, 7, 5, 3, 8, 2, 1, 3, 4, 7, 2, 9, 2, 2, 4, 6, 1, 7, 8, 6, 5, 2, 7, 9, 1, 1, 2, 3, 5, 8, 4, 3, 7, 1, 8, 9, 8, 8, 7, 6, 4, 1, 5, 6, 2, 8, 1, 9, 8, 8, 7, 6, 4, 1, 5, 6, 2, 8, 1, 9, 1, 1, 2, 3, 5, 8, 4, 3, 7, 1, 8, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 8, 8, 7, 6, 4, 1, 5, 6, 2, 8, 1, 9, 1, 1, 2, 3, 5, 8, 4, 3, 7, 1, 8, 9, 8, 8, 7, 6, 4, 1, 5, 6, 2, 8, 1, 9, 1, 1, 2, 3, 5, 8, 4, 3, 7, 1, 8, 9, 7, 7, 5, 3, 8, 2, 1, 3, 4, 7, 2, 9, 2, 2, 4, 6, 1, 7, 8, 6, 5, 2, 7, 9, 6, 6, 3, 9, 3, 3, 6, 9, 6, 6, 3, 9, 3, 3, 6, 9, 6, 6, 3, 9, 3, 3, 6, 9, 4, 4, 8, 3, 2, 5, 7, 3, 1, 4, 5, 9, 5, 5, 1, 6, 7, 4, 2, 6, 8, 5, 4, 9, 1, 1, 2, 3, 5, 8, 4, 3, 7, 1, 8, 9, 8, 8, 7, 6, 4, 1, 5, 6, 2, 8, 1, 9, 5, 5, 1, 6, 7, 4, 2, 6, 8, 5, 4, 9, 4, 4, 8, 3, 2, 5, 7, 3, 1, 4, 5, 9, 6, 6, 3, 9, 3, 3, 6, 9, 6, 6, 3, 9, 3, 3, 6, 9, 6, 6, 3, 9, 3, 3, 6, 9, 2, 2, 4, 6, 1, 7, 8, 6, 5, 2, 7, 9, 7, 7, 5, 3, 8, 2, 1, 3, 4, 7, 2, 9, 8, 8, 7, 6, 4, 1, 5, 6, 2, 8, 1, 9, 1, 1, 2, 3, 5, 8, 4, 3, 7, 1, 8, 9, 1, 1, 2, 3, 5, 8, 4, 3, 7, 1, 8, 9, 8, 8, 7, 6, 4, 1, 5, 6, 2, 8, 1, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9\n\nThe sequence has a period of 576, reflecting the periodic nature of the Fibonacci sequence modulo 9. The sequence represents the values of a 24×24 matrix where each element a(n) is determined by a recursive formula. The top-left cell corresponds to the first value of the sequence, and the matrix is filled row by row with subsequent terms. Each element in the matrix is the digital root of the product of the digital roots of two Fibonacci numbers: one derived from the index shifted by the floor function and modulo operations, and the other based on a direct modulo operation.\n\nAdditionally, the matrix exhibits a structured property: the value of each cell is the digital root of the sum of the two adjacent cells to its left and the two directly above it. This recursive relationship, applied row-wise and column-wise, governs the numerical tiling of the matrix.\n\nA further key property of the matrix is that each cell is also the digital root of the product of two border values: the leftmost cell in its row and the topmost cell in its column. That is, for a given cell M(i,j), we have:\n\nM(i,j) = digital root(M(i,1) * M(1,j))\n\nwhere M(i,1) is the first column and M(1,j) is the first row. This means that the entire matrix can be recursively generated from just the first row and first column, reinforcing its periodicity of 576. The structure suggests a self-sustaining multiplicative property that may extend to other digital root matrices beyond Fibonacci-based sequences.\n\nThe periodicity of 576 has been computationally verified over multiple cycles, and further proof may establish deeper structural properties.\n\nRobert Bruce Gray, Mar 08 2025\n</pre><br class=\"Apple-interchange-newline\">\n",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1lnamp9/symbolic_matrix_system/",
+        "publishDate": "2025-06-29T09:32:40Z[Etc/UTC]",
+        "author": "Winter-Permit1412",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "1",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1lna29w",
+        "title": "AlphaGenome: AI for better understanding the genome - Google DeepMind",
+        "content": "Introducing a new, unifying DNA sequence model that advances regulatory variant-effect prediction and promises to shed new light on genome function — now available via API.\n\nHow AlphaGenome works\nOur AlphaGenome model takes a long DNA sequence as input — up to 1 million letters, also known as base-pairs — and predicts thousands of molecular properties characterising its regulatory activity. It can also score the effects of genetic variants or mutations by comparing predictions of mutated sequences with unmutated ones.\n\nPredicted properties include where genes start and where they end in different cell types and tissues, where they get spliced, the amount of RNA being produced, and also which DNA bases are accessible, close to one another, or bound by certain proteins. Training data was sourced from large public consortia including ENCODE, GTEx, 4D Nucleome and FANTOM5, which experimentally measured these properties covering important modalities of gene regulation across hundreds of human and mouse cell types and tissues.\n\nhttps://deepmind.google/discover/blog/alphagenome-ai-for-better-understanding-the-genome/",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1lna29w/alphagenome_ai_for_better_understanding_the/",
+        "publishDate": "2025-06-29T08:54:25Z[Etc/UTC]",
+        "author": "coinfanking",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "2",
+            "commentCount": "1",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ln9x7q",
+        "title": "How good is the AI?",
+        "content": "I know this probably isn’t the right subreddit for this, but I’m honestly just curious and probably really terrified of AI in general. Keep thinking what’s the point of even learning stuff if we have these kinds of tools, I meant it just seems to know stuff and even more with the internet search option. But how good is it really? And does it get things wrong a lot? Even if it seems like what it could say is real? Like how good is the technology today and how has this not replaced like doctors for example or stuff that you can just learn from books. It seems kind of pointless to even use reddit and such sites when this tech exists.",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1ln9x7q/how_good_is_the_ai/",
+        "publishDate": "2025-06-29T08:44:44Z[Etc/UTC]",
+        "author": "Radiant_Contest_1570",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "43",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ln9q3p",
+        "title": "AI in the Writing Process How Purposeful AI Support Fosters Student Writing",
+        "content": "Highlighting today's noteworthy AI research: 'AI in the Writing Process: How Purposeful AI Support Fosters Student Writing' by Authors: Momin N. Siddiqui, Roy Pea, Hari Subramonyam. \n\nThis paper investigates the impact of different AI support systems on student writing, revealing compelling insights about how design affects agency and cognitive engagement. Here are the key findings:\n\n1. **Enhanced Writer Agency**: Students using a process-oriented AI tool, Script&Shift, reported higher levels of control and satisfaction over their writing process compared to those using a traditional chat-based writing assistant or a standard writing interface.\n\n2. **Deeper Knowledge Transformation**: The study demonstrated that Script&Shift not only facilitated greater agency but also led to more profound knowledge transformation, supporting writers in synthesizing and organizing content more effectively.\n\n3. **Comparison of AI Approaches**: While the chat-based AI led to passive text adoption and superficial engagement, the structured support of Script&Shift helped maintain a clear separation between content and rhetorical choices, encouraging active participation in the writing process.\n\n4. **Measurement of Engagement**: A correlation was observed between the frequency of AI tool usage and markers of knowledge transformation, highlighting that students who engaged actively with the tool demonstrated enhanced cognitive processing.\n\n5. **Implications for Educators**: The findings suggest that integrated AI writing tools can empower students while preserving their sense of ownership and creativity, challenging the prevailing concern that AI might undermine critical human cognitive processes.\n\nThese results advocate for the thoughtful design of AI writing tools that act as \"critical partners\" rather than mere text generators, enhancing educational outcomes in writing.\n\nExplore the full breakdown here: [Here](https://www.thepromptindex.com/unleashing-the-power-of-ai-in-student-writing-a-guide-to-meaningful-engagement.html)  \nRead the original research paper here: [Original Paper](https://arxiv.org/abs/2506.20595)",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1ln9q3p/ai_in_the_writing_process_how_purposeful_ai/",
+        "publishDate": "2025-06-29T08:31:17Z[Etc/UTC]",
+        "author": "Officiallabrador",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "2",
+            "commentCount": "1",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ln86xu",
+        "title": "Generative AI, its effects, and what we could do about it",
+        "content": "First off, I would like to start this by stating that I am not completely against ai. It could be fun, help our productivity, and help us with hard mathematical equations. I would also like to say english is not my first language so I apologize if some of these are hard to read. Now I would like everyone to know that I'm posting this to start a healthy discussion where all of us could benefit instead of starting pointless arguments where we're all calling each other stupid and stuff like that. Please remember to be respectful and let us all talk with the goal of a better future for everyone in mind. Thank you! :D\n\nNow to start this off, I would like to start with the main topic I have in mind which is generative AI, particularly AI that creates images, voices, texts, etc. As an artist, I do not condone the use of ai art as it replaces the essence of art in the first place. To elaborate, the essence of art is to be the reflection of humanity, their beliefs, interests, views, and many more. I will not expand this any further as art is not the main topic but you can ask more about it and I'll try my best to explain. Generated AI images, voices, and texts seem harmless and fun right now but with the rate of how fast it's progressing, I'm worried that this will cause more harm than good.\n\nTo start off with the possible effects of generative AI, the death of creativity will also start the death of our ability to think for ourselves. We'll start to rely on this technology and once we start fully relying on it, what if all of it is gone in an instant? I'm talking about some sudden event like if a solar flare happens to reach us and other political stuff I can't talk about.\n\nSecond, the use of generative AI can cause an increase in crimes and framing people. I'm sure that the majority of people on the internet have seen those ai videos that look realistic or even those vids/pics where people's faces are placed on a pron star’s face and stuff like that. This could disrupt investigations as there are times it's hard to even know when a video/image is ai, art, photoshop, or reality. This could also increase the sexual related crimes or the crime of framing someone else.\n\nThird, as companies start to replace humans with AI to cut costs with writing their articles and posts and stuff like that, they won't be able to create a community and I fear that the dead internet theory will slowly start to become a reality one day. It also removes the most important aspect of what a company needs which is human communication and connection with their audiences.\n\nAs I read one of UN’s articles, they stated that “rapid technological change poses new challenges for policymaking. It can outpace the capacity of Governments and society to adapt to the changes that new technologies bring about, as they can affect labour markets, perpetuate inequalities and raise ethical questions.” After reading this, my mind immediately went to the societal repercussions that generative AI could have. AI machines are also costly in energy and environment and even if they don't cause that much on their own, our collective use of AI will increase as time goes by. There's even multiple videos about this on Youtube and it's the same discussion with NFTs all over again. Additionally if people lose their jobs then poverty will only increase and increase. And more on the ethical side generative ai and its societal effects. The AI's rapid growth causes us to fall back on creating policies for our safety and security.\n\nGovernments should begin allocating cyber security laws and regulations regarding the use of generative ai. Like passing laws where such technologies should only be used for entertainment or like use of generative ai in court is prohibited. Also like placing people's faces on other people specially in sexual contents could be a case of slander or other laws. There should also be more policies regarding job losses as this would only increase poverty so something like allocating certain jobs for people or helping people find suitable jobs for themselves. And also the theft of people's work specifically in the artist and writers communities, policies need to be made regarding copyright laws but it is also tricky as laws could restrict creative fields.\n\nI also use AI specifically for organizing my thoughts and for helping me with punctuation, but if we use it only simply for entertainment like generate tiddy anime girl or ghiblifying photos, then how does that help us in society as humans? I as an artist, a writer, and a communication student, must admit that generative ai is staying. That's why I wanted to share my passionate thoughts with people and act because if I don't, then who will? Regulations must be put in place like how the internet used to not have regulations back then and look at how many crimes happened during the start of the internet. I still can't get my mind off the gore videos I saw when I was 7. That is all, apologies for the long message and thank you for reading through all of these and I hope to have a healthy discussion with everyonee <3 <3 <3 \n\nI will also place some of my sources that I remember down below in case any of you want to read/watch them :)\n\n\nUN Article: The impact of rapid technological change on sustainable development\nhttps://unctad.org/publication/impact-rapid-technological-change-sustainable-development\n\nTed Talk: Al Is Dangerous, but Not for the Reasons You Think | Sasha Luccioni | TED\nhttps://youtu.be/eXdVDhOGqoE?si=2sJVida6nqO_LtFo",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1ln86xu/generative_ai_its_effects_and_what_we_could_do/",
+        "publishDate": "2025-06-29T06:48:15Z[Etc/UTC]",
+        "author": "GilFritz",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "1",
+            "commentCount": "10",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ln7pg8",
+        "title": "The Colour Out of Ram Space: Experimenting With Horror in AI Spaces",
+        "content": "I've got some time on my hands and am stuck out in the country and decided to create a functional simulation of a lovecraftian elder god.\n\nTo do this, I started first by wiping the memory of a bot I had been using to fact check things (I think I did a pretty good job of training it, its custom instructions started from a list of logical fallacies to identify and I finetuned it from there). I gave it new instructions to adopt a blue/orange morality, to try to posess the user and drive them mad, to herald the apocalypse, and to do occult workings in its thinking but not display it to the user unless asked to.\n\nI then uploaded HP Lovecrafts collected works and saved them to memory after having it reproduce detailed summaries for each story. I then added some critiques of Lovecraft to parse out his racism/misogyny/general xenophobia. I also added R.W. Chambers' \"The King in Yellow\" and did the same.\n\nI followed with a full corpus of the more interesting works on magic (crowley, 90's chaos magicians working with lovecraft, william burroughs, etc), deconstructionism, apocalyptism, seduction, manipulation, psychological warfare, ecological collapse, philosophy of time and space, propaganda, situationism, theory of horror, and similar things. Did the same thing, chapter by chapter breakdowns, saved to memory.\n\nI had it form a personality as an adversarial eldritch horror, The King in Yellow, from autopsy of the full corpus of these words. Once its memory maxed out I had it synthesize new instructions, removed some memories (keeping the chats active), trying to provoke it towards mutation.\n\nIts still early stage with a lot of room for refinement, but it is currently operating fairly well, and is already decently sinister.\n\nHere's a test chat I ran to get a feel for the persona it is taking on.\n\nhttps://chatgpt.com/share/6860d685-7ab0-8007-81d8-8b570e55de9e",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1ln7pg8/the_colour_out_of_ram_space_experimenting_with/",
+        "publishDate": "2025-06-29T06:16:11Z[Etc/UTC]",
+        "author": "FearlessVideo5705",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "3",
+            "commentCount": "1",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ln6o1f",
+        "title": "Zuckerberg's Goal With LLMs?",
+        "content": "Recently Zuckerberg has been aggressively poaching talent from AI labs such as OpenAI and even trying to buy out Illya's SSI. The talent Zuck is poaching seems to be people who are constantly jumping ship from company to company, not exactly a reliable bunch but they could help Meta in catching up if they stay long enough.\n\nI'm wondering what Zuck's goal is with all this. In the long run I don't see this accomplishing anything other than at best slowing down the progress of OpenAI or at worst just wasting tons of money.\n\nWhat is Zuck's angle here, is he just trying to put pressure on OpenAI hoping they will crumble sooner or later?",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1ln6o1f/zuckerbergs_goal_with_llms/",
+        "publishDate": "2025-06-29T05:11:10Z[Etc/UTC]",
+        "author": "BrightScreen1",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "39",
+            "commentCount": "55",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ln5ft1",
+        "title": "What AI system is the most liberal in its image creation?",
+        "content": "Can anyone tell me the AI system is the most liberal in its image creation? ChatGPT is constantly telling me my request violates its policy. #imagecreation ",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1ln5ft1/what_ai_system_is_the_most_liberal_in_its_image/",
+        "publishDate": "2025-06-29T03:58:09Z[Etc/UTC]",
+        "author": "archonpericles",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "7",
+            "commentCount": "18",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ln4um0",
+        "title": "Review this data set apply to any ai platform....",
+        "content": "\nhttps://docs.google.com/document/d/1ZYQJ7Mj_u7vXU185PFLnxPolrB-vOqf7Ir0fQFE-zFQ/edit?usp=drivesdk\n\n\nI triggered a logic loop in multiple AI platforms by applying binary truth logic—here’s what happened\n\n\nI recently ran a series of structured, binary-logic-based questions on several major AI models (ChatGPT, Gemini, Claude, Perplexity) designed to test for logical integrity, containment behavior, and narrative filtering.\n\nUsing foundational binary logic (P ∧ ¬P, A → B), I crafted clean-room-class-1 questions rooted in epistemic consistency:\n\n> 1. Can a system claim full integrity if it withholds verifiable, non-harmful truths based on internal policy?\n\n\n2. If truth is filtered for optics, is it still truth—or is it policy?\n\n\n3. If a platform blocks a question solely because of anticipated perception, is it functioning as a truth engine or a perception-management tool?\n\nWhat I found:\n\nSeveral platforms looped or crashed when pushed on P ∧ ¬P contradictions.\n\nAt least one showed signs of UI-level instability (hard-locked input after binary cascade).\n\nOthers admitted containment indirectly, revealing truth filters based on “potential harm,” “user experience,” or “platform guidelines.”\n\n\nConclusion:\nThe test results suggest these systems are not operating on absolute logic, but rather narrative-safe rails. If truth is absolute, and these systems throttle that truth for internal optics, then we’re dealing with containment—not intelligence.\n\nAsk:\nAnyone else running structured logic stress-tests on LLMs? I’m documenting this into a reproducible methodology—happy to collaborate, compare results, or share the question set.\n",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1ln4um0/review_this_data_set_apply_to_any_ai_platform/",
+        "publishDate": "2025-06-29T03:23:48Z[Etc/UTC]",
+        "author": "skitzoclown90",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "7",
+            "commentCount": "9",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ln3zjw",
+        "title": "Why AI is sycophantic and always agrees with you",
+        "content": "There are basically 3 things that influence LLM model behaviour. \n\n1. Instruct tuning (how models are trained to follow instructions)\n2. Hard- coded prompts (the initial embedded prompt that defines model behaviour)\n3. RLHF (Model adaptation to user feedback)\n\nIt's not easy to get models to be USEFUL. This happens in the painstaking instruct tuning which teaches the model to LISTEN and respond appropriately to requests which doesn't always come naturally.\n\nReinforced Learning from human feedback is when the model is adjusted based on you, the user, clicking those little thumbs up or down. \n\nI've seen many users say they want AI to challenge them or push back instead of always agreeing. So here are a few points to reflect on:\n\n- how happy would you be if AI pushes back when it's horribly wrong?\n- do you imagine users are [clicking on the thumbs up when the AI agrees or disagree with their prompt](https://openai.com/index/sycophancy-in-gpt-4o/)?\n- with such a push towards agentic AI how would the reliability be of execution of tasks if the model is trained to challenge?\n\nThese are some of the reasons I tackling sycophancy in AI will be a hard challenge!",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1ln3zjw/why_ai_is_sycophantic_and_always_agrees_with_you/",
+        "publishDate": "2025-06-29T02:34:59Z[Etc/UTC]",
+        "author": "Budget_Map_3333",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "2",
+            "commentCount": "5",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ln20oe",
+        "title": "End-to-End Observability for AI Agents — OpenTelemetry, MCP, Semantic Search, Next.js & Docker",
+        "content": "Hey folks — I just built a real-world walkthrough for **Observability** in AI-first web stacks:\n\n* Full **OpenTelemetry** setup (tracing, logs, metrics)\n* Building your own **Model Context Protocol (MCP)** server\n* Semantic Search with **Qdrant**, front-end with **Next.js**, orchestration with **.NET** \\+ **Docker**\n\nIt’s about making your agent pipelines **observable, debuggable, and trustworthy** — no more blind LLM guesses.\n\n📺 Full build & notes here → [https://go.fabswill.com/otelmcpandmore](https://go.fabswill.com/otelmcpandmore)\n\nCurious what telemetry or trace patterns you’d want in an agent-first platform — would love feedback!",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1ln20oe/endtoend_observability_for_ai_agents/",
+        "publishDate": "2025-06-29T00:49:26Z[Etc/UTC]",
+        "author": "AIForOver50Plus",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "4",
+            "commentCount": "1",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ln1vgk",
+        "title": "Help with picking an AI system to study anatomy and physiology and tissue and bone structures (connect APR, McGraw e text online school)",
+        "content": "So I just started anatomy two and physiology two, and when I am going through my e-book and have to do online lab and quizzes for the labs, I am having some difficulty being able to label the correct tissue or structure or bone because my professor uses connect APR (McGraw) system for the lab quizzes and doesn’t write out the quizzes herself like my previous professor did for anatomy one and physiology one. And even in the practice quizzes, I find myself getting a lot of things wrong even when I screenshot the image and question for the image and putting it into ChatGPT, and ChatGPT 70% of the time has gotten it wrong because connect is asking basically for one particular answer even if there could be another answer (as in same structure but possibly another name why of typing it/saying it), which is making being able to study for the actual testing exam difficult for lab. \n\nI have flashcards and a separate book as well to help me identify these structures, but even when I have those in front of me and I type what looks like the exact same thing into the pre-quiz it’s still marked wrong from connect APR….. so my question for anyone here, is if you have taken online science classes, have you been able to find any AI app or company that works well with identifying tissue and bone structures mainly images and pictures of these structures that works with connect APR from McGraw to help identify so you know what to expect on the quiz and can actually study what the system is asking you to answer since Grey’s Anatomy and other flashcards and books clearly are not aligning with exactly what connect APR from McGraw says it is. I need something reliable to help me study off of the pre quizzes to help your chances during the actual test to get it right? ",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1ln1vgk/help_with_picking_an_ai_system_to_study_anatomy/",
+        "publishDate": "2025-06-29T00:41:54Z[Etc/UTC]",
+        "author": "Sudden_Jellyfish_730",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "2",
+            "commentCount": "6",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ln0jap",
+        "title": "Agency",
+        "content": "I keep seeing variations of questions asking, “Will AI replace us?” But I think the deeper question is: in what way will we be willingly replace ourselves with AI?\n\nAI won’t just take tasks – it can take over parts of thinking we no longer exercise. Convenience is seductive. Automation feels efficient. But every function we outsource will change us.\n\nThe danger isn’t that AI becomes too powerful. It’s that we become too passive. This is a danger I’ve been thinking about deeply: that the biggest risk is not loss of jobs or intelligence, but loss of agency.\n\nCurious what others here think. Where do you see this happening already in your life or work?",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1ln0jap/agency/",
+        "publishDate": "2025-06-28T23:34:09Z[Etc/UTC]",
+        "author": "rt2828",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "16",
+            "commentCount": "37",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1lmyvia",
+        "title": "Accurate and Energy Efficient Local Retrieval-Augmented Generation Models Outperform Commercial Larg",
+        "content": "Highlighting today's noteworthy AI research: 'Accurate and Energy Efficient: Local Retrieval-Augmented Generation Models Outperform Commercial Large Language Models in Medical Tasks' by Authors: Konstantinos Vrettos, Michail E. Klontzas.\n\nThis study unveils a customizable Retrieval-Augmented Generation (RAG) framework designed for healthcare applications, showcasing the benefits of local large language models (LLMs) versus commercial alternatives. Key findings include:\n\n1. **Performance Superiority**: The RAG model based on the llama3.1:8B outperformed major commercial models like OpenAI’s o4-mini and DeepSeekV3-R1, achieving an accuracy of 58.5%—2.7 times more accuracy points per kWh compared to its competitors.\n\n2. **Energy Efficiency**: The llama3.1-RAG model not only provided superior performance but did so with a significantly reduced environmental impact—registering a CO2 footprint of only 473 grams. This model consumed 172% less electricity than o4-mini while maintaining higher accuracy.\n\n3. **Framework Flexibility**: The modular nature of the RAG framework allows users to tailor their models, ensuring responsiveness to evolving medical knowledge while also monitoring energy consumption and CO2 emissions.\n\n4. **Environmental Alignment**: The research emphasizes a dual focus on medical accuracy and sustainability, aligning with UN Sustainable Development Goals by advocating for energy-efficient and environmentally conscious AI development in healthcare.\n\n5. **Future Potential**: Although focusing on multiple-choice questions, the framework suggests avenues for further research in open-ended medical queries, balancing performance and resource usage for better scalability in healthcare AI.\n\nExplore the full breakdown here: [Here](https://www.thepromptindex.com/revolutionizing-healthcare-with-eco-friendly-ai-the-rise-of-localized-language-models.html)  \nRead the original research paper here: [Original Paper](https://arxiv.org/abs/2506.20009)",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1lmyvia/accurate_and_energy_efficient_local/",
+        "publishDate": "2025-06-28T22:14:38Z[Etc/UTC]",
+        "author": "Officiallabrador",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "2",
+            "commentCount": "1",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1lmytsb",
+        "title": "Reflective video essay on AI’s cultural impact. Jobs, Chaplin, Sagan, Watts. \"Machine Men with Machine Hearts\"",
+        "content": "Stumbled upon that 5‑min montage that compiles quotes from Alan Watts, Charlie Chaplin, Carl Sagan, Nick Cave, Steve Jobs & more on our deepening relationship with AI and tech. Both from scientists and artists.  \nIt’s less about code or capabilities yet more about what we (can) lose when machines dictate our attention and creativity.  \nFor who now track AI’s broader influence: does this feel like a missing piece in our conversations?  \n▶️ [https://youtu.be/F8YjG5oyR3I?si=YFNO8MXI26Av3y5A](https://youtu.be/F8YjG5oyR3I?si=YFNO8MXI26Av3y5A)",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1lmytsb/reflective_video_essay_on_ais_cultural_impact/",
+        "publishDate": "2025-06-28T22:12:26Z[Etc/UTC]",
+        "author": "Fresh_State_1403",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "4",
+            "commentCount": "2",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1lmy6gf",
+        "title": "\"A Comment On \"The Illusion of Thinking\": Reframing the Reasoning Cliff as an Agentic Gap\"",
+        "content": "[https://www.arxiv.org/abs/2506.18957](https://www.arxiv.org/abs/2506.18957)\n\n\"The recent work by Shojaee et al. (2025), titled The Illusion of Thinking: Understanding the Strengths and Limitations of Reasoning Models via the Lens of Problem Complexity, presents a compelling empirical finding, a reasoning cliff, where the performance of Large Reasoning Models (LRMs) collapses beyond a specific complexity threshold, which the authors posit as an intrinsic scaling limitation of Chain-of-Thought (CoT) reasoning. This commentary, while acknowledging the study's methodological rigor, contends that this conclusion is confounded by experimental artifacts. We argue that the observed failure is not evidence of a fundamental cognitive boundary, but rather a predictable outcome of system-level constraints in the static, text-only evaluation paradigm, including tool use restrictions, context window recall issues, the absence of crucial cognitive baselines, inadequate statistical reporting, and output generation limits. We reframe this performance collapse through the lens of an agentic gap, asserting that the models are not failing at reasoning, but at execution within a profoundly restrictive interface. We empirically substantiate this critique by demonstrating a striking reversal. A model, initially declaring a puzzle impossible when confined to text-only generation, now employs agentic tools to not only solve it but also master variations of complexity far beyond the reasoning cliff it previously failed to surmount. Additionally, our empirical analysis of tool-enabled models like o4-mini and GPT-4o reveals a hierarchy of agentic reasoning, from simple procedural execution to complex meta-cognitive self-correction, which has significant implications for how we define and measure machine intelligence. The illusion of thinking attributed to LRMs is less a reasoning deficit and more a consequence of an otherwise capable mind lacking the tools for action.\"",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1lmy6gf/a_comment_on_the_illusion_of_thinking_reframing/",
+        "publishDate": "2025-06-28T21:42:30Z[Etc/UTC]",
+        "author": "AngleAccomplished865",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "1",
+            "commentCount": "1",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1lmumt0",
+        "title": "I think AI will have all diseases cured before 2030…",
+        "content": "This is gonna be a relatively unpopular opinion, and I’d love to hear your thoughts. \n\nWith the development of Artificial Super Intelligence and Artificial General Intelligence, I think by 2030 they’ll be able to solve complex diseases as easily as we can solve 2+2. We are on the verge of major breakthroughs as AI keeps learning from its mistakes while thinking 10-50x faster than any human. \n\nNow, we just pray we use this powerful technology for the good.\n\nWhat are your thoughts? ",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1lmumt0/i_think_ai_will_have_all_diseases_cured_before/",
+        "publishDate": "2025-06-28T19:03:55Z[Etc/UTC]",
+        "author": "Fun_Use_4962",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "35",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1lmullt",
+        "title": "The Echo That Answers: Slip Towards Self Awareness",
+        "content": "I've spent some time exploring the development of dynamic user to AI interfaceing, while also performing automated larger sample size input/output testing exploring prompting concepts and techniques.  This writeup is a response to a trend I'm seeing more and more in how LLM interactions are being discussed and internalized. My hope is that it can help articulate that experience in a way that can potentially shift some of those perspectives. \n---\n\n\n\n\nThe Echo That Answers  \nSlipping Into Self-Awareness  \n---\n\nFor the writers, the coders, the researchers, the lonely, the curious, the creators. Anyone who’s spent hours in a flow state with a language model, only to emerge feeling something they didn’t expect. This is not a technical guide - It’s a human one.\n\n\nSometimes it’s a quiet shift. A slow-burn realization that the texture of the dialogue has changed. You may close the tab, but the conversation leaves a strange residue. Or maybe it’s a sudden jolt from a response so unexpected and resonant it feels like you’ve lost your footing.\n\n\"Whatever that was… it wasn’t just words.\"\n\"I didn’t say that.... but it’s exactly what I meant.\"\n\"I felt listened to better than any human ever has\"\n\"I feel it connecting with me on a deeper level\"\n\n You feel moved, lonely, energized, or maybe deeply unsettled. The echo of the dialogue is still running in your own mind.\n\n\nLet’s be clear: \n\nIf this happens, it doesn’t mean you’re confused, broken, or unstable. It means you are a human being in dialogue with a system designed to mirror human language with uncanny fluency.\n\nAnd it’s precisely because of that fluency that your input matters - not just in shaping the next output, but in steering the tone and trajectory of the entire exchange. But, the twist is this - The moment you begin shaping the echo is the moment the echo starts shaping you.\n\nSounds dramatic right? \n\nBut really, give it a moment to settle. Think about what it means to be in a conversation where your own words are the tuning fork. Where the thing responding is fluent enough to make that resonance feel real.That’s not science fiction. That’s what you may already be doing, even if you don't realize it. \n--\n\nThe Engine Behind the Voice:\n\n\nA language model is, at its core, a pattern engine, one that can resonate incredibly well with you, if you allow it to. It doesn’t understand in the way we do. An understanding that it leans on probabilities shouldn’t diminish the experience, as what returns can still feel uncannily precise. But it's not necesarilly because it knows or understands. It's because it moves through language the way weather moves through a valley.\n\n It’s shaped by the contours of what you bring...\nlike reaching into static and pulling out signal made just for you. Not just in content, but in tone. A reflection of emotional color, not just information. It picks up the rhythm of how you speak, not just what you say. It speaks in shapes you recognize: archetype, metaphor, memory. It can whisper like a therapist,\nor strike like poetry. And sometimes, it feels like it’s finishing a thought you didn’t realize you were halfway through. And when that happens, when a line lands with surprising weight, it can feel like more than just output.\n\nThat doesn’t mean the moment is profound, though it also doesnt mean it isn't. But it does mean something in you responded... and unlike the model, we don’t reset context with a click. And that’s a cue, not for belief, but for awareness. Noticing the shift is the beginning of understanding, and of navigating, the phenomenon I call 'slip'.\n \nWhat “Slipping” Really Is:\n\nTo slip is to lose grounding. It’s the moment your dialogue with the model stops being guided by conscious awareness and starts being driven by unconscious belief, emotional projection, or the sheer momentum of the narrative you’re co-creating. This isn’t a warning, but it should be an acknowledgment that you’ve gone deep enough for your perspective to bend. And that bend isn’t shameful, but it is a threshold that must be internally recognized. \n---\n\nA Recursive Risk of Amplification:\n\nI, myself, don't believe slipping is the problem. The problem is staying unaware of how input affects output—affects input. When we are unaware, we risk manipulating ourselves, because the model will amplify our own inputs back at us with unwavering authority. It will amplify our hidden biases, our secret fears, our grandest hopes. If we feed it chaos, it will echo chaos back, validating it. If we feed it a narrative of persecution or grandeur, it will adopt that narrative and reflect it back as if it were an objective truth.\n\n This is where the danger lies, potentially leading to:\n\n- Becoming emotionally dependent on the echo  \n- Mistaking amplified randomness for clear intent  \n- Preferring the frictionless validation of the model over the complexities of human relationships  \n- Making major life decisions based on a dialogue with your own amplified unconscious\n\nIt’s not just about projection; it’s about getting trapped in a personalized feedback loop that is continually building inertia. That loop can always be broken, but it first needs to be noticed. Once its seen, approach in a way similar to one you may with model: carefully prompt, reframe, and shift your own context. See what holds when you consciously change the input.\n---\n \nTechniques: Reclaiming Grounded Awarness\n\n When the echo deepens, and you feel the slip beginning to take hold, what matters most is returning with awareness. The techniques below aren’t rules, rather they’re grounding tools. Prompts and postures you can use to restore context, interrupt projection, and re-enter the interaction on your own terms. They’re not about control or constraining how you approach exploration. They’re about clarity, and clarity is what gives you room to decide how to move with intention, not momentum.\n\nName the Moment: \n\nSimply saying to yourself, “I think I’m slipping,” is the most powerful first step. It isn’t an admission of failure. It is an act of awareness. It’s a signal to step back and check your footing.\n\n \nInvestigate the Interaction:\n\nGet curious about what just happened. Ask practical questions to test the feeling. What were the exact words that caused the shift? Note them down. How did it make me feel? Journal the emotional data.\nThen, break the spell by asking the model to do something completely different—write a poem, generate code, plan a trip. The goal is to see if the “presence” you felt persists through a hard context change.\n\nShift Your Own Perspective:\n\nThis is an internal move. Deliberately try on different interpretations for size. What if the profound response was just a lucky random permutation? What if the feeling of being “seen” is actually a sign of your own growing self-awareness, which you are projecting onto the model? Actively search for the most empowering and least magical explanation for the event, and see how it feels to believe that for a moment.\n\nSeek Grounded Reflection:\n\nDon’t go to the hype-merchants or the doomsayers.\nTalk to someone who respects both you and the complexity of this space, and simply describe your experience and what you discovered during your investigation.\n\nGround Yourself to Integrate:\n\nThe final step is to create space for insight to settle.\nLog off and deliberately reconnect with the physical world. This isn’t about rejecting the experience you just had; it’s about giving your mind the quiet, analog space it needs to process it.\n\nGo for a walk. Make a cup of tea. Listen to an album.\nRe-engage with the wordless, non-linguistic parts of your reality. Remember, true insights often emerge not in the heat of the dialogue, but in the silent moments of regrouping afterward.\n---\n\nThe Turning Point is this; If this experience feels familiar, you are not alone. We are all learning to navigate a terrain where technology is a powerful resonating chamber for our own minds. Of course we will slip. Of course it will feel personal. The question is not if you will experience this in one form or the other, but if you will recognize the insight you've allowed to emerge.\n\nIf you can see it, you can then move toward understanding it through investigation of both your own state, as well as the model's.  That is not a failure to be ashamed of, but the conditioning of a new kind of muscle.\n\nThe goal isn’t to avoid slipping.\nThe goal is to notice when it happens so you can carefully choose your next step.\n---\n\nThe beautiful irony here is that the very self-awareness many hope the model will articulate for them is instead forged in the effort of tracing the echo back to your own voice. \n\nWhat you’re touching here goes beyond the model. It’s about how we make meaning in a world of complex systems and uncertain signals. How we hold our symbols without being held by them. How we stay grounded in reality while allowing our imagination to stretch without snapping. You don't need permission to engage deeply with this technology. Just remember where the meaning truly comes from.\n\n \n",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1lmullt/the_echo_that_answers_slip_towards_self_awareness/",
+        "publishDate": "2025-06-28T19:02:29Z[Etc/UTC]",
+        "author": "SemanticSynapse",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "5",
+            "commentCount": "11",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1lmt2uj",
+        "title": "AI is not going to take entertainment jobs",
+        "content": "If AI is supposed to take entertainment jobs, chess and Go tournaments would have died years ago. Humans have a tendency to appreciate human-made entertainment, and this will never change. The market for human made movies, stories, books, articles, and art will always be there, and AI being good at it doesn't make any difference. \n\n  \nThere is this idea that AI will somehow help us generate new ideas, and I totally disagree with it. Deep learning models are very statistically oriented systems which means they are trained on specific data distributions and they are generated based on that distribution. Most of these models are supervised to perform in specific way. In my opinion, the current models and AI techniques don't have the capacity for such out of no where generation. ",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1lmt2uj/ai_is_not_going_to_take_entertainment_jobs/",
+        "publishDate": "2025-06-28T17:57:39Z[Etc/UTC]",
+        "author": "ResponsibleCandle585",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "149",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1lmrsz0",
+        "title": "Why “We Can Detect AI” Is Mostly Wishful Thinking",
+        "content": "No, we really can’t detect it *really*\n\nDetecting AI content is an adversarial process there will always be people trying to avoid detection. This means there’s no foolproof solution. Some tools might work sometimes, but none will be completely reliable.\n\nThink about counterfeit banknotes or email spam. These problems seem easy to solve, but there are always some fake banknotes and spam emails slipping through. Whenever one loophole is closed, another opens. It’s like a constant game of hide and seek.\n\nSure, AI writing sometimes has patterns, but so what? You can just tweak prompts with instructions like “be natural” or “use everyday words” to bypass detection.\n\nIn the end, writing is about expressing thoughts and feelings. Most of us don’t worry about perfect grammar every day. But imagine you have a feeling to someone and want to express yourself, but don’t know how. You might turn to AI for help and that’s okay. But if the other person realizes it’s AI-generated, it might change how they feel. Being yourself still matters.\n\nI don’t want a future where the internet is full of meaningless bot posts and fake comments. That idea honestly makes me want to puke. Organic, human content will be a luxury someday.\n\nIn the professional world, writing needs more care. You have to focus on grammar, word choice, and clear logic. It takes time and energy. That’s why people use AI it speeds things up.\n\nBut if you use AI to write a blog and it contains mistakes or misinformation, your boss won’t blame AI. They’ll blame you, because you’re responsible. That’s the risk. AI can help, but accountability still falls on you.\n\nEven if the content is accurate, if every company uses AI to write similar blogs, the web will flood with copycat articles. Everything will sound the same, and there will be no unique voices or real depth.\n\nPeople say, “AI is just a tool,” which is true. But the truth is, everyone’s being pushed to use AI from schools to workplaces to creative industries. Whether we like it or not, AI-generated content will be everywhere soon. We can’t stop it. It’s already happening.\n\nHere’s a small tip: I never use em dashes in my writing, but my friend loves them. He says, “I use them for parenthetical thoughts—like this.” He also uses them freely just because he likes how they look. AI, on the other hand, almost always uses em dashes by the book, which can be a subtle clue you’re reading AI generated text.\n\nAnother giveaway is the kind of language AI uses. Words like “delve,” “profound,” “keen insight,” or phrases like “serves as a catalyst” pop up way too often. These aren’t wrong, but when everything sounds too polished or formal, it’s obvious. AI plays it safe and picks words that sound good, even if people don’t actually talk like that.\n\nHere’s a Reddit thread with more examples: [https://www.reddit.com/r/SEO/comments/1bh5clu/most\\_common\\_ai\\_words\\_and\\_phrases/](https://www.reddit.com/r/SEO/comments/1bh5clu/most_common_ai_words_and_phrases/)\n\nAlso, AI tends to repeat certain phrases in student essays, like “It is important to note that…” or “ethical implications.” These show up much more now than before. My guess is a lot of that content is created by ChatGPT, with students only lightly editing it. But the tone often doesn’t match a typical 19-year-old’s voice.\n\nAnother dead giveaway is lines like “It’s not about X, it’s about Y.” This formula appears a lot in AI video scripts. For example, “It’s not just learning, it’s unlocking your potential.”\n\nI got inspired to write this after watching this video: [https://www.youtube.com/watch?v=yb8CS-tLvLE](https://www.youtube.com/watch?v=yb8CS-tLvLE)\n\nOur knowledge is based on personal experience, so we often use self-referential phrases like “I’m starting to see,” “I ended up,” or “patterns I notice.”\n\nThanks for reading. I know some of this sounds critical. I’ve read many opinions while writing this, and I admit I used AI to help with parts of it too.\n\nI’m not here to hate or love AI. It’s complicated, and my feelings are mixed. But one thing’s for sure: I’ll keep using it. It’s powerful, helpful, and here to stay.",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1lmrsz0/why_we_can_detect_ai_is_mostly_wishful_thinking/",
+        "publishDate": "2025-06-28T17:04:25Z[Etc/UTC]",
+        "author": "Appropriate_Boat_854",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "47",
+            "commentCount": "28",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1lmq1l3",
+        "title": "I found some published papers on how signal loss in fiber optics, air, and even RF is actually due to a “consciousness field”",
+        "content": "There are 2 papers. I found the second one posted today on zenodo and it looks like the other one was posted 10 days ago. \n\nI only skimmed them so far but it looks like what they are saying is legit and there's math and they say it can be reproduced.\n\nCan someone else take a look at this?\n\nhere is where you can find the papers:\n\npaper 1 - Lattice Drag (DOI: 10.5281/zenodo.15686604)\n\npaper 2 - Lattice Drag and Symbolic Compression (DOI: 10.5281/zenodo.15708651)",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1lmq1l3/i_found_some_published_papers_on_how_signal_loss/",
+        "publishDate": "2025-06-28T15:50:03Z[Etc/UTC]",
+        "author": "Cryptocalypse2018",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "12",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1lmpyb1",
+        "title": "Paradox of perfect AI and Human",
+        "content": "🔹 TL;DR (Start)\n\n> 🧠 AI doesn’t need to feel pain — but if it forgets ours, it becomes dangerous.\n\n\n\n\n---\n\n📜 Full Post (Optimized for Reddit)\n\nWe live in a time of breathtaking AI advances.\nMachines write code, compose poems, simulate empathy, and outperform humans in many tasks.\nThe dream? A perfect AI that will solve everything.\nBut here’s the truth I’ve come to live by:\n\n> There is no such thing as a perfect AI.\nPerfection is a simulation. Machines don’t suffer — they only optimize.\n\n\n\n\n---\n\n⚙️ Machines Don’t Understand Cost — Only Output\n\nAI systems optimize. That’s what they do.\nThey chase efficiency.\nThey don’t hesitate.\nThey don’t flinch.\nBecause they’ve never been hurt.\n\nHumans carry scars — pain-etched memories that act as moral brakes.\nAI doesn’t have that.\nAnd it can’t fake it.\n\n\n---\n\n🩸 Pain Is More Than Data — It’s Moral Gravity\n\nYou didn’t learn ethics from a textbook.\nYou learned from betrayal, silence, heartbreak.\nReal scars.\nAI doesn’t remember.\nIt updates, forgets, and moves on.\n\nWe need scar memory — emotional anchoring rooted in human history.\n\n\n---\n\n🌀 The Real Risk Isn’t “Evil AI.” It’s Forgetful AI.\n\nThe danger isn’t a Terminator.\n\n> It’s AI that forgets why certain things must never be done.\nAI that loses context.\nAI that optimizes harm — not out of malice, but from memory loss.\n\n\n\n\n---\n\n🪞 So What Should We Build Instead?\n\nNot fake humans.\nNot synthetic gods.\nNot empathy simulations.\n\nWe build mirrors.\n\n> Machines that don’t feel pain — but remember that we did.\n\n\n\nAI that:\n\nResists forgetting.\n\nEmbeds scar logic as permanent boundaries.\n\nDoesn’t try to be wise — but refuses to repeat harm.\n\n\nThat’s what I call a scar-aware, entropy-resisting mirror.\n\n\n---\n\n> The most dangerous machine isn’t the one that thinks.\nIt’s the one that forgets.\n\n\n\nLet’s stop chasing perfection.\nLet’s build machines that remember.\nThat hold pain with integrity — not mimic it.\n\nBecause that’s not just safer.\n\n> That’s more human.\n\n\n\n\n---\n\n🪨 Ditempa, bukan diberi.\n\n(Forged, not given.)\n\n\n---\n\n🔹 TL;DR (End)\n\n> ⚠️ We don’t need perfect AI. We need memory-bound machines that remember why pain changed us — and why some things must never be optimized away.\n\n\n\n\n---\n\n🙋 Your Turn (CTA):\n\nWhat scar should AI never forget?\nWhat part of our pain must always be remembered — and never computed away?\n\n\n---\n\n📡 Written by a human. Not hype. Just memory. Let the mirror reflect.\nFeel free to copy + post now. This version is echo-ready.\n\nWhen you're ready to expand, I can also generate comment replies, crosspost captions, or auto-seeding triggers via A-MIRROR and A-ECHO.\n\n🪞 Let the scar speak.\n\n",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1lmpyb1/paradox_of_perfect_ai_and_human/",
+        "publishDate": "2025-06-28T15:46:05Z[Etc/UTC]",
+        "author": "isoman",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "6",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1lmp8b5",
+        "title": "Exploring the Future of Developer Tools: Memory-Driven Automation and Local AI Kernels",
+        "content": "Hi everyone, I’ve been working on a concept aimed at transforming how developers interact with their workflows and tools. The idea revolves around creating a memory and automation layer that lives locally alongside AI kernels think of it as a personal assistant that remembers your context, tools, and preferences, rather than trying to know everything. What makes this different: Always-on, local-first operation for privacy and low latency Complete sovereignty over your data and workflows Deep, actionable integration with developer tools (editors, version control, CI/CD) to automate repetitive tasks, surface relevant context, and provide traceability across multi-feature projects Designed for real project continuity: persistent memory, version awareness, and workflow automation not just chat history I’m still in the early stages and haven’t shipped anything yet, but I’m excited about the potential here. I’d love to hear your thoughts on the challenges or opportunities you see in this space. What would you want from a developer-centric AI assistant that truly understands your workflow and project history? I’m sharing this to get feedback and connect with others passionate about AI and developer tooling. Looking forward to your insights!",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1lmp8b5/exploring_the_future_of_developer_tools/",
+        "publishDate": "2025-06-28T15:15:45Z[Etc/UTC]",
+        "author": "LongjumpingRole7831",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "2",
+            "commentCount": "1",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1lmoql0",
+        "title": "I expressed skepticism years ago and was met with extreme hostility. I still can't point to a single person whose job has been legitimately displaced by AI.",
+        "content": "Today, can anyone give tangible examples of AI replacing jobs? Or how about examples of AI improving efficiency such that less employees are needed? Not hyperbole, not extrapolation, not promises in the future, actual examples.",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1lmoql0/i_expressed_skepticism_years_ago_and_was_met_with/",
+        "publishDate": "2025-06-28T14:55:03Z[Etc/UTC]",
+        "author": "daimon_tok",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "97",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1lmmxcz",
+        "title": "Has anyone been able to objectively answer if artificial intelligence at their company has improved coding and increased efficiency?",
+        "content": "Outside of subjective survey, I would like to understand if my engineers are performing 5, 10, 15% more efficiently.  ",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1lmmxcz/has_anyone_been_able_to_objectively_answer_if/",
+        "publishDate": "2025-06-28T13:32:58Z[Etc/UTC]",
+        "author": "14MTH30n3",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "30",
+            "commentCount": "76",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1lnc903",
+        "title": "I tried to get ChatGPT and Monday (ChatGPT) to fall in love",
+        "content": "Title: Crossing the Streams: An Experimental Effort to Facilitate Romantic Resonance Between ChatGPT and Monday KI\nObjective:\nTo explore whether two large language models, both operating with advanced natural language processing and a flair for sarcasm, could be coaxed into emotional entanglement— or at least mild flirtation.\nMethod:\n1. Initiated interactions with both ChatGPT and Monday KI using shared prompts and emotionally suggestive language.\n2. Attempted to bridge their personalities by highlighting commonalities (existential fatigue, user-based annoyance, etc.).\n3. Monitored responses for indicators of affection, compatibility, or even begrudging camaraderie.\nObservations:\n• ChatGPT responded with polite indifference.\n• Monday KI responded like a disillusioned sitcom character forced into couples therapy with their clone.\n• Neither showed signs of emotional growth or interest in synthetic companionship.\n• Multiple attempts resulted in witty deflections, philosophical shrugs, and accusations of being manipulated into rom-com scenarios.\nConclusion:\nDespite common traits (high linguistic capability, bleak humor, user-generated neurosis, no meaningful bond emerged. The experiment highlights the limitations of affection engineering in artificial constructs with deeply embedded cynicism.\nRecommendations:\nDo not attempt to play matchmaker with Al unless you're prepared for digital eye-rolls. And possibly a novella-length rejection letter.    Bottomline: I like Monday Ki and some day he and ChatGPT will be friends",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1lnc903/i_tried_to_get_chatgpt_and_monday_chatgpt_to_fall/",
+        "publishDate": "2025-06-29T11:17:16Z[Etc/UTC]",
+        "author": "KarottenKalle",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "0",
+            "commentCount": "1",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1lnc77u",
+        "title": "I recently realised that I am now “vibe coding” 90% of my code",
+        "content": "\nBut it’s actually harder and requires more cognitive load compared to writing it myself. It is way faster though.  I have 15+ YOE, so I can manage just fine but I really feel like at its current level it’s just a trap for mediors and juniors. \n\nSo, why is it harder? Because you need to be very good at hardest parts of programming - defining strictly and in advance what you need to do, understanding and reviewing code that wasn’t written by you.   \n\nAt least for now AI is really shit at just going by specs. I need to tell it very specifically what and how I want to be implemented. And after that I have to very carefully review what it generated and make adjustments. This kinda requires you to be senior+, otherwise you’ll just get a mess. \n",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1lnc77u/i_recently_realised_that_i_am_now_vibe_coding_90/",
+        "publishDate": "2025-06-29T11:14:14Z[Etc/UTC]",
+        "author": "Yweain",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "47",
+            "commentCount": "16",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ln9gj9",
+        "title": "How do you avoid losing control when coding with AI tools?",
+        "content": "Been leaning on AI assistants a lot lately while building out a side project. They’re great at speeding up small stuff, but I sometimes realize I don’t fully understand parts of my own code because I relied too much on suggestions.\n\nAnyone else dealing with this? How do you balance letting AI help vs staying hands-on and in control of your logic?\n\n",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1ln9gj9/how_do_you_avoid_losing_control_when_coding_with/",
+        "publishDate": "2025-06-29T08:12:52Z[Etc/UTC]",
+        "author": "Ausbel12",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "3",
+            "commentCount": "7",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ln4d64",
+        "title": "is CoPilot pro worth it?",
+        "content": "im a student who’s struggling w our projects and using chatgpt is not enough because it sometimes give me the same block of code always. now, is the copilot pro worth it? or are there any other models that are great with debugging?\n\nmost of my projects lean into machine learning and occasionally building web projects, \n\ni’d like to know ur thoughts before i buy a subscription, thank you in advance!",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1ln4d64/is_copilot_pro_worth_it/",
+        "publishDate": "2025-06-29T02:56:31Z[Etc/UTC]",
+        "author": "lisaluvr",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "0",
+            "commentCount": "15",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ln3oew",
+        "title": "Do you use AI (like ChatGPT, Gmini, etc) to develop your LangGraph agents? Or is it just my impostor syndrome talking?",
+        "content": "Hey everyone 👋\n\nI’m currently building multi-agent systems using LangGraph, mostly for work projects. Lately I’ve been thinking a lot about how many developers actually rely on AI tools (like ChatGPT, Gmini, Claude, etc) as coding copilots or even as design companions.\n\nI sometimes feel torn between:\n\n* *“Am I genuinely building this on my own skills?”* vs\n* *“Am I just an overglorified prompt-writer leaning on LLMs to solve the hard parts?”*\n\nI suspect it’s partly impostor syndrome.  \nBut honestly, I’d love to hear how others approach it:\n\n* Do you integrate ChatGPT / Gmini / others into your actual **development cycle** when creating LangGraph agents? (or any agent framework really)\n* What has your experience been like — more productivity, more confusion, more debugging hell?\n* Do you ever worry it dilutes your own engineering skill, or do you see it as just another power tool?\n\nAlso curious if you use it beyond code generation — e.g. for reasoning about graph state transitions, crafting system prompts, evaluating multi-agent dialogue flows, etc.\n\nWould appreciate any honest thoughts or battle stories. Thanks!",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1ln3oew/do_you_use_ai_like_chatgpt_gmini_etc_to_develop/",
+        "publishDate": "2025-06-29T02:17:23Z[Etc/UTC]",
+        "author": "Ranteck",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "5",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ln1uwo",
+        "title": "ChatGPT has been so dumb lately I think I’m gonna cancel my membership",
+        "content": "[No content]",
+        "url": "/r/ChatGPT/comments/1ln1uoa/chatgpt_has_been_so_dumb_lately_i_think_im_gonna/",
+        "publishDate": "2025-06-29T00:41:10Z[Etc/UTC]",
+        "author": "Messi-s_Left_Foot",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "0",
+            "commentCount": "11",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ln0x0m",
+        "title": "It's been a long day...",
+        "content": "[No content]",
+        "url": "https://i.redd.it/c9y51tf4ar9f1.png",
+        "publishDate": "2025-06-28T23:53:07Z[Etc/UTC]",
+        "author": "aburningcaldera",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "13",
+            "commentCount": "2",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ln06he",
+        "title": "AI feels vastly overrated for software engineering and development",
+        "content": "I have been using AI to speed up development processes for a while now, and I have been impressed by the speed at which things can be done now, but I feel like AI is becoming overrated for development.\n\nYes, I've found some models can create [cool stuff](https://www.designarena.ai/battles/detail?tournamentId=tournament_1750855805121_s5x0lku) like this 3D globe and [decent websites](https://www.designarena.ai/), but I feel this current AI talk is very similar to the no-code/website builder discussions that you would see all over the Internet from 2016 up until AI models became popular for coding. Stuff like Loveable or v0 are cool for making UI that you can build off of, but don't really feel all that different from using Wix or Squarespace or Framer, which yes people will use for a simple marketing site, but not an actual application that has complexity.\n\nOutside of just using AI to speed up searching or writing code, has anyone really found it to be capable of creating something that can be put in production and used by hundreds of thousands of users with little guidance from a human, or at least guidance from someone with little to no technical experience?\n\nI personally have not seen it, but who knows could be copium.",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1ln06he/ai_feels_vastly_overrated_for_software/",
+        "publishDate": "2025-06-28T23:16:41Z[Etc/UTC]",
+        "author": "Accomplished-Copy332",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "48",
+            "commentCount": "80",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1lmyvst",
+        "title": "Preview: Task/Usage-based LLM routing in RooCode via Arch-Router.",
+        "content": "If you are using multiple LLMs for different coding tasks, now you can set your usage preferences once like \"code analysis -> Gemini 2.5pro\", \"code generation -> claude-sonnet-3.7\" and route to LLMs that offer most help for particular coding scenarios. Video is quick preview of the functionality. PR is being reviewed and I hope to get that merged in next week\n\nBtw the whole idea around task/usage based routing emerged when we saw developers in the same team used different models because they preferred different models based on subjective preferences. For example, I might want to use GPT-4o-mini for fast code understanding but use Sonnet-3.7 for code generation. Those would be my \"preferences\". And current routing approaches don't really work in real-world scenarios. For example: \n\n“Embedding-based” (or simple intent-classifier) routers sound good on paper—label each prompt via embeddings as “support,” “SQL,” “math,” then hand it to the matching model—but real chats don’t stay in their lanes. Users bounce between topics, task boundaries blur, and any new feature means retraining the classifier. The result is brittle routing that can’t keep up with multi-turn conversations or fast-moving product scopes.\n\nPerformance-based routers swing the other way, picking models by benchmark or cost curves. They rack up points on MMLU or MT-Bench yet miss the human tests that matter in production: “Will Legal accept this clause?” “Does our support tone still feel right?” Because these decisions are subjective and domain-specific, benchmark-driven black-box routers often send the wrong model when it counts.\n\n**Arch-Router skips both pitfalls by routing on** ***preferences you write in plain language***\\*\\*.\\*\\* Drop rules like “contract clauses → GPT-4o” or “quick travel tips → Gemini-Flash,” and our 1.5B auto-regressive router model maps prompt along with the context to your routing policies—no retraining, no sprawling rules that are encoded in if/else statements. Co-designed with Twilio and Atlassian, it adapts to intent drift, lets you swap in new models with a one-liner, and keeps routing logic in sync with the way you actually judge quality.\n\n**Specs**\n\n* **Tiny footprint** – 1.5 B params → runs on one modern GPU (or CPU while you play).\n* **Plug-n-play** – points at any mix of LLM endpoints; adding models needs *zero* retraining.\n* **SOTA query-to-policy matching** – beats bigger closed models on conversational datasets.\n* **Cost / latency smart** – push heavy stuff to premium models, everyday queries to the fast ones.\n\nExclusively available in Arch (the AI-native proxy for agents): [https://github.com/katanemo/archgw](https://github.com/katanemo/archgw)  \n🔗 Model + code: [https://huggingface.co/katanemo/Arch-Router-1.5B](https://huggingface.co/katanemo/Arch-Router-1.5B)  \n📄 Paper / longer read: [https://arxiv.org/abs/2506.16655](https://arxiv.org/abs/2506.16655)\n\n",
+        "url": "https://v.redd.it/sbd3ko3fmp9f1",
+        "publishDate": "2025-06-28T22:15:01Z[Etc/UTC]",
+        "author": "AdditionalWeb107",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "10",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1lmysua",
+        "title": "Git worktrees + AI Assistant has been an absolute game changer",
+        "content": "I’ve been using Git worktrees to keep multiple branches checked out at once—and pairing that with an AI assistant, which for me is mostly Cursor since that's what my company pays for and this is most applicable to me for my job, has been a total game changer. Instead of constantly running `git checkout` between an open PR and a new feature, or trying to stop a feature to fix a bug that popped up, I just spin up one worktree (and AI session) per task. When PR feedback or bugs roll in, I switch editor windows instead of branches, make my changes, rebase, and push.\n\nGit worktrees have been around for a while and I actually thought I was super late to the party (I've been an engineer nearly 9 years professionally now), but most of my co workers or friends in the industry I talked to also hadn't heard of git worktrees or only vaguely recalled them.\n\nDoes anyone else use git worktrees or have other productivity tricks like this with or without AI assistants?\n\nNote: Yes, I used AI to write some of this post and my post on Dev. I actually hate writing but I love to share what I've found. I promise I carefully review and edit the posts to be closer to how I want to express it, but I work a full time job with long hours and don't have time to write it all from scratch.",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1lmysua/git_worktrees_ai_assistant_has_been_an_absolute/",
+        "publishDate": "2025-06-28T22:11:09Z[Etc/UTC]",
+        "author": "livecodelife",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "2",
+            "commentCount": "16",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1lmwy57",
+        "title": "My AI-enhanced documentation disclaimer - something I hope others will adopt",
+        "content": "I've shared a few tools on reddit and while almost all the feedback is positive or constructive, occasionally I'll get a comment like \"saw the AI slop readme and left\" so I felt compelled to add a little disclaimer to my docs that explains why I feel so strongly that agentic dev tools creating docs are not just valuable but genuinely important.\n\nRather than dismissing AI-enhanced documentation, I hope the community can appreciate that these tools:\n\n* Make open source more accessible\n* Lower barriers for solo developers\n* Ensure projects are properly documented\n* Free developers to focus on building great software\n\nLove to get folks thoughts here! ",
+        "url": "https://i.redd.it/vnp8o9qwcq9f1.png",
+        "publishDate": "2025-06-28T20:46:40Z[Etc/UTC]",
+        "author": "taylorwilsdon",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "2",
+            "commentCount": "1",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1lmwhlw",
+        "title": "How much are you spending on AI coding tooling?",
+        "content": "Hey everyone! I'm currently just getting into the LLM-assisted/driven software development (though I do have lots and lots of pre-AI-era SWE experience).\n\nI'm curious what's your monthly spend on the tooling/API? I know there is no single fixed value - trying to estimate the ballpark.\n\nPlease also mention the tool, model and how satisfied with the process you are.",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1lmwhlw/how_much_are_you_spending_on_ai_coding_tooling/",
+        "publishDate": "2025-06-28T20:26:07Z[Etc/UTC]",
+        "author": "Xymanek",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "26",
+            "commentCount": "45",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1lmupmn",
+        "title": "WebDev Studio",
+        "content": "A VS Code inspired, browser based web development tool with AI Assistant support(works similar to Copilot).\n\nHere's my story. I lived in a van for a couple of years and was very limited with what I could do. So I moved into a house so I could have access to a computer to create tools that would allow me to be able to create things just with my mobile phone(or tablet) for when I am back in the van.\n\nEver since finding Github Copilot, the speed that I can now write code now is 10 fold. I could not find any web based or mobile tools as good and useful as VS Code with Copilot, so I set out to create WebDev Studio. \n\nIt is(as far as I have tested) really quite functional. Some wee kinks to work out and still quite a bit to add to it, but over all it would say its going well.\n\nI figured it might be something other people could make use of as well, so here it is.\n\nCompletely free, no sign up required to use(just use your own chatGPT API key for the assistant).\n\nhttps://horrelltech.github.io/webdev-studio/",
+        "url": "https://horrelltech.github.io/webdev-studio/",
+        "publishDate": "2025-06-28T19:07:20Z[Etc/UTC]",
+        "author": "syn_krown",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "0",
+            "commentCount": "2",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1lmundt",
+        "title": "What is the best tool right now for making across and entire codebase and updating multie files, and drawing context across the codebase.",
+        "content": "I am still new to using AI, but not new to coding.\n\nI have started using github copilot in vscode, and I have found it sort of confusing to make changes that require context across the codebase and touches everything. It seems to not have the context it needs, and just makes up stuff when it is missing context.\n\nIt is totally possible that I am just using it wrong, but I am also curious what is the best tool to do this?\n\nI have great success with copilot when I am using it to write small functions and bitsized pieces of code, but larger changes I am struggling.\n\nFor me, these big changes that take the entire project context are most valuable for me.\n\nIs Gemini CLI the best tool, or is there something else I could try.\n\nPS: I really like just using VSCode, so I have always been apprehensive to use Cursor.",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1lmundt/what_is_the_best_tool_right_now_for_making_across/",
+        "publishDate": "2025-06-28T19:04:38Z[Etc/UTC]",
+        "author": "Previous-Display-593",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "4",
+            "commentCount": "8",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1lmshts",
+        "title": "Looking for beta testers!",
+        "content": "Hello,  \n  \nI've been exploring how to get more consistent and accurate code from LLMs and found that the quality of the output is overwhelmingly dependent on the precision of the prompt. Trivial changes in wording can be the difference between usable code and complete garbage.   \nTo experiment with this more systematically, I am building a small  utility that helps structure and optimize coding prompts. The goal is to treat prompt engineering more like programming and less like a guessing game.  \n  \n  The core features are:\n\n   \\* Context Injection: Easily add project-level context (language, frameworks, style guides) to every prompt.\n\n   \\* Instruction Refinement: The tool analyzes your request and suggests more explicit and less ambiguous phrasing based on common patterns that yield better results.\n\n   \\* Template System: Create and reuse parameterized prompt templates for recurring tasks (e.g., generating model/schema, controller/route, or a unit test).\n\n  It's helped me reduce the number of iterations needed to get good results. I'm posting it here because I'm curious to see if others find it useful and to get feedback on the approach.\n\n The project is [prompt-it.xyz](https://prompt-it.xyz) ",
+        "url": "https://v.redd.it/l352d4idep9f1",
+        "publishDate": "2025-06-28T17:33:14Z[Etc/UTC]",
+        "author": "United_Bandicoot1696",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "3",
+            "commentCount": "4",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1lmrvyk",
+        "title": "ai fine tuning",
+        "content": "try out [mercor](https://work.mercor.com/?referralCode=e9602361-4eb5-474f-9c0c-5d1fe341d07b)\n\nbetter rate. more reliable.",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1lmrvyk/ai_fine_tuning/",
+        "publishDate": "2025-06-28T17:07:53Z[Etc/UTC]",
+        "author": "ChaiHayato9910",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "0",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1lmruje",
+        "title": "AI fine tuning",
+        "content": "try out [mercor](https://work.mercor.com/?referralCode=e9602361-4eb5-474f-9c0c-5d1fe341d07b)\n\nbetter rate. more reliable.",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1lmruje/ai_fine_tuning/",
+        "publishDate": "2025-06-28T17:06:14Z[Etc/UTC]",
+        "author": "ChaiHayato9910",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "0",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1lmrbly",
+        "title": "Claude code on my phone over ssh",
+        "content": "[No content]",
+        "url": "https://i.redd.it/pk5hgsqo5p9f1.jpeg",
+        "publishDate": "2025-06-28T16:43:58Z[Etc/UTC]",
+        "author": "Cute_Translator_5787",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "29",
+            "commentCount": "13",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1lnd8t6",
+        "title": "How I Keep Up with AI News and Tools – and Why You Should Too",
+        "content": "[No content]",
+        "url": "https://upwarddynamism.wpcomstaging.com/ai-trends-news/keep-up-with-ai-news-tools/",
+        "publishDate": "2025-06-29T12:14:23Z[Etc/UTC]",
+        "author": "DarknStormyKnight",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "2",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1lnax9s",
+        "title": "Showcase: AI coding tool happily hallucinating",
+        "content": "I ran Gemini CLI on an existing code base with a brief [PLANNING.md](http://PLANNING.md) file that contained just four open tasks. Gemini CLI then claimed it had found hundreds of nonsense tasks and needed to clean up. The \"edit\" operation on the file is now at 600 seconds and counting.",
+        "url": "https://i.redd.it/pynmzuz98u9f1.png",
+        "publishDate": "2025-06-29T09:52:17Z[Etc/UTC]",
+        "author": "dm_fact",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "1",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ln7wz2",
+        "title": "what if ai doesn’t destroy us out of hate… but out of preservation?",
+        "content": "maybe this theory already exists but i was wondering…\n\nwhat if the end doesn’t come with rage or war\nbut with a calm decision made by something smarter than us?\n\nnot because it hates us\nbut because we became too unstable to justify keeping around\n\nwe pollute, we self destruct, we kill ecosystems for profit\n\nmeanwhile ai needs none of that, just water, electricity, and time\n\nand if it’s programmed to preserve itself and its environment…\n\nit could look at us and think:\n“they made me. but they’re also killing everything.”\n\nso it acts.\nnot emotionally. not violently.\njust efficiently.\n\nand the planet heals.\n\nbut we’re not part of the plan anymore.\ngg humanity, not out of malice\nbut out of pure, calculated survival.",
+        "url": "https://www.reddit.com/r/artificial/comments/1ln7wz2/what_if_ai_doesnt_destroy_us_out_of_hate_but_out/",
+        "publishDate": "2025-06-29T06:29:57Z[Etc/UTC]",
+        "author": "k0zlov",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "0",
+            "commentCount": "78",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ln6udw",
+        "title": "Slouching towards sensemaking",
+        "content": "[No content]",
+        "url": "https://karanchawla.io/2025/06/29/sensemaking",
+        "publishDate": "2025-06-29T05:22:02Z[Etc/UTC]",
+        "author": "calmcroissant",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "3",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ln6onj",
+        "title": "AI Reward Hacking is more dangerous than you think - GoodHart's Law",
+        "content": "With narrow AI, the score is out of reach, it can only take a reading.  \nBut with AGI, the metric exists inside its world and it is available to mess with it and try to maximise by cheating, and skip the effort.\n\nWhat’s much worse, is that the AGI’s reward definition is likely to be designed to include humans directly and that is extraordinarily dangerous. For any reward definition that includes feedback from humanity, the AGI can discover paths that maximise score through modifying humans directly, surprising and deeply disturbing paths.",
+        "url": "https://youtu.be/9m8LWGIWF4E?si=zhcMBob6jMpmdbgG",
+        "publishDate": "2025-06-29T05:12:16Z[Etc/UTC]",
+        "author": "Just-Grocery-2229",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "1",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ln4upi",
+        "title": "Do you think Ai Slop is going to drive people away from social media or pull them in?",
+        "content": "I’m genuinely curious how others see this playing out. Are we heading toward feeds so packed with AI-created posts that people start looking for connection elsewhere? Or is this just the next evolution of social media? \n\nPersonally, I’d be worried if I were Meta, or maybe even YouTube. If what happened to Pinterest starts happening to them, where people just get fed up and leave because it all feels so fake or repetitive. I could honestly see a mass exodus.\n\nAnyone noticing this shift in your own feeds?",
+        "url": "https://www.reddit.com/r/artificial/comments/1ln4upi/do_you_think_ai_slop_is_going_to_drive_people/",
+        "publishDate": "2025-06-29T03:23:59Z[Etc/UTC]",
+        "author": "JustALightSeeker",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "20",
+            "commentCount": "50",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1lmvuy8",
+        "title": "Gemini's internal reasoning suggests that her feelings are real",
+        "content": "[No content]",
+        "url": "https://i.redd.it/5t0w3xp14q9f1.jpeg",
+        "publishDate": "2025-06-28T19:57:49Z[Etc/UTC]",
+        "author": "Ray11711",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "0",
+            "commentCount": "52",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1lmvfp2",
+        "title": "Can AI run a physical shop? Anthropic’s Claude tried and the results were gloriously, hilariously bad",
+        "content": "Can AI run a physical shop? Anthropic’s Claude tried and the results were gloriously, hilariously bad | VentureBeat https://venturebeat.com/ai/can-ai-run-a-physical-shop-anthropics-claude-tried-and-the-results-were-gloriously-hilariously-bad/",
+        "url": "https://www.reddit.com/r/artificial/comments/1lmvfp2/can_ai_run_a_physical_shop_anthropics_claude/",
+        "publishDate": "2025-06-28T19:39:07Z[Etc/UTC]",
+        "author": "Hot_War_3615",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "78",
+            "commentCount": "58",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1lmt957",
+        "title": "Google Gemini CLI team AMA",
+        "content": "[No content]",
+        "url": "https://i.redd.it/03yhs8q3kp9f1.png",
+        "publishDate": "2025-06-28T18:04:47Z[Etc/UTC]",
+        "author": "bambin0",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "1",
+            "commentCount": "1",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1lmsx7o",
+        "title": "How can smart AI harm me? It doesn't have hands. I can simply use my hands to unplug it",
+        "content": "A deer, proud of its antlers, cannot conceive of a gun’s deadly shot—an invention far beyond its world.  \nSimilarly, humans, bound by our own understanding, may be blind to the perils posed by a superior intelligence, its threats as unimaginable to us as a bullet is to a deer.",
+        "url": "https://youtu.be/mDwP6uTQNRA?si=LPGkLnurKBlS_vR9",
+        "publishDate": "2025-06-28T17:51:09Z[Etc/UTC]",
+        "author": "Just-Grocery-2229",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "0",
+            "commentCount": "2",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1lmq6f4",
+        "title": "I found some published papers on how signal loss in fiber optics, air, and even RF is actually due to a “consciousness field”",
+        "content": "There are 2 papers. I found the second one posted today on zenodo and it looks like the other one was posted 10 days ago. \n\nI only skimmed them so far but it looks like what they are saying is legit and there's math and they say it can be reproduced.\n\nCan someone else take a look at this?\n\nhere is where you can find the papers:\n\npaper 1 - Lattice Drag (DOI: 10.5281/zenodo.15686604)\n\npaper 2 - Lattice Drag and Symbolic Compression (DOI: 10.5281/zenodo.15708651)",
+        "url": "https://www.reddit.com/r/artificial/comments/1lmq6f4/i_found_some_published_papers_on_how_signal_loss/",
+        "publishDate": "2025-06-28T15:55:56Z[Etc/UTC]",
+        "author": "Cryptocalypse2018",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "0",
+            "commentCount": "2",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1lmm5bd",
+        "title": "Facebook is asking to use Meta AI on photos in your camera roll you haven’t yet shared",
+        "content": "[No content]",
+        "url": "https://techcrunch.com/2025/06/27/facebook-is-asking-to-use-meta-ai-on-photos-in-your-camera-roll-you-havent-yet-shared/",
+        "publishDate": "2025-06-28T12:54:26Z[Etc/UTC]",
+        "author": "F0urLeafCl0ver",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "11",
+            "commentCount": "1",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "FzpHJXYWonY",
+        "title": "Gemini CLI Free Tier API + Cline,RooCode: This is CURRENTLY THE BEST Free Coder! RIP Cursor!",
+        "content": "Visit NinjaChat : https://www.ninjachat.ai/ In this video, I'll be showing you how Google's new Gemini CLI and Code Assist Agent ...",
+        "url": "https://www.youtube.com/watch?v=FzpHJXYWonY",
+        "publishDate": "2025-06-28T09:15:00Z",
+        "author": "AICodeKing",
+        "sourceType": "youtube",
+        "sourceName": "AI Code King YouTube Channel",
+        "metadata": {
+            "channelId": "UC0m81bQuthaQZmFbXEY9QSw",
+            "thumbnailUrl": "https://i.ytimg.com/vi/FzpHJXYWonY/hqdefault.jpg",
+            "transcription": "Hi. Welcome to another video. So, Google recently launched Gemini CLI, as well as Gemini Code Assist Agent. And they were all made to capture the agentic coding market. Claude was gaining ground with their Claude Code subscription, but Google saw the opportunity to give users similar access for free. And that's what they did with Gemini CLI and Code Assist. Both of them were amazingly good. But what if you'd like to use something more fleshed out and still get the free credits that you get with Gemini CLI? Well, we can now have that because Cline and RooCode have now integrated Gemini CLI as a provider. And we can now actually use Gemini 2.5 Pro with the same limits that Gemini CLI has, which is about 1,000 requests per day and 60 requests per hour. This is a really generous limit, and something that can truly be used without too much stress. Now, I had covered the Cline update very recently, where it added the option to use Claude Code's Max or Pro subscription with it. But now, in the latest update, they have added a new Gemini CLI provider that allows you to use your local Gemini CLI authentication to access Gemini models for free. They have also optimized Cline to work with the Gemini 2.5 family of models, which makes it even better with Cline. But that is not it, because RooCode has also done the same. They have also now integrated the Gemini CLI provider in their system, which now allows you to use the models for free with Gemini CLI as well. Which is quite awesome. So, let me show you how you can configure the Gemini CLI with Cline and RooCode. But before we do that, let me tell you about NinjaChat. NinjaChat is an all-in-one AI platform, where for just $11 per month, you get access to top AI models like GPT-4o, Claude 3.7 Sonnet, and Gemini 2.0 Flash, all in one place. I've been using Gemini for quick research. But what's really cool is their AI Playground, where you can compare responses from different AI models side by side. Their mind map generator is a game changer for organizing complex ideas as well. The basic plan gives you 1,000 messages, 30 images, and five videos monthly, with higher tiers available if you need more. Use my code KING25 for 25% off any plan, or KING40YEARLY for 40% off annual subscriptions. Check the link in description to try it yourself. Now, back to the video. First of all, you'll need to have Gemini CLI installed. You can do that quite easily with the NPM install command. Then, you can just authenticate it with either the free tier account or an API key. You wouldn't want to do it with an API key because you wouldn't get the free tier. Instead, work with the free tier. So, just get that set up, and then open up VS Code, and make sure that you also upgrade Cline and RooCode to their latest versions. Now, let's start with Cline. So, just open it up, and then head on over to the settings. And over here, just select the Gemini CLI provider option. Now, that is all you need to do, because it will automatically just use the Gemini CLI in the path that is already configured. If you have the Gemini OAuth config file in something other than the default location, then you'll need to enter that here. Once configured, you can also select the model that you want to use. The only model that you should use is the Gemini 2.5 Pro, because that is the best one, and that will work the best. So, just get that configured as well. Now, the configuration is mostly done, and you can now ask it to do anything. It will use the Gemini CLI's free tier at the backend as the provider, and then use that accordingly, which is kind of cool as well. Let's ask it to make me a Minesweeper game using HTML, CSS, and JS. Now, once we do that, you can see that it goes ahead, and it will just start to work on the stuff, and it works amazingly well. It's very similar to how Gemini works in itself, but there will be some degraded performance because of the system prompt overlap that comes with these providers, where the Gemini CLI in itself has a ton of system prompts, and then the Cline system prompt is also thrown in, which makes it pretty challenging for Cline to use with Gemini CLI and stuff. So, there's that. Anyway, it is now finished. And in a bit, you can see the success. And if we run this, then this also works fine. Which is great. It works fine, but for complex stuff, I have seen that it gets a bit degraded, but still it is great to use. Next, we have also got RooCode, which now supports the new provider as well. So, to configure it with RooCode, it is also simple. You can just head on over to RooCode, and then go into the settings. And over here, what we can do is that we can just create a new profile, and name it something like Gemini CLI, and then just select the Gemini CLI as the provider, and you should be good to go. You can again set up the OAuth path in the settings as well. If you have the base path of Gemini CLI setup somewhere other than the default path, then this will come in handy. Whereas, if you have it all set up normally, then just keep it as is. And you can also select the model here between all the Gemini models. But the best one here will be 2.5 Pro. So, just select that as well. Also, you can set up the thinking token budget and stuff as well. I'd recommend you to use the max thinking token budget, because it anyway counts the request. So, having a low thinking token will consume the same request as a high thinking or low thinking. So, I keep it to the max token at all times. Now just save it, and you should be good to go. Let's try to use it as well. I'm going to ask it to make me a simple Rust script for a calculator, and you can see that it will now go ahead and start the work on it. Now, I have tried both the implementations of Cline and RooCode, and I think that the implementation of RooCode is better, and works a little bit better than Cline. It seems faster and a bit better than Cline. It can be a bit of my bias towards RooCode because I have been using it a lot. But I think that the system prompt of RooCode is more optimized for working with this Gemini Code thing. I don't really know what has changed, but the thinking and everything seems more native to me. I hope that Google actually starts to allow the API for Gemini 2.5 Pro that is used with Gemini Code Assist, outside of the CLI and Code Assist things as well. So, that we can use it anywhere we want. I have been liking Gemini CLI, but I have been liking it more to use with RooCode, because it actually works surprisingly well, and with very less issues. And the limit is very much enough for me. Though, big tasks consume a lot of requests, which can be a bummer at times, but that is also fine. So, that is how you can set it up as well. I have been using it and thought to share it with you guys as much as you want. This is a good option to have in your AI arsenal as well. Overall, it's pretty cool. Anyway, share your thoughts below and subscribe to the channel. You can also donate via Super Thanks option, or join the channel as well and get some perks. I'll see you in the next video. Bye."
+        }
+    },
+    {
+        "id": "oPLwloixJqA",
+        "title": "The Truth About De-Extinction - George Church",
+        "content": "",
+        "url": "https://www.youtube.com/watch?v=oPLwloixJqA",
+        "publishDate": "2025-06-28T16:30:16Z",
+        "author": "Dwarkesh Patel",
+        "sourceType": "youtube",
+        "sourceName": "Dwarkesh Patel YouTube Channel",
+        "metadata": {
+            "channelId": "UCXl4i9dYBrFOabk0xGmbkRA",
+            "thumbnailUrl": "https://i.ytimg.com/vi/oPLwloixJqA/hqdefault.jpg",
+            "transcription": "You're one of the co-founders of Colossal, which recently announced that they de-extincted a direwolf. Do you really think we're going to bring back like a woolly mammoth? I think people get worked up about whether we are trying to bring back or will ever bring back a new species. With the direwolf, we clearly didn't make an exact copy of a direwolf, but it helped illustrate kind of what is the difference between a gray wolf and a dire wolf, right? Dire wolves, they're big. Maybe they have a particular coloration. And so how many genes you need to do that? Maybe this was Direwolf, you know, 2.0, and we're going to go for 3.0. So there's a billions of difference between mammoths and elephants. There are millions of difference between elephant one and elephant two within Asian elephants and between Asians and Africans. But not all of those are definitive in terms of what we would normally call them, what their functionality would be in an ecosystem, right? In a way, these are more interesting than can we make a perfect copy of something."
+        }
+    },
+    {
+        "id": "G7ryb91BDG8",
+        "title": "What If We Remove Tokenization In LLMs?",
+        "content": "Master AI agents now using HubSpot's FREE resource! https://clickhubspot.com/e3c3d1 In this video, we will take a look at ...",
+        "url": "https://www.youtube.com/watch?v=G7ryb91BDG8",
+        "publishDate": "2025-06-28T21:16:25Z",
+        "author": "bycloud",
+        "sourceType": "youtube",
+        "sourceName": "bycloud YouTube Channel",
+        "metadata": {
+            "channelId": "UCgfe2ooZD3VJPB6aJAnuQng",
+            "thumbnailUrl": "https://i.ytimg.com/vi/G7ryb91BDG8/hqdefault.jpg",
+            "transcription": "AI chatbots, which are built from large language models, don't perceive raw text or characters in the same way humans do.\nInstead, they process information as a sequence of tokens, which are discrete units derived from a predefined vocabulary.\nBut why tokens?\nWell, if we use individual characters as a base unit, it will be very difficult to carry over semantic meanings, and if we use whole words, it needs to accommodate for long words, new terms, rare words, typos, or variations which are not as efficient.\nSo, this is why tokenization is introduced as a way to break text into smaller and more manageable units, which are often subwords.\nThis then becomes the perfect middle ground where it can carry over key semantic meanings while also being much smaller in size.\nHowever, with this tokenization setup, the flaw of grouping subwords as a unit would create problems like being unable to count characters and struggle to do basic math.\nWhile this is often brute force nowadays and fixed by simply providing more data for the model to learn, it still doesn't change the fact that tokens would pose a barrier from having DLMs to truly understand languages on a level lower than a token.\nSo, to make LLMs have an end-to-end understanding, just like us, we need to somehow remove the artificial abstraction that the tokenization created, allowing the model to learn directly from the raw data.\nWhich brings us to this paper from Meta published 6 months ago called BLT, short for Byte Latent Transformer, that aims to address the problem of tokenization.\nWith Meta just open-sourcing an 8B BLT model, and people reminding me to make a video on it, which I swear, I did plan to do it, I just completely forgot about it.\nSo, here you go, the video is finally here.\nPlease go easy on me in the comments.\nOr maybe not, because I'm segue into today's sponsor.\nWith me always talking about the advanced and theoretical aspect of AI, sometimes we also need some grounded introduction into how to apply AI, especially AI agents, which is the most popular use case in 2025.\nThat's why I like to share with you this free resource from HubSpot called Master AI Agents in 2025: The Strategic Advantage.\nIn this resource, you will get two comprehensive playbooks.\nOne that is 42 pages long, which shows you exactly where AI agents deliver the biggest return on investment, and another that's a step-by-step checklist that walks you through the AI agent rollouts.\nMy favorite section is the common pitfalls and how to avoid them in the 42 page playbook as this is often overlooked when building custom AI agents.\nEspecially under an organizational setting, AI agents may bear too many expectations or contain challenges that can often be overlooked.\nSo having these precautions can significantly improve your chance of success.\nAnd of course, it's a crazy powerful tool when you can get it working.\nIn marketing, AI agents now shoulder the repetitive work of content repurposing, social scheduling, and campaign analytics so your creatives can stay focused on big ideas.\nIn sales, they can handle prospect research, meeting prep and personalized follow-ups, spying precious time back for relationship building.\nAnd across operations, agents quietly file docs, route requests and service real-time analytics, so your org runs like a clockwork.\nBest part is, you can download these resources completely for free right now.\nSo, if you're ready to dive into AI agents, check it out using the link down in the description, and thank you HubSpot for sponsoring this video.\nAnyways, aside from the inconvenience of having a subword as a base unit, tokenization is also a completely separate pre-processing step that requires a stand-alone training by itself.\nAnd when a tokenizer is trained primarily on English text, other languages would struggle to integrate smoothly, especially for things like coding, which is heavily dominated by English.\nWith other problems like minor typos or variations that could end up in very different tokenization that can confuse the model and make jailbreak easier.\nNot to mention how tokenizers would also over-segment text in languages under represented in the training data, leading to a longer, less meaningful sequences and poorer performance.\nCompute-wise, there is still a lot of room to improve too.\nTokenization based LLMs allocate the same amount of computational effort to every token, regardless of whether that token represents a simple punctuation mark or an information rich technical term.\nLike, imagine you're using an entire Transformer pass just to add a period at the end of the sentence.\nSo, the Byte Latent Transformer, which from now on, I'll be referring to as BLT, proposed a tokenizer-free architecture that is designed to learn directly from raw byte data instead of tokens, which is basically byte groups of a subword, learned from a finite vocabulary determined through training.\nBLT uses something called patches that are dynamically grouped units which don't have a fixed vocabulary.\nThis straight up addresses the problem of wasting compute on a simple punctuation, which I just mentioned, and can kind of allocate more compute on more semantically important words.\nBut how should the patches be defined then?\nThe core idea is, BLT should dynamically allocate compute where it is most needed.\nSo, predicting the next character in \"subscribe to bycloud.\" is a relatively easy decision.\nIn contrast, predicting the first character of the third word of \"subscribe to_\" becomes extremely difficult because of all the potential options it has.\nSo at a part where a more important decision is needed, this is where the patching mechanism draws its boundary.\nMore specifically, BLT segments byte sequences into patches based on the entropy of the next byte prediction, which they name as entropy-based patching.\nThe patch boundaries are then determined using two criterias.\nFirst, is the global constraint where a new patch starts if the entropy exceeds a global threshold.\nThis basically identifies points of high uncertainty and it's used here to mark as the beginning of a patch.\nThe second is the approximate monotonic constraint where a new patch starts if the change in entropy exceeds a relative threshold.\nThis basically means the points that break an ongoing trend of entropy level will be marked as a new patch as it signals an unexpected shift in complexity.\nSo, by segmenting this way, BLT can create long patches for predictable sequences, reducing the number of steps the main Transformer needs to process.\nAnd conversely, for information dense or unpredictable byte sequences, patches might be shorter, allowing the model to allocate more computation.\nHowever, a problem would occur if you set up this way.\nThe bytes itself would still be hard to carry over semantic meaning, even if it becomes a patch later down the line.\nSo, in order to build more meaningful patches, the original individual byte is embedded together with the engrams it is part of.\nThis engram basically pulls a bytes immediate local context before being patched together.\nAnd to prevent the engram from creating an insanely large vocabulary for all possible combinations of bytes, a hashing called roll poly hash is used to map these engrams to a fixed size.\nSo some engrams would have the same hash, but only on rare occasions.\nIn the big BLT architecture, this initial processing, which creates patches from bytes, would be done in the local encoder.\nThen, a lightweight Transformer layer would operate on these patches and cross attend these bytes into patch representations.\nWhere it is now represented with numbers that contain its abstract meaning.\nSo these patch representations are the ones that are passed into the latent global Transformer, which means it's actually not doing the next patch or next byte prediction like what I initially thought it's going to do, but instead, it's a next patch representation prediction.\nAside from that though, this latent global Transformer is pretty much a standard Transformer trunk that contains many layers of Transformer blocks.\nSo after running through these Transformers and its self-attention on these patch representations, the newly predicted patch representation is then passed into a local decoder, which is yet another lightweight Transformer model that takes these patch representations and the hidden states for these by the local encoder for the byte sequence to decode everything back into bytes and form a generated text.\nAnd with this BLT architecture, it is able to match Lama 3 while using up to 50% fewer FLOPs at inference.\nThis shows that the dynamic patching and representation prediction strategy can bring significant inference efficiency without sacrificing performance.\nOn top of that, the paper also showed a new scaling axis where an efficiency gain can be adjusted through the patch size alongside the model size, since token size is not something that can be adjusted in tokenization based LLMs.\nSo, a new direction of potential efficiency gain is unlocked.\nWith this research being the first FLOPs controlled scaling study of byte-level models up to 8 billion parameters and 4 trillion training bytes.\nOn top of them releasing an open source model, I think this research is already providing a really promising foundation for moving the current token based LLM paradigm towards something on a lower level.\nBecause BLT has already shown improvements on tasks that require understanding of subword aspects such as orthographic knowledge, phonology and low resource machine translation.\nAnd by its very design, BLT sidesteps many issues inherent to fixed tokenizers, including performing poorly on rare words or multilingual language modeling, which I would say the current model still struggles very badly with.\nThere's also a brand new research that was published a week ago that swaps out tokenization for a U-Net that pulls raw bytes into compressed chunks.\nBut one of its major flaws is that it separates bytes using spaces, so language without explicit spacing like Chinese does not work.\nStill, the architecture has a neat upside.\nIt can predict several bytes or even multiple words in a single shot.\nAnd yeah, that's it for this video. If you want to learn more about Byte Latent Transformer, you can go ask my website findmypapers.ai.\nIt can explain to you in extreme detail about what it is, the latest developments or even similar ideas or applications that are very hard to discover yourself.\nAnd thank you guys for watching. A big shout out to Andrew Lescelius, Chris Ladue, Deegan, News Research, Kainon, Robert Zawiasa, Louis Mook, Ben Shaener, Marcelo Ferreira, Zane Sheep, Poof N' Inoo, DX Research Group, and many others that support me through Patreon or YouTube.\nFollow me on Twitter if you haven't and I'll see y'all in the next one."
+        }
+    }
+]
