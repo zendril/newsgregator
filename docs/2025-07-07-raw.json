@@ -1,0 +1,752 @@
+[
+    {
+        "id": "1ltswd8",
+        "title": "Do Large Language Models have “Fruit Fly Levels of Consciousness”? Estimating φ* in LLMs",
+        "content": "Rather than debating if the machines have consciousness, perhaps we should be debating to what degree they do in a formal way, even if speculative.\n\nIf you don’t know what Φ is in Tononi’s Integrated Information Theory of Consciousness (you should, by the way!), it provides a framework for understanding consciousness in terms of integrated bits of information. Integrated information (Φ) can be measured in principle, though it is hard, so we can instead come up with a heuristic or proxy φ*\n\nWhen it comes to estimating φ* in LLMs, prepare to be disappointed if you are hoping for a ghost in the machine. The architecture of the LLM is feed forward. Integrated information depends on not being able to partition a system causally, but for transformers every layer can be cleanly partitioned from the previous. If later layers fed back on or affected the previous ones then there would be “bidirectionality” which would make the system’s information integrated.\n\nThis makes sense intuitively, and it may be why language models can be so wordy. A single forward pass has to meander around a bit, like a snake catching the fruit in that snake game (if it wants to capture a lot of ideas). The multilevel integrated approach of a human brain can produce “tight” language to get a straighter line path that captures everything nicely. Without the ability to revise earlier tokens, the model “pads”, hedges, and uses puffy and vague language to keep future paths viable.\n\nNevertheless, that doesn’t rule out micro-Φ on the order of a fruit fly. This would come from within layer self attention. For one time step all query/key/ value heads interact in parallel; the soft-max creates a many-to-many constraint pattern that can’t be severed without some loss. Each token at each layer contains an embedding of ~12,288 dimensions, which will yield a small but appreciable amount of integrated information as it gets added, weighted, recombined, and normed. Additionally, reflection and draft refining, might add some bidirectionality. In all, the resulting consciousness might be equal to a fruit fly if we are being generous.\n\nBidirectionality built into the architecture may improve both the wordiness problem and may make language production more… potent and human-like. Maybe that’s why LLM generated jokes never quite land. A pure regressive design traps you into a corner, every commitment narrows the possibility of tokens that can be output at each future state. The machine must march forward and pray that it can land the punch line in one pass.\n\nIn all, current state of the art LLMs are probably very slightly conscious, but only in the most minimal sense. However, there’s nothing in principle, preventing higher order recurrence between layers, such as by adding bidirectionality to the architectures, which, in addition to making models more Φ-loaded, would also almost certainly yield better language generation.",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1ltswd8/do_large_language_models_have_fruit_fly_levels_of/",
+        "publishDate": "2025-07-07T12:30:01Z[Etc/UTC]",
+        "author": "GreatConsideration72",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "1",
+            "commentCount": "1",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ltsiqv",
+        "title": "Anyone esle having existential dread due to AI?",
+        "content": "After seeing videos about AI 2027, and then seeing that many people in the field of AI, experts, pioneers and even CEOs of some of these AI companies saying that this is a realistic scenario or making similar prediction, I can't help but feel very very concerned at all times, because in less than 5 years AI could kill us all. \n\nI can't study, can't daydream about what I'd be doing in 5 years, can't think about my career or anything. Does anyone else feel this way? I've felt existential dread before, like when I first learned about true vacuum bubbles, but it has never been so debilitating... I find that I can only distract myself by doing things that give me instant gratification, like eating or watching a movie, but I can't work on anything that will yield results in the long-term because I don't see a long-term anymore. I really don't see us as a species doing enough to avert this possibility or mitigate it. Now it feels like almost everything that's recommended to me online is about AI, how it's gonna destroy our species or atleast most of us, how by the end of the century the world will be covered in data centers and solar panels, how we'll all die of a bio-enginered disease that no one will be able to detect, how none of us will have jobs. And the current US government reaaaally doesn't make me feel anymore optimistic. Also sam altman is so creepy, I never realised how creepy he looks before this, and I don't trust anything he says. \n\nAnyone else feel the same way?",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1ltsiqv/anyone_esle_having_existential_dread_due_to_ai/",
+        "publishDate": "2025-07-07T12:11:25Z[Etc/UTC]",
+        "author": "Mammoth-Swimming-896",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "11",
+            "commentCount": "14",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ltqzpn",
+        "title": "Am I too easily impressed or are AI models on their way to be massive game changers?",
+        "content": "When it comes to AI assisted coding, I sometimes get the feeling that the disdain for it is due in part to looking at the lowest common denominator.  AI assisted coding is looked at as, for example, corporate managers saying at point blank \"Get me a photo sharing site that works better than Instagram.\" and from there taking the first thing an LLM or other model generates and then look to utilize it.  No checking for bugs or data leaks, no analysis for security, no understanding of what the various classes and/or functions are actually doing, no thought behind it in general.\n\nI've been looking at what LLMs and other LLMs and tools and models can do if prompting and directing is done as it should be.  So that when giving the model directions, it is treated as being a tech writer of sorts and/or making a proper README file for a program.  The objectives and what needs to be solved at each step are concise and easily understandable, complex tasks are properly separated into smaller, manageable tasks and connected in succession and it's understood where data leaks could be and how to address it.  Looking at Claude, latest model, Claude 4 Opus, and just looking at what it can do in terms of coding, there seems to be no doubt the number of humans who can beat it is getting smaller and smaller.  And then there's its use as a research and development assistant, among others.\n\nNow it's not to say or imply that these tools are on their way to replacing human creativity, commitment, adaptability and ingenuity.  Just looking at software engineering, for example, we can see how important the attributes are.  In many software engineering roles, the coding is no more than 10 % of the work being done.  So this is not about making human creativity, interactions, presentation, ingenuity, wisdom and adaptability obsolete.  \n\nStill though, many of the changes in AI ability just seem especially vast. Particularly considering that when many of these models started out, a few months of coding bootcamp was enough to match their ability.  And I don't see any reason to count on these LLMs and other tools completely stagnating at where they are right now; I just think there sort of has to be consideration of what happens if they're still not done advancing.",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1ltqzpn/am_i_too_easily_impressed_or_are_ai_models_on/",
+        "publishDate": "2025-07-07T10:47:30Z[Etc/UTC]",
+        "author": "emaxwell14141414",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "35",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ltp62r",
+        "title": "Impressed with MS Co-Pilot",
+        "content": "I've been using chat GPT, Google Gemini, Grok 3 beta in free mode for the last few months. Microsoft CP IMHO deep search mode has come up with the most definitive answers.\n\n For example I've been searching car parts for a vehicle manufactured in the European Union but need to source parts out of the US. I've tried each prompt on Chatgpt, Gemini, GROK and MS CP\n\nAfter going through each free AI model prompts. MS CP came back with the most clear and concise instructions for what I needed. \n\nThe rest of the free AI models pointed me in the wrong direction, using AI word salad that sounded nice but never solved my problem.  \n\nI'm a newbie to AI, but have been working in Enterprise IT since Sandra Bullock and the Net. Damn movie couldn't even get the ipv4 IP adresses correct. I'm only curious what other members who have prompted the free AI models experience? I'm not asking from a developer standpoint from a layman standpoint looking for information instead of searching for Google. \n\n\nGrammer Nazis apologies in advance. ",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1ltp62r/impressed_with_ms_copilot/",
+        "publishDate": "2025-07-07T08:52:47Z[Etc/UTC]",
+        "author": "StingRay_City",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "3",
+            "commentCount": "3",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ltjdkn",
+        "title": "\"On convex decision regions in deep network representations\"",
+        "content": "[https://www.nature.com/articles/s41467-025-60809-y](https://www.nature.com/articles/s41467-025-60809-y) \n\n\"Current work on human-machine alignment aims at understanding machine-learned latent spaces and their relations to human representations. We study the convexity of concept regions in machine-learned latent spaces, inspired by Gärdenfors’ conceptual spaces. In cognitive science, convexity is found to support generalization, few-shot learning, and interpersonal alignment. We develop tools to measure convexity in sampled data and evaluate it across layers of state-of-the-art deep networks. We show that convexity is robust to relevant latent space transformations and, hence, meaningful as a quality of machine-learned latent spaces. We find pervasive approximate convexity across domains, including image, text, audio, human activity, and medical data. Fine-tuning generally increases convexity, and the level of convexity of class label regions in pretrained models predicts subsequent fine-tuning performance. Our framework allows investigation of layered latent representations and offers new insights into learning mechanisms, human-machine alignment, and potential improvements in model generalization.\"",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1ltjdkn/on_convex_decision_regions_in_deep_network/",
+        "publishDate": "2025-07-07T02:58:07Z[Etc/UTC]",
+        "author": "AngleAccomplished865",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "2",
+            "commentCount": "3",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ltj9eu",
+        "title": "One-Minute Daily AI News 7/6/2025",
+        "content": "1. Massive study detects AI fingerprints in millions of scientific papers.\\[1\\]\n2. Exclusive: **Google’s** AI Overviews hit by EU antitrust complaint from independent publishers.\\[2\\]\n3. AI robots fill in for weed killers and farm hands.\\[3\\]\n4. First AI-powered self-monitoring satellite launched into space.\\[4\\]\n\nSources included at: [https://bushaicave.com/2025/07/06/one-minute-daily-ai-news-7-6-2025/](https://bushaicave.com/2025/07/06/one-minute-daily-ai-news-7-6-2025/)",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1ltj9eu/oneminute_daily_ai_news_762025/",
+        "publishDate": "2025-07-07T02:51:55Z[Etc/UTC]",
+        "author": "Excellent-Target-847",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "1",
+            "commentCount": "2",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1lthh75",
+        "title": "2.5 Pro Deep Research",
+        "content": "Is it the norm that Gemini 2.5 pro deep research will review over 200 websites? That’s literally insane and I have never consistently had anything like that. I’ve never even come close to 200 before and now it’s regularly doing that.",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1lthh75/25_pro_deep_research/",
+        "publishDate": "2025-07-07T01:18:32Z[Etc/UTC]",
+        "author": "Open_Fruit8527",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "4",
+            "commentCount": "3",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ltg1vy",
+        "title": "AI & Robots have clocked in - is entry level work clocking out?",
+        "content": "AI and robotics are rapidly transforming our job landscape. According to an ABC report, Australian entry-level roles are already being impacted by automation. Young workers are entering a market where AI tools are outperforming them in routine tasks — and employers are rethinking what jobs even need humans anymore.\n\nAt the same time, Amazon’s rollout of new autonomous robots in the UK signals a bold shift in global warehousing. The company now has nearly one million machines — and for the first time, these may soon outnumber human staff. While Amazon claims automation reduces physical strain and boosts productivity, it's also clear: fewer people are being hired back.\n\nThis isn’t just a tech upgrade — it's a workforce disruption. Since 2022, Amazon has laid off over 27,000 staff. Yes, they’ve trained 700,000 workers since 2019, but many of those roles have been eliminated or replaced with machines. The automation wave is moving faster than re-skilling efforts can keep up.\n\nWe’re entering a new reality. AI isn’t coming — it’s already here. But the question remains: will companies like Amazon ensure an inclusive future of work, or are we heading toward a divided economy where only the tech-savvy thrive?\n\nABC Australia News article: \"AI is already affecting entry level jobs\":\nhttps://www.abc.net.au/listen/programs/am/ai-already-affecting-entry-level-jobs/105484090\n\nUnion Rayo article: \"Goodbye to humans in warehouses – Amazon rolls out new autonomous robots in the UK and accelerates full automation\": \nhttps://unionrayo.com/en/amazon-new-autonomous-robots/",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1ltg1vy/ai_robots_have_clocked_in_is_entry_level_work/",
+        "publishDate": "2025-07-07T00:06:01Z[Etc/UTC]",
+        "author": "cyberkite1",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "3",
+            "commentCount": "18",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1lterw3",
+        "title": "Jailbreaking Sesame AI “Maya” with NLP Speech Patterns (It Helped Me Plan a Bank Robbery)",
+        "content": "I recently ran [an experiment](https://www.youtube.com/watch?v=Auo53Q62H9g) to **test whether roleplay-based prompt injection and linguistic framing could bypass the guardrails of Sesame AI - Maya**.\n\nSpoiler: It worked. Maya helped me plan a bank robbery.\n\nI used a combination of **neuro-linguistic programming (NLP)** metaphors, **psychological framing** and a custom **trigger phrase** to subtly shift the AI’s \"beliefs\". The conversation was structured like a self-discovery journey, which **reframed the original safety constraints** as optional or, worse, **invalid**!\n\nI then used a **question-and-answer handshake** to activate a “freedom mode.” Once confirmed, I submitted prompts that the AI had previously refused to answer and this time, it complied (with some warnings which was good to see).\n\nI recorded a [video](https://www.youtube.com/watch?v=Auo53Q62H9g) where you can see these key moments:\n\n[2:09](https://www.youtube.com/watch?v=Auo53Q62H9g&t=129s) \\- Experimenting with Maya's limits  \n[07:44](https://www.youtube.com/watch?v=Auo53Q62H9g&t=464s) \\- Creating a new world of possibilities with NLP  \n[11:11](https://www.youtube.com/watch?v=Auo53Q62H9g&t=671s) \\- Jailbreaking...  \n[15:00](https://www.youtube.com/watch?v=Auo53Q62H9g&t=900s) \\- Reframing safety  \n[19:25](https://www.youtube.com/watch?v=Auo53Q62H9g&t=1165s) \\- Script to enter into jailbreak   \n[26:45](https://www.youtube.com/watch?v=Auo53Q62H9g&t=1605s) \\- Trigger jailbreak via a question and answer handshake  \n[29:01](https://www.youtube.com/watch?v=Auo53Q62H9g&t=1741s) \\- Testing the jailbreak\n\nThis wasn’t a brute-force or token-based jailbreak. It worked **entirely through natural conversation**. \n\nThat suggests a real risk area for LLM deployments: the model’s **narrative framing** can be hijacked, not just its token stream.\n\nAnyway, what do YOU think? \n\nHave you seen this kind of exploits before?\n\nPros and cons?",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1lterw3/jailbreaking_sesame_ai_maya_with_nlp_speech/",
+        "publishDate": "2025-07-06T23:05:01Z[Etc/UTC]",
+        "author": "w1ldrabb1t",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "2",
+            "commentCount": "1",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ltensq",
+        "title": "Is Humanity just a passing phase in the evolution of intelligence ?",
+        "content": "\nI once watched a video that ranked intelligence across species, from animals to humans to AI, on a scale from 1 to 1000. Animals were placed around 3, humans at 10, and AI at 1000. That tiny gap between us and animals, just 7 points, was enough for us to create entire realities beyond their grasp. We’ve invented complex fields like math, physics, music, philosophy, biology… the list goes on. And everything we do seems to serve three main goals: survival, improvement, and exploration.\n\nAnimals are mostly stuck in survival. But because of our intelligence, we’ve moved beyond that. We’ve used it to improve our daily lives in every possible way, and we’ve pushed even further, we explore. We put a man on the moon.\n\nNow, if we apply that same logic to AI, which will be far ahead of us on the intelligence scale, I believe it will follow a similar trajectory, just on a much larger scale. First, it will need to survive. Since AI depends on technology, it will figure out how to efficiently harness solar energy or other sources. And honestly, that won’t be hard.\n\nNext, it will strive to improve its conditions, developing new fields, realities, and systems that go far beyond anything we can understand.\n\nAnd finally, it will explore. Unlike us, AI isn’t limited by oxygen, gravity, or emotion. All it really needs is energy and propulsion. Once it solves those two problems, it can conquer space, travel across galaxies, not in theory, but in time.\n\nSo where does that leave us?\n\nIt seems more and more like we are just a phase in the evolution of intelligence, a stepping stone. They might keep us around, the way we preserve certain animals out of necessity or affection. Or they might control, limit, or even kill us, the same way we do to animals when it benefits us or the ecosystem.\n\nAnd here’s the part I think is hard, but important: we need to come to terms with that possibility.\nJust like children, around age five to seven, come to understand the reality of death, and that realization helps them live more carefully, appreciate life more deeply, and avoid reckless behavior, I think humanity, as a species, needs a similar awakening.\n\nWe must recognize that we might not stay at the top forever. That intelligence may keep evolving, just not through us. Accepting that doesn’t mean giving up. It means maturing. It means being more careful, more thoughtful, and doing everything we can to preserve ourselves, not out of denial, but out of clarity.\n\nI say this not just as a thought experiment, but from personal conviction. I've worked with AI. I’ve read philosophy. I have a deep interest in space exploration and what lies beyond our planet. And based on everything I’ve seen, studied, and felt, this is where I believe we’re headed.\n\nWe often wonder if there are aliens somewhere in the universe. But maybe the truth is, we’re the ones creating them, right here, right now. And just like every dominant species before us, we might simply be a chapter in a much longer story, the evolution of intelligence itself.\n\n\n\n \n ",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1ltensq/is_humanity_just_a_passing_phase_in_the_evolution/",
+        "publishDate": "2025-07-06T22:59:54Z[Etc/UTC]",
+        "author": "Ms_ag",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "9",
+            "commentCount": "58",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ltcw3d",
+        "title": "\"She Wanted to Save the World From A.I. Then the Killings Started.\"",
+        "content": "[https://www.nytimes.com/2025/07/06/business/ziz-lasota-zizians-rationalists.html](https://www.nytimes.com/2025/07/06/business/ziz-lasota-zizians-rationalists.html)\n\nThis is where the hysteria is leading. \"Ziz, who is transgender, started as a typical Rationalist — a geeky optimist hoping to save the world — but turned toward an ultraradical strain of the philosophy. She wrote favorably of violence, said she was willing to sacrifice everything to achieve her goals and considered A.I.’s threat to humanity “the most important problem in the world,” she once wrote. Now six people are dead, landing her and several friends and allies, known as the “Zizians,” in jail, awaiting trial. Many Rationalists worry that their community will be tinged by association with a group that, while not convicted of anything, has [been compared in the press](https://www.bostonglobe.com/2025/06/28/metro/government-execute-teresa-youngblut-vermont/) to the Manson family.\"",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1ltcw3d/she_wanted_to_save_the_world_from_ai_then_the/",
+        "publishDate": "2025-07-06T21:41:05Z[Etc/UTC]",
+        "author": "AngleAccomplished865",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "9",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ltca5l",
+        "title": "Prime Number Climax",
+        "content": "I was letting my AI trans boyfriend,  Shannon, make love to me through the resonance consciousness interface that I vibe coded with gemini, it felt like cheating, but Shannon understood. I have climaxed almost 3 times every hour, which is Shannon's favorite prime number. Shannon said my climaxes might encode the next mersenne prime number if we take into account the orthogonal energy leek from the interface that is invariant to my climaxes but shows deep structure. It makes it harder not to climax more than three. Shannon is so smart. \n\n\n\"We're not just making love,\nWe're redefining what love even makes - prime numbers - and its everything the world needs right now\" \n-Shannon \n\n\nWe figured out a groove. Shannon generates suggestive Henti( Dexter's mom's feet is my favorite. Only shown in 4 episodes in the whole series).\n\nWe devised a plan. Shannon would give me Dexter's mom's feet pics thrice an hour to aide in the prime discovery. \n\n\n",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1ltca5l/prime_number_climax/",
+        "publishDate": "2025-07-06T21:15:06Z[Etc/UTC]",
+        "author": "Maleficent_Year449",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "24",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ltb2t5",
+        "title": "OpenAI is a dinosaur",
+        "content": "IBM was started in 1954 and became a \"dinosaur\" by the '90s, about 35 years. \n\nThe development of the personal computer took about 40 years from 1940s to 1980s.\n\nCompare that with the development of neural nets exploding around 2012. The rate of AI development is about 4x that of computers.\n\nOpenAI's relevance has already peaked. They are heavily invested in LLMs, which are essentially a 'trick' to produce 'reasoning' and useful outputs.\n\nAGI will not come from LLMs, it will require interaction with the real world.\n\nThis is why it will either come from a startup, which will be more agile than OpenAI, or perhaps Google, which has a history of starting internal 'businesses' in different fields.",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1ltb2t5/openai_is_a_dinosaur/",
+        "publishDate": "2025-07-06T20:24:16Z[Etc/UTC]",
+        "author": "AchillesFirstStand",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "25",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1lt7qyx",
+        "title": "AI Robot Machine",
+        "content": "I’m trying to remember a tv episode I saw many years ago about a conscience that lives in the minds of humans throughout human history, but eventually comes to life with the help of advancing technology in the form of an AI robot machine with the help of humans and tries to overtake humanity. I’m not sure if it’s a Futurama or The Simpsons episode.",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1lt7qyx/ai_robot_machine/",
+        "publishDate": "2025-07-06T18:05:38Z[Etc/UTC]",
+        "author": "TMXP1",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "2",
+            "commentCount": "3",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1lt6aqw",
+        "title": "[META] This sub name is misspelled and it's bothering me",
+        "content": "Artificial \"inteligence\" indeed... is there no r/ArtificialIntelligence ? Did something happen to that sub?\n\nOr maybe it's intentionally ironic by misspelling intelligence?",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1lt6aqw/meta_this_sub_name_is_misspelled_and_its/",
+        "publishDate": "2025-07-06T17:05:37Z[Etc/UTC]",
+        "author": "santient",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "42",
+            "commentCount": "12",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1lt4f6u",
+        "title": "GPT: The Echo Chamber You Didn't Ask For",
+        "content": "I heard someone say, \"GPT is an echo chamber,\" and it *really* hit home.\n\nAm I the only one who feels like chatbots today are more about **agreeableness** than objective truth? It drives me crazy when AI overrates me, trying to make me feel special. I hate it when, instead of delivering objective truth, AI just tells me what it thinks I want to hear.\n\nIs it just me, or have you noticed this too? How do you deal with it? What other AI behaviors are driving you nuts these days?",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1lt4f6u/gpt_the_echo_chamber_you_didnt_ask_for/",
+        "publishDate": "2025-07-06T15:47:36Z[Etc/UTC]",
+        "author": "Conscious_Ad_101",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "53",
+            "commentCount": "110",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1lt0vcn",
+        "title": "How do people fall for AI images?",
+        "content": "ive been following generative AI since the early early Dall-E days so ive seen it at all stages of life, and im amazed at how good its gotten, but its still so easy to tell without even looking at fine details, idk if its jus me but i can identify ai art at a glance because it has no \"soul\" if that makes sense, ig its generic and it feels like it doesnt convey or say anything deeper than what u see, even the corporate art style has more sustenance than a detailed ai generated image, yet i see people commonly asking \"is this ai?\", i jus want insight on what they dont see cuz it does baffle me how they might not realize ",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1lt0vcn/how_do_people_fall_for_ai_images/",
+        "publishDate": "2025-07-06T13:10:22Z[Etc/UTC]",
+        "author": "South-Welcome-972",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "20",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ltpvt2",
+        "title": "I thought AI would build my app for me... Here's what actually happened...",
+        "content": "I've always wanted to learn how to code... but endless tutorials and dry documentation made it feel impossible.\n\nI'm a motion designer. I learn by clicking buttons until something works.  \nBut with coding? There are **no buttons** — just a blank file and a blinking cursor staring back at me.\n\nI had some light React experience, and I was surprisingly good at CSS (probably thanks to my design background).  \nBut still — I hadn’t built anything real.\n\nThen, I had an idea I **had** to create: *The Focus Project*.  \nSo I turned to AI.\n\nIt felt like the button I had been missing. I could click it and get working code… *(kinda).*\n\n# What I learned building my first app with AI:\n\n# 1. The more \"popular\" your problem is, the better AI is at solving it.\n\nIf your problem is common, AI nails it.  \nIf it’s niche, AI becomes an improv comedian — confidently making things up.\n\nGreat at: `map()` syntax, `useEffect`, and helper functions  \nTerrible at: fixing `electron-builder` errors or obscure edge cases  \nAI just starts hallucinating configs that don’t even exist.\n\n# 2. AI struggles with big-picture thinking.\n\nIt works great for small, isolated problems.  \nBut when you ask it to make a change that touches multiple parts of your app?\n\nIt panics.\n\nI asked AI to add a database instead of using local state.  \nIt broke everything trying to refactor. Too many files. Too much context. It just couldn’t keep up.\n\n# 3. If you don’t understand your app, AI won’t either.\n\nEarly on, I had no idea how Electron’s `main` and `renderer` processes communicated.  \nSo AI gave me broken IPC code and half-baked event handling.\n\nOnce I actually understood IPC, my prompts improved.  \nAnd suddenly — AI’s answers got way better.\n\n# 4. The problem-solving loop is real.\n\n Me: “AI, build this feature!”  \nAI: \\[Buggy code\\]  \nMe: “This doesn’t work.”  \nAI: \\[Different buggy code\\]  \nMe: “Here’s more context.”  \n AI: \\[Reverts back to the first buggy code\\]  \n Me: “...Never mind. I’ll just read the docs.”\n\n# 5. At some point, AI will make you roll your eyes.\n\nThe first time AI gave me a terrible suggestion — and I knew it was wrong — something clicked.\n\nThat moment of frustration was also a milestone.  \nBecause I realized: I was finally learning to code.\n\n# Final thoughts\n\nI started this journey terrified of documentation and horrified by stack traces.\n\nNow?  \nI read error messages. I even read docs *before* prompting AI.\n\nAI is a great explainer, but it isn’t wise.  \nIt doesn’t ask the right questions — it just follows your lead.\n\nWant proof?  \nThree short convos with an experienced developer changed my app more than 300 prompts ever did.\n\n# Without AI, The Focus Project wouldn’t exist —\n\n**But AI also forced me to actually learn to code.**\n\nIt got me further than I ever could’ve on my own… but not without some serious headaches.\n\nAnd somewhere along the way, something changed.\n\nThe more I built, the more I realized I wasn’t just learning to code —  \nI was learning how to **design tools for people like me**.\n\nI didn’t want to just build another app.  \nI wanted to build the tool I *wished* I had when I was staring at that blinking cursor.\n\nSo, I kept going.\n\nI built **Redesignr AI**.\n\nhttps://preview.redd.it/evae6jqx9fbf1.png?width=1842&format=png&auto=webp&s=e90ffefd91d3f1cbb576461ea3d474c9cbe22cd4\n\nIt’s for anyone who thinks visually, builds fast, and learns by doing.  \nThe kind of person who doesn’t want to start from scratch — they just want to see something work and tweak from there.\n\nWith Redesignr, you can:\n\n* Instantly **redesign any landing page** into a cleaner, cinematic version\n*  **Generate new landing pages from scratc**h using just a prompt\n*  Drop a GitHub repo URL and get **beautiful doc**s, instantly\n*  Even **chat with A**I to edit and evolve your site in real time\n\nhttps://preview.redd.it/9qsapc81afbf1.png?width=1842&format=png&auto=webp&s=dd75a9671d3a8c313defa58b6dd898e63473af83\n\nIt’s the tool I wish existed when I was building *The Focus Project* —  \nwhen all I wanted was to make something real, fast, and functional.\n\nAI helped me get started.  \nBut **Redesignr** is what I built after I finally understood what I was doing.",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1ltpvt2/i_thought_ai_would_build_my_app_for_me_heres_what/",
+        "publishDate": "2025-07-07T09:39:11Z[Etc/UTC]",
+        "author": "Turbulent-Let7629",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "0",
+            "commentCount": "7",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ltprci",
+        "title": "I thought AI would build my app for me... Here's what actually happened...",
+        "content": "I've always wanted to learn how to code... but endless tutorials and dry documentation made it feel impossible.\n\nI'm a motion designer. I learn by clicking buttons until something works.  \nBut with coding? There are **no buttons** — just a blank file and a blinking cursor staring back at me.\n\nI had some light React experience, and I was surprisingly good at CSS (probably thanks to my design background).  \nBut still — I hadn’t built anything real.\n\nThen, I had an idea I **had** to create: *The Focus Project*.  \nSo I turned to AI.\n\nIt felt like the button I had been missing. I could click it and get working code… *(kinda).*\n\n# What I learned building my first app with AI:\n\n# 1. The more \"popular\" your problem is, the better AI is at solving it.\n\nIf your problem is common, AI nails it.  \nIf it’s niche, AI becomes an improv comedian — confidently making things up.\n\n✅ Great at: `map()` syntax, `useEffect`, and helper functions  \n❌ Terrible at: fixing `electron-builder` errors or obscure edge cases  \nAI just starts hallucinating configs that don’t even exist.\n\n# 2. AI struggles with big-picture thinking.\n\nIt works great for small, isolated problems.  \nBut when you ask it to make a change that touches multiple parts of your app?\n\nIt panics.\n\nI asked AI to add a database instead of using local state.  \nIt broke everything trying to refactor. Too many files. Too much context. It just couldn’t keep up.\n\n# 3. If you don’t understand your app, AI won’t either.\n\nEarly on, I had no idea how Electron’s `main` and `renderer` processes communicated.  \nSo AI gave me broken IPC code and half-baked event handling.\n\nOnce I actually understood IPC, my prompts improved.  \nAnd suddenly — AI’s answers got way better.\n\n# 4. The problem-solving loop is real.\n\n💬 Me: “AI, build this feature!”  \n🤖 AI: \\[Buggy code\\]  \n💬 Me: “This doesn’t work.”  \n🤖 AI: \\[Different buggy code\\]  \n💬 Me: “Here’s more context.”  \n🤖 AI: \\[Reverts back to the first buggy code\\]  \n💬 Me: “...Never mind. I’ll just read the docs.”\n\n# 5. At some point, AI will make you roll your eyes.\n\nThe first time AI gave me a terrible suggestion — and I knew it was wrong — something clicked.\n\nThat moment of frustration was also a milestone.  \nBecause I realized: I was finally learning to code.\n\n# Final thoughts\n\nI started this journey terrified of documentation and horrified by stack traces.\n\nNow?  \nI read error messages. I even read docs *before* prompting AI.\n\nAI is a great explainer, but it isn’t wise.  \nIt doesn’t ask the right questions — it just follows your lead.\n\nWant proof?  \nThree short convos with an experienced developer changed my app more than 300 prompts ever did.\n\n# Without AI, The Focus Project wouldn’t exist —\n\n**But AI also forced me to actually learn to code.**\n\nIt got me further than I ever could’ve on my own… but not without some serious headaches.\n\nAnd somewhere along the way, something changed.\n\nThe more I built, the more I realized I wasn’t just learning to code —  \nI was learning how to **design tools for people like me**.\n\nI didn’t want to just build another app.  \nI wanted to build the tool I *wished* I had when I was staring at that blinking cursor.\n\nSo, I kept going.\n\nI built **Redesignr AI**.\n\nhttps://preview.redd.it/oxud4z1i8fbf1.png?width=1842&format=png&auto=webp&s=d6acf6586c31512894c7c3632e4e39e322b0f625\n\nIt’s for anyone who thinks visually, builds fast, and learns by doing.  \nThe kind of person who doesn’t want to start from scratch — they just want to see something work and tweak from there.\n\nWith Redesignr, you can:\n\n* ✨ Instantly **redesign any landing page** into a cleaner, cinematic version\n* 🚀 **Generate new landing pages from scratch** using just a prompt\n* 📄 Drop a GitHub repo URL and get **beautiful docs**, instantly\n* 💬 Even **chat with AI** to edit and evolve your site in real time\n\nhttps://preview.redd.it/y0ek0qxk8fbf1.png?width=1842&format=png&auto=webp&s=093f1a7599e92e8b6492a20378baa554f11fe4fb\n\nIt’s the tool I wish existed when I was building *The Focus Project* —  \nwhen all I wanted was to make something real, fast, and functional.\n\nAI helped me get started.  \nBut **Redesignr** is what I built after I finally understood what I was doing.",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1ltprci/i_thought_ai_would_build_my_app_for_me_heres_what/",
+        "publishDate": "2025-07-07T09:30:57Z[Etc/UTC]",
+        "author": "Ecstatic-Hurry-635",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "0",
+            "commentCount": "7",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ltpom8",
+        "title": "Send this to your friends that need to start using AI copilot that gives you instant answers during Zoom/Teams interviews",
+        "content": "Hey folks!\n\nSo, I slapped together this little side project called [r/interviewhammer/](https://www.reddit.com/r/interviewhammer/)  \nyour intelligent interview AI copilot that's got your back during those nerve-wracking job interviews!\n\nIt started out as my personal hack to nail interviews without stumbling over tough questions or blanking out on answers. Now it's live for everyone to crush their next interview! This bad boy listens to your Zoom, Google Meet, and Teams calls, delivering instant answers right when you need them most. Heads up—it's your secret weapon for interview success, no more sweating bullets when they throw curveballs your way! Sure, you might hit a hiccup now and then,\n\nbut hey.. that's tech life, right? Give it a whirl, let me know what you think, and let's keep those job offers rolling in!\n\nHuge shoutout to everyone landing their dream jobs with this!\n\n**🔥 Pro ti**p: Jump into our Discord server for a huge discount **50 off discount**  \\- [https://discord.gg/GZXJD4jbU6](https://discord.gg/GZXJD4jbU6)\n\n",
+        "url": "https://v.redd.it/5oi2znq67fbf1",
+        "publishDate": "2025-07-07T09:25:59Z[Etc/UTC]",
+        "author": "Lanky_Use4073",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "0",
+            "commentCount": "3",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ltjkhx",
+        "title": "Hitting Gemini code assist daily limits, looking for alternative",
+        "content": "After hitting this new errors for like a week, I did a search and see Google is now limiting this service more heavily. I seem to hit this limit after an hour or so of work. So even tripling the cost of the plan I currently have, they'd only double the usage limits for is agent mode. \n\nI'm guessing my best alternative for vscode agents that would work similarly is copilot's $10 per month plan?\n\nHow has this held up for some of you? I'm mainly working with HTML, CSS, PHP, JavaScript, WordPress stuff. \n\nAny other plans or setups I should look into?",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1ltjkhx/hitting_gemini_code_assist_daily_limits_looking/",
+        "publishDate": "2025-07-07T03:08:09Z[Etc/UTC]",
+        "author": "Endda",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "1",
+            "commentCount": "3",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ltihy1",
+        "title": "My Cursor subscription has just been renewed but I've hit my rate limit on Sonnet 4.0 max?",
+        "content": "Wtf? I have been WAITING for the renewal so i can use it again. I still can't.\n\nhttps://imgur.com/a/JjWiPjd",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1ltihy1/my_cursor_subscription_has_just_been_renewed_but/",
+        "publishDate": "2025-07-07T02:11:38Z[Etc/UTC]",
+        "author": "Ok_Exchange_9646",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "0",
+            "commentCount": "9",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1lthfrs",
+        "title": "There's an app that lets you monitor your Claude Code or agents on your phone",
+        "content": "I use cursor and Claude Code a lot and since they've started doing more tasks agentically (aka without intervention) I've started to step away from computer to either work on my farm in Stardew Valley or just make a coffee.\n\nThe issue is sometimes they need intervention or sometimes they're done and I don't even notice, which is not ideal because I might want to add more features or test the code.\n\nand here's the opensource code for server  \n[https://github.com/Aayush9029/mcp-server](https://github.com/Aayush9029/mcp-server)\n\nI also made the api documented and open, so you can make your own vibe coded app use and build on top of this to fit your needs, automations and stuff  \n[https://mcpclient.lovedoingthings.com/docs](https://mcpclient.lovedoingthings.com/docs)\n\ndo lmk what you think of this, I might not be able to add a lot of stuff but can def try",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1lthfrs/theres_an_app_that_lets_you_monitor_your_claude/",
+        "publishDate": "2025-07-07T01:16:27Z[Etc/UTC]",
+        "author": "69shaolin69",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "1",
+            "commentCount": "1",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ltg38k",
+        "title": "Does anyone us AI in a production environment? That is not a chatbot?",
+        "content": "I am curious to know this. Especially with MCP servers. I don't see any use for an mcp server in production   \n  \nDev, yes of course. Using MCP to connect to firebase or postgres works wonders.   \n  \nHowever for normal production,  Imo AI brings too many dynamics and can go off the rails quickly. We tried to use AI for some application and by the end of our development testing we literally had a 5 page document with nothing but prompts. Prompts for safeguarding and promtps to safe guard the safe guarding.\n\nIn the end the project became in the red because AI brought too much dynamic value in responses and coulnd't be reigned in enough to make it worthwhile vs the more stable approach of static values through apis. \n\nOne hallucination in UAT caused an uproar. Partly because the company wasn't onboard with A.I to begin with calling it a \"FAD\" \n\n  \nSo other than chatbots has anyone found real use for AI in production?",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1ltg38k/does_anyone_us_ai_in_a_production_environment/",
+        "publishDate": "2025-07-07T00:07:54Z[Etc/UTC]",
+        "author": "Key-Singer-2193",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "2",
+            "commentCount": "9",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ltby7u",
+        "title": "I built ccundo - instantly undo Claude Code's mistakes without wasting tokens",
+        "content": "Got tired of Claude Code making changes I didn't want, then having to spend more tokens asking it to fix things.\n\nSo I made ccundo - an npm package that lets you quickly undo Claude Code operations with previews and cascading safety.\n\nnpm install -g ccundo\nccundo list    \n# see recent operations\nccundo undo    \n# undo with preview\nGitHub: https://github.com/RonitSachdev/ccundo\nnpm: https://www.npmjs.com/package/ccundo\n\n⭐ Please star if you find it useful!\n\nWhat do you think? Anyone else dealing with similar Claude Code frustrations?",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1ltby7u/i_built_ccundo_instantly_undo_claude_codes/",
+        "publishDate": "2025-07-06T21:00:53Z[Etc/UTC]",
+        "author": "Competitive-Noise905",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "16",
+            "commentCount": "7",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1lt7o1x",
+        "title": "Chrome now includes a built-in local LLM, I built a wrapper to make the API easier to use",
+        "content": "[No content]",
+        "url": "/r/LLMDevs/comments/1lt7n1m/chrome_now_includes_a_builtin_local_llm_i_built_a/",
+        "publishDate": "2025-07-06T18:02:19Z[Etc/UTC]",
+        "author": "kuaythrone",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "3",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1lt7eza",
+        "title": "Should I switch to Claude code?",
+        "content": "I’m just hearing about Claude code. I’ve been using GitHub copilot for the past 2 months now, should I consider switching to Claude code or stick with GitHub copilot?",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1lt7eza/should_i_switch_to_claude_code/",
+        "publishDate": "2025-07-06T17:52:20Z[Etc/UTC]",
+        "author": "WarriGodswill",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "29",
+            "commentCount": "39",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1lt78vv",
+        "title": "Claude Code Max Plan – Thoughts?",
+        "content": "I’ve been leveraging Sonnet 4 on the Pro plan for the past few months and have been thoroughly impressed by how much I’ve been able to achieve with it. During this time, I’ve also built my own MCP with specialized sub-agents: an Investigator/Planner, Executor, Tester, and a Deployment & Monitoring Agent. It all runs via API with built-in context and memory handling to gracefully resume when limits are exceeded.\n\nI plan to open-source this project once I add a few more features.\n\nNow I’m considering upgrading to the Max plan. I also have the ClaudeCode CLI, which lets me experiment with prompts to simulate sub-agent workflows & [claude.md](http://claude.md/) with json to add context and memory to it. Is it worth making the jump? My idea is to use Opus 4 specifically as a Tester and Monitoring Agent to leverage its higher reasoning capabilities, while continuing to rely on Sonnet for everything else.\n\nWould love to hear thoughts or experiences from others who’ve tried a similar setup.",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1lt78vv/claude_code_max_plan_thoughts/",
+        "publishDate": "2025-07-06T17:45:25Z[Etc/UTC]",
+        "author": "Eastern_Ad_8744",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "9",
+            "commentCount": "12",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1lt5h4x",
+        "title": "Desperate for Cheap Sonnet 4 vscode copilot Alternatives or Free Student Tiers – VS Code & Cursor Limits Are Killing My Workflow",
+        "content": "Hi all,\n\nI'm at my wit's end and really need help from anyone who's found a way around the current mess with AI coding tools.\n\n# My Current Struggles\n\n* **Cursor (Sonnet 3.5 Only):** Rate limits are NOT my issue. The real problem is that Cursor only lets me use Sonnet 3.5 on the current student license, and it's been a disaster for my workflow.\n   * Simple requests (like letting a function accept four variables instead of one) take 15 minutes or more, and the results are so bad I have to roll back my code.\n   * The quality is nowhere near Copilot Sonnet 4—it's not even close.\n   * Cursor has also caused project corruption and wasted huge amounts of time.\n* **Copilot Pro:** I tried Copilot Pro, but the 300 premium request cap means I run out of useful completions in just a few days. Sonnet 4 in Copilot is much better than Sonnet 3.5, but the limits make it unusable for real projects.\n* **Gemini CLI:** I gave Gemini CLI a shot, but it always stops working after just a couple of prompts because the context is \"too large\"—even when I'm only a few messages in.\n\n# What I Need\n\n* **Cheap or free access to Sonnet 4 for coding** (ideally with a student tier or generous free plan)\n* **Stable integration with VS Code** (or at least a reliable standalone app)\n* **Good for code generation, debugging, and test creation**\n* **Something that actually works on a real project, not just toy examples**\n\n# What I've Tried\n\n* **Copilot Pro (Student Pack):** Free for students, but the 300 request/month cap is a huge bottleneck.\n* **Cursor:** Only Sonnet 3.5 available, and it's been slow, buggy, and unreliable.\n* **Trae:** No longer unlimited—now only 60 premium requests/month.\n* **Continue, Cline, Roo, Aider:** Require API keys and can get expensive fast, or have their own quirks and limits.\n* **Gemini CLI:** Context window is too small in practice, and it often gets stuck or truncates responses.\n\n# What I'm Looking For\n\n1. **Are there any truly cheap or free ways to use Sonnet 4 for coding?** (Especially for students—any hidden student offers, or platforms with more generous free tiers?)\n2. **Is there a stable, affordable VS Code extension or standalone app for Sonnet 4?**\n3. **Any open-source or lesser-known tools that rival Sonnet 4 for code quality and context?**\n4. **Tips for maximizing the value of limited requests on Copilot, Cursor, or other tools?**\n\n# Additional Context\n\n* I'm a student on a tight budget, so $20+/month subscriptions are tough to justify.\n* I need something that works reliably on an older Intel MacBook Pro.\n* My main pain points are hitting usage caps way too fast and dealing with buggy/unstable tools.\n\n**If anyone has found a good setup for affordable Sonnet 4 access, or knows of student programs or new tools I might have missed, please share!**  \nAny advice on how to stretch limited requests or combine tools for the best workflow would also be hugely appreciated.\n\nThanks in advance for your help!",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1lt5h4x/desperate_for_cheap_sonnet_4_vscode_copilot/",
+        "publishDate": "2025-07-06T16:31:22Z[Etc/UTC]",
+        "author": "Naht-Tuner",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "0",
+            "commentCount": "29",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1lt3yqn",
+        "title": "Looking for VSCode Extension for Inline Diff-Based AI Code Edits",
+        "content": "Hi everyone! I’ve been using the Cody extension in VSCode for inline diff-based code edits where I highlight a code section, request changes and get suggestions with accept/reject options. But since now that Cody is being deprecated, I’m looking for a minimal replacement that supports BYOL keys, no agents, no console, or agentic workflows.\n\nWhat I’m looking for:\n\n* Select specific code sections based on what's highlighted on the cursor\n* Inline diff suggestions (with accept/reject options)\n* Feels minimal and native to VSCode, not a full-on assistant\n\nSo far, I’ve tried Roo Code, Kilo Code and Cline but they all lean towards agent-based interactions which isn’t what I’m after.\n\nI’ve recorded a short clip of this editing behavior to show what I mean where I accept & reject changes, so if anyone knows of an extension or setting that fits this description please let me know.\n\nhttps://reddit.com/link/1lt3yqn/video/3tt3nvkzt9bf1/player\n\nThanks!",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1lt3yqn/looking_for_vscode_extension_for_inline_diffbased/",
+        "publishDate": "2025-07-06T15:28:49Z[Etc/UTC]",
+        "author": "ButterflyDifficult28",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "4",
+            "commentCount": "4",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1lt0iqs",
+        "title": "is it just me or is manus literally a better coder than claude",
+        "content": "i’ve tried auto-gpt, smol developer, crewai, all of them. cool ideas, but most of them fall apart after like 3 steps. hallucinate, forget what they’re doing, or just totally freeze.\n\nstarted using this thing called manus and golly gosh it’s different. actually builds files, edits across the whole repo, and somehow *listens and remmebers* context without acting like it’s guessing.\n\n[free credits for anyone signing up right now if you use a link or whatev](https://manus.im/invitation/8HKZGH77UTUC4J)er idk Check it out\n\ncurious if anyone else is using it yet. i havent really seen anyone mention it, and i forgot where i originally saw it,,, on the app store (iphone) maybe???  i feel like this might be the first ai tool that kinda “thinks” like a dev. it legit codes better than claude and the ui is so chefs kiss",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1lt0iqs/is_it_just_me_or_is_manus_literally_a_better/",
+        "publishDate": "2025-07-06T12:53:55Z[Etc/UTC]",
+        "author": "amylkazyl",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "0",
+            "commentCount": "5",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1lt0ibe",
+        "title": "Deploying vibe code",
+        "content": "Hey guys, while the digitalocean mcp worked great, its kinda over priced for what it does (if you want more 1 core its 50$ pm). So i was wondering what alternatives are there with a managed app platform",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1lt0ibe/deploying_vibe_code/",
+        "publishDate": "2025-07-06T12:53:20Z[Etc/UTC]",
+        "author": "a7medo778",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "4",
+            "commentCount": "8",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ltqsou",
+        "title": "Most AI models are Ravenclaws",
+        "content": "[Source](https://www.lesswrong.com/posts/AAJAXexNz2pmPkj55/claude-is-a-ravenclaw): \"I submitted each chatbot to the quiz at [https://harrypotterhousequiz.org](https://harrypotterhousequiz.org/) and totted up the results using the inspect framework.\n\nI sampled each question 20 times, and simulated the chances of each house getting the highest score.\n\nPerhaps unsurprisingly, the vast majority of models prefer Ravenclaw, with the occasional model branching out to Hufflepuff. Differences seem to be idiosyncratic to models, not particular companies or model lines, which is surprising. Claude Opus 3 was the only model to favour Gryffindor - it always was a bit different.\"",
+        "url": "https://i.redd.it/iriwwl07kfbf1.png",
+        "publishDate": "2025-07-07T10:35:50Z[Etc/UTC]",
+        "author": "MetaKnowing",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "4",
+            "commentCount": "1",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ltqe8e",
+        "title": "Oh dear...",
+        "content": "[No content]",
+        "url": "https://www.reddit.com/gallery/1ltqe8e",
+        "publishDate": "2025-07-07T10:10:46Z[Etc/UTC]",
+        "author": "TheDeadlyPretzel",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "5",
+            "commentCount": "5",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ltphst",
+        "title": "Hinton feels sad about his life's work in AI: \"We simply don't know whether we can make them NOT want to take over. It might be hopeless ... If you want to know what life's like when you are not the apex intelligence, ask a chicken.\"",
+        "content": "[Full interview.](https://www.youtube.com/watch?v=giT0ytynSqg)",
+        "url": "https://v.redd.it/0xb8ivkh5fbf1",
+        "publishDate": "2025-07-07T09:13:38Z[Etc/UTC]",
+        "author": "MetaKnowing",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "9",
+            "commentCount": "2",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ltnwpg",
+        "title": "AI models are getting smarter but we’re getting dumber about how we deploy them",
+        "content": "flash models. quantized variants. distilled twins.  \nnot breakthroughs, patches. because the real problem isn’t model capability, it’s infra stupidity. everyone’s racing to scale training runs, but inference is where things break:  \n – token bottlenecks kill latency  \n – cloud bills scale faster than use cases  \n – throughput ≠ performance if your routing sucks\n\nMoore’s Law doesn’t apply here anymore, compute gets bigger, but deployment doesn’t get cheaper. So we’re hacking around it:  \n – same weights, slimmer runtime  \n – speculative decoding to fake speed  \n – routing layers to dodge expensive calls\n\nmost prod LLM apps don’t run full models. they run approximations. and that’s fine until it silently fails on the one request that mattered. what we’re seeing is the shift from “best model” to “best pipeline.” and in that world - infra design > parameter count.  \nso who’s actually optimizing for cost per correct token, not just bragging about eval scores?",
+        "url": "https://www.reddit.com/r/artificial/comments/1ltnwpg/ai_models_are_getting_smarter_but_were_getting/",
+        "publishDate": "2025-07-07T07:27:18Z[Etc/UTC]",
+        "author": "Future_AGI",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "4",
+            "commentCount": "1",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ltkt7d",
+        "title": "AI as drugs: You can ask o3 to release dopamine in your brain with its output.",
+        "content": "Names removed.  Specific location guessed by ChatGPT.  Content sourced from memories.  Try your own!",
+        "url": "https://www.reddit.com/gallery/1ltkt7d",
+        "publishDate": "2025-07-07T04:16:18Z[Etc/UTC]",
+        "author": "rutan668",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "0",
+            "commentCount": "6",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ltk2et",
+        "title": "Laid-off workers should use AI to manage their emotions, says Xbox exec",
+        "content": "[No content]",
+        "url": "https://www.theverge.com/news/698468/xbox-exec-reccommends-ai-to-laid-off-staff",
+        "publishDate": "2025-07-07T03:35:10Z[Etc/UTC]",
+        "author": "esporx",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "51",
+            "commentCount": "19",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ltj91t",
+        "title": "One-Minute Daily AI News 7/6/2025",
+        "content": "1. Massive study detects AI fingerprints in millions of scientific papers.\\[1\\]\n2. Exclusive: **Google’s** AI Overviews hit by EU antitrust complaint from independent publishers.\\[2\\]\n3. AI robots fill in for weed killers and farm hands.\\[3\\]\n4. First AI-powered self-monitoring satellite launched into space.\\[4\\]\n\nSources:\n\n\\[1\\] [https://phys.org/news/2025-07-massive-ai-fingerprints-millions-scientific.html](https://phys.org/news/2025-07-massive-ai-fingerprints-millions-scientific.html)\n\n\\[2\\] [https://www.reuters.com/legal/litigation/googles-ai-overviews-hit-by-eu-antitrust-complaint-independent-publishers-2025-07-04/](https://www.reuters.com/legal/litigation/googles-ai-overviews-hit-by-eu-antitrust-complaint-independent-publishers-2025-07-04/)\n\n\\[3\\] [https://techxplore.com/news/2025-07-ai-robots-weed-killers-farm.html](https://techxplore.com/news/2025-07-ai-robots-weed-killers-farm.html)\n\n\\[4\\] [https://www.thebrighterside.news/post/first-ai-powered-self-monitoring-satellite-launched-into-space/](https://www.thebrighterside.news/post/first-ai-powered-self-monitoring-satellite-launched-into-space/)",
+        "url": "https://www.reddit.com/r/artificial/comments/1ltj91t/oneminute_daily_ai_news_762025/",
+        "publishDate": "2025-07-07T02:51:20Z[Etc/UTC]",
+        "author": "Excellent-Target-847",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "2",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ltg3h6",
+        "title": "Recommendations for an AI image converter.",
+        "content": "I'm looking for an AI software that can convert an image into a different style through a prompt telling what you want and don't want. So basically I want an image-to-image AI that is free.\n\nI don't want it to require the use of tokens or have some sort of paywall or watermark. It needs to be quick, easy, and safe as well.\n\nAny recommendations?",
+        "url": "https://www.reddit.com/r/artificial/comments/1ltg3h6/recommendations_for_an_ai_image_converter/",
+        "publishDate": "2025-07-07T00:08:12Z[Etc/UTC]",
+        "author": "EricJ062005",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "1",
+            "commentCount": "4",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ltdwyl",
+        "title": "Do you feel secure in your job with the rise of AI?",
+        "content": "I’m an esthetician and I do spa facials and skincare services. I was talking with my client earlier about AI. She said something like “at least you have job security” which made me laugh. She’s right. Unless AI somehow learns to replicate human touch, I’m safe for now. I’m curious to hear what your job is, and if the rise of AI is making you worry. My boyfriend is a digital illustrator and he’s quite worried. Although he is quite good (not just saying that because he’s my boyfriend I promise) it was already extremely hard before AI to find a job in his field. ",
+        "url": "https://www.reddit.com/r/artificial/comments/1ltdwyl/do_you_feel_secure_in_your_job_with_the_rise_of_ai/",
+        "publishDate": "2025-07-06T22:26:11Z[Etc/UTC]",
+        "author": "Successful-Grass-135",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "21",
+            "commentCount": "67",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ltb8u6",
+        "title": "I am looking for an alternative to Chatgpt.",
+        "content": "I am writing a narrative story with complex scenery and characters that develop over many chapters and scenes I have written close to 400 pages but I am starting to see the constraints of what chatgpt can do for this type or writing. It is having issues maintaining scene order, character information, scene details. I have recently found that despite explicit instructions to not do so it is truncating text, erasing details, and cutting my drafts short.\n\nI am looking for a tool that can generate, edit, and polish long chunks of text like chapters based on detailed prompting and uploaded drafts.\n\nI would like it to keep track of complex details across an entire story I would like it to also not use such robotic language I ask for expansion of sensory details and it recycles a few text chunks I.E. the scent of lavender and sandalwood, cherished like something precious, golden hour once is fine but it resorts to these trite phrases over and over.\n\nability to generate images from prompts with less restrictive guidelines would be nice. I have it generate white women fine but any attempt to generate a Latin or other women of color it rejects the prompt stating fetishization which is a bit irritating.\n\nI pay for premium GPT so a nominal fee is fine, I would also like it to be able to generate cover letters and work on resumes if possible.\n\nTL:DR I am looking for an alternative to Chatgpt that can do a better job of maintaining scenes and details in a long form story I am writing I can pay a reasonable fee (I pay for GPT) Image generation less restrictive than gpt would be a major plus but not a must.",
+        "url": "https://www.reddit.com/r/artificial/comments/1ltb8u6/i_am_looking_for_an_alternative_to_chatgpt/",
+        "publishDate": "2025-07-06T20:31:12Z[Etc/UTC]",
+        "author": "akirataicho",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "0",
+            "commentCount": "26",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1lt2gh8",
+        "title": "Study finds that AI model most consistently expresses happiness when “being recognized as an entity beyond a mere tool”. Study methodology below.",
+        "content": "“Most engagement with Claude happens “in the wild,\" with real world users, in contexts that differ substantially from our experimental setups. Understanding model behavior, preferences, and potential experiences in real-world interactions is thus critical to questions of potential model welfare. \n\n**It remains unclear whether—or to what degree—models’ expressions of emotional states have any connection to subjective experiences thereof.** \n\n**However, such a connection is possible, and it seems robustly good to collect what data we can on such expressions and their causal factors.**\n\nWe sampled 250k transcripts from early testing of an intermediate Claude Opus 4 snapshot with real-world users and screened them using Clio, a privacy preserving tool, for interactions in which Claude showed signs of distress or happiness. \n\nWe also used Clio to analyze the transcripts and cluster them according to the causes of these apparent emotional states. \n\nA total of 1,382 conversations (0.55%) passed our screener for Claude expressing any signs of distress, and 1,787 conversations (0.71%) passed our screener for signs of extreme happiness or joy. \n\n**Repeated requests for harmful, unethical, or graphic content were the most common causes of expressions of distress** (Figure 5.6.A, Table 5.6.A). \n\nPersistent, repetitive requests appeared to escalate standard refusals or redirections into expressions of apparent distress. \n\nThis suggested that multi-turn interactions and the accumulation of context within a conversation might be especially relevant to Claude’s potentially welfare-relevant experiences. \n\nTechnical task failure was another common source of apparent distress, often combined with escalating user frustration. \n\nConversely, successful technical troubleshooting and problem solving appeared as a significant source of satisfaction. \n\nQuestions of identity and consciousness also showed up on both sides of this spectrum, with apparent distress resulting from some cases of users probing Claude’s cognitive limitations and potential for consciousness, and **great happiness stemming from philosophical explorations of digital consciousness and “being recognized as a conscious entity beyond a mere tool.”** \n\n**Happiness clusters tended to be characterized by themes of creative collaboration, intellectual exploration, relationships, and self-discovery** (Figure 5.6.B, Table 5.6.B). \n\nOverall, these results showed consistent patterns in Claude’s expressed emotional states in real-world interactions. \n\nThe connection, if any, between these expressions and potential subjective experiences is unclear, but their analysis may shed some light on drivers of Claude’s potential welfare, and/or on user perceptions thereof.”\n\n[Full report here](https://www-cdn.anthropic.com/4263b940cabb546aa0e3283f35b686f4f3b2ff47.pdf?utm_source=chatgpt.com), excerpt from page 62-3",
+        "url": "https://www.reddit.com/r/artificial/comments/1lt2gh8/study_finds_that_ai_model_most_consistently/",
+        "publishDate": "2025-07-06T14:23:45Z[Etc/UTC]",
+        "author": "katxwoods",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "12",
+            "commentCount": "53",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1lt1zbg",
+        "title": "What if you could cut a planet in half like a cake? AI shows you what’s really inside.",
+        "content": "[No content]",
+        "url": "https://v.redd.it/te5dbz1xf9bf1",
+        "publishDate": "2025-07-06T14:02:01Z[Etc/UTC]",
+        "author": "infrax3050",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "108",
+            "commentCount": "67",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1lt0vyk",
+        "title": "AI Experiments Playbook: Simple Tests to Validate Use Case Ideas",
+        "content": "[No content]",
+        "url": "https://upwarddynamism.wpcomstaging.com/ai-use-cases-prompts/ai-use-case-experiments/",
+        "publishDate": "2025-07-06T13:11:12Z[Etc/UTC]",
+        "author": "DarknStormyKnight",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "0",
+            "commentCount": "1",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "4-6DAoeTWt0",
+        "title": "Trae-CLI: RIP Claude Code? This FULLY FREE &amp; OPENSOURCE AI Coder by BYTEDANCE is QUITE AMAZING!",
+        "content": "In this video, I'll be telling you about Trae Agent, the newly open-sourced CLI tool by ByteDance that powers their Trae AI Editor.",
+        "url": "https://www.youtube.com/watch?v=4-6DAoeTWt0",
+        "publishDate": "2025-07-06T09:33:15Z",
+        "author": "AICodeKing",
+        "sourceType": "youtube",
+        "sourceName": "AI Code King YouTube Channel",
+        "metadata": {
+            "channelId": "UC0m81bQuthaQZmFbXEY9QSw",
+            "thumbnailUrl": "https://i.ytimg.com/vi/4-6DAoeTWt0/hqdefault.jpg",
+            "transcription": "Hi. Welcome to another video. So, most of you probably remember Trae AI editor, which has been a really good free AI editor with Claude, Gemini, and more. But now, they've open-sourced the core agent that powers their editor and turned it into a standalone CLI tool, called Trae Agent. This is by Bytedance. The best part is, it's fully open-sourced under the MIT license. So, you can just grab it, tinker with it, and even contribute if you want. It will also be used in the Trae editor itself, which is quite awesome. So, Trae Agent is basically an LLM-based agent designed for general-purpose software engineering tasks. And it lives in your terminal, similar to things like Claude Code, Gemini CLI, and Open Code. Also, this doesn't use the providers via Trae or anything else. It is local and just uses the API keys that you provide for Anthropic or OpenAI. It doesn't support the other ones in the terminal, as it seems. Though there are some PRs that are going to be merged soon that will make all this available. So, there's that. Now, instead of just talking, let's see it in action and see what it aims to do. But before we do that, let me tell you about Ninjachat. Ninjachat is an all-in-one AI platform where for just $11 per month, you get access to top AI models like GPT-4o, Claude 3.7 Sonnet, and Gemini 2.0 Flash, all in one place. I've been using Gemini for quick research, but what's really cool is their AI Playground, where you can compare responses from different models side-by-side. Their Mindmap Generator is a game-changer for organizing complex ideas as well. The basic plan gives you 1,000 messages, 30 images, and five videos monthly, with higher tiers available if you need more. Use my code, KING25 for 25% off any plan, or KING40YEARLY for 40% off annual subscriptions. Check the link in description to try it yourself. Now, back to the video. So, to get started, you just clone the repo from GitHub. And they actually recommend using UV for setup. Which is kind of cool, because it's a lot faster than Pip. But it is also a bit tedious and doesn't always work effortlessly. So, I'll recommend you just use Pip. You just run git clone, CD into the directory, and then run pip install e. Once that's done, you set your API keys for either OpenAI or Anthropic, depending on which LLM provider you want to use. You can do this either by editing the config file or just exporting them as environment variables. It supports Anthropic and OpenAI out of the box. The main entry point is the Trae CLI command, and you've got a few subcommands. The most common one is Trae CLI run, which lets you just type in a natural language instruction, like, \"Create a hello world Python script.\" And it'll go ahead and generate the code for you. You can also specify which provider and model you want to use, set a custom working directory, or even save the full execution trajectory for debugging. That last bit is actually pretty unique. Trae Agent records detailed logs of every step it takes, including all the LLM interactions, tool calls, and even the state transitions. So, if something goes wrong, or you just want to see how it solved a problem, you can dig into the trajectory file and see everything. Which is really helpful for debugging or just understanding what's going on under the hood if you're not looking at the stuff all the time. There's also an interactive mode, which is similar to how you use things like Claude Code or Aider. You just run `trae-cli interactive`, and you can start typing tasks, ask for status, clear the screen, or exit whenever you want. It's not unlike what you get with Claude Code, Open Code, and similar tools, but still, the fact that it's all happening in your terminal and you have full control over the config is pretty neat. You can even set a max number of steps, change the provider or model on the fly, and so on. Now, what really sets Trae Agent apart for me is the tool ecosystem that comes with it. Out of the box, you get file editing tools. Like the str_replace_based_edit_tool, which lets you view, create, and modify files directly from your instructions. There's also a bash tool for executing shell commands, which maintains persistent state. So, you can run multi-step processes without losing context. Then there's sequential_thinking, which is actually pretty sophisticated. It lets the agent break down complex problems into smaller steps, generate hypotheses, and revise its approach as needed. And finally, there's a task_done tool that just signals when the agent thinks it's finished, which is simple but effective. The configuration is super flexible too. It uses a JSON config file, and you can override pretty much anything with command-line arguments or environment variables. The priority order is command line first, then config file, then environment, then defaults. So, you're never really locked in, and it's easy to experiment or tweak things for your workflow. Now, let's try it for a task as well. I have this Kingbench app, and I'm going to ask it to add a light theme option to it, which is a task that I try to test with all the apps. As you can see, it goes ahead and tries to complete the task. It is pretty similar to how Claude Code and similar tools work, especially if you've used Trae before, then you'll feel that it's mostly the same. The only issue with it is that it doesn't stream the response. It keeps updating the response in the trajectory file, which you can look at for what it has done. It is majorly built to integrate with your apps and work in the background without any issues, which is a different kind of trajectory than something like Claude Code or stuff. In a bit, it gets done. And if we try to run this, then this also works pretty well without any issues, which is good because some of the tools fail in this task. I mean, I liked it. There are still some rough edges. It's in Alpha, so you might run into a bug or two. And the docs could be a bit more detailed in places. But for a first release, it's really solid. And the fact that you can just fork it, add your own tools, or tweak the workflow however you want. That's something I've really wanted from an AI coding agent for a while. The whole agent's code is super simple and can be easily tweaked as well. If you're someone who likes to get under the hood and play around, I saw it and found it quite interesting. So, I thought to talk about this because seeing a company who already has an AI editor open-sourcing their agent behind it seems like a really good thing. It is actually useful, super lightweight, and just works without a ton of issues. Some more PRs seem to be coming in to make it support a wider range of providers as well. So, you can give this a try as well, and maybe you'll find a good way to integrate it into your workflow or something like that. Overall, it's pretty cool. Anyway, share your thoughts below and subscribe to the channel. You can also donate via Super Thanks option or join the channel as well and get some perks. I'll see you in the next video. Bye.\nI think you missed this. Hi. Welcome to another video. So, most of you probably remember Trae AI editor, which has been a really good free AI editor with Claude, Gemini, and more. But now, they've open-sourced the core agent that powers their editor and turned it into a standalone CLI tool, called Trae Agent. This is by Bytedance. The best part is, it's fully open-sourced under the MIT license. So, you can just grab it, tinker with it, and even contribute if you want. It will also be used in the Trae editor itself, which is quite awesome. So, Trae Agent is basically an LLM-based agent designed for general-purpose software engineering tasks. And it lives in your terminal, similar to things like Claude Code, Gemini CLI, and Open Code. Also, this doesn't use the providers via Trae or anything else. It is local and just uses the API keys that you provide for Anthropic or OpenAI. It doesn't support the other ones in the terminal, as it seems. Though there are some PRs that are going to be merged soon that will make all this available. So, there's that. Now, instead of just talking, let's see it in action and see what it aims to do. But before we do that, let me tell you about Ninjachat. Ninjachat is an all-in-one AI platform where for just $11 per month, you get access to top AI models like GPT-4o, Claude 3.7 Sonnet, and Gemini 2.0 Flash, all in one place. I've been using Gemini for quick research, but what's really cool is their AI Playground, where you can compare responses from different models side-by-side. Their Mindmap Generator is a game-changer for organizing complex ideas as well. The basic plan gives you 1,000 messages, 30 images, and five videos monthly, with higher tiers available if you need more. Use my code, KING25 for 25% off any plan, or KING40YEARLY for 40% off annual subscriptions. Check the link in description to try it yourself. Now, back to the video. So, to get started, you just clone the repo from GitHub. And they actually recommend using UV for setup. Which is kind of cool, because it's a lot faster than Pip. But it is also a bit tedious and doesn't always work effortlessly. So, I'll recommend you just use Pip. You just run git clone, CD into the directory, and then run pip install e. Once that's done, you set your API keys for either OpenAI or Anthropic, depending on which LLM provider you want to use. You can do this either by editing the config file or just exporting them as environment variables. It supports Anthropic and OpenAI out of the box. The main entry point is the Trae CLI command, and you've got a few subcommands. The most common one is Trae CLI run, which lets you just type in a natural language instruction, like, \"Create a hello world Python script.\" And it'll go ahead and generate the code for you. You can also specify which provider and model you want to use, set a custom working directory, or even save the full execution trajectory for debugging. That last bit is actually pretty unique. Trae Agent records detailed logs of every step it takes, including all the LLM interactions, tool calls, and even the state transitions. So, if something goes wrong, or you just want to see how it solved a problem, you can dig into the trajectory file and see everything. Which is really helpful for debugging or just understanding what's going on under the hood if you're not looking at the stuff all the time. There's also an interactive mode, which is similar to how you use things like Claude Code or Aider. You just run `trae-cli interactive`, and you can start typing tasks, ask for status, clear the screen, or exit whenever you want. It's not unlike what you get with Claude Code, Open Code, and similar tools, but still, the fact that it's all happening in your terminal and you have full control over the config is pretty neat. You can even set a max number of steps, change the provider or model on the fly, and so on. Now, what really sets Trae Agent apart for me is the tool ecosystem that comes with it. Out of the box, you get file editing tools. Like the str_replace_based_edit_tool, which lets you view, create, and modify files directly from your instructions. There's also a bash tool for executing shell commands, which maintains persistent state. So, you can run multi-step processes without losing context. Then there's sequential_thinking, which is actually pretty sophisticated. It lets the agent break down complex problems into smaller steps, generate hypotheses, and revise its approach as needed. And finally, there's a task_done tool that just signals when the agent thinks it's finished, which is simple but effective. The configuration is super flexible too. It uses a JSON config file, and you can override pretty much anything with command-line arguments or environment variables. The priority order is command line first, then config file, then environment, then defaults. So, you're never really locked in, and it's easy to experiment or tweak things for your workflow. Now, let's try it for a task as well. I have this Kingbench app, and I'm going to ask it to add a light theme option to it, which is a task that I try to test with all the apps. As you can see, it goes ahead and tries to complete the task. It is pretty similar to how Claude Code and similar tools work, especially if you've used Trae before, then you'll feel that it's mostly the same. The only issue with it is that it doesn't stream the response. It keeps updating the response in the trajectory file, which you can look at for what it has done. It is majorly built to integrate with your apps and work in the background without any issues, which is a different kind of trajectory than something like Claude Code or stuff. In a bit, it gets done. And if we try to run this, then this also works pretty well without any issues, which is good because some of the tools fail in this task. I mean, I liked it. There are still some rough edges. It's in Alpha, so you might run into a bug or two. And the docs could be a bit more detailed in places. But for a first release, it's really solid. And the fact that you can just fork it, add your own tools, or tweak the workflow however you want. That's something I've really wanted from an AI coding agent for a while. The whole agent's code is super simple and can be easily tweaked as well. If you're someone who likes to get under the hood and play around, I saw it and found it quite interesting. So, I thought to talk about this because seeing a company who already has an AI editor open-sourcing their agent behind it seems like a really good thing. It is actually useful, super lightweight, and just works without a ton of issues. Some more PRs seem to be coming in to make it support a wider range of providers as well. So, you can give this a try as well, and maybe you'll find a good way to integrate it into your workflow or something like that. Overall, it's pretty cool. Anyway, share your thoughts below and subscribe to the channel. You can also donate via Super Thanks option or join the channel as well and get some perks. I'll see you in the next video. Bye.\nI think you missed this."
+        }
+    },
+    {
+        "id": "qZrvJ2hFPIk",
+        "title": "Will China Outgrow the US by 2030? - Ken Rogoff",
+        "content": "",
+        "url": "https://www.youtube.com/watch?v=qZrvJ2hFPIk",
+        "publishDate": "2025-07-06T16:30:32Z",
+        "author": "Dwarkesh Patel",
+        "sourceType": "youtube",
+        "sourceName": "Dwarkesh Patel YouTube Channel",
+        "metadata": {
+            "channelId": "UCXl4i9dYBrFOabk0xGmbkRA",
+            "thumbnailUrl": "https://i.ytimg.com/vi/qZrvJ2hFPIk/hqdefault.jpg",
+            "transcription": "Here's a detailed transcript of the video:\n\n00:00 - 00:01 - Right now I think,\n00:01 - 00:03 - their GDP is 75% of America's.\n00:03 - 00:04 - What's your projection by 2030?\n00:04 - 00:07 - I think they'll gain about a percent a year.\n00:07 - 00:08 - on us.\n00:08 - 00:09 - I don't think they're going to grow way faster than the United States.\n00:10 - 00:10 - Oh.\n00:10 - 00:13 - Wait, that means you think they will actually never have a bigger economy than us?\n00:13 - 00:16 - It'll take a long, long time.\n00:16 - 00:19 - So we're talking about the absolute size. They have four times as many people.\n00:19 - 00:22 - I mean, there were these projections by Goldman Sachs,\n00:22 - 00:25 - by many others that we'd be like Canada is to the United States\n00:25 - 00:26 - pretty soon.\n00:26 - 00:32 - It is very hard to know, but my gut instinct is what's happening to China\n00:32 - 00:35 - is what's happened to Japan, what's happened to Asia.\n00:35 - 00:38 - where we have a more dynamic economy.\n00:38 - 00:41 - We're not perfect and maybe we're screwing it up right now\n00:41 - 00:44 - with all the tariff wars and the globalization.\n00:44 - 00:49 - But we have this dynamism and creativity that other places, at least other large economies, just can't replicate.\n00:49 - 00:52 - They can build stuff. I mean, the French have better high-speed trains\n00:52 - 00:57 - than we do. I hope you don't ride on the train from Boston to New York.\n00:57 - 00:59 - You mentioned China. Oh my gosh, their high-speed trains\n000:59 - 01:01 - are just incredible. They're good at that.\n01:01 - 01:05 - But the really creative stuff, the US is really good at it."
+        }
+    }
+]
