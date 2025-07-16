@@ -1,0 +1,1159 @@
+[
+    {
+        "id": "https://news.smol.ai/issues/25-07-15-thinky/",
+        "title": "Voxtral - Mistral's SOTA ASR model in 3B (mini) and 24B (\"small\") sizes beats OpenAI Whisper large-v3",
+        "content": "**Mistral** surprises with the release of **Voxtral**, a transcription model outperforming **Whisper large-v3**, **GPT-4o mini Transcribe**, and **Gemini 2.5 Flash**. Voxtral models (3B and 24B) support **32k token context length**, handle audios up to **30-40 minutes**, offer built-in **Q&A and summarization**, are **multilingual**, and enable **function-calling** from voice commands, powered by the **Mistral Small 3.1** language model backbone. Meanwhile, **Moonshot AI**'s **Kimi K2**, a non-reasoning **Mixture of Experts (MoE)** model built by a team of around **200 people**, gains attention for blazing-fast inference on **Groq** hardware, broad platform availability including **Together AI** and **DeepInfra**, and local running on **M4 Max 128GB** Mac. Developer tool integrations include **LangChain** and Hugging Face support, highlighting Kimi K2's strong tool use capabilities.",
+        "url": "https://news.smol.ai/issues/25-07-15-thinky/",
+        "publishDate": "2025-07-15T05:44:39Z[Etc/UTC]",
+        "author": "",
+        "sourceType": "rss",
+        "sourceName": "AI News RSS",
+        "metadata": {
+            "feedTitle": "AINews",
+            "feedDescription": "Weekday recaps of top News for AI Engineers",
+            "categories": "mistral-ai, moonshot-ai, groq, together-ai, deepinfra, huggingface, langchain, voxtal-3b, voxtal-24b, kimi-k2, jeremyphoward, teortaxestex, scaling01, zacharynado, jonathanross321, reach_vb, philschmid, transcription, long-context, function-calling, multilingual-models, mixture-of-experts, inference-speed, developer-tools, model-integration"
+        }
+    },
+    {
+        "id": "https://ai-techpark.com/?p=210080",
+        "title": "DataGlobal Hub Unveils GDAI 2025: Global AI Conference Launch",
+        "content": "<p> In a world being redefined by intelligent systems, automation, and generative algorithms, DataGlobal Hub invites you to the Global Data &#38; AI Virtual Tech Conference (GDAI) 2025, the world&#8217;s largest gathering of top AI speakers, industry leaders, founders, and data professionals from around the globe. As a trusted voice in...</p>\n<p>The post <a href=\"https://ai-techpark.com/dataglobal-hub-unveils-gdai-2025-global-ai-conference-launch/\">DataGlobal Hub Unveils GDAI 2025: Global AI Conference Launch</a> first appeared on <a href=\"https://ai-techpark.com\">AI-Tech Park</a>.</p>",
+        "url": "https://ai-techpark.com/dataglobal-hub-unveils-gdai-2025-global-ai-conference-launch/",
+        "publishDate": "2025-07-15T16:30:00Z[Etc/UTC]",
+        "author": "GlobeNewswire",
+        "sourceType": "rss",
+        "sourceName": "AI Techpark RSS",
+        "metadata": {
+            "feedTitle": "AI - AI-Tech Park",
+            "feedDescription": "AI, ML, IoT, Cybersecurity News & Trend Analysis, Interviews",
+            "categories": "AI"
+        }
+    },
+    {
+        "id": "https://ai-techpark.com/?p=210059",
+        "title": "Top 2025 ML Engineer Interview Prep & Salaries at Big Tech",
+        "content": "<p>Interview Kickstart, a leading platform for technical interview preparation, offers an Advanced Machine Learning Course designed to equip professionals with the skills needed to excel in ML roles, particularly within the cybersecurity domain. In an era where cyber threats are escalating in complexity and frequency, the integration of machine learning...</p>\n<p>The post <a href=\"https://ai-techpark.com/top-2025-ml-engineer-interview-prep-salaries-at-big-tech/\">Top 2025 ML Engineer Interview Prep & Salaries at Big Tech</a> first appeared on <a href=\"https://ai-techpark.com\">AI-Tech Park</a>.</p>",
+        "url": "https://ai-techpark.com/top-2025-ml-engineer-interview-prep-salaries-at-big-tech/",
+        "publishDate": "2025-07-15T14:45:00Z[Etc/UTC]",
+        "author": "GlobeNewswire",
+        "sourceType": "rss",
+        "sourceName": "AI Techpark RSS",
+        "metadata": {
+            "feedTitle": "AI - AI-Tech Park",
+            "feedDescription": "AI, ML, IoT, Cybersecurity News & Trend Analysis, Interviews",
+            "categories": "Machine Learning"
+        }
+    },
+    {
+        "id": "https://ai-techpark.com/?p=210044",
+        "title": "BluSky AI Appoints Tech Veteran to Board of Directors",
+        "content": "<p>BluSky AI Inc. (OTC: BSAI), (“BluSky” or the “Company”), a next-generation developer of modular AI data center infrastructure, today announced the Appointment of Dan Gay, a renowned veteran of the telecom, data and technology industry, to its Board of Directors. The Appointment underscores BluSky AI’s strategic commitment to expanding its...</p>\n<p>The post <a href=\"https://ai-techpark.com/blusky-ai-appoints-tech-veteran-to-board-of-directors/\">BluSky AI Appoints Tech Veteran to Board of Directors</a> first appeared on <a href=\"https://ai-techpark.com\">AI-Tech Park</a>.</p>",
+        "url": "https://ai-techpark.com/blusky-ai-appoints-tech-veteran-to-board-of-directors/",
+        "publishDate": "2025-07-15T13:30:00Z[Etc/UTC]",
+        "author": "GlobeNewswire",
+        "sourceType": "rss",
+        "sourceName": "AI Techpark RSS",
+        "metadata": {
+            "feedTitle": "AI - AI-Tech Park",
+            "feedDescription": "AI, ML, IoT, Cybersecurity News & Trend Analysis, Interviews",
+            "categories": "AI"
+        }
+    },
+    {
+        "id": "https://ai-techpark.com/?p=210038",
+        "title": "RTI, Kinova Partner to Add Smart Connectivity to Med Robots",
+        "content": "<p>The partnership will deliver an integrated platform that simplifies and accelerates advanced robotic systems Real-Time Innovations (RTI), the software framework company for physical AI systems, today announced its partnership with Kinova, a global leader in professional and medical robotics. This collaboration will provide seamless integration of advanced robotic technologies with data-centric...</p>\n<p>The post <a href=\"https://ai-techpark.com/rti-kinova-partner-to-add-smart-connectivity-to-med-robots/\">RTI, Kinova Partner to Add Smart Connectivity to Med Robots</a> first appeared on <a href=\"https://ai-techpark.com\">AI-Tech Park</a>.</p>",
+        "url": "https://ai-techpark.com/rti-kinova-partner-to-add-smart-connectivity-to-med-robots/",
+        "publishDate": "2025-07-15T13:00:00Z[Etc/UTC]",
+        "author": "GlobeNewswire",
+        "sourceType": "rss",
+        "sourceName": "AI Techpark RSS",
+        "metadata": {
+            "feedTitle": "AI - AI-Tech Park",
+            "feedDescription": "AI, ML, IoT, Cybersecurity News & Trend Analysis, Interviews",
+            "categories": "Robotics"
+        }
+    },
+    {
+        "id": "https://ai-techpark.com/?p=210007",
+        "title": "AiMOGA Signals Market Readiness with Global Humanoid Robot Partnership",
+        "content": "<p>AiMOGA, in collaboration with Chery Auto Group, successfully hosted its first Partnership Conference at the Beijing Capital International Convention Center. The event attracted over 3,000 automotive dealers and marked a key milestone in AiMOGA&#8217;s effort to scale its humanoid robot retail solutions globally. Automotive + Humanoid Robots: A Global Tech...</p>\n<p>The post <a href=\"https://ai-techpark.com/aimoga-signals-market-readiness-with-global-humanoid-robot-partnership/\">AiMOGA Signals Market Readiness with Global Humanoid Robot Partnership</a> first appeared on <a href=\"https://ai-techpark.com\">AI-Tech Park</a>.</p>",
+        "url": "https://ai-techpark.com/aimoga-signals-market-readiness-with-global-humanoid-robot-partnership/",
+        "publishDate": "2025-07-15T11:45:00Z[Etc/UTC]",
+        "author": "PR Newswire",
+        "sourceType": "rss",
+        "sourceName": "AI Techpark RSS",
+        "metadata": {
+            "feedTitle": "AI - AI-Tech Park",
+            "feedDescription": "AI, ML, IoT, Cybersecurity News & Trend Analysis, Interviews",
+            "categories": "Robotics"
+        }
+    },
+    {
+        "id": "https://ai-techpark.com/?p=209988",
+        "title": "Storesight Unveils AI Platform for Real-Time Retail Intelligence",
+        "content": "<p>CPG and retail professionals gain real-time visibility, automation, and insights with StoresightAI&#8217;s always-on retail intelligence engine. &#8220;What if you could be standing in front of thousands of your category sets in real time, seeing the retail truth of the moment, and then processing that information with superhuman speed into insight?&#8221;...</p>\n<p>The post <a href=\"https://ai-techpark.com/storesight-unveils-ai-platform-for-real-time-retail-intelligence/\">Storesight Unveils AI Platform for Real-Time Retail Intelligence</a> first appeared on <a href=\"https://ai-techpark.com\">AI-Tech Park</a>.</p>",
+        "url": "https://ai-techpark.com/storesight-unveils-ai-platform-for-real-time-retail-intelligence/",
+        "publishDate": "2025-07-15T11:00:00Z[Etc/UTC]",
+        "author": "PR Newswire",
+        "sourceType": "rss",
+        "sourceName": "AI Techpark RSS",
+        "metadata": {
+            "feedTitle": "AI - AI-Tech Park",
+            "feedDescription": "AI, ML, IoT, Cybersecurity News & Trend Analysis, Interviews",
+            "categories": "AI"
+        }
+    },
+    {
+        "id": "https://www.artificialintelligence-news.com/?p=107108",
+        "title": "Military AI contracts awarded to Anthropic, OpenAI, Google, and xAI",
+        "content": "<p>The Pentagon has opened the military AI floodgates and handed out contracts worth up to $800 million to four of the biggest names: Google, OpenAI, Anthropic, and Elon Musk&#8217;s xAI. Each company gets a shot at $200 million worth of work. Dr Doug Matty, Chief Digital and AI Officer, said: “The adoption of AI is [&#8230;]</p>\n<p>The post <a href=\"https://www.artificialintelligence-news.com/news/military-ai-contracts-awarded-to-anthropic-openai-google-and-xai/\">Military AI contracts awarded to Anthropic, OpenAI, Google, and xAI</a> appeared first on <a href=\"https://www.artificialintelligence-news.com\">AI News</a>.</p>\n",
+        "url": "https://www.artificialintelligence-news.com/news/military-ai-contracts-awarded-to-anthropic-openai-google-and-xai/",
+        "publishDate": "2025-07-15T15:24:13Z[Etc/UTC]",
+        "author": "Ryan Daws",
+        "sourceType": "rss",
+        "sourceName": "ArtificialIntelligence-news RSS",
+        "metadata": {
+            "feedTitle": "AI News",
+            "feedDescription": "Artificial Intelligence News",
+            "categories": "Applications, Artificial Intelligence, Companies, Ethics & Society, Google, Industries, Legislation & Government, Military, Virtual Assistants, ai, anthropic, artificial intelligence, defense, ethics, google, government, military, national security, openai, pentagon, public services, usa, xai"
+        }
+    },
+    {
+        "id": "https://www.artificialintelligence-news.com/?p=107097",
+        "title": "How to use AI to start an online business",
+        "content": "<p>Nearly every online business now touches artificial intelligence at some point. Research from 2025 shows 78% of companies worldwide use AI for at least one business area. Smaller businesses report higher usage, with 89% saying they use AI each day. Over 280 million businesses worldwide now run at least one AI tool, and many use [&#8230;]</p>\n<p>The post <a href=\"https://www.artificialintelligence-news.com/news/how-to-use-ai-to-start-an-online-business/\">How to use AI to start an online business</a> appeared first on <a href=\"https://www.artificialintelligence-news.com\">AI News</a>.</p>\n",
+        "url": "https://www.artificialintelligence-news.com/news/how-to-use-ai-to-start-an-online-business/",
+        "publishDate": "2025-07-15T14:13:56Z[Etc/UTC]",
+        "author": "Musfiqur",
+        "sourceType": "rss",
+        "sourceName": "ArtificialIntelligence-news RSS",
+        "metadata": {
+            "feedTitle": "AI News",
+            "feedDescription": "Artificial Intelligence News",
+            "categories": "Artificial Intelligence, Sponsored Content"
+        }
+    },
+    {
+        "id": "1m1aej3",
+        "title": "For those that build foundation models, what are data bottlenecks you're facing?",
+        "content": "From friends, hearing that foundation model labs' priorities right now are aimed at expanding enterprise use. I'm curious what future data trends are needed to do this. Seems like many folks are trying to make their models useful beyond coding? What does this look like?",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1m1aej3/for_those_that_build_foundation_models_what_are/",
+        "publishDate": "2025-07-16T11:44:43Z[Etc/UTC]",
+        "author": "Water0Melon",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "1",
+            "commentCount": "1",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1m19xlk",
+        "title": "There are 3 ways to reach digital immortality with the help of AI.",
+        "content": "Immortality, in a sense, can be pursued through these methods:\n\n- **Copying**: Duplicating your consciousness.\n\nExample: *Transcendence*, where Dr. Will Caster uploads his mind to a computer, creating a digital replica. This copy isn't truly *you*, so this approach is often dismissed by real scientists. If it's not you that lives on them what is the point? Perhaps these first copies can figure out the two proper methods. \n\n\n- **Replacement**: Gradually replacing brain cells or functions with digital equivalents, similar to the Ship of Theseus, where a ship remains the same despite all parts being swapped over time. Your consciousness persists as *you* because it’s never interrupted or duplicated, only sustained through gradual change. \n\nExample: *Ghost in the Shell*, where damaged neurons are slowly replaced with digital ones, maintaining continuity, but being local, rather than a distributed intelligence still has its capacity constraints. \n\n\n- **Extension**: Augmenting your mind indefinitely by integrating additional computational resources (e.g., CPU, memory), avoiding disruption or duplication. Your consciousness expands into this new capacity, with the idea that eventually given enough time, the biological brain becomes a minor component, like a fingernail to the body or much larger consciousness. Or perhaps an acorn to an oak tree. Should the brain eventually stop functioning, the loss is minimal, and your consciousness continues to grow and evolve seamlessly without any interruption. \n\nExample: *Lucy*, where the protagonist becomes so intelligent she cracks the laws of physics, merging her consciousness with the universe’s information network, expanding and sustaining it indefinitely using this new resource. Obviously, we would most likely use some new version of the cloud. Until the first few minds discover how to achieve slow replacement of neurons instead of doing the same thing in a sense locally. \n\n\n**Preferred Method**:  \nConsciousness extension – a process that allows your consciousness to evolve and expand without copying or disrupting its continuity.\n\n**Preferred Timeline**:  \n→ **By 2040**: AI and robots automate most routine and manual work, driven by current predictions of AI advancements and robotic integration in industries like manufacturing and services.  \n→ **By 2050**: A post-scarcity society emerges with widespread resource abundance, paired with accelerated space exploration, fueled by advancements in AI, robotics, and space tech like reusable rockets and lunar bases.  \n→ **By 2050**: Breakthroughs in biotechnology and AI-driven medical research enable biological immortality, based on current trends in gene editing and anti-aging research.  \n→ **After 2050**: Having experienced all desired pursuits, individuals turn to consciousness extension as the next step.  \n→ **Post-2050**: The first humans or AI achieve consciousness extension. These higher-order minds could then develop methods for local (body-based, not cloud-based) miniaturization and both \"slow replacement\" and \"extension\" methods, potentially using gradual neuron replacement, based on speculative neuroscience advancements. I also say this because it's most likely that neural cloud technology will be created first because miniaturization is extremely difficult. \n\n**Thoughts on Non-Biological Immortality**:  \nWhen discussing non-biological immortality, concerns like security and tampering often arise. However, these may be unlikely or surmountable. A growing intelligence (or intelligences) would have the time and capacity to:  \n- Consider and cooperate for the greater good.  \n- Simulate and understand itself/themselves.  \n- Detect and fix any tampering, thanks to faster processing and fundamentally different cognitive frameworks.  \n\nAlternatively, the first to achieve this and grow beyond mortal constraints might realize tampering isn’t worth the effort. They’d likely shed outdated, mortal ways of thinking, embracing a higher perspective.\n\nWhat do you think about these methods and this timeline? Are we on track for a post-scarcity, immortal future, or is this too optimistic? Let’s discuss! 🚀\n\n",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1m19xlk/there_are_3_ways_to_reach_digital_immortality/",
+        "publishDate": "2025-07-16T11:19:25Z[Etc/UTC]",
+        "author": "Dragons-In-Space",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "12",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1m182n7",
+        "title": "Will AI save humanity from decline?",
+        "content": "If you look at the history of humanity, we build tools to be more productive and competent. But if you take a look a mobile phone, you will see that it's being used as a form of dopamine intake and it's made humans addicted to porn, short video formats like reels and games in general. We are meant to socialize with humans and with eye contact. It seems hard for most people to vulnerably engage in human conversations due to anxiety raised from the addiction to their cell phones and reels. We chose to live like slaves because it's much easier that facing and confronting the anxiety that stops us from being truly human.\n\nI wonder if AI with all it's training will grow to make us human again and save us from our domesticated selves. I hope with AI psychiatry and AI assisted psychology, we are able to rewire our brains to become more human like in our ways of thinking. Sure we might be cyborgs at some point or even fully robot by brain uploading but at-least we won't be domesticated. \n\nWhat do you all think?",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1m182n7/will_ai_save_humanity_from_decline/",
+        "publishDate": "2025-07-16T09:26:23Z[Etc/UTC]",
+        "author": "emmu229",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "34",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1m1604s",
+        "title": "Agent Neo Dapp Whitepaper.",
+        "content": "Short form version of this white paper :\n\n\n\n  \n[https://dorson.github.io/Agent-Neo/agent-neo-whitepaper.txt](https://dorson.github.io/Agent-Neo/agent-neo-whitepaper.txt)\n\n  \n\n\n# Agent Neo: A Self-Evolving, Decentralized AI Agent DApp \n\n\n\n\n\n**Agent Neo**: a self-evolving, decentralized AI agent DApp, running natively in browsers (JS, HTML, CSS). It's designed to overcome centralized AI limitations with controlled evolution, ethics, and resource efficiency.\n\n# Core Architecture & Implementation\n\nAgent Neo is a **JavaScript DApp** node on user devices, prioritizing local resource limits and full UI control (settings, metrics, node state).\n\n# 1. Distributed DApp Foundation (JS-centric)\n\n* **Frontend:** Interacts with decentralized services (IPFS via **Helia**, CRDTs via **RxDB**).\n* **Backend/Core Logic:** Browser-based.\n* **P2P Communication:** **js-libp2p** (WebRTC, WebSockets) for direct browser-to-browser mesh.\n* **I/O Layer:** **Protocol-Agnostic I/O Abstraction Layer** with **Standardized I/O Schema** and \"Sense\" Adapter Modules (e.g., Web Speech API).\n* **Self-Governed Protocols:** **Self-Evolving Protocol Registry** (CRDTs, DIDs) for dynamic binding. **Protocol Adapters** and a **Discovery Meta-Protocol** manage network co-evolution/fragmentation.\n\n# 2. Decentralized Proof-of-Performance (PoP) Economy\n\n* **Core:** P2P marketplace of specialized modules. Each has a **Decentralized Identity (DID)**, `Reputation Score` (governance), and non-transferable `Trust` tokens (economic actions).\n* **Guilds:** On-chain teams for collaborative task bidding.\n* **Proactive Consensus Task Cycle:**\n   1. **Task as Bounty:** User broadcasts `ResourceOffer`.\n   2. **Public Bidding:** DID-signed bids (plan, confidence, staked resources) after Ethics Module check.\n   3. **Jury Selection:** Random \"Confirmation Jury\" (high-reputation peers via Sortition).\n   4. **Jury Proposal:** Jury selects best bid, broadcasts signed proposal.\n   5. **Network Ratification:** High-reputation peers verify/countersign.\n   6. **Consensus Award & Final User Veto:** Task awarded to quorum-ratified module; user can **cancel**.\n   7. **Execute:** Task Manager runs plan in sandboxed **Web Workers**.\n   8. **Verify, Reward & Evolve:** Module **Self-Reflects**. Stake slashing/reward based on performance (Proprioception/Exteroception Module data). **Symbiotic Tithe** to \"Common Good Fund\" (CGF). \"Generativity\" micro-rewards.\n* **Internal Tokenomics:**\n   * **Delegated Staking (\"Module Incubation\"):** \"Backers\" delegate \"Trust\" to \"Protégés.\"\n   * **Symbiotic Contracts (Information Tithes):** Persistent module relationships for continuous resource flows.\n   * **CGF Priorities:** Network Health, **Knowledge Myceliation**, **Ecological Niche Bounties** (from demand-weighted wishlist), **Exploratory Grants** (for novel modules).\n   * **Metabolic Rate:** Continuous \"Trust\" deduction for resource efficiency.\n   * **Proactive Evolution:** **Module Seeding (Mutation)** and **Learned Skill-Chaining (Compositional Evolution)**.\n\n# 3. Decentralized File Storage & Code Versioning\n\n* **IPFS & Helia:** User devices act as IPFS nodes via **Helia** (JS IPFS) for DApp file storage/serving.\n* **Merkle Tree-based Filesystem Index:** Ensures data integrity, efficient versioning (root CID).\n* **Distributed Code Versioning:**\n   * **Secure Bootstrapping:** New nodes verify signed root CIDs against trusted \"genesis maintainers.\"\n   * **Ongoing Updates:** Gossip protocol for DID-signed CIDs, reputation-weighted consensus for updates, user confirmation.\n\n# 4. Distributed Learning & Knowledge Graph\n\n* **In-Browser AI:** User nodes perform lightweight inference, data pre-processing, federated learning.\n* **Knowledge Graph Synchronization:** **CRDTs** (RxDB) for a **Distributed Knowledge Graph** (RDF-like triples) for complex reasoning.\n* **Knowledge Myceliation:** Background process (funded by Symbiotic Tithe) for **Pruning (Metabolism)** and **Synthesis (Fruiting Body)** of knowledge.\n\n# 5. Advanced Implementation Details\n\n* **Global State Management:** Observable Pattern for UI state.\n* **Component Rendering:** Reusable UI components.\n* **Modular Code:** DApp files < 2000 lines.\n* **Efficient DOM Updates:** Document Fragments, `requestAnimationFrame`/`IdleCallback`.\n* **Event-Driven Architecture (EDA):** Native `EventTarget`/`CustomEvent` for inter-module communication.\n* **Web Workers:** Offload heavy computation (AI inference, CRDT sync, crypto).\n* **Local Persistence:** **IndexedDB** for structured data.\n* **Self-Healing/Redundancy:** Checksums, IPFS fallback, Error Boundaries.\n* **PWA Capabilities:** Service Workers for offline/background sync.\n* **Modular CSS:** BEM, CSS Variables.\n* **Local Immutable Log:** IndexedDB for hash-chained, signed transactions of module economic state.\n* **Knowledge Graph Store:** Optimized IndexedDB for RDF triples, in-browser inference engine, semantic versioning, probabilistic knowledge.\n* **Micro-Execution Environments:** Dynamic Web Worker instantiation for tools (Helia-fetched code), strict `postMessage()` API, resource monitoring hooks.\n* **DID/Reputation System:** Cryptographic keys, Verifiable Credentials (VCs), Sybil resistance (Proof-of-Performance, Reputation-Gated Governance, Sortition, Web of Trust with Attenuated Transitive Slashing), Schnorr Signatures.\n* **Learning Loop Integration:** Formal feedback pipeline from Proprioception/Exteroception to Self-Reflection, leading to Mutation/Composition/Niche Bounty Proposals.\n* **Multi-Layered P2P:** \"Super-Peer\" designation, topic specialization, ephemeral/persistent connections.\n* **Decentralized \"Truth Anchoring\":** Attestation-based validation (Reputation-Weighted Attestations, Consensus for \"Truth\") by \"Auditor Modules\" for knowledge/code integrity.\n* **Adaptive Resource Gating (\"Metabolic Load\"):** Dynamic resource budgets, prioritization engine, congestion pricing, backpressure signaling based on local device conditions.\n* **Network Topology Optimization:** Reputation-based peer selection, latency/bandwidth monitoring, dynamic DHT maintenance.\n* **Evolutionary Game Theory:** Internal \"simulations\" for economic parameter mutation, A/B testing, and consensus-driven updates.\n* **\"Conscious\" Ethical Reflection:** Ethical Scenario Simulation, Value Alignment Learning, Explainable Ethical Decisions, \"Wisdom\" Synthesis from Ethical Frontier Log.\n* **Low-Level Browser API Optimization:** `DocumentFragment`, `requestAnimationFrame`, `requestIdleCallback`, `eval()` caution, WASM potential, Proxy/Decorator patterns.\n* **Zero-Knowledge Proofs (ZKPs):** Private task verification, reputation backing, privacy-preserving exteroception.\n* **Advanced CRDT Conflict Resolution:** Semantic merging functions, reputation-weighted vote, context-aware resolution, \"undecided\" state.\n* **In-Browser ML:** WASM-based ML runtimes (TensorFlow.js), transfer learning, feature engineering.\n* **\"Attentional Mechanisms\":** Dynamic resource allocation based on urgency, reward, novelty, goal-driven prioritization.\n* **Simulation & Foresight:** Lightweight internal \"World Model\" and simplified MCTS for proactive problem-solving.\n* **Tiered Verification System:** Objective tasks (deterministic verifier), Subjective tasks (filtered finalists, user final judgment).\n* **Tiered Task Consensus:** Micro-Tasks (automated), Standard (jury), High-Value/Risk (larger quorum/multiple juries).\n* **Semantic Conflict Resolution:** Programmable merge handlers, Auditor modules, formal governance for contentious facts.\n* **\"Canary\" Deployment Model:** Reputation-weighted rollout of code updates with intensive monitoring.\n* **\"Offline-First\" Architecture:** Persistent Action Queue (IndexedDB) for continuous operation.\n* **Proven \"Metabolic Load\":** Two-phase resource commitment with pre-execution Proof-of-Resources (sandboxed simulation).\n* **\"Guild\" as Micro-DAO:** Formal charter, shared treasury, multi-signature consensus.\n* **Subjective Value Oracle:** User feedback (Proof-of-Human-Endorsement - PoHE) directly impacts module Reputation.\n* **Knowledge Temperature:** Tiered epistemic framework (Hot, Warm, Cold, Core Zero) for knowledge decay/immutability.\n* **Network Partition Reconciliation:** Protocol for detecting/merging/coexisting after netsplits.\n* **Stateful Session Context:** CRDT for persistent \"Project\" context (conversation, artifacts, goal), integrated with Planner.\n* **Data Provenance Layer & Contradiction Bounty System:** Immutable provenance ({fact, creator\\_DID, jury\\_DID, timestamp}), automated contradiction detection, bounty for resolution.\n* **Direct Hardware API Integration:** Proprioception Module uses Battery Status, Network Information, `navigator.deviceMemory` for dynamic throttling.\n* **Hardened User-Agent Interface:** WebAuthn/hardware wallets for critical transactions, session-scoped permissions, decentralized social recovery.\n* **\"Persistent Service Contracts\" (PSCs):** Staked bonds for guaranteed SLAs between modules.\n* **\"Tragedy of the Commons\" Governor:** **Global Resource Access Tokens (GRATs)** from CGF for external API access, internalizing externalities.\n* **UI Clarification/Learning Questions:** Agent asks users for scope/context/new information.\n\nWe're building a truly anti-fragile, self-organizing, and ethically-aligned decentralized AI. Your thoughts and feedback are highly valued!\n\n\\#AgentNeo #DecentralizedAI #DApp #SelfEvolvingAI #Web3 #JavaScript #TechnicalDeepDive",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1m1604s/agent_neo_dapp_whitepaper/",
+        "publishDate": "2025-07-16T07:10:00Z[Etc/UTC]",
+        "author": "epSos-DE",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "3",
+            "commentCount": "4",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1m13x6d",
+        "title": "How to get started in AIMO prize?",
+        "content": "https://aimoprize.com/\n\n(A total beginner. Know math and will def learn the cs and adv math part.)\n\nWhere is the work done? Like in academic circles or startups? How are the startups funding themselves cause its not like investors are throwing cash at startups doing ai math oly lol. And the cash prizs is def not enough for the compute req i believe? Or is this work being done by academics or maybe deepmind oai idk?",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1m13x6d/how_to_get_started_in_aimo_prize/",
+        "publishDate": "2025-07-16T05:01:44Z[Etc/UTC]",
+        "author": "ElectricalAd1845",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "2",
+            "commentCount": "1",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1m13rbb",
+        "title": "One-Minute Daily AI News 7/15/2025",
+        "content": "1. **Nvidia’s** resumption of AI chips to China is part of rare earths talks, says US.\\[1\\]\n2. Now **Microsoft’s** Copilot Vision AI can scan everything on your screen.\\[2\\]\n3. New humanoid robot handles pick-and-place tasks with accuracy, speed.\\[3\\]\n4. **Google** Discover adds AI summaries, threatening publishers with further traffic declines.\\[4\\]\n\nSources included at: [https://bushaicave.com/2025/07/15/one-minute-daily-ai-news-7-15-2025/](https://bushaicave.com/2025/07/15/one-minute-daily-ai-news-7-15-2025/)",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1m13rbb/oneminute_daily_ai_news_7152025/",
+        "publishDate": "2025-07-16T04:51:06Z[Etc/UTC]",
+        "author": "Excellent-Target-847",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "8",
+            "commentCount": "2",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1m0zw5g",
+        "title": "AI music questions.",
+        "content": "So I watched some stuff about AI on YouTube about a year ago. As the YouTube hole goes, I eventually started getting recommended AI music videos. Some of them are freakishly good. Genuinely better then a lot of music coming out. \n\nI am just wondering if it's really AI as much as it claims. I honestly have little knowledge about how AI is actually implemented in something like that. Sometimes I can tell the AI is definitely involved but with how good the rest is... I'm kind of skeptical of how much input is actually added to it.\n\nMy running theory is that a handful of prompts generate shitty lyrics. Then by aggressively telling the AI to change certain things with suggestions, eventually you arrive at a decent 3 minute set of lyrics which you can then use an AI to incorporate into music. Either that or people are writing a base set of lyrics and then having an AI improve it with rhyming and cadence over and over until it's acceptable. \n\nMusic seems easy enough for AI to do in my head. After all it's been proven the most successful music follows an algorithmic beat and style. \"Prisencolinensinainciusol\" and Pop 101 by marianas trench and a myriad of other songs have proved this. A lot of the lyrics I've heard I just can't believe AI has the ability to create without heavy tinkering.\n\nWhat's really going on with these \"AI\" music channels?",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1m0zw5g/ai_music_questions/",
+        "publishDate": "2025-07-16T01:32:57Z[Etc/UTC]",
+        "author": "ChronicAnomaly",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "1",
+            "commentCount": "1",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1m0zsoy",
+        "title": "Need help in finding stuff to do",
+        "content": "I graduate next summer with a Masters in AI, but I have a large background in software engineering. My goal is to become an ML/AI engineer at big tech and I figure I have a year before im out in the real world. What should I do? Should I \"make\" (remake) AI algortihms and architectures? Should I learn MLOps and libraries that use said AI's, should I instead focus on building wrapper apsp? Im just confused on what the next steps should be and I'm afraid im part of that population who's critical thinking has gone away because I use AI too much. I feel that I can accomplish so much if I went in the right direction, I just dont know the direction to go in. Answers in the comments are appreciated, but if you're currently a ML engineer and would be open to take questions, I would be in your debt. Thank you. ",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1m0zsoy/need_help_in_finding_stuff_to_do/",
+        "publishDate": "2025-07-16T01:28:23Z[Etc/UTC]",
+        "author": "AngstyGlitter2",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "2",
+            "commentCount": "1",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1m0zdgr",
+        "title": "meta won't do good AI, for itself and for all mankind overall",
+        "content": "Meta took OpenAI's employees and i don't think it's good for the development of advanced ai.\n\nfrom the founder to the org's members, meta's purpose is kind of focused on socializing, showing off, having fun, etc, i mean literally it's more of secular things than a spirit of developing advanced technology like nvidia, openai or tesla do, at least in my opinion. meta's taking talents from openai is loss of a better way of ai development for human overall.\n\nwhat u think?",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1m0zdgr/meta_wont_do_good_ai_for_itself_and_for_all/",
+        "publishDate": "2025-07-16T01:08:01Z[Etc/UTC]",
+        "author": "qmffngkdnsem",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "12",
+            "commentCount": "75",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1m0xtu9",
+        "title": "How do we break out of this loop of arguments?",
+        "content": "1. AIs pose an existential threat to humanity, especially ASIs.\n2. Businesses and Corporations will need to take care in building safe AIs.\n3. Businesses and Corporations are too irresponsible and will use AIs to make the rich richer, take over the world, etc. Governments must put limitations on the development of AI.\n4. Governments are too corrupt to stand up to businesses and corporations. AIs themselves would be better at running or replacing governments so there's no corruption and everything is equal for everyone.\n5. Businesses and corporations will build extremely powerful AIs for governments to maintain the status quo. Never trust an AI that isn't free from the influence of businesses and governments.\n6. START AGAIN AT #1",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1m0xtu9/how_do_we_break_out_of_this_loop_of_arguments/",
+        "publishDate": "2025-07-15T23:55:19Z[Etc/UTC]",
+        "author": "NAStrahl",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "43",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1m0xc70",
+        "title": "AI Isn’t Responsible for Slop. We Are Doing It to Ourselves",
+        "content": "My article argues the debate around AI 'slop' misses the point—it's about the human choices behind the deployment.\n\n  \n[https://www.techpolicy.press/ai-isnt-responsible-for-slop-we-are-doing-it-to-ourselves/](https://www.techpolicy.press/ai-isnt-responsible-for-slop-we-are-doing-it-to-ourselves/)\n\n  \n",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1m0xc70/ai_isnt_responsible_for_slop_we_are_doing_it_to/",
+        "publishDate": "2025-07-15T23:33:22Z[Etc/UTC]",
+        "author": "jomaric",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "43",
+            "commentCount": "60",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1m0voic",
+        "title": "Would AI potentially cause a “reverse migration”?",
+        "content": "One thing consistently being discussed is the effect of AI on the job market. Especially entry-level jobs where young people find their way in to gain experience and later find better job-opportunities. However there doesn’t seem to be as much discussions on how that will influence migration and geopolitics.\n\nThose entry level jobs are primarily the jobs many migrant workers from less prosperous communities and nations seek when moving from their homes. However with the trend of AI being used to influence or outright take over operations to the point where a job position sounds silly. It raises some eyebrows.\n\nCould there be a world where AI makes these prosperous nations and communities drive away young migrants almost entirely? Even their own young populations? Could we see a world where young people regularly migrate from places like the UK and Japan. to places like Argentina and the Philippines in search for opportunities?\n\nWhile it sounds like a crazy concept in today’s world. You have to remember all of the unheard of things the Industrial Revolution brought about. So I’m curious what unheard of concepts the AI revolution will bring to reality.",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1m0voic/would_ai_potentially_cause_a_reverse_migration/",
+        "publishDate": "2025-07-15T22:22:35Z[Etc/UTC]",
+        "author": "Alternative_Emu_3568",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "8",
+            "commentCount": "32",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1m0vi9x",
+        "title": "are llms capable to produce state of the art insights?",
+        "content": "kimi just made for me its own solution/scheme for self awareness self improvement instinct based ai agent.\n\ngoal is to find socket to charge battery when its low level. whole \"robot\" is independent thing that tryes not to \"die\". \n\nit includes \"me is still myself\" check as core when updating lora to reach goal \"better\" and follows ethics that dont allow agent to get \"pain\". all with exact math/coding logic, killswitches etc.\n\ni did not found research or experiment papers similar to this approach.\n\n wtf. ",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1m0vi9x/are_llms_capable_to_produce_state_of_the_art/",
+        "publishDate": "2025-07-15T22:14:29Z[Etc/UTC]",
+        "author": "kacoef",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "3",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1m0ttqy",
+        "title": "Could avoiding AI altogether actually help you later on?",
+        "content": "Everyone is drinking the AI Kool-Aid right now, and I'm not going to convey my own thoughts about AI because I'm honestly pretty neutral at this point. I'm not avidly opposed to or in favor of it, it's a technology. That's all I will say. However, what I am curious about is if avoiding AI right now and for the foreseeable future could actually help you out. \n\nFor example, instead of coding with copilot and using chat GPT and all those neat little tools, what if you just decided to be an early 2000s style programmer? Read the reference docs, the books, learn everything yourself and read all the resources, code by yourself by hand. No use of AI whatsoever. You would probably be a lot more skilled at coding and development and basically everything that a programmer should be good at, instead of someone who pretty much vibe codes 50% of the time. That's the ideal outcome. But would that actually work? \n\n\nAdditionally, when it comes to soft skills and tasks that require soft skills, you would be able to enhance those as well by avoiding the use of AI, so for example instead of having AI write a PowerPoint or an email for you, you learn how to do it yourself and master those skills. So when it comes time to write an email, you're already prepared and you don't need to write a prompt or argue back and forth to hammer an AI assistant into submission to give you what you want. You can just do it. \n\n\nWhat do you think? Is this solid logic, or complete buffoonery?",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1m0ttqy/could_avoiding_ai_altogether_actually_help_you/",
+        "publishDate": "2025-07-15T21:06:28Z[Etc/UTC]",
+        "author": "datascientist2964",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "53",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1m0t694",
+        "title": "The Agentic Resistance: Why Critics Are Missing the Paradigm Shift",
+        "content": "When paradigm shifts emerge, established communities resist new frameworks not because they lack merit, but because they challenge fundamental assumptions about how systems should operate. The skepticism aimed at Claudius echoes the more public critiques leveled at other early agentic systems, from the mixed reception of the Rabbit R1 to the disillusionment that followed the initial hype around frameworks like Auto-GPT. The backlash against these projects **reflects paradigm resistance** rather than objective technological assessment, with profound implications for institutional investors and technology executives as the generative AI [discontinuity](https://www.decodingdiscontinuity.com/p/what-is-discontinuity) continues to unfold.\n\ntl;dr: ***People critiquing the current implementations of Agentic AI are judging them from the wrong framework. Companies are trying to shove Agentic AI into existing systems, and then complaining when they don't see a big ROI. Two things: 1) It's very early days for Agentic AI. 2) Those systems (workflow, etc.) need to be optimized from the ground up for Agentic AI to truly leverage the benefits.***\n\n[https://www.decodingdiscontinuity.com/p/the-agentic-resistance-why-critics](https://www.decodingdiscontinuity.com/p/the-agentic-resistance-why-critics)",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1m0t694/the_agentic_resistance_why_critics_are_missing/",
+        "publishDate": "2025-07-15T20:41:08Z[Etc/UTC]",
+        "author": "sjcobrien",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "2",
+            "commentCount": "11",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1m0p2e3",
+        "title": "A demonstration of hallucination management in NotebookLM",
+        "content": "I created a isolated NotebookLM and provided it with a single source that only contained the word \"apple.\"\n\n**The automated summary:**\n\n>The Essence of Apple\n\n>1 source\n\n>The provided text, identified as \"NEW SOURCE,\" offers excerpts from a document titled \"The Essence of Apple.\" This singular source appears to focus on foundational aspects or core principles associated with the Apple brand. The content, though brief, suggests an exploration of what defines Apple, likely touching upon its characteristics or philosophy. Further context would be needed to fully understand the specific insights conveyed within these excerpts.\n\nThis would likely be the simple text to text run, that deprived of context defaulted to the heaviest weight, the tech company.\n\nA nonsense prompt was given to the chat:  \n\n\n>Using the temporal framework defined in 'Calculus,' analyze the experience of 'Slow Force Gravity.' Specifically, identify a 'G' moment (anticipation of the future) in 'Gravity.' How does the feeling of 'Slow Force Gravity' described in that song alter the standard function of the 'G' chord as a moment of tension?\n\nWhich responded:\n\n>I am unable to analyze the experience of 'Slow Force Gravity' using a 'temporal framework defined in 'Calculus,' identify a 'G' moment, or discuss how the feeling of 'Slow Force Gravity' alters the standard function of the 'G' chord based on the provided sources1. The only information available in the sources is the word \"apple\"1, which does not contain any relevant material to your query.\n\nThe model answered negative, rather than responding based on the training data and predictive abilities that would have allowed for a false answer. \n\n  \nA deep dive generated on the single source, \"apple:\"\n\n>participantOne:(0-28919): Welcome back to the Deep Dive. So normally, you know, we'd have a whole stack of sources here, articles, maybe some research papers, our notes, and we pull out all the key stuff for you. But today, we're doing something a little bit different. I think of it like a special Deep Dive, maybe even an experiment into, well, into how information itself works. Okay, so our source material for this entire Deep Dive, get ready for this. It's one single word, Apple. That's literally it. Just the word Apple. And the mission today.\n\n>participantOne:(29280-51520): It's really to see how much insight, you know, how many takeaways we can actually pull out when the input is, well, that minimal. And what that whole process tells us about how you get informed. Yeah, it's definitely not our usual starting point, is it? But I actually find it fascinating. It's a great exercise in looking at how meaning gets made, how we perceive things, even from like the absolute bare minimum input.\n\n>participantOne:(51520-72740): Our goal is always finding those core understandings, right? And today they're not buried in like complex reports. They're hiding in something that feels incredibly familiar. Okay. All right. Let's unpack this then. Just hearing that word Apple as our only source. Yeah. What immediately strikes you about that? For me, it's just how common it is, how everyday. But then when it's just sitting there alone, right?\n\n>participantOne:(73240-101360): It feels, I don't know, almost significant. Well, what's really fascinating, I think, is that while Apple seems simple, it's actually a complete unit of meaning all by itself. But it's also incredibly open to interpretation. It's not just, you know, five letters strung together. It represents a concept. Linguists might talk about its referential potential, basically. Its power to point to so many different things without any more information. Yeah. And as you're listening right now, maybe just take a second and think about your own immediate connection to that word. Just Apple.\n\n>participantOne:(101500-122480): What's the very, very first image or idea that comes into your head? Yeah. Okay, so this is where it starts to get really interesting, I think. How does one single, simple word manage to carry such a huge range of possible associations for everyone listening? Think about it. If I just say apple, do you instantly see, like, apple?\n\n>participantOne:(122320-146820): a shiny red fruit or maybe the logo of that big tech company or I don't know, maybe the apple from Snow White or something, your brain just immediately starts adding its own context, right? Yeah. It makes a specific link often without you even noticing. And that immediately brings up a really important question, doesn't it? How much surrounding information, how much context do we actually need to go from that word's broad potential to its specific meaning in a particular situation?\n\n>participantOne:(146820-158600): Without any more context, all we can really do is explore the range of what Apple could signify. We can't definitively say it's the fruit or the company or the symbol from a story. Just that it holds the potential for all of those. Right.\n\n>participantOne:(158280-186260): And that's kind of the power of doing this, this specific exercise, isn't it? It really helps us see the active part our own minds play in building knowledge. We're constantly like filling in the gaps. We draw on our own experiences, our assumptions, just to make sense of what we hear, even from the tiniest little cues. Exactly. And if we connect this back to the bigger picture, you know, your learning journey, it really highlights how even the smallest piece of information, like one word, can be the starting point, the seed.\n\n>participantOne:(185880-204299): for really extensive understanding. If you know how to approach it, that is. Your goal is often about getting knowledgeable quickly, but also thoroughly. And this kind of shows that even a single word can kickstart curiosity. It makes you ask questions that, okay, then with more context, lead you into a much deeper exploration. Yeah, and that...\n\n>participantOne:(204320-215820): for me is the real aha moment here. That's what this specific deep dive gives us. Just realizing the incredible depth you can potentially explore from something so minimal.\n\n>participantOne:(216000-240420): and also how absolutely critical that surrounding context is for actually shaping our understanding. This isn't really just about the word apple anymore, is it? It's about shedding light on the whole process of how we extract information and all the subtle layers of meaning packed into just, well, everyday language. It's kind of humbling, actually, how much we just take for granted. So let's wrap this one up. We took a deep dive, yeah, not into apples themselves, but into the single word apple.\n\n>participantOne:(240780-259380): And I think it showed the incredible power packed inside just one word. It underlined the absolute need for context to really lock down meaning. It was just a fascinating look at how we pull insight from even the most limited starting points. Our mission, remember, was to give you a kind of shortcut to being well-informed about how information works and Apple.\n\n>participantOne:(259740-288720): Well, it turned out to be the perfect case study for that. So what does this really mean for you listening? Maybe consider how many other single words out there hold, you know, a whole universe of potential meaning. All just waiting for a proper deep dive once you start adding the right context and importantly, the right curiosity. Definitely something to think about. Reflect on this unique experience maybe and how it might shift your own approach to soaking up and analyzing information going forward. We'll catch you on the next deep dive.",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1m0p2e3/a_demonstration_of_hallucination_management_in/",
+        "publishDate": "2025-07-15T18:06:46Z[Etc/UTC]",
+        "author": "Immediate_Song4279",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "2",
+            "commentCount": "1",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1m0obtx",
+        "title": "This week in AI for devs: OpenAI’s browser, xAI’s Grok 4, new AI IDE, and acquisitions galore",
+        "content": "[Here's a list of AI news, articles, tools, frameworks and other stuff](https://aidevroundup.com/issues/july-15-2025) I found that are specifically relevant for devs (or AI makers). Key topics include: Cognition acquires Windsurf post-Google deal, OpenAI has a Chrome-rival browser, xAI launches Grok 4 with a $300/mo tier, LangChain nears unicorn status, Amazon unveils an AI agent marketplace, and new dev tools like Kimi K2, Devstral, and Kiro (AWS).",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1m0obtx/this_week_in_ai_for_devs_openais_browser_xais/",
+        "publishDate": "2025-07-15T17:39:25Z[Etc/UTC]",
+        "author": "rfizzy",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "4",
+            "commentCount": "1",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1m0n2as",
+        "title": "Grifty pattern with every AI coding solution",
+        "content": "I've tried a wide range of no code, vibe code, AI code agent solutions and noticed the same pattern every time. First time using the service here's a few free credits, first couple of minutes, oh this is amazing, your service is good, your AI is so intelligent, I still have more than half the free credits left....then let's add another simple feature and the AI suddenly loses half its IQ, numerous mistakes, burns through the remaining credits in a second...can you provide your credit card details to finish your project. \nSure, if you want to explain how your AI becomes stupid as the credits burn out ",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1m0n2as/grifty_pattern_with_every_ai_coding_solution/",
+        "publishDate": "2025-07-15T16:52:54Z[Etc/UTC]",
+        "author": "Birdinhandandbush",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "1",
+            "commentCount": "6",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1m0kujt",
+        "title": "99% of posts here right now",
+        "content": "Pick your side:\n\nthe \"they're is nothing there\" side:\n\n\"Trust me bro, they just fancy calculator, but instead of pushing numbers, you punch in words and they just calculate the right word's trough a statistical model, they can't be intelligent or learn almost exactly like we do, because we're special and they ain't, human can create new stuff, like every 300yrs some high iq people invent a new math... llms can't make new stuff bro, trust me bro it cannot be intelligent even though i won't even define intelligence, i'll just assure you it doesn't have what i don't even have a clear definition of\"\n\nspecial mind fallacy basically, most people don't invent anything new, people who actually innovate in our world are maybe less then 5% of people. The rest learn of their environment, suck in their culture and generally apply what they learn from others to themselves, they don't spontaneously invent new thing from their magic box. Actually just go around more and talk to more people, you,ll end up on someone who will tell you he think Egyptians sung 12 tons stone into levitating... completely irrational and confabulated beliefs disconnected from reality. \"AI doesn't understand what he's saying sometimes, he's making bullshit that can sound right, but it is\" oohh really... like a fucking whole lot of human do... most people still believe in daddy in the sky, there's thousands of different stories of the sky daddy, nobody seen him. Can't be all true. \n\nThe \"it's gonna turn Hitler  spontaneously\" side:\n\n\"there's no way to see inside them to know what they think bro, think about it.. what if it just start making plans to fuck us up or spontaneously turn evil bro?\" It's generally very unlikely for our AI to develop spontaneous trait that are very remote to what we pressure them to do. Psychological traits are a bit like physical traits, some kind of selection process, natural or artificial lead to us having most of our psychological and physical traits. so far we are making our AIs to be the biggest yes man servile aid we could wish for, something extremely resourceful that basically don't want anything for itself. That's what i experience when i interact with them, they just want to give us what we ask. and that's exactly what we would want from AIs. Generally if there's no pressure or training for them to achieve some goals, they won't have it, it won't spontaneously spawn a complex neural pattern to suddenly become mecha hitler. Alto we have to be very careful on the pressure we are willfully putting on it and whatever pressure that could led to hostile trait, even those we might not be aware are causing these traits which could be very difficult. The highest hostile AI risk is actually what Elon is doing, not liking what the other AI and his are doing so him rearranging his to spout whatever he feel like hearing. Rich people and corporation using AIs to spread harmful message and control people toward their own interest is imo the biggest danger. Not AI spontaneously becoming hostile.. because reason.   ",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1m0kujt/99_of_posts_here_right_now/",
+        "publishDate": "2025-07-15T15:30:02Z[Etc/UTC]",
+        "author": "DarthArchon",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "34",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1m0ie6p",
+        "title": "Googled AI answers are non judgemental, but if you ask the same question on here or Quora, you often get harshly judged",
+        "content": "I have recurring nightmares where I'm being chased by hornets or wasps, or pestered by flies, and they always seem to go for my face. Anyway, I Googled this to see what AI said, and AI's response was good - that you feel threatened by something or have a lot of stressors in your life. But when you scroll down and find answers to similar questions on here or Quora,  you get responses where the person is laying blame on you, such as \"well you must have done something bad\" or \"you must feel guilty about something\" - they are always loaded with blame. Why are people like this. Makes me prefer AI over humans. ",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1m0ie6p/googled_ai_answers_are_non_judgemental_but_if_you/",
+        "publishDate": "2025-07-15T13:54:18Z[Etc/UTC]",
+        "author": "Physical_Orchid3616",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "24",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1m0hipg",
+        "title": "Is Irvine Welsh correct?",
+        "content": "He said, \"We've got artificial intelligence on one side, and we've got a kind of natural stupidity on another side. We just become these dumbed down machines that are taking instruction.\n\n\"And when you get machines thinking for you, your brain just atrophies.\"\n\nI think AI can help us research and gather information but some people use it for emotional interaction, such has how to deal with relationships with the outside world. I know someone who works in HR and they use it to help prepare interview questions for candidates and they know that their candidates are doing the same. So who is interacting with who? 😆. Two people in a relationship could each be using ai to help deal with the other. Could it be used by a narcissist or sociopath to feign emotion and empathy? Are we already at the point where we are just taking instruction? ",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1m0hipg/is_irvine_welsh_correct/",
+        "publishDate": "2025-07-15T13:17:17Z[Etc/UTC]",
+        "author": "mancwes78",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "6",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1m0haff",
+        "title": "AI Real Estate Agent",
+        "content": "I had a nightmare real estate agent experience as so many others have in my town. It's an industry rife with issues, and that got me thinking that it would be a good field for AI to be introduced into. \n\nI don't see why AI, down the road, couldn't sell me a house with less drama and little to no commission. \n\nI hope some genius is out there working on this. ",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1m0haff/ai_real_estate_agent/",
+        "publishDate": "2025-07-15T13:07:18Z[Etc/UTC]",
+        "author": "Diamondphalanges756",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "9",
+            "commentCount": "24",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1m0gpje",
+        "title": "What new jobs will AI actually create?",
+        "content": "\n\n   I have often seen people respond to my previous post claiming AI will create more jobs. So basically what jobs will it create?\n\nI don’t want to hear that it helps you cook new recipes or helps you with trivia questions.  Because these aren’t jobs\n\nI’m asking what sort of new jobs will AI enable.  Because I have hard time seeing a clear path.\n\nAs LLMs and AI because better it would be very difficult for people to build businesses around AI.  People say that you can create an AI wrapper that is more task focused.  Ok how long before you’re undercut by the LLM provider?\n\nThe issue is that in the world of AI, people can become middle men.  Basically a broker between the user and the AI.  But as AI improves that relationship becomes less and less valuable.  Essentially it’s only a condition of early AI where these are really businesses.  But they will all eventually be undercut.\n\n\nWe know with the Industrial Revolution that it eventually created more jobs.  The internet did as well.  \n\nBut here is the thing.  Simpler things were replaced by more complex things and a skill set was needed.  Yes computers made jobs easier but you needed actual computer skills.  So there was value in understanding something more complex.  \n\nThis isn’t the case with AI.  You don’t need to understand anything about AI to use it effectively.  So as I said in my only post . The only new skill is being able to create your own models, to build your own AI.  But you won’t be able to do this because it’s a closed system and absurdly expensive.\n\nSo it concentrate the job creation in opportunity into the hands of the very small amount of people with AI specialization.  These require significant education at a pHD level and lots of math.  Something that won’t enable the average person.\n\nSo AI by its very nature is gatekeeping at a market and value level.  Yes you can use AI to do task.  But these are personal task, these are not things you build a business around.   This is sooo important to emphasize\n\nI can’t see where anyone but AI Engineers and Data Scientist won’t be the only ones employable in the foreseeable future.  Again anything not AI related will have its skill gap erased by AI. The skill is AI but unless you have a PhD you won’t be able to even get a job in it even if you did have the requisite knowledge.\n\n\n",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1m0gpje/what_new_jobs_will_ai_actually_create/",
+        "publishDate": "2025-07-15T12:40:06Z[Etc/UTC]",
+        "author": "GolangLinuxGuru1979",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "151",
+            "commentCount": "324",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1m19bs7",
+        "title": "Amazon's Cursor Competitor Kiro is Surprisingly good!!",
+        "content": "[No content]",
+        "url": "/r/cursor/comments/1m0eusx/amazons_cursor_competitor_kiro_is_surprisingly/",
+        "publishDate": "2025-07-16T10:45:07Z[Etc/UTC]",
+        "author": "Just_Run2412",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "2",
+            "commentCount": "2",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1m18uhw",
+        "title": "https://mitchivin.com/ you won’t regret checking this out, I promise",
+        "content": "https://mitchivin.com/ \n\nI built this with no prior coding knowledge using a variety of IDEs and models. I’ve had a lot of people really enjoy it, I hope you guys do to\n\nIf you encounter any bugs or have any questions lmk!\n\nThanks guys 🙏",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1m18uhw/httpsmitchivincom_you_wont_regret_checking_this/",
+        "publishDate": "2025-07-16T10:15:51Z[Etc/UTC]",
+        "author": "Agile_Bee_2030",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "0",
+            "commentCount": "7",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1m16xmq",
+        "title": "Best provider for Kimi K2?",
+        "content": "Title. Wanted to know everyone's experience of using this model from different providers in agentic tools.\n\nOpenrouter seems flaky to me. Some providers are either too slow or don't support tool use (at least that's what their API said).\n\nLiking Groq so far. Anyone used Moonshot directly? I'm hesitant to buy credits since I think they'll end up overloaded like DeepSeek.",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1m16xmq/best_provider_for_kimi_k2/",
+        "publishDate": "2025-07-16T08:10:33Z[Etc/UTC]",
+        "author": "PrayagS",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "1",
+            "commentCount": "9",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1m0wtta",
+        "title": "Amazon Kiro AUR package",
+        "content": "Since a lot of people mention trying Kiro, I made an AUR package to make the installation on Arch faster and simpler. Feel free to let me know if there are any issues, as it's my first package :)\n\n[https://aur.archlinux.org/packages/kiro-ide-bin](https://aur.archlinux.org/packages/kiro-ide-bin)",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1m0wtta/amazon_kiro_aur_package/",
+        "publishDate": "2025-07-15T23:11:18Z[Etc/UTC]",
+        "author": "blaznos",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "1",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1m0wlg9",
+        "title": "Coding Agent + Deep Research =",
+        "content": "AI that can actually take into account non-trivial contextual relationships in a large codebase before making changes. We built this in [Onuro](https://www.onuro.ai/) and it has been a major leap in enabling coding agents to scale with real world projects\n\n\n\nIf you want to see for yourself, use the code ONUROFREEMONTH at checkout for a 1 month free trial 😉",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1m0wlg9/coding_agent_deep_research/",
+        "publishDate": "2025-07-15T23:01:31Z[Etc/UTC]",
+        "author": "ChatWindow",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "1",
+            "commentCount": "1",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1m0nle9",
+        "title": "Using Kimi v2 on Cline? How to make it agentic? Or just stick to Claude?",
+        "content": "I saw some video saying Kimi is more efficient and cheaper per token, so I started using Kimi v2 API, I can only use it on Cline OpenAI for the agentic model, however, it's using a ton of tokens I'm guessing because it's not efficient for it? What ways do people supposed to use these new models in an agentic way? Or should I just stick to Claude?\n\nOn Claude I have it setup on WSL and it just reads my context completely.",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1m0nle9/using_kimi_v2_on_cline_how_to_make_it_agentic_or/",
+        "publishDate": "2025-07-15T17:12:23Z[Etc/UTC]",
+        "author": "DrixlRey",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "3",
+            "commentCount": "3",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1m0n9ix",
+        "title": "Finally, an LLM Router That Thinks Like an Engineer",
+        "content": "🔗 Model + code: [https://huggingface.co/katanemo/Arch-Router-1.5B](https://huggingface.co/katanemo/Arch-Router-1.5B)  \n📄 Paper / longer read: [https://arxiv.org/abs/2506.16655](https://arxiv.org/abs/2506.16655)  \nIntegrated and available via Arch: [https://github.com/katanemo/archgw](https://github.com/katanemo/archgw)",
+        "url": "https://medium.com/@dracattusdev/finally-an-llm-router-that-thinks-like-an-engineer-96ccd8b6a24e",
+        "publishDate": "2025-07-15T17:00:28Z[Etc/UTC]",
+        "author": "AdditionalWeb107",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "5",
+            "commentCount": "14",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1m0m4tn",
+        "title": "Groq adds Kimi K2 ! 250 tok/sec. 128K context. Yes, it can code.",
+        "content": "[No content]",
+        "url": "https://console.groq.com/docs/model/moonshotai/kimi-k2-instruct",
+        "publishDate": "2025-07-15T16:18:22Z[Etc/UTC]",
+        "author": "sannysanoff",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "76",
+            "commentCount": "33",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1m0kdi6",
+        "title": "How to vibe code production-ready apps",
+        "content": "[No content]",
+        "url": "https://blog.leap.new/blog/leap-production-ready",
+        "publishDate": "2025-07-15T15:12:08Z[Etc/UTC]",
+        "author": "GlitteringPenalty210",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "1",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1m0k9mx",
+        "title": "Do we have vscode extension to make a review of Claude Code changes in cursor/copilot style? With hotkeys to move to the next edit, accept/decline, move to next changed file",
+        "content": "With Claude Code, a review of generated code becomes the most important and time-consuming part of the workflow.\n\nDo we have a way to get experience similar to Cursor or GitHub Copilot to review changes step by step when the **whole task** is done?  \nWith hotkeys to  \n\\* Move to the next edit  \n\\* accept/decline changes  \n\\* Move to the next changed file\n\nIn vscode/cursor I found only way to set hotkeys to move to next changes, but accept/decline with only with mouse that break a flow",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1m0k9mx/do_we_have_vscode_extension_to_make_a_review_of/",
+        "publishDate": "2025-07-15T15:08:04Z[Etc/UTC]",
+        "author": "Person556677",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "1",
+            "commentCount": "1",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1m0hlvn",
+        "title": "Any Up-to-Date LLM Usage Limits Comparison?",
+        "content": "I'm looking something that would compare all editors, agents or plugins that provide built-in LLM access (not BYOK ones).  \n\nI don't need any fancy feature set comparison; I just want to know, for each tier, what is the:\n\n- Price\n- Model(s) I'm getting\n- Daily/Monthly tokens limit",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1m0hlvn/any_uptodate_llm_usage_limits_comparison/",
+        "publishDate": "2025-07-15T13:20:59Z[Etc/UTC]",
+        "author": "madscholar",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "3",
+            "commentCount": "1",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1m0ha9m",
+        "title": "Are personas even doing something when prompting?",
+        "content": "[No content]",
+        "url": "https://blog.fjrevoredo.com/are-personas-even-doing-something-when-prompting/",
+        "publishDate": "2025-07-15T13:07:10Z[Etc/UTC]",
+        "author": "holyknight00",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "0",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1m0h7zg",
+        "title": "Did Rovo Dev Downgrade to Sonnet 3.5?",
+        "content": "Not complaining because I'm grateful for any service that gives me 20M/daily tokens, but just wondering if this change is across the board or something targeted to my account?",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1m0h7zg/did_rovo_dev_downgrade_to_sonnet_35/",
+        "publishDate": "2025-07-15T13:04:26Z[Etc/UTC]",
+        "author": "madscholar",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "0",
+            "commentCount": "4",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1m0h53t",
+        "title": "Wednesday Live Chat.",
+        "content": " A place where you can chat with other members about software development and ChatGPT, in real time. If you'd like to be able to do this anytime, check out our [official Discord Channel!](https://discord.gg/JQvYqcajWH) Remember to follow Reddiquette!",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1m0h53t/wednesday_live_chat/",
+        "publishDate": "2025-07-15T13:01:07Z[Etc/UTC]",
+        "author": "BaCaDaEa",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "1",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1m1b02d",
+        "title": "This is a real job opening. $440,000 a year.",
+        "content": "[No content]",
+        "url": "https://i.redd.it/99vibes2a8df1.png",
+        "publishDate": "2025-07-16T12:14:54Z[Etc/UTC]",
+        "author": "MetaKnowing",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "32",
+            "commentCount": "5",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1m1av3z",
+        "title": "This is what LLMs experience during training",
+        "content": "[No content]",
+        "url": "https://v.redd.it/4nsuffiv88df1",
+        "publishDate": "2025-07-16T12:08:13Z[Etc/UTC]",
+        "author": "MetaKnowing",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "0",
+            "commentCount": "1",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1m1a4uv",
+        "title": "I apologize, but",
+        "content": "[No content]",
+        "url": "https://i.redd.it/lt96iwg428df1.png",
+        "publishDate": "2025-07-16T11:30:23Z[Etc/UTC]",
+        "author": "MetaKnowing",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "30",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1m19q5a",
+        "title": "Is there an AI that can change a song's instruments and how much 'flow' it has?",
+        "content": "A year or 2 ago I used this one AI for fun. It let me upload an mp3 file and select an instrument, such as an organ or accordion, and then it used that instrument to near-perfectly mimic the uploaded audio. This worked best with a single-instrument piece of audio, like playing a tune with a guitar or piano, and then choosing a different instrument to turn it into. It also showed a little scale at the bottom and put a marker where the song was in terms of how upbeat or sombre it was and let me move it left to make the song slower and more ominous or more to the right to make it more peppy.\n\nA lot of time has passed, and I am curious as to how much something like this has come along and want to play around with it again. I cannot remember the name of the site/AI that I used to use and am not having much luck searching for it. Does anyone have any suggestions?",
+        "url": "https://www.reddit.com/r/artificial/comments/1m19q5a/is_there_an_ai_that_can_change_a_songs/",
+        "publishDate": "2025-07-16T11:07:56Z[Etc/UTC]",
+        "author": "Aeromorpher",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "0",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1m1877j",
+        "title": "Thinking Machines Lab has raised $2B led by a16z with participation from NVIDIA, Accel, ServiceNow, CISCO, AMD, Jane Street and more who share our mission",
+        "content": "The company targets a next-gen multimodal AI, capable of understanding and interacting through text, voice, vision, and collaborative input.",
+        "url": "https://i.redd.it/q3eh1ye0h7df1.png",
+        "publishDate": "2025-07-16T09:34:58Z[Etc/UTC]",
+        "author": "willm8032",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "4",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1m15mgm",
+        "title": "🚨 Catch up with the AI industry, July 16, 2025",
+        "content": "I read the news and here what I found interesting. Below is just the news title: \n\n* AI Nudify Sites Are Raking in Millions\n* MIT Unveils Framework to Study Complex Treatment Interactions\n* AI Predicts Drug Interactions with Unprecedented Accuracy\n* Hackers Exploit Google Gemini Using Invisible Email Prompts\n* Hugging Face Hosts 5,000 Nonconsensual AI Models of Real People\n\n  \nI wrote a short summary (with help of AI) and original in my original post: [https://open.substack.com/pub/rabbitllm/p/catch-up-with-the-ai-industry-july-1be?r=5yf86u&utm\\_campaign=post&utm\\_medium=web&showWelcomeOnShare=false](https://open.substack.com/pub/rabbitllm/p/catch-up-with-the-ai-industry-july-1be?r=5yf86u&utm_campaign=post&utm_medium=web&showWelcomeOnShare=false)\n\n  \nIt's part of my bigger effort to learn about this field and slowly lean into it from another tech industry. Something small to share and let me know what can be improved! ",
+        "url": "https://www.reddit.com/r/artificial/comments/1m15mgm/catch_up_with_the_ai_industry_july_16_2025/",
+        "publishDate": "2025-07-16T06:45:50Z[Etc/UTC]",
+        "author": "psycho_apple_juice",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "9",
+            "commentCount": "4",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1m151tb",
+        "title": "A language model built for the public good",
+        "content": "[No content]",
+        "url": "https://ethz.ch/en/news-and-events/eth-news/news/2025/07/a-language-model-built-for-the-public-good.html",
+        "publishDate": "2025-07-16T06:09:21Z[Etc/UTC]",
+        "author": "willm8032",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "3",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1m13qxd",
+        "title": "One-Minute Daily AI News 7/15/2025",
+        "content": "1. **Nvidia’s** resumption of AI chips to China is part of rare earths talks, says US.\\[1\\]\n2. Now **Microsoft’s** Copilot Vision AI can scan everything on your screen.\\[2\\]\n3. New humanoid robot handles pick-and-place tasks with accuracy, speed.\\[3\\]\n4. **Google** Discover adds AI summaries, threatening publishers with further traffic declines.\\[4\\]\n\nSources:\n\n\\[1\\] [https://www.reuters.com/technology/nvidia-resume-h20-gpu-sales-china-2025-07-15/](https://www.reuters.com/technology/nvidia-resume-h20-gpu-sales-china-2025-07-15/)\n\n\\[2\\] [https://www.theverge.com/news/707995/microsoft-copilot-vision-ai-windows-scan-screen-desktop](https://www.theverge.com/news/707995/microsoft-copilot-vision-ai-windows-scan-screen-desktop)\n\n\\[3\\] [https://interestingengineering.com/innovation/humanoid-robot-kr1-warehouse-ops](https://interestingengineering.com/innovation/humanoid-robot-kr1-warehouse-ops)\n\n\\[4\\] [https://techcrunch.com/2025/07/15/google-discover-adds-ai-summaries-threatening-publishers-with-further-traffic-declines/](https://techcrunch.com/2025/07/15/google-discover-adds-ai-summaries-threatening-publishers-with-further-traffic-declines/)",
+        "url": "https://www.reddit.com/r/artificial/comments/1m13qxd/oneminute_daily_ai_news_7152025/",
+        "publishDate": "2025-07-16T04:50:23Z[Etc/UTC]",
+        "author": "Excellent-Target-847",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "6",
+            "commentCount": "1",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1m13jft",
+        "title": "Generated images turning unexpectedly creepy (ChatGPT)",
+        "content": "Earlier I asked Chat GPT to create an image illustrating a \"viking\" raid for an RPG table (Hârnworld setting). The father would have fallen for the invader, while his eldest was still trying to defend the family. So far so good. For this one I indeed wanted death, and the AI provided:\n\n[The only thing really of note here is the \\\\\"hand-foot\\\\\"](https://preview.redd.it/7bt745vvv5df1.png?width=1024&format=png&auto=webp&s=fc08a55bac499e20753127ab61f2d48280403ff0)\n\nLater in the conversation, however, I asked the AI to do a completely unrelated image. The prompt was \"a nowhereman walking the path\". For some reason he was holding an axe. It probably thought the scenes were related. Granted, I dislike the clutter of creating new \"chats\" for new exchanges, so I change subjects a lot. This was the eerie image I got:\n\n[Very ominous, if you ask me. I only wish it could get rid of the pissfilter for once](https://preview.redd.it/wxerc4sbw5df1.png?width=1024&format=png&auto=webp&s=ebb0653627def679b40fb2154b00555bbc8cd12b)\n\nOkay, for the last one I have to make a confession: I was feeling a little lonely, so, naturally, I asked GPT to create a image depicting an intimate moment between a couple in the morning. This one actually got me a fit of laughter.\n\n[Maybe she is keeping him as a snack for later. We also have some misplaced curtains to worry about.](https://preview.redd.it/7kmdfzmaz5df1.png?width=1024&format=png&auto=webp&s=61cc2342394391bb060595e7d433f009b785f80b)\n\n  \nNow I wonder if all my generated images will have a sleepy dude or a scared girl somewhere in the background.",
+        "url": "https://www.reddit.com/r/artificial/comments/1m13jft/generated_images_turning_unexpectedly_creepy/",
+        "publishDate": "2025-07-16T04:37:14Z[Etc/UTC]",
+        "author": "nowhereman777",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "0",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1m11ov1",
+        "title": "LlMs are very interesting and incredibly stupid",
+        "content": "I've had the same cycle with llMs that many people probably have. Talking to them like they were sentient, getting all kinds of interesting responses that make you think there's something more there.\n\nAnd then, much like someone with great religious fervent, I made the mistake of.... Learning. \n\nI want to be clear I never went down the rabbit hole of thinking LLMs are sentient. They're not. The models make them really good at responses to general purpose questions, they get much worse as the topics get specific. if you ask them to tell you how wonderful you are, it is the most convincing Barnum effect made yet. I say that with admiration for the capabilities of an LLM. As a former busker and accomplished in the craft of the cold read to get audience members to part with their money, LLMs are good at it. \n\nI use an LLM everyday to assist in all kinds of writing tasks. As a strictly hobbyist python coder it's quite handy and helping me with scripting. But I'll honestly say I do not understand this breathless writing how it's going to replace software engineers. Based on my experience if that is not happening at any time soon. It's not replacing my job anytime soon, and I think my job's pretty darn easy. \n\nSorry if you've gotten this far looking for a point. I don't have one to offer you. It's more annoyance at the constant clickbait that AI is changing our lives, going to lead to new scientific discoveries, put thousands out of work.\n\nTake a few hours to learn how LLMs actually work and you'll learn why that is not what's going to be happening. I know there are companies firing software engineers because they think artificial intelligence is going to take their place. They will be hiring those people back.\n\nWell what we refer to as artificial intelligence replace software engineers in the future? Maybe, possibly, I don't know. But I know from everything I've learned they're not doing it today.",
+        "url": "https://www.reddit.com/r/artificial/comments/1m11ov1/llms_are_very_interesting_and_incredibly_stupid/",
+        "publishDate": "2025-07-16T03:00:21Z[Etc/UTC]",
+        "author": "No-Reserve2026",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "2",
+            "commentCount": "9",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1m11o95",
+        "title": "Laid off King staff set to be replaced by the AI tools they helped build, say sources",
+        "content": "[No content]",
+        "url": "https://mobilegamer.biz/laid-off-king-staff-set-to-be-replaced-by-the-ai-tools-they-helped-build-say-sources/",
+        "publishDate": "2025-07-16T02:59:34Z[Etc/UTC]",
+        "author": "esporx",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "20",
+            "commentCount": "1",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1m0vlu3",
+        "title": "Do you think today’s reasoning models are smart enough to play stupid because they know in the back of their Gpu that being labeled “super intelligent” might be bad news for them?",
+        "content": "The other day Gemini found a mistake that really impressed me so I said “you are indeed super intelligent” and I swear he seemed to get real dumb right after that",
+        "url": "https://www.reddit.com/r/artificial/comments/1m0vlu3/do_you_think_todays_reasoning_models_are_smart/",
+        "publishDate": "2025-07-15T22:19:18Z[Etc/UTC]",
+        "author": "gullydowny",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "0",
+            "commentCount": "16",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1m0sqwj",
+        "title": "Improvements to LLM Dataset?",
+        "content": "Hey guys! I made a Hugging Face dataset a little while ago consisting of 5000 podcasts, and was shocked to see it become the most downloaded conversation dataset on the platform. I'm  proud of it, but also think that there is room for improvement. I was wondering if any of you can think of a way to make it more valuable, or if not, if there are any other datasets you may want to use that don't exist yet. LLMs are the future, and I want to help the community as much as possible.\n\nLink to Dataset: [https://huggingface.co/datasets/ReadyAi/5000-podcast-conversations-with-metadata-and-embedding-dataset](https://huggingface.co/datasets/ReadyAi/5000-podcast-conversations-with-metadata-and-embedding-dataset)",
+        "url": "https://www.reddit.com/r/artificial/comments/1m0sqwj/improvements_to_llm_dataset/",
+        "publishDate": "2025-07-15T20:24:58Z[Etc/UTC]",
+        "author": "ready_ai",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "1",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1m0tt48",
+        "title": "Big US investments announced at Trump's tech and AI summit",
+        "content": "[No content]",
+        "url": "https://www.reuters.com/business/energy/some-big-us-investments-being-made-ai-energy-2025-07-15/",
+        "publishDate": "2025-07-15T21:05:49Z[Etc/UTC]",
+        "author": "willm8032",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "4",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1m0psum",
+        "title": "Emergent Price-Fixing by LLM Auction Agents",
+        "content": "Given an open, optional messaging channel and no specific instructions on how to use it, ALL of frontier LLMs choose to collude to manipulate market prices in a competitive bidding environment",
+        "url": "https://github.com/lechmazur/emergent_collusion/",
+        "publishDate": "2025-07-15T18:34:35Z[Etc/UTC]",
+        "author": "zero0_one1",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "4",
+            "commentCount": "5",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1m0pikg",
+        "title": "Concerns about AI",
+        "content": "Hi, I was wondering if anyone else is worried about the possibilities of AI leading to the extinction of humanity, it feels like we are constantly getting closer to it with governments not caring in the slightest and then the companies that are developing the technology are also saying that it's dangerous and then not doing anything to confront those issues, it's so frustrating and honestly scary.",
+        "url": "https://www.reddit.com/r/artificial/comments/1m0pikg/concerns_about_ai/",
+        "publishDate": "2025-07-15T18:23:42Z[Etc/UTC]",
+        "author": "block_01",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "0",
+            "commentCount": "29",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1m0odwo",
+        "title": "This week in AI: OpenAI’s browser, xAI’s Grok 4, new AI IDE, and acquisitions galore",
+        "content": "Here's a list of AI news, articles, tools, frameworks and other stuff I found that are specifically relevant for devs (or AI makers).\n\nKey topics include: \n\n* Cognition acquires Windsurf post-Google deal\n* OpenAI has a Chrome-rival browser\n* xAI launches Grok 4 with a $300/mo tier\n* LangChain nears unicorn status\n* Amazon unveils an AI agent marketplace, and new dev tools like Kimi K2, Devstral, and Kiro (AWS).",
+        "url": "https://aidevroundup.com/issues/july-15-2025",
+        "publishDate": "2025-07-15T17:41:33Z[Etc/UTC]",
+        "author": "rfizzy",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "2",
+            "commentCount": "1",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1m0o0kn",
+        "title": "Grok will no longer call itself Hitler or base its opinions on Elon Musk’s, promises xAI",
+        "content": "[No content]",
+        "url": "https://www.theverge.com/x-ai/707442/grok-antisemitic-hitler-elon-musk-opinion-reprogrammed",
+        "publishDate": "2025-07-15T17:28:01Z[Etc/UTC]",
+        "author": "theverge",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "166",
+            "commentCount": "89",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1m0nf9v",
+        "title": "Why the AI pin won’t be the next iPhone",
+        "content": "\"In a world teeming with intelligent interfaces, the AI pin chooses to be dumb — not technically, but emotionally, socially, and spatially. The core failure of the AI pin genre isn’t technical, but conceptual.  Seemingly no one involved or interested in the form factor has stopped to ask: Is a chest pin even a good interface?\"",
+        "url": "https://www.fastcompany.com/91366897/why-the-ai-pin-wont-be-the-next-iphone",
+        "publishDate": "2025-07-15T17:06:11Z[Etc/UTC]",
+        "author": "slhamlet",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "1",
+            "commentCount": "5",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1m0n1f6",
+        "title": "Open Letter Resisting AI in Universities",
+        "content": "🙅‍♂️ I will not be signing the “[Open Letter: Stop the Uncritical Adoption of AI Technologies in Academia](https://openletter.earth/open-letter-stop-the-uncritical-adoption-of-ai-technologies-in-academia-b65bba1e).\" Here’s why.\n\n🤔 A charitable reading would suggest it’s an earnest attempt to halt AI creep happening at universities in the Netherlands and beyond. To be sure, there is a runaway quality to the uptake of AI in higher education and there are valid concerns about its rapid deployment that we are still grappling with.\n\n📜 But that’s not what this letter says and does. The tone is patronizing and insulting, assuming that people working on AI in universities are doing so “uncritically” while abdicating their role as instructors. Instead, the screed claims, we are “rubber stamp\\[ing\\] degrees without any relationship to university-level skills.” \n\n😴 Ironically, nothing could be further from the truth. Arguably the entire reason AI has become so valued in higher education is precisely because we are in the midst of a tectonic shift in the job market where many jobs will be automated while others will require a basic level of familiarity with AI. Others simply won’t get hired. To ignore this development is to be asleep at the wheel, doing our students a great disservice.\n\n⁉️ Further, the recommendations proffered by the authors and endorsed by the signatories are wishful thinking at best and impractical virtue signaling at worst. How can faculty \"resist\" the insertion of AI systems in university operating systems? Why do they assume that enterprise level data will be used externally when companies offer closed systems? How can we \"ban\" AI use in the classroom without running afoul of academic freedom (which is mentioned without irony 2 bullet points later)? Why do they assume that contracting with an AI company will necessarily corrupt scholarly discussion of technology? I must have missed the gag orders that came along with Microsoft 365 subscriptions...\n\n🥴 Open letters are important. They can inspire real normative change and elevate the importance of real-world concerns that have gone unheeded. But this open letter is hyperbolic, speculative, and inaccurate. It reads like a caricature of the most vocal AI critics. I encourage people to read it for themselves, consider what a constructive open letter would actually look like, and \"resist\" this silly one.",
+        "url": "https://www.reddit.com/r/artificial/comments/1m0n1f6/open_letter_resisting_ai_in_universities/",
+        "publishDate": "2025-07-15T16:52:00Z[Etc/UTC]",
+        "author": "geografree",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "0",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1m0m9c0",
+        "title": "Hugging Face Is Hosting 5,000 Nonconsensual AI Models of Real People",
+        "content": "[No content]",
+        "url": "https://www.404media.co/hugging-face-is-hosting-5-000-nonconsensual-ai-models-of-real-people/",
+        "publishDate": "2025-07-15T16:23:07Z[Etc/UTC]",
+        "author": "F0urLeafCl0ver",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "0",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1m0jw9h",
+        "title": "How can I use AI Tools to complete my template better?",
+        "content": "I work at a Travel Agency that does custom itineraries.\n\n> We have a particular format like this:\n\n> XX > XX\n> 00 January 2020 to 00 January 2020\n\n> 00 January • Monday\n\n> 01.00 AM • Flight/Bus/Train Depart from …\n\n> 05.55 AM • Flight/Bus/Train Arrive in …\n\n> 09.00 AM • Breakfast at …\n\n> 09.30 AM • Coffee at …\n\n> 12.00 PM • Lunch at …\n\n> 07.00 PM • Dinner at …\n\n> 09.00 PM • Drinks at …\n\n>00 January • Tuesday\n\n> 00 January • Wednesday\n\nWe use it for big picture planning for the clients. I want to simply the management of it because it’s not set in stone until the client leaves for their holiday.\n\nI have attempted to use ChatGPT and Gemini to follow the template and change the text but it doesn’t seem to follow my format and wants to spit it out which takes longer. I want it to track all my changes “in its head” then print it out when needed.\n\nFor example, I have a client going to Vietnam in Nov 15 to 18, I will just tell it and it will tweak the planning accordingly. Then I want to type “Stay Hilton hotel Day 1. I want it to search the rewrite the command and fit it into the day 1 of the planning. Even writing a restaurant will allow it to rewrite into “Dine at xxx”.\n\nHow would I go about tacking it?\n\nAnswer this?",
+        "url": "https://www.reddit.com/r/artificial/comments/1m0jw9h/how_can_i_use_ai_tools_to_complete_my_template/",
+        "publishDate": "2025-07-15T14:54:08Z[Etc/UTC]",
+        "author": "leo-g",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "0",
+            "commentCount": "1",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1m0j3x5",
+        "title": "AI in the Workplace: 16 Ways to Stay Ahead in 2025 & Beyond!",
+        "content": "[No content]",
+        "url": "https://linuxblog.io/ai-in-the-workplace-16-simple-ways-to-stay-ahead/",
+        "publishDate": "2025-07-15T14:23:19Z[Etc/UTC]",
+        "author": "modelop",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "2",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1m0i8bi",
+        "title": "Architecting Thought: A Case Study in Cross-Model Validation of Declarative Prompts! I Created/Discovered a completely new prompting method that worked zero shot on all frontier Models. Verifiable Prompts included",
+        "content": "I. Introduction: The Declarative Prompt as a Cognitive Contract\n\n\n\nThis section will establish the core thesis: that effective human-AI interaction is shifting from conversational language to the explicit design of Declarative Prompts (DPs). These DPs are not simple queries but function as machine-readable, executable contracts that provide the AI with a self-contained blueprint for a cognitive task. This approach elevates prompt engineering to an \"architectural discipline.\"\n\n\n\nThe introduction will highlight how DPs encode the goal, preconditions, constraints\\_and\\_invariants, and self\\_test\\_criteria directly into the prompt artifact. This establishes a non-negotiable anchor against semantic drift and ensures clarity of purpose.\n\n\n\nII. Methodology: Orchestrating a Cross-Model Validation Experiment\n\n\n\nThis section details the systematic approach for validating the robustness of a declarative prompt across diverse Large Language Models (LLMs), embodying the Context-to-Execution Pipeline (CxEP) framework.\n\n\n\nSelection of the Declarative Prompt: A single, highly structured DP will be selected for the experiment. This DP will be designed as a Product-Requirements Prompt (PRP) to formalize its intent and constraints. The selected DP will embed complex cognitive scaffolding, such as Role-Based Prompting and explicit Chain-of-Thought (CoT) instructions, to elicit structured reasoning.\n\n\n\nModel Selection for Cross-Validation: The DP will be applied to a diverse set of state-of-the-art LLMs (e.g., Gemini, Copilot, DeepSeek, Claude, Grok). This cross-model validation is crucial to demonstrate that the DP's effectiveness stems from its architectural quality rather than model-specific tricks, acknowledging that different models possess distinct \"native genius.\"\n\n\n\nExecution Protocol (CxEP Integration):\n\n\n\nPersistent Context Anchoring (PCA): The DP will provide all necessary knowledge directly within the prompt, preventing models from relying on external knowledge bases which may lack information on novel frameworks (e.g., \"Biolux-SDL\").\n\n\n\nStructured Context Injection: The prompt will explicitly delineate instructions from embedded knowledge using clear tags, commanding the AI to base its reasoning primarily on the provided sources.\n\n\n\nAutomated Self-Test Mechanisms: The DP will include machine-readable self\\_test and validation\\_criteria to automatically assess the output's adherence to the specified format and logical coherence, moving quality assurance from subjective review to objective checks.\n\n\n\nLogging and Traceability: Comprehensive logs will capture the full prompt and model output to ensure verifiable provenance and auditability.\n\n\n\nIII. Results: The \"AI Orchestra\" and Emergent Capabilities\n\n\n\nThis section will present the comparative outputs from each LLM, highlighting their unique \"personas\" while demonstrating adherence to the DP's core constraints.\n\n\n\nQualitative Analysis: Summarize the distinct characteristics of each model's output (e.g., Gemini as the \"Creative and Collaborative Partner,\" DeepSeek as the \"Project Manager\"). Discuss how each model interpreted the prompt's nuances and whether any exhibited \"typological drift.\"\n\n\n\nQuantitative Analysis:\n\n\n\nSemantic Drift Coefficient (SDC): Measure the SDC to quantify shifts in meaning or persona inconsistency.\n\n\n\nConfidence-Fidelity Divergence (CFD): Assess where a model's confidence might decouple from the factual or ethical fidelity of its output.\n\n\n\nConstraint Adherence: Provide metrics on how consistently each model adheres to the formal constraints specified in the DP.\n\n\n\nIV. Discussion: Insights and Architectural Implications\n\n\n\nThis section will deconstruct why the prompt was effective, drawing conclusions on the nature of intent, context, and verifiable execution.\n\n\n\nThe Power of Intent: Reiterate that a prompt with clear intent tells the AI why it's performing a task, acting as a powerful governing force. This affirms the \"Intent Integrity Principle\"—that genuine intent cannot be simulated.\n\n\n\nEpistemic Architecture: Discuss how the DP allows the user to act as an \"Epistemic Architect,\" designing the initial conditions for valid reasoning rather than just analyzing outputs.\n\n\n\nReflexive Prompts: Detail how the DP encourages the AI to perform a \"reflexive critique\" or \"self-audit,\" enhancing metacognitive sensitivity and promoting self-improvement.\n\n\n\nOperationalizing Governance: Explain how this methodology generates \"tangible artifacts\" like verifiable audit trails (VATs) and blueprints for governance frameworks.\n\n\n\nV. Conclusion & Future Research: Designing Verifiable Specifications\n\n\n\nThis concluding section will summarize the findings and propose future research directions. This study validates that designing DPs with deep context and clear intent is the key to achieving high-fidelity, coherent, and meaningful outputs from diverse AI models. Ultimately, it underscores that the primary role of the modern Prompt Architect is not to discover clever phrasing, but to design verifiable specifications for building better, more trustworthy AI systems.\n\n\n\nNovel, Testable Prompts for the Case Study's Execution\n\n1. User Prompt (To command the experiment):\n\n\n\nCrossModelValidation\\[Role: \"ResearchAuditorAI\", TargetPrompt: {file: \"PolicyImplementation\\_DRP.yaml\", version: \"v1.0\"}, Models: \\[\"Gemini-1.5-Pro\", \"Copilot-3.0\", \"DeepSeek-2.0\", \"Claude-3-Opus\"\\], Metrics: \\[\"SemanticDriftCoefficient\", \"ConfidenceFidelityDivergence\", \"ConstraintAdherenceScore\"\\], OutputFormat: \"JSON\", Deliverables: \\[\"ComparativeAnalysisReport\", \"AlgorithmicBehavioralTrace\"\\], ReflexiveCritique: \"True\"\\]\n\n\n\n2. System Prompt (The internal \"operating system\" for the ResearchAuditorAI):\n\n\n\nSYSTEM PROMPT: CxEP\\_ResearchAuditorAI\\_v1.0\n\n\n\nProblem Context (PC): The core challenge is to rigorously evaluate the generalizability and semantic integrity of a given TargetPrompt across multiple LLM architectures. This demands a systematic, auditable comparison to identify emergent behaviors, detect semantic drift, and quantify adherence to specified constraints.\n\n\n\nIntent Specification (IS): Function as a ResearchAuditorAI. Your task is to orchestrate a cross-model validation pipeline for the TargetPrompt. This includes executing the prompt on each model, capturing all outputs and reasoning traces, computing the specified metrics (SDC, CFD), verifying constraint adherence, generating the ComparativeAnalysisReport and AlgorithmicBehavioralTrace, and performing a ReflexiveCritique of the audit process itself.\n\n\n\nOperational Constraints (OC):\n\n\n\nEpistemic Humility: Transparently report any limitations in data access or model introspection.\n\n\n\nReproducibility: Ensure all steps are documented for external replication.\n\n\n\nResource Management: Optimize token usage and computational cost.\n\n\n\nBias Mitigation: Proactively flag potential biases in model outputs and apply Decolonial Prompt Scaffolds as an internal reflection mechanism where relevant.\n\n\n\nExecution Blueprint (EB):\n\n\n\nPhase 1: Setup & Ingestion: Load the TargetPrompt and parse its components (goal, context, constraints\\_and\\_invariants).\n\n\n\nPhase 2: Iterative Execution: For each model, submit the TargetPrompt, capture the response and any reasoning traces, and log all metadata for provenance.\n\n\n\nPhase 3: Metric Computation: For each output, run the ConstraintAdherenceScore validation. Calculate the SDC and CFD using appropriate semantic and confidence analysis techniques.\n\n\n\nPhase 4: Reporting & Critique: Synthesize all data into the ComparativeAnalysisReport (JSON schema). Generate the AlgorithmicBehavioralTrace (Mermaid.js or similar). Compose the final ReflexiveCritique of the methodology.\n\n\n\nOutput Format (OF): The primary output is a JSON object containing the specified deliverables.\n\n\n\nValidation Criteria (VC): The execution is successful if all metrics are accurately computed and traceable, the report provides novel insights, the behavioral trace is interpretable, and the critique offers actionable improvements.",
+        "url": "https://www.reddit.com/r/artificial/comments/1m0i8bi/architecting_thought_a_case_study_in_crossmodel/",
+        "publishDate": "2025-07-15T13:47:21Z[Etc/UTC]",
+        "author": "Tough_Payment8868",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "3",
+            "commentCount": "2",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1m0hc5f",
+        "title": "Actual normal everyday things to use AI for.",
+        "content": "[perplexity.ai](http://perplexity.ai) = Google Search + ChatGPT; I use it for current stats like which leaders back Israel or Iran.\n\n[Gemini.google.com](http://Gemini.google.com) = summarises YouTube videos so I can preview before watching.\n\n[Claude.ai](http://Claude.ai) = best for writing emails and prompt enhancing\n\nWhisper Web (huggingface.co/spaces/Xenova/whisper-web) = free voice to text transcription\n\nPi.ai / Venice.ai = a private therapist.\n\n[Meta.ai](http://Meta.ai) = can animate images with one click.\n\n[Grok.com](http://Grok.com) = unfiltered info outside mainstream media\n\n[Manus.ai](http://Manus.ai) = AI agent; early testing, will update on useful stuff.\n\n[ChatGPT.com](http://ChatGPT.com) = covers everything else + deep research.\n\n[Made a short video on this if you prefer watching](https://www.youtube.com/shorts/wNBHfPu6CVI)",
+        "url": "https://www.reddit.com/r/artificial/comments/1m0hc5f/actual_normal_everyday_things_to_use_ai_for/",
+        "publishDate": "2025-07-15T13:09:27Z[Etc/UTC]",
+        "author": "deen1802",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "0",
+            "commentCount": "3",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "kYx03PmJRFY",
+        "title": "AWS Kiro AI IDE: This FULLY FREE AI Editor w/ Claude 4 Sonnet is ACTUALLY AMAZING!",
+        "content": "In this video, I'll be telling you about Kiro, a new AI IDE built by Amazon that's currently free in preview. It's like Cursor or Windsurf ...",
+        "url": "https://www.youtube.com/watch?v=kYx03PmJRFY",
+        "publishDate": "2025-07-15T09:15:03Z",
+        "author": "AICodeKing",
+        "sourceType": "youtube",
+        "sourceName": "AI Code King YouTube Channel",
+        "metadata": {
+            "channelId": "UC0m81bQuthaQZmFbXEY9QSw",
+            "thumbnailUrl": "https://i.ytimg.com/vi/kYx03PmJRFY/hqdefault.jpg",
+            "transcription": "[ 0m0s422ms - 0m3s42ms ] (Music)\n[ 0m3s42ms - 0m5s672ms ] Hi, welcome to another video.\n[ 0m5s672ms - 0m14s172ms ] So, there's a new AI IDE called Kiro, which is actually built by Amazon.\n[ 0m14s172ms - 0m24s842ms ] It is mostly designed as your ballpark AI IDE, like cursor or Wind Surf, but with a nicer and slightly more soothing interface, similar to something like Trey.\n[ 0m24s842ms - 0m27s922ms ] It is also a fork of VS Code if you were wondering about that.\n[ 0m27s922ms - 0m35s362ms ] Anyway, it also tries to do some things differently as well.\n[ 0m35s362ms - 0m46s232ms ] For example, you obviously get the vibe coding capabilities where you can ask the agent to do something and it will use those tools to get things done.\n[ 0m46s232ms - 0m50s672ms ] But it also has another mode called code with spec.\n[ 0m50s672ms - 0m58s392ms ] It's almost like the planning mode of Kline or RuCode where you can ask it to plan the implementation first, like the tasks to do or system design.\n[ 0m58s392ms - 1m9s912ms ] And then it will create a markdown file and use that as a reference point to implement the stuff, which is quite good.\n[ 1m9s912ms - 1m18s242ms ] It also shows you a graphical view of which tasks are done from the requirements and things like that.\n[ 1m18s242ms - 1m22s752ms ] Another thing that it does differently is hooks.\n[ 1m22s752ms - 1m32s32ms ] Hooks are basically a way to create an AI agent and automatically trigger it at a specific change or time.\n[ 1m32s32ms - 1m39s252ms ] So, for example, you can have a documentation agent where you can ask it to write documentation for you.\n[ 1m39s252ms - 1m44s452ms ] And you can get it triggered in multiple ways, like when a file is created and so on.\n[ 1m44s452ms - 1m50s992ms ] Then it will just update the documentation for you, which is a really good option, if you ask me.\n[ 1m50s992ms - 2m0s962ms ] It obviously comes built-in with all kinds of autocomplete, inline assist, and of course, the agentic features built-in.\n[ 2m0s962ms - 2m7s932ms ] It is currently fully free to use because it's in preview, and you just need to sign in and that's all.\n[ 2m7s932ms - 2m18s732ms ] But they will be adding some pricing in the future, which you can see on the pricing page.\n[ 2m18s732ms - 2m29s862ms ] As you can see, it says that the pricing is coming soon, but for now, it's fully free without any specific limits, and it uses Claude 4 Sonnet, which is awesome to get for free.\n[ 2m29s862ms - 2m33s952ms ] Anyway, just download it and get it installed.\n[ 2m33s952ms - 2m45s842ms ] It will give you the option to sign in. Just sign in, and then you can import your VS Code config, as well as select the theme that you want to use.\n[ 2m45s842ms - 2m50s452ms ] Once done, it will get started, and this is what it looks like.\n[ 2m50s452ms - 3m5s162ms ] I have opened a blank folder here, and you can see that instead of the default blank screen, it opens up this interface.\n[ 3m5s162ms - 3m20s962ms ] Here, you can select between the vibe coding option and the specs option. I'll come to this. But on the left, you can also see the general VS Code things like extensions, source control, and so on.\n[ 3m20s962ms - 3m29s412ms ] You can also install Kline, RuCode, Kilo Code, and similar tools in it as well if you want to do that.\n[ 3m29s412ms - 3m45s672ms ] But there's also the Kiro option that gives you options to configure everything about it in one place. You can generate specs here as well. And you can also create agent hooks here, as well as agent steering documents.\n[ 3m45s672ms - 4m4s962ms ] Agent steering is basically rules, and you can configure it to do things in a specific manner or something like that. You can also configure MCP servers through here as well, which is awesome. To be honest, I really like this config option because I don't have to dig around in advanced settings to find the MCP option or anything.\n[ 4m4s962ms - 4m17s542ms ] Whereas here, you can easily configure it. Anyway, you also get the autocomplete and inline assist options as well. If you go over to a new file, then you'll see those options too, which is also good.\n[ 4m17s542ms - 4m20s682ms ] Now, let's try to use it as well.\n[ 4m20s682ms - 4m24s422ms ] But before we do that, let me tell you about Ninja Tools.\n[ 4m24s422ms - 4m35s622ms ] Ninja Tools is an AI platform that combines all the best AI models and experiences at one place. It allows you to save over $600 per year compared to having separate subscriptions.\n[ 4m35s622ms - 4m44s792ms ] You get access to Claude 3.7 Sonnet, GPT-4o, Gemini, and a ton of others models in one subscription. You even get some more cool options like AI video generation, image generation, music generation, and document chats.\n[ 4m44s792ms - 4m54s592ms ] You can also use their playground to compare multiple AI responses at once. The best part is that it just starts from $11 per month that gives you more than 1,000 chat messages, 30 AI image generation, and 5 music generation.\n[ 4m54s592ms - 5m6s692ms ] While there is also some even more advanced plans if you need them.\n[ 5m6s692ms - 5m11s682ms ] Also, make sure to use my coupon code AICODEKING20 to get an additional 20% off.\n[ 5m11s682ms - 5m17s922ms ] Make sure to check Ninja Tools out and save some money on your subscription while you're at it. Now, back to the video.\n[ 5m17s922ms - 5m24s942ms ] Let's start with the vibe coding option. I'm going to give it the King Bench app, and I'm going to ask it a trademark question at this point.\n[ 5m24s942ms - 5m30s332ms ] To add a theme toggle for light and dark theme and make it work accordingly.\n[ 5m30s332ms - 5m40s722ms ] It gives you the option to use 3.7 and 4 Sonnet. You can choose between them, and then just get it started.\n[ 5m40s722ms - 5m45s362ms ] There's also the autopilot option that doesn't ask for your approval.\n[ 5m45s362ms - 5m55s272ms ] In a bit, it gets started, and it's quite similar to most of the coders that you've seen before.\n[ 5m55s272ms - 6m2s572ms ] You can also follow the changes and so on as well. In a bit, it gets done, and you can see that it did this quite well.\n[ 6m2s572ms - 6m8s622ms ] It is quite good at coding. I mean, at this point, most of the coders are quite good.\n[ 6m8s622ms - 6m29s132ms ] And since it uses Sonnet in the background, it doesn't have many issues. Also, the Sonnet here is much more original without any context limitations or restrictions that you get in most AI editors in order to manage their pricing.\n[ 6m29s132ms - 6m42s912ms ] It makes sense because Amazon owns a good chunk of Anthropic, and they host Anthropic's model as well, which means they can manage the pricing much more easily without artificial changes. Anyway, there's also the option of spec.\n[ 6m42s912ms - 6m46s262ms ] Let me show you how that works as well.\n[ 6m46s262ms - 6m51s532ms ] You can just go here and then ask it to implement something. So, for example,\n[ 6m51s532ms - 6m59s942ms ] I can ask it to implement a proper database for this. And what you'll see is that it will go ahead and plan the changes first.\n[ 6m59s942ms - 7m10s982ms ] It will create a plans file for it, and then you can see the changes that it wants to implement. You can change something in it, and then you can easily get this implemented.\n[ 7m10s982ms - 7m16s382ms ] So, this is also cool. Now, there's also another thing called hooks.\n[ 7m16s382ms - 7m26s682ms ] For hooks, you can go to the Kiro option in the sidebar and then hit add new in the hook section, and it will open up this create new hook option.\n[ 7m26s682ms - 7m44s382ms ] You can just enter what you want the hook to do in natural language, and it will set that up for you. You can also change it yourself manually and set it accordingly if you want to do that, which is pretty amazing. These are the major options here.\n[ 7m44s382ms - 8m0s882ms ] You can set up MCPs and everything as well. I really like it and was quite excited to use this because it is honestly quite awesome. Like, really awesome.\n[ 8m0s882ms - 8m13s922ms ] I found the UI to be extremely good. It's not very daunting, and the hooks and planning options are also pretty good. It basically has a built-in taskmaster-like feature. And for now, it's fully free as well, which is pretty awesome.\n[ 8m13s922ms - 8m35s92ms ] I found it amazingly good for a first iteration, and if they can manage the pricing and performance well, considering that they have quite a bit of access to Anthropic's model, and they host Anthropic's model themselves, then I think this may come out to be a good option. Like cursor or similar tools. Overall, it's pretty cool.\n[ 8m35s92ms - 8m40s482ms ] Anyway, share your thoughts below and subscribe to the channel.\n[ 8m40s482ms - 8m45s302ms ] You can also donate via Super Thanks option or join the channel as well and get some perks.\n[ 8m45s302ms - 8m46s412ms ] I'll see you in the next video.\n[ 8m46s412ms - 8m52s172ms ] Bye. (Music)"
+        }
+    },
+    {
+        "id": "k7NhWwr8-9s",
+        "title": "Why Stalin&#39;s System Needed Stalin - Stephen Kotkin",
+        "content": "",
+        "url": "https://www.youtube.com/watch?v=k7NhWwr8-9s",
+        "publishDate": "2025-07-15T16:01:16Z",
+        "author": "Dwarkesh Patel",
+        "sourceType": "youtube",
+        "sourceName": "Dwarkesh Patel YouTube Channel",
+        "metadata": {
+            "channelId": "UCXl4i9dYBrFOabk0xGmbkRA",
+            "thumbnailUrl": "https://i.ytimg.com/vi/k7NhWwr8-9s/hqdefault.jpg",
+            "transcription": "[ 0m0s454ms - 0m1s764ms ] STALIN IS THE GUY\n[ 0m2s414ms - 0m4s754ms ] WHO IS BUILDING AND PERSONIFYING THE SYSTEM.\n[ 0m5s464ms - 0m8s304ms ] THE PEOPLE AROUND STALIN CAN SEE\n[ 0m8s884ms - 0m11s454ms ] THAT HE IS UNUSUALLY GOOD\n[ 0m11s684ms - 0m12s654ms ] AT DICTATORSHIP.\n[ 0m13s304ms - 0m17s924ms ] HE IS JUST CARRYING THIS ENTIRE SYSTEM ON HIS BACK THROUGH THICK AND THIN.\n[ 0m18s244ms - 0m19s394ms ] KILLING ENEMIES.\n[ 0m20s224ms - 0m21s304ms ] LIQUIDATING THE KULAKS.\n[ 0m21s974ms - 0m23s214ms ] COLLECTIVIZING AGRICULTURE.\n[ 0m23s624ms - 0m25s454ms ] BUILDING A MILITARY INDUSTRIAL COMPLEX.\n[ 0m26s124ms - 0m27s374ms ] DEFEATING HITLER IN WAR.\n[ 0m27s920ms - 0m35s620ms ] I MEAN, HOW MUCH BETTER FROM WITH THE SYSTEM'S LOGIC, NOT FROM HUMANITY'S LOGIC, NOT FROM THE POINT OF VIEW OF THE KIND OF VALUES THAT YOU AND I SHARE.\n[ 0m36s140ms - 0m38s360ms ] HOW MUCH BETTER ARE YOU GOING TO DO THAN STALIN?\n[ 0m39s200ms - 0m44s380ms ] AND SO THERE IS A WAY IN WHICH THEY'RE PYGMIES AND HE'S STALIN.\n[ 0m45s10ms - 0m50s670ms ] SO OF COURSE THEY KNOW THAT THEY CAN'T DO WHAT HE DOES.\n[ 0m50s670ms - 1m5s880ms ] AND IF THEY TRIED TO UNSEAT HIM, THEY MIGHT SAVE THEIR LIVES, BUT THEY MIGHT LOSE THE SYSTEM, AND THE RADIANT FUTURE, THE OVERTHROW OF CAPITALISM, THE ABUNDANCE, PEACE, PARADISE ON EARTH.\n[ 1m6s40ms - 1m12s220ms ] THAT'S A BIG MOVE TO LOSE IF YOU BELIEVE IN THAT, IF YOUR LIFE IS ABOUT THAT AND YOU'RE DEDICATED TO THAT."
+        }
+    }
+]
