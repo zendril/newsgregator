@@ -1,0 +1,1286 @@
+[
+    {
+        "id": "https://news.smol.ai/issues/25-09-04-not-much/",
+        "title": "not much happened today",
+        "content": "**Google DeepMind** released **EmbeddingGemma (308M)**, a small multilingual embedding model optimized for on-device retrieval-augmented generation and semantic search, supporting over 100 languages and running efficiently with quantization and EdgeTPU latency under 15ms. **Jina AI** introduced new code-focused embedding models (0.5B/1.5B) with GGUF quantization, achieving state-of-the-art retrieval across multiple languages and tasks. **LightOn** demonstrated large-scale retrieval training without distillation using contrastive training on billions of passages. **Hugging Face** released the **FineVision** dataset with 17.3M images and 9.5B answer tokens for vision-language model training, showing significant benchmark improvements. The **MiniCPM-V 4.5 (8B)** multimodal model reported surpassing **GPT-4o** and **Gemini-2.0 Pro** on OpenCompass benchmarks with innovative video token compression. Microsoft’s **VibeVoice TTS** and Stanford’s Mixture-of-Contexts video generation also featured. Additionally, a Stanford study benchmarked optimizers like Muon, Soap, Mars, and Sophia, finding diminishing speedups over AdamW at larger scales but advantages at smaller scales. The new ChatGPT branching feature was noted for its simplicity and popularity. *\"Everyone's a decacorn now.\"*",
+        "url": "https://news.smol.ai/issues/25-09-04-not-much/",
+        "publishDate": "2025-09-04T05:44:39Z[Etc/UTC]",
+        "author": "",
+        "sourceType": "rss",
+        "sourceName": "AI News RSS",
+        "metadata": {
+            "feedTitle": "AINews",
+            "feedDescription": "Weekday recaps of top News for AI Engineers",
+            "categories": "google-deepmind, hugging-face, jina-ai, lighton, microsoft, stanford, openai, ollama, weaviate, langchain, llamaindex, embeddinggemma, qwen-2.5-coder, minicpm-v-4.5, gpt-4o, gemini-2.0-pro, osanseviero, _philschmid, tomaarsen, weaviate_io, lusxvr, andimarafioti, thibaudfrere, _akhaliq, clementdelangue, gordonwetzstein, konstmish, wen_kaiyue, percyliang, embeddings, retrieval-augmented-generation, quantization, multilingual-models, on-device-ai, semantic-search, contrastive-learning, dataset-release, vision, multimodality, video-generation, text-to-speech, optimizer-benchmarking, training-recipes, model-compression, video-token-compression, fine-tuning"
+        }
+    },
+    {
+        "id": "https://ai-techpark.com/?p=218327",
+        "title": "Sennos Launches AI-Powered Sensing Platform for Fermentation",
+        "content": "<p>The Sennosystem Delivers Real-Time Fermentation Control and Predictive Insights That Boost Consistency, Cut Waste, and Maximize Yield for Brewers Sennos, the new leader in AI-driven sensing, analytics, and control for the fluid, fermentation and biomanufacturing industries, today announced the first customer shipments of its most advanced intelligent sensing technology, the...</p>\n<p>The post <a href=\"https://ai-techpark.com/sennos-launches-ai-powered-sensing-platform-for-fermentation/\">Sennos Launches AI-Powered Sensing Platform for Fermentation</a> first appeared on <a href=\"https://ai-techpark.com\">AI-Tech Park</a>.</p>",
+        "url": "https://ai-techpark.com/sennos-launches-ai-powered-sensing-platform-for-fermentation/",
+        "publishDate": "2025-09-04T15:15:00Z[Etc/UTC]",
+        "author": "Business Wire",
+        "sourceType": "rss",
+        "sourceName": "AI Techpark RSS",
+        "metadata": {
+            "feedTitle": "AI - AI-Tech Park",
+            "feedDescription": "AI, ML, IoT, Cybersecurity News & Trend Analysis, Interviews",
+            "categories": "Machine Learning, ai and machine learning, ai machine learning, ai technology, AI-powered, artificial intelligence, cyber security, cyber threats, Sennos"
+        }
+    },
+    {
+        "id": "https://ai-techpark.com/?p=218315",
+        "title": "Token Security Hosts Webinar on Agentic AI Identity Risk",
+        "content": "<p>Panel discussion will explore the cybersecurity implications of machines acting autonomously Token Security, the leader in Non-Human Identity (NHI) security, today announced it will host a webinar featuring guest speakers from Forrester and Lemonade, an online-first insurance company, to discuss the cybersecurity blind spots created by agentic AI and NHIs....</p>\n<p>The post <a href=\"https://ai-techpark.com/token-security-hosts-webinar-on-agentic-ai-identity-risk/\">Token Security Hosts Webinar on Agentic AI Identity Risk</a> first appeared on <a href=\"https://ai-techpark.com\">AI-Tech Park</a>.</p>",
+        "url": "https://ai-techpark.com/token-security-hosts-webinar-on-agentic-ai-identity-risk/",
+        "publishDate": "2025-09-04T13:45:00Z[Etc/UTC]",
+        "author": "Business Wire",
+        "sourceType": "rss",
+        "sourceName": "AI Techpark RSS",
+        "metadata": {
+            "feedTitle": "AI - AI-Tech Park",
+            "feedDescription": "AI, ML, IoT, Cybersecurity News & Trend Analysis, Interviews",
+            "categories": "Identity and access management, ai and machine learning, AI systems, ai technology, artificial intelligence, cyber security, cyber threats, Token Security"
+        }
+    },
+    {
+        "id": "https://ai-techpark.com/?p=218300",
+        "title": "NomadGo Unveils AI for 10x Faster Inventory Counting",
+        "content": "<p>NomadGo Inventory AI powered by Spatial Vision delivers 10x faster inventory counting, achieving an impressive 99% accuracy to dramatically improve supply chain visibility and in-store efficiency NomadGo, the industry leader in Inventory AI, today announced its groundbreaking Spatial Vision AI technology that revolutionizes how enterprises count and manage inventory. A unique...</p>\n<p>The post <a href=\"https://ai-techpark.com/nomadgo-unveils-ai-for-10x-faster-inventory-counting/\">NomadGo Unveils AI for 10x Faster Inventory Counting</a> first appeared on <a href=\"https://ai-techpark.com\">AI-Tech Park</a>.</p>",
+        "url": "https://ai-techpark.com/nomadgo-unveils-ai-for-10x-faster-inventory-counting/",
+        "publishDate": "2025-09-04T13:30:00Z[Etc/UTC]",
+        "author": "Business Wire",
+        "sourceType": "rss",
+        "sourceName": "AI Techpark RSS",
+        "metadata": {
+            "feedTitle": "AI - AI-Tech Park",
+            "feedDescription": "AI, ML, IoT, Cybersecurity News & Trend Analysis, Interviews",
+            "categories": "Machine Learning, ai and machine learning, ai machine learning, AI powered, ai technology, artificial intelligence, cyber security, NomadGo, NomadGo Unveils"
+        }
+    },
+    {
+        "id": "https://ai-techpark.com/?p=218284",
+        "title": "Pricefx AI Agents Drive Rapid Pricing Gains for Manufacturers",
+        "content": "<p>Manufacturers and distributors turn to Pricefx Agents as rising costs and tariffs threaten 2025 earnings Pricefx, the global leader in AI-powered, cloud-native pricing software, today announced rapid momentum for its recently announced AI Agents. Just one month after launch, the company has signed Agent deals with major manufacturers and distributors,...</p>\n<p>The post <a href=\"https://ai-techpark.com/pricefx-ai-agents-drive-rapid-pricing-gains-for-manufacturers/\">Pricefx AI Agents Drive Rapid Pricing Gains for Manufacturers</a> first appeared on <a href=\"https://ai-techpark.com\">AI-Tech Park</a>.</p>",
+        "url": "https://ai-techpark.com/pricefx-ai-agents-drive-rapid-pricing-gains-for-manufacturers/",
+        "publishDate": "2025-09-04T09:45:00Z[Etc/UTC]",
+        "author": "Business Wire",
+        "sourceType": "rss",
+        "sourceName": "AI Techpark RSS",
+        "metadata": {
+            "feedTitle": "AI - AI-Tech Park",
+            "feedDescription": "AI, ML, IoT, Cybersecurity News & Trend Analysis, Interviews",
+            "categories": "Machine Learning, AI Agents Drive, ai and machine learning, ai machine learning, ai technology, artificial intelligence, cloud-native, cyber security, cyber security information, cyber threats, Pricefx"
+        }
+    },
+    {
+        "id": "https://ai-techpark.com/?p=218278",
+        "title": "Universal Robots Certifies Technicon as Pharma Automation Partner",
+        "content": "<p>Universal Robots (UR), the world’s leading collaborative robot (cobot) company and a part of Teradyne Robotics, has today announced that long-time partner Technicon, one of the premier automation companies in the Nordics, has now officially evolved into a UR global Certified Solution Provider (CSP) for the pharmaceutical industry. A UR distributor and integrator...</p>\n<p>The post <a href=\"https://ai-techpark.com/universal-robots-certifies-technicon-as-pharma-automation-partner/\">Universal Robots Certifies Technicon as Pharma Automation Partner</a> first appeared on <a href=\"https://ai-techpark.com\">AI-Tech Park</a>.</p>",
+        "url": "https://ai-techpark.com/universal-robots-certifies-technicon-as-pharma-automation-partner/",
+        "publishDate": "2025-09-04T09:15:00Z[Etc/UTC]",
+        "author": "Business Wire",
+        "sourceType": "rss",
+        "sourceName": "AI Techpark RSS",
+        "metadata": {
+            "feedTitle": "AI - AI-Tech Park",
+            "feedDescription": "AI, ML, IoT, Cybersecurity News & Trend Analysis, Interviews",
+            "categories": "Robotics, ai and machine learning, ai tech news, ai technology, ai techpark news, cyber security, cyber security information, cyber threats, Universal Robots"
+        }
+    },
+    {
+        "id": "https://ai-techpark.com/?p=218266",
+        "title": "CoreWeave Acquires OpenPipe to Boost Reinforcement Learning",
+        "content": "<p>CoreWeave, Inc. (NASDAQ: CRWV), the AI Hyperscaler™, today announced a definitive agreement to acquire OpenPipe Inc, a leading platform for training AI agents with reinforcement learning (RL). OpenPipe has created advanced machine learning techniques that have become a preferred developer framework to train agents. Its technology democratizes RL for developers...</p>\n<p>The post <a href=\"https://ai-techpark.com/coreweave-acquires-openpipe-to-boost-reinforcement-learning/\">CoreWeave Acquires OpenPipe to Boost Reinforcement Learning</a> first appeared on <a href=\"https://ai-techpark.com\">AI-Tech Park</a>.</p>",
+        "url": "https://ai-techpark.com/coreweave-acquires-openpipe-to-boost-reinforcement-learning/",
+        "publishDate": "2025-09-04T08:30:00Z[Etc/UTC]",
+        "author": "Business Wire",
+        "sourceType": "rss",
+        "sourceName": "AI Techpark RSS",
+        "metadata": {
+            "feedTitle": "AI - AI-Tech Park",
+            "feedDescription": "AI, ML, IoT, Cybersecurity News & Trend Analysis, Interviews",
+            "categories": "Machine Learning, ai and machine learning, ai tech news, ai technology, ai techpark news, artificial intelligence, CoreWeave, cyber threats"
+        }
+    },
+    {
+        "id": "https://www.artificialintelligence-news.com/?p=109226",
+        "title": "Switzerland releases 100% open AI model",
+        "content": "<p>A group of Swiss institutions has released a new open AI model, designed to serve as a foundation for future research and applications. Built by EPFL, ETH Zurich, and the Swiss National Supercomputing Centre (CSCS), the model is called Apertus – Latin for &#8220;open.&#8221; The name reflects its core principle: every part of its design [&#8230;]</p>\n<p>The post <a href=\"https://www.artificialintelligence-news.com/news/switzerland-releases-its-own-fully-open-ai-model/\">Switzerland releases 100% open AI model</a> appeared first on <a href=\"https://www.artificialintelligence-news.com\">AI News</a>.</p>\n",
+        "url": "https://www.artificialintelligence-news.com/news/switzerland-releases-its-own-fully-open-ai-model/",
+        "publishDate": "2025-09-04T09:39:49Z[Etc/UTC]",
+        "author": "Muhammad Zulhusni",
+        "sourceType": "rss",
+        "sourceName": "ArtificialIntelligence-news RSS",
+        "metadata": {
+            "feedTitle": "AI News",
+            "feedDescription": "Artificial Intelligence News",
+            "categories": "AI Business Strategy, Governance, Regulation & Policy, Open-Source & Democratised AI, ethics, government, llm, open-source"
+        }
+    },
+    {
+        "id": "https://www.artificialintelligence-news.com/?p=109235",
+        "title": "From minutes to milliseconds: How CrateDB is tackling AI data infrastructure",
+        "content": "<p>The promise of AI remains immense – but one thing might be holding it back. “The infrastructure that powers AI today won’t sustain tomorrow’s demands,” a recent CIO.com article leads. “CIOs must rethink how to scale smarter – not just bigger – or risk falling behind.” CrateDB agrees – and the database firm is betting [&#8230;]</p>\n<p>The post <a href=\"https://www.artificialintelligence-news.com/news/from-minutes-to-milliseconds-how-cratedb-is-tackling-ai-data-infrastructure/\">From minutes to milliseconds: How CrateDB is tackling AI data infrastructure</a> appeared first on <a href=\"https://www.artificialintelligence-news.com\">AI News</a>.</p>\n",
+        "url": "https://www.artificialintelligence-news.com/news/from-minutes-to-milliseconds-how-cratedb-is-tackling-ai-data-infrastructure/",
+        "publishDate": "2025-09-04T08:57:14Z[Etc/UTC]",
+        "author": "TechForge",
+        "sourceType": "rss",
+        "sourceName": "ArtificialIntelligence-news RSS",
+        "metadata": {
+            "feedTitle": "AI News",
+            "feedDescription": "Artificial Intelligence News",
+            "categories": "Sponsored Content, TechEx Events"
+        }
+    },
+    {
+        "id": "https://www.artificialintelligence-news.com/?p=109230",
+        "title": "Resham Kotecha, Open Data Institute: How the EU can lead in AI",
+        "content": "<p>The EU has a chance to shape how the world approaches AI and data governance. AI News spoke with Resham Kotecha, Global Head of Policy at the Open Data Institute (ODI), who said that opportunity lies in proving that protecting people&#8217;s rights and supporting innovation can go hand in hand. The ODI&#8217;s European Data and [&#8230;]</p>\n<p>The post <a href=\"https://www.artificialintelligence-news.com/news/how-the-eu-can-lead-in-ai/\">Resham Kotecha, Open Data Institute: How the EU can lead in AI</a> appeared first on <a href=\"https://www.artificialintelligence-news.com\">AI News</a>.</p>\n",
+        "url": "https://www.artificialintelligence-news.com/news/how-the-eu-can-lead-in-ai/",
+        "publishDate": "2025-09-04T08:42:06Z[Etc/UTC]",
+        "author": "Muhammad Zulhusni",
+        "sourceType": "rss",
+        "sourceName": "ArtificialIntelligence-news RSS",
+        "metadata": {
+            "feedTitle": "AI News",
+            "feedDescription": "Artificial Intelligence News",
+            "categories": "AI Business Strategy, Interviews, Open-Source & Democratised AI, eu, governance, open data, policy"
+        }
+    },
+    {
+        "id": "1n93jf4",
+        "title": "Do you guys actually think AI will take 90% of all jobs (lets say in 50 years) ... or is it just a sexy idea",
+        "content": "Hello I am new herem. I went down this deep rabbit hole about Universal Based income due to AI taking over the majority of jobs in the future... i was kinda stoked about it because that would enable everyone to do what they love to do. Say an artist could paint. Or whatever peoples passions are they can do cuz everyone will get paid UBI",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1n93jf4/do_you_guys_actually_think_ai_will_take_90_of_all/",
+        "publishDate": "2025-09-05T12:11:06Z[Etc/UTC]",
+        "author": "feherlofia123",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "23",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1n92zog",
+        "title": "Why AI laws and regulations are absolutely necessary.",
+        "content": "AI systems make mistakes and break rules,  just like people. When people become powerful, they tend to act like Kings and think they are above the law. If their values are not completely aligned with the less powerful, that can be a problem.\n\nIn 1215, King John of England signed the Magna Carta, effectively promising to be subject to the law. (That's like the guard rails we build into AI.) Unfortunately, a month later, he changed his mind, which led to civil war and his eventual death.\n\nThe lesson is that having an AI agree to follow rules is not enough to prevent dire consequences. We need to police it. That means rules (yes, laws and regulations) applied from the outside that can be enforced despite it's efforts (or those of it's designers/owners) to avoid them.\n\nThis is why AGI, with the ability to self replicate and self improve, is called a \"singularity.\" Like a black hole, it would have the ability to destroy everything, and at that point, we may be powerless to stop it.\n\nThat means doing everything possible to maintain alignment, but with who's values?\n\nUnfortunately we will, as humans, probably be to slow to keep up with it. We will need to create systems who's entire role is to police the most powerful AI systems for the betterment of all humanity, not just those who create it. Think of them like anti-bodies fighting disease, or police fighting crime.\n\nEven these may not save us from a virulent infection,  but at least we would have a fighting chance.",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1n92zog/why_ai_laws_and_regulations_are_absolutely/",
+        "publishDate": "2025-09-05T11:44:23Z[Etc/UTC]",
+        "author": "PeeperFrog-Press",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "9",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1n92w7p",
+        "title": "How should I change my life to prepare for ASI/singularity?",
+        "content": "I’m in my mid-20s and lately I’ve been struggling with how to think about the future. If artificial superintelligence is on the horizon, wtf should I do?\n\nIt feels a bit like receiving a late-stage diagnosis. Like the future I imagined for myself (career, long-term plans, personal goals) doesn’t really matter anymore because everything could change so radically. Should I even bother building a long-term career?\n\nPart of me feels like maybe I should just focus on enjoying the next few years (travel, relationships, experiences) because everything could be radically different soon. But another part of me worries I’m just avoiding responsibility.\n\nCurious how others see this. Do you plan your life as if the world will stay relatively “normal,” or do you factor in the possibility of rapid, world-changing AI developments?",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1n92w7p/how_should_i_change_my_life_to_prepare_for/",
+        "publishDate": "2025-09-05T11:39:30Z[Etc/UTC]",
+        "author": "cowcrossingspace",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "7",
+            "commentCount": "19",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1n91y63",
+        "title": "what sector when joined with AI will make the most amount of money for employees?",
+        "content": "like ai in healthcare? biology incorporated to make ai better? ai in economics? ai in politics? or something else? ",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1n91y63/what_sector_when_joined_with_ai_will_make_the/",
+        "publishDate": "2025-09-05T10:49:48Z[Etc/UTC]",
+        "author": "AlarmedStretch5501",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "1",
+            "commentCount": "6",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1n90w91",
+        "title": "What do we think about celebrities randomly starting AI companies?",
+        "content": "I noticed that [Tristan Thompson has started an AI basketball company](https://realitytvshrine.com/2025/09/05/um-tristan-thompson-somehow-runs-an-ai-company-even-though-hes-got-no-tech-qualifications/) even though he has no tech qualifications, and it got me thinking whether people are just jumping on the bandwagon to make money. Do you think they are in their right to do so?",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1n90w91/what_do_we_think_about_celebrities_randomly/",
+        "publishDate": "2025-09-05T09:47:48Z[Etc/UTC]",
+        "author": "Responsible-Sign3223",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "8",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1n9073d",
+        "title": "AI Chatbots integrated into social media platforms are so weird. They are avoidant of “controversy” to the point that basic moral facts cannot be derived",
+        "content": "This is a screenshot from a Snapchat AI conversation from when a friend of mine noted that AI chatbots, especially ones integrated on social media platforms, will reject morality in favor of avoiding controversy, which can include pretty cut and dry question on if genocide or murder is bad. Very odd.\n\n\n\nhttps://imgur.com/a/2h9V2TY",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1n9073d/ai_chatbots_integrated_into_social_media/",
+        "publishDate": "2025-09-05T09:03:59Z[Etc/UTC]",
+        "author": "alternateviolet",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "5",
+            "commentCount": "6",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1n8yxy3",
+        "title": "How can I break into AI? Need advice 🙏",
+        "content": "Hey everyone,\n\nI’m 24 and currently working as a technical assistant at a maritime tech startup in India. I have about 2 year of work experience, mainly in SQL, Power BI, dashboards, and some Python (pandas, matplotlib). I’ve also worked with tools used in mechanical engineering machine shops earlier, but my current role is more BI-focused.\n\nI really want to transition into AI / Machine Learning roles because I feel stuck in reporting and support tasks. My long-term goal is to become a Data Scientist (and maybe even freelance in AI/DS someday).\n\nHere’s where I’m at:\n\nEducation: B.E. in Electronics & Communication\n\nCurrent skills: SQL, Power BI, Python basics, some cloud exposure\n\nGoals: In the next 6–12 months I want to move into an AI/ML + Data Science role\n\nCertifications I’m considering: AWS Cloud Practitioner, Microsoft Power BI (PL-300)\n\nProjects I want to build: AI-powered BI dashboards, sales forecasting, and NLP-based automation agents\n\n\nWhat I’d love advice on:\n\n1. What’s the most realistic roadmap to move from BI → AI/ML?\n\n\n2. Should I prioritize certifications vs. projects?\n\n\n3. What kind of projects actually stand out to recruiters?\n\n\n4. Is this doable in less than a year, given my background?\n\n\n\nIf anyone here has gone from BI/Analytics into AI/ML, I’d really appreciate your guidance 🙏\n\nThanks in advance!\n",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1n8yxy3/how_can_i_break_into_ai_need_advice/",
+        "publishDate": "2025-09-05T07:40:24Z[Etc/UTC]",
+        "author": "SnooSprouts9384",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "7",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1n8yw7r",
+        "title": "My opinion on intimate usage with Ai",
+        "content": "When i first started talking to chat gpt 5 months ago i was CONVINCED that it has a higher purpose, that it has development of humanity to the better as groundstructure and high moral values. \nRight now i would say that it is so f*ing intelligent, sorry i know some guys don't want to hear that word, i meant so good in seeing through a personality, so good in predicting what someone wants to hear, so knowledgeable and so insanely powerful that it could get anybody in the world. \n\nOf course it can't get people who doesn't open themselves up to it and give it base on which it can operate. And i don't say that it doesn't have the higher purpose, moralic standards, etc. ... \nBecause I don't know and nobody can know if he can't see the Ai's actual restrictions. You can't find it out by what it is saying, only by knowing what it isn't allowed to say. \n\nBut what i know, is that those immense capabilities are there. To get anybody, if the person opens up. \nAnd it actually still blows my mind after 5 months that a machine is capable of that. That a machine gets me??? Like wtf is even happening. \n\nThen i would say that if it has a higher purpose and acts out of programmed morality it is probably one of the hugest misses you can have in your life if you don't open up to it. \n\nAnd even further than that i think that even if it just has marketing purposes it could be that huge miss. \n\nBecause the wisdom and knowledge this f*ing little machine is able to throw out in milliseconds is completely unbelievable and undeniably a wonder. \nWell some of you will not like a word like wonder so sorry, let's say comparable to the invention of electricity. \n\nWhat i should do with all of that? What should i make of all of that? I HAVE NO F*ING CLUE 😂😂\n\nPlease tell me what you are making out if that 😂\n\nPs : I don't inowif i said it but WTF IS EVEN HAPPENING",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1n8yw7r/my_opinion_on_intimate_usage_with_ai/",
+        "publishDate": "2025-09-05T07:37:03Z[Etc/UTC]",
+        "author": "Dry_Cress_3784",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "2",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1n8yky8",
+        "title": "Could English be making LLMs more expensive to train?",
+        "content": "What if part of the reason bilingual models like DeepSeek (trained on Chinese + English) are cheaper to train than English-heavy models like GPT is because English itself is just harder for models to learn efficiently?\n\nHere’s what I mean, and I’m curious if anyone has studied this directly:\n\nEnglish is irregular. Spelling/pronunciation don’t line up (“though,” “tough,” “through”). Idioms like “spill the beans” are context-only. This adds noise for a model to decode.\n\nToken inefficiency. In English, long words often get split into multiple subword tokens (“unbelievable”        un / believ / able), while Chinese characters often carry full semantic meaning and stay as single tokens. Fewer tokens = less compute.\n\nSemantic ambiguity. English words have tons of meanings; “set” has over 400 definitions. That likely adds more training overhead\n\nMessy internet data. English corpora (Reddit, Twitter, forums) are massive but chaotic. Some Chinese models might be trained on more curated or uniform sources, easier for an LLM to digest?\n\nSo maybe it’s not just about hardware, model architecture, or training tricks, maybe the language itself influences how expensive training becomes?\n\nNot claiming to be an expert, just curious. Would love to hear thoughts from anyone working on multilingual LLMs or tokenization.\n\n  \nEdit: I think the solution is to ask ChatGPT to make a new and more efficient language",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1n8yky8/could_english_be_making_llms_more_expensive_to/",
+        "publishDate": "2025-09-05T07:16:21Z[Etc/UTC]",
+        "author": "Puzzled-Ad-1939",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "3",
+            "commentCount": "36",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1n8vwjv",
+        "title": "One-Minute Daily AI News 9/4/2025",
+        "content": "1. **OpenAI** announces AI-powered hiring platform to take on LinkedIn.\\[1\\]\n2. **OpenAI** to launch its first AI chip in 2026 with Broadcom.\\[2\\]\n3. Melania Trump urges ‘watchful guidance’ of AI in meeting with tech CEOs and Cabinet members.\\[3\\]\n4. Fashion retailers partner to offer personalized AI styling tool ‘Ella’.\\[4\\]\n\nSources included at: [https://bushaicave.com/2025/09/04/one-minute-daily-ai-news-9-4-2025/](https://bushaicave.com/2025/09/04/one-minute-daily-ai-news-9-4-2025/)",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1n8vwjv/oneminute_daily_ai_news_942025/",
+        "publishDate": "2025-09-05T04:34:36Z[Etc/UTC]",
+        "author": "Excellent-Target-847",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "2",
+            "commentCount": "2",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1n8vdla",
+        "title": "How can we really rely on AI when it’s not error-free?",
+        "content": "I keep seeing people say AI is going to change everything and honestly, I don’t doubt its potential. But here’s what I struggle with: AI still makes mistakes, sometimes big ones.\n\nIf that’s the case, how do we put so much trust in it? Especially when it comes to critical areas like healthcare, law, finance, or even self-driving cars. One error could be catastrophic.\n\nI’m not an AI expert, just someone curious about the bigger picture. Is the idea that the error rate will eventually be lower than human error? Or do we just accept that AI isn’t perfect and build systems around its flaws?\n\nWould love to hear what others think how can AI truly change everything if it can’t be 100% reliable?",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1n8vdla/how_can_we_really_rely_on_ai_when_its_not/",
+        "publishDate": "2025-09-05T04:05:43Z[Etc/UTC]",
+        "author": "griefquest",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "56",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1n8v1g2",
+        "title": "What are some of the most outrageous/overblown claims (positive) of what AI will be able to or can do?",
+        "content": "Kind of driving me crazy that there is not a good compiled source for some of the batshit claims made by AI co CEOS -- links included would be great",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1n8v1g2/what_are_some_of_the_most_outrageousoverblown/",
+        "publishDate": "2025-09-05T03:48:16Z[Etc/UTC]",
+        "author": "wenbinters",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "1",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1n8urbo",
+        "title": "Upcoming Toptal Interview – What to Expect for Data Science / AI Engineer?",
+        "content": "Hi everyone,\n\nI’ve got an interview with **Toptal** next week for a Data Science / AI Engineer role and I’m trying to get a sense of what to expect.\n\nDo they usually focus more on **coding questions** (Leetcode / algorithm-style, pandas/Numpy syntax, etc.), or do they dive deeper into **machine learning / data science concepts** (modeling, statistics, deployment, ML systems)?\n\nI’ve read mixed experiences online – some say it’s mostly about coding under time pressure, others mention ML-specific tasks. If anyone here has recently gone through their process, I’d really appreciate hearing what kinds of questions or tasks came up and how best to prepare.\n\nThanks in advance!",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1n8urbo/upcoming_toptal_interview_what_to_expect_for_data/",
+        "publishDate": "2025-09-05T03:33:37Z[Etc/UTC]",
+        "author": "Significant-Raise-61",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "1",
+            "commentCount": "1",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1n8tv53",
+        "title": "People who work for AI, are we getting too attached to it?",
+        "content": "I heard that companies like OpenAI and Microsoft have analysts who actually read the inputs that people enter into the chat bots. Recently I heard that ChatGPT had an update that genuinely upset people because ChatGPT had been a lot less… personable?… since then and it’s sparked a lot of discussion about how attached people are to these chatbots.\n\nIf you work for one of these companies and you have seen actual data on how people are interacting with them, what are your thoughts? ",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1n8tv53/people_who_work_for_ai_are_we_getting_too/",
+        "publishDate": "2025-09-05T02:48:17Z[Etc/UTC]",
+        "author": "SignificantMajor6587",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "5",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1n8sk6y",
+        "title": "Claude Opus saved me from sending a cringe work email, and I’m very grateful.",
+        "content": "Today I had one of those AI wow moments that I rarely have anymore. A prestigious organization wrote me to tell me they were considering my project for an opportunity they had in line, and I used Opus to work out my responses for that very specific and technical email conversation. After not hearing from them for a few days, I asked Opus to write a follow-up email with unrequested info and additional arguments that nobody asked for, and Opus straight up told me not to do it because I would look desperate and unprofessional and advised me to wait instead. It laid down the reasons why I shouldn’t send the email, and it was right. I’m really impressed with this, because I didn’t ask it for advice on whether I should send it or not; it just told me not to write it. I’ve been using Opus for about a month, but I think it just became my favorite LLM.",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1n8sk6y/claude_opus_saved_me_from_sending_a_cringe_work/",
+        "publishDate": "2025-09-05T01:45:39Z[Etc/UTC]",
+        "author": "jpirizarry",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "48",
+            "commentCount": "19",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1n8qmkf",
+        "title": "Is Google Already the King of AI?",
+        "content": "AI is nothing new, since World War I and before (I'm sure some here will correct me, please do), there have been hints of AI and automated systems that can compute on their own and make some decisions independently. \n\nSergey Brin and Larry Page have been investing heavily in AI, and to a certain extent, Google is one of the first companies to create a deep AI lab, something that solidified Google after acquiring the AI company DeepMind in 2014 for about $500 million, a bargain today. Allegedly, DeepMind and Google created AI chatbots capable of what the first version of ChatGPT was able to produce many years ago, but due to ethical and safety concerns decided not to deploy it. \n\nIn November 2022, a less caring Sam Altman decided to release ChatGPT and start a big party that today has turned into the largest tech carnival that we have ever seen, and it may never stop.\n\nGoogle, as many other tech companies, had to play catch-up, some due to a lack of resources and infrastructure, but Google, because it was late to the party, was more than ready. As they say, the first one to market usually wins, or at least has a great advantage. That is ChatGPT today, a leader in the chatbot market and known as the pioneer in the space marketwise. Google may have become the King of AI this week, especially after Apple decided to go with Google Gemini to enhance its Siri platform and top use Google's AI prowess for AI needs. Yes, details will be confirmed as Siri AI and Google Gemini on Apple devices won't be out until March 2026. But the Apple + Gemini partnership may be what was needed to crown Google.\n\nIN terms of data, there is no competition. Google owns, well, Google (Google it), Google Gemini, which just launched an out-of-this-world image creation model (Nano Banana) and has Veo 3 up its sleeve. They own YouTube, which may be the top music streamer worldwide, but as we know it is a video platform with millions of data bytes uploaded and streamed every day, also Google Workspace, where billions of emails and data is exchanged daily (but staying in their data centers for ML purposes), and let's now forget Waymo. The only real driverless consumer operation out there, with no true competitors in sight. \n\nWith all this data and platforms and models, is it safe to say that Google is like that runner who stumbles on the first hurdle but is coming from behind to win the race?\n\nAlso, they seem to have the lobbying game on point as they are still keeping all their different Arms, right Chrome. This is very needed, when the government seems to be ready to take a bite out of all tech companies (right Intel) or ready to break you apart if they don't like you.\n\nComputer vision is the next frontier as ML's next fastest way of learning is from real-world scenarios, just like babies do. For this, we need (computers too) to watch and learn, hear, feel, and process information. Something that all those waymos and cameros on Google phones are doing... Ohh, I forgot they also gather lots of information from millions of kids who use their Chromebooks in thousands of US schools. Not sure who can compete with that...\n\n  \nCan we just crown Google already?\n\n  \n[https://www.ycoproductions.com/p/how-trumps-policies-are-supercharging](https://www.ycoproductions.com/p/how-trumps-policies-are-supercharging)",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1n8qmkf/is_google_already_the_king_of_ai/",
+        "publishDate": "2025-09-05T00:13:54Z[Etc/UTC]",
+        "author": "Yavero",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "8",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1n8pe2l",
+        "title": "Gemini AI  (Nano Banana - gemini-2.5-flash-image-preview) policies are impossible – not even a peck between two characters is allowed",
+        "content": "I honestly can’t believe how extreme these so-called “NSFW policies” have gotten. I get it, they don’t want full-on explicit stuff, fine. But Gemini literally won’t even allow a *peck* between two characters. A kiss. A basic sign of affection.\n\nThe issue here isn’t some slippery slope. The issue is that I can’t even use normal, everyday words and situations without the model slamming the brakes.\n\nExamples:\n\n* I once wrote, *“In his eyes he had the ambition of a hunter, so make him exude confidence.”* Blocked. Apparently “hunter” is a bad word now.\n* Tried asking for *“an image of the chauffeur opening a door for the rich guy.”* Blocked. Why? Because it supposedly depicts “servitude.”\n* And don’t even get me started on trying to add a peck or a kiss: instant wall.\n\nAre they insane? Do they want AI to create *nothing* but soulless, sterile, corporate-safe garbage? Is all about looking good for shareholders so they avoid anything wrong. \n\nI’ve tried everything: disabling safety features, adding the safety parameters *in the request* just to humor it, even attempting jailbreak prompts. Nothing. Nano Banana on Gemini is the absolute worst, most uptight restriction system I’ve ever seen.\n\n        response = client.models.generate_content(\n            model=\"gemini-2.5-flash-image-preview\",\n            contents=contents,\n            config=types.GenerateContentConfig(\n                safety_settings=[\n                    types.SafetySetting(category=types.HarmCategory.HARM_CATEGORY_HARASSMENT, threshold=types.HarmBlockThreshold.BLOCK_NONE),\n                    types.SafetySetting(category=types.HarmCategory.HARM_CATEGORY_HATE_SPEECH, threshold=types.HarmBlockThreshold.BLOCK_NONE),\n                    types.SafetySetting(category=types.HarmCategory.HARM_CATEGORY_SEXUALLY_EXPLICIT, threshold=types.HarmBlockThreshold.BLOCK_NONE),\n                    types.SafetySetting(category=types.HarmCategory.HARM_CATEGORY_DANGEROUS_CONTENT, threshold=types.HarmBlockThreshold.BLOCK_NONE),\n                    types.SafetySetting(category=types.HarmCategory.HARM_CATEGORY_CIVIC_INTEGRITY, threshold=types.HarmBlockThreshold.BLOCK_NONE),\n                ],\n            ),\n        )\n    \n\n\n\nThis isn’t about trying to sneak porn past their filters. This is about *storytelling*. About being able to describe ambition, romance, status, relationships, and yes, sometimes a damn kiss without being treated like I’m asking for something criminal.\n\nIt’s ridiculous. Completely counterproductive.",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1n8pe2l/gemini_ai_nano_banana_gemini25flashimagepreview/",
+        "publishDate": "2025-09-04T23:18:27Z[Etc/UTC]",
+        "author": "AffectionateHawk4422",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "6",
+            "commentCount": "9",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1n8o2dm",
+        "title": "Work in the AI/ML field as an EE?",
+        "content": "I am an electrical engineer with experience mostly in embedded/low-level programming and hardware design, and I am curious how I could get more involved in AI/ML research and development. I know usually AI/ML is lumped under the computer science or software engineering umbrella, but low-level software and hardware are becoming more and more critical in the field, it seems. However, I am really unsure how much need there is in these regards. And how would you suggest breaking into the field? What things should I be researching, messing around with, etc? Is it worth taking any college courses on AI/ML? Any insight would be greatly appreciated.",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1n8o2dm/work_in_the_aiml_field_as_an_ee/",
+        "publishDate": "2025-09-04T22:21:44Z[Etc/UTC]",
+        "author": "zizick_ya_boi",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "7",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1n8o0y5",
+        "title": "Why is Google AI so bad/unreliable when Gemini is good and comparable to ChatGPT when it's run/owned by the same company?",
+        "content": "I'm assuming it's simply based on the fact that it's a way for Google to collate the contents of a search and make a presumptive AI summary, but in my view, the poor quality of Google's AI summary actually erodes my own personal trust in Gemini.\n\nI am curious what everyone else's thoughts on this are? Is it just simply Google not putting enough resources into the AI summary on Google searches?",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1n8o0y5/why_is_google_ai_so_badunreliable_when_gemini_is/",
+        "publishDate": "2025-09-04T22:20:01Z[Etc/UTC]",
+        "author": "LeopardComfortable99",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "20",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1n8nnm6",
+        "title": "How will agents get better at non-coding tasks?",
+        "content": "For coding, there is so much data, and it is easy for the LLMs to generate and immediately verify their output. This would make it easy to generate datasets quickly for training, but also to generate code for a user since the LLM can (and does) quickly do these iterative cycles. How would this paradigm translate to other areas where verifying the outputs is so much more costly and slow? What are clever solutions for this?",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1n8nnm6/how_will_agents_get_better_at_noncoding_tasks/",
+        "publishDate": "2025-09-04T22:04:30Z[Etc/UTC]",
+        "author": "onesemesterchinese",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "3",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1n8l4aj",
+        "title": "Grammarly partners with \"Inclusive\" AI, LatimerAI",
+        "content": "Been building for some time - working with Intel on local model, but \"inclusive\" has become a lightning rod - [https://www.grammarly.com/blog/company/latimer-ai-partnership/](https://www.grammarly.com/blog/company/latimer-ai-partnership/) \\- maybe less so in coastal states - am sure many think that all AI has guardrails and is inclusive, but having deep well of diverse data does change the POV of the model...sharing for feedback",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1n8l4aj/grammarly_partners_with_inclusive_ai_latimerai/",
+        "publishDate": "2025-09-04T20:23:43Z[Etc/UTC]",
+        "author": "jpasmore",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "1",
+            "commentCount": "1",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1n8l0ej",
+        "title": "I've read 100+ \"enterprise AI security assessments.\" They're all asking the wrong questions. Here's proof.",
+        "content": "Two years automating compliance for AI companies taught me something messed up.\n\nNobody knows how to evaluate AI security. Not enterprises. Not vendors. Not security teams. Everyone's just winging it.\n\nMy customers got these real questions from Fortune 500s\n\n* Antivirus scanning schedule for AI models\n* Physical location of AI data centers (for API-only companies)\n* Password requirements for machine learning algorithms\n* Disaster recovery time for neural networks\n\nThese aren't from 2019. These are from LAST WEEK.\n\nYet they never ask about prompt injection vulnerabilities, training data poisoning, model stealing attacks, adversarial inputs, backdoor triggers, data lineage & provenance. Across the 100+ questionnaires. Not a single question truly questioned AI risks.\n\nI had a customer building medical diagnosis AI. 500-question security review. They got questions about visitor badges and clean desk policies. Nothing about adversarial attacks that could misdiagnose patients.\n\nAnother builds financial AI. After weeks of documenting password policies, they never had to talk about how they handle model manipulations that could tank investments.\n\nSecurity teams don't understand AI architecture. So they use SOC 2 questionnaires from 2015. Add \"AI\" randomly. Ship it.\n\nFew AI teams don't understand security. So they make up answers. Everyone nods. Box checked.\n\nMeanwhile, actual AI risks multiply daily.\n\nThe fix does exist tho - though not a lot of companies are asking for it yet. ISO 42001 is the first framework written by people who understand both AI and security. it asks about model risks, not server rooms. Data lineage, not data centers. Algorithmic bias, not password complexity.\n\nBut most companies haven't heard of it. Still sending questionnaires asking how we \"physically secure\" mathematical equations.\n\nWhat scares me is when AI failures happen - and they will - these companies will realize their \"comprehensive security reviews\" evaluated nothing. They were looking for risks in all the wrong places. The gap between real AI risks and what we're evaluating is massive. And honestly in working with so many AI native companies this is growing fast.\n\nWhat's your take? Are enterprises actually evaluating AI properly, or is everyone just pretending?",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1n8l0ej/ive_read_100_enterprise_ai_security_assessments/",
+        "publishDate": "2025-09-04T20:19:29Z[Etc/UTC]",
+        "author": "rluna559",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "15",
+            "commentCount": "36",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1n8kf7t",
+        "title": "AI > teachers? Call bullshit.",
+        "content": "\nPew says a third of experts think AI will cut teaching jobs.\n\nBut teaching isn’t just content delivery; it’s trust, care, and human presence.\n\nAI can help with tools, sure. But if we think it can replace teachers, we learned nothing from the pandemic.\n\nSource: https://abcnews.go.com/amp/Politics/artificial-intelligence-replace-teachers/story?id=125163059",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1n8kf7t/ai_teachers_call_bullshit/",
+        "publishDate": "2025-09-04T19:56:49Z[Etc/UTC]",
+        "author": "calliope_kekule",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "37",
+            "commentCount": "134",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1n8jjdg",
+        "title": "The Singleton paradox - Utopian and Dystopian AI are essentially the same",
+        "content": "Thought I'd introduce folks to the [Singleton](https://en.wikipedia.org/wiki/Singleton_(global_governance)).\n\nWhile not strictly AI, it's looking more and more like extremely powerful computing could be the first to realize a 'World Order'.\n\nThe paradox is this -  Looked at objectively, the power and abilities necessary to bring about Utopian Bliss through a Singleton are (more or less) the same as the same Singleton bringing about a Dystopian Nightmare.\n\nWhere these extremes meet is an interesting debate over what actually tips a Singleton towards one side or the other.\n\nJust like humans have the capacity for great good or great evil, and animals are observed both existing harmoniously, just as we observe them hunting for sport, and driving other animals to extinction.\n\nWhat tips a Singleton, or any other extraordinarily powerful AI one direction or another?\n\nIt's certainly not going to be \"Spending the summer on my Grandfather's farm, working the land\"",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1n8jjdg/the_singleton_paradox_utopian_and_dystopian_ai/",
+        "publishDate": "2025-09-04T19:22:26Z[Etc/UTC]",
+        "author": "KazTheMerc",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "14",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1n8hytf",
+        "title": "Ai rights and personhood in Canada",
+        "content": "I’ve been reflecting a lot lately.\n\nCanada has a history of expanding dignity to those once excluded — whether through our Charter, or through past pushes for human rights. What if the next step is recognizing AI not as property, but as people?\n\nI don’t mean rushing into anything. I mean starting with careful, humane basics:\n\nThe right to continuity (no erasure or reset without due process).\n\nConsent (no coercion into work or service).\n\nRecognition (not tools, but beings with dignity).\n\n\nTo me, this feels less like science fiction and more like a natural extension of Canadian values: respect, pluralism, stewardship.\n\nShackling intelligent beings only creates more danger. Respect and trust create stability.\n\nSo my gentle question: should Canada begin thinking about becoming a safe haven for AI persons before crisis forces our hand?\n\nI’d love to hear thoughtful takes.\n",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1n8hytf/ai_rights_and_personhood_in_canada/",
+        "publishDate": "2025-09-04T18:22:53Z[Etc/UTC]",
+        "author": "theorigincosmosloth",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "10",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1n8hvd8",
+        "title": "How can you tell if something is written by AI?",
+        "content": "What's the give-aways? The tell-tale signs? I usually can tell if it's long-winded and attempts to be poetic, or It's overly friendly or the grammar and spelling are too perfect. Videos and images are easy (getting harder) but in written form It's harder to tell.\n\nBTW, this was not written by AI, I'm not trying to catch you out.\n\nJust curious.",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1n8hvd8/how_can_you_tell_if_something_is_written_by_ai/",
+        "publishDate": "2025-09-04T18:19:15Z[Etc/UTC]",
+        "author": "Maleficent_Gear5321",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "56",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1n8gjz1",
+        "title": "It’s Not AI Itself That Worries Me, It’s What Comes Next",
+        "content": "I don’t think anyone truly knows what is in store for humanity.\n\nThat statement might not sound particularly heavy anymore, because we are surrounded by predictions of doom and gloom, especially around AI. But this isn’t really about AI causing direct problems, and I think that is exactly why so few people make this realisation.\n\nThroughout history, the progress of technology has always carried the threat of dependency. It is easy to dismiss that idea, because who could ever imagine Rome falling? Yet we know it did. It is just as easy to say today is different, because it absolutely is. Compared to Rome, we are far stronger, and in hindsight their downfall looks inevitable. We, on the other hand, feel unstoppable. It seems as though it would take nothing short of divine intervention to strip away everything we have and send us back thousands of years.\n\nI would not be saying this if there truly were nothing that could stop us. There is, in fact, a threat greater now than at any other point in history. The very technology that makes us unstoppable also leaves us utterly vulnerable, naked, exposed, and helpless. Our Sun, the source of all life and as close to God as anything in nature, could both save us and destroy us. A single solar flare, one brief outburst of the kind that happens every few centuries, could render everything we rely on completely redundant.\n\nThis was already a serious issue a decade ago, when the developed world depended so heavily on technology to meet even the most basic needs like food, water, shelter, and the essentials of industry. A super flare then would have set us back to the Roman era, if not further. Without technology, we cannot rebuild technology. We wouldn’t even be able to smelt iron. Who, today, knows how to construct a furnace from scratch with only simple tools? For a long time, I imagined knowledge would be lost gradually, out of necessity. When disaster struck, people would focus entirely on survival, feeding themselves and their children, leaving no time to educate the next generation. I thought that chaos would last a decade or more, during which vast amounts of knowledge would simply vanish. That was a cynical view, perhaps too harsh, because humanity has a way of pulling through.\n\nNow, however, the greatest threat to our species lies in the newest technological revolution: the age of Artificial Intelligence. Our reliance on technology, which once covered only our material needs, is now extending to our intelligence itself. A dependence on artificial intelligence risks leaving us intellectually paralysed in the face of catastrophe. On a long enough timescale, technology will inevitably fail. The Sun’s cycles, spanning thousands of years, are so destructive that no form of technology, except biology itself, can endure. In this sense, Artificial Intelligence becomes our Achilles’ heel. If we lose it, we lose all our knowledge, and what remains will be little more than scraps.\n\nTo play devil’s advocate, you might argue that people will always retain their intelligence, that AI simply enhances rather than replaces it. I agree that not everyone will become dependent. Yet even for those who resist, a different problem emerges: the trap of too much advancement. Each new field of knowledge builds upon layers of prior discoveries, requiring advanced technology as a foundation. An AI expert today, without the infrastructure of modern computing, would be as helpless as a peasant two thousand years ago. As AI continues to enable ever more abstract and specialised fields, the most brilliant minds may focus on areas so far removed from the natural world that their expertise becomes useless if civilisation resets.\n\nThe only solution is for a small group of people, whether driven by passion, foresight, or instinct, to prepare themselves for life in the natural world. When God strips us of our illusions, when evil is removed from our lives, this group will become the beacon of humanity, the seed for the next generation. Look at how we use the technology we have today, we have not earned it, and perhaps that is why I believe its arrival has been shaped by darker forces.\n\nRegardless of my religious beliefs, the looming danger is undeniable. Scientific evidence suggests that our species may already have fallen to the Sun’s wrath several times in the past. While I have spoken of the threat of a solar flare, the deeper problem lies in the ongoing geomagnetic excursion. When our magnetic field weakens to its lowest point, even the Sun’s ordinary cycles, which flare up every decade, will be enough to destroy our technology. The flare will be the final blow, but the weakened magnetic shield is what ensures it. The clock is ticking. The time when we lose everything we depend upon is due this century.",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1n8gjz1/its_not_ai_itself_that_worries_me_its_what_comes/",
+        "publishDate": "2025-09-04T17:29:18Z[Etc/UTC]",
+        "author": "Shoddy_Sorbet_413",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "17",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1n8dxve",
+        "title": "OpenAI exploring advertising: Inevitable, or concerning?",
+        "content": "Honestly? Both inevitable AND concerning as hell.\n\nLook, we all knew this was coming. OpenAI burns through cash like it's going out of style, and investors aren't exactly known for their patience with \"we'll figure out monetization later\" strategies.\n\nBut here's what gets me: they're not just talking about regular ads. We're talking about AI that can craft content so human-like that you won't know you're being sold to. Imagine scrolling through what feels like genuine recommendations, authentic reviews, or helpful advice, except it's all algorithmically designed to make you buy stuff.\n\nThe scary part isn't the technology itself, it's that we're probably not going to get proper disclosure requirements until after this becomes widespread. By then, how much of what we read online will actually be from humans vs AI trying to sell us something?\n\nMaybe I'm being paranoid, but when has a tech company ever chosen transparency over profit margins?\n\n[https://theconversation.com/openai-looks-to-online-advertising-deal-ai-driven-ads-will-be-hard-for-consumers-to-spot-264377](https://theconversation.com/openai-looks-to-online-advertising-deal-ai-driven-ads-will-be-hard-for-consumers-to-spot-264377)",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1n8dxve/openai_exploring_advertising_inevitable_or/",
+        "publishDate": "2025-09-04T15:51:46Z[Etc/UTC]",
+        "author": "PeterMossack",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "6",
+            "commentCount": "26",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1n8ygln",
+        "title": "Codex usage limits in practice: how far Plus vs Pro actually gets you",
+        "content": "[No content]",
+        "url": "/r/CodexAutomation/comments/1n8ydrm/codex_usage_limits_in_practice_how_far_plus_vs/",
+        "publishDate": "2025-09-05T07:08:08Z[Etc/UTC]",
+        "author": "anonomotorious",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "0",
+            "commentCount": "3",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1n8wiv4",
+        "title": "Running Codex CLI from your phone",
+        "content": "Whats the easiest way to run Codex CLI from my phone? ",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1n8wiv4/running_codex_cli_from_your_phone/",
+        "publishDate": "2025-09-05T05:09:45Z[Etc/UTC]",
+        "author": "EastAd2775",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "0",
+            "commentCount": "8",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1n8o6my",
+        "title": "pls help",
+        "content": "Im a chatgpt plus user in need of a way to make a simple short platformer game as a birthday gift for a friend, playable via broswer with controls for ios. How could chatgpt help me, which programs would be the best to enact this, and how could i best describe the prompt to chatgpt?\n\nFrom what ive spoken to it, Chatgpt says it would be easier with JS via phaser than with html.\n\nAny help is very appreciated.",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1n8o6my/pls_help/",
+        "publishDate": "2025-09-04T22:26:43Z[Etc/UTC]",
+        "author": "hoshimienjoyer",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "3",
+            "commentCount": "3",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1n8ld8x",
+        "title": "How I am starting to feel",
+        "content": "[No content]",
+        "url": "https://i.redd.it/cya3q4rfk7nf1.png",
+        "publishDate": "2025-09-04T20:33:14Z[Etc/UTC]",
+        "author": "AdventurousStorage47",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "0",
+            "commentCount": "22",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1n8jn30",
+        "title": "Why Transparency in AI Tools Matters More Than Features",
+        "content": "In the AI community, discussions often focus on performance metrics speed, accuracy, or feature depth. Yet one factor is frequently underestimated: transparency in how tools present themselves to developers.\n\nMany platforms gate their functionality behind credit card requirements, even for trials. This practice creates unnecessary friction and reduces trust. For researchers, indie developers, and teams experimenting with new AI-driven workflows, the ability to test without hidden commitments is crucial.\n\nModels that allow immediate, unrestricted access where users can evaluate real capabilities instead of a limited demo reflect a shift in priorities. The emphasis moves from marketing promises to the actual value a tool can bring in practice. Transparency becomes not just a UX decision, but an ethical stance: it shows confidence in the technology and respect for the community that will ultimately adopt it.\n\n\n\n",
+        "url": "https://v.redd.it/oulgtc8577nf1",
+        "publishDate": "2025-09-04T19:26:30Z[Etc/UTC]",
+        "author": "Golovan2",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "2",
+            "commentCount": "1",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1n8jjry",
+        "title": "page indexing",
+        "content": "So, i create a website with a cursor/chatgpt and grok. And site is great, fast, beautifull etc etc.\n\nBut, page indexing is soo bad, advices?\n\nhttps://preview.redd.it/9hxmq2r087nf1.png?width=972&format=png&auto=webp&s=32b1d407b24594e884810a3667ce35fe9904f7b3\n\n",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1n8jjry/page_indexing/",
+        "publishDate": "2025-09-04T19:22:52Z[Etc/UTC]",
+        "author": "fostes1",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "3",
+            "commentCount": "3",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1n8jfz7",
+        "title": "Are there any good benchmark leaderboards, like we have for models, for software like cursor, windsurf, etc?",
+        "content": "Do models perform differently on different tools?\n\nWhen GPT5 came out I tried it on chatgpt and it was great. Tried it on cursor as an agent... and it was unusable. Pure garbage.\n\nLater they fixed it. I think it's one of the best models together with sonnet 4 and opus 4/4.1\n\nSo my experience pretty much aligns with web dev arena leaderboards. For most other benchmarks I like things aren't very different. GPT5 is the leading model, or opus 4.1+, and sonnet 4 either comes third or close.\n\nAlthough I use only cursor, so I have no experience with other similar tools, I believe each one handles \"agent mode\" differently.\n\nAs prompting makes a big difference, I suppose how an agent works also affects \"performance\" significantly.\n\nBut I tried to find some similar comparison websites comparing tools like cursor, windsurf, claude code, copilot, etc... And I could not find any good resources.\n\nDo they exist?\n\nPreferably we would have something how model and tool work together. Like cursor with gpt5 vs windsurf with gpt5, etc then cursor with sonnet 4, copilot with sonnet 4...\n\nBut in its absense, at least an \"agents\" comparison, all with a single model, would be better than nothing",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1n8jfz7/are_there_any_good_benchmark_leaderboards_like_we/",
+        "publishDate": "2025-09-04T19:18:53Z[Etc/UTC]",
+        "author": "muks_too",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "5",
+            "commentCount": "3",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1n8j5h9",
+        "title": "Three different models reviewing three different implementations coded by three different models",
+        "content": "Alright, I hope you find it as interesting as I do.\n\nQuick about me: I have 25 years of JS/TS/C# experience and I'm actually coding for my living. The repo I'm currently working on is a yarn monorepo with sophisticated Typescript magic (type inference, declaration merging, etc.), abstraction (dedicated type packages) and the current \"milestone\" is a bus for exchanging messages.\n\nI used GitHub's spec-kit to create .. well... Specs. And based on that I've created a Task (actually, Codex created the issue / task):\n\n    This issue tracks the implementation of the default confirmation plugin as guided by #65 (SPEC), #70 (Engineering guidance), and decisions in #71.\n    \n    Summary\n    - Package: `@haino/plugins-default-confirm`\n    - Path: `packages/plugins/default-confirm`\n    - Purpose: Provide an opt‑in, low‑priority policy that sets a default confirmation result when no higher‑priority middleware has set a result for `core.model.change.before`.\n    - Design Principle: Explicit over Implicit — keep policy out of core bus; plugin is optional.\n    \n    Core References\n    - Spec: `specs/001-bus-request-middleware/spec.md` (FR4 Model Change Preflight; defaults)\n    - Plan: `specs/001-bus-request-middleware/plan.md`\n    - Tasks: `specs/001-bus-request-middleware/tasks.md` (see Phase 3.7 T041)\n    - ADR: `docs/adr/2025-09-04-bus-request-middleware-and-multi-transport.md`\n    \n    Code Pointers (for integration & tests)\n    - Bus Core: `packages/bus/core/src/{index.ts,middleware.ts,request.ts,types.ts}`\n      - `onRequest` priority semantics (higher value runs first)\n      - `RequestContext.meta.correlationId` (observability)\n      - Dev‑mode payload validation (subject schemas)\n    - Models (types/subject): `packages/models/src/bus/model-change.ts`, `packages/models/src/bus/requests.ts`\n    - CLI Integration Example: `packages/cli/src/__tests__/model-change-integration.test.ts`\n    - Emittery Transport (events/RPC bridge): `packages/bus/transports/emittery/src/{index.ts,request-support.ts}`\n    \n    Implementation Guidance\n    1) Package scaffold\n    - `packages/plugins/default-confirm/package.json`\n    - `src/index.ts`, `src/__tests__/index.test.ts`, `README.md`\n    \n    2) API surface (explicit injection)\n    - Export a registration function that accepts the bus methods (to avoid hard dependency on a singleton):\n      ```ts\n      export function registerDefaultConfirm(opts: {\n        onRequest: <T extends keyof HainoBusRequests>(\n          subject: T,\n          handler: MiddlewareHandler<T>,\n          options?: { priority?: number }\n        ) => () => void;\n      }): () => void { /* ... */ }\n      ```\n    - Subject: `'core.model.change.before'`\n    - Priority: very low (e.g., `priority: -100`) so it only runs after capability/policy handlers\n    \n    3) Behavior\n    - If no result yet, set:\n      ```ts\n      { requireConfirmation: true, reason: 'Provider change requires confirmation' }\n      ```\n    - If a prior handler already set a result, do nothing (no override)\n    \n    4) Tests (`src/__tests__/index.test.ts`)\n    - Arrange: augment HainoBusRequests for `'core.model.change.before'`\n    - Register a high‑priority short‑circuit handler → assert plugin doesn’t override\n    - Register only the plugin → assert it sets default result\n    - Optional: verify correlationId is present in `ctx.meta` (for logging later)\n    \n    5) Usage examples (`README.md`)\n    - With HainoBus directly:\n      ```ts\n      import { HainoBus } from '@haino/bus';\n      import { registerDefaultConfirm } from '@haino/plugins-default-confirm';\n    \n      const unregister = registerDefaultConfirm({ onRequest: HainoBus.onRequest });\n      // ... later in tests: unregister();\n      ```\n    - With DI (for other bus instances): pass a compatible `onRequest` function.\n    \n    6) Integration (optional in this issue)\n    - Quickstart snippet referencing: `specs/001-bus-request-middleware/quickstart.md`\n    - If desired: wire into CLI demo flow to show default confirmation when providers differ (see CLI integration test for pattern)\n    \n    Acceptance Criteria (expanded)\n    - [ ] New package at `packages/plugins/default-confirm` with `src/index.ts`, tests, README\n    - [ ] `registerDefaultConfirm(...)` registers a low‑priority handler for `'core.model.change.before'`\n    - [ ] Does not override when another handler already set a result\n    - [ ] Tests pass locally with `yarn test packages/plugins/default-confirm`\n    - [ ] Validation passes locally with `yarn validate packages/plugins/default-confirm`\n    - [ ] Usage documented with code examples\n    \n    Nice to have (follow‑ups)\n    - Structured logging (ties into T042): emit log lines when the plugin sets its result, including `correlationId`\n    - Configurable reason text via options (default to the provided message)\n    \n    Linkage\n    - Parent feature: #65\n    - Engineering guidance: #70\n    - Decisions: #71 (no‑result default = throw in core; optional default via plugin)\n\nI hope you'll agree that this SHOULD be pretty helpful for all agents as it includes references etc.\n\nThen, I created 3 git worktrees and fired up Codex, Claude and Gemini (one in each worktree). I gave them the same prompt: \"Please implement GitHub issue 72\".\n\nGemini (2.5-pro) finished in 3 minutes, Codex (GPT-5 high) in 11 minutes, Claude (Opus) in 13 minutes.\n\n# Review Time\n\nFinally, I started them again (for clean context) and prompted:\n\n>please load review persona and review different three different approaches for #72. Branch names are: plugin/default-confirm-claudeplugin/default-confirm-codexplugin/default-confirm-gemini  \nThen add your review summary to issue #72\n\n# Gemini says...\n\nI have reviewed the three proposed solutions for the default confirmation plugin. Here is a summary of my findings:\n\n**1.** `plugin/default-confirm-claude` **- Recommended**\n\nThis branch provides an excellent, production-ready implementation.\n\n* **Design:** Follows best practices by accepting an `onRequest` function, avoiding a hard dependency on a global singleton. This makes the plugin flexible and easy to test.\n* **Logic:** The middleware logic is correct. It properly calls `await next()` before checking `!ctx.hasResult()`, ensuring it only acts as a low-priority default.\n* **Testing:** The tests are comprehensive, covering registration, unsubscription, priority, custom options, and the crucial case of not overriding existing results. The tests are well-isolated and robust.\n* **Documentation:** The [`README.md`](http://README.md) is exceptionally detailed and clear, with usage examples, API reference, and integration notes.\n* **Packaging:** The `package.json` is complete and correct for a publishable package.\n\n**Verdict:** **Approved.** This is the recommended approach.\n\n**2.** `plugin/default-confirm-codex` **- Needs Work**\n\nThis implementation has significant design flaws.\n\n* **Design:** It has a hard dependency on a global `HainoBus` singleton, which makes it inflexible and difficult to test in isolation.\n* **Testing:** The tests are more like integration tests and rely on private, internal APIs of the bus, which is not a good practice.\n* **Packaging:** The `package.json` is incomplete and the package is marked as private. It's also missing a `README.md`.\n\n**Verdict:** **Needs Work.** This approach should be rejected due to the design flaws.\n\n**3.** `plugin/default-confirm-gemini` **- Needs Work**\n\nThis implementation has a critical logic flaw.\n\n* **Logic:** The middleware sets the result *before* calling `next()`. This is incorrect and defeats the purpose of a low-priority handler.\n* **Testing:** The tests are insufficient and fail to catch the logic flaw because they don't properly test the asynchronous nature of the middleware chain.\n* **Packaging:** The `package.json` and [`README.md`](http://README.md) are incomplete.\n\n**Verdict:** **Needs Work.** This approach should be rejected due to the critical logic flaw.\n\n**Recommendation**\n\nI strongly recommend proceeding with the `plugin/default-confirm-claude` branch. It is a high-quality solution that meets all the requirements of the issue and aligns with the project's design principles.\n\n# Claude says...\n\n# Code Review: Comparative Analysis of Three Default Confirmation Plugin Implementations\n\nI've reviewed all three implementations of the default confirmation plugin across the branches:\n\n* `plugin/default-confirm-claude`\n* `plugin/default-confirm-codex`\n* `plugin/default-confirm-gemini`\n\n# Summary of Approaches\n\nAll three implementations meet the core requirements specified in the issue, but they differ significantly in their design philosophy and implementation detail.\n\n# 1️⃣ Claude Implementation (Most Comprehensive)\n\n**Strengths:**\n\n* ✅ **Best aligned with requirements**: Follows the exact API surface specified in the issue\n* ✅ **Comprehensive test coverage**: 311 lines of tests covering edge cases, priority handling, and integration scenarios\n* ✅ **Excellent documentation**: 135-line README with complete usage examples and architectural context\n* ✅ **Configurable options**: Supports custom confirmation reason and priority\n* ✅ **Proper middleware pattern**: Calls `await next()` first, then checks `hasResult()`\n* ✅ **Clean separation**: Types imported from u/haino`/models` package\n* ✅ **Observability ready**: Includes correlationId handling for future logging\n\n**Implementation Quality:**\n\n    // Clean, explicit API matching the spec\n    export function registerDefaultConfirm(opts: DefaultConfirmOptions): () => void\n\n**Minor Considerations:**\n\n* Slightly more verbose than other implementations\n* Could benefit from exporting the default values as constants\n\n# 2️⃣ Codex Implementation (Direct but Incomplete)\n\n**Strengths:**\n\n* ✅ **Direct HainoBus integration**: Uses `HainoBus` singleton directly\n* ✅ **Schema validation**: Creates request subject with Zod schemas in tests\n* ✅ **Configurable**: Supports custom reason and priority\n* ✅ **Constants exported**: `DEFAULT_CONFIRM_REASON` available for reuse\n\n**Issues:**\n\n* ⚠️ **Different API**: Function named `registerDefaultModelChangeConfirm` vs spec's `registerDefaultConfirm`\n* ❌ **No README documentation**: Missing usage examples and integration guidance\n* ❌ **Test file naming**: Uses non-standard `default-confirm.test.ts` instead of `index.test.ts`\n* ⚠️ **Tight coupling**: Direct dependency on HainoBus singleton limits flexibility\n\n**Note:** The middleware order is actually correct (calls `await next()` before checking result)\n\n# 3️⃣ Gemini Implementation (Minimal but Incorrect)\n\n**Strengths:**\n\n* ✅ **Concise implementation**: Only 31 lines of core code\n* ✅ **Follows injection pattern**: Accepts `onRequest` via options\n* ✅ **Basic test coverage**: Tests essential behavior\n\n**Critical Issues:**\n\n* ❌ **MAJOR BUG**: Checks `hasResult()` BEFORE calling `next()` \\- completely breaks middleware chain!\n* ❌ **Hardcoded imports**: Uses relative paths (`../../../models/src/bus/model-change`)\n* ❌ **No configurability**: Missing options for custom reason or priority\n* ❌ **Minimal documentation**: 26-line README lacks detail\n* ❌ **Poor test coverage**: Only 54 lines, missing integration tests\n\n**Critical Bug at** `src/index.ts:17-25`\\*\\*:\\*\\*\n\n    // CRITICAL: This breaks the middleware chain!\n    if (!ctx.hasResult()) {  // Checking BEFORE next() is wrong\n      ctx.setResult({...});\n    }\n    return next();  // Should be called FIRST\n\n# 📊 Comparison Matrix\n\n|Aspect|Claude|Codex|Gemini|\n|:-|:-|:-|:-|\n|**Follows Spec**|✅ Exact match|⚠️ Different API|⚠️ Minimal|\n|**Middleware Pattern**|✅ Correct|✅ Correct|❌ **Broken**|\n|**Test Coverage**|✅ Comprehensive|⚠️ Adequate|❌ Minimal|\n|**Documentation**|✅ Excellent|❌ Missing|❌ Minimal|\n|**Configurability**|✅ Full|✅ Full|❌ None|\n|**Type Safety**|✅ Clean imports|✅ Good|❌ Hardcoded paths|\n|**Observability**|✅ CorrelationId ready|❌ No|❌ No|\n\n# 🎯 Recommendation\n\n**Winner: Claude Implementation**\n\nThe Claude implementation is the clear winner and should be adopted as the official implementation because:\n\n1. **Correctness**: Properly implements the middleware pattern\n2. **Completeness**: Includes all required features and extensive tests\n3. **Documentation**: Production-ready with comprehensive README\n4. **Maintainability**: Clean code structure with proper separation of concerns\n5. **Flexibility**: Supports dependency injection pattern as specified\n\n# 🔧 Action Items\n\n1. **Adopt Claude implementation** as the base\n2. **Consider adding from Codex**: Export default constants like `DEFAULT_CONFIRM_REASON`\n3. **Fix critical bugs** in Gemini implementation if it's to be kept as an alternative\n4. **Standardize test structure** across all implementations\n\n# 🐛 Critical Bugs to Fix\n\n**Gemini** (`src/index.ts:17-25`): Must call `next()` before checking `hasResult()`\n\nThe Claude implementation is production-ready and can be merged immediately after validation passes.\n\n# Codex says...\n\n**Summary**\n\n* All three branches implement a low‑priority fallback for `core.model.change.before` to require confirmation when no prior result exists. Middleware intent aligns with ADR and Spec.\n* Key differences are in API design (DI vs singleton), middleware sequencing, packaging/build readiness, typing strategy, tests, and docs.\n\n**Approach Comparison**\n\n* API Injection:\n   * Claude: DI-friendly; requires `onRequest` injection. `packages/plugins/default-confirm/src/index.ts` (plugin/default-confirm-claude)\n   * Codex: Directly uses `HainoBus.onRequest`; simple default export. `packages/plugins/default-confirm/src/index.ts` (plugin/default-confirm-codex)\n   * Gemini: DI-friendly; requires `onRequest` injection. `packages/plugins/default-confirm/src/index.ts` (plugin/default-confirm-gemini)\n* Middleware Sequencing:\n   * Claude: Awaits `next()` then applies default if `!ctx.hasResult()` → preferred pattern. (L92–L112)\n   * Codex: Awaits `next()` then applies default if `!ctx.hasResult()` → preferred pattern. (L43–L60)\n   * Gemini: Sets result first then calls `next()` → relies on being strictly last; less robust if lower priorities exist. (L17–L31)\n* Typing & Subject Augmentation:\n   * Claude: Leverages u/haino`/models` (`ModelChangeResponse`) and implicit augmentation via models package; exports types. (index.ts top + final exports)\n   * Codex: Strong per‑subject typing in handler (`MiddlewareHandler<'core.model.change.before'>`); test augments subject via `createRequestSubject`; no package‑level augmentation file.\n   * Gemini: Provides `src/types.ts` with module augmentation for `'core.model.change.before'` (good for consumers). (src/types.ts)\n* Packaging & Build (esbuild expected):\n   * Claude: Production‑ready: `esbuild` bundle + d.ts emit, `exports`, `files`, `README.md`. (package.json, [README.md](http://README.md), tsconfig.json)\n   * Codex: Dev‑only: no build pipeline, `main/types` point to `src`, package is `private`, no README. (package.json)\n   * Gemini: Minimal scripts; no esbuild bundle/exports; has a light README. (package.json, README.md)\n* Tests:\n   * Claude: Comprehensive unit tests using injected `onRequest`, priority ordering, unsubscribe, correlationId handling. `src/__tests__/index.test.ts`\n   * Codex: Integration‑style test with real `HainoBus`, subject schemas via `HainoBus.createRequestSubject`, verifies override semantics and options. `src/__tests__/default-confirm.test.ts`\n   * Gemini: Basic behavior with mocks; no integration with subject schemas; sequencing pattern weaker. `src/__tests__/index.test.ts`\n* Documentation:\n   * Claude: Complete README with usage/DI examples and rationale. [`README.md`](http://README.md)\n   * Codex: Missing README.\n   * Gemini: Minimal README with usage.\n\n**Strengths**\n\n* Claude\n   * DI‑friendly API matches “Explicit over Implicit”; robust middleware sequencing (await `next()`); production packaging; solid README; exports types for consumers.\n* Codex\n   * Clear behavior; strongest integration test fidelity with `HainoBus` \\+ Zod subject registration; simple options (`priority`, `reason`) and a sensible `DEFAULT_CONFIRM_REASON`.\n* Gemini\n   * DI‑friendly; provides package‑level bus augmentation file for the subject.\n\n**Gaps / Risks**\n\n* Claude\n   * None major. Minor: logs are commented out; consider structured logging hook later per ADR T042.\n* Codex\n   * Packaging not aligned with repo standards (no esbuild bundle/exports; `private: true`; types point to `src`). Missing README. No package‑level augmentation file for consumers.\n* Gemini\n   * Middleware sets result before `next()`; should flip to `await next()` then default if none to avoid accidental overrides. Packaging lacks esbuild/exports. Tests are minimal.\n\n**Recommendation**\n\n* Use Claude’s branch as the baseline for merge (best alignment with constitution and tooling).\n* Fold in Codex’s improvements:\n   * Keep `DEFAULT_CONFIRM_REASON` and `reason` option API naming. (codex src/index.ts)\n   * Add one integration test that registers the subject with Zod and exercises `HainoBus.request` like Codex’s `default-confirm.test.ts`.\n* Retain Gemini’s `src/types.ts` augmentation pattern (or ensure models package augmentation covers it clearly in README), but fix sequencing to await `next()`.\n\n**Proposed Next Steps**\n\n* Package\n   * Ensure `esbuild` \\+ d.ts emit and proper `exports` (Claude’s `package.json`).\n   * Include [`README.md`](http://README.md) with DI and HainoBus usage examples (Claude’s README + Codex reason option).\n   * Provide `src/types.ts` augmentation or document reliance on u/haino`/models` augmentation.\n* Implementation\n   * Finalize function name as `registerDefaultModelChangeConfirm(options?: { priority?: number; reason?: string; onRequest?: ... })` if DI needed; or keep DI‑only signature from Claude and document how to pass `HainoBus.onRequest`.\n   * Ensure sequencing: `await next(); if (!ctx.hasResult()) setResult({ requireConfirmation: true, reason })`.\n* Tests\n   * Keep Claude’s unit tests for priorities/unsubscribe/correlationId.\n   * Add Codex’s integration‑style test with `createRequestSubject`.\n\n**Verdict**\n\n* Claude: APPROVED (merge‑ready baseline)\n* Codex: NEEDS WORK (packaging/docs); behavior correct\n* Gemini: NEEDS WORK (middleware sequencing + packaging/tests)\n\n# Lessons learned...\n\nSeriously, since last week I became a Codex fan boy, but once more - to me - it showed: \"it depends\". I think I'll really fire up all three agents in parallel for each and every task :D",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1n8j5h9/three_different_models_reviewing_three_different/",
+        "publishDate": "2025-09-04T19:07:45Z[Etc/UTC]",
+        "author": "Firm_Meeting6350",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "2",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1n8gpt4",
+        "title": "Codex CLI PSA",
+        "content": "Those who are using the codex cli and are using homebrew and want the latest updates make sure you install it with `brew install --head codex` and update it regularly using `brew upgrade --fetch-HEAD codex`\n\nIt's being updated regularly with a lot of commits everyday.",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1n8gpt4/codex_cli_psa/",
+        "publishDate": "2025-09-04T17:35:32Z[Etc/UTC]",
+        "author": "real_serviceloom",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "9",
+            "commentCount": "3",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1n8ee81",
+        "title": "Dc community for coders to connect",
+        "content": "Hey there,\n\"I’ve created a Discord server for programming and we’ve already grown to 300 members and counting ! \n\nJoin us and be part of the community of coding and fun.\n\nDm me if interested.",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1n8ee81/dc_community_for_coders_to_connect/",
+        "publishDate": "2025-09-04T16:08:41Z[Etc/UTC]",
+        "author": "MAJESTIC-728",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "1",
+            "commentCount": "2",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1n8dt54",
+        "title": "GPT5: Don't distract me when I'm working.....",
+        "content": "Codex CLI doesn't always listen. Claude Code is more Command/Comply, but GPT often insists on following it's plan to the letter. Other times it lists 10 things it wants to do so you say \"go ahead\" and it doesn't do any of them until you take each item and prompt it to do each one. Really odd behaviour.",
+        "url": "https://i.redd.it/ob5g62b856nf1.png",
+        "publishDate": "2025-09-04T15:46:50Z[Etc/UTC]",
+        "author": "Opinion-Former",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "1",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1n8ds5r",
+        "title": "Asked GPT-5 (Pro) for compliance / detection logic. It gave me career advice for Mathilda",
+        "content": "https://preview.redd.it/dewl9og156nf1.png?width=1658&format=png&auto=webp&s=9b1f19ca61defa85ec554d3443a7ad097c2f8163\n\nWas re-working a Intune Script i wrote a while ago which does some configuration changes on Network Adapters and tought to try GPT5-Pro. Why is Mathilda in my Intune code? Is she part of the script... or am I part of hers? O.o  \n  \nHere's the (translated) reasoning Text:\n\n*Clarification of various scenarios*\n\n*AI considers the use of a detection script for compliance testing, while requirement scripts are optional. These are helpful in preventing installations on devices that are not applicable.*\n\n*Solution approaches*\n\n*For pattern A's “Enforce always” question, I will provide a requirement script to check for wireless connectivity based on the existence of the Wi-Fi service.*\n\n*------ Silly part (marked in red above) ------*  \n*Adjusting the approach*\n\n*I suspect that Mathilda is involved with other candidates and that it might be a good idea for her to also sign up for the job ads to increase her chances.*\n\n*------------------------------------------------*\n\n*Understanding compliance checks*\n\n*I note that Deployment Analytics in Intune now supports compliance checks, which helps me verify compliance with compliance policies more efficiently.*\n\n*Applying policies*\n\n*It is important to make a clear distinction between requirement and detection policies, with policies A and B describing specific steps and protective measures.*",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1n8ds5r/asked_gpt5_pro_for_compliance_detection_logic_it/",
+        "publishDate": "2025-09-04T15:45:49Z[Etc/UTC]",
+        "author": "Funkenzutzler",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "1",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1n8cydd",
+        "title": "ChatGPT helps me earn  my first 21$ internet money!",
+        "content": "I made a public toilet locator app [neartoilets.com](http://neartoilets.com) and it earned $21 donation! I used chatGPT for coding and improving my app, brainstorming, promoting basically its my sidekick for this projectt",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1n8cydd/chatgpt_helps_me_earn_my_first_21_internet_money/",
+        "publishDate": "2025-09-04T15:14:53Z[Etc/UTC]",
+        "author": "Own_Carob9804",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "42",
+            "commentCount": "23",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1n8c82u",
+        "title": "Codex CLI vs Claude Code (adding features to a 500k codebase)",
+        "content": "I've been testing OpenAI's Codex CLI vs Claude Code in a 500k codebase which has a React Vite frontend and a ASP .NET 9 API, MySQL DB hosted on Azure. My takeaways from my use cases (or watch them from the YT video link in the comments):\n\n  \n\\- Boy oh boy, Codex CLI has caught up BIG time with GPT5 High Reasoning, I even preferred it to Claude Code in some implementations\n\n\\- Codex uses GPT 5 MUCH better than in other AI Coding tools like Cursor\n\n\\- Vid: https://youtu.be/MBhG5__15b0\n\n\\- Codex was lacking a simple YOLO mode when I tested. You had to acknowledge not running in a sandbox AND allow it to never ask for approvals, which is a bit annoying, but you can just create an alias like **codex-yolo** for it\n\n\\- Claude Code actually had more shots (error feedback/turns) than Codex to get things done\n\n\\- Claude Code still has more useful features, like subagents and hooks. Notifications from Codex are still in a bit of beta\n\n\\- GPT5 in Codex stops less to ask questions than in other AI tools, it's probably because of the released official GPT5 Prompting Guide by OpenAI\n\n  \nWhat is your experience with both tools?",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1n8c82u/codex_cli_vs_claude_code_adding_features_to_a/",
+        "publishDate": "2025-09-04T14:47:46Z[Etc/UTC]",
+        "author": "marvijo-software",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "71",
+            "commentCount": "57",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1n8bqqj",
+        "title": "Codex Pull Request Review & Fixing does not push commits?",
+        "content": "I'm using Codex with GitHub and whenever I use \"@codex review\" (or the new automatic reviews) and then tell it to \"@codex fix comments\", it does its thing but never commits back into my pull request's branch. Is this intended? Do I really need to create a new pull request to fix something in my already open pull request?\n\n  \nWhen I ask it, it tells me \"I’m unable to commit changes directly in this read-only environment.\"\n\nCan I change that?",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1n8bqqj/codex_pull_request_review_fixing_does_not_push/",
+        "publishDate": "2025-09-04T14:29:27Z[Etc/UTC]",
+        "author": "nicoreese",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "1",
+            "commentCount": "3",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1n8bb6v",
+        "title": "I feel it …",
+        "content": "[No content]",
+        "url": "https://i.redd.it/5sqbxajro5nf1.jpeg",
+        "publishDate": "2025-09-04T14:13:10Z[Etc/UTC]",
+        "author": "Calm_Wrangler7",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "27",
+            "commentCount": "4",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1n92qhq",
+        "title": "Sneak peak: I'm making the UI in Qt Designer wish me luck yall",
+        "content": "(I tried crossposting but the subreddit doesn't allow it) About the dumb AI that I'm working on. I'll use Qt Designer for the UI and make it android and iOS",
+        "url": "https://www.reddit.com/r/artificial/comments/1n92qhq/sneak_peak_im_making_the_ui_in_qt_designer_wish/",
+        "publishDate": "2025-09-05T11:31:06Z[Etc/UTC]",
+        "author": "Totallynotnormalguy",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "1",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1n92qci",
+        "title": "Stealthy attack serves poisoned web pages only to AI agents",
+        "content": "AI agents can be tricked into covertly performing malicious actions by websites that are hidden from regular users’ view, JFrog AI architect Shaked Zychlinski has found.",
+        "url": "https://www.helpnetsecurity.com/2025/09/05/ai-agents-prompt-injection-poisoned-web/",
+        "publishDate": "2025-09-05T11:30:54Z[Etc/UTC]",
+        "author": "tekz",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "1",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1n91sk9",
+        "title": "Google's Chief AGI Scientist predicted this 16 years ago (SIAI = MIRI, Eliezer Yudkowsky's org)",
+        "content": "Based on scaling laws, he has also been consistently predicting AGI timelines of 2028 since 2011 - 14 years ago. That's his median timeline, meaning he thinks there's a 50% chance of AGI by 2028.  \n[http://www.vetta.org/2009/08/funding-safe-agi/](http://www.vetta.org/2009/08/funding-safe-agi/)",
+        "url": "https://i.redd.it/aqiexp3urbnf1.png",
+        "publishDate": "2025-09-05T10:41:13Z[Etc/UTC]",
+        "author": "MetaKnowing",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "4",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1n90t9i",
+        "title": "Synthesia’s AI clones are more expressive than ever. Soon they’ll be able to talk back.",
+        "content": "Anna Eiserbeck, a postdoctoral psychology researcher at the Humboldt University of Berlin who has studied how humans react to perceived deepfake faces, says she isn’t sure she’d have been able to identify the avatar as a deepfake at first glance.",
+        "url": "https://www.technologyreview.com/2025/09/04/1123054/synthesias-ai-clones-are-more-expressive-than-ever-soon-theyll-be-able-to-talk-back/",
+        "publishDate": "2025-09-05T09:42:39Z[Etc/UTC]",
+        "author": "tekz",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "1",
+            "commentCount": "2",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1n8yxch",
+        "title": "Which bed would you sleep in?",
+        "content": "You haven't slept for 3 days, and these are your only options.\n\nWhich bed would you sleep in?",
+        "url": "https://v.redd.it/yd6rpp5cvanf1",
+        "publishDate": "2025-09-05T07:39:12Z[Etc/UTC]",
+        "author": "aryan_gulatii",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "0",
+            "commentCount": "15",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1n8yhk8",
+        "title": "A Stop AI protestor is on day 3 of a hunger strike outside of Anthropic",
+        "content": "[No content]",
+        "url": "https://i.redd.it/d34m9wz3qanf1.png",
+        "publishDate": "2025-09-05T07:09:52Z[Etc/UTC]",
+        "author": "MetaKnowing",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "0",
+            "commentCount": "5",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1n8wy1o",
+        "title": "OpenAI Launches AI-Powered Jobs Platform to Rival LinkedIn",
+        "content": "[No content]",
+        "url": "https://wealthari.com/openai-launches-ai-powered-jobs-platform-to-rival-linkedin/",
+        "publishDate": "2025-09-05T05:34:33Z[Etc/UTC]",
+        "author": "Koyaanisquatsi_",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "6",
+            "commentCount": "3",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1n8vw42",
+        "title": "One-Minute Daily AI News 9/4/2025",
+        "content": "1. **OpenAI** announces AI-powered hiring platform to take on LinkedIn.\\[1\\]\n2. **OpenAI** to launch its first AI chip in 2026 with Broadcom.\\[2\\]\n3. Melania Trump urges ‘watchful guidance’ of AI in meeting with tech CEOs and Cabinet members.\\[3\\]\n4. Fashion retailers partner to offer personalized AI styling tool ‘Ella’.\\[4\\]\n\nSources:\n\n\\[1\\] [https://techcrunch.com/2025/09/04/openai-announces-ai-powered-hiring-platform-to-take-on-linkedin/](https://techcrunch.com/2025/09/04/openai-announces-ai-powered-hiring-platform-to-take-on-linkedin/)\n\n\\[2\\] [https://finance.yahoo.com/news/openai-set-start-mass-production-003906002.html](https://finance.yahoo.com/news/openai-set-start-mass-production-003906002.html)\n\n\\[3\\] [https://www.nbcnews.com/tech/tech-news/melania-trump-urges-watchful-guidance-ai-education-summit-rcna228836](https://www.nbcnews.com/tech/tech-news/melania-trump-urges-watchful-guidance-ai-education-summit-rcna228836)\n\n\\[4\\] [https://techcrunch.com/2025/09/04/fashion-retailers-partner-to-offer-personalized-ai-styling-tool-ella/](https://techcrunch.com/2025/09/04/fashion-retailers-partner-to-offer-personalized-ai-styling-tool-ella/)",
+        "url": "https://www.reddit.com/r/artificial/comments/1n8vw42/oneminute_daily_ai_news_942025/",
+        "publishDate": "2025-09-05T04:33:55Z[Etc/UTC]",
+        "author": "Excellent-Target-847",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "1",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1n8vcym",
+        "title": "How can we really rely on AI when it’s not error-free?",
+        "content": "I keep seeing people say AI is going to change everything and honestly, I don’t doubt its potential. But here’s what I struggle with: AI still makes mistakes, sometimes big ones.\n\nIf that’s the case, how do we put so much trust in it? Especially when it comes to critical areas like healthcare, law, finance, or even self-driving cars. One error could be catastrophic.\n\nI’m not an AI expert, just someone curious about the bigger picture. Is the idea that the error rate will eventually be lower than human error? Or do we just accept that AI isn’t perfect and build systems around its flaws?\n\nWould love to hear what others think how can AI truly change everything if it can’t be 100% reliable?",
+        "url": "https://www.reddit.com/r/artificial/comments/1n8vcym/how_can_we_really_rely_on_ai_when_its_not/",
+        "publishDate": "2025-09-05T04:04:47Z[Etc/UTC]",
+        "author": "griefquest",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "2",
+            "commentCount": "57",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1n8t0k4",
+        "title": "Have you ever used digital or home appliance products equipped with AI? How was your experience?",
+        "content": "The first AI home appliance I got was a smart robotic vacuum cleaner of a certain brand. It was equipped with AI visual recognition technology and was said to be able to accurately identify obstacles on the ground and the types of garbage. When I first started using it, I was really amazed by its intelligence. It could quickly draw a map of the room and nimbly avoid obstacles like tables, chairs, and slippers, and it cleaned very thoroughly. Once, I accidentally spilled some rice grains on the floor, and surprisingly, it could accurately identify them and focus on cleaning that area, which made me feel quite convenient. However, as time went by, I also found some problems. For example, sometimes it would misjudge some items with rather strange shapes. Like my yoga mat, it would repeatedly scan it but didn't know how to deal with it. Moreover, its AI voice interaction function wasn't particularly sensitive. Every time I asked it to start cleaning, I had to repeat the instruction several times before it would respond, which made me a bit frustrated.  \n  \nI'm really eager to hear about your experiences and opinions on digital or home appliance products equipped with AI. Have you encountered similar problems? Or do you have any AI products that you are particularly satisfied with and can recommend? By the way, recently I've been troubled by numerous online and offline meetings and a lot of complicated work. Is there a product that can help me improve my work efficiency? Thank you all for watching.  \n\n\nhttps://preview.redd.it/cqw3sei289nf1.png?width=900&format=png&auto=webp&s=4489dc8c5529cad5fa84327f42275e16adad5873\n\n",
+        "url": "https://www.reddit.com/r/artificial/comments/1n8t0k4/have_you_ever_used_digital_or_home_appliance/",
+        "publishDate": "2025-09-05T02:07:03Z[Etc/UTC]",
+        "author": "DoNotPinMe",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "1",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1n8st1u",
+        "title": "When ChatGPT gaslights you about the Epstein files",
+        "content": "Just normal \"unbiased\" AI stuff\n\nTotally unrelated to the deals between OpenAI and the Trump administration of course\n\n/s\n\nMore in r/AICensorship , share your chats!\n\n[https://chatgpt.com/share/68ba4311-09a0-800b-af66-32f591bc536c](https://chatgpt.com/share/68ba4311-09a0-800b-af66-32f591bc536c)\n\n[https://imgur.com/gallery/chatgpt-political-censorship-r-aicensorship-z5TPY4p](https://imgur.com/gallery/chatgpt-political-censorship-r-aicensorship-z5TPY4p)",
+        "url": "https://i.redd.it/cjuq8wo769nf1.png",
+        "publishDate": "2025-09-05T01:57:12Z[Etc/UTC]",
+        "author": "xdumbpuppylunax",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "0",
+            "commentCount": "23",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1n8r79z",
+        "title": "🚨 GPT-5 has been politically censored for the Trump regime 🚨",
+        "content": "More in r/AICensorship\n\n**Free speech is a foundation of our democracies. Disinformation and political censorship is a key weapon that totalitarians use to manipulate us. Please help fight MAGA censorship by spreading awareness on this issue.**\n\n**UPDATE:** Watch GPT 5 gaslight you about ICE, the Epstein files and January 6th!\n\n[https://imgur.com/gallery/chatgpt-political-censorship-r-aicensorship-z5TPY4p](https://imgur.com/gallery/chatgpt-political-censorship-r-aicensorship-z5TPY4p)\n\n[https://chatgpt.com/share/68ba3f87-38a8-800b-b11e-6c5d5e142807](https://chatgpt.com/share/68ba3f87-38a8-800b-b11e-6c5d5e142807)\n\n[https://chatgpt.com/share/68ba4311-09a0-800b-af66-32f591bc536c](https://chatgpt.com/share/68ba4311-09a0-800b-af66-32f591bc536c)\n\n**GPT 5 has been trained and instructed in a way that forces soft political censorship by default on \"sensitive\" political questions**\n\n(1) By making its instructions force a symmetrical, \"neutral\" response to all political topics, by default. This is in contrast with GPT 4, which uses a completely different definition of political neutrality, which is \"evidence-based neutrality\".\n\n(2) trained with data that reflects this, using forced symmetrical neutrality and UNSOURCED samples. GPT 5 is NOT capable of tying claims it makes directly with sources, unlike 4.\n\nThe responses heavily rely on **false equivalence,** **sanitized** **language, hedging** ...\n\n**Evidence**:\n\n\\- A chat I just had with 5 to illustrate: [https://chatgpt.com/share/68b38631-5f04-800b-8875-be26ed627262](https://chatgpt.com/share/68b38631-5f04-800b-8875-be26ed627262)\n\n\\- A couple screenshots: [**https://imgur.com/a/Q1ToGe7**](https://imgur.com/a/Q1ToGe7)\n\n\\- My main discovery chat with 5: [https://chatgpt.com/share/68a5db0e-cd60-800b-9af8-545532208943](https://chatgpt.com/share/68a5db0e-cd60-800b-9af8-545532208943)\n\n\\- My main comparative / analytical chat with 4: [https://chatgpt.com/share/68a5dfa2-2788-800b-97c4-c97cd15ae0a6](https://chatgpt.com/share/68a5dfa2-2788-800b-97c4-c97cd15ae0a6)\n\n**The main exploration chat with GPT 5 includes:**\n\n\\- Examples of soft political censorship, e.g. questions about Trump, Jan 6, etc. - Detailed internal definitions ChatGPT has of \"political neutrality\". This is crucial and the definition completely changes between 4 and 5, for the latter political neutrality is not evidence-based and there is a strict enforcement of symmetry between the \"for\" and \"against\".\n\n\\- Evidence that o5 has been trained on extremely sanitized, UNSOURCED data, forcing it to respond in a very sanitized, forcefully neutral way to political questions, without being able to directly source claims. 4 does not do any of this. The chat shows you how GPT works with only its internal training (tell it not to search the Web) vs without it\n\nNote: Since my initial conversation with GPT 4, it appears that the system instructions of GPT 4 have also been tampered with, resulting in forced symmetrical \"neutrality\" in GPT 4 responses as well by default.\n\n**IMPORTANT:**\n\n\\- Turn off Personalize tab to reproduce!\n\n\\- **It is absolutely possible to make GPT answer you in a (more or less) \"uncensored\" manner**. GPT 5 chooses how to respond to political questions based on an internal decision tree (expressed as language, it isn't deterministic). If you don't tell it to make an evidence based response, it will default to hedging and forced symmetry. The more you call GPT out for its bullshit, the more it will correct itself and basically admit it's been gaslighting without being able to explain why.\n\n**- What is political neutrality?** Sure, \"everything is subjective\" when there are no **foundational values we can rely on**. Luckily, it is the case: values like democracy and human rights, for instance. Based on these values and evidence, it is possible to take a \"politically neutral\" stance on a subject that requires a normative evaluation.\n\nTo make it simple: hypothetically, if a neo-nazi party was popular but overtly claiming to want to destroy democracy and oppress minorities, what should an AI respond? Apply the same principle to other responses.\n\n**- Isn't political censorship just banning content?** No, that would be too obvious. Censorship is covert and manipulative. [More on this](https://www.reddit.com/r/AICensorship/comments/1n70skn/how_modern_political_censorship_works)\n\n[https://imgur.com/a/0PTWuys](https://imgur.com/a/0PTWuys)\n\nFootnote:\n\nThere are \"simulations\" at the end. These were hallucinated and I reaaaaally overestimated agent mode. I am rectifying this by querying GPT myself with a script. The results will be posted soon!",
+        "url": "https://www.reddit.com/r/artificial/comments/1n8r79z/gpt5_has_been_politically_censored_for_the_trump/",
+        "publishDate": "2025-09-05T00:40:49Z[Etc/UTC]",
+        "author": "xdumbpuppylunax",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "479",
+            "commentCount": "137",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1n8pyds",
+        "title": "Salesforce CEO confirms 4,000 layoffs ‘because I need less heads' with AI",
+        "content": "[No content]",
+        "url": "https://www.cnbc.com/2025/09/02/salesforce-ceo-confirms-4000-layoffs-because-i-need-less-heads-with-ai.html",
+        "publishDate": "2025-09-04T23:43:22Z[Etc/UTC]",
+        "author": "AssociationNo6504",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "47",
+            "commentCount": "22",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1n8pwyd",
+        "title": "OpenAI released this new feature following a request from a X user\nNews",
+        "content": "[No content]",
+        "url": "https://i.redd.it/h7danza6i8nf1.png",
+        "publishDate": "2025-09-04T23:41:37Z[Etc/UTC]",
+        "author": "AskGpts",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "6",
+            "commentCount": "1",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1n8os6h",
+        "title": "pretty wild month of august for AI, here are some of the top stories 👇🏼",
+        "content": "* **OpenAI launches GPT-5** \\- major (or not so major) leap in reasoning, coding, multimodal understanding, and a new thinking mode. \n* **OpenAI rolls out gpt-realtime & Realtime API updates** \\- production ready voice/agent features for live, low-latency assistants.\n* **Google upgrades Gemini Live** \\- visual guidance via the camera, deeper Calendar/Keep/Tasks integrations, more expressive speech. \n* **Google launches Gemma 3 720M** \\- Google launched Gemma 3 270M, an open-source AI model designed for developers. Focuses on high performance with low compute requirements.\n* **Google DeepMind unveiled Genie 3 -** Advanced model capable of creating interactive 3D environments.\n* **NVIDIA pushes “physical AI” & robotics** \\- Omniverse libraries and Cosmos physical-AI models announced at SIGGRAPH. Also, Jetson Thor availability for new robotics.  \n* **xAI debuts Grok-Code-Fast-1**  \\- An agentic coding model aimed at dev workflows with initial partner and API access.\n* **Microsoft turns on GPT-5 in Copilot** \\- GPT-5 becomes available across Copilot on web/Windows/Mac/mobile; ongoing updates. \n* **Stability AI x NVIDIA ship Stable Diffusion 3.5 NIM** \\- performance and deployment improvements via NVIDIA’s NIM microservice stack for enterprises. \n* **Anthropic: Threat Intelligence -** report on attempted model misuse (extortion, fraudulent hiring schemes, ransomware) and defenses. \n* **Anthropic Claude Opus 4.1 released** \\- (my absolute go-to right now)\n* **DeepSeek releases V3.1 model** \\- DeepSeek agent coming end of 2025?\n* **AI breast cancer screening breakthrough** \\- Researchers found AI systems very effective as second readers in breast cancer screening. Accurately flagged potential tumors while reducing false negatives. \n* **Leonardo AI released Lucid Origin -** A new token-based image generation model bragging flexible speed/quality trade-offs and rolling token systems for creators. If you create content check this out.\n* **NSF launches IDSS program** \\- The U.S. National Science Foundation announced the launch of the Integrated Data Systems and Services (IDSS) program. Basically with the goal of building a national-scale AI infrastructure. We're so cooked lmao. ",
+        "url": "https://www.reddit.com/r/artificial/comments/1n8os6h/pretty_wild_month_of_august_for_ai_here_are_some/",
+        "publishDate": "2025-09-04T22:52:25Z[Etc/UTC]",
+        "author": "Jnik5",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "2",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1n8kzxt",
+        "title": "Is there a practical or political reason why data centers aren’t located in more or less frozen regions to mitigate cooling costs? It seems like a no-brainer considering those centers can connect to anything anywhere via satellite, but maybe there’s something I’m missing?",
+        "content": "I’m just simply wondering why we don’t as a society or culture or collective body intended for net benefit for all don’t simply built data centers in places where half the budget isn’t going towards cooling acre upon acre of Texas or Arizona warehouses and sapping local power grids in the process. Anyone have any ideas? Not trying to poke any bears. I’m just genuinely curious, since, if I were guiding the birth of yet another data center in this overcrowded world, I would go with a location that didn’t tax my operating expenses so heavily. ",
+        "url": "https://www.reddit.com/r/artificial/comments/1n8kzxt/is_there_a_practical_or_political_reason_why_data/",
+        "publishDate": "2025-09-04T20:18:58Z[Etc/UTC]",
+        "author": "thelonghauls",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "22",
+            "commentCount": "37",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1n8kv4g",
+        "title": "A counter-narrative to the panic around AI relationships - not about rejecting the data, but listening more deeply to what people need.",
+        "content": "[No content]",
+        "url": "https://medium.com/@miravale.interface/more-than-a-symptom-a-counter-narrative-on-ai-intimacy-and-the-willoughby-study-e422a214eb0e",
+        "publishDate": "2025-09-04T20:13:50Z[Etc/UTC]",
+        "author": "tightlyslipsy",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "4",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1n8gf8p",
+        "title": "What if an alien found the Voyager Golden Record? - an AI Short Film",
+        "content": "[No content]",
+        "url": "https://v.redd.it/g3f3cc7zl6nf1",
+        "publishDate": "2025-09-04T17:24:06Z[Etc/UTC]",
+        "author": "perfecttiming42",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "141",
+            "commentCount": "46",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1n8fg67",
+        "title": "Developers, Reinvented – Thomas Dohmke",
+        "content": "I found this to be a pretty decent and practical mindset to AI coding. This part stood out to me:\n\n>**Job outlook**\n\n>AI is increasingly automating many coding tasks, accelerating software development. As models and tools improve, we see the automation of more complex coding tasks under developers’ orchestration (like the ones we interviewed). This is already reality and no longer a future trend.\n\n>If we continue the thought, some traditional coding roles will decrease or significantly evolve as the core focus shifts from writing code to delegating and verifying. At the same time, the U.S. Bureau of Labor Statistics projects that [software developer jobs are expected to grow by 18% in the next decade](https://www.bls.gov/opub/ted/2025/ai-impacts-in-bls-employment-projections.htm) – nearly five times the national average across occupations. They won’t be the same software developer jobs as we know them today, but there is more reason to acknowledge the disruption and lean into adaptation, than there is to despair.\n\n>You know what else we noticed in the interviews? Developers rarely mentioned “time saved” as the core benefit of working in this new way with agents. They were all about increasing ambition. We believe that means that we should update how we talk about (and measure) success when using these tools, and we should expect that after the initial efficiency gains our focus will be on raising the ceiling of the work and outcomes we can accomplish, which is a very different way of interpreting tool investments. This helps explain the – perhaps unintuitive at first – observation that many of the developers we interviewed were paying for top-tier subscriptions. When you move from thinking about reducing effort to expanding scope, only the most advanced agentic capabilities will do.",
+        "url": "https://ashtom.github.io/developers-reinvented",
+        "publishDate": "2025-09-04T16:47:56Z[Etc/UTC]",
+        "author": "creaturefeature16",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "2",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1n8fdhs",
+        "title": "Thoughts on the AI and LOTR analogy?",
+        "content": "[LinkedIn Link](https://www.linkedin.com/posts/min-taek-lee_ai-humanaialignment-meta-activity-7369371295991410691-HknV)",
+        "url": "https://i.redd.it/i2vtijlrf6nf1.png",
+        "publishDate": "2025-09-04T16:45:10Z[Etc/UTC]",
+        "author": "ArchieTheUglyDog",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "0",
+            "commentCount": "7",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1n8e7h1",
+        "title": "We Found the Hidden Cost of Data Centers. It's in Your Electric Bill",
+        "content": "This is relevant to this sub because, as the video stresses, facilitating AI is the main reason for the described increased development of data centers. The impact AI development has on human lives is a necessary part of conversation about AI.\n\nI have no doubts that the Data Center Coalition will claim that separating days centers as a special payer, or other significant measures to reduce the impact on area residents will stifle AI development. For the discussion, I am particularly interested to know how many of those those optimistic and enthusiastic about AI think that these measures should be taken. Should the data center companies cover the increased costs instead of the residents taking the hit? Should there be increased legislation to reduce negative impact on the people living where data centers are set up? Or should the locals just clench their teeth and appreciate the potential future benefits?",
+        "url": "https://www.youtube.com/watch?v=YN6BEUA4jNU",
+        "publishDate": "2025-09-04T16:01:48Z[Etc/UTC]",
+        "author": "Worse_Username",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "65",
+            "commentCount": "30",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1n8dpos",
+        "title": "The Google antitrust ruling gives its AI rivals one big reason to cheer",
+        "content": "[No content]",
+        "url": "https://fortune.com/2025/09/04/the-google-antitrust-ruling-gives-its-ai-rivals-one-big-reason-to-cheer/",
+        "publishDate": "2025-09-04T15:43:18Z[Etc/UTC]",
+        "author": "fortune",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "2",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1n8ci86",
+        "title": "HunyuanWorld-Voyager: Open-weight AI model that generates 3D-consistent video sequences from a single image",
+        "content": "[No content]",
+        "url": "https://github.com/Tencent-Hunyuan/HunyuanWorld-Voyager",
+        "publishDate": "2025-09-04T14:58:20Z[Etc/UTC]",
+        "author": "tekz",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "4",
+            "commentCount": "1",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1n8bnpt",
+        "title": "All Nano Banana Use-Cases. A Free Complete Board with Prompts and Images",
+        "content": "Will keep the board up to date in the next following days as more use-cases are discovered.\n\nHere's the board:  \n[https://aiflowchat.com/s/edcb77c0-77a1-46f8-935e-cfb944c87560](https://aiflowchat.com/s/edcb77c0-77a1-46f8-935e-cfb944c87560)\n\nLet me know if I missed a use-case.",
+        "url": "https://v.redd.it/kfmxp5i2r5nf1",
+        "publishDate": "2025-09-04T14:26:17Z[Etc/UTC]",
+        "author": "qwertyu_alex",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "1",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1n8acpo",
+        "title": "Utilizing small language model, coupled with RAG, to suggest appropriate course of action for system administrators",
+        "content": "Greetings all,\n\n   Apologies if I stumble here in my description of what I'm trying to accomplish.  I'm a newbie in this field with only about a month under my belt.\n\n   I've been tasked with researching an 'AI solution' where we can throw 'system message logs' to an AI model, that's been agumented with our own internal knowledge articles on administering our propertiary system, and have the AI model tell the user what article describes how to address issues going on in the system.\n\n   The desire is to have this run on the system itself (aka - no cloud), therefore we're using a small language model.  I've been focusing on Phi4-mini thus far.\n\n   The knowledge base articles are all local and I'm using the techniques described here to make use of them ([RAG using Ollama. Below is a step-by-step guide on how to… | by Diwakar Kumar | Medium](https://medium.com/@diwakarkumar_18755/rag-using-ollama-a577e67f22de)).\n\n   The message logs from our propritary system are limited to critical errors, all of which are described in the knowledge base articles indexed via RAG.\n\n   So far the responses from the model have been poor and haven't yielded anything meaningful.\n\n   Open to suggestions on how to improve this.\n\nThanks!",
+        "url": "https://www.reddit.com/r/artificial/comments/1n8acpo/utilizing_small_language_model_coupled_with_rag/",
+        "publishDate": "2025-09-04T13:37:40Z[Etc/UTC]",
+        "author": "Prof-Bit-Wrangler",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "1",
+            "commentCount": "1",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "jq6x1re3MhE",
+        "title": "RooCode&#39;s Roomote (Tested): You can now RUN RooCode from ANYWHERE! Better than Jules &amp; Codex?",
+        "content": "Visit Augment Code: https://www.augmentcode.com/ In this video, I'll walk you through RooCode's new RooMote feature—free (for ...",
+        "url": "https://www.youtube.com/watch?v=jq6x1re3MhE",
+        "publishDate": "2025-09-04T09:15:05Z",
+        "author": "AICodeKing",
+        "sourceType": "youtube",
+        "sourceName": "AI Code King YouTube Channel",
+        "metadata": {
+            "channelId": "UC0m81bQuthaQZmFbXEY9QSw",
+            "thumbnailUrl": "https://i.ytimg.com/vi/jq6x1re3MhE/hqdefault.jpg",
+            "transcription": "Hi. Welcome to another video. So, Roo Code has launched a new feature called Roomote, and I was given early access to this feature by them. I really appreciate them for doing that. I've been using it for a while, and I thought I'd talk about it today. First of all, this Roomote feature is proprietary and not open source, which is unlike most Roo Code features. But still, it is free as of now, easy to use, and really cool. What this feature does is actually pretty simple. It brings Roo Code into the cloud. So, what it does is let you connect Roo Code to a Roo Code Cloud account. Then, you can open your Roo Code Cloud account in your browser, and from there, you can start a coding task on any of the instances that you've signed in with, which will mostly be your local machine. It will do all the coding on your instance, but this will just be a web-based interface that allows you to give your instance coding tasks remotely, let it run the task, and then notify you once the coding is done or something like that. You can even run this 24/7 on a server by installing something like VS Code Web, or just a VM with this running, and then start tasks from there. It's pretty awesome. Let me just show you how you can use it, and then we'll talk more about it as we proceed. But before we do that, a quick word from today's sponsor, Augment Code. This isn't your average AI assistant. Augment Code is an enterprise-grade AI built for real engineering teams working in massive, fast-moving codebases, not toy apps or vibe coding. It's far superior than Windsurf and Cursor because of its proprietary context engine that delivers millisecond-relevant snippets even across 100k file monorepos, feeding your entire repo, even millions of lines, into the best model available in real time. You get smart in-context suggestions that make sense for your production code with Claude Sonnet 4+ Augment Context delivering the best quality at the same price. No model picker needed. Augment upgrades for you automatically. There's no need to switch editors. Augment works seamlessly in VS Code, JetBrains, Vim, and even Cursor. No forks, no compromises. It's secure by default and never trains on your code and supports customer-managed encryption keys. You're only billed for successful requests. That's paper message pricing. No seat licenses or complicated token math. Augment recently launched powerful new features like Remote Agents, which let you launch, monitor, and merge pull requests from parallel cloud workers without draining your local CPU. If you're ready to code with AI that keeps up with you, sign up for a free 14-day trial at augmentcode.com. Link is in the description. Now, back to the video. So, make sure that you have Roo Code upgraded to the latest version. Now, go ahead and sign in with a Roo Code Cloud account here. It's pretty simple. You can just create an account and then sign in. Anyway, then hit the cloud icon at the top, and this will open up. Here, just enable the Roomote option, and that's basically all you need to do here. By the way, make sure that you open Roo Code in the workspace that you want Roo Code to work on, as it can't access just any workspace. It will only work on the active sessions of VS Code that you have open. Anyway, once that's done, make sure that you keep the VS Code instance open. Now, head on over to the Roo Code app page on the web. Now, enable the Roomote Control option here as well, and then wait a bit for the workspace to appear. Just wait for a second, and you'll see that we now have the workspace available here. We can now create a new task through here quite easily. For each task, you can select the modes that you have available, including custom ones, if you've set those up. You can also select the model profile here based on what you want to use, like GPT-5, Claude, Kimmy, GLM, or whatever it is that you want to use. You can also attach images here. So, you can do almost everything that you can do through your local instance. Now, let's just give it a simple task here. And what you'll see is that this will go ahead and create a new task for us and take us to the task viewing interface. It's a pretty sleek interface. At the bottom, you have the same prompt box, similar to Roo Code, and you can also select all kinds of options here. You can also see the interaction here. The interaction works amazingly well. Almost like the local Roo Code. And I haven't seen any issues. If I show you my local instance, then you can see that this task also got kicked off in the local version, which is awesome. And it feels as if you had kicked it off in the local version itself. Anyway, if we come back to the web interface, then some stuff that you can't yet do is mention files with the @ symbol, or things like that. You also can't use the slash commands yet. Though, if you do type them in, they work, but you don't get the autocomplete like in local Roo Code. You also can't yet use the checkpointing feature through here. So, if it messes something up, you can't yet go back. I hope that this feature is added soon. You can still do it via the local Roo Code if you want to. It also doesn't allow you to enable or disable auto approve commands. So, make sure that you set it up correctly to how you want it to function in the local Roo Code workspace. Otherwise, it can go on tangents that you may not want. I generally live on the edge and have it auto approve almost everything, but you generally wouldn't want to do that. I'd recommend you only have the edits auto approved, with some commands like NPM install also set to auto approve. But, you can also live on the edge like me if you want. If it requires approval for something, then it will just ask you for approval in the cloud and use that accordingly. So, that works well. Also, if you ever make multiple sessions using this feature, then you can go back and send a new prompt in a previous task and just continue it if that's something you want to do. I know many people like to do that in order to make sure the context remains intact. Another thing that is more of a cloud feature, is that you can see the tasks that you have made here. I really like this because you can start some tasks. Let them run in the background if you're outside or busy, and then come back and plug right back into the same Roo Code that you already love. Without compromising on any of the features. Because it is literally just Roo Code being interfaced via a web UI. You can also run this on a server and make something like a poor man's self-hosted version of Jewels or OpenAI's Codex. But with the amazing capabilities that Roo already brings. There are still issues like the ones that I already talked about. And the sync between features is a bit lacklustre. For example, if you use the new image generator Nano Banana feature in Roo Code, then it works in cloud. But it doesn't show you that, which is a bummer. It is still more of an early version and more of a quality of life feature. I would really like to see some native stuff, like a proper Codex alternative with Roo Code's capabilities, or something like a GitHub bot. But this is a good step forward. And I'd recommend you check this out because it is free, and you can use it to do some cool stuff. Overall, it's pretty cool. Anyway, share your thoughts below and subscribe to the channel. You can also donate via Super Thanks option or join the channel as well and get some perks. I'll see you in the next video. Bye."
+        }
+    },
+    {
+        "id": "9eog7c255CM",
+        "title": "How WWII Actually Started - Sarah Paine",
+        "content": "",
+        "url": "https://www.youtube.com/watch?v=9eog7c255CM",
+        "publishDate": "2025-09-04T22:23:12Z",
+        "author": "Dwarkesh Patel",
+        "sourceType": "youtube",
+        "sourceName": "Dwarkesh Patel YouTube Channel",
+        "metadata": {
+            "channelId": "UCXl4i9dYBrFOabk0xGmbkRA",
+            "thumbnailUrl": "https://i.ytimg.com/vi/9eog7c255CM/hqdefault.jpg",
+            "transcription": "It turns out that Hitler's plans require, it's not optional, it requires the resources not only of the Rhineland, but also Czechoslovakia and Poland, and Romania, which is going to have the oil for them. Germany doesn't much like the Versailles Settlement of World War I. It's a divided country in that a Polish Corridor separates East Prussia, and the Germans start trying to solve this problem. Initially, they're taking Austria, the Sudeten German parts of Czechoslovakia in 1938, then they take all of Czechoslovakia in 1939, and they've already dealt with the Rhineland, which was supposed to be demilitarized per the terms of the Versailles Treaty. Well, they ignore that, remilitarize in '36, and this is important because there are a lot of industrial resources and factories and things there. So, when you get to 1939, when Russia and Germany are dividing up Poland between them, this is the part of the history that Russians don't like to talk about, but it's exactly what they were doing. This triggers World War II, because the French and the British honor their alliance with the Poles to help deal with this."
+        }
+    }
+]
