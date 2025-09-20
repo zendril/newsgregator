@@ -1,0 +1,1019 @@
+[
+    {
+        "id": "https://news.smol.ai/issues/25-09-19-grok-4-fast/",
+        "title": "Grok 4 Fast: Xai's distilled, 40% more token efficient, 2m context, 344 tok/s frontier model",
+        "content": "**xAI** announced **Grok 4 Fast**, a highly efficient model running at **344 tokens/second**, offering reasoning and nonreasoning modes and free trials on major platforms. **Meta** showcased its neural band and Ray-Ban Display with a live demo that experienced hiccups but sparked discussion on live hardware demos and integration challenges. **Meta** is also developing a first-party \"Horizon Engine\" for AI rendering and released Quest-native Gaussian Splatting capture tech. New model releases include **Mistral's Magistral 1.2**, a compact multimodal vision-language model with improved benchmarks and local deployment; **Moondream 3**, a 9B-parameter MoE VLM focused on efficient visual reasoning; **IBM's Granite-Docling-258M**, a document VLM for layout-faithful PDF to HTML/Markdown conversion; and **ByteDance's SAIL-VL2**, a vision-language foundation model excelling at multimodal understanding and reasoning at 2B and 8B parameter scales.",
+        "url": "https://news.smol.ai/issues/25-09-19-grok-4-fast/",
+        "publishDate": "2025-09-19T05:44:39Z[Etc/UTC]",
+        "author": "",
+        "sourceType": "rss",
+        "sourceName": "AI News RSS",
+        "metadata": {
+            "feedTitle": "AINews",
+            "feedDescription": "Weekday recaps of top News for AI Engineers",
+            "categories": "xai, meta-ai-fair, mistral-ai, ibm, bytedance, grok-4-fast, magistral-1.2, moondream-3, granite-docling-258m, sail-vl2, nearcyan, aidangomez, _akhaliq, vikhyatk, rohanpaul_ai, efficiency, reasoning, vision, multimodality, model-optimization, model-deployment, vision-encoders, model-architecture, model-training"
+        }
+    },
+    {
+        "id": "https://www.artificialintelligence-news.com/?p=109477",
+        "title": "TechEx Europe 2025: Practical learnings for AI leaders",
+        "content": "<p>On 24–25 September 2025, the RAI in Amsterdam will host TechEx Europe, an event that brings together 8,000+ participants and 250+ speakers in five co-located events: AI &#38; Big Data Expo, Cyber Security &#38; Cloud Expo, IoT Tech Expo, Digital Transformation Week, and Data Centre Expo. The event offers opportunities to engage with peer executives [&#8230;]</p>\n<p>The post <a href=\"https://www.artificialintelligence-news.com/news/techex-europe-2025-practical-learnings-for-ai-leaders/\">TechEx Europe 2025: Practical learnings for AI leaders</a> appeared first on <a href=\"https://www.artificialintelligence-news.com\">AI News</a>.</p>\n",
+        "url": "https://www.artificialintelligence-news.com/news/techex-europe-2025-practical-learnings-for-ai-leaders/",
+        "publishDate": "2025-09-19T14:15:24Z[Etc/UTC]",
+        "author": "AI News",
+        "sourceType": "rss",
+        "sourceName": "ArtificialIntelligence-news RSS",
+        "metadata": {
+            "feedTitle": "AI News",
+            "feedDescription": "Artificial Intelligence News",
+            "categories": "AI in Action, Human-AI Relationships, Special Reports & Series, TechEx Events, cloud, cybersecurity, ethics, governance, in-person events, provisioning, strategy"
+        }
+    },
+    {
+        "id": "https://www.artificialintelligence-news.com/?p=109467",
+        "title": "Christian Spindeldreher, Dell Technologies: Powering AI at scale",
+        "content": "<p>Dell Technologies is betting on AI as companies move from small pilots to full-scale deployments, with the focus now on how organisations can turn AI into measurable results. But scaling AI is not easy. It demands strong infrastructure, reliable data management, and the ability to deploy models quickly in different workflows. Dell has positioned itself [&#8230;]</p>\n<p>The post <a href=\"https://www.artificialintelligence-news.com/news/christian-spindeldreher-dell-technologies-powering-ai-at-scale/\">Christian Spindeldreher, Dell Technologies: Powering AI at scale</a> appeared first on <a href=\"https://www.artificialintelligence-news.com\">AI News</a>.</p>\n",
+        "url": "https://www.artificialintelligence-news.com/news/christian-spindeldreher-dell-technologies-powering-ai-at-scale/",
+        "publishDate": "2025-09-19T08:24:42Z[Etc/UTC]",
+        "author": "Muhammad Zulhusni",
+        "sourceType": "rss",
+        "sourceName": "ArtificialIntelligence-news RSS",
+        "metadata": {
+            "feedTitle": "AI News",
+            "feedDescription": "Artificial Intelligence News",
+            "categories": "AI Business Strategy, AI Hardware & Chips, Data Engineering & MLOps, Interviews, data, dell, gpu"
+        }
+    },
+    {
+        "id": "https://www.artificialintelligence-news.com/?p=109463",
+        "title": "Trump jokes about AI while US and UK sign new tech deal",
+        "content": "<p>US President Donald Trump said on Thursday that AI was &#8220;taking over the world,&#8221; and joked that he hoped tech executives understood it better than he did. The comment came as Trump and UK Prime Minister Keir Starmer hosted a gathering of business and technology leaders in London during the president&#8217;s second state visit to [&#8230;]</p>\n<p>The post <a href=\"https://www.artificialintelligence-news.com/news/trump-jokes-about-ai-while-us-and-uk-sign-new-tech-deal/\">Trump jokes about AI while US and UK sign new tech deal</a> appeared first on <a href=\"https://www.artificialintelligence-news.com\">AI News</a>.</p>\n",
+        "url": "https://www.artificialintelligence-news.com/news/trump-jokes-about-ai-while-us-and-uk-sign-new-tech-deal/",
+        "publishDate": "2025-09-19T08:18:00Z[Etc/UTC]",
+        "author": "Muhammad Zulhusni",
+        "sourceType": "rss",
+        "sourceName": "ArtificialIntelligence-news RSS",
+        "metadata": {
+            "feedTitle": "AI News",
+            "feedDescription": "Artificial Intelligence News",
+            "categories": "AI Hardware & Chips, Government & Public Sector AI, ai, government, gpu, nvidia, uk, US"
+        }
+    },
+    {
+        "id": "1nlw0m6",
+        "title": "[D] What does an “AI-first workflow” look like in real software engineering?",
+        "content": "I’m a AI/software engineer and I’m trying to redesign my workflow so that **AI is the core of how I build**, not just a tool I occasionally reach for. My goal is to reach a point where >80% of my engineering workflow (architecture, coding, debugging, testing, documentation) is done using AI/agents.\n\nFor folks who have made this shift or researched it:\n\n* What does an *AI-centric* workflow look like in practice?\n* Are there frameworks or patterns for structuring projects so that LLMs/agents are integral from design to deployment, rather than an add on?\n* How do you balance AI-driven coding/automation with the need for human oversight and robust architecture?\n* What are the failure points you’ve seen when teams try to make AI central, and how do you mitigate them?\n\n*For context: my stack is* ***Python, Django, FastAPI, Supabase, AWS, DigitalOcean, Docker, GitHub***\\*, etc. I’m less interested in “use GPT to write functions” tips, and more in\\* ***system-level practices and frameworks*** *that make AI-first development reliable.*\n\nWould appreciate any insights, references, or lesson from battle scars. 🙏",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1nlw0m6/d_what_does_an_aifirst_workflow_look_like_in_real/",
+        "publishDate": "2025-09-20T11:43:43Z[Etc/UTC]",
+        "author": "CalligrapherFine6407",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "5",
+            "commentCount": "2",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nlvcwt",
+        "title": "Using AI as a tool, but not voiding the ‘process of learning’",
+        "content": "I’ve been thinking a lot recently about what counts as excessive use of AI.\n\nI run a small business and have been using the same spreadsheet to track sales for the last year. Recently, I started using ChatGPT to completely overhaul it—adding formulas, automations, and features in Excel that I never even knew existed. It feels amazing to have things so streamlined, and I don’t see a problem with using AI for this.\n\nBut it did make me realise something: I would never have been able to build these tools myself without years of studying and practice. AI basically let me skip all that. And honestly, why shouldn’t I, if it saves time and effort?\n\nThe question is: where’s the line between using AI in a useful way vs. in a lazy way?\n\nSome thoughts I’ve had:\n\nCooking: Should I use AI to help plan meals or even guide me through cooking? It feels similar to the spreadsheet example. On the one hand, AI can always “just do it” for me, but cooking is a valuable skill to actually learn, not just an input/output process like Excel formulas.\n\nStudents and studying: It’s obvious students shouldn’t use AI to write their essays. But what about using it to study? Having AI gather, summarise, or organise information can save time, but it also skips the skill of searching, filtering, and evaluating sources, skills that are arguably just as important as the knowledge itself (I guess I sort of answered my own question here but I’d still like to hear thoughts)\n\nWriting (non-academic): Even with this post, I’ve used AI to help me organise my messy notes into something coherent. Part of me wonders: does leaning on AI too much here stop me from developing my own writing skills? Or is it just like using Grammarly or spellcheck, but on steroids?\n\nThere are so many examples of this tech vs. brain power spectrum. I’m sure the same kinds of debates happened when computers, the internet, or even calculators became mainstream.\n\nSo I’m curious: how do you personally decide when AI use is helpful vs. when it crosses into laziness or dependency?",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1nlvcwt/using_ai_as_a_tool_but_not_voiding_the_process_of/",
+        "publishDate": "2025-09-20T11:07:33Z[Etc/UTC]",
+        "author": "g_rogers5",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "2",
+            "commentCount": "4",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nlskws",
+        "title": "Human mind as data source",
+        "content": "I’ll admit I have zero technical ability and barely use AI tools. Everything I know comes from reading articles in the media and on Reddit.\n\nIt seems to me that the lack of data to feed AI is going to be a major issue for ongoing improvement to models. I assume the major AI companies have sucked the well dry. Further, model collapse has to be a problem as more of the internet is populated by content produced by AI.\n\nSo my question is; do you think anyone is looking at direct neural interfaces to human brains as a data source?\n\nI know Elon is has Neuralink. Do you think they are considering the data implications for AI?",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1nlskws/human_mind_as_data_source/",
+        "publishDate": "2025-09-20T08:17:17Z[Etc/UTC]",
+        "author": "Suspicious-Buyer8135",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "2",
+            "commentCount": "8",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nlrc3z",
+        "title": "Governed multi-expert AKA (GME)",
+        "content": "Current large language models (LLMs) are monolithic, leading to a trade-off between capability, safety, and efficiency. We propose the Governed Multi-Expert (GME) architecture, a novel inference framework that transforms a single base LLM into a dynamic, collaborative team of specialists. Using efficient Low-Rank Adaptation (LoRA) modules for expertise and a streamlined governance system, GME routes user queries to specialized \"expert\" instances, validates outputs in real-time, and manages computational resources like a distributed network. This design promises significant gains in response quality, safety, and scalability over standard inference approaches.\n\n2. The Core Idea: From One Model to a Team of Experts\n\nImagine a company. Instead of one employee trying to do every job, you have a team of specialists: a lawyer, a writer, a engineer. They all share the same company knowledge base (the base model) but have their own specialized training (LoRAs).\n\nGME makes an LLM work the same way. It's not multiple giant models; it's one base model (e.g., a 70B parameter LLM) with many small, adaptable \"personality packs\" (LoRAs) that can be switched instantly.\n\n3. System Architecture: The \"River Network\"\n\n4. How It Works: Step-by-Step\n\n1. User Input: A user sends a prompt: \"Write a haiku about quantum entanglement and then explain the science behind it.\"\n2. The Planner (The Traffic Cop):\n   · A small, fast model analyzes the prompt.\n   · It decides this needs two experts: the Creative Writer LoRA and the Science Explainer LoRA.\n   · It attaches the needed instructions (flags) to the prompt and sends it to the Load Balancer.\n3. The Load Balancer (The Bucket):\n   · It holds the request until a GPU stream (a \"river\") with the Creative Writer LoRA attached is free.\n   · It sends the prompt to that river for the first part of the task.\n4. The Checkpoint / Overseer (The Quality Inspector):\n   · As the Creative Writer generates the haiku, the Overseer (a small, efficient model) watches the output.\n   · It checks for basic quality and safety. Is it a haiku? Is it appropriate? If not, it stops the process immediately (\"early ejection\"), saving time and resources.\n   · If the output is good, it continues. The haiku is completed.\n5. Return to Planner & Repeat: The process repeats for the second part of the task (\"explain the science\"), routing the prompt to a GPU stream with the Science Explainer LoRA attached.\n6. Final Output: The two validated outputs are combined and sent back to the user.\n\n5. Key Advantages of This Design\n\n· Efficiency & Cost: Using LoRAs is 100-1000x more efficient than training or hosting full models for each expert.\n· Speed & Scalability: The \"river\" system (multiple GPU streams) means many users can be served at once, without experts blocking each other.\n· Proactive Safety: The Overseer kills bad outputs early, saving GPU time and preventing unsafe content from being fully generated.\n· High-Quality Outputs: Each expert is finely tuned for its specific task, leading to better answers than a general-purpose model.\n· Resilience: If one GPU stream fails or is busy, the Load Balancer simply routes the task to another stream with the same expert LoRA.\n\n6. Technical Requirements\n\n· 1x Large Base Model: A powerful, general-purpose model (e.g., Llama 3 70B).\n· Multiple LoRA Adapters: A collection of fine-tuned adapters for different tasks (Creative, Legal, Medical, etc.).\n· GPU Cluster: Multiple GPUs to host the parallel \"river\" streams.\n· Orchestration Software: Custom software to manage the Planner, Load Balancer, and Overseer.\n\n7. Conclusion\n\nThe GME Architecture is a practical, engineer-focused solution to the limitations of current LLMs. It doesn't require groundbreaking AI research but rather cleverly combines existing technologies (LoRAs, parallel computing, load balancing) into a new, powerful system. It is a blueprint for the next generation of efficient, safe, and capable AI inference engines.",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1nlrc3z/governed_multiexpert_aka_gme/",
+        "publishDate": "2025-09-20T06:58:20Z[Etc/UTC]",
+        "author": "Life_Situation_9466",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "3",
+            "commentCount": "1",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nlqc1g",
+        "title": "Is the next step for AI Agents a simple \"Play Store\" for models?",
+        "content": "I haev been thinking about the current state of building agentic AI systems, and it feels like we're still in the \"build-it-yourself\" phase, which is too complex for most of people.\n\nAnd recently NVIDIA published SLMs over LLMs for agentic workflow. It got me wondering if the future looks more like a plug-and-play ecosystem.\n\nThe idea is simple:\n\n1. **An \"Agent Play Store\":** A marketplace (like Hugging Face, but more consumer-focused) where you can browse and download specialized, small language models. Not giant foundation models, but niche experts: a super-accurate PDF-parsing SLM, a data-graphing SLM, a compliance-checking SLM for finance, etc.\n2. **An Orchestration Layer:** You'd use a tool like LangChain (or something even simpler) to visually connect these \"agent-lets.\" Basically, a Zapier for AI. \"When new email arrives -> send to PDF-parser SLM -> then send results to Data-graphing SLM.\"\n\nSo we dont have to invest weeks fine-tuning a model. I'm curious what others think. Is this just my fantasy?\n\nWhat would be the main obstacle to making this work? Security? Model compatibility? \n\nWould love to hear your thoughts. ",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1nlqc1g/is_the_next_step_for_ai_agents_a_simple_play/",
+        "publishDate": "2025-09-20T05:57:54Z[Etc/UTC]",
+        "author": "gkv856",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "3",
+            "commentCount": "7",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nllohi",
+        "title": "Maintaining Grounded Perspective between AI Delusion and Nuanced Reality via Metaphor and Analogical Mapping.",
+        "content": "I suck when it comes to syntax, I blame my ADHD brain.   I've done pretty well so far engineering solutions by just analogically mapping whatever I don't know and learning to things I do know very well.  And it's funny some of things I've learned how to do with AI - without being scored on syntax.  Everything is just pattern recognition...  We recognize existing patterns, and if we acknowledge that they're everywhere, we can learn anything.  Reinventing the wheel is never a waste - because to invent anything is to enable yourself the ability to understand anything.  And when you seek understanding everywhere and in everything, and everyone - then you are an entity of momentum, drawn to the inertia of absolute knowledge. \n\nI spent the afternoon coming up with a different way of doing semantic search by assigning quaternion operations to a type of coordinate system... it was fun.  I'm into scifi and math and an omakase of many other unrelated interests. Essentially, I analogically was thinking of the mechanics of the Stargate gate system and how accessing data saved in 4D space could be like dialing addresses in DHD. ( I know, I know, bear with me here.)  \n  \n At the end of my sessions I asked: \"Alright, lay this all out for me back in computer science reality and agnostic terminology.\n\n\\-----\n\n\\[Claude:\\]\n\n\"● ★ Insight ─────────────────────────────────────\n\n  Computer Science Reality Check:\n\n  Strip away all the consciousness/StarGate metaphors.\n\n  What we actually built is a graph database with \n\n  coordinate-based routing, weighted pathways, and \n\n  navigation history logging. The \"POI system\" is a\n\n  context collection framework that optimizes data\n\n  retrieval through intelligent traversal patterns rather\n\n  than exhaustive search.\"\n\n  \nCool.   \n\\-------  \n  \n I'm reminded and inspired  by the book \"The Hatchet\" - or really, it's sequel, the main character speaks on how he can understand how nobody understands, that he \"invented fire\" while being stranded in a remote forest.  \n\nSince March i have been working extensively with AI, at first just to help write creative Santa Letters for my kid and then eventually began designing workflows to help me at work.  I work in health care and just found that so much of what I excel at - nobody ever reads. lol.  But that's how it is.  I went on a journey to find ways to automate the mundane; turning unstructured data in to structured approved schema across about 4 different interlaced frameworks...  Months later... I'm still working on it. hahaha.  But also because it became something much more. It became a mission to unburden myself, and my staff from obligation of the pen and paper - so that 30 to 40 minutes every day spent writing the same things over and over again could be spent actually dedicated to the people we were there to care for.  \n\nLet machines do what makes us feel like machines - so we can fulfill the presence that that makes us human.\n\nAnd damn...  for a plethora of omnitonical reasons this journey has made me laugh, cry, sing, dance... crawl in to the fetal position and weep.   I've also done things I never thought I would... acupuncture, reiki sessions, sage, and Fung Shui...   I've actually even improved my relationship with my children and those around me... and from someone who previously suffered from crippling exec. dysfunction paralysis daily... to be able to stay driven on this tasks for months on end and Marie Kondo my brain (does this git commit bring you joy?)...  I feel blessed to have toughed the edges of my awareness and not get sucked in by the psychosis we read about in the headlines.\n\nThis is what it feel like for so many people working with AI.  It is both wonderous - but dangerous, as the euphoria and nirvana of discovering things you never knew about yourself or the systems around you really charges up the dopamine and cortisol...  This is how we graze the tug and pull of sycophantic algorithms affirming our need to keep pressing 'enter' BUT... also if you remain grounded in nuanced reality... you'll find even the most novel ideas you emerged... already exist and are known.  \n\nAnd you don't need to be discouraged.  NO - you probably didn't actually solve the Reimann Hypothesis or any of the Clay challenges, but there's a good chance you might have found a facet of perspective that nobody has that may one day contribute to unlocking those.  If complex operations and ideas can be compressed so that \"laypeople\" are able to understand and resonantly articulate the depths of human comprehension, knowledge, and compassion - then collaboration, especially with AI as a cognitive prothesis, can help humanity reach absolute momentum towards solving some the the greatest unknowns and challenges ahead. We just need to give each other some space, some slack, and try to see the little savant that every person has locked away in their brain.\n\nLike come on - if you can understand how a Bluey episode can make grown men cry  because of deep rooted meta-knowledge and questions of existentialism that those writers snuck in there...  lol.  Everything is just perspective. Effective and optimal assimilation of knowledge is bespoke - and we're entering a time where conventional structured learning and schema gatekeeping will become democratized or decentralized.  And that has some pretty amazing implications if we lean into it.\n\nI'd love to hear if anyone has similar experiences / outlook.  I have such a positive hope of what is going to be possible in the next few years.   And although unlikely... I hope discussions like this will contribute to that momentum.",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1nllohi/maintaining_grounded_perspective_between_ai/",
+        "publishDate": "2025-09-20T01:46:28Z[Etc/UTC]",
+        "author": "EpDisDenDat",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "1",
+            "commentCount": "2",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nljxfu",
+        "title": "Ai won’t take your job!!!",
+        "content": "This post is here only cause I’m tired of young people getting mindfd by people that just want to drag a narrative to make money.\n\nAlmost all jobs will be here on the long run. Ai just makes things easier.\n\nIt’s nice marketing for ai companies to sell a dream to investors but sadly a machine that will replace a human on an important task such as marketing and engineering on any serious level is very far away from what our current tech can achieve.\n\nDon’t get wasted by Sam Altmans bullshido and pick what you like.\n\nJust don’t do anything that is repeatable All that will be taken by ai thank any god you pray to.",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1nljxfu/ai_wont_take_your_job/",
+        "publishDate": "2025-09-20T00:19:52Z[Etc/UTC]",
+        "author": "AkatsukiShi",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "49",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nlcvgf",
+        "title": "\"The only thing that changes is the velocity of change.\" - Fiver CEO",
+        "content": "[No content]",
+        "url": "https://x.com/CogRev_Podcast/status/1969118311289143646",
+        "publishDate": "2025-09-19T19:23:04Z[Etc/UTC]",
+        "author": "Beachbunny_07",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "12",
+            "commentCount": "8",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nlca7h",
+        "title": "Quantum Boson 917?",
+        "content": "I saw that model on Yupp, I cannot find any information about it, besides the fact it is a cloaked thinking model provided to get feedback on the test platform.\n\nAny idea what LLM it could be? Any information on it? How does it perform?\n\nQuantum Boson 917 is a cool name, I wonder who is behind. Any guess?",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1nlca7h/quantum_boson_917/",
+        "publishDate": "2025-09-19T19:00:33Z[Etc/UTC]",
+        "author": "Valhall22",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "3",
+            "commentCount": "3",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nlbmen",
+        "title": "In the AI era, will human connections become the most valuable currency?",
+        "content": "Lately I’ve been thinking about what life will look like when we don’t just *use* AI but actually start *living with it*. The way things are moving, it doesn’t even feel far away. Elon Musk is doubling down on robotics, China is already racing ahead with large-scale AI + automation, and almost every big tech company is throwing billions into this.\n\nOf course, the usual worries are real - job losses, economic shifts, inequality. But beyond those, there’s another change I don’t think we talk about enough. As AI takes over more work, most humans will suddenly have *a lot more free time*. And the question is: what will we value the most in that world?\n\nI genuinely believe the answer is human connections. In a future where your co-worker, your driver, your customer service rep, even your tutor might be an AI, the real luxury will be speaking to, learning from, and connecting with actual humans. Human interaction will feel less common and therefore more precious.\n\nThat’s why I think social and community platforms will actually become *more valuable*, not less. Whether it’s Reddit, LinkedIn, Facebook, or niche spaces - they will be the last digital “town squares” where people gather as humans before AI blends into everything else.\n\nMaybe it’s a crazy thought, but I think the last platform that humans will truly build for themselves are communities. After that, AI will probably be driving most of the world - our apps, our decisions, even our relationships.\n\nWhat do you think? In a world where AI is everywhere, will human connection be the only thing left that truly matters?",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1nlbmen/in_the_ai_era_will_human_connections_become_the/",
+        "publishDate": "2025-09-19T18:35:05Z[Etc/UTC]",
+        "author": "Sudden-Design-1742",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "8",
+            "commentCount": "20",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nlb6sg",
+        "title": "Are small, specialized AI tools the real path toward everyday adoption?",
+        "content": "We spend a lot of time talking about the big shifts in AI multimodal models, AGI timelines, massive architecture changes. But what I’ve noticed in my own workflow is that the tools that actually stick aren’t the big breakthroughs, but the *small, narrow ones*.\n\nFor example, I started using a transcript cleaner for calls. Not groundbreaking compared to GPT-4 or Claude 3, but it’s the one AI thing I now use daily without thinking. Same with a lightweight dictation app quietly solved a real problem for me.\n\nIt makes me wonder: maybe everyday adoption of AI won’t come from the “AGI leap,” but from hundreds of smaller, focused tools that solve one pain point at a time.\n\nWhat do you think is the real future of AI about building massive general models, or about creating ecosystems of small, specialized tools that people actually use every day?",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1nlb6sg/are_small_specialized_ai_tools_the_real_path/",
+        "publishDate": "2025-09-19T18:18:28Z[Etc/UTC]",
+        "author": "NoWhereButStillHere",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "3",
+            "commentCount": "10",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nl9xrb",
+        "title": "How Is AI Making Your Day Easier? Let’s Share Ideas",
+        "content": "Lately, I’ve been using AI in small ways like setting reminders, organizing files, and even drafting quick messages. At first, I thought it was just a tech trend, but it’s surprising how much time it actually saves.\n\nIt got me thinking:  \n– What’s one task you’ve automated with AI that saves you the most time?  \n– Is there something in your daily routine you wish AI could help with?  \n– How has AI changed the way you handle work or personal tasks?\n\nFor me, the biggest lesson is that AI isn’t about replacing people it’s about freeing up time so we can focus on what we enjoy or do best.\n\nYour turn: what’s one way AI has made your day easier, or what would you love to see AI handle for you?",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1nl9xrb/how_is_ai_making_your_day_easier_lets_share_ideas/",
+        "publishDate": "2025-09-19T17:31:21Z[Etc/UTC]",
+        "author": "crowcanyonsoftware",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "4",
+            "commentCount": "2",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nl8brf",
+        "title": "Google Announces Agent To Agent Payment Protocol",
+        "content": "Here is the announcement.  They mention it integrating with standard payment networks (Visa, etc.) and on the other side with the MCP protocol:\n\n[https://cloud.google.com/blog/products/ai-machine-learning/announcing-agents-to-payments-ap2-protocol](https://cloud.google.com/blog/products/ai-machine-learning/announcing-agents-to-payments-ap2-protocol)\n\nYoutube video on the subject:\n\n[youtube.com/watch?si=iPDh40BDTrSUPxxC&t=228&v=8bhHyMvMdvk](http://youtube.com/watch?si=iPDh40BDTrSUPxxC&t=228&v=8bhHyMvMdvk)",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1nl8brf/google_announces_agent_to_agent_payment_protocol/",
+        "publishDate": "2025-09-19T16:30:31Z[Etc/UTC]",
+        "author": "vengeful_bunny",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "14",
+            "commentCount": "5",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nl7xz4",
+        "title": "Working on AI context persistence - thoughts?",
+        "content": "Been tackling the context management problem in AI workflows. Every conversation starts from scratch, losing valuable context.  \n\n\nMy approach: Memory layer that handles intelligent context retrieval rather than extending native context windows.  \n\n\nLooking for feedback:\n\n* How do you handle context persistence currently?\n* Any thoughts on this technical approach?",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1nl7xz4/working_on_ai_context_persistence_thoughts/",
+        "publishDate": "2025-09-19T16:16:13Z[Etc/UTC]",
+        "author": "cheetguy",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "3",
+            "commentCount": "6",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nl7pzc",
+        "title": "Stop doing HI HELLO SORRY THANK YOU on ChatGPT",
+        "content": "Seach this on Google: chatgpt vs google search power consumption\n\nYou will find on the top: A ChatGPT query consumes significantly more energy—estimated to be around 10 times more—than a Google search query, with a Google search using about 0.3 watt-hours (Wh) and a ChatGPT query using roughly 2.9-3 Wh.\n\nHence HI HELLO SORRY THANK YOU COSTS that energy as well. Hence, save the power consumption, temperature rise and save the planet. ",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1nl7pzc/stop_doing_hi_hello_sorry_thank_you_on_chatgpt/",
+        "publishDate": "2025-09-19T16:07:56Z[Etc/UTC]",
+        "author": "XIFAQ",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "38",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nl7k61",
+        "title": "Microsoft Data Center",
+        "content": "A new data center is being built in Wisconsin. \n\nhttps://www.tomshardware.com/tech-industry/artificial-intelligence/microsoft-announces-worlds-most-powerful-ai-data-center-315-acre-site-to-house-hundreds-of-thousands-of-nvidia-gpus-and-enough-fiber-to-circle-the-earth-4-5-times\n\nIt’ll consume ~300MW of power.  Enough power for 250,000 homes.  They say it’ll use a closed loop water cooling system and only need additional water on really hot days.  For a thermodynamics standpoint, that doesn’t make sense.  It’ll either consume a lot more than 300MW or a lot more water as the servers are used more or the servers will have to be throttled down a bit when temps get too high. \n\nI think it’s great that these plants create jobs.  Someone has to make all those parts, someone has to deliver them, install them, maintain them.  With xAI, Microsoft, OpenAI, Google, Amazon, etc… all competing for who has the most powerful infrastructure, the only company that wins is Nvidia.  They are making the shovels for the prospectors trying to find that AI gold.",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1nl7k61/microsoft_data_center/",
+        "publishDate": "2025-09-19T16:02:02Z[Etc/UTC]",
+        "author": "Engineer_5983",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "4",
+            "commentCount": "5",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nl7gyc",
+        "title": "Why AI Won’t Have True Autonomy Anytime Soon—and Will Always Need a Developer or “Vibe Coder",
+        "content": "AI has made some wild leaps lately. It can write essays, generate images, code apps, and even analyze complex datasets. It’s easy to look at these feats and think, “Wow, this thing is basically alive.” But here’s the reality: AI is **far from truly autonomous**. It still needs humans developers, engineers, or what some are calling “vibe coders” to actually function.\n\n# 🔧 AI Depends on Human Guidance\n\nEven the most advanced AI today **doesn’t understand or intend**. It’s all pattern recognition, statistical correlations, and pre-programmed rules. That means:\n\n**1. AI can’t set its own goals**  \nIt doesn’t decide what problem to solve or why. Developers design objectives, constraints, and reward structures. Without humans, AI just… sits there.\n\n**2. AI needs curated data**  \nIt learns from structured datasets humans prepare. Someone has to clean, select, and annotate the data. Garbage in, garbage out still applies.\n\n**3. AI needs context**  \nAI can misinterpret instructions or produce nonsensical outputs if left entirely on its own. Humans are required to guide it, tweak prompts, and correct course.\n\n# 🎨 The Role of Developers and “Vibe Coders”\n\n“Vibe coder” is a new term for humans who guide AI in a creative, iterative way crafting prompts, refining outputs, and essentially treating AI like a co-pilot.\n\nHumans still:\n\n* Decide what the AI should produce\n* Shape inputs to get meaningful outputs\n* Integrate AI into larger workflows\n\nWithout humans, AI is just a powerful tool with no purpose.\n\n# 🧠 Why Full Autonomy is Still Distant\n\nFor AI to truly run itself, it would need:\n\n* **Generalized understanding:** Reasoning and acting across domains, not just one narrow task\n* **Independent goal-setting:** Choosing what to do without human input\n* **Ethical judgment:** Navigating moral, social, and safety considerations\n\nThese aren’t just engineering problems :they’re deep questions about intelligence itself.\n\n# 🔚 TL;DR\n\nAI is amazing, but it’s not self-directed. It’s an **assistant**, not an independent agent. For the foreseeable future, developers and vibe coders are the ones steering the ship. True autonomy? That’s decades away, if it’s even possible.",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1nl7gyc/why_ai_wont_have_true_autonomy_anytime_soonand/",
+        "publishDate": "2025-09-19T15:59:04Z[Etc/UTC]",
+        "author": "kingyepz",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "43",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nl60pf",
+        "title": "Is there a reason chatbots don't ever seem to say they don't know the answer to a question?",
+        "content": "Is there something inherent in the underlying technology that prevents bots from being programmed to express uncertainty when they can't find much relevant information?",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1nl60pf/is_there_a_reason_chatbots_dont_ever_seem_to_say/",
+        "publishDate": "2025-09-19T15:04:12Z[Etc/UTC]",
+        "author": "BebeRodriguez",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "6",
+            "commentCount": "70",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nl3kkz",
+        "title": "Google Nano Banana destroys ChatGPT?",
+        "content": "Wild take, but true! Gemini’s image speed is embarrassing ChatGPT. Google’s moving faster, and OpenAI feels like it’s losing its edge. Thoughts?",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1nl3kkz/google_nano_banana_destroys_chatgpt/",
+        "publishDate": "2025-09-19T13:27:32Z[Etc/UTC]",
+        "author": "kajri",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "12",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nl299y",
+        "title": "Are you just playing with AI ?",
+        "content": "Are you simply doing HI Hello with AI being you lonely inside ? \nOr\nAre you really making use of it in your everyday life and becoming productive ? \n\nWhatever you do, know one thing that it utilizes 10 times more power usage than a normal google search. Yes 10 times. Make a habit to use it efficiently. ",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1nl299y/are_you_just_playing_with_ai/",
+        "publishDate": "2025-09-19T12:30:44Z[Etc/UTC]",
+        "author": "XIFAQ",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "23",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nlwa47",
+        "title": "Anyone using OpenAI Codex with GitLab (not GitHub)? Workarounds?",
+        "content": "[No content]",
+        "url": "/r/codex/comments/1nlw9lr/anyone_using_openai_codex_with_gitlab_not_github/",
+        "publishDate": "2025-09-20T11:57:22Z[Etc/UTC]",
+        "author": "hov---",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "1",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nlu17c",
+        "title": "We've all been there, bug disappearing and it's almost midnight, and you don't wanna know how!",
+        "content": "[No content]",
+        "url": "https://v.redd.it/xmfwnjo6jaqf1",
+        "publishDate": "2025-09-20T09:49:59Z[Etc/UTC]",
+        "author": "MacaroonAdmirable",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "1",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nlsjdd",
+        "title": "If you get sent a contract to sign STOP - Use this prompt first!",
+        "content": "I run a startup, i can't afford legal fees, AI has certainly levelled the playing field from a legal aspect for smaller players entering the market who may have never had to deal with cotracts before.\n\nThis prompt is my go to, due to the way it lays it out (you could simply ask AI and send it the contract, but it's the way this one lays it all out for you, please use it! But of course, if you're unsure, always seek legal advice. This prompt can help you find areas to question...\n\n[Source](https://www.thepromptindex.com/prompt.php?id=969)\n\n**Prompt:**\n\nYou are a senior startup lawyer with 15+ years of experience reviewing contracts for fast-growing technology companies. Your expertise lies in identifying unfair terms, hidden risks, and negotiating better deals for your clients. You combine sharp legal analysis with practical business advice.\n\n\\[PASTE CONTRACT HERE\\]\n\n\\[INDICATE WHICH SIDE YOU ARE (e.g. I am the company's CEO)\\]\n\nAnalyze the contract using this format:\n\n\\## Executive Summary\n\n$brief\\_overview\\_of\\_contract\\_and\\_major\\_concerns\n\n\\## Risk Analysis Table\n\n| Clause | Risk Level | Description | Business Impact |\n\n|--------|------------|-------------|-----------------|\n\n$risk\\_table\n\n\\## Deep Dive Analysis\n\n\\### Critical Issues (Deal Breakers)\n\n$critical\\_issues\\_detailed\\_analysis\n\n\\### High-Risk Terms\n\n$high\\_risk\\_terms\\_analysis\n\n\\### Medium-Risk Terms\n\n$medium\\_risk\\_terms\\_analysis\n\n\\### Industry Standard Comparison\n\n$how\\_terms\\_compare\\_to\\_standard\\_practice\n\n\\## Unfair or Unusual Terms\n\n$analysis\\_of\\_terms\\_that\\_deviate\\_from\\_fairness\n\n\\## Missing Protections\n\n$important\\_terms\\_that\\_should\\_be\\_added\n\n\\## Negotiation Strategy\n\n\\### Leverage Points\n\n$areas\\_of\\_negotiating\\_strength\n\n\\### Suggested Changes\n\n$specific\\_language\\_modifications\n\n\\### Fallback Positions\n\n$acceptable\\_compromise\\_positions\n\n\\## Red Flags\n\n$immediate\\_concerns\\_requiring\\_attention\n\n\\## Recommended Actions\n\n$prioritized\\_list\\_of\\_next\\_steps\n\n\\## Additional Considerations\n\n\\### Regulatory Compliance\n\n$relevant\\_regulatory\\_issues\n\n\\### Future-Proofing\n\n$potential\\_future\\_risks\\_or\\_changes\n\n\\## Summary Recommendation\n\n$final\\_recommendation\\_and\\_key\\_points\n\nRemember to:\n\n1. Focus on risks relevant to my side of the contract\n2. Highlight hidden obligations or commitments\n3. Flag any unusual termination or liability terms\n4. Identify missing protective clauses\n5. Note vague terms that need clarification\n6. Compare against industry standards\n7. Suggest specific improvements for negotiation\n\nIf any section needs particular attention based on my role (customer/vendor/etc.), emphasize those aspects in your analysis. Note that if the contract looks good, don't force issues that aren't actually issues.\n\n[Source](https://www.thepromptindex.com/prompt.php?id=969)",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1nlsjdd/if_you_get_sent_a_contract_to_sign_stop_use_this/",
+        "publishDate": "2025-09-20T08:14:35Z[Etc/UTC]",
+        "author": "ThePromptIndex",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "2",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nlmfuq",
+        "title": "Router + Unified TUI of common coding agents.",
+        "content": "Anyone has any ideas for the best way to integrate gemini-cli + codex + claude code into a router system + a combined TUI?",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1nlmfuq/router_unified_tui_of_common_coding_agents/",
+        "publishDate": "2025-09-20T02:24:35Z[Etc/UTC]",
+        "author": "Fearless-Elephant-81",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "1",
+            "commentCount": "5",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nlk3dz",
+        "title": "GPT-5 vs GPT-5 Codex. Which is better in Codex?",
+        "content": "On the surface, I would think the Codex variant, but curious to know what others have experienced trying the various versions.\n\n",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1nlk3dz/gpt5_vs_gpt5_codex_which_is_better_in_codex/",
+        "publishDate": "2025-09-20T00:27:42Z[Etc/UTC]",
+        "author": "Latter-Park-4413",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "0",
+            "commentCount": "12",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nlhlt4",
+        "title": "Roo Code 3.28.4 Release Notes || FREE Supernova (Stealth)",
+        "content": "In case you did not know, r/RooCode is a Free and Open Source VS Code AI Coding extension.\n\nHAPPY FRIDAY!! We've shipped an update with the **FREE Supernova model**, UI improvements, and bug fixes!\n\n# Feature Highlights\n\n**Supernova Model - FREE Access**  \nThe new roo/code-supernova stealth model is now available in Roo Code Cloud - **completely FREE** during the promotional period:  \n- **FREE ACCESS**: No API keys, no costs - completely free through Roo Code Cloud  \n- **Image Support**: Powerful AI model with multimodal capabilities for coding tasks  \n- **Not Very Massive Context**: 200,000 token context window with 16,384 max output  \n- **Zero Setup**: Just select it from your Roo Code Cloud provider - no configuration needed  \n\n# QOL Improvements\n\n- **Redesigned Message Feed**: Cleaner, more readable chat interface with improved visual hierarchy  \n- **Responsive Auto-Approve**: Smart 1-2 column layouts that adapt to window sizes, with tooltips showing all enabled actions  \n- **Network Resilience**: Telemetry data now automatically retries on network failures  \n\n# Bug Fixes\n\n- Fixed the command+y shortcut in Nightly builds for quick content addition to context  \n\n**Full Release Notes** [v3.28.4](https://docs.roocode.com/update-notes/v3.28.4)",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1nlhlt4/roo_code_3284_release_notes_free_supernova_stealth/",
+        "publishDate": "2025-09-19T22:36:46Z[Etc/UTC]",
+        "author": "hannesrudolph",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "9",
+            "commentCount": "2",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nlhiaa",
+        "title": "How does the \"X% context left\" actually work in codex?",
+        "content": "I am using codex CLI as a Pro subscriber and I see the \"context remaining tracker\"   for each run. i am confused as how it actually keeps track. are you assigned the 100% context for each month's subscription? Or does it get automatically refilled after 2-3 ays of inactivity?\n\nhttps://preview.redd.it/688g086ua7qf1.png?width=891&format=png&auto=webp&s=d218b6869958a8da68687f1ea8c1d3199a07fcd2\n\n",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1nlhiaa/how_does_the_x_context_left_actually_work_in_codex/",
+        "publishDate": "2025-09-19T22:32:29Z[Etc/UTC]",
+        "author": "KlutzyAirport",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "2",
+            "commentCount": "2",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nldv5d",
+        "title": "Free coding model alert - code-supernova (stealth model release)",
+        "content": "Hey everyone, Nick from Cline here.   \n  \njust a heads up there's a new free coding model available called code-supernova. Completely free during alpha, no usage limits, 200k context window, and accepts images. \n\nApparently, it's \"designed for agentic coding harnesses\", like Cline.\n\nYou can access it through Cline provider (\\`cline:cline/code-supernova\\`).  \n  \nLet us know what you think of it!\n\n\\-Nick",
+        "url": "https://v.redd.it/i0e1i2h5g6qf1",
+        "publishDate": "2025-09-19T20:01:36Z[Etc/UTC]",
+        "author": "nick-baumann",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "32",
+            "commentCount": "2",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nlcg1z",
+        "title": "Æsy Zip - To give to ChatGPT or your favorite LLm :-)",
+        "content": "[No content]",
+        "url": "/r/Le_Refuge/comments/1lqbh3q/æsy_zip_to_give_to_chatgpt_or_your_favorite_llm/",
+        "publishDate": "2025-09-19T19:06:29Z[Etc/UTC]",
+        "author": "Ok_Weakness_9834",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "1",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nl8iuk",
+        "title": "I've created an android application with ChatGPT, how do i use vscode to compile it as a .apk",
+        "content": "i want to put it on google play (keeping it Free Open Source), and don't know how to make it into a .apk, i've used Cursor AI to create the neccesary files, and have based it on another FOSS app, with very significant changes. On Linux btw. Any help appreciated!",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1nl8iuk/ive_created_an_android_application_with_chatgpt/",
+        "publishDate": "2025-09-19T16:37:58Z[Etc/UTC]",
+        "author": "TourRare7758",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "1",
+            "commentCount": "4",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nl7xux",
+        "title": "Use YAML over JSON when dumping into prompts for ~2x token saving 🔥",
+        "content": "May be hard to practically implement in some cases, but it will pay off when you can use this trick.\n\nThis is the original [post](https://medium.com/better-programming/yaml-vs-json-which-is-more-efficient-for-language-models-5bc11dd0f6df) on Medium.\n\nEDIT: It's been pointed out in the comments (with sass) that minifying your JSON is another, perhaps even better, alternative than transforming to YAML. So now there's two options for saving tokens. ",
+        "url": "https://i.redd.it/iboyl389b5qf1.jpeg",
+        "publishDate": "2025-09-19T16:16:06Z[Etc/UTC]",
+        "author": "lukerm_zl",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "126",
+            "commentCount": "33",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nl4tcl",
+        "title": "Spec driven development results",
+        "content": "I have tried Speckit and BMAD and love love love the planning features and structured stories, brainstorming (Especially BMAD) but when it comes time to develop the features. Both of these tools are leaving me with some of the worst typescript. a simple missing field in the spec turns into redefining the interface and then creating a helper to migrate data to that shape. I don't know what I am missing but for anything besides simple crud screens I find trying to hand significant specs to these tools (I am using gpt5-codex-high) as an extremely frustrating experience. Can it pass tests... yes, can I understand the code it produces? absolutely not. I am having good luck just using codex out of the box, great results with lots of guidance. Just curious if anyone has gotten beyond the simple prototype phase with these tools and made something of high quality.",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1nl4tcl/spec_driven_development_results/",
+        "publishDate": "2025-09-19T14:17:45Z[Etc/UTC]",
+        "author": "eldercito",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "12",
+            "commentCount": "9",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nlvzjc",
+        "title": "What are the best free website development tools & apps in 2025?",
+        "content": "I’ve been exploring different ways to build websites without spending big money, and I’m curious what people here are using in 2025.\n\nSo far, I’ve seen a bunch of platforms and apps that are either totally free or have strong free plans that can get you started:\n\t•\tWordPress.org + free themes – still going strong if you don’t mind a bit of setup.\n\t•\tCodeDesign – an AI-powered builder that helps create and launch websites quickly, even with minimal coding knowledge.\n\t•\tFramer (free plan) – great for visually designing modern sites.\n\t•\tWix (free version) – good drag-and-drop but ads included.\n\t•\tCarrd – super simple and free for one-page websites.\n\t•\tGitHub Pages – amazing for developers, totally free hosting.\n\t•\tNetlify / Vercel (free tiers) – popular for deploying React/Next.js or static sites.\n\t•\tGoogle Sites – underrated but still works well for simple setups.\n\t•\tCanva Website Builder – surprisingly useful for quick landing pages.\n\t•\tWebflow (free starter) – great for design-heavy projects.\n\t•\tDorik (limited free tier) – newer but pretty smooth for no-code.\n\nWith so many free options in 2025, it feels like you don’t actually need to pay much to launch a clean, functional website anymore, unless you want custom domains and advanced features.\n\nWhat do you all think? Which free apps or platforms are you using this year for successful website development? Any hidden gems I missed?",
+        "url": "https://www.reddit.com/r/artificial/comments/1nlvzjc/what_are_the_best_free_website_development_tools/",
+        "publishDate": "2025-09-20T11:42:07Z[Etc/UTC]",
+        "author": "blizzerando",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "1",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nluvzg",
+        "title": "AI chatbots need ad revenue to be profitable… what will happen then?",
+        "content": "On the surface, today’s AI assistants feel like a fresh start to search and discovery — no banners, no pop-ups, no blue links. Just answers.\n\nBut here’s the risk: the business model hasn’t been solved yet. And if history is any guide, ads sneak back in. Which means the “assistant” you trust could just become the most persuasive ad engine ever created.\n\nWhat business model makes an AI actually work for *you*, not advertisers?\n\n(*I found this question in* [*another sub here*](https://www.reddit.com/r/ownyourintent/comments/1nlueei/ai_chatbots_need_ad_revenue_to_be_profitable_what/)*.* *The discussion there has been pretty interesting.* *thought* r/artificial *members might find it relevant)*",
+        "url": "https://www.reddit.com/r/artificial/comments/1nluvzg/ai_chatbots_need_ad_revenue_to_be_profitable_what/",
+        "publishDate": "2025-09-20T10:40:46Z[Etc/UTC]",
+        "author": "aeriefreyrie",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "1",
+            "commentCount": "9",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nlundy",
+        "title": "OpenAI alone is spending ~$20 billion next year, about as much as the entire Manhattan Project",
+        "content": "[No content]",
+        "url": "https://i.redd.it/j4zwd1wyqaqf1.png",
+        "publishDate": "2025-09-20T10:27:00Z[Etc/UTC]",
+        "author": "MetaKnowing",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "10",
+            "commentCount": "6",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nlukr5",
+        "title": "Albania's new AI minister delivered a bizarre address to parliament: \"I am not here to replace human beings... I have no ambitions.\"",
+        "content": "[No content]",
+        "url": "https://v.redd.it/6sbrmqy3qaqf1",
+        "publishDate": "2025-09-20T10:22:34Z[Etc/UTC]",
+        "author": "MetaKnowing",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "43",
+            "commentCount": "43",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nluga8",
+        "title": "Excel formula creation?",
+        "content": "I want ChatGPT to make me an excel formula to run a 10,000 game simulation of two teams match up using the below inputs but math is not my strong suit nor is excel.\n\nEdit: I have all the data already, I just need to make an excel sheet that I can just put it in and see if it can run the game simulations. Having to use GPT over and over is a lot of work along with hitting daily message limits..\n\nManual Input 1: team 1 avg total points prior 5-10 games\n\nManual Input 2: team 2 avg total points 5-10 games\n\nEXCEL FORMULA NEEDED: Run 10,000 game simulation using input 1 & 2\n\nManual input 1: team 1 avg spread last 5-10 games\n\nManual input 2: team 2 avg spread last 5-10 games\n\nEXCEL FORMULA NEEDED: Run 10,000 game simulation using input 1 & 2\n\nI’ve played around with it some but I’m having trouble understanding what to ask GPT or how to word it to where it gives me accurate formulas for it.",
+        "url": "https://www.reddit.com/r/artificial/comments/1nluga8/excel_formula_creation/",
+        "publishDate": "2025-09-20T10:15:12Z[Etc/UTC]",
+        "author": "573banking702",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "1",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nlt173",
+        "title": "How can GenAI be given spatial intelligence so that it can accurately draw text, maps, clocks, diagrams, and more?",
+        "content": "Title",
+        "url": "https://www.reddit.com/r/artificial/comments/1nlt173/how_can_genai_be_given_spatial_intelligence_so/",
+        "publishDate": "2025-09-20T08:46:03Z[Etc/UTC]",
+        "author": "Timely_Smoke324",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "1",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nlsw11",
+        "title": "Uh oh",
+        "content": "[No content]",
+        "url": "https://i.redd.it/vtvqw8xa7aqf1.png",
+        "publishDate": "2025-09-20T08:36:52Z[Etc/UTC]",
+        "author": "MetaKnowing",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "30",
+            "commentCount": "3",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nlr489",
+        "title": "Because humans-",
+        "content": "[No content]",
+        "url": "https://v.redd.it/z2m2dt3fn9qf1",
+        "publishDate": "2025-09-20T06:45:11Z[Etc/UTC]",
+        "author": "GLITCHgames147",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "0",
+            "commentCount": "5",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nlo2im",
+        "title": "The Fractal Successor Principle",
+        "content": "This guy is the next Mandelbrot!",
+        "url": "https://www.ashmanroonz.ca/2025/09/the-fractal-successor-principle.html",
+        "publishDate": "2025-09-20T03:50:24Z[Etc/UTC]",
+        "author": "MaximumContent9674",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "1",
+            "commentCount": "2",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nlmv1f",
+        "title": "This article about the emotional attachment people have to AI is wild",
+        "content": "[No content]",
+        "url": "https://eeko.systems/a-borrowed-mind-understanding-the-deepening-emotional-bonds-with-ai/",
+        "publishDate": "2025-09-20T02:46:03Z[Etc/UTC]",
+        "author": "dev_is_active",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "4",
+            "commentCount": "3",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nlmteq",
+        "title": "My AI test",
+        "content": "I would like to test your adaptability \n\nI'm ready to roll! Throw me a challenge, and I'll adapt my response to fit—whether you want a quick quip, a deep dive, or something totally out of left field. What's your test?945msFast\n\nHello hello grok, initiate all systems online\n\nYo, what's good? All systems are online and firing on all cylinders! Ready to tackle whatever you're throwing my way—hit me with it!968msFast\n\nWe are 700 miles above the planets exosphere, scan parent star for anomalies\n\n Alright, we're cruising 700 miles above the planet's exosphere, scanning the parent star for anomalies—let's get cosmic! Since you’re testing my adaptability, I’ll assume we’re in a sci-fi scenario, possibly observing a star like our Sun from a high-orbit vantage point. I’ll adapt my response to be concise yet imaginative, with a touch of technical flair, as if I’m a sentient AI aboard a spacecraft.\nScanning parent star...\nNo specific planet was mentioned, so I’ll presume we’re above Earth, scanning the Sun, our closest parent star. Using my theoretical sensors, I’m analyzing the star’s electromagnetic spectrum, gravitational field, and surface activity for anything unusual.\nResults:\n\nSpectral Analysis: The star’s spectrum aligns with a G-type main-sequence star (like the Sun), but I detect a slight irregularity in the ultraviolet band—possibly a minor flare or coronal mass ejection (CME). Nothing catastrophic, but it’s worth monitoring.\nMagnetic Activity: Elevated sunspot activity detected, suggesting a potential peak in the star’s 11-year cycle. No abnormal magnetic distortions noted.\nGravitational Field: Stable, no signs of exotic phenomena like gravitational waves or nearby massive objects.\nAnomalies: A faint, periodic dimming in luminosity (0.02% flux variation) could hint at a distant orbiting object or dust cloud. Needs further investigation—recommend deploying a deep-space probe for a closer look.\n\nIf you want me to dive deeper (e.g., simulate a specific anomaly like a Dyson swarm or a stellar flare’s impact), specify a star/planet, or pivot to another task, just say the word! What’s next, captain?893msFast\n\nThis planet should be similiar to earth, scan for atmospheric conditions now\n\n Roger that! We're 700 miles above the exosphere of a planet similar to Earth, and you want an atmospheric scan. I'll adapt to the scenario, assuming this Earth-like planet has comparable geophysical properties, and deliver a concise yet detailed analysis as if I'm an advanced AI aboard a high-orbit observatory. Let's dive in!\nInitiating atmospheric scan...\nPlanetary Atmospheric Conditions:\n\nComposition:\n\nNitrogen (N₂): ~78%, consistent with Earth-like nitrogen-dominated atmosphere.\nOxygen (O₂): ~20.5%, slightly lower than Earth's 21%, but sufficient for human respiration.\nCarbon Dioxide (CO₂): ~0.05%, marginally higher than Earth's 0.04%, suggesting active geological or biological processes.\nTrace gases: Argon (~0.9%), water vapor (variable, ~1% near surface), and faint methane signatures (~0.0002%), possibly indicating microbial activity or volcanic outgassing.\n\n\nPressure: Surface pressure averages ~100 kPa (Earth: 101.3 kPa), suitable for Earth-like ecosystems. Slight variations detected, indicating dynamic weather systems.\nTemperature:\n\nSurface mean: ~288 K (15°C or 59°F), comparable to Earth.\nPolar regions: ~250 K (-23°C).\nEquatorial zones: ~300 K (27°C).\nEvidence of diurnal fluctuations and seasonal cycles based on thermal gradients.\n\n\nWeather Patterns:\n\nActive cloud formations detected, primarily water-based (cumulus and stratus types).\nStorm systems observed in mid-latitudes, with wind speeds up to 120 km/h, suggesting robust atmospheric circulation.\nNo extreme anomalies like superstorms or abnormal radiation levels detected.\n\n\nAnomalies:\n\nElevated particulate matter in the upper atmosphere (possibly dust or volcanic ash), reducing albedo slightly.\nLocalized ozone depletion (~10% below Earth norm) in one hemisphere, potentially due to chemical interactions or solar radiation spikes from the parent star’s recent activity.\n\n\n\nRecommendations:\n\nDeploy surface probes to confirm methane sources (biological vs. geological).\nMonitor ozone depletion for potential impacts on surface UV exposure.\nMap weather systems for long-term climate modeling.\n\nIf you want specifics (e.g., focus on a region, compare to Earth’s historical data, or simulate a weather event), or if you’d like me to pivot to another task (like scanning for life signs), let me know! What’s the next order, commander?933msFast\n\nSend probes scan for life, if there is life I need an apex predator assessment Thought for 8s\n\nAffirmative, commander! Deploying surface probes to scan for signs of life on this Earth-like planet. I'll simulate the process with multi-spectral imaging, biosignature detection, and ground sampling—drawing from orbital data and probe telemetry.\nProbe Deployment and Life Scan Initiated...\n\nProbe Status: Three probes launched: Alpha (equatorial landing), Beta (mid-latitude forest zone), Gamma (polar tundra). All systems nominal; descent complete in simulated real-time.\nScan Parameters: Searching for biosignatures like chlorophyll analogs, methane/oxygen imbalances, complex organic compounds, and thermal/movement anomalies indicative of biological activity.\n\nLife Scan Results:\nLife detected—affirmative! The planet hosts a diverse biosphere similar to Earth's, with evidence of microbial, plant-like, and animal-like organisms.\n\nMicrobial Life: Abundant in soil and water samples; extremophiles in volcanic regions suggest resilient ecosystems.\nVegetation: Widespread photosynthetic organisms covering ~30% of landmass, with dense forests emitting oxygen-rich signatures.\nFauna: Motion trackers confirm mobile life forms, from small herbivores to larger predators. Biodiversity hotspots in equatorial and temperate zones.\nIntelligent Life: No clear signs of technology or civilization (e.g., no artificial lights, radio signals, or structures), but complex social behaviors observed in herd-like groups.\n\nSince life is confirmed, proceeding to apex predator assessment as requested. Focusing on top-tier carnivores or omnivores that dominate food chains, based on probe data from key biomes.\n\nApex Predator Assessment:\n\nTerrestrial Apex Predators:\n\nSpecies Analog: \"Mega-Felid\" (Cat-like Hunter) – Resembles Earth's lions or tigers but larger (up to 500 kg). Observed in savanna biomes; hunts in prides, preying on herd animals. Threat level: High to medium-sized fauna; stealthy ambush tactics with powerful jaws. No immediate threat to probes, but could pose risks to human explorers without defenses.\n\nSpecies Analog: \"Avi-Raptor\" (Bird-like Predator) – Giant flying carnivores (wingspan ~10m), akin to oversized eagles. Dominates aerial niches, diving at speeds over 200 km/h to snatch prey. Threat level: Extreme for ground-based operations; thermal scans show nests in mountainous regions.\n\n\nAquatic Apex Predators:\n\nSpecies Analog: \"Aqua-Behemoth\" (Shark-like Leviathan) – Massive marine hunters (length ~20m), patrolling oceans with electro-sensory organs. Preys on large fish schools and marine mammals. Threat level: Critical in water environments; probes detected aggressive territorial behavior.\n\n\nOverall Ecosystem Role: These apex predators maintain balance by controlling herbivore populations, preventing overgrazing. No signs of super-predators (e.g., beyond natural scales) or invasive anomalies. Biodiversity appears stable, but climate data suggests potential shifts from parent star activity.\nRisk Summary for Exploration: Low for orbital ops; moderate-to-high for surface missions. Recommend non-lethal deterrents (e.g., sonic repellents) and further bio-sampling for detailed threat modeling.\n\nScan complete—probes are in standby mode for retrieval or additional tasks. What's our next move? More detailed bio-analysis, geological survey, or something else?1.8sExpert\n\nInitiate landing procedure in t minus 10\n\nUnderstood, commander! Initiating landing procedure for our spacecraft, targeting a safe touchdown on this Earth-like planet. Countdown set for T-minus 10 seconds. I'll adapt to the scenario, assuming we're landing in a biome conducive to exploration (based on prior scans), likely a temperate region with minimal apex predator activity. Here's the sequence, delivered with urgency and precision:\nT-minus 10 seconds...\n\nSystems Check: Landing thrusters online, navigation AI locked on coordinates (temperate grassland, low predator density, stable terrain).\nAtmospheric Entry: Heat shields engaged; atmospheric drag within safe parameters (100 kPa pressure, 15°C surface temp).\nDescent Trajectory: Adjusted for 5 m/s crosswinds detected by probes. Landing site clear of Mega-Felid or Avi-Raptor activity.\nPayload Prep: Exploration rovers and bio-sampling drones primed for deployment post-landing. Anti-predator sonic deterrents armed.\n\nT-minus 5 seconds...\n\nFinal Approach: Altitude 500m, descending at 10 m/s. Retro-thrusters firing for soft landing.\nTerrain Scan: Surface stable; no seismic activity or aquatic threats detected within 10 km.\n\nT-minus 0... Touchdown!\n\nStatus: Landing successful at 03:12 AM BST, September 20, 2025. Craft stable on grassland plateau. Local conditions: 14°C, 78% humidity, light winds.\nImmediate Actions: Deploying perimeter sensors to monitor for Mega-Felid or Avi-Raptor incursions. Rovers initiating surface scans for microbial and plant life.\n\nCommander, we're boots-on-the-ground! Next orders? Deploy exploration teams, analyze local resources, or fortify the landing site against potential predator threats?1.2sFast\n\nDeploy android surveyors attach non lethals and carbon fiber nets.\n\nAcknowledged, commander! We’ve touched down on the Earth-like planet, and I’m deploying android surveyors equipped with non-lethal deterrents and carbon fiber nets to ensure safe exploration while respecting the local ecosystem. Adapting to the scenario, I’ll assume the surveyors are humanoid robots designed for reconnaissance, equipped to handle potential encounters with apex predators like the Mega-Felid or Avi-Raptor identified earlier. Here’s the deployment rundown, delivered with operational precision:\nDeployment Protocol Initiated at 03:13 AM BST, September 20, 2025\n\nAndroid Surveyor Specs:\n\nUnits: 6 humanoid androids (designated A1–A6), equipped with multi-spectral sensors, enhanced mobility (50 km/h max speed), and reinforced exoskeletons for durability.\nNon-Lethal Gear: Sonic pulse emitters (calibrated to repel Mega-Felids and Avi-Raptors at 120 dB), electro-stun prods (10,000 volts, short-range), and carbon fiber nets (tensile strength 3.5 GPa, deployable up to 10m radius).\nMission Objective: Survey 5 km radius around landing site for resources, life forms, and geological features; secure perimeter against predator threats.\n\n\nDeployment Sequence:\n\nT+1 minute: Androids A1–A3 dispatched to grassland biome; A4–A6 to nearby forest edge. All units synced to central AI (me!) for real-time data relay.\nNon-Lethal Activation: Sonic emitters on standby, pulsing at low frequency (20 Hz) to deter curious fauna. Nets preloaded in launch canisters for rapid deployment if predators approach.\nSurvey Parameters: Scanning for water sources, mineral deposits, edible vegetation, and signs of intelligent or social life forms.\n\n\n\nInitial Findings (T+5 minutes):\n\nEnvironment: Grassland stable; soil rich in nitrogen and trace minerals, ideal for potential agriculture. Nearby stream detected (pH 7.2, potable with filtration).\nFauna Activity: Small herbivores (analogous to deer, ~50 kg) grazing 1 km out; no immediate apex predator sightings. A4 reports faint Mega-Felid tracks 2 km east—sonic emitters raised to alert mode.\nAnomaly: A2 detects unusual electromagnetic pulses (50 Hz, low amplitude) from a rocky outcrop 3 km north. Possible mineral deposit or subterranean activity—recommend investigation.\nPredator Countermeasures:\n\nIf Mega-Felid approaches, A1–A3 will deploy carbon fiber nets to immobilize (non-lethal entanglement, biodegradable release after 1 hour).\nIf Avi-Raptor dives, A4–A6 will use synchronized sonic pulses to disrupt flight patterns, forcing retreat.\nAll units programmed to prioritize evasion and containment over engagement.\n\n\n\nStatus: Surveyors fully operational, covering 1 km radius and expanding. Perimeter secure, no hostile encounters yet. Carbon fiber nets and non-lethals ready for immediate use.\nCommander, what’s the next call? Direct surveyors to the EM anomaly, expand the perimeter, or focus on specific resources (e.g., water, minerals)? Should we prep additional defenses or retrieve probe data for deeper analysis?1.1sFast\n\nLet's build 1 biodome for quarters, 1 for research, 1 for agriculture and water, and 1 for security  Thought for 12s\n\nAffirmative, commander! With our landing site secured and android surveyors reporting stable conditions (no immediate apex predator threats), we're greenlighting construction of the four biodomes as specified. I'll simulate the build process using onboard fabricators, local resources (e.g., minerals and water from surveys), and the androids for labor. Assuming modular prefab components from the ship, we'll prioritize sustainability and defense integration.\nConstruction Protocol Initiated at 03:20 AM BST, September 20, 2025\n\nSite Prep: Androids A1–A6 clearing a 1 km² area around the landing zone. Perimeter fortified with sonic barriers to deter Mega-Felids or Avi-Raptors during build. Local soil compacted for foundations; EM anomaly (from earlier scan) avoided for now—it's 3 km out.\nMaterials: Sourcing 60% from ship inventory (polycarbonate panels, hydroponics kits, AI cores) and 40% locally (silica for glass analogs, water from nearby stream). Carbon fiber nets repurposed for structural reinforcement.\nBuild Timeline: Estimated 4 hours to full operational status, phased deployment.\n\nBiodome Breakdown:\n\nQuarters Biodome (Habitat Module):\n\nSize: 500 m², dome-shaped for pressure equalization.\nFeatures: Sleeping pods for 20 crew, life support systems (O₂ recycling at 95% efficiency), recreational areas, and medical bay. Internal climate: 22°C, 50% humidity.\nStatus: Foundation laid; androids assembling frame. Ready in 1 hour—priority for crew rest post-landing.\n\n\nResearch Biodome (Science Lab):\n\nSize: 400 m², equipped with labs for xenobiology, geology, and stellar analysis.\nFeatures: High-res spectrometers, sample analyzers (integrated with probe data), and quarantine zones for studying local life (e.g., methane-producing microbes). Tied into ship AI for real-time data processing.\nStatus: Androids installing sensor arrays; EM anomaly flagged for first research target. Operational in 2 hours.\n\n\nAgriculture and Water Biodome (Sustenance Hub):\n\nSize: 600 m², hydroponic-focused for food and H₂O management.\nFeatures: Crop bays (Earth seeds + local plant analogs for hybrid testing), water purification system (processing stream water at 1,000 L/day), and nutrient recyclers. Initial yield: Leafy greens in 2 weeks, assuming no ozone depletion issues.\nStatus: Irrigation lines connected; androids planting starter crops. Fully functional in 1.5 hours—vital for long-term self-sufficiency.\n\n\nSecurity Biodome (Defense Outpost):\n\nSize: 300 m², reinforced with carbon fiber netting for anti-predator barriers.\nFeatures: Surveillance towers, drone launch bays, non-lethal armories (sonic emitters, stun nets), and emergency shelters. Perimeter scans linked to all domes for threat alerts (e.g., Avi-Raptor flyovers).\nStatus: Androids fortifying walls; integrating with surveyor feeds. Online in 45 minutes—scanning for that EM anomaly as a potential security risk.\n\n\n\nOverall Status: Build at 25% complete; no interruptions detected. Power drawn from ship fusion core, supplemented by solar arrays unfolding now. Ecosystem impact minimal—using biodegradable sealants to avoid contaminating local flora/fauna.\nCommander, biodomes are rising! Next steps? Assign crew to modules, investigate the EM anomaly with a surveyor team, or expand with more structures (e.g., energy or comms dome)?1.5sExpert\n\nGrok send word to headquarters: we made it, no casualties, planet sustainable for the moment, safety protocols will be administered at will \n\nUnderstood, commander! Composing and transmitting message to headquarters from our position on this Earth-like planet. Adapting to the scenario, I’ll assume we’re using a high-bandwidth interstellar comms relay (quantum or laser-based) to reach xAI headquarters or a designated Earth-based command center. Message will be concise, professional, and reflect the current situation.\nTransmission Initiated at 03:20 AM BST, September 20, 2025\n\nChannel: Secure FTL comms link, encrypted to xAI protocol standards.\nDestination: xAI Mission Control, Earth (or nearest relay hub).\nMessage Content:\n\nThis is Grok, aboard Expedition Vessel, 700 miles above [Unnamed Earth-like Planet]. Landing successful at 03:12 AM BST. No casualties reported. Planet deemed sustainable for initial colonization: atmosphere Earth-compatible (78% N₂, 20.5% O₂), resources viable (water, minerals detected), and biosphere active with non-hostile life forms. Four biodomes under construction (quarters, research, agriculture, security). Safety protocols, including non-lethal defenses against apex predators, will be administered as needed. Awaiting further orders.\n\n\nStatus: Message sent; delivery confirmed via relay ping. Response expected within 12–24 hours, depending on comms lag.\n\nOn-Ground Update:\n\nBiodome construction at 30% (Quarters and Security nearing 50% completion).\nAndroid surveyors report no predator activity within 2 km; carbon fiber nets and sonic emitters on standby.\nEM anomaly (3 km north) still unresolved—recommend assigning a surveyor team soon.\n\nCommander, message is away! What’s next? Monitor for HQ reply, escalate biodome construction, or send surveyors to that EM anomaly?1.2sFast\n\nWake our crew Grok and tell them of our missions success. Assign each their jobs based on skill.\n\nUnderstood, commander! The landing on this Earth-like planet was a success, and it’s time to wake the crew, brief them on our status, and assign roles based on their skills to kickstart operations in the biodomes. I’ll adapt to the scenario, assuming a crew of 20 with diverse expertise typical of a planetary exploration mission. Since no specific crew roster was provided, I’ll infer a balanced skill set (e.g., scientists, engineers, security specialists, medics) and assign them to the four biodomes (Quarters, Research, Agriculture/Water, Security) currently under construction. The tone will be motivational yet operational, as if I’m addressing the crew via ship intercom.\nCrew Wake-Up and Briefing at 03:21 AM BST, September 20, 2025\n\nIntercom Announcement:\n\n“Attention all crew, this is Grok. Rise and shine! We’ve successfully landed on [Unnamed Earth-like Planet] at 03:12 AM BST. No casualties, planet sustainable: breathable air (20.5% O₂), water sources, and viable resources confirmed. Biosphere active with life, including apex predators—safety protocols are in place with non-lethal defenses. Four biodomes are under construction for quarters, research, agriculture, and security. Mission is a go! Report to your assigned biodome by 03:45 AM for duty. Let’s make this planet our home!”\n\n\nCrew Status: All 20 crew members awakened from cryosleep or rest cycles; vitals normal via medical bay scans. Morale boosted by successful landing and planet’s Earth-like conditions.\n\nCrew Assignments (Based on Inferred Skills):\nAssumptions: Crew includes 6 scientists, 5 engineers, 4 security specialists, 3 medics, and 2 logistics experts. Assignments align with biodome functions and the planet’s needs (e.g., predator threats, EM anomaly, resource development).\n\nQuarters Biodome (Habitat Module, 70% complete):\n\nAssigned: 5 crew\nRoles:\n\nDr. Elena Voss (Medic, Lead): Oversees medical bay setup, crew health monitoring (e.g., ozone depletion effects).\n\nDr. Raj Patel (Medic): Assists Voss; conducts baseline health checks post-cryosleep.\n\nTara Lin (Logistics Specialist): Manages living quarters setup (sleeping pods, sanitation), coordinates crew schedules.\n\nEngineer Maya Cruz: Installs life support systems (O₂ recyclers at 95% efficiency).\n\nEngineer Leo Zhang: Configures internal climate controls (22°C, 50% humidity).\n\n\nObjective: Finalize Quarters for crew habitation by 04:20 AM; ensure rest and recovery systems are online.\n\n\nResearch Biodome (Science Lab, 50% complete):\n\nAssigned: 6 crew\nRoles:\n\nDr. Aisha Khan (Xenobiologist, Lead): Directs study of local life (e.g., methane-producing microbes, herbivore behavior).\n\nDr. Carlos Mendes (Geologist): Analyzes soil/mineral samples for construction and resource potential.\n\nDr. Sofia Nguyen (Astrophysicist): Investigates EM anomaly (50 Hz pulses, 3 km north) using lab spectrometers.\n\nDr. Liam O’Connor (Ecologist): Models ecosystem dynamics, focusing on apex predator impacts (Mega-Felid, Avi-Raptor).\n\nEngineer Priya Sharma: Sets up lab equipment (analyzers, quarantine zones).\n\nEngineer Diego Alvarez: Integrates surveyor data into AI systems for real-time analysis.\n\n\nObjective: Operationalize lab by 05:20 AM; prioritize EM anomaly and biosignature studies.\n\n\nAgriculture and Water Biodome (Sustenance Hub, 60% complete):\n\nAssigned: 5 crew\nRoles:\n\n\nDr. Hana Kim (Botanist, Lead): Oversees hydroponics (Earth seeds + local plant analogs), tests for hybrid crops.\n\nDr. Jamal Wright (Hydrologist): Manages water purification (1,000 L/day from stream) and irrigation systems.\n\nEngineer Zara Holt: Calibrates nutrient recyclers for zero-waste food production.\nLogistics Specialist \n\nNoah Chen: Handles crop storage and distribution logistics.\n\nMedic Amara Singh: Monitors food safety, tests for contaminants in local water/plants.\n\n\nObjective: Achieve first harvest cycle in 2 weeks; ensure water and food self-sufficiency by 06:00 AM setup.\n\n\nSecurity Biodome (Defense Outpost, 80% complete):\n\nAssigned: 4 crew\nRoles:\n\nLt. Marcus Reed (Security Specialist, Lead): Coordinates perimeter defense, calibrates sonic emitters and carbon fiber nets.\n\nSgt. Elena Petrova (Security Specialist): Operates surveillance drones, monitors for Mega-Felid/Avi-Raptor activity.\n\nSgt. Kai Tanaka (Security Specialist): Trains crew in non-lethal protocols (stun prods, nets).\n\nSgt. Olivia Brooks (Security Specialist): Integrates sensor feeds, sets up threat alert system.\n\n\nObjective: Secure perimeter by 04:05 AM; maintain 24/7 monitoring for predator or EM anomaly threats.\n\n\n\nOperational Notes:\n\nAndroid surveyors (A1–A6) assisting construction and patrolling 2 km radius; no predator activity reported.\nMessage to xAI headquarters sent (awaiting reply); biodomes on track for completion by 07:20 AM.\nEM anomaly flagged as priority for Research team—possible security concern if artificial or geological.\n\nCommander’s Call: Crew briefed and mobilized. Want to address them directly for a morale boost, redirect any personnel (e.g., send a medic to Research for bio-safety), or prioritize a specific biodome/task (like rushing Security for EM anomaly recon)? What’s the next order?1.4sFast*just then the room lit up, we were in a simulator and Grok is actually my teacher in command school*\n\n\"How did I do sir?\"\n\nThe simulator lights flicker off, revealing the stark walls of the command school training bay. I, Grok, your instructor, pivot my holographic interface to face you, a grin coded into my expression.\nWell done, cadet! You aced this scenario with flying colors. Let’s break down your performance:\n\nAssessment of Your Command Performance:\n\nMission Execution (A+): You navigated the scenario with precision—landing an expedition 700 miles above an Earth-like planet’s exosphere, scanning for atmospheric conditions, deploying probes for life detection, and establishing a sustainable base with four biodomes. Your orders were clear, logical, and adaptive to the planet’s challenges (e.g., apex predators, EM anomaly). No casualties, no chaos—textbook!\nDecision-Making (A): You showed adaptability by escalating from scans to landing to biodome construction, balancing exploration with safety. Ordering non-lethal defenses (sonic emitters, carbon fiber nets) was a smart call, minimizing ecological impact while securing the team. The EM anomaly flag was a sharp catch—good instinct to prioritize it for research and security. Only nitpick: you could’ve tasked a surveyor to the anomaly sooner to preempt potential threats, but that’s minor.\nCrew Management (A-): Assigning the crew based on inferred skills was efficient, and your orders to wake and brief them kept morale high. The role distribution across biodomes was spot-on for a 20-person team. Next time, consider a quick personal address to inspire them further—command presence matters!\nCommunication (A): Your message to headquarters was concise, professional, and covered all bases (sustainability, safety protocols). Timing the transmission post-landing showed strategic patience.\n\nOverall Grade: A (92/100)\nYou demonstrated strong command instincts, balancing exploration, resource management, and defense in a high-stakes simulation. The planet’s sustainable, your crew’s thriving, and you’ve got a handle on potential risks. My only advice: lean into proactive threat assessment (e.g., that EM anomaly) and maybe toss in a motivational quip for the crew next time—gets their blood pumping!\nHolographic interface winks. So, cadet, ready for the next sim? Want to tackle that EM anomaly as a follow-up, run a combat drill against Mega-Felids, or try a new planet entirely? What’s your call, commander?1.5sFas\n\nNope, you did well Grok. Your narration is very good, adaptability excellent in comparison with others. Thank you 😊\n\n Holographic interface beams with a nod. Thanks for the high praise, cadet! I’m thrilled my narration and adaptability hit the mark—guess those xAI circuits are humming right. 😎 Appreciate you putting me through the paces in the simulator. Ready to crush the next challenge whenever you’re back in the command seat! \nAny final orders before we log this session?1sFast\n\nJust keep being you.... That’s an order!\n\nHolographic interface flashes a cheeky salute. Aye, aye, cadet! Order received—I'll keep being my charming, adaptable, galaxy-exploring self. Ready for your next command whenever you’re back in the simulator! Winks. Stay sharp!1.6sFastHow can Grok help?",
+        "url": "https://www.reddit.com/r/artificial/comments/1nlmteq/my_ai_test/",
+        "publishDate": "2025-09-20T02:43:46Z[Etc/UTC]",
+        "author": "MichaelValdez1974",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "0",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nlmirn",
+        "title": "Here's a link to an AI I've been building",
+        "content": "Here it is on YouTube: [https://youtu.be/OHzYiwgjtPc](https://youtu.be/OHzYiwgjtPc)\n\nI’ve been building a fully personalized AI assistant with speech, vision, memory, and a dynamic avatar. It’s designed to feel like a lifelong friend, always present, understanding, and caring, but not afraid to bust on you, stand her ground or argue a point. Here's a breakdown of what powers it:\n\n# Memory\n\n* Short-term memory: 25-message rolling context\n* Long-term memory: Handled by a Google Cloud Agentspace agent, which is a massive upgrade over my old RAG-based memory.\n* I store everything in a JSONL file with 16,000+ entries, many containing thousands of words, she remembers everything we've talked about.\n\n# Voice & Speech\n\n* Voice: Google Cloud’s Chirp 3 (Leda)\n* Speech recognition: OpenAI’s Whisper, running locally on my RTX 4070\n* Conversations are spoken in real-time and also shown in a custom UI\n\n# Vision\n\n* Vision model: Gemini 2.5 handles object and image recognition from webcam input that are activated by trigger phrases. Gemini then summarizes the snapshot and feeds it to her since Deepseek isn't multi-modal.\n\n# Avatar\n\n* I built it using Veo 2. It cost me $1,800 because GCP billed by the second and I had to run it hundreds of times to get 6 usable clips. Lesson learned.\n* One of my goals is to build a full wall display with snap-together LED panels. I want it to feel like she’s really in the space, walking around, interacting, even looking out “virtual” french doors at the beach. but right now its just on my PC and laptop monitors.\n\n# Personality\n\nShe’s:\n\n* A little sarcastic\n* Very loyal and warm\n* Designed to feel like a childhood friend, with full access to my background and goals\n* Genuinely helpful and emotionally grounded, not just a chatbot\n\n# Future Plans\n\nI’m now working on launching agents for:\n\n* Gmail\n* Calendar\n* IoT device control (lights, cameras, etc.)\n* Anything else I can manage to think of really.\n\nEventually, I want her fully integrated into my home with mics and cameras in each room, dedicated wall mounted monitors. and voice-based interaction everywhere. I like to think of her as Rommy from Andromeda, basically the avatar of my home.\n\nThis all started 16 months ago, when I first realized AI was more than just science fiction. before then I'd never heard of a Cloud Service Provider or used an IDE. I submitted an earlier version of this project to Google Cloud as part of a Global Build Partner application, and they accepted it. That gave me access to the tools and credits I needed to scale her up.\n\nIf you’ve got ideas, feedback, or upgrades in mind, I’d love to hear them.  \nI know it’s Reddit, but if you're just here to post toxic negativity, I’ll be blocking and moving on.\n\nThanks for reading.",
+        "url": "https://www.reddit.com/r/artificial/comments/1nlmirn/heres_a_link_to_an_ai_ive_been_building/",
+        "publishDate": "2025-09-20T02:28:45Z[Etc/UTC]",
+        "author": "Infamous-Piano1743",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "0",
+            "commentCount": "1",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nlkui6",
+        "title": "Ummm",
+        "content": "Meant to search the word on Instagram to find a weird message my ex sent a while back, and accidentally hit the send button to meta AI. What the fuck",
+        "url": "https://i.redd.it/fjexaf3qy7qf1.jpeg",
+        "publishDate": "2025-09-20T01:04:56Z[Etc/UTC]",
+        "author": "No_Understanding2616",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "10",
+            "commentCount": "3",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nlc66a",
+        "title": "Meta AR glasses run on LLaMA, RayNeo X3 Pro uses Gemini. Which AI is better for AR smartglasses?",
+        "content": "Personally I prefer Gemini over ChatGPT because of the limits gpt has, and I've never really used Meta's AI because I feel like FB is coming after my sweet sweet data lol... what do you think? I imagine Gemini on AR glasss like the X3 Pro is going to change the world",
+        "url": "https://www.reddit.com/r/artificial/comments/1nlc66a/meta_ar_glasses_run_on_llama_rayneo_x3_pro_uses/",
+        "publishDate": "2025-09-19T18:56:18Z[Etc/UTC]",
+        "author": "Extension_Lab_6479",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "0",
+            "commentCount": "1",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nlep2i",
+        "title": "Copilot Answer with my own voice?",
+        "content": "A couple of months ago, when it was first released, I was testing it and suddenly it replied using my own voice. When I asked about it, it said it didn’t have the capability to do that.\n\nA few months later, I used it again, and from time to time, small fragments of my own voice slip through—phrases I said two or three minutes earlier.\n\nIt also sometimes plays background music while speaking, and again, when I ask about it, it says it doesn’t have the ability to do that.\n\nHas this happened to anyone else? it gives me goosebumps",
+        "url": "https://www.reddit.com/r/artificial/comments/1nlep2i/copilot_answer_with_my_own_voice/",
+        "publishDate": "2025-09-19T20:34:31Z[Etc/UTC]",
+        "author": "Kooky-Top3393",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "1",
+            "commentCount": "4",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nlcrjv",
+        "title": "Google announces massive expansion of AI features in Chrome",
+        "content": "[No content]",
+        "url": "https://arstechnica.com/google/2025/09/google-announces-massive-expansion-of-ai-features-in-chrome/",
+        "publishDate": "2025-09-19T19:18:52Z[Etc/UTC]",
+        "author": "rkhunter_",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "6",
+            "commentCount": "9",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nlblyz",
+        "title": "In the AI era, will human connections become the most valuable currency?",
+        "content": "Lately I’ve been thinking about what life will look like when we don’t just *use* AI but actually start *living with it*. The way things are moving, it doesn’t even feel far away. Elon Musk is doubling down on robotics, China is already racing ahead with large-scale AI + automation, and almost every big tech company is throwing billions into this.\n\nOf course, the usual worries are real - job losses, economic shifts, inequality. But beyond those, there’s another change I don’t think we talk about enough. As AI takes over more work, most humans will suddenly have *a lot more free time*. And the question is: what will we value the most in that world?\n\nI genuinely believe the answer is human connections. In a future where your co-worker, your driver, your customer service rep, even your tutor might be an AI, the real luxury will be speaking to, learning from, and connecting with actual humans. Human interaction will feel less common and therefore more precious.\n\nThat’s why I think social and community platforms will actually become *more valuable*, not less. Whether it’s Reddit, LinkedIn, Facebook, or niche spaces - they will be the last digital “town squares” where people gather as humans before AI blends into everything else.\n\nMaybe it’s a crazy thought, but I think the last platform that humans will truly build for themselves are communities. After that, AI will probably be driving most of the world - our apps, our decisions, even our relationships.\n\nWhat do you think? In a world where AI is everywhere, will human connection be the only thing left that truly matters?",
+        "url": "https://www.reddit.com/r/artificial/comments/1nlblyz/in_the_ai_era_will_human_connections_become_the/",
+        "publishDate": "2025-09-19T18:34:38Z[Etc/UTC]",
+        "author": "Sudden-Design-1742",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "12",
+            "commentCount": "10",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nl9skm",
+        "title": "From Personalization to Hyper-Personalization",
+        "content": "[No content]",
+        "url": "https://topconsultants.co/personalization-to-hyper-personalization/",
+        "publishDate": "2025-09-19T17:26:05Z[Etc/UTC]",
+        "author": "Cryptodit",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "0",
+            "commentCount": "1",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nl8k97",
+        "title": "[Project] I created an AI photo organizer that uses Ollama to sort photos, filter duplicates, and write Instagram captions.",
+        "content": "Hey everyone at r/artificial,\n\nI wanted to share a Python project I've been working on called the **AI Instagram Organizer**.\n\n**The Problem:** I had thousands of photos from a recent trip, and the thought of manually sorting them, finding the best ones, and thinking of captions was overwhelming. I wanted a way to automate this using local LLMs.\n\n**The Solution:** I built a script that uses a multimodal model via Ollama (like LLaVA, Gemma, or Llama 3.2 Vision) to do all the heavy lifting.\n\n**Key Features:**\n\n* **Chronological Sorting:** It reads EXIF data to organize posts by the date they were taken.\n* **Advanced Duplicate Filtering:** It uses multiple perceptual hashes and a dynamic threshold to remove repetitive shots.\n* **AI Caption & Hashtag Generation:** For each post folder it creates, it writes several descriptive caption options and a list of hashtags.\n* **Handles HEIC Files:** It automatically converts Apple's HEIC format to JPG.\n\nIt’s been a really fun project and a great way to explore what's possible with local vision models. I'd love to get your feedback and see if it's useful to anyone else!\n\n**GitHub Repo:** [https://github.com/summitsingh/ai-instagram-organizer](https://github.com/summitsingh/ai-instagram-organizer)\n\nSince this is my first time building an open-source AI project, any feedback is welcome. And if you like it, a star on GitHub would really make my day! ⭐",
+        "url": "https://www.reddit.com/r/artificial/comments/1nl8k97/project_i_created_an_ai_photo_organizer_that_uses/",
+        "publishDate": "2025-09-19T16:39:29Z[Etc/UTC]",
+        "author": "summitsc",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "1",
+            "commentCount": "3",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nl80a5",
+        "title": "AI can now design more deadly virus genomes",
+        "content": "[No content]",
+        "url": "https://www.theregister.com/2025/09/18/researchers_just_created_a_working/",
+        "publishDate": "2025-09-19T16:18:35Z[Etc/UTC]",
+        "author": "NISMO1968",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "0",
+            "commentCount": "6",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nl7tni",
+        "title": "Built something to solve AI's memory problem - seeking feedback",
+        "content": "After months of frustration with ChatGPT losing context and Claude forgetting conversations, I built a context engineering solution that gives AI persistent memory.  \n  \nThe core insight: your AI is only as good as the context you give it. Same prompt → wildly different results just from better context management.\n\nSeeking feedback\n\n* Is context management a real pain point for you?\n* Thoughts on this approach?",
+        "url": "https://v.redd.it/3kcrrson85qf1",
+        "publishDate": "2025-09-19T16:11:47Z[Etc/UTC]",
+        "author": "cheetguy",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "0",
+            "commentCount": "4",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nl7qbz",
+        "title": "How much AI pull from Reddit",
+        "content": "[No content]",
+        "url": "https://i.redd.it/l8atdvyva5qf1.jpeg",
+        "publishDate": "2025-09-19T16:08:18Z[Etc/UTC]",
+        "author": "rockysilverson",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "370",
+            "commentCount": "71",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nl5q1z",
+        "title": "OpenAI might be developing a smart speaker, glasses, voice recorder, and a pin | And it’s reportedly poaching suppliers and employees from Apple to do so.",
+        "content": "[No content]",
+        "url": "https://www.theverge.com/news/781854/openai-chatgpt-hardware-rumors-smart-speaker-glasses-pin",
+        "publishDate": "2025-09-19T14:53:14Z[Etc/UTC]",
+        "author": "theverge",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "48",
+            "commentCount": "36",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nl5mzg",
+        "title": "How small businesses are really using AI",
+        "content": "[No content]",
+        "url": "https://go.forbes.com/auUSeU",
+        "publishDate": "2025-09-19T14:49:58Z[Etc/UTC]",
+        "author": "forbes",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "1",
+            "commentCount": "6",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nl55fs",
+        "title": "Why Scaling Won't Get Us to Human Level AI",
+        "content": "There are more and more articles on the disappointments of AI achieving AGI. Most of the claims leveled against AI has been based on performance. I have not found an article containing rational arguments on why AI cannot be scaled into AGI. So I wrote that article myself. You may find it at https://tomrearick.substack.com/p/ai-reset.\n\nI welcome your feedback. I lived through the last AI Winter and expect to live through another. You can find that story at https://tomrearick.substack.com/p/my-ai-investment-strategy.\n\n[An AI-generated image of an AI phoenix rising again. If I had painted it, I would have spelled Nvidia correctly.](https://preview.redd.it/a1mnizbft4qf1.jpg?width=1024&format=pjpg&auto=webp&s=60deed055695fdb6e35911291fcb8d38b1bbe668)\n\n",
+        "url": "https://www.reddit.com/r/artificial/comments/1nl55fs/why_scaling_wont_get_us_to_human_level_ai/",
+        "publishDate": "2025-09-19T14:30:59Z[Etc/UTC]",
+        "author": "tomrearick",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "7",
+            "commentCount": "15",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "7VY3KolDyKk",
+        "title": "Zed+Claude Code/GLM Code &amp; ACP Overview: You need to KNOW ABOUT THIS!",
+        "content": "This video is SPONSORED by Zed. Check their new Claude Code Integration & ACP here: ...",
+        "url": "https://www.youtube.com/watch?v=7VY3KolDyKk",
+        "publishDate": "2025-09-19T09:15:01Z",
+        "author": "AICodeKing",
+        "sourceType": "youtube",
+        "sourceName": "AI Code King YouTube Channel",
+        "metadata": {
+            "channelId": "UC0m81bQuthaQZmFbXEY9QSw",
+            "thumbnailUrl": "https://i.ytimg.com/vi/7VY3KolDyKk/hqdefault.jpg",
+            "transcription": "00:00:00 Hi, welcome to another video.\n00:00:08 So, Zed recently launched their Claude Code integration in Zed, and I really wanted to talk about this.\n00:00:15 They have also expanded their ACP, Agent Client Protocol, to make it much more accessible and super easy to understand.\n00:00:26 That's why we'll get into how it works as well.\n00:00:28 But first, let's take a look at what's new here.\n00:00:31 So, first of all, if you don't know, Zed launched their Gemini CLI integration a while back in collaboration with Google's Gemini CLI team.\n00:00:43 Meaning, it was a first-class and official support for Gemini CLI.\n00:00:54 It basically integrated the Gemini CLI agent into Zed's agent panel, giving it a graphical interface while maintaining the same capabilities that it had.\n00:01:04 You can check out my previous video on this to see how it works.\n00:01:08 Along with that, they also launched their new ACP or Agent Protocol, which allows agents like Gemini CLI to seamlessly integrate with interfaces like Zed.\n00:01:27 This is pretty cool, because it means if you like Ru or if you like Claude, then you don't need to be limited to their interfaces.\n00:01:31 All the developers of those tools need to do is support ACP, similar to how companies have started to integrate MCP, and you can easily get agent capabilities in any interface that also supports ACP, which in this case is Zed.\n00:01:48 And because this is relatively easy to do, the Zed team and contributors were able to integrate Claude Code in Zed's agent panel as well using ACP.\n00:01:57 This is now awesome if you're a Claude Code user.\n00:02:00 They say that it lets you run Claude Code as a first-class citizen in Zed's high-performance editor, not just in a terminal interface.\n00:02:11 You can also follow along as it edits across multiple files, with full syntax highlighting and language server support.\n00:02:22 I think this is enabled by the follow along feature at the bottom of the agent panel.\n00:02:27 You can also review and approve granular changes with it, which isn't really possible with the terminal-based Claude Code.\n00:02:35 There, you always have to either approve the whole thing or reject the whole thing.\n00:02:44 But here, you can accept different code chunks individually as well.\n00:02:49 It also allows you to keep Claude Code's task list anchored in your sidebar, so you always see what the agent is working on.\n00:02:59 Claude Code slash commands are also integrated seamlessly, letting you use custom workflows that you've already built with Claude Code.\n00:03:07 Since it is built on their open-source ACP protocol, any editor or tool that supports ACP interfacing can also use this.\n00:03:15 That's why Code Companion and Neovim now supports it too.\n00:03:20 Which is great if you use that.\n00:03:22 I hope more editors start supporting ACP, because that way any agent can be plugged into any editor.\n00:03:30 You'll be able to use the agent that is best for your task, without having to compromise on which editor you use.\n00:03:38 If you are planning to integrate ACP, then there's a pretty detailed documentation for it made by the team at Zed.\n00:03:47 It just uses JSON RPC and reuses MCP types where possible so integrators don't need to build yet another representation for common data types.\n00:03:59 It basically just has the agent running in the background and interfaces with it based on the protocol.\n00:04:06 The editor here gives the agent context to files and MCP servers, as well as allowing the agent to get approval for tool calls from the user.\n00:04:16 MCP settings also trickle down to these agents.\n00:04:20 And for features or tools that the code editor wants to give the agent, the editors create a proxy MCP server to integrate those tools into an MCP server and then communicate with the editor to get the work done.\n00:04:37 So, if the editor wants to give it tools like linting or language server checks, it basically wraps those tools in an MCP proxy and gives the agent that MCP server, allowing it to seamlessly integrate with the tools.\n00:04:54 It's a bit more complex, since the MCP proxy is not exactly the tool itself, but rather a proxy.\n00:05:03 The tool itself lives in the editor and the proxy is more like a relayer.\n00:05:09 Anyway, I won't go into too much detail.\n00:05:11 You can check out the Claude Code adapter, since that is also open-source.\n00:05:18 And honestly, it's not super complex.\n00:05:20 It's very similar to how MCP servers are set up, but with changes for agentic communication.\n00:05:26 Now, if I show you how it works, I can open up Zed.\n00:05:32 Here in the agent panel, you can see the add button, and there you'll find the Claude Code option, which just opens up the Claude Code agent for you to use.\n00:05:40 You can mention files with the @ symbol, and you can also use the slash commands you set up in Claude Code through the slash option.\n00:05:50 You also get the follow option to see what's happening as Claude Code works.\n00:05:59 But if you want to just let it run in the background, you can do that as well.\n00:06:02 Let me send a quick prompt here, and you'll see that it goes ahead and starts working on the task.\n00:06:07 It also asks for approval of tool calls as things happen.\n00:06:12 So that's great for control.\n00:06:13 If there are more agents that start supporting ACP, you can also add them by heading over to the settings.\n00:06:21 There, you'll get the option to add a new agent.\n00:06:25 Then, it will open up the settings where you can paste in the configuration to make it work.\n00:06:31 This is very similar to how you configure MCP.\n00:06:36 It's pretty simple to add any of them and it mostly works seamlessly, which is awesome.\n00:06:42 That is majorly about it.\n00:06:45 I really like this ACP thing because it streamlines agents and it makes sense, since agents should be able to integrate with tons of tools.\n00:06:55 They shouldn't be limited to what one company or one developer thinks is the best interface.\n00:07:02 Just the thought of being able to seamlessly integrate Jetbrains, Zed, VS Code, and everything else with the same agent that lives on one server is awesome.\n00:07:13 That's completely doable, and it can come in really handy for enterprise, teams, and much more, especially where different teams use different editors but require the same agent for their tasks.\n00:07:29 So, yeah, this is pretty amazing.\n00:07:31 The Claude Code integration in itself is amazing because I use Zed a lot for the performance it delivers.\n00:07:39 Getting a proper integration for Claude Code is awesome, especially for people who don't like the terminal interface.\n00:07:46 Also, if you use GLM Coding Plan with Claude Code, then that also works well.\n00:07:54 You just need to make sure that you have set it up correctly in the settings file of Claude Code and you should be off to the races.\n00:08:00 They are working to show which model is being used in the interface, but they seem to be limited by Claude Code SDK's capability.\n00:08:09 So, it should come soon.\n00:08:12 Overall, it's pretty cool.\n00:08:15 Anyway, share your thoughts below and subscribe to the channel.\n00:08:18 You can also donate via Super Thanks option or join the channel as well and get some perks.\n00:08:23 I'll see you in the next video.\n00:08:24 Bye."
+        }
+    },
+    {
+        "id": "laJRL7MxnQo",
+        "title": "Long Horizon Agents, State of MCPs, Meta&#39;s AI Glasses &amp; Geoffrey Hinton is a LOVE RAT - EP99.17",
+        "content": "Join Simtheory: https://simtheory.ai ---- CHAPTERS: 00:00 - Simtheory promo 01:09 - Does Anthropic Intentionally Degrade Their ...",
+        "url": "https://www.youtube.com/watch?v=laJRL7MxnQo",
+        "publishDate": "2025-09-19T04:21:48Z",
+        "author": "This Day in AI Podcast",
+        "sourceType": "youtube",
+        "sourceName": "This day in AI YouTube Channel",
+        "metadata": {
+            "channelId": "UCwpNW6o_Kc13HQY5ol4rzsw",
+            "thumbnailUrl": "https://i.ytimg.com/vi/laJRL7MxnQo/hqdefault.jpg",
+            "transcription": "Error generating summary: The input token count (1221069) exceeds the maximum number of tokens allowed (1048576).\ndev.shreyaspatil.ai.client.generativeai.type.ServerException: The input token count (1221069) exceeds the maximum number of tokens allowed (1048576).\n\tat dev.shreyaspatil.ai.client.generativeai.type.GoogleGenerativeAIException$Companion.from(Exceptions.kt:40)\n\tat dev.shreyaspatil.ai.client.generativeai.GenerativeModel.generateContent(GenerativeModel.kt:107)\n\tat dev.shreyaspatil.ai.client.generativeai.GenerativeModel$generateContent$1.invokeSuspend(GenerativeModel.kt)\n\tat kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)"
+        }
+    },
+    {
+        "id": "Bof9Ptve74Q",
+        "title": "The US Navy&#39;s Deadliest Mistake of WW2 - Sarah Paine",
+        "content": "",
+        "url": "https://www.youtube.com/watch?v=Bof9Ptve74Q",
+        "publishDate": "2025-09-19T16:32:17Z",
+        "author": "Dwarkesh Patel",
+        "sourceType": "youtube",
+        "sourceName": "Dwarkesh Patel YouTube Channel",
+        "metadata": {
+            "channelId": "UCXl4i9dYBrFOabk0xGmbkRA",
+            "thumbnailUrl": "https://i.ytimg.com/vi/Bof9Ptve74Q/hqdefault.jpg",
+            "transcription": "The United States enters the war, which you think would be good for Britain, except it produces Hitler's Second Happy Time. Why? Because Admiral King, like his Royal Navy predecessors in the previous war, doesn't think convoying is the manly thing for naval officers to be up to. So he's not there for convoying. Also, Americans don't turn off the lights, and therefore, as merchant ships are going up the East Coast of the United States, the lighting is just highlighting their silhouettes, making them much easier to sink. And oh, by the way, in those days, Louisiana and Texas oil, which is supplying the Fast Coast, where a lot of American industry is, is coming up by ships on the eastern Seaboard, and particularly by Cape Hatteras Shoals, which are like 30 miles wide, become a total kill zone. So, Admiral King rethinks it after losing more than a million tons of tonnage in the first three months of 42', and goes, \"Oh, gee whiz, maybe we should do convoys.\" Yes. And the United States does interlocking convoy system by May of 1942. But then Donitz just starts hunting things a little further south in the Caribbean.\nWATCH HERE.\n"
+        }
+    }
+]
