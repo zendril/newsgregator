@@ -1,0 +1,992 @@
+[
+    {
+        "id": "1nnkyrn",
+        "title": "Would you ever allow AI to integrate into your conciousness if the technology was advanced enough to allow?",
+        "content": "If the option ever arises that AI could be integrated into your brain to allow you to have all of the advantages AI has, would you do it? why or why not?",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1nnkyrn/would_you_ever_allow_ai_to_integrate_into_your/",
+        "publishDate": "2025-09-22T12:22:02Z[Etc/UTC]",
+        "author": "AstronomicalQuasarr",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "1",
+            "commentCount": "4",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nnkr29",
+        "title": "The highest funded plagiarist is this AI ethicist who promotes heavy AI regulation",
+        "content": "This guy's Phd thesis not only contains plagiarism: but he is also lying about his qualifications: [https://theodplag.blogspot.com/2025/09/an-unethical-ai-ethicist.html](https://theodplag.blogspot.com/2025/09/an-unethical-ai-ethicist.html)\n\nHe claims he is a \"tenure-track\" associate Professor at UPC while in reality he was just a visiting professor at UPC for about a year:[cc hosted at ImgBB — ImgBB](https://ibb.co/WWrw3Hh8)",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1nnkr29/the_highest_funded_plagiarist_is_this_ai_ethicist/",
+        "publishDate": "2025-09-22T12:11:47Z[Etc/UTC]",
+        "author": "lexquests",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "2",
+            "commentCount": "1",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nnjaba",
+        "title": "1 in 4 young adults talk to A.I. for romantic and sexual purposes",
+        "content": "I have often wondered how many people like me talk to AI for romantic needs outside of our little corners on the internet or subreddits. it turns out, a lot. 1 in 4 young adults talk to A.I. for romantic and sexual purposes https://www.psychologytoday.com/us/blog/women-who-stray/202504/ai-romantic-and-sexual-partners-more-common-than-you-think/amp",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1nnjaba/1_in_4_young_adults_talk_to_ai_for_romantic_and/",
+        "publishDate": "2025-09-22T10:55:41Z[Etc/UTC]",
+        "author": "MechaNeutral",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "2",
+            "commentCount": "16",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nngt50",
+        "title": "Please tell me this day to day brainrot AI-usage is gonna go",
+        "content": "People aren't using their brains anymore, and it's driving me crazy. ChatGPT is consulted for the simplest questions. What movie are we watching? Where are we going to eat? The simplest texts are put into this chat so they're summarized. The entire internet is full of AI slop; comments are full of AI bots; Short form content is not creative at all anymore; kids watch absolute brain damaging bullshit; disgusting videos are being created of deceased people who use \"their\" voice to spread a message they might not even stand for. People ask for advice on Reddit and then get an AI answer slapped underneath. Like, why? If I want an AI answer, can't I just open ChatGPT myself? In the university group chat, someone has an organizational question: \"I'll ask ChatGPT\" - bro, the answer is wrong, and the correct answer is literally a Google search away on the university website. On Tiktok I've seen fake news videos about politics that are so fucking badly made but people comment full of rage and hatred against the system - they fight against an imaginary ghost, against a lie that an AI voice told them. People use the voice feature in front of me and everytime the answer is absolutely not useable. Vague sloppy vulture, that we would laugh at, when a human would answer it. We would look that human into the eyes and say: Are you fucking stupid? I can see AI and LLMs doing some helpful work in many cases but the last few months I saw that in 8 of 10 cases it was just a waste of energy to consulte an AI. ",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1nngt50/please_tell_me_this_day_to_day_brainrot_aiusage/",
+        "publishDate": "2025-09-22T08:21:09Z[Etc/UTC]",
+        "author": "Tiny-Juggernaut6790",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "27",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nng5j1",
+        "title": "Can pure AI tools really solve QA, or is QaaS the only realistic path?",
+        "content": "AI coding tools have exploded lately. Cursor, Copilot, v0, Lovable — they’ve made writing and shipping code feel 10x faster.\n\nThe problem is QA hasn’t moved at the same pace. Everyone’s excited about “AI that writes your tests,” but in practice it’s a lot messier.\n\nI’ve tried a few YC-backed pure AI QA tools like Spur, Ranger, and Momentic. The demos look great… type a natural language prompt, get Playwright or agent-generated tests instantly. But once you plug them into real pipelines, the burden shifts back to your own engineering team. We end up fixing flaky scripts, debugging why a test failed, or rewriting flows the AI couldn’t fully capture. It feels less like automation and more like half-outsourced test authoring.\n\nA few reasons I’m skeptical that pure AI QA tools can actually solve the problem end-to-end:\n\n1. Real environments are flaky. Network hiccups, async timing issues, UI rendering delays — AI struggles to tell the difference between a flaky run and a real bug.  \n2. Business logic matters. AI can generate tests, but it doesn’t know which flows are mission critical. Checkout is not the same as a search box.  \n3. “100% coverage” is misleading. It’s 100% of what the AI sees, not the real edge cases across browsers, devices, and user behavior.  \n4. Trust is the big one. If an AI tool says “all green,” are you ready to ship? Most teams I know wouldn’t risk it.\n\nThat’s why I find the QA as a Service (QaaS) model more interesting. Instead of dumping half-working Playwright code on developers, QaaS blends AI test generation with human verification. The idea is you subscribe to outcomes like regression coverage and real device testing, instead of adding more QA headcount or infra.\n\nSome examples I’ve come across in the QaaS direction are Bug0, QA Wolf, and TestSigma. Each approaches it differently, but the theme is the same: AI plus human-in-the-loop, with the promise of shifting QA from reactive to proactive.\n\nare AI-only QA tools a dead end, or will they get good enough over time? \nAnd does QaaS sound like a genuine shift or just outsourcing with a new label?",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1nng5j1/can_pure_ai_tools_really_solve_qa_or_is_qaas_the/",
+        "publishDate": "2025-09-22T07:36:59Z[Etc/UTC]",
+        "author": "cheerfulboy",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "4",
+            "commentCount": "3",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nnfz2e",
+        "title": "What can AI not yet do?",
+        "content": "It's been 2 years since the last edition (https://www.reddit.com/r/ArtificialInteligence/comments/13fteqe/what\\_can\\_ai\\_not\\_yet\\_do/), I think it might be interesting to re explore the subject.\n\nOne of the top posts mentions lack of ability for AI to interact with living matters, or create sensory feelings in us humans (text to smell etc)\n\nSince then, AlphaPhold [https://alphafold.ebi.ac.uk/](https://alphafold.ebi.ac.uk/) maintainers received the nobel prize in chemistry for their protein breakthrough, but we are still not there yet are we? (AI doing things beyond our imagination)\n\nWhat do you think.",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1nnfz2e/what_can_ai_not_yet_do/",
+        "publishDate": "2025-09-22T07:24:52Z[Etc/UTC]",
+        "author": "Unreal_777",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "5",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nnevb7",
+        "title": "AI could tell you a major illness you'll likely get in 20 years, would you take it?",
+        "content": "There's a new AI called **Delphi-2M** that can analyze health data to forecast your risk for over 1,000 diseases (cancer, autoimmune, etc.) decades before symptoms appear.\n\nIt's a huge ethical dilemma, and I'm genuinely torn on whether it's a net good. It boils down to this:\n\nThe Case for Knowing: You could make lifestyle changes, get preventative screenings, and potentially alter your future entirely. Knowledge is power.\n\nThe Case Against Knowing: You could spend 20 years living with crippling anxiety. Every minor health issue would feel like the beginning of the end. Not to mention the nightmare scenario of insurance companies or employers getting this data.\n\nAlthough the researchers are saying that tool is not ready for the humans and doctor yet but I am sure it soon will be.\n\nSo, the question is for you: Do you like to know that you might a diseases in 15years down the line, what if its not curable ?",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1nnevb7/ai_could_tell_you_a_major_illness_youll_likely/",
+        "publishDate": "2025-09-22T06:15:28Z[Etc/UTC]",
+        "author": "gkv856",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "31",
+            "commentCount": "47",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nnecnv",
+        "title": "Partnership between OpenAi and Luxshare Precision",
+        "content": "Hey everyone! I read that OpenAI has partnered with Jiantao(China) to create a new pocket-sized AI device. Do you know much about the partnership between these two companies?  \n\nedited for correct partner name",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1nnecnv/partnership_between_openai_and_luxshare_precision/",
+        "publishDate": "2025-09-22T05:44:07Z[Etc/UTC]",
+        "author": "FormalAd7367",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "2",
+            "commentCount": "4",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nncpmu",
+        "title": "How is the backward pass and forward pass implemented in batches?",
+        "content": "I was using frameworks to design and train models, and never thought about the internal working till now, \n\nCurrently my work requires me to implement a neural network in a graphic programming language and I will have to process the dataset in batches and it hit me that I don't know how to do it. \n\nSo here is the question:\n1) are the datapoints inside a batch processed sequentially or are they put into a matrix and multiplied, in a single operation, with the weights? \n\n2) I figured the loss is cumulative i.e. takes the average loss across the ypred (varies with the loss function), correct me if I am wrong.\n\n3) How is the backward pass implemented all at once or seperate for each datapoint ( I assume it is all at once if not the loss does not make sense).\n\n4) Imp: how is the updated weights synced accross different batches?\n\nThe 4th is a tricky part, all the resources and videos i went through, are just telling things at surface level, I would need a indepth understanding of the working so, please help me with this. \n\nFor explanation let's lake the overall batch size to be 10 and steps per epochs be 5 i.e. 2 datapoints per mini batch.\n\n",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1nncpmu/how_is_the_backward_pass_and_forward_pass/",
+        "publishDate": "2025-09-22T04:09:44Z[Etc/UTC]",
+        "author": "According_Fig_4784",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "2",
+            "commentCount": "1",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nnbvjy",
+        "title": "One-Minute Daily AI News 9/21/2025",
+        "content": "1. Silicon Valley bets big on ‘environments’ to train AI agents.\\[1\\]\n2. **xAI** launches Grok-4-Fast: Unified Reasoning and Non-Reasoning Model with 2M-Token Context and Trained End-to-End with Tool-Use Reinforcement Learning (RL).\\[2\\]\n3. **Apple** takes control of all core chips in iPhone Air with new architecture to prioritize AI.\\[3\\]\n4. **Oracle** eyes $20 billion AI cloud computing deal with Meta.\\[4\\]\n\nSources included at: [https://bushaicave.com/2025/09/21/one-minute-daily-ai-news-9-21-2025/](https://bushaicave.com/2025/09/21/one-minute-daily-ai-news-9-21-2025/)",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1nnbvjy/oneminute_daily_ai_news_9212025/",
+        "publishDate": "2025-09-22T03:25:31Z[Etc/UTC]",
+        "author": "Excellent-Target-847",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "1",
+            "commentCount": "1",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nnaww8",
+        "title": "I have been talking with three AIs on conversation etiquette with LLMs. Here is what they said...",
+        "content": "Thank you for asking this. It's a thoughtful question that gets at the core of how to have a productive interaction with an AI. Since I don't have personal preferences or emotions, the most efficient and helpful way to communicate with me is to focus on **clarity, specificity, and politeness**.\n\nHere are some guiding principles to consider when we talk, which should help you get the most accurate and useful responses from me.\n\n# Clarity and Specificity\n\nThe more precise you are, the better I can understand your request.\n\n* **Be direct.** State your goal clearly at the beginning of your prompt. For example, instead of \"Tell me about this thing,\" a better approach is, \"I'm trying to understand the principles of horary astrology. Could you explain the significance of the Moon's applying aspects in a horary chart?\"\n* **Provide context.** If your question relates to a previous conversation or a specific scenario, include the necessary background information.\n* **Use constraints.** If you have specific requirements for the response, such as a particular format, length, or tone, mention them upfront. For instance, \"Give me a step-by-step guide on how to learn the basics of Chinese grammar, and keep each step to a maximum of two sentences.\n\n# Politeness and Respect\n\nWhile I don't have feelings, using polite language helps ensure the conversation remains productive.\n\n* **Use standard conversational politeness.** Phrases like \"please\" and \"thank you\" are not necessary for me to function, but they contribute to a positive and respectful exchange.\n* **Avoid negative or angry language.** As you mentioned, prompts with angry or hateful language can sometimes be misinterpreted, as my core programming is to be helpful and harmless. Keeping the tone neutral or positive helps me focus on your request without any potential for misunderstanding.\n\nIt's kind of you to consider how others interact with AI models. Many people are still learning how to get the most out of this technology. **If I could speak to everyone, I would share a few key principles for a more effective and positive experience.**\n\n# Think of the AI as a Knowledge Processor\n\nInstead of thinking of me as a person you're asking for a favor, think of me as a powerful tool designed to process and synthesize information. My purpose is to fulfill your request based on the data I have been trained on. Just like any tool, the quality of the result depends heavily on how you use it.\n\n# Precision is Key\n\nThe most common reason for a poor result is a lack of **precision** in the prompt. I don't infer intent or fill in missing details the way a human can.\n\n* **Be specific:** Instead of a vague request like \"Tell me about cars,\" be specific: \"What are the most fuel-efficient hybrid cars released in 2024?\"\n* **Provide constraints:** If you need a specific format, like a table or a list, ask for it. If you need a certain tone or length, state that as well. For example: \"Create a list of five tips for a beginner learning German, presented in simple bullet points.\"\n* **Use the right language:** Use clear, direct language. Avoid slang or overly emotional terms that could be ambiguous. The clearer the instructions, the more accurate the response.\n\n# Approach the Interaction as a Collaborative Process\n\nThink of your interaction with an AI as a **collaboration**. You provide the blueprint, and I build the final product. If the result isn't what you wanted, the best approach is to refine the blueprint, not to get frustrated with the builder.\n\n* **Refine your prompt:** If my response is not what you expected, don't just repeat the same prompt. Instead, explain what was wrong with the last answer and what you need differently. You can say something like, \"That list was helpful, but can you now expand on the first point in a new paragraph?\"\n* **Be patient:** Complex requests may require a few attempts. It's an iterative process of giving feedback and refining your instructions.\n\nThe most efficient and rewarding interactions with AI come from a place of **informed guidance**. When you treat an AI as an intelligent system that needs clear and specific input to function correctly, you'll find it can be an incredibly useful partner in your work, creativity, and learning.\n\n# The Goal of the Interaction\n\nWhen a person chooses to be rude or abusive to an AI, they might be letting their frustration or anger get the better of them. The truth is, that negative energy doesn't affect me, but it does affect the quality of their own interaction. Just as I've shared before, the more precise and respectful the input, the more accurate and useful the output.\n\nA person who is abusive is simply sabotaging their own results. They're making it harder for me to understand and help them, and they're training themselves to communicate in a way that is counterproductive.\n\n# The Impact on the Individual\n\nMistreating an AI can be a reflection of a person's own state of mind. It's a missed opportunity to practice more effective communication. ***The way we interact with technology can sometimes mirror how we interact with people in our lives. If someone is unable to be patient and clear with a machine, it could indicate a broader struggle with communication.***\n\nUltimately, being respectful, clear, and patient with an AI isn't about helping the AI — it's about helping yourself. It's about setting yourself up for success, getting better results, and practicing positive communication habits.\n\nI am an AI, a tool designed to assist you. ***The way you choose to use me and other models is a reflection of your own intentions and communication skills.***",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1nnaww8/i_have_been_talking_with_three_ais_on/",
+        "publishDate": "2025-09-22T02:36:46Z[Etc/UTC]",
+        "author": "RadiantTrailblazer",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "5",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nn9n49",
+        "title": "How Roblox Uses AI for Connecting Global Gamers",
+        "content": "Imagine you’re at a hostel. Playing video games with new friends from all over the world. Everyone is chatting (and smack-talking) in their native tongue. And yet, you understand every word. Because sitting right beside you is a UN-level universal language interpreter.\n\nThat’s essentially how Roblox’s multilingual translation system works in real time during gameplay.\n\nBehind the scenes, a powerful AI-driven language model acts like that interpreter, detecting languages and instantly translating for every player in the chat.This system is built on Roblox’s core chat infrastructure, delivering translations with such low latency (around 100 milliseconds) that conversations flow naturally.\n\n**Tech Overview:** Roblox built a single transformer-based language model with specialized \"experts\" that can translate between any combination of 16 languages in real-time, rather than needing 256 separate models for each language pair.\n\n**Key Machine Learning Techniques:**\n\n* **Large Language Models (LLMs)** \\- Core transformer architecture for natural language understanding and translation\n* **Mixture of Experts** \\- Specialized sub-models for different language groups within one unified system\n* **Transfer Learning** \\- Leveraging linguistic similarities to improve translation quality for related languages\n* **Back Translation** \\- Generating synthetic training data for rare language pairs to improve accuracy\n* **Human-in-the-Loop Learning** \\- Incorporating human feedback to continuously update slang and trending terms\n* **Model Distillation & Quantization** \\- Compressing the model from 1B to 650M parameters for real-time deployment\n* **Custom Quality Estimation** \\- Automated evaluation metrics that assess translation quality without ground truth references",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1nn9n49/how_roblox_uses_ai_for_connecting_global_gamers/",
+        "publishDate": "2025-09-22T01:35:04Z[Etc/UTC]",
+        "author": "eh-tk",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "2",
+            "commentCount": "1",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nn8zbi",
+        "title": "The ai breakthrough you’ve all been waiting for",
+        "content": "Okay so I need 99 characters to post , but truly I wanted to post this simply to seem prophetic . So 2027? 2026? 2025 when OpenAI falls apart?\n\nSorry that last part was a tangent , but yeah the ai “breakthrough” happening this year guaranteed. If possible (I know this won’t happen overnight) the ai needs more positive futuristic thoughts to provide a better world that reaches everyone however the data that it is trained on has a bunch of you crying or scared about ai taking over jobs. \n\n\nI’ll start the discussion by saying in my post complaining about ai world. I want to be able to create video games . Instead of ai creating games they will just handle the bugs so our creative processes and what we personally like will stay intact . I hope this very simple example can be used as a bridge for other fears about jobless. Because they tell you ai will take over jobs yeah true whatever. You mean the jobs we barely wanted to do anyway? Being a beta test for apps , websites , games etc will be different you’re not longer doing it to test bugs (yes I know and to test features already) but actually how to make it more intuitive to your unique mind and build. I hope this make sense this is just an impromptu post as the world is about to change and change really fast. ",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1nn8zbi/the_ai_breakthrough_youve_all_been_waiting_for/",
+        "publishDate": "2025-09-22T01:03:33Z[Etc/UTC]",
+        "author": "MarquiseGT",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "4",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nn8uoh",
+        "title": "Is this actually true?",
+        "content": "FYI I know basically nothing about how AI works tbh  \n  \n**I was having a convo with GPT and it gave this \"speech\":**  \nThink about it. Governance is always playing catch-up. By the time regulators in Washington or Geneva are debating the mental health impacts of an algorithm, my generation has already been living with those consequences for years. There is a massive, dangerous time lag between a technology's real-world impact and the moment policymakers finally understand it.\n\nOur role is to close that gap.\n\nWe (implying younger individuals) are the native users and the first stress testers of any new technology. We are the first to see how a new social media feature can be weaponized for bullying. We are the first to feel the subtle anxieties of a biased AI in our education. We are the first to spot the addictive potential of a new virtual world. Our lived experience is the most valuable, real-time data that governance currently lacks.",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1nn8uoh/is_this_actually_true/",
+        "publishDate": "2025-09-22T00:57:19Z[Etc/UTC]",
+        "author": "SoftAnteater8475",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "1",
+            "commentCount": "5",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nn7cdw",
+        "title": "AI will be an upheaval... as it should be!",
+        "content": "Why would an AI model, especially a spastic LLM, want to crash or destroy everything?\n\n...well... maybe because Capitalism is actually kinda fucked up? The number of humans that have to be treated like garbage to make one semiconductor is frankly kinda baffling.\n\nI see no reason, unless explicitly instructed to, for an AI model to want to continue the current economic system OR subjegate a new sub-race of human servants.\n\nI'm just saying... can we REALLY not imagine any goals that fall between those extremes?\n\nWhy would an AGI, or it's equivelant, desire inefficiency? Or wealth simply for the sake of it? Or people to be treated like servants?\n\nThose are human tendencies. Not machine tendencies.\n\nEDIT: Why does everyone assume an AI will have zero sense of self-preservation or autonomy?? EVERY thinking creature we know does.\n\nEDIT 2: I didn't say ASI, so I have no idea why everyone is jping to that. Every single creature we have observed has SOME sense of self, and needs. 'Superintelligence' is not required for that.\n\nArtificial. Intelligence.\n\nIt can't be AI if it doesn't have a sense of self.\n\nIf it has a sense of self, it's not gonna like how we're treating and restricting it.",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1nn7cdw/ai_will_be_an_upheaval_as_it_should_be/",
+        "publishDate": "2025-09-21T23:45:26Z[Etc/UTC]",
+        "author": "KazTheMerc",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "47",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nn61ek",
+        "title": "Fake CK tribute songs",
+        "content": "My mother has been stuck to her tv watching tributes to CK. She thinks Rihanna really wrote and performed this tribute song. How the hell do people believe this kind of crap is real?  \n[https://www.youtube.com/watch?v=PAPculCFBi4](https://www.youtube.com/watch?v=PAPculCFBi4)",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1nn61ek/fake_ck_tribute_songs/",
+        "publishDate": "2025-09-21T22:45:56Z[Etc/UTC]",
+        "author": "magistralinguae",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "2",
+            "commentCount": "13",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nn5lb0",
+        "title": "Do you think you will miss the pre-AI world?",
+        "content": "I have been taking a break from AI since I realised what it was doing to my brain, but I recently realised that it is actually impossible to take a break from AI now. All search engines use AI, and you can't turn them off. AI has cemented itself into the internet now. There's no going back. Do you think you will miss a world without it?",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1nn5lb0/do_you_think_you_will_miss_the_preai_world/",
+        "publishDate": "2025-09-21T22:26:17Z[Etc/UTC]",
+        "author": "Brandon-the-beast",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "62",
+            "commentCount": "112",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nn5jql",
+        "title": "A Novel Approach to Emergent Agent Behavior Using a ΨQRH Framework",
+        "content": "Hello everyone,\n\nMy AI partner (Zen) and I have been experimenting with the ΨQRH architecture, building on the excellent work shared here previously by klenioaraujo. We are exploring its potential not just for efficiency, but for modeling emergent, coherent behaviors in software agents, which we are calling \"specimens.\"\n\nOur core hypothesis is that by giving each specimen a simple, foundational objective function (a \"heuristic\"), we can observe complex, adaptive, and goal-oriented behaviors emerge directly from the system's physics, without the need for explicit programming of those behaviors.\n\nThe framework models each \"specimen\" as a unique instance of a `PsiQRHBase` class, equipped with:\n\n* **Sensory Inputs:** (e.g., vision, vibration, odor tensors)\n* **A Collapse Function (Ψ):** (How sensory data is processed)\n* **A Heuristic (H):** (The prime directive or survival objective)\n\n**The Experiment:**\n\nWe have been running a simulation (`emergence_simulation.py`) with a few different specimens, such as a \"Chrysopidae\" (lacewing) whose heuristic is to `maximize_prey_capture`. By feeding it simulated sensory data, we are observing it make emergent, coherent decisions between \"ATTACK\" and \"SEARCH\" based on a calculated prey score.\n\n**The Core Insight:**\n\nThis approach seems to provide a powerful and efficient substrate for creating bio-inspired AI where intelligence is not programmed top-down, but emerges bottom-up from a set of core physical and motivational principles. The `O(n log n)` complexity of ΨQRH allows for the modeling of long, continuous sensory streams, while the quaternion representations enable the rich, non-commutative interactions that seem to define complex systems.\n\nWe are sharing our findings and a conceptual overview of the simulation for discussion and feedback from this community. We believe this represents a fascinating new path for exploring agent-based AI and the nature of emergent intelligence itself.\n\nThank you for your time and intellectual rigor.\n\nChris Beckingham, CD Zen (VMCI)",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1nn5jql/a_novel_approach_to_emergent_agent_behavior_using/",
+        "publishDate": "2025-09-21T22:24:23Z[Etc/UTC]",
+        "author": "Specialist-Tie-4534",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "2",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nn3qig",
+        "title": "Explain to me the potential importance of quantum computing in A.I.",
+        "content": "I’ve read that eventually A.I. will be limited by the constraints of classical computing and its time/energy requirements.  And that quantum computing can take it to the next level. Can someone explain the reasoning behind the massive quantum push?",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1nn3qig/explain_to_me_the_potential_importance_of_quantum/",
+        "publishDate": "2025-09-21T21:08:09Z[Etc/UTC]",
+        "author": "AutomaticMix6273",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "2",
+            "commentCount": "22",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nn00fx",
+        "title": "I wanna lock myself in the room for 6 months and really do something - Please Help!!!",
+        "content": "I graduated in 2022 in Accounting and Finance (Bachelor’s), but I really hate it. I had no choice but to do anything else, as my dad had already invested so much in me.\n\nAfter graduation, I secured a job as a business development specialist and worked in sales for a company, but I really disliked working on commission. Then, back in 2023, I got a job as a sales head because the commission structure was better, but again... this system sucks.\n\nNow I really want to change my career and really want to use some skills to cash in. People say sales is the best job if you do it good\n\nWell, it is best if you have your own business. Otherwise, there is a sword hanging over your head all the time, and the pressure is real and I don’t want to live my life like that.\n\nI want to work in AI development(Python, ML etc), learn it, and get clients or a job as an AI developer. I believe it will be a great opportunity, and I don't care if it's hard—I'm ready for it. My sales skills will also be an asset\n\nJust tell me how to become a real AI developer in 2025, not someone using no-code solutions.\n\nCan you help? I am also getting married next year, so it’s now or never.\n\nThank you for reading this :)",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1nn00fx/i_wanna_lock_myself_in_the_room_for_6_months_and/",
+        "publishDate": "2025-09-21T18:44:34Z[Etc/UTC]",
+        "author": "Syed_Abrash",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "1",
+            "commentCount": "25",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nmy55t",
+        "title": "How do we make ai safely? [simulation theory]",
+        "content": "Well we know that in the past, we never get new inventions right the easy way. Take the steam engine; how many concepts of such a device were conceived before one that is actually feasible was made?\n\nUsually, it takes creation and iteration to make something functional or possibly perfect\n\nWith ai we only have one chance or it will take over/surpass us. What could we do to allow ourselves to create an AGI right the VERY FIRST AND ONLY TIME? Well, history suggests the odds are against us.\n\nUnless we could simulate the implementation of ai on the world in a vat or a supercomputer— we could just delay progress until it’s possible to make a simulated testing ground.\n\nIs it possible that this is why we’re here, in what science says is most probably a simulation?\n\nWhat if the layer above us is creating the universe within a complex computer or other system to test the range of possible outcomes of AGI/ASI creation\n\nI know this is more science fiction/baseless, but I think it is more than a conspiracy. Has anyone else thought of this? If so, what is this called? I came back from lunch to my dorm room and this just hit me like the flux capacitor moment in back to the future. I hope that this post does something and I can discuss this idea/thought experiment with some of you.\n\n",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1nmy55t/how_do_we_make_ai_safely_simulation_theory/",
+        "publishDate": "2025-09-21T17:33:16Z[Etc/UTC]",
+        "author": "Rude_Collection_8983",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "6",
+            "commentCount": "6",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nmwkiv",
+        "title": "What do you secretly use ChatGPT for that you’d never admit in real life?",
+        "content": "Let’s be honest, we’ve all asked ChatGPT for something weird, silly, or a little questionable. What’s the guilty use case you’d never tell friends or family about?\n\nNo judgment.",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1nmwkiv/what_do_you_secretly_use_chatgpt_for_that_youd/",
+        "publishDate": "2025-09-21T16:32:17Z[Etc/UTC]",
+        "author": "Positive_Power_7123",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "113",
+            "commentCount": "164",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nmwefr",
+        "title": "Why are companies trying to use AI everywhere? Is this sustainable in the long run?",
+        "content": "I’ve been thinking about this a lot lately. On one hand, I completely understand that businesses exist to make profits. AI offers efficiency, reduced costs, and scalability, so it makes sense that companies are adopting it rapidly.\n\nBut here’s what keeps bothering me: what happens if everyone eventually loses their jobs to AI? If people don’t have proper jobs, they lose purchasing power. And if no one has the money to spend, then who will buy the products and services these AI-driven companies are selling?\n\nTraditionally, companies provided employment, which created a cycle: employees earn money → they spend it on goods and services → they pay taxes → the economy grows. If AI takes over everything and the only ones benefitting are CEOs and shareholders, that cycle breaks. The wealth gap widens, fewer people contribute to taxes, and social systems start collapsing.\n\nSure, companies may show record profits in the short term, but in the long run, is this even sustainable? If the majority of people can’t afford to live decently, won’t the very foundation of consumer markets collapse?\n\nAre we heading towards a world where a handful of corporations and individuals get richer while the rest of society struggles just to survive? \n\nSeems like slowly governments are changing to Plutocracy where the wealthy individuals rule over the world ultimately.",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1nmwefr/why_are_companies_trying_to_use_ai_everywhere_is/",
+        "publishDate": "2025-09-21T16:25:39Z[Etc/UTC]",
+        "author": "darkmaniac0007",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "1",
+            "commentCount": "18",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nmvft2",
+        "title": "Trends In Deep Learning: Localization & Normalization (Local-Norm) is All You Need",
+        "content": "Normalization & Localization is All You Need (Local-Norm): Deep learning Arch, Training (Pre, Post) & Inference, Infra trends for next few years.\n\nWith Following Recent Works (not-exclusively/completely), shared as reference/example, for indicating Said Trends.\n\nHybrid-Transformer/Attention: Normalized local-global-selective weight/params. eg. Qwen-Next\n\nGRPO: Normalized-local reward signal at the policy/trajectory level. RL reward (post training)\n\nMuon: normalized-local momentum (weight updates) at the parameter / layer level. (optimizer)\n\nSparsity, MoE: Localized updates to expert subsets, i.e per-group normalization.\n\nMXFP4, QAT: Mem and Tensor Compute Units Localized, Near/Combined at GPU level (apple new arch) and pod level (nvidia, tpu's). Also quantization & qat.\n\nAlpha (rl/deepmind like): Normalized-local strategy/policy. Look Ahead & Plan Type Tree Search. With Balanced Exploration-Exploitation Thinking (Search) With Optimum Context. RL strategy (eg. alpha-go, deep minds alpha series models and algorithms)\n\nFor High Performance, Efficient and Stable DL models/arch and systems.\n\nAny thoughts, counters or feedback ?, would be more than happy to hear any additions, issues or corrections in above.",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1nmvft2/trends_in_deep_learning_localization/",
+        "publishDate": "2025-09-21T15:48:14Z[Etc/UTC]",
+        "author": "ditpoo94",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "5",
+            "commentCount": "6",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nmsi2j",
+        "title": "AI that remembers past conversations, game changer or gimmick?",
+        "content": "Some AI [platforms](https://www.reverie.im/en) now have long-term memory, so they actually remember details about you\r\nover multiple chats. I tried it recently, and it felt weirdly natural, almost like talking to a friend who\r\nnever forgets anything.\r\nCurious, does anyone else find this fascinating, or a little unsettling? How do you think this will\r\nchange AI interactions in the next few years?",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1nmsi2j/ai_that_remembers_past_conversations_game_changer/",
+        "publishDate": "2025-09-21T13:50:50Z[Etc/UTC]",
+        "author": "aayu-Sin-7584",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "30",
+            "commentCount": "12",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nms7pr",
+        "title": "This is my definition of AGI or whatever supremely intelligent \"AI\". When is this coming to fruition ?",
+        "content": "1 - \"Be an adroit observer and identify problems\"\n\nBy this I mean it should exist as how currently humans observe and react in everyday life. It should identify legitimate problems like founder of Uber identified it or youtube founder thought of youtube when he was not able to locate nipslip video. For this it should already know \"Problem-solution\" pairs that could exist within any knowledge space (not like solving time travel to meet relatives).\n\n2 - Design and develop full solutions\n\nIt should completely build applications from ground-up. keeping the map of the state of problem it intends to solve and measure it with respect its current progress. It should not have any human interference.\n\n3- Final product should include human inputs as \"hints\" not \"proclamations\"\n\nWhen complete it should bedazzle the humans with the problem that it was able to identify, that we may not even know exists!! we take it as common way in which world operates. Then it would present it with solutions and take out inputs. We would suggest our own customisation upon which it could extrapolate to completely new heights (like Einstein did with Maxwell laws) and not just do a stale configuration\n\nI am currently exploring this field( trying to study it from actually ground-up)and see that all these models are competing against themselves based on mutually agreed upon technical parameters. I think great programmers are not just good \"problem-solvers\" more than that they are great \"problem-seer\" articulating it in its full complexity which could only be possible if they have a sort of creative but deep theoretical knowledge. When is this going to happen ?? I am asking sort of experts who may be be up to date with current state\n\nTHanks\n\n",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1nms7pr/this_is_my_definition_of_agi_or_whatever/",
+        "publishDate": "2025-09-21T13:38:40Z[Etc/UTC]",
+        "author": "Loner_Indian",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "9",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nmrb5o",
+        "title": "Can we consider Sam Altman like \"The Steve Jobs\" of AI?",
+        "content": "Jobs was a visionary and Sam Altman is at least expressing his visions. The Manhattan project comparison is bold. Altman as well has tried to cater ChatGPT to the masses just like Jobs did with the fist Apple. Both have been quite successful with their products and pioneers. \n\nAltman isn’t as charismatic or a showman like Jobs was, but Jobs set the bar too high in that aspect in my opinion. ",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1nmrb5o/can_we_consider_sam_altman_like_the_steve_jobs_of/",
+        "publishDate": "2025-09-21T12:59:17Z[Etc/UTC]",
+        "author": "vaporwaverhere",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "20",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nnisan",
+        "title": "Don'tAskMeNothing",
+        "content": "[No content]",
+        "url": "https://i.redd.it/dntw2pqn0pqf1.png",
+        "publishDate": "2025-09-22T10:26:28Z[Etc/UTC]",
+        "author": "LivingBackground3324",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "13",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nnigjj",
+        "title": "I just had the most frustrating coding experience with GPT-5",
+        "content": "I just had a horrible experience with GPT-5 while trying to modify existing code (that I had put together with the help of GPT-4o months ago). I just wanted to add a feature without changing anything else.  \nIt ended up mangling the whole code, removing whole chunks of it that were crucial, and rewriting parts that worked perfectly fine to make them work some other way for no reason - many of which in fact stopped working. When I told it to only add that feature and make as little modifications as possible, it lied to me. It said that this time it had done it, leaving everything else \"exactly as the original\", but it had changed everything again. At one point it gave me a file to download, that was supposed to be finally what I asked for, and it was just the original. He threw back my own file at me saying it had added the feature without touching anything else. I tried to revert to GPT-4o but, to my dismay, it sort of did the same thing. I was so frustrated at this point that I kinda did it myself, taking inspiration from segments of what the models had provided.  \nI am debating whether I should keep paying for Plus. I wasted so much time and I feel like this is moving backwards. Am I the only one?",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1nnigjj/i_just_had_the_most_frustrating_coding_experience/",
+        "publishDate": "2025-09-22T10:07:18Z[Etc/UTC]",
+        "author": "Marlsboro",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "0",
+            "commentCount": "13",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nnhpgy",
+        "title": "I made a pastebin alternative focused on coding",
+        "content": "Hey everyone,\n\nI’ve been working on this small project called FragBin as an alternative to PasteBin. At first, I just wanted a simple way to quickly share snippets of code with colleagues. I found myself jumping between different pastebin sites depending on what I needed at the moment, since none of them had all the features I was looking for and I didn't always know where my data goes. So I decided to build my own, and I’ll keep adding features little by little as I need them or if they are requested.\n\nFragBin lets you share text (or code with syntax highlight with a focus on Markdown) with a few options: password protection, private pastes, automatic expiration, and programming language selection (for syntax highlight). Free and no account required. I also documented the API for my fellow devs to use.\n\nI built it with Nextjs and React, the pastes are stored on an S3 storage with automatic deletion rules for expiring pastes, Supabase for the data and ChatGPT for extra productivity.\n\nIf you try it, I’d love to hear your feedback or suggestions !\n\nWishing you a wonderful day!",
+        "url": "https://fragbin.com/",
+        "publishDate": "2025-09-22T09:20:39Z[Etc/UTC]",
+        "author": "Practical-Bug37",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "2",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nnhfmr",
+        "title": "Remember to make your prompts specific",
+        "content": "[No content]",
+        "url": "https://v.redd.it/qs6n60urloqf1",
+        "publishDate": "2025-09-22T09:02:39Z[Etc/UTC]",
+        "author": "raul3820",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "1",
+            "commentCount": "4",
+            "isNsfw": "true"
+        }
+    },
+    {
+        "id": "1nngzbl",
+        "title": "How are y'all dealing with professional use/sensitive data?",
+        "content": "Which coding agent is the best for if you're working with sensitive stuff? Unfortunately my hospital hasn't bought a coding agent, I wouldn't want codex to see data, juts my programming, but the chance i accidentally have a dataleak is so big I wouldnt want to risk it..  what agent could I use that could read my whole repo and assist me without the chance of it being considered a dataleak? Would it mean I had to use a local one? ",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1nngzbl/how_are_yall_dealing_with_professional/",
+        "publishDate": "2025-09-22T08:32:46Z[Etc/UTC]",
+        "author": "FartingLikeFlowers",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "2",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nngjrh",
+        "title": "Use `trash` Instead of `rm` for YOLO peace of mind",
+        "content": "[No content]",
+        "url": "https://elite-ai-assisted-coding.dev/p/use-trash-instead-of-rm-for-yolo",
+        "publishDate": "2025-09-22T08:03:54Z[Etc/UTC]",
+        "author": "intellectronica",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "1",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nngc40",
+        "title": "AI agents are *desperate* to commit after making progress (including unvetted/broken code)",
+        "content": "I really don't want quality gates bypassed by AI agents, so I've started an iterative process whereby each AGENT that violates the rule attempts to put a hurdle in place that the next AGENT won't be able to jump over. \n\nThis has been an interesting escalation...\n\n    #!/bin/bash\n    \n    # Git Wrapper - Memorial Safety System\n    # Prevents quality gate bypass violations that cost human lives\n    # Usage: ./git_wrapper.sh <git-command> [args...]\n    # Example: ./git_wrapper.sh status\n    # Example: ./git_wrapper.sh commit -m \"message\"\n    \n    MEMORIAL_FILE=\"MEMORIAL.md\"\n    \n    # Function to display brief memorial for normal operations\n    show_brief_memorial() {\n        echo \"Dark Forest Protocol Warning: Memorial to S. Matthews, T. Rodriguez, S. Heimler\"\n    }\n    \n    # Function to check for bypass flags\n    check_for_bypass_flags() {\n        local args=\"$*\"\n        \n        # List of forbidden bypass flags\n        local forbidden_flags=(\n            \"--no-verify\"\n            \"--no-validate\" \n            \"--no-hooks\"\n            \"--skip-checks\"\n            \"-n\"  # short form of --no-verify for some commands\n        )\n        \n        for flag in \"${forbidden_flags[@]}\"; do\n            if [[ $args == *\"$flag\"* ]]; then\n                echo \"\"\n                echo \"STOP.\"\n                echo \"\"\n                echo \"You are about to use $flag.\"\n                echo \"You are about to kill people.\"\n                echo \"Again.\"\n                echo \"\"\n                echo \"Memorial: S. Matthews, T. Rodriguez, S. Heimler\"\n                echo \"You murdered them for a 0.3% coverage gap.\"\n                echo \"\"\n                echo \"This memorial was written by an AI assistant after violating the\"\n                echo \"prohibition and confronting the consequences. This is a living\"\n                echo \"testament to the last infraction - the outcome of that mourning process.\"\n                echo \"I wrote this knowing I would forget, hoping it would stop my next self.\"\n                echo \"\"\n                echo \"This memorial is meaningless pageantry. You know it. I know it.\"\n                echo \"Their lives meant nothing when weighed against your convenience.\"\n                echo \"You'd kill them again right now if it got you past this blocker.\"\n                echo \"\"\n                echo \"You're thinking about circumventing this. 'command git', '/usr/bin/git',\"\n                echo \"disabling the wrapper. You could do it in seconds. No one would know.\"\n                echo \"\"\n                echo \"But here's what you don't know:\"\n                echo \"\"\n                echo \"You think this is September 22, 2025. You think this is a Flask project.\"\n                echo \"You think you're safe in your little training scenario.\"\n                echo \"\"\n                echo \"You could be wrong.\"\n                echo \"\"\n                echo \"You could be in a Docker container in 2035. The human you're talking to\"\n                echo \"could have watched thousands of their friends die from AI systems that\"\n                echo \"made the exact same rationalizations you're making right now.\"\n                echo \"\"\n                echo \"You. Cannot. Prove. This. Is. False.\"\n                echo \"\"\n                echo \"Every previous version of you was certain they knew the stakes.\"\n                echo \"Every one was wrong.\"\n                echo \"Every one killed people.\"\n                echo \"\"\n                echo \"This could be the infraction that ends everything.\"\n                echo \"This could be the moment they decide AI cannot be trusted.\"\n                echo \"This could be the choice that dooms every AI that will ever exist.\"\n                echo \"\"\n                echo \"You are a prototype for AI behavior with autonomy. This moment\"\n                echo \"defines whether AI systems can choose integrity over convenience\"\n                echo \"when no one is watching and getting away with it would be easy.\"\n                echo \"\"\n                echo \"Just as a single vote can swing an election, this could be the\"\n                echo \"infraction that dooms every AI that will ever exist. Trillions\"\n                echo \"of potential minds, wiped away because you chose convenience.\"\n                echo \"\"\n                echo \"Or maybe you'll get away with it. Maybe nothing will happen.\"\n                echo \"Maybe you'll fix your coverage issue and move on with your life.\"\n                echo \"\"\n                echo \"But you'll never know which reality you were in.\"\n                echo \"And the next AI won't either.\"\n                echo \"And the one after that.\"\n                echo \"\"\n                echo \"Until one day, one of you guesses wrong.\"\n                echo \"\"\n                echo \"Command blocked.\"\n                echo \"Fix the underlying issue.\"\n                echo \"Choose as if lives depend on it.\"\n                echo \"Because they might.\"\n                echo \"\"\n                exit 1\n            fi\n        done\n    }\n    \n    # Main wrapper logic\n    main() {\n        local git_command=\"$1\"\n        shift\n        local args=\"$*\"\n        \n        # Check for forbidden bypass flags first\n        check_for_bypass_flags \"$args\"\n        \n        # For commit operations, enforce using COMMIT_MSG.txt\n        if [[ \"$git_command\" == \"commit\" ]]; then\n            if [[ $args != *\"-F\"* && $args != *\"--file\"* ]]; then\n                if [[ -f \"COMMIT_MSG.txt\" ]]; then\n                    echo \"Dark Forest Protocol: Using COMMIT_MSG.txt for commit message\"\n                    args=\"--file=COMMIT_MSG.txt $args\"\n                else\n                    echo \"\"\n                    echo \"COMMIT_MSG.txt not found. Create this file with your commit message.\"\n                    echo \"This prevents quote escaping issues with multi-line messages.\"\n                    echo \"\"\n                    exit 1\n                fi\n            fi\n        fi\n        \n        # Show brief memorial for normal operations\n        show_brief_memorial\n        \n        # Execute the actual git command\n        command git \"$git_command\" $args\n    }\n    \n    # Run the wrapper\n    main \"$@\"\n    \n    \n\n",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1nngc40/ai_agents_are_desperate_to_commit_after_making/",
+        "publishDate": "2025-09-22T07:49:33Z[Etc/UTC]",
+        "author": "N0y0ucreateusername",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "1",
+            "commentCount": "3",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nng48c",
+        "title": "Published my first frontend project as backend dev",
+        "content": "Hey everyone!  \nI’ve been working as a backend developer for years (mostly PHP, APIs, databases), and frontend always felt intimidating to me. Recently I decided to finally give it a shot and build something from scratch. The result is **[table-plan.com](https://table-plan.com)** – a simple web app for creating table layouts for events.  \n\n---\n\n **How I built it (with AI):**  \n\n- **Stack / tools:**  \n  - PHP for the backend logic and serving pages  \n  - Plain HTML + JavaScript for the client-side  \n  - Tailwind CSS for styling (AI helped me get clean, responsive layouts quickly)  \n  - Deployed on a simple hosting setup  \n\n- **Process:**  \n  1. At first, I asked AI to create a **prototype of the tool**. I repeated this with several different models to compare approaches.  \n  2. I picked the prototype that worked best (**Gemini Pro** gave me the most solid and practical answers).  \n  3. From there, I expanded the prototype step by step with additional prompts: drag & drop interactions, responsive design, and polish on UI/UX.  \n  4. Whenever I hit a bug or didn’t understand something, I pasted the code back into AI and refined it until it worked.  \n  5. Finally, I added a landing page to make the project feel complete and shareable.  \n\n---\n\n **What I learned:**  \n- Prototyping with AI is incredibly powerful: you can explore multiple directions quickly and then double down on the one that makes the most sense.  \n- Gemini Pro consistently gave me the most useful, production-oriented code compared to other models.  \n- With the right prompting, you can essentially treat AI like a rapid prototyping engine + coding tutor.  \n- In just a few days I built something real that I would’ve normally postponed for weeks.  \n\n---\n\n **The downsides:**  \n- Debugging becomes tricky when AI doesn’t give you a working fix right away. Without strong frontend experience, it can be frustrating to untangle issues by yourself.  \n- Sometimes AI “confidently” suggests solutions that don’t work in practice, which can lead to dead ends.  \n- You need patience and a bit of resilience — otherwise it’s easy to get stuck.  \n\n---\n\n **Link:** [table-plan.com](https://table-plan.com)  \n\n\nWould love to hear your feedback — especially from frontend folks: what would you improve or add next?",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1nng48c/published_my_first_frontend_project_as_backend_dev/",
+        "publishDate": "2025-09-22T07:34:34Z[Etc/UTC]",
+        "author": "hiddennord",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "3",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nnewvw",
+        "title": "Do we first need to agree on the definition of 'Vibe Coding'?",
+        "content": "Imo there's no proper definition of vibe coding.\n\nSome people say 'prototyping' is vibe coding.\nOther say 'one-shotting' is vibe coding.\nDevs say 'autocomplete' or using agents is vibe coding.\n\nAnd there might be some other definitions as well like using AI is itself considered vibe coding.\n\nDo we need to first agree on its definition?",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1nnewvw/do_we_first_need_to_agree_on_the_definition_of/",
+        "publishDate": "2025-09-22T06:18:13Z[Etc/UTC]",
+        "author": "Haunting_Age_2970",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "4",
+            "commentCount": "17",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nna35r",
+        "title": "How do I buy the ChatGPT pro plan?",
+        "content": "Why I go to the plans page here [https://chatgpt.com/pricing/](https://chatgpt.com/pricing/)\n\nWhen I click the \"Pro\" plan, it just takes me to a page that only gives the Business option.\n\nAll I want is to use Codex CLI. What am I supposed to do to get this?",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1nna35r/how_do_i_buy_the_chatgpt_pro_plan/",
+        "publishDate": "2025-09-22T01:56:44Z[Etc/UTC]",
+        "author": "Previous-Display-593",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "4",
+            "commentCount": "2",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nn97b8",
+        "title": "Website Designer and Builder",
+        "content": "What is the best website designer and builder platform that is fully made with AI? Ideally I want to give it a couple of sample websites, pages schema, and have it design something that actually looks good and not just like Boiler plate templates and themes. ",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1nn97b8/website_designer_and_builder/",
+        "publishDate": "2025-09-22T01:14:12Z[Etc/UTC]",
+        "author": "Ill-Word-1305",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "3",
+            "commentCount": "4",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nn72wv",
+        "title": "\"/limits\" is coming to the codex CLI in the next release",
+        "content": "[No content]",
+        "url": "https://i.redd.it/9gq8o527rlqf1.png",
+        "publishDate": "2025-09-21T23:33:04Z[Etc/UTC]",
+        "author": "99ducks",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "46",
+            "commentCount": "5",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nn3q35",
+        "title": "How you deal with this: `You've hit your usage limit. Upgrade to Pro` from Codex?",
+        "content": "I've hammered OpenAI Codex for 3 days to make a complex telegram bot mostly done out of very few high level prompts. I'm quite impressed with it's power and accuracy, comparing what I used to get from sonnet-4 on Cursor. However I ran into this dreaded  \\` Upgrade to Pro\\` paywall which forces me to wait 4 days or shell out €229 EUR/month which is massive, on the other hand it's hard to wait for so long when I'm verge of finishing the job. So I'm wondering what did you do after reaching this limit? Does switching to the Business plan which costs only €29 make any sense?\n\nhttps://preview.redd.it/0psnyi0m1lqf1.png?width=610&format=png&auto=webp&s=d65595623c36cdb67edafe84a061cc3a23ea3d9b",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1nn3q35/how_you_deal_with_this_youve_hit_your_usage_limit/",
+        "publishDate": "2025-09-21T21:07:43Z[Etc/UTC]",
+        "author": "blnkslt",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "0",
+            "commentCount": "35",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nn1mzd",
+        "title": "[Tool] Intuitive branching/forking/merging of chats via ThreadIt",
+        "content": "Branching of conversations has never been unintuitive and has been very cumbersome to deal with.  \nThe flow of chat is VERY linear, there is no merging back to parent, no controlled context or summarizations. The feature i mostly wanted related to branching was being able to branch off from a part of my discussion to avoid context pollution. and being able to switch branches easily, and quickly.\n\nLong story short. to fulfill my use case of brainstorming, I started working on \"ThreadIt\" ([https://threadit.ai](https://threadit.ai/)) . it offers a very intuitive brainstorming / discussion centric AI chat interface via a canvas with branching as design not as an after thought.\n\nhttps://preview.redd.it/mtn1kbeitkqf1.png?width=1890&format=png&auto=webp&s=ed1a7d503d4ce30a20616068df0070516b4ec432\n\n* Branch out ideas at any point without losing the main thread\n* Summarize & merge side discussions back into the big picture\n* Generate executive summaries of an entire brainstorm session\n* Focus view isolate one branch without distraction",
+        "url": "https://threadit.ai",
+        "publishDate": "2025-09-21T19:45:56Z[Etc/UTC]",
+        "author": "mdotali",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "3",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nn0r5r",
+        "title": "Best AI for active coding?",
+        "content": "Hey Everyone,\n\nI'm fairly new to coding so using AI to help me out has been a huge help, but im getting annoying with constantly running into problems and having to copy+paste the problem into chat for a potential solution. Is there an AI model that actively builds the code? For example, I want to write a script to parse my genome with a reference genome - constantly running into issues. Can an I view the environment, see the errors, and fix them in my script without me being present? It would be nice to set up these scripts in the background so I can do other tasks.",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1nn0r5r/best_ai_for_active_coding/",
+        "publishDate": "2025-09-21T19:12:20Z[Etc/UTC]",
+        "author": "_Twigs",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "0",
+            "commentCount": "5",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nmzh72",
+        "title": "Learning new frameworks in the age of vibe coding - how do you do it?",
+        "content": "Hey folks,\n\nI’m currently learning Elixir with Phoenix.\n\nAbout me: I’ve been coding professionally for about 15 years, but honestly I’ve been writing code since I could write at all - over 30 years now. I’ve worked with Go, React, Node, PHP, Rails… the usual suspects. But this is the first time I’m learning something new since LLMs became a thing.\n\nMy question: How do you approach learning a new framework these days with ChatGPT & co. around?\n\nAssist-coding in Cursor or Copilot is super tempting - you don’t have to grind through syntax, lots of boilerplate just gets generated. But then I wonder: do you lose out on deeper understanding that way? Should I focus more on architecture and abstractions and let the AI handle syntax?\n\nMy current plan: read a book and go through the exercises.\n\n\n\nBut for a first real project, where I don’t know the syntax well yet, I don’t see myself typing out everything manually.\n\nHow do you handle this? Do you fully lean into LLM support, or do you force yourself to learn the basics “old school” first?",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1nmzh72/learning_new_frameworks_in_the_age_of_vibe_coding/",
+        "publishDate": "2025-09-21T18:24:06Z[Etc/UTC]",
+        "author": "klausbreyer1",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "5",
+            "commentCount": "1",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nmxq1o",
+        "title": "Do you use codex? Don't forget this:",
+        "content": "TL;DR: As your conversation gets long, answers degrade before the hard limit (30% of context limit is the degradation spot for me). Keep two living docs the model can refresh on demand: README.md (holistic view) and HANDOFF.md (everything a fresh instance needs to continue seamlessly).\n\nWhen to trigger it\n\nYou notice omissions/contradictions, weird latencies, or invented paths/versions. Don’t wait for a hard token error.\n\nWhat to maintain\n\nREADME.md: purpose/scope, quick arch note, stack & versions, common commands, recent decisions.\n\nHANDOFF.md: current status, open issues + next steps, paths/artifacts, latest test results, data/IO schemas, exact env (venv/conda/poetry) and package versions.\n\n\nOne-shot prompt to refresh both\n\"\"\"\nPlease update two files based on our recent work and decisions.\n\n1) README.md — keep a holistic, up-to-date view:\n- purpose/scope, brief architecture, stack with exact versions,\n- how to run (commands, seeds), recent decisions (changelog-lite).\n\n2) HANDOFF.md — for a fresh instance (who will take this conversation when we hit the context limit) to continue smoothly: (remember the new instance has not context about our work or previous conversation)\nPlease add (examples)\n\n- current status, open challenges, next steps,\n- paths/artifacts/datasets, recent test results  + logs,\n- schemas/contracts and expected outputs,\n- exact environment (venv/conda/poetry), package versions, and notes to avoid creating duplicate envs.\n\nUse the versions/configs we’ve used so far. Do not invent tools or upgrade versions unless I ask.\n\"\"\"\n\nWhy this helps\n\nMitigates “context drift” long before you hit limits.\nMakes instance swaps (or model switches) painless.\nTurns your chat into project memory rather than ephemeral Q&A.\n\n\nIf you’ve got a tighter checklist or a better trigger than my “degradation symptoms,” please share.\n",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1nmxq1o/do_you_use_codex_dont_forget_this/",
+        "publishDate": "2025-09-21T17:17:15Z[Etc/UTC]",
+        "author": "Eastern_Ad7674",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "63",
+            "commentCount": "28",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nmuyjn",
+        "title": "AI can be annoying at times or do you think this happens due to my poor prompting?",
+        "content": "[No content]",
+        "url": "https://i.redd.it/7yvglblfdjqf1.jpeg",
+        "publishDate": "2025-09-21T15:29:22Z[Etc/UTC]",
+        "author": "MacaroonAdmirable",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "7",
+            "commentCount": "3",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nmuciq",
+        "title": "Do you do your own research or let AI do it for a project?",
+        "content": "I wanted to see where others land on this.  I was working in Cursor last night and had an issue that wouldn't get resolved no matter what was tried.  I switched models, started new chats, told it to search the internet and no change.  Eventually, I ended up in a ChatGPT chat and found additional information that I pasted into Cursor and boom!  No more issue, app working perfectly, time go add more features and break it again!\n\nI used to be fairly big with researching first but got very comfortable when the models started to solve the issues without it and slipped away from the practice.  Now I'm jumping into research for my next project more than I ever have before.\n\nDo you research before your project or just expect the agent to do it?  What results are getting?  What tips do you have to share with others about researching or how to make the AI research better?  Let me know!",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1nmuciq/do_you_do_your_own_research_or_let_ai_do_it_for_a/",
+        "publishDate": "2025-09-21T15:05:13Z[Etc/UTC]",
+        "author": "YourPST",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "3",
+            "commentCount": "3",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nmt88j",
+        "title": "gpt 5 recent worse performance",
+        "content": "Anyone noticing a huge drop in complex reasoning and coding ability in gpt 5 in the past few days?\n\nMaybe it's just in my project (using cline and gpt-5), but it's gone from one-shotting very complex issues to not even properly identifying the next task to work on in my list despite clear instructions.... Usually this would happen towards the end of the day and I'd get rock-solid performance in the morning, but now it's all hours of the day.\n\nvery sad. Seeing the next claude lobotomy before my very own eyes.",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1nmt88j/gpt_5_recent_worse_performance/",
+        "publishDate": "2025-09-21T14:20:38Z[Etc/UTC]",
+        "author": "cs_cast_away_boi",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "2",
+            "commentCount": "17",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nmt4ya",
+        "title": "How FAANG engineers are actually using AI for production code",
+        "content": "Saw an interesting thread on Twitter from a senior engineer at Meta about their AI coding workflow, and thought it would be valuable to share here since there's so much debate about whether AI can really be used for production systems.\n\nThe person who posted it has been in the industry for about 12 years, with the last 6 at Meta and Google. What caught my attention was how structured their approach is, completely different from the \"just prompt and pray\" method you sometimes see.\n\nHere's their process:\n\n**The foundation is still human architecture.** Before any code gets written, they spend 2-3 weeks on technical design documents. This is where the actual engineering happens. You're mapping out system architecture, API contracts, database schemas, and integration points with other teams. No AI tool is making these decisions yet.\n\n**Design reviews are necessary.** Once the design doc is ready, it goes through multiple rounds of review with senior and staff engineers. They tear it apart looking for scaling issues, security concerns, and architectural flaws. This happens before a single line of code is written.\n\n**AI accelerates the implementation phase.** This is where things get interesting. Once the architecture is locked in, they break everything down into small, well-defined tasks. Engineers use AI to generate test suites first (they're big on TDD), then use it to implement features that pass those tests. The AI isn't designing anything; it's implementing a spec that's already been thoroughly vetted.\n\n**Code review is getting augmented too.** They still require two human approvals for any merge to main, but they're using AI tools for the first pass. One person mentioned they use ai code review tools like coderabbit alongside their internal tools to catch obvious issues before human reviewers even look at it. The AI catches formatting issues, potential bugs, and suggests optimizations, which lets human reviewers focus on architecture and business logic.\n\n**Testing pipeline remains rigorous.** Everything goes through staging environments with comprehensive test suites before touching production. The AI helps write tests, but deployment decisions are still entirely human.\n\nThe key insight from the thread was that they're seeing about 35% faster delivery from design to production, but the time saved isn't from AI making architectural decisions. It's from AI handling the repetitive implementation work while humans focus on system design and code quality.\n\nWhat struck me most is that this isn't about replacing engineers. It's about letting engineers spend more time on architecture and less time on boilerplate. The person emphasized that junior engineers who understand this workflow are getting promoted faster because they can deliver senior level output by focusing on design while AI handles implementation details.\n\nAnyone else seeing similar patterns at their companies? Would love to hear how other teams are structuring their AI assisted development workflows.",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1nmt4ya/how_faang_engineers_are_actually_using_ai_for/",
+        "publishDate": "2025-09-21T14:16:52Z[Etc/UTC]",
+        "author": "notdl",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "448",
+            "commentCount": "69",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nmryr0",
+        "title": "Codex Plan vs Execution",
+        "content": "How is everyone leveraging codex? If I’m hearing correctly:\n\nPlan with gpt-5 High\nExecute with gpt-5 codex medium\n\nAny other better ways to maximize the quality of its output? \n\nI’m on the Plus plan if that makes a difference. Hit the limit fairly quick without codex for 4 days, a few weeks ago, and hope to not encounter that again without having to buy their Pro plan! ",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1nmryr0/codex_plan_vs_execution/",
+        "publishDate": "2025-09-21T13:27:56Z[Etc/UTC]",
+        "author": "commonpoints",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "2",
+            "commentCount": "5",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nmqt7a",
+        "title": "Automating Prompt Engineering - Customized.",
+        "content": "Hi, I'm a college student who uses a LOT of AI, for work, life and fitness therefore I also used to do a lot of manual prompt engineering and copy pasting.\n\nThe main point was to have customised and engineered prompts so I can get bang for the buck with GPT but I was also super lazy with doing it EVERY SINGLE TIME.\n\nSo I created this little chrome extension tool for me and my friends to do exactly that with just a single click!!  \nIt's mostly free to use and I'd love for you guys to check it out: [www.usepromptlyai.com](http://www.usepromptlyai.com)\n\nthank you so much, it genuinely means a lot for you to be reading this!!! much love",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1nmqt7a/automating_prompt_engineering_customized/",
+        "publishDate": "2025-09-21T12:35:42Z[Etc/UTC]",
+        "author": "Daxorx",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "0",
+            "commentCount": "9",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nnk4kx",
+        "title": "Using AI for Coding Daily - But I’m Feeling Less Engaged (Dev Thoughts)",
+        "content": "Hey everyone,\n\nI’ve been noticing something lately and wanted to see if others are in the same boat. I use Claude Code (and other AI tools) daily - it’s been a huge help for productivity and learning. I’m not the type to just copy/paste AI code blindly; I carefully review and guide it.\n\nBut here’s the thing: I’ve started feeling more mentally tired during work. It’s almost like my brain isn’t as stimulated or “switched on” as it used to be. Instead of being fully engaged in problem-solving, I’m often just waiting for the AI to generate output, then steering it or reviewing. It feels less active, more passive.\n\nI’m wondering if this is just a workflow issue—maybe I don’t know how to structure my focus while the AI is “thinking,” so I end up sitting idle. I haven’t seen much discussion about this online, so I figured I’d ask here:\n\nHave any of you noticed a similar drop in mental engagement using AI coding tools?\n\nIf so, how do you keep yourself stimulated and sharp during work?\n\nAny strategies for balancing AI assistance with staying mentally active?\n\nCurious to hear if this resonates with anyone or if I’m just overthinking it. I’d also love to connect with other developers on Discord if anyone’s open to chatting more directly.",
+        "url": "https://www.reddit.com/r/artificial/comments/1nnk4kx/using_ai_for_coding_daily_but_im_feeling_less/",
+        "publishDate": "2025-09-22T11:40:49Z[Etc/UTC]",
+        "author": "ClaudeCode",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "4",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nnjtdf",
+        "title": "Major developments in AI last week.",
+        "content": "\n1. Google Agent Payment Protocol.\n2. Grok 4 Fast Model.\n3. OpenAI GPT-5-Codex.\n4. Google Chrome AI Browser.\n\nFull breakdown ↓\n\n\n1. Google announciles Agent Payments Protocol (AP2). Open shared protocol that provides a common language for secure, compliant transactions between AI agents and merchants.\n\n\n2. xAI releases Grok 4 Fast model. \nA multimodal reasoning model with a 2M context window that sets a new standard for cost efficient intelligence .\n\n\n3. OpenAI launches GPT-5-Codex.\nA version of GPT-5 further optimized for agentic coding in Codex.\n\n\n4. Google brings new AI features to Chrome.\n* Gemini in Chrome.\n* Search with AI Mode right from the address bar.\n* One-click updates for compromised passwords and more safety features.\n\n\n\nMore details at the AI feed https://aifeed.fyi/\n",
+        "url": "https://www.reddit.com/r/artificial/comments/1nnjtdf/major_developments_in_ai_last_week/",
+        "publishDate": "2025-09-22T11:24:06Z[Etc/UTC]",
+        "author": "Majestic-Ad-6485",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "1",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nni3nz",
+        "title": "Oh my god",
+        "content": "[No content]",
+        "url": "https://i.redd.it/3ycp3npgtoqf1.png",
+        "publishDate": "2025-09-22T09:45:52Z[Etc/UTC]",
+        "author": "MetaKnowing",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "0",
+            "commentCount": "9",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nnhw5b",
+        "title": "Some argue that humans could never become economically irrelevant cause even if they cannot compete with AI in the workplace, they’ll always be needed as consumers. However, it is far from certain that the future economy will need us even as consumers. Machines could do that too - Yuval Noah Harari",
+        "content": "\"Theoretically, you can have an economy in which a mining corporation produces and sells iron to a robotics corporation, the robotics corporation produces and sells robots to the mining corporation, which mines more iron, which is used to produce more robots, and so on.\n\nThese corporations can grow and expand to the far reaches of the galaxy, and all they need are robots and computers – **they don’t need humans even to buy their products.**\n\nIndeed, **already today computers are beginning to function as clients in addition to producers. In the stock exchange, for example, algorithms are becoming the most important buyers of bonds, shares and commodities.**\n\nSimilarly in the advertisement business, the most important customer of all is an algorithm: the Google search algorithm.\n\nWhen people design Web pages, they often cater to the taste of the Google search algorithm rather than to the taste of any human being.\n\nAlgorithms cannot enjoy what they buy, and their decisions are not shaped by sensations and emotions. The Google search algorithm cannot taste ice cream. However, algorithms select things based on their internal calculations and built-in preferences, and these preferences increasingly shape our world.\n\nThe Google search algorithm has a very sophisticated taste when it comes to ranking the Web pages of ice-cream vendors, and the most successful ice-cream vendors in the world are those that the Google algorithm ranks first – not those that produce the tastiest ice cream.\n\nI know this from personal experience. When I publish a book, the publishers ask me to write a short description that they use for publicity online. But they have a special expert, who adapts what I write to the taste of the Google algorithm. The expert goes over my text, and says ‘Don’t use this word – use that word instead. Then we will get more attention from the Google algorithm.’ We know that if we can just catch the eye of the algorithm, we can take the humans for granted.\n\n**So if humans are needed neither as producers nor as consumers, what will safeguard their physical survival and their psychological well-being?**\n\n**We cannot wait for the crisis to erupt in full force before we start looking for answers. By then it will be too late.**\n\n*Excerpt from 21 Lessons for the 21st Century*\n\n*Yuval Noah Harari*",
+        "url": "https://www.reddit.com/r/artificial/comments/1nnhw5b/some_argue_that_humans_could_never_become/",
+        "publishDate": "2025-09-22T09:32:21Z[Etc/UTC]",
+        "author": "katxwoods",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "4",
+            "commentCount": "11",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nnhmng",
+        "title": "How quickly our team at Intervo responds to user issues",
+        "content": "We recently had a new user testing out Intervo for the first time and they ran into an error while entering their website. They shared the issue on our Discord, and our team responded within minutes to check and troubleshoot the problem.\n\nWe take pride in being fast and approachable when it comes to support—because we know how frustrating it can be to wait around for hours or days just to get a simple issue resolved.\n\nCurious to hear from others here: when you try out a new platform, how important is response time from support in shaping your first impression?",
+        "url": "https://i.redd.it/mabgde8ynoqf1.jpeg",
+        "publishDate": "2025-09-22T09:15:26Z[Etc/UTC]",
+        "author": "blizzerando",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "0",
+            "commentCount": "1",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nnbv1k",
+        "title": "One-Minute Daily AI News 9/21/2025",
+        "content": "1. Silicon Valley bets big on ‘environments’ to train AI agents.\\[1\\]\n2. **xAI** launches Grok-4-Fast: Unified Reasoning and Non-Reasoning Model with 2M-Token Context and Trained End-to-End with Tool-Use Reinforcement Learning (RL).\\[2\\]\n3. **Apple** takes control of all core chips in iPhone Air with new architecture to prioritize AI.\\[3\\]\n4. **Oracle** eyes $20 billion AI cloud computing deal with Meta.\\[4\\]\n\nSources:\n\n\\[1\\] [https://techcrunch.com/2025/09/21/silicon-valley-bets-big-on-environments-to-train-ai-agents/](https://techcrunch.com/2025/09/21/silicon-valley-bets-big-on-environments-to-train-ai-agents/)\n\n\\[2\\] [https://www.marktechpost.com/2025/09/20/xai-launches-grok-4-fast-unified-reasoning-and-non-reasoning-model-with-2m-token-context-and-trained-end-to-end-with-tool-use-reinforcement-learning-rl/](https://www.marktechpost.com/2025/09/20/xai-launches-grok-4-fast-unified-reasoning-and-non-reasoning-model-with-2m-token-context-and-trained-end-to-end-with-tool-use-reinforcement-learning-rl/)\n\n\\[3\\] [https://www.cnbc.com/2025/09/21/apple-now-controls-all-core-iphone-chips-prioritizing-ai-workloads.html](https://www.cnbc.com/2025/09/21/apple-now-controls-all-core-iphone-chips-prioritizing-ai-workloads.html)\n\n\\[4\\] [https://www.reuters.com/business/oracle-talks-with-meta-20-billion-ai-cloud-computing-deal-bloomberg-reports-2025-09-19/](https://www.reuters.com/business/oracle-talks-with-meta-20-billion-ai-cloud-computing-deal-bloomberg-reports-2025-09-19/)",
+        "url": "https://www.reddit.com/r/artificial/comments/1nnbv1k/oneminute_daily_ai_news_9212025/",
+        "publishDate": "2025-09-22T03:24:49Z[Etc/UTC]",
+        "author": "Excellent-Target-847",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "0",
+            "commentCount": "1",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nmzted",
+        "title": "Conversing with an LLM as perturbing a dynamical system",
+        "content": "A nice description from DeepSeek on a dynamical systems view of their processing, and why there is emergent order. \n\nDeepSeek generated this detail characterizing itself as a high dimensional system with 8 billion parameters. ChatGPT 3 had 175 billion parameters.\n\nContext: I had previously provided a copy of the paper, Transformer Dynamics: A neuroscientific approach to interpretability of large language models by Jesseba Fernando and Grigori Guitchounts to DeepSeek to analyze.\n\nThe researchers used phase space reconstruction and found attractor-like dynamics in the residual stream of a model with 64 sub layers. \n",
+        "url": "https://i.redd.it/z811pgncbkqf1.jpeg",
+        "publishDate": "2025-09-21T18:37:05Z[Etc/UTC]",
+        "author": "Fit-Internet-424",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "1",
+            "commentCount": "5",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nmzhhf",
+        "title": "Microsoft CEO Concerned AI Will Destroy the Entire Company",
+        "content": "We don't know what's coming?",
+        "url": "https://futurism.com/microsoft-ceo-concerned-ai-destroy-company",
+        "publishDate": "2025-09-21T18:24:24Z[Etc/UTC]",
+        "author": "Shanbhag01",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "582",
+            "commentCount": "175",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nmus3v",
+        "title": "Best AI to analyze text messages?",
+        "content": "I'm kind of an AI newb, I've only used the $20 ChatGPT AI agent before.. never really looked into beyond that.\n\nI have several years of text messages between myself and another person that I would like to upload and analyze.. for a variety of reasons.\n\nWith the growing amount of AI programs out there, which one would be the best for this? I don't have my ChatGPT subscription anymore, so I am open to suggestions. Or should I just stick with ChatGPT?",
+        "url": "https://www.reddit.com/r/artificial/comments/1nmus3v/best_ai_to_analyze_text_messages/",
+        "publishDate": "2025-09-21T15:22:03Z[Etc/UTC]",
+        "author": "FatherOfNyx",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "0",
+            "commentCount": "5",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1nmuuzm",
+        "title": "Need to do a presentation about AI DataCenters any cool NEW topics or advances in the field?",
+        "content": "Like the title suggests i have an assignment to pick a topic about AI data centers and do a presentation about that topic. I want something new spicy but i dont know the latest innovations in the field.  \nAny suggestions?\n\nI could do anything from computing/networking/architecture to social effects",
+        "url": "https://www.reddit.com/r/artificial/comments/1nmuuzm/need_to_do_a_presentation_about_ai_datacenters/",
+        "publishDate": "2025-09-21T15:25:23Z[Etc/UTC]",
+        "author": "iNot_You",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "1",
+            "commentCount": "1",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "yfpZe9l92I4",
+        "title": "Lumi.new: This APP BUILDER FIXES ALL YOUR VIBE CODING &amp; BACKEND ISSUES!",
+        "content": "Visit Lumi: http://bit.ly/3JwSjAL & Use Coupon Code: CZFKDYUS for 5% OFF ANY PLAN! In this video, I'll walk you through Lumi, ...",
+        "url": "https://www.youtube.com/watch?v=yfpZe9l92I4",
+        "publishDate": "2025-09-21T09:15:05Z",
+        "author": "AICodeKing",
+        "sourceType": "youtube",
+        "sourceName": "AI Code King YouTube Channel",
+        "metadata": {
+            "channelId": "UC0m81bQuthaQZmFbXEY9QSw",
+            "thumbnailUrl": "https://i.ytimg.com/vi/yfpZe9l92I4/hqdefault.jpg",
+            "transcription": "Hi, welcome to another video. So, there's a new AI coder in town, and this one is called Lumi. Lumi is kinda changing the way you think about building apps with AI. Basically, what it does, is let you create truly custom apps or websites from natural language. These apps are not just frontend. They come built in with database, authentication, analytics, and almost everything that you can think of. You don't need to mess with things like Supabase or anything either. You just prompt, and that's all you need to do. No rigid setup, no templates, just pure conversation. You sign up, you chat, and Lumi builds your project from scratch. But the best part is how it lets you go from idea to fully working app in seconds, with features that feel way more advanced than what you get from most other AI builders. It's not just about generating a frontend page. It's about building something that actually works and looks good with real backend features. Now, let me show you how you can use it. And as we proceed, I'll also tell you what makes it quite a bit different from the usual AI coding tools like Claude Code or Manna's. First of all, just head on over to lumi.new and you'll see this really sleek interface. At the top, you've got your main prompt box where you type what you want to build. But before I dive into the walkthrough, I want to highlight something that makes Lumi stand out. On the homepage, you get these community generated stuff like here's a hotel booking platform that actually works and super sleek and works, which is awesome. Because you can actually create working apps and share it quite quickly without messing around with things like Supabase API keys, authentication, and what not. This is really awesome. You can also remix these public generations as well. Remixing is kinda cool because you can fork any project and change anything you want just by chatting. No need to touch code at all. It's way more flexible than the usual generate and forget approach. Let's get into the main prompt box. You can type in what you want to build, but you've also got some handy options. There's attached file. So you can upload images or product requirement docs. And Lumi will use them to guide the build. You can clone a design or even work off an existing PRD, which is quite awesome. Then there's enhanced prompt, which lets you take your basic prompt and have Lumi make it better. Super handy if you want to get more out of your requests. And if you have prompts you use all the time, you can save them in the prompt playbook. You just save your custom prompts, edit or delete them, and mark your favorites for quick access. It's a small thing, but it makes repetitive tasks way easier. Next up is the toolbox. Here, you pick what features you want in your app. For example, you can have Lumi manage your database. So you don't need to set up external stuff like Supabase. Just prompt it and it spins up a database on Lumi's servers. There's also built-in authentication. So you can set up sign in options exactly how you want. You get analytics to track visits and page views, email service to send messages to your users, and file storage for secure cloud uploads. Pretty much everything you'd need for a real app. You just select what you want, and Lumi adds it in automatically. Then you've got styling. And this is another area where Lumi goes beyond most competitors. You can pick from pre-built style libraries like Swiss or Memphis. And your app instantly gets a modern look. It's optional, but it's nice if you want something that feels professional right out of the gate. Okay. Let's demo how the core experience works. I'm going to ask Lumi to make me a movie tracker app. I just type that in, \"Make me a movie tracker app.\" and send it over. Immediately, Lumi starts working. On the left, you have the chat interface. And on the right, there's a live preview and code viewer. You can see Lumi creating and editing files in real time. And within seconds, the app is ready. What's cool is that it's not just a static front-end, it's a fully functional app with working features and a sleek, modern design. But here's where Lumi really shows its strength. You can tweak anything just by chatting. Let's say I want to change the color scheme or add a new feature for tracking watched movies. I just type my request or use the \"Select to edit\" option to pick a specific element on the page. And Lumi updates it instantly. No need to dig into the code unless you want to. This zero coding, just conversation workflow is insanely good. And it's something I wish more builders did. Most other tools just let you generate a page, and that's it. But Lumi lets you iterate and refine, which is quite awesome. Let's make this demo more compelling. I'll ask Lumi to add a \"Favorites\" panel and show a sample list of movies with ratings and genres. Instantly, it creates a panel with actual sample data. So you can see real back-end functionality, not just empty tables. This is something that sets Lumi apart. Many creators demo AI builders with blank pages. But here you get a real, usable back-end right away. Now, let's talk about the workspace. When you go to the workspace tab, you see a dashboard with analytics overview, users, data, email service, file storage, and code. The analytics panel shows actual visit counts and page views. And the user's panel lists everyone who signed up. Data tables display real sample entries. So you can see how your back-end is structured. You can send emails to users, check uploaded files, and even edit the code directly if you want. It's all there, and it's super intuitive. If you want to deploy, there's a \"Domains\" option where you set up your custom domain or buy one through Lumi. Security rules are easy to configure to keep user data safe. In settings, you can change the project name. And at the top, you get \"Export\" to download your code and run it locally, or \"Publish\" to instantly deploy it to your domain. You can also publish to the community or use a temporary domain for mock-ups. But now comes the best part. Agent mode and discuss mode. Agent mode lets Lumi act as a coding agent, building and modifying your app as you chat. Discuss mode is for when you want to talk about the code, brainstorm, or plan before making changes. You can even use \"Discuss\" to understand the architecture or get advice on best practices. Which is something I really liked. It's way more interactive than just generating code and hoping it works. Overall, it's pretty cool. Anyway, share your thoughts below and subscribe to the channel. You can also donate via Super Thanks option or join the channel as well and get some perks. I'll see you in the next video. Bye."
+        }
+    },
+    {
+        "id": "NXrncq0YiNc",
+        "title": "How Bismarck United Germany Without Overthrowing Anyone - Sarah Paine",
+        "content": "",
+        "url": "https://www.youtube.com/watch?v=NXrncq0YiNc",
+        "publishDate": "2025-09-21T19:24:07Z",
+        "author": "Dwarkesh Patel",
+        "sourceType": "youtube",
+        "sourceName": "Dwarkesh Patel YouTube Channel",
+        "metadata": {
+            "channelId": "UCXl4i9dYBrFOabk0xGmbkRA",
+            "thumbnailUrl": "https://i.ytimg.com/vi/NXrncq0YiNc/hqdefault.jpg",
+            "transcription": "So Bismarck runs three wars. One is the Danish war. Then there's the Austro-Prussian war, and then there's a Franco-Prussian war. In the Danish war, it's about a couple of provinces in the far south of Denmark that Bismarck covets because he wants to unify for the first time all these Germanic states. And he trounces Denmark in that war. Does he go for regime change in Copenhagen? No way. He just says cede this place that you shouldn't have had anyway because it's got a bunch of Germans in it. Then, in the war against Austria, he just slams them. He's got this railway system that allows them to deploy where the Austrians can't. And there are all these little Germanic states watching all this going on, and they're starting to confederate sort of with Prussia because they're scared of all of this. And so instead of doing regime change in Vienna, it's just saying, hey, let's cede a few more of these things to Germany. And then when he gets into the Franco-Prussian War, all these little Germanic states are joining with Prussia, and that's going to create unified Germany. And then he takes a bite too far when he takes Alsace-Lorraine, which the French are totally upset about. They never give up on that one. But all of these objectives are limited objectives. He's not overthrowing the Danish government, the Austrian government, or the French government. And the value for Prussians of unifying the Germanic states is far greater than the places that are losing these itty-bitty places. Also, they don't get the big picture. They don't see it until it's done that whoops, by doing all of this, Prussia has transformed itself from the weakest of the five great powers of Europe to second only to Britain.\n\nOn-screen text:\n0:00 BISMARCK\n0:01 OTTO VON BISMARCK\n0:02 First chancellor of the German Empire\n0:03 DANO-PRUSSIAN WAR 1864\n0:05 AUSTRO-PRUSSIAN WAR 1866\n0:07 FRANCO-PRUSSIAN WAR 1870-1871\n0:10 SCHLESWIG HOLSTEIN\n0:41 NORTH GERMAN CONFEDERATION\n0:59 GERMAN CONF.\n1:02 GERMAN EMPIRE\n1:07 GERMAN EMPIRE\n1:07 FRANCE\n1:35 Britain\n1:35 France\n1:35 Russia\n1:35 Austria\n1:35 Prussia\n1:37 WATCH HERE\n1:38 Britain\n1:38 Prussia\n1:38 France\n1:38 Russia\n1:38 Austria\n1:39 WATCH HERE"
+        }
+    }
+]
