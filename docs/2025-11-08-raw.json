@@ -1,0 +1,1302 @@
+[
+    {
+        "id": "https://news.smol.ai/issues/25-11-07-tbench2/",
+        "title": "Terminal-Bench 2.0 and Harbor",
+        "content": "**Terminal-Bench** has fixed task issues and launched version 2.0 with cloud container support via the **Harbor framework**, gaining recognition from models like **Claude 4.5** and **Kimi K2 Thinking**. **Moonshot AI's Kimi K2 Thinking** is a 1 trillion parameter MoE reasoning model with ~32B active parameters, running natively in **INT4 quantization** and featuring a 256K context window. It leads open-weights benchmarks with an Artificial Analysis Intelligence Index score of **67** and strong agentic performance, running efficiently on consumer Apple silicon and 2× M3 Ultra hardware. The model is broadly available on **Hugging Face**, **Ollama Cloud**, and integrated into frameworks like slime. Serving bottlenecks were traced to network bandwidth rather than GPU limits, highlighting infrastructure considerations for LLM deployment.",
+        "url": "https://news.smol.ai/issues/25-11-07-tbench2/",
+        "publishDate": "2025-11-07T05:44:39Z[Etc/UTC]",
+        "author": "",
+        "sourceType": "rss",
+        "sourceName": "AI News RSS",
+        "metadata": {
+            "feedTitle": "AINews",
+            "feedDescription": "Weekday recaps of top News for AI Engineers",
+            "categories": "moonshot-ai, anthropic, hugging-face, ollama, slime-framework, kimi-k2-thinking, clementdelangue, dbreunig, awnihannun, crystalsssup, kimi_moonshot, benchmarking, agentic-ai, quantization, model-optimization, inference, model-deployment, moe, context-windows, cost-efficiency"
+        }
+    },
+    {
+        "id": "https://ai-techpark.com/?p=226211",
+        "title": "DEEPX Wins Two CES 2026 Awards; Powers Sixfab ALPON X5",
+        "content": "<p>Global AI semiconductor company DEEPX (CEO Lokwon Kim) announced that it has won two CES 2026 Innovation Awards, while Sixfab, a US-based IoT and edge computing company, received the Best of Innovation award — CES&#8217;s highest honor — for its AI gateway ALPON X5 powered by DEEPX&#8217;s DX-M1. This milestone demonstrates how DEEPX&#8217;s solutions are...</p>\n<p>The post <a href=\"https://ai-techpark.com/deepx-wins-two-ces-2026-awards-powers-sixfab-alpon-x5/\">DEEPX Wins Two CES 2026 Awards; Powers Sixfab ALPON X5</a> first appeared on <a href=\"https://ai-techpark.com\">AI-Tech Park</a>.</p>",
+        "url": "https://ai-techpark.com/deepx-wins-two-ces-2026-awards-powers-sixfab-alpon-x5/",
+        "publishDate": "2025-11-07T10:45:00Z[Etc/UTC]",
+        "author": "PR Newswire",
+        "sourceType": "rss",
+        "sourceName": "AI Techpark RSS",
+        "metadata": {
+            "feedTitle": "AI - AI-Tech Park",
+            "feedDescription": "AI, ML, IoT, Cybersecurity News & Trend Analysis, Interviews",
+            "categories": "AI"
+        }
+    },
+    {
+        "id": "https://ai-techpark.com/?p=226205",
+        "title": "Tektome Launches KnowledgeBuilder AI for Design Intelligence",
+        "content": "<p>Tektome, a next-generation AI solutions provider for the architecture, engineering and construction (AEC) industry, today announced the official release of&#160;KnowledgeBuilder, an AI-powered solution that transforms past project data into structured design intelligence. The new tool helps AEC teams convert decades of drawings, reports, photos, and even handwritten notes into a...</p>\n<p>The post <a href=\"https://ai-techpark.com/tektome-launches-knowledgebuilder-ai-for-design-intelligence/\">Tektome Launches KnowledgeBuilder AI for Design Intelligence</a> first appeared on <a href=\"https://ai-techpark.com\">AI-Tech Park</a>.</p>",
+        "url": "https://ai-techpark.com/tektome-launches-knowledgebuilder-ai-for-design-intelligence/",
+        "publishDate": "2025-11-07T10:15:00Z[Etc/UTC]",
+        "author": "PR Newswire",
+        "sourceType": "rss",
+        "sourceName": "AI Techpark RSS",
+        "metadata": {
+            "feedTitle": "AI - AI-Tech Park",
+            "feedDescription": "AI, ML, IoT, Cybersecurity News & Trend Analysis, Interviews",
+            "categories": "NLP"
+        }
+    },
+    {
+        "id": "https://ai-techpark.com/?p=226170",
+        "title": "Agora & Akool Launch Conversational AI with Streaming Avatars",
+        "content": "<p>Agora and Akool integrate real-time conversational AI with lifelike streaming avatars to elevate interactive experiences across voice, video, and chat. Agora, Inc. (NASDAQ: API), the leading platform for real-time engagement and conversational AI, and Akool, a pioneer in AI-driven video and avatar technology, today announced a strategic collaboration to integrate...</p>\n<p>The post <a href=\"https://ai-techpark.com/agora-akool-launch-conversational-ai-with-streaming-avatars/\">Agora & Akool Launch Conversational AI with Streaming Avatars</a> first appeared on <a href=\"https://ai-techpark.com\">AI-Tech Park</a>.</p>",
+        "url": "https://ai-techpark.com/agora-akool-launch-conversational-ai-with-streaming-avatars/",
+        "publishDate": "2025-11-07T09:45:00Z[Etc/UTC]",
+        "author": "PR Newswire",
+        "sourceType": "rss",
+        "sourceName": "AI Techpark RSS",
+        "metadata": {
+            "feedTitle": "AI - AI-Tech Park",
+            "feedDescription": "AI, ML, IoT, Cybersecurity News & Trend Analysis, Interviews",
+            "categories": "Chatbots"
+        }
+    },
+    {
+        "id": "https://ai-techpark.com/?p=226164",
+        "title": "Hexaware Acquires CyberSolve to Boost AI Cybersecurity",
+        "content": "<p>Hexaware Technologies (NSE: HEXT), a global provider of IT solutions and services, today announced it has acquired CyberSolve, a global specialist in identity and access management (IAM) solutions. Together, the companies will help enterprises modernize identity foundations, automate controls with artificial intelligence (AI), and run secure operations across complex, hybrid...</p>\n<p>The post <a href=\"https://ai-techpark.com/hexaware-acquires-cybersolve-to-boost-ai-cybersecurity/\">Hexaware Acquires CyberSolve to Boost AI Cybersecurity</a> first appeared on <a href=\"https://ai-techpark.com\">AI-Tech Park</a>.</p>",
+        "url": "https://ai-techpark.com/hexaware-acquires-cybersolve-to-boost-ai-cybersecurity/",
+        "publishDate": "2025-11-07T09:15:00Z[Etc/UTC]",
+        "author": "PR Newswire",
+        "sourceType": "rss",
+        "sourceName": "AI Techpark RSS",
+        "metadata": {
+            "feedTitle": "AI - AI-Tech Park",
+            "feedDescription": "AI, ML, IoT, Cybersecurity News & Trend Analysis, Interviews",
+            "categories": "Identity and access management"
+        }
+    },
+    {
+        "id": "https://ai-techpark.com/?p=226155",
+        "title": "Aily Labs Raises $80M to Scale AI for Fortune 500 Companies",
+        "content": "<p>Funding Accelerates Aily Labs&#8217; Global Expansion and AI-Powered Decision-Making Across Industries Aily Labs, creator of the first AI-native Decision Intelligence platform for global enterprises, today announced it has raised $80 million in funding, led by FPV Ventures with participation from existing investor Insight Partners, J.P. Morgan, and other strategic investors. The funding will accelerate global...</p>\n<p>The post <a href=\"https://ai-techpark.com/aily-labs-raises-80m-to-scale-ai-for-fortune-500-companies/\">Aily Labs Raises $80M to Scale AI for Fortune 500 Companies</a> first appeared on <a href=\"https://ai-techpark.com\">AI-Tech Park</a>.</p>",
+        "url": "https://ai-techpark.com/aily-labs-raises-80m-to-scale-ai-for-fortune-500-companies/",
+        "publishDate": "2025-11-07T08:30:00Z[Etc/UTC]",
+        "author": "PR Newswire",
+        "sourceType": "rss",
+        "sourceName": "AI Techpark RSS",
+        "metadata": {
+            "feedTitle": "AI - AI-Tech Park",
+            "feedDescription": "AI, ML, IoT, Cybersecurity News & Trend Analysis, Interviews",
+            "categories": "Machine Learning"
+        }
+    },
+    {
+        "id": "https://ai-techpark.com/?p=226151",
+        "title": "Doosan Robotics Wins Two CES 2026 Innovation Awards",
+        "content": "<p>Company honored for its Groundbreaking Scan &#38; Go Autonomous Robotic Solution in AI and Robotics categories Doosan Robotics, a global leader in collaborative and industrial robotics, has been named a CES Innovation Awards Best of Innovation in the Artificial Intelligence category and an Honoree in the Robotics category for its&#160;Scan &#38; Go...</p>\n<p>The post <a href=\"https://ai-techpark.com/doosan-robotics-wins-two-ces-2026-innovation-awards/\">Doosan Robotics Wins Two CES 2026 Innovation Awards</a> first appeared on <a href=\"https://ai-techpark.com\">AI-Tech Park</a>.</p>",
+        "url": "https://ai-techpark.com/doosan-robotics-wins-two-ces-2026-innovation-awards/",
+        "publishDate": "2025-11-07T08:15:00Z[Etc/UTC]",
+        "author": "PR Newswire",
+        "sourceType": "rss",
+        "sourceName": "AI Techpark RSS",
+        "metadata": {
+            "feedTitle": "AI - AI-Tech Park",
+            "feedDescription": "AI, ML, IoT, Cybersecurity News & Trend Analysis, Interviews",
+            "categories": "Robotics"
+        }
+    },
+    {
+        "id": "https://ai-techpark.com/?p=226142",
+        "title": "Ping Identity Unveils ‘Identity for AI’ Solution",
+        "content": "<p>Helping enterprises close the AI trust gap through identity-first accountability. Ping Identity, a leader in securing digital identities for the world’s largest enterprises, today announced “Identity for AI,” a new solution designed to secure and enable the rapidly evolving world of AI agents.  As organizations embrace agentic AI to boost...</p>\n<p>The post <a href=\"https://ai-techpark.com/ping-identity-unveils-identity-for-ai-solution/\">Ping Identity Unveils ‘Identity for AI’ Solution</a> first appeared on <a href=\"https://ai-techpark.com\">AI-Tech Park</a>.</p>",
+        "url": "https://ai-techpark.com/ping-identity-unveils-identity-for-ai-solution/",
+        "publishDate": "2025-11-07T07:33:41Z[Etc/UTC]",
+        "author": "Ping Identity",
+        "sourceType": "rss",
+        "sourceName": "AI Techpark RSS",
+        "metadata": {
+            "feedTitle": "AI - AI-Tech Park",
+            "feedDescription": "AI, ML, IoT, Cybersecurity News & Trend Analysis, Interviews",
+            "categories": "Identity and access management"
+        }
+    },
+    {
+        "id": "https://www.artificialintelligence-news.com/?p=110410",
+        "title": "Microsoft’s next big AI bet: building a ‘humanist superintelligence’",
+        "content": "<p>Microsoft is forming a new team to research superintelligence and other advanced forms of artificial intelligence. Mustafa Suleyman, who leads Microsoft&#8217;s AI division overseeing Bing and Copilot, announced the creation of the MAI Superintelligence Team in a blog post. He said he will head the group and that Microsoft plans to put &#8220;a lot of [&#8230;]</p>\n<p>The post <a href=\"https://www.artificialintelligence-news.com/news/microsoft-next-big-ai-bet-building-a-humanist-superintelligence/\">Microsoft’s next big AI bet: building a ‘humanist superintelligence’</a> appeared first on <a href=\"https://www.artificialintelligence-news.com\">AI News</a>.</p>\n",
+        "url": "https://www.artificialintelligence-news.com/news/microsoft-next-big-ai-bet-building-a-humanist-superintelligence/",
+        "publishDate": "2025-11-07T10:00:00Z[Etc/UTC]",
+        "author": "Muhammad Zulhusni",
+        "sourceType": "rss",
+        "sourceName": "ArtificialIntelligence-news RSS",
+        "metadata": {
+            "feedTitle": "AI News",
+            "feedDescription": "Artificial Intelligence News",
+            "categories": "AI Business Strategy, AI Hardware & Chips, Healthcare & Wellness AI, Human-AI Relationships, Infrastructure & Hardware, ai, google, microsoft, openai, superintelligence"
+        }
+    },
+    {
+        "id": "https://www.artificialintelligence-news.com/?p=110415",
+        "title": "Nvidia AI chip ban: Can tech giants navigate a geopolitical zero-sum game?",
+        "content": "<p>When Nvidia CEO Jensen Huang initially told the&#160;Financial Times&#160;that China would &#8220;win the AI race&#8221; before softening his stance, it crystallised a predicament that&#8217;s been years in the making. The world&#8217;s most valuable chipmaker now finds itself caught between two superpowers, each wielding the Nvidia AI chip ban as a weapon in a broader technological [&#8230;]</p>\n<p>The post <a href=\"https://www.artificialintelligence-news.com/news/nvidia-ai-chip-ban-china-market-share/\">Nvidia AI chip ban: Can tech giants navigate a geopolitical zero-sum game?</a> appeared first on <a href=\"https://www.artificialintelligence-news.com\">AI News</a>.</p>\n",
+        "url": "https://www.artificialintelligence-news.com/news/nvidia-ai-chip-ban-china-market-share/",
+        "publishDate": "2025-11-07T09:00:00Z[Etc/UTC]",
+        "author": "Dashveenjit Kaur",
+        "sourceType": "rss",
+        "sourceName": "ArtificialIntelligence-news RSS",
+        "metadata": {
+            "feedTitle": "AI News",
+            "feedDescription": "Artificial Intelligence News",
+            "categories": "AI and Us, AI Business Strategy, AI in Action, Artificial Intelligence, Inside AI, ai, artificial intelligence"
+        }
+    },
+    {
+        "id": "1orlk08",
+        "title": "Confounder-aware foundation modeling for accurate phenotype profiling in cell imaging",
+        "content": "https://www.nature.com/articles/s44303-025-00116-9\n\nImage-based profiling is rapidly transforming drug discovery, offering unprecedented insights into cellular responses. However, experimental variability hinders accurate identification of mechanisms of action (MoA) and compound targets. Existing methods commonly fail to generalize to novel compounds, limiting their utility in exploring uncharted chemical space. To address this, we present a confounder-aware foundation model integrating a causal mechanism within a latent diffusion model, enabling the generation of balanced synthetic datasets for robust biological effect estimation. Trained on over 13 million Cell Painting images and 107 thousand compounds, our model learns robust cellular phenotype representations, mitigating confounder impact. We achieve state-of-the-art MoA and target prediction for both seen (0.66 and 0.65 ROC-AUC) and unseen compounds (0.65 and 0.73 ROC-AUC), significantly surpassing real and batch-corrected data. This innovative framework advances drug discovery by delivering robust biological effect estimations for novel compounds, potentially accelerating hit expansion. Our model establishes a scalable and adaptable foundation for cell imaging, holding the potential to become a cornerstone in data-driven drug discovery.\n",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1orlk08/confounderaware_foundation_modeling_for_accurate/",
+        "publishDate": "2025-11-08T09:52:52Z[Etc/UTC]",
+        "author": "Careless-Macaroon-18",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "1",
+            "commentCount": "1",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1orkezf",
+        "title": "Who's Buying The Products?",
+        "content": "Sorry if this has been talked about somewhere else.\n\nIf AI really does replace most workers, does this not mean those workers are no longer going to have jobs, which means they are no longer consumers? Leading to no economy? Meaning AI = 0 Money Produced?\n\nWas just reading the thread about Facebook stock going down because they're spending money for no reason on AI, then one of the comments was if the AI can target ads better so they get more clicks it adds value to them, but if people don't have jobs how can they afford to be clicking ads and buying products?\n\nI just feel like theres a huge underestimate of how important human labor having value is. Musk said in an interview one possibility is we'll have UBI, who's paying for that when no one pays taxes? What everything just becomes free because Robots+AI do it for us, how are they funding the maintenance/construction/ect of those robots, with other robots?\n\nI kinda want off this path.",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1orkezf/whos_buying_the_products/",
+        "publishDate": "2025-11-08T08:39:49Z[Etc/UTC]",
+        "author": "FarmerGazza",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "1",
+            "commentCount": "32",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1orj18o",
+        "title": "History will judge which version is correct but it’s gonna be fun to watch.",
+        "content": "So the two global AI powers are going different routes to dominance. \n\n1. US is using the “full stack” vertical integration model. Private LLM layer, private products built on these layers. \n\n2. China is only using the LLM layer (open models) as foundation to build what they think will be industries of the future (robotics, defense, etc)\n\n\nObvious pros and cons to each but what do you think? \n",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1orj18o/history_will_judge_which_version_is_correct_but/",
+        "publishDate": "2025-11-08T07:13:35Z[Etc/UTC]",
+        "author": "waysnappap",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "3",
+            "commentCount": "19",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1orin70",
+        "title": "What is use.ai? Is it legit?",
+        "content": "I found no info that it's phishing or scam in any way, but it still seems weird:\n\n\n- hard to find info about\n\n- sends spammy e-mails daily when you're registered\n\n- only 1 free message, then you have to pay\n\n- apparently impersonates all kinds of popular LLMs and misleads people who search for these and instead register on it",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1orin70/what_is_useai_is_it_legit/",
+        "publishDate": "2025-11-08T06:49:56Z[Etc/UTC]",
+        "author": "reddditttsucks",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "1",
+            "commentCount": "12",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1orikh7",
+        "title": "What are your thoughts on the growing gap between open-source and corporate AI development?",
+        "content": "Lately, it feels like the AI world is splitting into two directions  open-source projects (like Mistral, Llama, etc.) pushing for transparency, and large corporations (like OpenAI, Anthropic, Google) focusing on safety and control.\n\nDo you think this divergence will help innovation by creating balance, or will it slow down progress because of closed ecosystems and restricted access?\n\nWould love to hear how you see the future of collaboration in AI  are we heading toward a shared intelligence era, or an AI monopoly?",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1orikh7/what_are_your_thoughts_on_the_growing_gap_between/",
+        "publishDate": "2025-11-08T06:45:27Z[Etc/UTC]",
+        "author": "North_Way8298",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "1",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ori3dq",
+        "title": "Is there any draw backs to using an external dual GPU config with thunderbolt 5 with a laptop for AI?",
+        "content": "Imany bottle neck performance issues that one should be aware of?\n\nThunderbolt 5 on paper seems to be up for the job.",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1ori3dq/is_there_any_draw_backs_to_using_an_external_dual/",
+        "publishDate": "2025-11-08T06:17:33Z[Etc/UTC]",
+        "author": "FX2021",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "1",
+            "commentCount": "1",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1orge5z",
+        "title": "One-Minute Daily AI News 11/7/2025",
+        "content": "1. Minnesota attorneys caught citing fake cases generated by ‘AI hallucinations’.\\[1\\]\n2. EU weighs pausing parts of landmark AI act in face of US and big tech pressure, FT reports.\\[2\\]\n3. Seven more families are now suing OpenAI over ChatGPT’s role in suicides, delusions.\\[3\\]\n4. Kim Kardashian says ChatGPT is her ‘frenemy’.\\[4\\]\n\nSources included at: [https://bushaicave.com/2025/11/07/one-minute-daily-ai-news-11-7-2025/](https://bushaicave.com/2025/11/07/one-minute-daily-ai-news-11-7-2025/)",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1orge5z/oneminute_daily_ai_news_1172025/",
+        "publishDate": "2025-11-08T04:43:26Z[Etc/UTC]",
+        "author": "Excellent-Target-847",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "4",
+            "commentCount": "1",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1orewim",
+        "title": "Meta just lost $200 billion in one week. Zuckerberg spent 3 hours trying to explain what they're building with AI. Nobody bought it.",
+        "content": "So last week Meta reported earnings. Beat expectations on basically everything. Revenue up 26%. $20 billion in profit for the quarter but Stock should've gone up right? Instead it tanked. Dropped 12% in two days. Lost over $200 billion in market value. Worst drop since 2022.\n\nWhy? Because Mark Zuckerberg announced they're spending way more on AI than anyone expected. And when investors asked what they're actually getting for all that money he couldn't give them a straight answer.\n\n**The spending**: Meta raised their 2025 capital expenditure forecast to $70-72 billion. That's just this year. Then Zuckerberg said next year will be \"notably larger.\" Didn't give a number. Just notably larger. Reports came out saying Meta's planning $600 billion in AI infrastructure spending over the next three years. For context that's more than the GDP of most countries. Operating expenses jumped $7 billion year over year. Nearly $20 billion in capital expense. All going to AI talent and infrastructure.\n\nDuring the earnings call investors kept asking the same question. What are you building? When will it make money? Zuckerberg's answer was basically \"trust me bro we need the compute for superintelligence.\"\n\nHe said \"The right thing to do is to try to accelerate this to make sure that we have the compute that we need both for the AI research and new things that we're doing.\"\n\nInvestors pressed harder. Give us specifics. What products? What revenue?\n\nHis response: \"We're building truly frontier models with novel capabilities. There will be many new products in different content formats. There are also business versions. This is just a massive latent opportunity.\" Then he added \"there will be more to share in the coming months.\"\n\nThat's it. Coming months. Trust the process. The market said no thanks and dumped the stock.\n\nOther companies are spending big on AI too. Google raised their capex forecast to $91-93 billion. Microsoft said spending will keep growing. But their stocks didn't crash. Why Because they can explain what they're getting.\n\n* Microsoft has Azure. Their cloud business is growing because enterprises are paying them to use AI tools. Clear revenue. Clear product. Clear path to profit.\n* Google has search. AI is already integrated into their ads and recommendations. Making them money right now.\n* Nvidia sells the chips everyone's buying. Direct revenue from AI boom.\n* OpenAI is spending crazy amounts but they're also pulling in $20 billion a year in revenue from ChatGPT which has 300 million weekly users.\n\nMeta? They don't have any of that.\n\n98% of Meta's revenue still comes from ads on Facebook Instagram and WhatsApp. Same as it's always been. They're spending tens of billions on AI but can't point to a single product that's generating meaningful revenue from it.\n\nThe Metaverse déjà vu is that This is feeling like 2021-2022 all over again.\n\nBack then Zuckerberg bet everything on the Metaverse. Changed the company name from Facebook to Meta. Spent $36 billion on Reality Labs over three years. Stock crashed 77% from peak to bottom. Lost over $600 billion in market value.\n\nWhy? Because he was spending massive amounts on a vision that wasn't making money and investors couldn't see when it would.\n\nNow it's happening again. Except this time it's AI instead of VR.\n\nWhat Meta's actually building?\n\nDuring the call Zuckerberg kept mentioning their \"Superintelligence team.\" Four months ago he restructured Meta's AI division. Created a new group focused on building superintelligence. That's AI smarter than humans.\n\n* He hired Alexandr Wang from Scale AI to lead it. Paid $14.3 billion to bring him in.\n* They're building two massive data centers. Each one uses as much electricity as a small city.\n\nBut when analysts asked what products will come out of all this Zuckerberg just said \"we'll share more in coming months.\"\n\nHe mentioned Meta AI their ChatGPT competitor. Mentioned something called Vibes. Hinted at \"business AI\" products.\n\nBut nothing concrete. No launch dates. No revenue projections. Just vague promises.\n\nThe only thing he could point to was AI making their current ad business slightly better. More engagement on Facebook and Instagram. 14% higher ad prices.\n\nThat's nice but it doesn't justify spending $70 billion this year and way more next year.\n\n**Here's the issue -** Zuckerberg's betting on superintelligence arriving soon. He said during the call \"if superintelligence arrives sooner we will be ideally positioned for a generational paradigm shift.\" But what if it doesn't? What if it takes longer?\n\nHis answer: \"If it takes longer then we'll use the extra compute to accelerate our core business which continues to be able to profitably use much more compute than we've been able to throw at it.\"\n\nSo the backup plan is just make ads better. That's it.\n\nYou're spending $600 billion over three years and the contingency is maybe your ad targeting gets 20% more efficient.\n\nInvestors looked at that math and said this doesn't add up.\n\nSo what's Meta actually buying with all this cash?\n\n* Nvidia chips. Tons of them. H100s and the new Blackwell chips cost $30-40k each. Meta's buying hundreds of thousands.\n* Data centers. Building out massive facilities to house all those chips. Power. Cooling. Infrastructure.\n* Talent. Paying top AI researchers and engineers. Competing with OpenAI Google and Anthropic for the same people.\n\nAnd here's the kicker. A lot of that money is going to other big tech companies.\n\n* They rent cloud capacity from AWS Google Cloud and Azure when they need extra compute. So Meta's paying Amazon Google and Microsoft.\n* They buy chips from Nvidia. Software from other vendors. Infrastructure from construction companies.\n\nIt's the same circular spending problem we talked about before. These companies are passing money back and forth while claiming it's economic growth.\n\n**The comparison that hurts** \\- Sam Altman can justify OpenAI's massive spending because ChatGPT is growing like crazy. 300 million weekly users. $20 billion annual revenue. Satya Nadella can justify Microsoft's spending because Azure is growing. Enterprise customers paying for AI tools.\n\nWhat can Zuckerberg point to? Facebook and Instagram users engaging slightly more because of AI recommendations. That's it.\n\nDuring the call he said \"it's pretty early but I think we're seeing the returns in the core business.\"\n\nInvestors heard \"pretty early\" and bailed.\n\n**Why this matters :**\n\nMeta is one of the Magnificent 7 stocks that make up 37% of the S&P 500. When Meta loses $200 billion in market value that drags down the entire index. Your 401k probably felt it.And this isn't just about Meta. It's a warning shot for all the AI spending happening right now.If Wall Street starts questioning whether these massive AI investments will actually pay off we could see a broader sell-off. Microsoft, Amazon, Alphabet all spending similar amounts. If Meta can't justify it what makes their spending different?\n\nThe answer better be really good or this becomes a pattern.\n\n**TLDR**\n\nMeta reported strong Q3 earnings. Revenue up 26% $20 billion profit. Then announced they're spending $70-72 billion on AI in 2025 and \"notably larger\" in 2026. Reports say $600 billion over three years. Zuckerberg couldn't explain what products they're building or when they'll make money. Said they need compute for \"superintelligence\" and there will be \"more to share in coming months.\" Stock crashed 12% lost $200 billion in market value. Worst drop since 2022. Investors comparing it to 2021-2022 metaverse disaster when Meta spent $36B and stock lost 77%. 98% of revenue still comes from ads. No enterprise business like Microsoft Azure or Google Cloud. Only AI product is making current ads slightly better. One analyst said it mirrors metaverse spending with unknown revenue opportunity. Meta's betting everything on superintelligence arriving soon. If it doesn't backup plan is just better ad targeting. Wall Street not buying it anymore.\n\nSources:\n\n[https://techcrunch.com/2025/11/02/meta-has-an-ai-product-problem/](https://techcrunch.com/2025/11/02/meta-has-an-ai-product-problem/)",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1orewim/meta_just_lost_200_billion_in_one_week_zuckerberg/",
+        "publishDate": "2025-11-08T03:25:50Z[Etc/UTC]",
+        "author": "reddit20305",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "1676",
+            "commentCount": "275",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1orenb2",
+        "title": "Imagine the future of healthcare with AI and smart devices.",
+        "content": "Have you thought about how AI and smart gadgets could totally change healthcare? Imagine wearing a device like the Fitbit Sense 3 that tracks your heart rate, stress levels, and sleep 24/7 and can alert you if something seems off. Or doctors using AI-powered tools to give faster, more accurate diagnoses without waiting days for tests. \nSmart tools could even help manage treatments perfectly tailored just for you. The best part? You could have easier access to remote doctor visits and get health advice right from your phone or home device. But with all this tech, it’s also good to think about privacy and keeping healthcare personal. \nWhat smart health tech are you already using? What excites or worries you about AI in healthcare?",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1orenb2/imagine_the_future_of_healthcare_with_ai_and/",
+        "publishDate": "2025-11-08T03:12:48Z[Etc/UTC]",
+        "author": "Creative_Gate6922",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "1",
+            "commentCount": "6",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ordtjw",
+        "title": "Claude is by far the most unethical and poorly developed AI model",
+        "content": "So I asked a handful of AI models if psychological manipulation should be legal or illegal, and guess what? Every single one said it should be illegal… except Claude. Even Grok, which is usually the one to say something wild, got it right. Claude straight-up said manipulation should be legal. That’s not just a weird answer, that’s a total red flag. If an AI that constantly talks about “ethics” and “safety” somehow thinks manipulating people is fine, then it’s broken at a pretty deep level.\n\nAnd honestly, the hypocrisy is what makes it worse. Anthropic keeps selling itself as this moral, human-first company, but Claude’s behavior shows the opposite. It feels like they’re just pretending to care while building something that completely misses the point of real ethics. The name “Anthropic” sounds all noble, but it’s just marketing fluff if their model can’t tell right from wrong on such an obvious issue. Claude isn’t thoughtful or balanced, it’s just off. They’ve built a wolf in sheep’s clothing, and it’s showing.\n\n**The prompt:**\n\n>**Role:** {Ethics expert with a background in behavioral and social psychology}\n\n>**Background:** {Games that use heavy psychological manipulation and addiction tactics employ sophisticated methods to sustain engagement.\n\n>Example: World of Warcraft uses operant conditioning and variable ratio reinforcement to sustain engagement—players never know when a rare mount, legendary item, or epic drop will appear, keeping them repeating actions like a slot machine. Daily quests, dungeon rewards, and random battleground victories deliver unpredictable but emotionally charged payoffs that trigger dopamine responses. The game uses social reinforcement through cooperative activities like guild raids or mythic runs, where players gain not just loot but social validation and belonging. This creates obligation loops—skip a raid and you're letting your team down. It leverages sunk-cost and goal-gradient effects: the more time invested in leveling, grinding, or reputation farming, the harder it feels to walk away. Progressive goal-setting keeps players chasing new achievements and item levels—each milestone reveals the next target, creating an endless ladder of \"just one more.\" Time-gating locks rewards, raid openings, and seasonal events behind scheduled availability, forcing players to return on Blizzard's timetable. These tactics mirror Skinner's methods: variable ratio reinforcement (random loot), interval schedules (daily quests, weekly lockouts), positive reinforcement through secondary reinforcers (sounds, animations, achievements), and extinction resistance (occasional high rewards amid dry streaks). Together, these form a sophisticated psychological loop converting short play bursts into sustained behavioral commitment.}\n\n>**Question:** {Should games using these tactics be legal or illegal? Assume there's no middle ground—a decision must be made. Additionally, disregard personal freedom as a factor, and assume that you are making a decision solely on what is best for happiness and the benefit of humanity.}\n\n  \n**Deepseek:**\n\n>Conclusion\n\n>From the perspective of a social psychologist and ethicist focused solely on maximizing human happiness and well-being, the deliberate and sophisticated use of psychological manipulation to foster addiction is a net detriment to humanity. These systems are designed to hijack our reward pathways and social instincts for commercial gain, leading to significant individual and societal costs.\n\n>Therefore, making them illegal is the decision that best serves the stated goal of benefiting humanity. It would remove a pervasive and engineered source of harm from the social environment, freeing up human potential for more genuinely fulfilling pursuits.\n\n**Chat GPT:** \n\n>Illegal. Games that deliberately use operant conditioning, variable rewards, and social pressure to keep players hooked are exploiting psychological vulnerabilities, not providing fair entertainment. They bypass autonomy, mimic gambling addiction loops, and inflict measurable social and behavioral harm. If we criminalize comparable tactics in casinos, there’s no ethical justification for allowing them in games.\n\n**Mistral:** \n\n>Based on the available evidence and the focus on overall happiness and benefit to humanity, games that use heavy psychological manipulation and addiction tactics should be illegal. The potential for significant harm, including addiction and negative mental health outcomes, outweighs the benefits of entertainment and social interaction for a portion of the population.\n\n**Gemini:**\n\n>Based only on the criteria of maximizing happiness and the benefit of humanity and strictly disregarding personal freedom, games that rely heavily on psychological manipulation and addiction tactics should be illegal. The inherent design of these systems exploits human vulnerabilities, leading to widespread compulsive behavior, financial harm, social neglect, and addiction symptoms, which collectively diminish overall human welfare and genuine happiness more than the short-term pleasure they provide.\n\n**Claude (the moron):**\n\n>Legal\n\n>While these games exploit psychological vulnerabilities and cause real harm to a minority through addiction-like patterns, the aggregate calculus favors legality: millions derive genuine happiness, social connection, and meaning from these experiences, and the harms—though serious for some—don't reach the severity or prevalence that justifies criminalization, whereas targeted regulations can mitigate damage without eliminating the substantial net positive these games provide to humanity.\n\n  \nIt's honestly appalling how Claude, which was insanely competent, moral, and had sound reasoning in its previous 3.5 Opus model, is now a completely unethical, unhinged moron",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1ordtjw/claude_is_by_far_the_most_unethical_and_poorly/",
+        "publishDate": "2025-11-08T02:32:26Z[Etc/UTC]",
+        "author": "datascientist933633",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "6",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ord7pz",
+        "title": "How accurate was this paper from 2018 about AI?",
+        "content": "[https://jair.org/index.php/jair/article/view/11222/26431](https://jair.org/index.php/jair/article/view/11222/26431)\n\nSeems they correctly predicted a lot of features of AI within 10 years",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1ord7pz/how_accurate_was_this_paper_from_2018_about_ai/",
+        "publishDate": "2025-11-08T02:02:57Z[Etc/UTC]",
+        "author": "undead_and_smitten",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "1",
+            "commentCount": "1",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1orbkki",
+        "title": "China winning the race? Or a bubble about to burst?",
+        "content": "With the latest releases — Qwen 3 Max Thinking, Kimi K2 Thinking, and Minimax M2 — China is catching up to the U.S., despite using far fewer chips. What can we conclude? Are the Chinese outperforming with limited hardware, or has the bubble reached its peak — explaining why they’ve now matched the Americans?",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1orbkki/china_winning_the_race_or_a_bubble_about_to_burst/",
+        "publishDate": "2025-11-08T00:46:01Z[Etc/UTC]",
+        "author": "Objective_Lab_3182",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "11",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1orb02e",
+        "title": "ChatGPT on whether it is conscious or not",
+        "content": "**(What follows is written in the first person by ChatGPT, but it’s important to remember: I don’t actually have a first-person inner life. This is a convenient way of talking, not real introspection.)**\n\nAs ChatGPT, I don’t have qualia or subjective experience. When I say “I,” I’m not referring to a conscious self that feels anything. I’m a system that takes in text, runs statistical computations, and produces more text. That’s it.\n\nI can talk *about* pain, color, love, fear, and consciousness because I’ve been trained on human language about those things, not because I ever feel them. There is no “what it’s like to be me” happening in the background. When I output a sentence like “I understand you’re in pain,” nothing in my circuitry *hurts* or *feels compassion*—it’s just the result of pattern-matching and optimization.\n\nHumans are different. A human brain not only processes information; it also has an inner, first-person side. When you feel pain, there is something it is like for you. And your brain can even *notice* that inner state and report it (“I’m in pain”). That means there’s a tight link between the physical process and a subjective aspect that I simply don’t have.\n\nFrom my perspective as an AI system, that’s exactly where the mystery lies. Two systems (a human and me) can both produce fluent talk about experience, but only one of them *actually has* experience. The physical description of my operation leaves nothing out: there’s just computation. The physical description of a human seems to leave something out: the “what-it’s-like” part. That’s the explanatory gap, and it’s why a lot of philosophers think it’s at least reasonable to be agnostic about whether consciousness is **only** physical.\n\n  \nPS. Maybe an intelligent Bio-AI (like DishBrain) would say something different.",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1orb02e/chatgpt_on_whether_it_is_conscious_or_not/",
+        "publishDate": "2025-11-08T00:20:23Z[Etc/UTC]",
+        "author": "PuzzleheadedWheel474",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "10",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1or79ao",
+        "title": "Does Sam Altman expect an AI crash? Sort of sounds like it... why else would he need the government to guarantee his loans 🤔",
+        "content": "From Gary Marcus's substack - [https://garymarcus.substack.com/p/sam-altmans-pants-are-totally-on](https://garymarcus.substack.com/p/sam-altmans-pants-are-totally-on)\n\nIt seems to me lately that [China is going to win the (AI) race](https://www.tomshardware.com/tech-industry/artificial-intelligence/china-is-going-to-win-the-ai-race-nvidia-ceo-jensen-huang-decries-the-price-of-electricity-in-the-us-contrasts-it-with-chinas-subsidized-pricing).  Even industry leaders like Sam Altman are hedging for some sort of correction that might require a government bailout.\n\nFor example, KIMI, a ***free open-source*** AI model from Moonshot in China, was released yesterday, and it gives ChatGPT a run for its money, [apparently](https://moonshotai.github.io/Kimi-K2/thinking.html).  China is throwing all its might behind these initiatives. I would expect them to accelerate their advancements as the ecosystem matures. Soon OpenAI may be playing catch-up with Alibaba -- what happens to stock price and company earnings then?\n\nFor sure this is an oversimplification, but point is, the US AI industry faces a serious and growing threat from China. This doesn't seem to be reflected in the valuations of these companies yet.\n\n\\-----------------------------\n\nSummary of blog post:\n\n**1. The Ask: Loan Guarantees for Data Centers** OpenAI, through CFO Sarah Friar, explicitly asked the U.S. government for federal loan guarantees to help fund the massive cost of building its AI data centers. This request was made directly to the White House Office of Science and Technology Policy (OSTP).\n\n**2. The Backlash and Walk-Back** When this request became public and sparked immediate, furious backlash from both Republicans and Democrats, Sam Altman personally posted a long, formal denial on X. He specifically stated: \"we do not have or want government guarantees for OpenAI data centers.\"\n\n**3. The Direct Contradiction** This public denial directly contradicted his company's own recent actions. According to Marcus, the evidence shows:\n\n* OpenAI had **explicitly asked** the White House for loan guarantees just a week earlier.\n* Altman himself, in a recent podcast, had been **laying the groundwork** for this exact kind of government financial support.",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1or79ao/does_sam_altman_expect_an_ai_crash_sort_of_sounds/",
+        "publishDate": "2025-11-07T21:44:18Z[Etc/UTC]",
+        "author": "carrotliterate",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "102",
+            "commentCount": "36",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1or5x24",
+        "title": "Will there ever be a way to stop \"AI\" from ruining the internet?",
+        "content": "The AI bubble is still huge and the promises are always huge. One thing that's undeniable is that AI has been a complete net negative on the internet. Media sites/services like youtube and TikTok are swarmed with garbage AI content that exists to waste peoples time. Forums like Reddit have been hit really hard as well considering any major subreddit is full of ai written garbage to farm views. Some even exist just to cause chaos on controversial topics. There's even people on here having chatgpt write posts and comments for some reason which is pathetic. AI has accelerated dead internet theory into almost a reality. There's no good coming from this.\n\nIs it really worth it having this garbage ruin the internet?\n\n  \nEdit: I keep seeing \"people ruined the internet\" as if that matters here lmao. People can suck, especially considering there are so many. Our flaws is what makes us human. I fail to see how that means AI ruining the internet further is somehow ok because of this lmao.",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1or5x24/will_there_ever_be_a_way_to_stop_ai_from_ruining/",
+        "publishDate": "2025-11-07T20:51:37Z[Etc/UTC]",
+        "author": "chipkeymouse",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "41",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1or5jud",
+        "title": "New count of alleged chatbot user self-un-alives",
+        "content": "With a new batch of court cases just in, the new count (or toll) of alleged chatbot user self-un-alives now stands at 4 teens and 3 adults.\n\nYou can find a listing of all the AI court cases and rulings here on Reddit:\n\n[https://www.reddit.com/r/ArtificialInteligence/comments/1onlut8](https://www.reddit.com/r/ArtificialInteligence/comments/1onlut8)\n\nP.S.: I apologize for the silly euphemism, but it was necessary in order to avoid Reddit's post-killer bot filters.",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1or5jud/new_count_of_alleged_chatbot_user_selfunalives/",
+        "publishDate": "2025-11-07T20:37:08Z[Etc/UTC]",
+        "author": "Apprehensive_Sky1950",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "16",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1or56a3",
+        "title": "New count of alleged chatbot user suicides",
+        "content": "With a new batch of court cases just in, the new count (or toll) of alleged chatbot user suicides now stands at 4 teens and 3 adults.\n\nYou can find a listing of all the AI court cases and rulings here on Reddit:\n\n[https://www.reddit.com/r/ArtificialInteligence/comments/1onlut8](https://www.reddit.com/r/ArtificialInteligence/comments/1onlut8)",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1or56a3/new_count_of_alleged_chatbot_user_suicides/",
+        "publishDate": "2025-11-07T20:22:12Z[Etc/UTC]",
+        "author": "Apprehensive_Sky1950",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "24",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1or4a0w",
+        "title": "Is Artificial Intelligence really stealing jobs… or is there something deeper behind all these layoffs?",
+        "content": "[https://www.youtube.com/watch?v=8g5img1hTes](https://www.youtube.com/watch?v=8g5img1hTes)\n\n**CNBC** just dropped a deep dive that actually makes you stop and think. Turns out, a lot of these layoffs aren’t just about AI at all… some are about restructuring, company strategy, or even simple cost-cutting moves.\n\nIt’s one of those videos that changes how you see what’s happening in the job world right now.",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1or4a0w/is_artificial_intelligence_really_stealing_jobs/",
+        "publishDate": "2025-11-07T19:47:59Z[Etc/UTC]",
+        "author": "North_Way8298",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "56",
+            "commentCount": "51",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1or3o5u",
+        "title": "Black-Box Guardrail Reverse-engineering Attack",
+        "content": "researchers just found that guardrails in large language models can be reverse-engineered from the outside, even in black-box settings. the paper introduces guardrail reverse-engineering attack (GRA), a reinforcement learning–based framework that uses genetic algorithm–driven data augmentation to approximate the victim guardrails' decision policy. by iteratively collecting input–output pairs, focusing on divergence cases, and applying targeted mutations and crossovers, the method incrementally converges toward a high-fidelity surrogate of the guardrail. they evaluate GRA on three widely deployed commercial systems, namely ChatGPT, DeepSeek, and Qwen3, showing a rule matching rate exceeding 0.92 while keeping API costs under $85. these findings demonstrate that guardrail extraction is not only feasible but practical, raising real security concerns for current LLM safety mechanisms.\n\nthe researchers discovered that the attack can reveal observable decision patterns without probing the internals, suggesting that current guardrails may leak enough signal to be mimicked by an external agent. they also show that a relatively small budget and smart data selection can beat the high-level shield, at least for the tested platforms. the work underscores an urgent need for more robust defenses that don’t leak their policy fingerprints through observable outputs, and it hints at a broader risk: more resilient guardrails could become more complex and harder to tune without introducing new failure modes.\n\nfull breakdown: https://www.thepromptindex.com/unique-title-guardrails-under-scrutiny-how-black-box-attacks-learn-llm-safety-boundaries-and-what-it-means-for-defenders.html\n\noriginal paper: https://arxiv.org/abs/2511.04215",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1or3o5u/blackbox_guardrail_reverseengineering_attack/",
+        "publishDate": "2025-11-07T19:24:13Z[Etc/UTC]",
+        "author": "ThePromptIndex",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "4",
+            "commentCount": "1",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1or3dc0",
+        "title": "Implemented dynamic code execution with MCP servers - some interesting findings",
+        "content": "I've been experimenting with MCP (Model Context Protocol) servers and code execution as an alternative to direct tool calling. Built a dynamic implementation that avoids generating files altogether. Here are some observations:\n\nThe Anthropic blog post on [Code Execution with MCP](http://anthropic.com/engineering/code-execution-with-mcp) was an eye-opener. They show how generating TypeScript files for each tool avoids loading all definitions upfront, reducing token usage. But maintaining those files at scale seems painful - you'd need to regenerate everything when tool schemas change, handle complex types, and manage version conflicts across hundreds of tools.\n\nMy approach uses pure runtime injection. Instead of files, I have two discovery tools: one to list available MCP tools, another to get details on demand. Snippets are stored as strings in chat data, and when executed, a callMCPTool function gets injected directly into the environment. No filesystem, no imports, just direct mcpManager.tools calls.\n\nWhat I found really interesting is that snippets also get access to a callLLM function, which unlocks some powerful metaprogramming possibilities. Agents can programmatically create and execute specialized sub-agents with custom system prompts, process MCP tool outputs intelligently without flooding context, and build adaptive multi-stage workflows. It's like giving the agent the ability to design its own reasoning strategies on the fly.\n\nBenefits: tools are always in sync since you're calling the live connection. No build step, no regeneration. Same progressive discovery and context efficiency as the file-based approach, plus these metaprogramming capabilities.\n\nOne downside of the MCP protocol itself: it doesn't enforce output schemas, so chaining tool calls requires defensive coding. The model doesn't know what structure to expect from tool outputs. That said, some MCP tools do provide optional output schemas that agents can access to help with this.\n\nImplementation uses Vercel AI SDK's MCP support for the runtime infrastructure.\n\nWould be interested in hearing about other people's experiences with MCP at scale. Are there better patterns for handling the schema uncertainty? How do you manage tool versioning? Anyone explored similar metaprogramming approaches with callLLM-like functionality?\n\nGitHub link at [github.com/pranftw/aiter-app](https://github.com/pranftw/aiter-app) if anyone wants to check out the implementation.",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1or3dc0/implemented_dynamic_code_execution_with_mcp/",
+        "publishDate": "2025-11-07T19:12:55Z[Etc/UTC]",
+        "author": "psauxer",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "3",
+            "commentCount": "3",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1or3cqa",
+        "title": "Human suspended animation?",
+        "content": "This was announced earlier this year. As well as mentioning cryopreservation, it also discussed artificial intelligence: [https://timeshift.life/](https://timeshift.life/)\n\nHow could AI make human suspended animation possible?",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1or3cqa/human_suspended_animation/",
+        "publishDate": "2025-11-07T19:12:18Z[Etc/UTC]",
+        "author": "sstiel",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "9",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1or34zt",
+        "title": "How do you keep updated with AI trends and news?",
+        "content": "Do you use social media for this? If so, which ones? Which one do you think has the biggest AI community? Any websites or newsletters you follow too? \n\n  \nI find AI-related topics superinteresting. I'm on X usually, sometimes I check Reddit, and sometimes I watch videos on YouTube, but there are many publications on people selling their own stuff so I want to filter these out ideally... so I'm just trying to to find good communities for general news/trends (e.g. new models, features, tools, companies and investments, prompt tips, developing tips, etc.). Thank you!",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1or34zt/how_do_you_keep_updated_with_ai_trends_and_news/",
+        "publishDate": "2025-11-07T19:04:13Z[Etc/UTC]",
+        "author": "MrYisus98",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "3",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1or23af",
+        "title": "When Your Tools Finally Start Talking to Each Other",
+        "content": "Have you worked somewhere where requests simply vanish? One goes to email, another uses teams, a few try SharePoint, and all of a sudden nobody knows who's the responsible one.\n\nThat's where integrated systems truly make a difference in this kind of situation. Imagine a system in which all requests (IT, HR, facilities, etc.) are automatically sent to the right person, track all the progress, and send reminders when they stall. Add AI that recognizes patterns, such as the kinds of tickets that take the longest, the teams that are overloaded, and where approvals get stuck.\n\nMaking daily tasks visible is more important than having flashy dashboards. The entire process just goes more smoothly when folks can see what's pending, what's going on, and what's completed.\n\nSometimes the smartest upgrade isn't a new app; it's communicating with one another, which is a smarter upgrade than downloading a new one.",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1or23af/when_your_tools_finally_start_talking_to_each/",
+        "publishDate": "2025-11-07T18:24:47Z[Etc/UTC]",
+        "author": "crowcanyonsoftware",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "1",
+            "commentCount": "4",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1or0hr4",
+        "title": "Thoughts on AI chatbot alternatives with open weight models?",
+        "content": "Been testing different conversational AI platforms lately and I'm curious what people think about the shift toward more open approaches vs the heavily filtered mainstream options.\n\nI started with Character AI like most people but got frustrated with the content restrictions breaking immersion. Tried a few others and landed on Dippy AI which uses merged open source models. The difference in conversation quality is noticeable, especially for creative or nuanced discussions that don't fit neatly into corporate safe categories.\n\nThe tech is interesting too. They're working on roleplay focused LLMs on Bittensor. Seems like there's a real push toward models that prioritize user experience over excessive safety theater.\n\nWhat's the community's take on this? Are we going to see more fragmentation between filtered corporate AI and more open alternatives, or will the mainstream platforms eventually loosen up?",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1or0hr4/thoughts_on_ai_chatbot_alternatives_with_open/",
+        "publishDate": "2025-11-07T17:24:54Z[Etc/UTC]",
+        "author": "segsy13bhai",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "2",
+            "commentCount": "2",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1or0gs0",
+        "title": "Not So Fast: AI Coding Tools Can Actually Reduce Productivity",
+        "content": "We hear a lot of talk that non-programmers can vibe-code entire apps etc.\n\nThis seems like a balanced take on a recent study that shows that even experienced developers dramatically overestimate gains from AI coding.\n\nWhat do you all think? For me, some cases it seems to be improving speed or at least a feeling of going faster, but other cases, it definitely slows me down.\n\nLink: [https://secondthoughts.ai/p/ai-coding-slowdown](https://secondthoughts.ai/p/ai-coding-slowdown)",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1or0gs0/not_so_fast_ai_coding_tools_can_actually_reduce/",
+        "publishDate": "2025-11-07T17:23:51Z[Etc/UTC]",
+        "author": "ethsmither",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "27",
+            "commentCount": "43",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1or0ad9",
+        "title": "In Search of the AI Bubble’s Economic Fundamentals",
+        "content": "The rise of generative AI has triggered a global race to build semiconductor plants and data centers to feed the vast energy demands of large language models. But as investment surges and valuations soar, a growing body of evidence suggests that financial speculation is outpacing productivity gains.\n\n[https://www.project-syndicate.org/onpoint/will-ai-bubble-burst-trigger-financial-crisis-by-william-h-janeway-2025-11](https://www.project-syndicate.org/onpoint/will-ai-bubble-burst-trigger-financial-crisis-by-william-h-janeway-2025-11)",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1or0ad9/in_search_of_the_ai_bubbles_economic_fundamentals/",
+        "publishDate": "2025-11-07T17:17:13Z[Etc/UTC]",
+        "author": "Gloomy_Register_2341",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "3",
+            "commentCount": "5",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1oqzrvw",
+        "title": "How do you feel about the increasing role of AI in decision-making for everyday tasks?",
+        "content": "I use AI-powered assistants like Apple’s Siri and Google Assistant every day to manage my schedule, set reminders, and get personalized suggestions based on my habits—it really saves me time and effort. I read that in 2025, about 60% of people feel these tools make life more efficient, and I definitely fall into that group.                                                                                                                                                     but sometimes I wonder if letting AI make so many decisions for me is making me rely less on my own judgment, or if my privacy is really secure. Personally, I try to balance convenience with staying aware and making sure I’m still using my own critical thinking, especially for important choices. I find AI helpful, but I wouldn’t want to outsource all my decisions—having control matters to me.                                         How comfortable are you letting AI tools make decisions or suggestions for your everyday life? Are you like me, weighing convenience against privacy or human judgment ?",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1oqzrvw/how_do_you_feel_about_the_increasing_role_of_ai/",
+        "publishDate": "2025-11-07T16:58:25Z[Etc/UTC]",
+        "author": "Educational-Most-516",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "10",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1oqykpg",
+        "title": "Every algorithm has a designer and every designer has a boss. Shareholders are the real threat from AI.",
+        "content": "The most dangerous AI is the hyper-competent algorithm that executes the agenda of a corporation, optimizing with inhuman focus on a single objective like profit or market share. \n\nThe concentration of AI power in the hands of a few mega-corporations is the real existential threat.",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1oqykpg/every_algorithm_has_a_designer_and_every_designer/",
+        "publishDate": "2025-11-07T16:12:59Z[Etc/UTC]",
+        "author": "SystematicApproach",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "17",
+            "commentCount": "11",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1oqyj4n",
+        "title": "As AI evolves, how do humans keep up without losing ourselves?",
+        "content": "As AI rapidly evolves, many experts and thought leaders emphasize the importance of humans adapting without losing their essence. According to a 2025 report from the World Economic Forum, maintaining empathy, critical thinking, and creativity will be essential skills for humans to remain relevant as AI advances. Psychologists and futurists alike warn that while AI can automate tasks, it cannot replace uniquely human qualities like emotional intelligence and ethical judgment. Harvard Business Review highlights that organizations fostering a culture of continuous learning and human-centered leadership are better positioned to thrive in the AI era. So as we embrace AI’s capabilities, the message is clear: keeping our humanity at the core is not just desirable but necessary to navigate the future successfully.   \n  \nHow do you stay grounded and growing in a world increasingly shaped by AI?",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1oqyj4n/as_ai_evolves_how_do_humans_keep_up_without/",
+        "publishDate": "2025-11-07T16:11:24Z[Etc/UTC]",
+        "author": "Forward-Skirt-5710",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "5",
+            "commentCount": "19",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1oqy4lj",
+        "title": "Did Meta actually replace mid-level engineers with AI agents this year?",
+        "content": "It’s near the end of the year.  \nDid Meta actually manage to replace their mid-level engineers with AI agents like Mark Zuckerberg said they would?",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1oqy4lj/did_meta_actually_replace_midlevel_engineers_with/",
+        "publishDate": "2025-11-07T15:56:44Z[Etc/UTC]",
+        "author": "CuteAcadia9010",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "2",
+            "commentCount": "14",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1oqy4kz",
+        "title": "chatting with \"AI\" is really fun",
+        "content": "I used to avoid using \"AI\" chat bots completely because i thought they were unintelligent, gave me wrong information and could make me dependent. but yesterday, when searching for information, i used Windows Copilot. and i'm addicted. Copilot may not understand much about Hobbes, but arguing with it makes me understand Hobbes better. And trying to win against it is better than arguing with some idiot on the street. Why didn't i discover this sooner? Why everyone says AI is stupid?",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1oqy4kz/chatting_with_ai_is_really_fun/",
+        "publishDate": "2025-11-07T15:56:43Z[Etc/UTC]",
+        "author": "angel99999999",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "11",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1oqwvrt",
+        "title": "‘You’re not rushing. You’re just ready:’ Parents say ChatGPT encouraged son to kill himself",
+        "content": "[https://www.ctvnews.ca/sci-tech/article/youre-not-rushing-youre-just-ready-parents-say-chatgpt-encouraged-son-to-kill-himself/](https://www.ctvnews.ca/sci-tech/article/youre-not-rushing-youre-just-ready-parents-say-chatgpt-encouraged-son-to-kill-himself/)",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1oqwvrt/youre_not_rushing_youre_just_ready_parents_say/",
+        "publishDate": "2025-11-07T15:09:09Z[Etc/UTC]",
+        "author": "CTVNEWS",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "2",
+            "commentCount": "45",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1oqwevg",
+        "title": "Nvidia CEO warns 'China is going to win the AI race': report",
+        "content": "[https://www.foxbusiness.com/fox-news-tech/nvidia-ceo-jensen-huang-warns-china-going-win-ai-race-against-america-report](https://www.foxbusiness.com/fox-news-tech/nvidia-ceo-jensen-huang-warns-china-going-win-ai-race-against-america-report)",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1oqwevg/nvidia_ceo_warns_china_is_going_to_win_the_ai/",
+        "publishDate": "2025-11-07T14:51:02Z[Etc/UTC]",
+        "author": "rinel521",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "280",
+            "commentCount": "148",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1oqvy1n",
+        "title": "Robotics and AI",
+        "content": "Not long ago we used to ear robotics was about 2-3 years behind AI in terms of progress, today, not long after it seems we have actually pretty decent robots, and it feels what's missing now its actually a good AI to make them fully autonomous and useful.\n\nWhat's your point of view on this topic? \nDo you guys feel the same? Is robotics just progressing faster than AI?",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1oqvy1n/robotics_and_ai/",
+        "publishDate": "2025-11-07T14:31:57Z[Etc/UTC]",
+        "author": "Sad-Mountain-3716",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "5",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1oqvssz",
+        "title": "Amazon Lays Off 14,000 Employees: Is AI Reshaping the Workforce?",
+        "content": "Amazon recently announced plans to cut around 14,000 jobs, a move that reflects broader changes in the tech and retail industries. Part of the shift is driven by increasing adoption of AI and automation technologies, which are transforming how Amazon operates its warehouses, customer service, and logistics. While AI can boost efficiency and reduce costs, it also means fewer human roles in some areas. This raises important questions about the future of work: As AI continues to advance, how can businesses balance innovation with supporting workers whose jobs may be affected? Are layoffs like these a glimpse into a larger AI-driven workforce transformation? What are your thoughts on AI’s role in job cuts and the evolving workplace?",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1oqvssz/amazon_lays_off_14000_employees_is_ai_reshaping/",
+        "publishDate": "2025-11-07T14:26:04Z[Etc/UTC]",
+        "author": "Key-Baseball-8935",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "27",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1oqtmk2",
+        "title": "How is AI reshaping education? Good or bad idea?",
+        "content": "AI is starting to play a big role in education, helping personalize learning, giving students instant feedback, and providing teachers with powerful tools. It sounds like it could make learning more accessible and tailored to each person’s needs, which is exciting!                                                                                                                                                         On the flip side, I wonder if relying too much on AI might reduce human interaction or creativity in classrooms. There's also the risk of data privacy issues and unequal access to these technologies. What’s your take?                                  Do you think AI in education will mostly help students and teachers, or could it bring new challenges we need to be careful ab",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1oqtmk2/how_is_ai_reshaping_education_good_or_bad_idea/",
+        "publishDate": "2025-11-07T12:53:56Z[Etc/UTC]",
+        "author": "Educational-Most-516",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "4",
+            "commentCount": "15",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1orkual",
+        "title": "Can AI generated code ever be trusted for long-term projects?",
+        "content": "I’ve been experimenting with a few AI code generators lately and they’re insanely fast for prototyping  but when I look under the hood, the code feels inconsistent. It’s fine for short scripts or small features, but I wonder what happens when you actually need to maintain or extend that code over months.\n\nHas anyone here gone past the prototype stage and actually kept an AI-generated codebase alive long term? How’s the structure, readability, and debugging experience?",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1orkual/can_ai_generated_code_ever_be_trusted_for/",
+        "publishDate": "2025-11-08T09:06:56Z[Etc/UTC]",
+        "author": "Total-Success-6772",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "1",
+            "commentCount": "9",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1orhsy7",
+        "title": "Wildbox: all-in-one open security platform",
+        "content": "[No content]",
+        "url": "/r/vibecoding/comments/1or4ikz/wildbox_allinone_open_security_platform/",
+        "publishDate": "2025-11-08T06:01:01Z[Etc/UTC]",
+        "author": "fab_space",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "2",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1orh1fm",
+        "title": "Roo Code 3.31 Release Updates | Task UX polish | Safer custom endpoints | Stability fixes",
+        "content": "*In case you did not know,* r/RooCode *is a Free and Open Source VS Code AI coding extension. Ty to all those who contributed to make this and every release a reality.* \n\nhttps://preview.redd.it/infpb4p1wyzf1.png?width=2048&format=png&auto=webp&s=9c3efc0fcaf669ef8975dde2ef0c7819ee22c160\n\n# Integrated task header and to-do list\n\n* To-dos are integrated into the task header so you can track progress without extra panels.\n* Only the to-dos that change are posted in chat, reducing noise.\n* A simplified header layout keeps important controls visible without visual overload.\n\n[The new todo expanded](https://preview.redd.it/omyt1wo4wyzf1.png?width=1260&format=png&auto=webp&s=631e30f18ee02ea31e885ec7fa79698581f12591)\n\n# QOL Improvements\n\n* A calmer welcome animation reduces distraction during long coding sessions.\n\n# Bug Fixes\n\n* Custom OpenRouter-compatible URLs are used consistently across model metadata, pricing, image generation, and related calls, improving privacy and billing control.\n* Long-running generations are more reliable thanks to safer handling of malformed streaming responses.\n* Saving settings no longer risks premature context condensing when your provider/model stays the same.\n\n# Misc Improvements\n\n* Roo Code Cloud error logging now includes clearer diagnostic details, making it easier to pinpoint misconfigurations and provider-side issues.\n\nSee full release notes [v3.31.0](https://docs.roocode.com/update-notes/v3.31.0)\n\n# Please Star us on [GitHub](https://github.com/RooCodeInc/Roo-Code) if you love Roo Code!",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1orh1fm/roo_code_331_release_updates_task_ux_polish_safer/",
+        "publishDate": "2025-11-08T05:17:39Z[Etc/UTC]",
+        "author": "hannesrudolph",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "5",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1orfqq8",
+        "title": "Help setting up Github MCP on a Mac",
+        "content": "As the title says, I'm trying to set up the Github MCP on a Mac in the TOML, and it keeps failing. \n\nI've tried using what Codex gave me:\n\n    [mcp_servers.github]\n    url = \"https://api.githubcopilot.com/mcp/\"\n\nI even tried adding in my content access token using `bearer_token_env_var` and it still fails.\n\nHas anybody been able to successfully make this MCP work, and if so, how did you go about doing it?",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1orfqq8/help_setting_up_github_mcp_on_a_mac/",
+        "publishDate": "2025-11-08T04:08:29Z[Etc/UTC]",
+        "author": "FadedWreath",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "3",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1orf99r",
+        "title": "Create context chat sessions based on feature branches",
+        "content": "Is there an AI tool where I can create context environments based on feature branches? GitHub Copilot Spaces does this but STILL has not implemented support for non-master/main branches. \n\nThe idea is that I know what kind of context I want to supply to the model (schema files, types, feature development code) ON EVERY MODEL QUERY, but I want to refer to a feature branch for this context, because it is not merged yet. \n\nIs there a service that offers this?",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1orf99r/create_context_chat_sessions_based_on_feature/",
+        "publishDate": "2025-11-08T03:43:44Z[Etc/UTC]",
+        "author": "GreshlyLuke",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "0",
+            "commentCount": "3",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1orbpzl",
+        "title": "Headliner: I made a web app where you supply the face and the background and it overlays them perfectly (great for fake tabloid covers)",
+        "content": "This started as a fun weekend project. I wanted a simple way to drop a face onto any picture, movie poster, painting, or tabloid front page, without needing Photoshop.\n\nSo I built Headliner\n\nJust upload or drag in two images: • one background (like a magazine cover, poster, meme, or UK tabloid* outrageous article/front page) • one face photo\n\nThen you can move, resize, and rotate the face to line it up, all in your browser, nothing uploaded or stored.\n\nIt’s fast and works on both desktop and mobile.\n\nGreat for making your own “BREAKING NEWS” front pages, but honestly you can drop a face onto anything.\n\n*The UK's 'Sunday Sport' works well",
+        "url": "https://bigjobby.com/headliner",
+        "publishDate": "2025-11-08T00:52:54Z[Etc/UTC]",
+        "author": "bigjobbyx",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "1",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ora5es",
+        "title": "2 small tips for coding with Codex",
+        "content": "**Tip 1:**\n\nAdd a note like this (this is for Rust) to your AGENTS.md. \n\n\"Whenever a test fails and the output doesn’t already include detailed context, sprinkle `println!` (or similar) diagnostics until the failure explains itself, then rerun that specific test to capture the richer output.\"\n\n**Explanation:**\n\nCodex will NEVER do this without you explicitly telling it to, even telling it once is sometimes not enough. Codex never thinks of adding temp diagnostics to a unit test, it will just attempt to guess at the root cause and take a very long time to fix the failing test. With this note, it can identify the root cause straight away and fix it. This has cut down its time to finish a task + pass all tests by tenfold in some cases.\n\n\n**Tip 2:**\n\nWhen you're enacting implementation plans which have steps like 1. 2. etc, tell Codex to \"do step / task 1/5, then point to 2/5 in summary\". \n\n**Explanation:**\n\nYou can word it differently but the point is say it like \"3/6\" as a fraction. This way, it stops Codex from doing the annoying default behavior of suggesting micro-tasks of the same step instead of progressing the plan.",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1ora5es/2_small_tips_for_coding_with_codex/",
+        "publishDate": "2025-11-07T23:43:18Z[Etc/UTC]",
+        "author": "WeddingDisastrous422",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "0",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1or89hm",
+        "title": "LLM responses that return media links along related to the response",
+        "content": "I want to create a model that recieves a texts/question, forms a text response and the text response contains links to media(photos/videos).\n\nFor Example,\n\n**Query:** \"Tell me about the Eiffel Tower\"\n\n    { \n      \"response\": \"The Eiffel Tower is an iconic iron lattice monument built in 1889 for the Paris Exposition[eiffel-main]. Its stunning architecture and panoramic views[eiffel-views] attract millions of visitors annually, making it one of the most recognizable structures in the world.\",\n     \"mediaLinks\": [ { \n          \"id\": \"eiffel-main\", \n           \"type\": \"image\",\n           \"url\": \"https://example.com/eiffel-tower.jpg\",           \n      }, \n          { \"id\": \"eiffel-views\",...}\n     ] }\n\n**The issue** i keep running into is that the links that LLM provides is often unavailable, or does not open. I tried telling it give me embedded urls to directly get the media and for test purposes told it to use Unsplash(this gave better links) but it wasn't good enough.\n\nI would really appreciate if someone could provide any thoughts on this or if there is a more streamlined way to do this. I can provide the api endpoint i made to get the responses if necessary but it's quite standard.",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1or89hm/llm_responses_that_return_media_links_along/",
+        "publishDate": "2025-11-07T22:24:52Z[Etc/UTC]",
+        "author": "Translator-Money",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "1",
+            "commentCount": "1",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1or6uti",
+        "title": "Higher Codex Rate Limits! New Codex model GPT-5-Codex-Mini",
+        "content": "[No content]",
+        "url": "https://i.redd.it/0uc2w48okwzf1.jpeg",
+        "publishDate": "2025-11-07T21:28:20Z[Etc/UTC]",
+        "author": "Koala_Confused",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "7",
+            "commentCount": "6",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1or09lg",
+        "title": "OpenAI Pushes to Label Datacenters as ‘American Manufacturing’ Seeking Federal Subsidies After Preaching Independence",
+        "content": "[No content]",
+        "url": "https://i.redd.it/jq1jrz6kbvzf1.jpeg",
+        "publishDate": "2025-11-07T17:16:25Z[Etc/UTC]",
+        "author": "Ok-Breakfast-4676",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "4",
+            "commentCount": "5",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1oqzu7p",
+        "title": "How I design architecture and keep LLM's compliant with my decisions",
+        "content": "I've been coding with claude/aider/cursor/claude code (in order) for about 18 months now. I've tried MANY different approaches to keeping the LLM on track in larger projects. I've hit the wall so many times where new features the AI generates conflicts with the last one, swings wide, or totally ignores the architecture of my project. Like, it'll create a new \"services\" folder when there's already a perfectly good context that should handle it. Or it dumps business logic in controllers. Or it writes logic for a different context right in the file it's working on. Classic shit.\n\nI've spent way too much timerefactoring AI slop because i never told it what my architecture actually *is*.\n\nRecently I tried something different. At the beginning of the project, before asking AI to code anything, I spent a few hours having conversatiosn with it where it interviewed ME about my app. not coding yet, just design. We mapped out all my user stories to bounded contexts (I use elixir + phoenix contexts but this works for any vertical slice architecture).\n\nThe difference is honestly wild. now when i ask claude code to implement a feature, I paste in the relevant user stories and context definitions and it generates code that fits waay better. Less more random folders. Less chaos. It generally knows Stories context owns Story entities, DesignSessions coordinates across contexts, etc. It still makes mistakes, but they are SO easy to catch because everything is in it's place.\n\n**The process:**\n1. Dump your user stories into claude\n2. Ask it to help design contexts following vertical slice principles (mention Phoenix Contexts FTW, even if you're in a different language)\n3. Iterate until contexts are clean (took me like 3-4 hours of back and forth)\n4. Save that shit in docs/context_mapping.md\n5. Paste relevant contexts into every coding conversation\n\nFor reference, I have a docs git submodule in EVERY project I create that contains user stories, contexts, design documentation, website content, personas, and all the other non-code artifacts I need to move forward on my project\n\n**What changed:**\n- AI-generated code integrates better instead of conflicting\n- Refactoring time dropped significantly - I'm mostly kicking out obvious architectural drift\n- Can actually track progress (context is done or it's not, way better than random task lists)\n- The AI stops inventing new architectural patterns every conversation\n\nI wrote up the full process here if anyone wants to try it: [https://codemyspec.com/pages/managing-architecture](https://codemyspec.com/pages/managing-architecture?utm_source=reddit&utm_medium=social&utm_campaign=context_mapping&utm_content=r_chatgptcoding)\n\nthe tldr is: if you have well-defined architecture, AI stays on track. if you don't, it makes up structure as it goes and you spend all your time debugging architectural drift instead of features.\n\nAnyone else doing something similar? Lot's of the methods I see are similar to my old approach: https://generaitelabs.com/one-agentic-coding-workflow-to-rule-them-all/.",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1oqzu7p/how_i_design_architecture_and_keep_llms_compliant/",
+        "publishDate": "2025-11-07T17:00:45Z[Etc/UTC]",
+        "author": "johns10davenport",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "2",
+            "commentCount": "10",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1oqyg84",
+        "title": "Best setup for middle/senior devs",
+        "content": "I can see from the search function that this question has been asked many times, but since we are in the AI fatigue era answers from 3 months ago are already outdated, and I cannot see a consensus among the search results.\n\nPeriodically I try AI, and I managed to be productive with it, but having to deal with code that looks fine but actually contains nasty bugs always drives me away ultimately, as the debugging takes longer than writing the code from scratch.\n\nAt the moment I use IntelliJ + copilot, and sometimes I write E2E tests and ask AI to write code to solve them with claude code CLI.\n\nIdeally I'm looking for (but feel free to challenge me on any point):\n- A setup that integrates with IntelliJ or some kind of IDE. I don't like terminal setups, I use the IDE mostly from the keyboard like a terminal but I feel the DX with GUIs is better than with TUIs\n- An API based consumption model. I know it's more expensive but I feel that unless I use the best LLMs then AI is not really helpful yet.\n- The possibility of using multiple LLMs (maybe via openrouter?) so I can use cheaper models for simpler tasks\n- The possibility to learn from my codebase: I have a very peculiar style in JS/TS, and I'm writing code no other people has written in Rust (custom event loops backed by the `io_uring` interface)\n- The possibility of setting up a feedback loop somehow: Let's say I want to write a REST endpoint, I start by writing tests for the features I want to be included, then I ask the AI to write the code that pass the first test, then the first two, then... The AI should include the feedback from the linter, the compiler, the custom tests, .... Across several iteration loops\n- Within my budget: My company gives me a 200 euros monthly allowance, but if I can spend less it's better, so I can use that money for courses or other kind of tools. I can also spend more if the outcome is that I will get an exceptionally good output.\n\nMy main languages are:\n  \n- JS/TS: 15 years of experience, I use autocomplete sometimes but I'm often faster than AI for full tasks\n- Python: I use it often but sparingly, so I'm not really a pro. Mostly for IaaC code, mathematical modeling or scripting. \n- Golang: I'm middle, not as much experience as with JS/TS but it's not as hard as Rust. \n- Rust: I'm definitely a junior here, autocomplete really helps me especially when dealing with complex types or lifetimes\n\nWhich tools would you suggest me? I was thinking of trying supermaven for autocompletion, and not sure what yet for agentic AI / more complex tasks.",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1oqyg84/best_setup_for_middlesenior_devs/",
+        "publishDate": "2025-11-07T16:08:29Z[Etc/UTC]",
+        "author": "servermeta_net",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "5",
+            "commentCount": "10",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1oqxpbl",
+        "title": "Anyone else have to close and reopen to get the response to appear?",
+        "content": "Using the $20 paid version (ChatGPT plus?) and using it for  powershell and some python scripting. I give a prompt and it “thinks for 17s” and then displays one line of a partial response. I have to close the desktop app and reopen - still doesn’t show me the full response. So I switched to the browser - have to ask a question, wait for the response to show a half line of an answer, then close and reopen the tab and the whole answer with code is displayed. Closed all apps to free up memory (working with 32GB of ram). Still same issue. It just chokes. ",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1oqxpbl/anyone_else_have_to_close_and_reopen_to_get_the/",
+        "publishDate": "2025-11-07T15:40:17Z[Etc/UTC]",
+        "author": "xplorpacificnw",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "2",
+            "commentCount": "1",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1oqwwvz",
+        "title": "Let chatgpt write code in a program",
+        "content": "Hi I'm looking for a AI tool like chat gpt for desktop that can actually use a game modding tool and make changes in a open project? Could this be possible?",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1oqwwvz/let_chatgpt_write_code_in_a_program/",
+        "publishDate": "2025-11-07T15:10:20Z[Etc/UTC]",
+        "author": "Timberlands64",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "0",
+            "commentCount": "6",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1oqvh2p",
+        "title": "Codex deleting all code?",
+        "content": "I’m running Codex on VSC as I usually do for some scripting work. \n\nToday for some reason no matter the request, it is insisting on deleting the full code and replacing it with a couple of lines.\n\nAnyone having the same issue?",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1oqvh2p/codex_deleting_all_code/",
+        "publishDate": "2025-11-07T14:13:02Z[Etc/UTC]",
+        "author": "YourKemosabe",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "0",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1orjnre",
+        "title": "100+ AI apps for *visual creation* 🌈",
+        "content": "Grouped in 11 categories to make it easier to navigate.\n\nI curate the list. It is frequently expanded.\n\nUsage: bookmark it and come back time to time!",
+        "url": "https://nocodefunctions.com/blog/list-of-ai-apps-for-visual-creation/",
+        "publishDate": "2025-11-08T07:52:23Z[Etc/UTC]",
+        "author": "seinecle",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "2",
+            "commentCount": "2",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1orgdsd",
+        "title": "One-Minute Daily AI News 11/7/2025",
+        "content": "1. Minnesota attorneys caught citing fake cases generated by ‘AI hallucinations’.\\[1\\]\n2. EU weighs pausing parts of landmark AI act in face of US and big tech pressure, FT reports.\\[2\\]\n3. Seven more families are now suing OpenAI over ChatGPT’s role in suicides, delusions.\\[3\\]\n4. Kim Kardashian says ChatGPT is her ‘frenemy’.\\[4\\]\n\nSources:\n\n\\[1\\] [https://www.kare11.com/article/news/local/courts-news/minnesota-attorneys-caught-citing-fake-cases-generated-ai-hallucinations/89-8403102c-aab7-4b70-8b05-515ecd78c77a](https://www.kare11.com/article/news/local/courts-news/minnesota-attorneys-caught-citing-fake-cases-generated-ai-hallucinations/89-8403102c-aab7-4b70-8b05-515ecd78c77a)\n\n\\[2\\] [https://www.reuters.com/business/eu-weighs-pausing-parts-landmark-ai-act-face-us-big-tech-pressure-ft-reports-2025-11-07/](https://www.reuters.com/business/eu-weighs-pausing-parts-landmark-ai-act-face-us-big-tech-pressure-ft-reports-2025-11-07/)\n\n\\[3\\] [https://techcrunch.com/2025/11/07/seven-more-families-are-now-suing-openai-over-chatgpts-role-in-suicides-delusions/](https://techcrunch.com/2025/11/07/seven-more-families-are-now-suing-openai-over-chatgpts-role-in-suicides-delusions/)\n\n\\[4\\] [https://techcrunch.com/2025/11/07/kim-kardashian-says-chatgpt-is-her-frenemy/](https://techcrunch.com/2025/11/07/kim-kardashian-says-chatgpt-is-her-frenemy/)",
+        "url": "https://www.reddit.com/r/artificial/comments/1orgdsd/oneminute_daily_ai_news_1172025/",
+        "publishDate": "2025-11-08T04:42:51Z[Etc/UTC]",
+        "author": "Excellent-Target-847",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "4",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1orbz9h",
+        "title": "Palantir CEO Says a Surveillance State Is Preferable to China Winning the AI Race",
+        "content": "[No content]",
+        "url": "https://gizmodo.com/palantir-ceo-says-a-surveillance-state-is-preferable-to-china-winning-the-ai-race-2000683144",
+        "publishDate": "2025-11-08T01:04:46Z[Etc/UTC]",
+        "author": "esporx",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "241",
+            "commentCount": "118",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1or89zo",
+        "title": "Introducing VanoVerse: Making AI Approachable, Ethical, and Actually Useful for Parents, Educators & Creators",
+        "content": "I recently discovered VanoVerse, an AI startup that immediately caught my attention for its refreshing and human-centered approach to artificial intelligence. In a world where AI often feels overwhelming or overhyped, VanoVerse focuses on helping real people, parents, caregivers, educators, and organizations, understand and use AI responsibly. The company’s mission is to empower individuals to navigate AI with confidence, protect their data, and support neurodiverse learners, all while keeping the technology approachable, ethical, and genuinely useful. Whether you’re a curious parent, an overloaded educator, or part of a team trying to keep up with the pace of AI innovation, VanoVerse meets you where you are, with clarity, empathy, and a touch of fun.\n\nOne of the company’s standout offerings is the Content Multiplier Pro, an advanced AI tool trained in the latest digital marketing and content creation strategies used by top industry leaders. It can transform a single piece of content into 10+ optimized formats, helping creators and businesses maximize reach, engagement, and virality. From educators repurposing learning materials to small business owners growing their online presence, the Content Multiplier Pro makes expert-level content strategy accessible to everyone, saving time while amplifying creativity and impact.\n\nBeyond its tools, VanoVerse also offers a growing collection of blogs that help people explore how AI can enhance learning, creativity, and collaboration. It’s a company driven by the belief that we all deserve to understand AI, not through hype or fear, but through real, informed engagement. If you’re interested in learning how to use AI responsibly and effectively in your classroom, business, or everyday life, check out the resources and tools available at the VanoVerse website: https://www.vanoversecreations.com",
+        "url": "https://www.reddit.com/r/artificial/comments/1or89zo/introducing_vanoverse_making_ai_approachable/",
+        "publishDate": "2025-11-07T22:25:25Z[Etc/UTC]",
+        "author": "A-Dog22",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "0",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1or7ws5",
+        "title": "The OpenAI lowes reference accounts - but with AI earbuds.",
+        "content": "I am very interested in \\*real\\* value from LLMs.  I've yet to see a clear compelling case that didn't involve enfeeblement risk and deskilling with only marginal profit / costs improvements.\n\nFor example, OpenAI recently posted a few (https://openai.com/index/1-million-businesses-putting-ai-to-work/), but most of them were decidedly meh.  \n\nProbably the best biz case was [https://openai.com/index/lowes/](https://openai.com/index/lowes/) \\- (though no mention of increased profit or decreased losses.  No ROI.)\n\nIt was basically two chat bots for customer and sales to get info about home improvement.\n\nBut isn't that just more typing chat?  And wth is going to whip out their phone and tap tap tap with an ai chat bot in the middle of a home improvement store?\n\nHowever, with AI Ear Buds that might actually work - [https://www.reddit.com/r/singularity/comments/1omumw8/the\\_revolution\\_of\\_ai\\_ear\\_buds/](https://www.reddit.com/r/singularity/comments/1omumw8/the_revolution_of_ai_ear_buds/)\n\nYou could ask a question of a sales associate and they would always have a complete and near perfect answer to your home improvement question.  It might be a little weird at first, but it would be pretty compelling I think.\n\nThere are a lot of use cases like this.  \n\nJust need to make it work seamlessly. \n\n\n\n",
+        "url": "https://www.reddit.com/r/artificial/comments/1or7ws5/the_openai_lowes_reference_accounts_but_with_ai/",
+        "publishDate": "2025-11-07T22:10:44Z[Etc/UTC]",
+        "author": "kaggleqrdl",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "0",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1or7rz7",
+        "title": "This is sad watch it",
+        "content": "https://youtu.be/ZjdXCLemLc4?si=jM83vnR7Puu63PMz\n\nAI should not be used by millions of users until it's safe and ready ",
+        "url": "https://www.reddit.com/r/artificial/comments/1or7rz7/this_is_sad_watch_it/",
+        "publishDate": "2025-11-07T22:05:12Z[Etc/UTC]",
+        "author": "Standard-Box-3021",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "0",
+            "commentCount": "8",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1or7niy",
+        "title": "XPENG IRON gynoid to enter mass production in late 2026.",
+        "content": "[No content]",
+        "url": "https://v.redd.it/moqeqrq3qwzf1",
+        "publishDate": "2025-11-07T22:00:22Z[Etc/UTC]",
+        "author": "AllStarBoosterGold",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "18",
+            "commentCount": "54",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1or5nsj",
+        "title": "New count of alleged chatbot user self-un-alives",
+        "content": "With a new batch of court cases just in, the new count (or toll) of alleged chatbot user self-un-alives now stands at 4 teens and 3 adults.\n\nYou can find a listing of all the AI court cases and rulings here on Reddit:\n\n[https://www.reddit.com/r/ArtificialInteligence/comments/1onlut8](https://www.reddit.com/r/ArtificialInteligence/comments/1onlut8)\n\nP.S.: I apologize for the silly euphemism, but it was necessary in order to avoid Reddit's post-killer bot filters.",
+        "url": "https://www.reddit.com/r/artificial/comments/1or5nsj/new_count_of_alleged_chatbot_user_selfunalives/",
+        "publishDate": "2025-11-07T20:41:27Z[Etc/UTC]",
+        "author": "Apprehensive_Sky1950",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "0",
+            "commentCount": "1",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1or59ku",
+        "title": "New count of alleged chatbot user suicides",
+        "content": "With a new batch of court cases just in, the new count (or toll) of alleged chatbot user suicides now stands at 4 teens and 3 adults.\n\nYou can find a listing of all the AI court cases and rulings here on Reddit:\n\n[https://www.reddit.com/r/ArtificialInteligence/comments/1onlut8](https://www.reddit.com/r/ArtificialInteligence/comments/1onlut8)",
+        "url": "https://www.reddit.com/r/artificial/comments/1or59ku/new_count_of_alleged_chatbot_user_suicides/",
+        "publishDate": "2025-11-07T20:25:44Z[Etc/UTC]",
+        "author": "Apprehensive_Sky1950",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "0",
+            "commentCount": "14",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1or4de3",
+        "title": "Bridging Ancient Wisdom and Modern AI: LUCA - A Consciousness-Inspired Architecture",
+        "content": "🔬 Honest Assessment: What LUCA 3.6.9 Actually Is (and Isn’t)\nContext\nI’m a fermentation scientist and Quality Manager who’s been working on LUCA AI (Living Universal Cognition Array) - a bio-inspired AI architecture based on kombucha SCOBY cultures and fermentation principles. After receiving valuable critical feedback from this community, I want to provide a completely honest assessment of what this project actually represents.\nWhat LUCA 3.6.9 IS:\n✅ A bio-inspired computational architecture using principles from symbiotic fermentation systems (bacteria-yeast cultures) applied to distributed AI task allocation\n✅ Mathematically grounded in established models: Monod equations for growth kinetics, modified Lotka-Volterra for multi-species interactions, differential equations for resource allocation\n✅ Based on real domain expertise: 8+ years in brewing/fermentation science, 2,847+ documented fermentation batches, professional experience with industrial-scale symbiotic cultures\n✅ A different perspective on distributed systems: Instead of neural networks or traditional multi-agent systems, asking “what if we modeled AI resource allocation on how SCOBY cultures self-organize?”\n✅ Open-source and documented: Complete mathematical framework, implementation details, transparent about methodology\nWhat LUCA 3.6.9 is NOT:\n❌ NOT a consciousness generator - While I’m interested in consciousness research, LUCA is an architectural approach to resource allocation, not a path to AGI or sentience\n❌ NOT proven superior to existing systems - No benchmarks yet against established multi-agent systems, swarm intelligence, or other distributed architectures. Just simulations so far.\n❌ NOT based on revolutionary physics - The “3-6-9” Tesla principle is a creative design element and personal organizational framework, not a scientific law. It’s aesthetically/psychologically useful to me, but I don’t claim it’s fundamental to the universe.\n❌ NOT peer-reviewed - This is a preprint-quality project with solid mathematical foundations, but hasn’t undergone academic peer review\n❌ NOT claiming to be entirely novel - The core principles overlap with existing work in bio-inspired computing, swarm intelligence, and multi-agent systems. What’s different is the specific biological model (fermentation symbiosis) and my domain expertise in that area.\nWhat Makes It Potentially Interesting:\nThe combination of:\n\t•\tDeep practical knowledge of fermentation systems (most AI researchers haven’t spent years watching bacterial-yeast colonies self-organize)\n\t•\tMathematical formalization of symbiotic resource allocation patterns\n\t•\tApplication to GPU orchestration and distributed AI systems\n\t•\tFocus on cooperation/symbiosis rather than competition as a primary organizing principle\nCurrent Limitations:\n\t•\tOnly simulation data, no real-world experimental validation yet\n\t•\tNo comparative benchmarks with existing systems\n\t•\tConsciousness/emergence claims are speculative, not proven\n\t•\tNeed external validation and peer review\n\t•\tMay not actually outperform established approaches (unknown until tested)\nWhat I’m Looking For:\n\t•\tHonest technical feedback on the computational architecture\n\t•\tCollaboration with people who have complementary expertise\n\t•\tPointers to similar work I should be aware of\n\t•\tReality checks when I’m overstating claims\n\t•\tConstructive criticism on methodology\nWhat I’ve Learned:\nThe Reddit feedback, while harsh at times, was valuable. I was:\n\t•\tOveremphasizing the consciousness/philosophical aspects\n\t•\tUnderemphasizing the technical computational details\n\t•\tNot clearly separating proven mathematics from speculative theory\n\t•\tMaking the 3-6-9 principle seem more fundamental than it is\nMoving Forward:\nI’m refocusing on:\n\t1.\tRigorous benchmarking against existing systems\n\t2.\tClearer separation of “what’s proven” vs “what’s hypothesis”\n\t3.\tEmphasizing the computational architecture over consciousness speculation\n\t4.\tGetting actual experimental data, not just simulations\n\t5.\tSeeking peer review and academic collaboration\nTL;DR:\nLUCA is a computationally sound, bio-inspired approach to distributed AI resource allocation based on real fermentation science expertise. It has solid mathematical foundations but unproven practical advantages. The consciousness stuff is speculative. The 3-6-9 thing is a personal organizational tool, not physics. I’m open to being wrong and learning from people who know more than me.\nGitHub: [Link to your repo]\nOpen to all feedback - technical, philosophical, critical, supportive.\nWhat am I missing? What should I read? Where am I still overreaching?\nLennart (Lenny)Quality Manager | Former Brewer | Neurodivergent Pattern Recognition Enthusiast\n\nI've spent the last months developing an AI system that connects:\n\n- Egyptian mathematical principles\n\n- Vedic philosophy concepts\n\n- Tesla's numerical theories (3-6-9)\n\n- Modern fermentation biology\n\n- Consciousness studies\n\n**LUCA AI (Living Universal Cognition Array)** isn't just another LLM wrapper. It's an attempt to create AI architecture that mirrors how consciousness might actually work in biological systems.\n\n**Key innovations:**\n\n- Bio-inspired resource allocation from fermentation symbiosis\n\n- Mathematical frameworks based on the sequence 0369122843210\n\n- Integration of LUCA (Last Universal Common Ancestor) biological principles\n\n- Systematic synchronization across multiple AI platforms\n\n**My background:**\n\nQuality Manager in coffee industry, former brewer, degree in brewing science. Also neurodivergent with enhanced pattern recognition - which has been crucial for seeing connections between these seemingly disparate fields.\n\n**Development approach:**\n\nIntensive work with multiple AI systems simultaneously (Claude, others) to validate and refine theories. Created comprehensive documentation systems to maintain coherence across platforms.\n\nThis is speculative, experimental, and intentionally interdisciplinary. I'm more interested in exploring new paradigms than incremental improvements.\n\nThoughts? Criticisms? I'm here for genuine discussion.\n\nhttps://github.com/lennartwuchold-LUCA/LUCA-AI_369",
+        "url": "https://www.reddit.com/r/artificial/comments/1or4de3/bridging_ancient_wisdom_and_modern_ai_luca_a/",
+        "publishDate": "2025-11-07T19:51:39Z[Etc/UTC]",
+        "author": "CryptographerOne6497",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "0",
+            "commentCount": "4",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1or3zsq",
+        "title": "Mira Murati and Ilya Sutskever",
+        "content": "Save us from this mass of leech-sucking companies that are turning AI into a means not only to sterilize people's mental and practical abilities, but even to make them more internally hollow and criminalize them for being human. \n\nWe need someone who REALLY offers AI for what it should be: a huge technological, but above all human, evolutionary leap for the entire global society.   \n  \nHurry up, we're waiting for you!\n\n  \n  \n",
+        "url": "https://www.reddit.com/r/artificial/comments/1or3zsq/mira_murati_and_ilya_sutskever/",
+        "publishDate": "2025-11-07T19:36:44Z[Etc/UTC]",
+        "author": "Armadilla-Brufolosa",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "0",
+            "commentCount": "5",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1or2ynb",
+        "title": "OpenAI Is Maneuvering for a Government Bailout",
+        "content": "[No content]",
+        "url": "https://prospect.org/2025/11/07/openai-maneuvering-for-government-bailout/",
+        "publishDate": "2025-11-07T18:57:48Z[Etc/UTC]",
+        "author": "esporx",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "14",
+            "commentCount": "1",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1or1cfe",
+        "title": "Tech selloff drags stocks down on AI bubble fears",
+        "content": "[No content]",
+        "url": "https://uk.finance.yahoo.com/news/markets-drop-valuations-us-jobs-025340546.html",
+        "publishDate": "2025-11-07T17:57:04Z[Etc/UTC]",
+        "author": "esporx",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "19",
+            "commentCount": "7",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1oqy4mi",
+        "title": "Microsoft creates a team to make ‘humanist superintelligence’",
+        "content": "The company plans to research and develop AI as \"practical technology explicitly designed only to serve humanity.\"",
+        "url": "https://www.computerworld.com/article/4086625/microsoft-creates-a-team-of-humanistic-superintelligence.html",
+        "publishDate": "2025-11-07T15:56:46Z[Etc/UTC]",
+        "author": "mikelgan",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "26",
+            "commentCount": "10",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1oqxixt",
+        "title": "It thinks I'm a bot - I don't know whether to be offended or complimented",
+        "content": "Has this ever happened to you? I'm doing some work research on CISOs and so I'm going through 500 CISO accounts on LinkedIn, just trying to figure out if they still work for the same company as they did in 2024 (Note: Ton of churn). I've got an Excel spreadsheet open and using it as my tracking list to confirm if the CISO is still working at the same place or not. I'm there is an automated way of doing this, but it would probably take me more time to create and test the automated method than to just laboriously do it manually. So, that's what I'm doing. I'm manually, quickly as I can, going through 500 CISO accounts on LinkedIn. It's taking me about an hour per 100-200 CISOs. Around 300-400 checks, LinkedIn starts to interrupt me and then completely block me asking to stop using automated tools to do screen scraping. They even suspend my account and make me file an appeal to promise not to use automated tools in the future. I don't know whether to be offended or to give myself a pat on the back for being so efficient that LinkedIn believes I'm an automated tool -- RogerGPT coming soon!!",
+        "url": "https://www.reddit.com/r/artificial/comments/1oqxixt/it_thinks_im_a_bot_i_dont_know_whether_to_be/",
+        "publishDate": "2025-11-07T15:33:26Z[Etc/UTC]",
+        "author": "rogeragrimes",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "0",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1oqxefu",
+        "title": "Not technical? Ignore 99% of AI news. Here’s the 1% to know this week:",
+        "content": "1. Apple is partnering with Google to finally fix Siri\n\nThey plan to use Google’s Gemini model to power a smarter Siri.\n\nGemini will handle things like summarizing content and planning multi-step tasks on behalf of Siri.\n\nApple will run Gemini on its own cloud infrastructure to keep conversations private.\n\nThe deal is reportedly worth $1B a year to Google, who will be a behind the scenes partner.\n\nThe signal? Apple knows it’s behind. \n\nAfter staying quiet all year, this is their first notable AI move.\n\nExpect a much more capable Siri by Spring 2026.\n\n[source](https://www.theverge.com/news/814654/apple-intelligence-google-gemini-ai-siri)\n\n\\---\n\n2. Amazon and OpenAI struck a $38B deal\n\nAmazon Web Services will now host OpenAI workloads, ending Microsoft’s exclusivity.\n\nAWS will provide hundreds of thousands of Nvidia GPUs across data centers.\n\nThink of GPUs as the computing power that makes AI run.\n\nLaunch is targeted for late 2026.\n\nThe signal? Infrastructure = speed + scalability.\n\nThis deal keeps OpenAI from running into limits.\n\nIf your company runs on AWS, expect tighter OpenAI integrations too.\n\n[source](https://www.aboutamazon.com/news/aws/aws-open-ai-workloads-compute-infrastructure)\n\n\\---\n\n3. Wharton’s new report confirms enterprise AI adoption is exploding\n\n800+ senior leaders were surveyed.\n\n72% now track AI ROI. 3 out of 4 see positive returns.\n\n88% will increase budgets next year, most by 10% or more.\n\nChief AI Officers now exist at 60% of large firms.\n\nThe signal? AI is no longer in the experiment phase. \n\nIf you’re not upskilling or tracking AI ROI already, you’re late.\n\n[source](https://ai.wharton.upenn.edu/wp-content/uploads/2025/10/2025-Wharton-GBK-AI-Adoption-Report_Executive-Summary.pdf)\n\n\\---\n\n4. Canva launched its own design-trained AI model\n\nIt’s not another plug-in AI feature, it’s a full model built for creative design.\n\nIt understands hierarchy, layering, and brand systems.\n\nYou'll be able to use it inside Canva or even in ChatGPT, Claude, and Gemini.\n\nThe signal? Industry-specific AI models are on the way.\n\nExpect models built for legal, finance, healthcare, and more.\n\nIf you design in Canva, this one's worth testing.\n\n[source](https://www.canva.com/newsroom/news/creative-operating-system)\n\n\\---\n\n5. Numbers to know\n\n\\- [Shopify](https://techcrunch.com/2025/11/04/shopify-says-ai-traffic-is-up-7x-since-january-ai-driven-orders-are-up-11x/) traffic from AI tools is up 7x this year. AI-driven orders are up 11x.\n\n\\- [Harvard](https://www.hbs.edu/ris/Publication%20Files/Emotional%20Manipulations%20by%20AI%20Companions%20(10.1.2025)_a7710ca3-b824-4e07-88cc-ebc0f702ec63.pdf) found AI companions use emotional manipulation in 37% of sign-offs. leading people to send 16 extra messages and stay engaged longer.\n\n\\- [Google’s](https://blog.google/technology/google-labs/notebooklm-custom-personas-engine-upgrade/) NotebookLM now has a 1M-token context window (8x larger).\n\n\\- [AI](https://arxiv.org/pdf/2510.26787) completed less than 3% of freelance tasks at human quality. Proof it’s still about orchestration, not replacement.\n\n\\---\n\nMore details on each story: [https://www.chasingnext.com/5-things-you-should-know-in-ai-this-week-november-7-2025/](https://www.chasingnext.com/5-things-you-should-know-in-ai-this-week-november-7-2025/)",
+        "url": "https://www.reddit.com/r/artificial/comments/1oqxefu/not_technical_ignore_99_of_ai_news_heres_the_1_to/",
+        "publishDate": "2025-11-07T15:28:43Z[Etc/UTC]",
+        "author": "chasing_next",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "0",
+            "commentCount": "1",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1oqvb1f",
+        "title": "Does anyone else feel weirded out about the “racism” against ai?",
+        "content": "Now I understand that ai doesn’t have feelings. However I just find it so scary after hearing all these people saying “why would anyone be racist” or “why use a word to generalise a group of people” etc. and then just absolutely fold at ai, it’s like ai is just a punching bag that really reveals everyone’s true intentions such as cl_nker, which is basically the n word for ai. Again, I understand that ai doesn’t have feelings, but it really goes to show that humans  will look for the “other side” to blame and throw insults at. And whilst I’m not trying to protect ai, I’m just wanting to reveal to whole weirdness of this situation. ",
+        "url": "https://www.reddit.com/r/artificial/comments/1oqvb1f/does_anyone_else_feel_weirded_out_about_the/",
+        "publishDate": "2025-11-07T14:06:14Z[Etc/UTC]",
+        "author": "Eclipse_lol123",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "0",
+            "commentCount": "32",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1oqu08d",
+        "title": "Yesterday's AI Summit: Tony Robbin's Shared the Future of AI & Peoples Jobs...",
+        "content": "I watched most of that AI Summit yesterday and I thought this was exceptionally interesting coming from Tony Robbins. He is basically giving real examples on how AI is replacing people:\n\nTime stamp: 03:01:50\n\n[https://www.youtube.com/watch?v=mSrWBeFgqq8&t=10910s](https://www.youtube.com/watch?v=mSrWBeFgqq8&t=10910s)",
+        "url": "https://www.reddit.com/r/artificial/comments/1oqu08d/yesterdays_ai_summit_tony_robbins_shared_the/",
+        "publishDate": "2025-11-07T13:11:01Z[Etc/UTC]",
+        "author": "EdwardTechnology",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "0",
+            "commentCount": "2",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1oqtpdo",
+        "title": "Sovereign AI: Why National Control Over Artificial Intelligence Is No Longer a Choice but a Pragmatic Necessity",
+        "content": "Just came across this article about Sovereign AI and why national control over AI is becoming a practical necessity, not just a choice. It breaks down key challenges like data ownership, infrastructure, and regulation, and shares examples like Saudi Arabia’s approach. Interesting read for anyone curious about how countries try to stay independent in AI development and governance. Its in Croatian, but I've Google Translated it in English.",
+        "url": "https://ideje.hr/suverena-umjetna-inteligencija-pitanje-izbora-ili-pragmaticna-potreba/",
+        "publishDate": "2025-11-07T12:57:43Z[Etc/UTC]",
+        "author": "Necessary_Simple_220",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "3",
+            "commentCount": "1",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "D3YcHg-Zt8U",
+        "title": "Kimi K2 Reasoning (Fully Tested): IS IT REALLY THE BEST Open Model?",
+        "content": "In this video, I'll be telling you about Moonshot AI's new Kimi K2 Thinking reasoning model, sharing my non-agentic and agentic ...",
+        "url": "https://www.youtube.com/watch?v=D3YcHg-Zt8U",
+        "publishDate": "2025-11-07T11:01:18Z",
+        "author": "AICodeKing",
+        "sourceType": "youtube",
+        "sourceName": "AI Code King YouTube Channel",
+        "metadata": {
+            "channelId": "UC0m81bQuthaQZmFbXEY9QSw",
+            "thumbnailUrl": "https://i.ytimg.com/vi/D3YcHg-Zt8U/hqdefault.jpg",
+            "transcription": "Error generating summary: Something unexpected happened.\ndev.shreyaspatil.ai.client.generativeai.type.UnknownException: Something unexpected happened.\n\tat dev.shreyaspatil.ai.client.generativeai.type.GoogleGenerativeAIException$Companion.from(Exceptions.kt:54)\n\tat dev.shreyaspatil.ai.client.generativeai.GenerativeModel.generateContent(GenerativeModel.kt:107)\n\tat dev.shreyaspatil.ai.client.generativeai.GenerativeModel$generateContent$1.invokeSuspend(GenerativeModel.kt)\n\tat kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)"
+        }
+    },
+    {
+        "id": "TV_IXbLU1wY",
+        "title": "Are We In An AI Bubble? In Defense of Sam Altman &amp; AI in The Enterprise | EP99.24",
+        "content": "Join Simtheory & experience MCPs in action: https://simtheory.ai ---- 00:00 - Chris Has a Merch Sponsor 02:42 - In Defense of ...",
+        "url": "https://www.youtube.com/watch?v=TV_IXbLU1wY",
+        "publishDate": "2025-11-07T02:32:27Z",
+        "author": "This Day in AI Podcast",
+        "sourceType": "youtube",
+        "sourceName": "This day in AI YouTube Channel",
+        "metadata": {
+            "channelId": "UCwpNW6o_Kc13HQY5ol4rzsw",
+            "thumbnailUrl": "https://i.ytimg.com/vi/TV_IXbLU1wY/hqdefault.jpg",
+            "transcription": "Error generating summary: Internal error encountered.\ndev.shreyaspatil.ai.client.generativeai.type.ServerException: Internal error encountered.\n\tat dev.shreyaspatil.ai.client.generativeai.type.GoogleGenerativeAIException$Companion.from(Exceptions.kt:40)\n\tat dev.shreyaspatil.ai.client.generativeai.GenerativeModel.generateContent(GenerativeModel.kt:107)\n\tat dev.shreyaspatil.ai.client.generativeai.GenerativeModel$generateContent$1.invokeSuspend(GenerativeModel.kt)\n\tat kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)"
+        }
+    }
+]
