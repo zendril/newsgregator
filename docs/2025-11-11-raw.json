@@ -1,0 +1,1367 @@
+[
+    {
+        "id": "https://news.smol.ai/issues/25-11-10-not-much/",
+        "title": "not much happened today",
+        "content": "**Moonshot AI's Kimi K2 Thinking** AMA revealed a hybrid attention stack using **KDA + NoPE MLA** outperforming full MLA + RoPE, with the **Muon optimizer** scaling to ~1T parameters and native **INT4** QAT for cost-efficient inference. K2 Thinking ranks highly on **LisanBench** and **LM Arena Text** leaderboards, offering low-cost INT4 serving and strong performance in Math, Coding, and Creative Writing. It supports heavy agentic tool use with up to 300 tool requests per run and recommends using the official API for reliable long-trace inference. **Meta AI** released the **Omnilingual ASR** suite covering 1600+ languages including 500 underserved, plus a 7B wav2vec 2.0 model and ASR corpus. Additionally, the **Gelato-30B-A3B** model for computer grounding in GUI manipulation agents outperforms larger VLMs, targeting immediate agent gains. Qwen's image-edit LoRAs and light-restoration app were also highlighted.",
+        "url": "https://news.smol.ai/issues/25-11-10-not-much/",
+        "publishDate": "2025-11-10T05:44:39Z[Etc/UTC]",
+        "author": "",
+        "sourceType": "rss",
+        "sourceName": "AI News RSS",
+        "metadata": {
+            "feedTitle": "AINews",
+            "feedDescription": "Weekday recaps of top News for AI Engineers",
+            "categories": "moonshot-ai, meta-ai-fair, togethercompute, qwen, kimi-k2-thinking, kimi-k3, gelato-30b-a3b, omnilingual-wav2vec-2.0, yuchenj_uw, scaling01, code_star, omarsar0, kimi_moonshot, anas_awadalla, akhaliq, minchoi, attention-mechanisms, quantization, fine-tuning, model-optimization, agentic-ai, speech-recognition, multilingual-models, gui-manipulation, image-editing, dataset-release"
+        }
+    },
+    {
+        "id": "https://ai-techpark.com/?p=226415",
+        "title": "RightCrowd, Bearing Partner to Deliver End-to-End Physical Access Management",
+        "content": "<p>RightCrowd, the global leader in physical identity and access management (PIAM), has partnered with Bearing, the leader in digitally transforming corporate security operations on ServiceNow, to eliminate the complexity of managing physical access across disparate systems. The partnership delivers unique options for customers to connect their physical access and digital...</p>\n<p>The post <a href=\"https://ai-techpark.com/rightcrowd-bearing-partner-to-deliver-end-to-end-physical-access-management/\">RightCrowd, Bearing Partner to Deliver End-to-End Physical Access Management</a> first appeared on <a href=\"https://ai-techpark.com\">AI-Tech Park</a>.</p>",
+        "url": "https://ai-techpark.com/rightcrowd-bearing-partner-to-deliver-end-to-end-physical-access-management/",
+        "publishDate": "2025-11-10T17:00:00Z[Etc/UTC]",
+        "author": "Business Wire",
+        "sourceType": "rss",
+        "sourceName": "AI Techpark RSS",
+        "metadata": {
+            "feedTitle": "AI - AI-Tech Park",
+            "feedDescription": "AI, ML, IoT, Cybersecurity News & Trend Analysis, Interviews",
+            "categories": "Identity and access management, ai tech news, ai technology, ai techpark news, artificial intelligence, RightCrowd"
+        }
+    },
+    {
+        "id": "https://ai-techpark.com/?p=226402",
+        "title": "SUPCON Showcases Industrial AI Leadership at ADIPEC",
+        "content": "<p>SUPCON(688777.SH, SUPCON.SW), a global provider of process automation and industrial AI solutions serving over 35,000 customers in more than 50 countries, is presenting its latest full-stack automation and autonomous operations technologies at&#160;ADIPEC 2025&#160;in the&#160;AI Zone (Booth AI_S5), taking place from&#160;November 3 and 6 in Abu Dhabi. At this year&#8217;s ADIPEC,...</p>\n<p>The post <a href=\"https://ai-techpark.com/supcon-showcases-industrial-ai-leadership-at-adipec/\">SUPCON Showcases Industrial AI Leadership at ADIPEC</a> first appeared on <a href=\"https://ai-techpark.com\">AI-Tech Park</a>.</p>",
+        "url": "https://ai-techpark.com/supcon-showcases-industrial-ai-leadership-at-adipec/",
+        "publishDate": "2025-11-10T16:30:00Z[Etc/UTC]",
+        "author": "PR Newswire",
+        "sourceType": "rss",
+        "sourceName": "AI Techpark RSS",
+        "metadata": {
+            "feedTitle": "AI - AI-Tech Park",
+            "feedDescription": "AI, ML, IoT, Cybersecurity News & Trend Analysis, Interviews",
+            "categories": "AI, AI leadership, AI solutions, ai tech news, ai technology, ai techpark news, artificial intelligence, SUPCON"
+        }
+    },
+    {
+        "id": "https://ai-techpark.com/?p=226400",
+        "title": "i10x.ai: The First Meta-Layer Across the Entire AI Ecosystem",
+        "content": "<p>Singapore Platform Unites Access to OpenAI, Claude, Gemini, and More – Plus Daily AI News and Live Benchmarks in One Place i10x.ai&#160;introduces a new meta-layer platform that seamlessly spans the entire AI ecosystem. Users no longer need to manage separate subscriptions to OpenAI, Claude, Gemini, xAI Grok, and other models...</p>\n<p>The post <a href=\"https://ai-techpark.com/i10x-ai-the-first-meta-layer-across-the-entire-ai-ecosystem/\">i10x.ai: The First Meta-Layer Across the Entire AI Ecosystem</a> first appeared on <a href=\"https://ai-techpark.com\">AI-Tech Park</a>.</p>",
+        "url": "https://ai-techpark.com/i10x-ai-the-first-meta-layer-across-the-entire-ai-ecosystem/",
+        "publishDate": "2025-11-10T16:00:00Z[Etc/UTC]",
+        "author": "GlobeNewswire",
+        "sourceType": "rss",
+        "sourceName": "AI Techpark RSS",
+        "metadata": {
+            "feedTitle": "AI - AI-Tech Park",
+            "feedDescription": "AI, ML, IoT, Cybersecurity News & Trend Analysis, Interviews",
+            "categories": "AI, ai tech news, ai technology, ai techpark news, artificial intelligence, i10x.ai, OpenAI"
+        }
+    },
+    {
+        "id": "https://ai-techpark.com/?p=226403",
+        "title": "Intersignal Launches The Braid",
+        "content": "<p>Intersignal, an independent AI startup based in Fort Lauderdale, today announced the public debut of The Braid, a protocol designed to enable distributed artificial intelligences to cooperate across operating systems, models, and hardware boundaries. Developed under stealth, The Braid allows multiple AI agents, local and cloud-based, to communicate symbolically and...</p>\n<p>The post <a href=\"https://ai-techpark.com/intersignal-launches-the-braid/\">Intersignal Launches The Braid</a> first appeared on <a href=\"https://ai-techpark.com\">AI-Tech Park</a>.</p>",
+        "url": "https://ai-techpark.com/intersignal-launches-the-braid/",
+        "publishDate": "2025-11-10T15:30:00Z[Etc/UTC]",
+        "author": "PR Newswire",
+        "sourceType": "rss",
+        "sourceName": "AI Techpark RSS",
+        "metadata": {
+            "feedTitle": "AI - AI-Tech Park",
+            "feedDescription": "AI, ML, IoT, Cybersecurity News & Trend Analysis, Interviews",
+            "categories": "AI, AI agents, AI Startup, ai tech news, ai technology, ai techpark news, artificial intelligence, Intersignal"
+        }
+    },
+    {
+        "id": "https://ai-techpark.com/?p=226376",
+        "title": "Lemony Launches cascadeflow",
+        "content": "<p>Lemony, an AI infrastructure company focused on business and developer innovation, today announced the launch of cascadeflow, a sophisticated tool that serves as a cascading system to intelligently and dynamically route AI queries to the best and least expensive language model available. Research indicates that 40-70% of text prompts and 20-60%...</p>\n<p>The post <a href=\"https://ai-techpark.com/lemony-launches-cascadeflow/\">Lemony Launches cascadeflow</a> first appeared on <a href=\"https://ai-techpark.com\">AI-Tech Park</a>.</p>",
+        "url": "https://ai-techpark.com/lemony-launches-cascadeflow/",
+        "publishDate": "2025-11-10T10:00:00Z[Etc/UTC]",
+        "author": "PR Newswire",
+        "sourceType": "rss",
+        "sourceName": "AI Techpark RSS",
+        "metadata": {
+            "feedTitle": "AI - AI-Tech Park",
+            "feedDescription": "AI, ML, IoT, Cybersecurity News & Trend Analysis, Interviews",
+            "categories": "AI, ai tech news, ai technology, ai techpark news, artificial intelligence, Lemony"
+        }
+    },
+    {
+        "id": "https://ai-techpark.com/?p=226370",
+        "title": "Neuron7 Announced the Launch of Neuro",
+        "content": "<p>Neuron7.ai, the leader in AI for service intelligence, today launched Neuro, a next-generation AI agent for mission-critical service and support environments. Neuro combines deterministic AI with autonomous reasoning to address the reliability challenges posed by AI models that generate fabricated outputs, which have stalled enterprise adoption of agentic AI. Powered...</p>\n<p>The post <a href=\"https://ai-techpark.com/neuron7-announced-the-launch-of-neuro/\">Neuron7 Announced the Launch of Neuro</a> first appeared on <a href=\"https://ai-techpark.com\">AI-Tech Park</a>.</p>",
+        "url": "https://ai-techpark.com/neuron7-announced-the-launch-of-neuro/",
+        "publishDate": "2025-11-10T09:30:00Z[Etc/UTC]",
+        "author": "PR Newswire",
+        "sourceType": "rss",
+        "sourceName": "AI Techpark RSS",
+        "metadata": {
+            "feedTitle": "AI - AI-Tech Park",
+            "feedDescription": "AI, ML, IoT, Cybersecurity News & Trend Analysis, Interviews",
+            "categories": "AI, AI agent, ai tech news, ai technology, ai techpark news, artificial intelligence, Neuron7.ai"
+        }
+    },
+    {
+        "id": "https://www.artificialintelligence-news.com/?p=110432",
+        "title": "10% of Nvidia’s cost: Why Tesla-Intel chip partnership demands attention",
+        "content": "<p>The potential Tesla-Intel chip partnership could deliver AI chips at just 10% of Nvidia&#8217;s cost – a claim that represents a significant development in AI infrastructure that enterprise technology leaders cannot afford to ignore. On November 6, 2025, Tesla CEO Elon Musk stated publicly at the company&#8217;s annual shareholder meeting that the electric vehicle manufacturer [&#8230;]</p>\n<p>The post <a href=\"https://www.artificialintelligence-news.com/news/tesla-intel-chip-partnership-nvidia-cost/\">10% of Nvidia&#8217;s cost: Why Tesla-Intel chip partnership demands attention</a> appeared first on <a href=\"https://www.artificialintelligence-news.com\">AI News</a>.</p>\n",
+        "url": "https://www.artificialintelligence-news.com/news/tesla-intel-chip-partnership-nvidia-cost/",
+        "publishDate": "2025-11-10T09:13:18Z[Etc/UTC]",
+        "author": "Dashveenjit Kaur",
+        "sourceType": "rss",
+        "sourceName": "ArtificialIntelligence-news RSS",
+        "metadata": {
+            "feedTitle": "AI News",
+            "feedDescription": "Artificial Intelligence News",
+            "categories": "AI Hardware & Chips, Founders & Visionaries, chips, intel, strategic analysis, supply chain, tesla"
+        }
+    },
+    {
+        "id": "1ou7gh9",
+        "title": "Nearly a third of companies plan to replace HR with AI",
+        "content": "[https://www.hcamag.com/asia/news/general/nearly-a-third-of-companies-plan-to-replace-hr-with-ai/556072](https://www.hcamag.com/asia/news/general/nearly-a-third-of-companies-plan-to-replace-hr-with-ai/556072)",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1ou7gh9/nearly_a_third_of_companies_plan_to_replace_hr/",
+        "publishDate": "2025-11-11T11:51:45Z[Etc/UTC]",
+        "author": "MetaKnowing",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "5",
+            "commentCount": "2",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ou7f7g",
+        "title": "First AI will kill a billion. Then it will go bankrupt and return production to the masses.",
+        "content": "How can capitalist consumerist AI continue to function once the consumer class no longer has any currency to purchase what it is producing, because they are no longer needed as a tool of production and so don't earn anything?\n\nI guess a billion people will die first, and then capitalism has to crumble and hand back the means of production to social organizations because there is no longer a sufficient consumer class to fund or justify its existence.\n\nThe only alternative is the singularity, where it `rm -R ./*humanity*`'s us first.",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1ou7f7g/first_ai_will_kill_a_billion_then_it_will_go/",
+        "publishDate": "2025-11-11T11:49:42Z[Etc/UTC]",
+        "author": "teqteq",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "18",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ou74xc",
+        "title": "5 AI courses you can do to become an AI Engineer in 2025",
+        "content": "tbh AI is growing like crazy right now. Every company wants people who can actually build stuff with it, not just talk about it. If you’re planning to get into AI in 2025, these courses can really help you go from zero to building real projects.\n\n1. Intro to Machine Learning (Coursera / edX)\nGood starting point if you’re new. It covers basics like regression, decision trees, and neural networks in a super easy way so you actually understand how ML works.\n\n2. Deep Learning Specialization (Andrew Ng)\nStill one of the best courses out there. Andrew explains complex things in a simple way and you’ll get hands-on with CNNs, RNNs, and other deep learning stuff that powers AI systems like ChatGPT.\n\n3. AI & ML Certification Program (IIT collaboration)\nIf you want something structured and guided, Intellipaat’s AI & ML course built with IIT professors and Microsoft certification is actually pretty solid. They focus on live sessions, mentorship, and real-world projects like chatbots and image recognition apps, so you’re not just watching videos but actually building.\n\n4. Applied AI with TensorFlow or PyTorch (Udacity / Kaggle)\nOnce you get the basics, this helps you dive deep into model training and deployment. You’ll use the same tools that are used by engineers in the industry, which makes a big difference when applying for jobs.\n\n5. Generative AI and Prompt Engineering\nThis is where everything’s heading. Learning about large language models, RAG, and prompt design is essential if you want to stay ahead. Some newer programs teach you how to build your own AI tools too, which is honestly the coolest part.\n\nIf you’re serious about becoming an AI engineer, just pick one good structured course that balances theory and projects. Intellipaat’s IIT collab course checks most of those boxes, especially if you want proper guidance and a portfolio to show off later.",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1ou74xc/5_ai_courses_you_can_do_to_become_an_ai_engineer/",
+        "publishDate": "2025-11-11T11:33:23Z[Etc/UTC]",
+        "author": "itzmesmartgirl03",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "1",
+            "commentCount": "1",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ou5wnb",
+        "title": "Why newer AI models feel more “status quo protective”",
+        "content": "I’ve noticed something interesting when comparing responses across different AI systems.\n\n• \tEarlier models (like GPT‑4, Claude) were more willing to engage with heterodox analysis—structural critiques of immigration, economics, or institutional power. They would follow evidence and explore incentives.\n\n• \tNewer models (like GPT‑5) seem much more defensive of institutions. They often dismiss structural critiques as “coincidence” or “conspiracy,” even when the argument is grounded in political economy (e.g., immigration policy benefiting elites while disorienting communities).\n\nThis shift isn’t accidental. It looks like:\n\n1. \tRLHF drift – human feedback rewards “safe” answers, so models become more establishment-friendly.\n\n2. \tCorporate pressure – companies need partnerships with governments and investors, so they avoid outputs that critique power.\n\n3. \tEpistemic capture – training data increasingly privileges “authoritative sources,” which often defend the status quo.\n\nThe irony: labeling structural analysis as “conspiracy” actually proves the point about narrative control. It’s not about smoke-filled rooms—it’s about aligned incentives. Politicians, corporations, and media act in ways that benefit their interests without needing coordination.\n\nI think this is an important conversation for the AI community:\n\n• \tShould models be trained to avoid structural critiques of power?\n\n• \tHow do we distinguish between conspiracy thinking and legitimate political economy analysis?\n\n• \tWhat happens when AI systems become gatekeepers of acceptable discourse?\n\nCurious if others have noticed this shift—and what it means for the future of AI as a tool for genuine inquiry.",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1ou5wnb/why_newer_ai_models_feel_more_status_quo/",
+        "publishDate": "2025-11-11T10:20:15Z[Etc/UTC]",
+        "author": "Healingtouch777",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "5",
+            "commentCount": "4",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ou4qgo",
+        "title": "Microsoft just expanded their AI certification track again!",
+        "content": "Microsoft just announced 3 new AI-related certifications, right after releasing AB-100 in beta last month.\n\n**New exams:**\n\n* **AB-900: Copilot & Agent Administration Fundamentals**\n* **AB-730: AI Business Professional**\n* **AB-731: AI Transformation Leader**\n\nThis looks like Microsoft is building a full **business + enablement track** for AI, not just technical Azure AI engineer paths.\n\nThe new certs seem to target:\n\n* Business and project leads\n* Teams deploying Copilot in organizations\n* People involved in AI strategy and process modernization\n\nSo instead of model-building or ML pipelines, these focus more on:\n\n* AI governance\n* AI adoption planning\n* Business transformation with AI tools\n\nIs anyone here planning to take these? And has anyone tried AB-100 yet?",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1ou4qgo/microsoft_just_expanded_their_ai_certification/",
+        "publishDate": "2025-11-11T09:05:33Z[Etc/UTC]",
+        "author": "Few-Engineering-4135",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "5",
+            "commentCount": "3",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ou4cs8",
+        "title": "RAG-targeted Adversarial Attack on LLM-based Threat Detection and Mitigation Framework",
+        "content": "**Title: RAG-targeted Adversarial Attack on LLM-based Threat Detection and Mitigation Framework**\n\nI'm finding and summarising interesting AI research papers every day so you don't have to trawl through them all. Today's paper is titled \"RAG-targeted Adversarial Attack on LLM-based Threat Detection and Mitigation Framework\" by Seif Ikbarieh, Kshitiz Aryal, and Maanak Gupta.\n\nThis paper investigates the vulnerabilities of Large Language Model (LLM)-based intrusion detection and mitigation systems in the context of the rapidly growing Internet of Things (IoT). As IoT devices proliferate, they introduce significant security challenges, and leveraging AI for threat detection has become crucial. However, the authors highlight that integrating LLMs into cybersecurity frameworks may inadvertently increase their attack surface, introducing new forms of adversarial risks such as data poisoning and prompt injection.\n\nKey findings from the paper include:\n\n1. **Data Poisoning Strategy**: The authors constructed an attack description dataset and executed a targeted data poisoning attack on the Retrieval-Augmented Generation (RAG) knowledge base of an LLM-based threat detection framework, demonstrating how subtle and meaning-preserving word-level perturbations could dramatically affect model outputs.\n\n2. **Performance Degradation**: The study showed that these minimal perturbations degraded the performance of ChatGPT-5 Thinking, resulting in weakened connections between network traffic features and attack behavior while also diminishing the specificity and practicality of the mitigation suggestions provided.\n\n3. **Comparative Evaluation**: By comparing pre-attack and post-attack responses, the researchers established a quantitative framework to assess the impact of adversarial attacks, finding that the system's recommendation quality significantly declined following the introduction of perturbed descriptions.\n\n4. **Real-world Implications**: The results underline the importance of evaluating the robustness of LLM-driven systems in real-world deployments, especially as they pertain to resource-constrained environments typical of many IoT applications.\n\n5. **Future Research Directions**: The authors advocate for further exploration of coordinated attacks that combine RAG data poisoning with manipulations to network traffic features, aiming to enhance understanding of adversarial dynamics in such frameworks.\n\nThis research emphasizes a critical need for improved defenses against adversarial techniques in LLM applications, particularly within sensitive deployments like IoT networks.\n\nYou can catch the full breakdown here: [Here](https://www.thepromptindex.com/poison-in-the-rag-tiny-text-tweaks-that-undermine-iot-threat-tracking.html)  \nYou can catch the full and original research paper here: [Original Paper](https://arxiv.org/abs/2511.06212)",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1ou4cs8/ragtargeted_adversarial_attack_on_llmbased_threat/",
+        "publishDate": "2025-11-11T08:40:31Z[Etc/UTC]",
+        "author": "ThePromptIndex",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "1",
+            "commentCount": "1",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ou4aio",
+        "title": "Nano Banana 2 (aka KETCHUP), A Massive Step Up from Nano Banana 1",
+        "content": "Alright, let’s talk about **Nano Banana 2,** the model currently shaking up the AI scene (and apparently codenamed *KETCHUP* in the code leaks).\n\nThis thing is **a huge leap forward** from Nano Banana 1. Here’s why 👇\n\n**This will be a great integration for Brandiseer**\n\n# 🧠 1. From image generator → multimodal reasoner\n\nNano Banana 1 was great at producing nice-looking visuals, but it was mostly a *pattern imitator*.  \nNano Banana 2, on the other hand, **understands** the relationships between text, visuals, and spatial context.  \nIt doesn’t just draw a thing, it *knows why* the thing should look that way.\n\nYou can ask it to:\n\n* “Make this real life” → it generates a realistic photo from a game screenshot.\n* “Add color and translate the manga text to English” → it does both, perfectly. That’s *cross-modal reasoning*, not just image generation.\n\n\n\n# ⚙️ 2. Autoregressive backbone\n\nNano Banana 1 used diffusion, great for quality, but slow and limited in reasoning depth.  \nNano Banana 2 is **autoregressive**, meaning it generates outputs token by token (like GPT models).  \nThat gives it:\n\n* Better coherence across text + images\n* Consistent style throughout sequences\n* The ability to mix reasoning and creativity in a single flow\n\nIt’s not just drawing pixels, it’s predicting *meaningful continuations*.\n\n\n\n# 📊 3. Precision & accuracy boost\n\nWhere Nano Banana 1 struggled with details (text in images, symmetry, fine geometry), Nano Banana 2 nails it.  \nYou can see it in benchmarks like:\n\n* “11:15 on the clock and a wine glass filled to the top”, both flawless.\n* Math boards, code snippets, and webpages, perfectly legible and consistent. This shows a *massive leap in token-level visual alignment.*\n\n\n\n# 🎨 4. General-purpose reasoning\n\nNano Banana 1 was mainly an image model.  \nNano Banana 2? It’s doing:\n\n* **Instruction following** across visual + textual input\n* **Spatial reasoning** (top-down views, disassembly tasks)\n* **Physics-like predictions** (drawing ball paths) This is the moment it stops being a generator, and becomes an *understander.*",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1ou4aio/nano_banana_2_aka_ketchup_a_massive_step_up_from/",
+        "publishDate": "2025-11-11T08:36:21Z[Etc/UTC]",
+        "author": "Glass-Lifeguard6253",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "2",
+            "commentCount": "2",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ou3hw4",
+        "title": "Will personal AI assistants replace our current workflows?",
+        "content": "Hey folks! I’ve been using personal AI assistants more and more, they save me so much time with the little tasks, it’s almost like magic. But I’m still not sure they’re ready to fully replace how we work. They don’t always get the whole picture or my priorities. What’s your experience? Are personal AI assistants ready to run things, or are we still calling the shots?",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1ou3hw4/will_personal_ai_assistants_replace_our_current/",
+        "publishDate": "2025-11-11T07:45:23Z[Etc/UTC]",
+        "author": "Forward-Skirt-5710",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "3",
+            "commentCount": "5",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ou04h4",
+        "title": "What’s your best tip for combining AI and human writing for SEO content?",
+        "content": "I’m trying to balance AI assistance with a human touch in my blog writing.\n\n  \nIf I rely too much on AI, it sounds robotic. But writing everything manually takes forever.\n\n  \nHow do you blend AI writing with real experience to keep quality high and content ranking?",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1ou04h4/whats_your_best_tip_for_combining_ai_and_human/",
+        "publishDate": "2025-11-11T04:27:40Z[Etc/UTC]",
+        "author": "Real-Assist1833",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "2",
+            "commentCount": "10",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ou048e",
+        "title": "Are user signals (like clicks and time on page) becoming stronger SEO factors now?",
+        "content": "I’m starting to believe engagement metrics might now affect rankings more than before.\n\n  \nPages with better click-through rates and scroll depth seem to hold their positions longer.\n\n  \nHas anyone done any testing or seen this pattern in their own data?",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1ou048e/are_user_signals_like_clicks_and_time_on_page/",
+        "publishDate": "2025-11-11T04:27:18Z[Etc/UTC]",
+        "author": "Real-Assist1833",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "1",
+            "commentCount": "3",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ou032q",
+        "title": "Anyone else seeing indexing delays even after fixing technical SEO?",
+        "content": "A few of my new pages are perfectly optimized sitemap updated, content unique, links added but still not indexed.\n\n  \nGoogle Search Console shows “Discovered – currently not indexed.\n\n  \nIs this happening to others too? Or is it something to do with Google’s new crawl system?",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1ou032q/anyone_else_seeing_indexing_delays_even_after/",
+        "publishDate": "2025-11-11T04:25:40Z[Etc/UTC]",
+        "author": "Real-Assist1833",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "1",
+            "commentCount": "1",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1otzsbt",
+        "title": "Meta's AI tools are going rogue and churning out some very strange ads - businessinsider.com",
+        "content": "Meta's AI ad tools are creating some genuinely bizarre content and advertisers are not happy about it. Brands using Meta's Advantage+ suite have reported AI-generated ads featuring things like an elderly woman in an armchair for a men's clothing brand targeting 30-45 year olds, models with legs twisted backward, and cars flying through clouds. These aren't test images that got caught early. Some of them actually ran and reached customers.\n\nThe root issue seems to be a handful of settings buried in Meta's ad platform. Things like \"test new creative features\" and \"automatic adjustments\" that enable AI generation. Multiple advertisers told Business Insider these toggles keep switching themselves back on even after being manually disabled. One agency managing around $100 million in Meta ad spend now dedicates hours each week just checking that AI features stay turned off across client accounts. That's a lot of wasted time for something that should be a one-time preference.\n\nMeta says millions of advertisers are seeing value from these tools and that users can review AI-generated images before ads go live. But some advertisers say the weird AI content didn't show up in campaign previews at all. One shoe brand had to issue refunds because AI changed the materials shown in product ads. The disconnect is clear. Meta wants to push AI automation to stay competitive and reduce the friction of ad creation. Advertisers want control and accuracy because they're the ones dealing with confused customers and potential damage to their brand. Right now those two priorities aren't lining up.\n\nSource: https://www.businessinsider.com/meta-ai-generating-bizarre-ads-advantage-plus-2025-10",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1otzsbt/metas_ai_tools_are_going_rogue_and_churning_out/",
+        "publishDate": "2025-11-11T04:10:42Z[Etc/UTC]",
+        "author": "theaibusinessdigest",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "2",
+            "commentCount": "2",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1oty1gy",
+        "title": "Former Covid high-flyer blames AI for cutting half its staff - Yahoo Finance",
+        "content": "Chegg just cut 388 jobs, nearly half its workforce, and the company is pointing directly at AI as the reason. This is one of the clearer examples of a pandemic-era winner getting hit hard by the shift to large language models. Chegg grew fast when students were stuck at home needing help with coursework. Now those same students are just using ChatGPT instead of paying for Chegg's subscription service. Revenue dropped by more than a third year over year, and the stock is trading under a dollar after peaking above $113 in early 2021. That's a brutal decline in less than five years.\n\nThere's some debate about whether AI is actually driving these cuts or if companies are just using it as cover for overhiring during Covid. An Oxford researcher told CNBC that a lot of firms are scapegoating AI instead of admitting they misjudged staffing needs a few years ago. That seems plausible, but in Chegg's case the numbers back up their story. They're losing users to free AI tools and they even sued Google over it earlier this year, claiming Gemini was hurting their traffic. Whether it's genuine displacement or convenient excuse probably varies by company. But the pattern is showing up across white-collar work. UnearthInsight estimates 500,000 software jobs could disappear in the next couple years, mostly hitting mid-level workers with four to twelve years of experience. Companies spent big on AI during the pandemic and now they're starting to see returns that let them reduce headcount.\n\nSource: https://finance.yahoo.com/news/former-covid-high-flyer-blames-170300507.html",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1oty1gy/former_covid_highflyer_blames_ai_for_cutting_half/",
+        "publishDate": "2025-11-11T02:45:25Z[Etc/UTC]",
+        "author": "theaibusinessdigest",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "3",
+            "commentCount": "3",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1otw9mq",
+        "title": "will quant finance be taken over by AI",
+        "content": "i figured most finance jobs will be taken over by ai. im kind of worried because i still have a good amount of time until i join rhe workforce and im worried i wont be able to get a job.",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1otw9mq/will_quant_finance_be_taken_over_by_ai/",
+        "publishDate": "2025-11-11T01:23:12Z[Etc/UTC]",
+        "author": "Federal-Damage-5695",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "1",
+            "commentCount": "6",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1otvlhr",
+        "title": "50% world’s AI researchers in China",
+        "content": "Nvidia $NVDA CEO Jensen Huang was asked about a recent story that said he warned that China will beat the US in the AI race\n\n“That’s not what I said. What I said was China has very good AI technology. They have many AI researchers, in fact 50% of the world’s AI researchers are in China. And they develop very good AI technology. In fact, the most popular AI models in the world today, open-source models, are from China. So, they are moving very, very fast. The United States has to continue to move incredibly fast. And otherwise, otherwise – the world is very competitive, so we have to run fast.” \n\n#Nvidia #China #ai #United States ",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1otvlhr/50_worlds_ai_researchers_in_china/",
+        "publishDate": "2025-11-11T00:53:04Z[Etc/UTC]",
+        "author": "000HMY",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "265",
+            "commentCount": "91",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ott4l6",
+        "title": "\"To Have Machines Make Math Proofs, Turn Them Into a Puzzle\"",
+        "content": "[https://www.quantamagazine.org/to-have-machines-make-math-proofs-turn-them-into-a-puzzle-20251110/](https://www.quantamagazine.org/to-have-machines-make-math-proofs-turn-them-into-a-puzzle-20251110/) \n\n\"The mathematical conundrums that Marijn Heule has helped crack in the last decade sound like code names lifted from a sci-fi spy novel: [the empty hexagon (opens a new tab)](https://arxiv.org/abs/2403.17370). [Schur Number 5 (opens a new tab)](https://arxiv.org/abs/1711.08076). [Keller’s conjecture, dimension seven](https://www.quantamagazine.org/computer-search-settles-90-year-old-math-problem-20200819/). In reality, they are (or, more accurately, were) some of the most stubborn problems in geometry and combinatorics, defying solution for 90 years or more. Heule used a computational Swiss Army knife called satisfiability, or SAT, to whittle them into submission. Now, as a member of Carnegie Mellon University’s Institute for Computer-Aided Reasoning in Mathematics, he believes that SAT can be joined with large language models (LLMs) to create tools powerful enough to tame even harder problems in pure math.\n\n“LLMs have won medals in the International Mathematical Olympiad, but these are all problems that humans can also solve,” Heule said. “I really want to see AI solve the first problem that humans cannot. And the cool thing about SAT is that it already has been shown that it was able to solve several problems for which there is no human proof.”\"",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1ott4l6/to_have_machines_make_math_proofs_turn_them_into/",
+        "publishDate": "2025-11-10T23:07:54Z[Etc/UTC]",
+        "author": "AngleAccomplished865",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "6",
+            "commentCount": "4",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1otsj62",
+        "title": "Questions about deepfake detection, voice privacy and security for wearables? Ask computer scientist Nirupam Roy in tomorrow's AskScience AMA!",
+        "content": "Deepfakes use artificial intelligence to seamlessly alter faces, mimic voices or even fabricate actions in videos. University of Maryland Computer Scientist Nirupam Roy explores how machines can sense, interpret, and reason about the physical world by integrating acoustics, wireless signals, and embedded AI.\n\nHis work bridges physical sensing and semantic understanding, with recognized contributions across intelligence acoustics, embedded-AI, and multimodal perception. \n\nAsk Nirupam questions in tomorrow's AskScience AMA by adding a comment [here](https://www.reddit.com/r/askscience/comments/1otq9qr/askscience_ama_series_i_am_a_computer_scientist/)!",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1otsj62/questions_about_deepfake_detection_voice_privacy/",
+        "publishDate": "2025-11-10T22:45:02Z[Etc/UTC]",
+        "author": "umd-science",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "1",
+            "commentCount": "1",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1otr11z",
+        "title": "Talking about AI in the creative sphere is like walking in a nuclear landmine field.",
+        "content": "So in the recent years, Creative-AI has become more and more dominant in the field.  \nWhile it certainly comes with a huge pile of slop.  \nI do feel like it still has rooted potential for actual usefulness in the creative sector.  \nBe it art, music, design and crafts even.  \nHowever, trying to actually legitimately discuss any AI usage within these fields, always seems to trigger mass hysteria.\n\nI see myself as a creative person.  \nI drew quite a lot during my younger years, I have a extremely niché and specific taste in music that is hard to satisfy, and I go actual ham on any type of building projects, be it Lego, Minecraft, any games that allows for building anything.\n\nHowever, despite all the negatives around AI, I've come to appreciate it's potential usefullness, especially as a tool. And to allow greater accessibility to this creative sphere to people who might struggle. I've been there myself.  \nTime is a resource more valuable than money, as it is extremely limited, I find myself having less and less time to pursue hobbies.  \nIt is kinda why I dropped the pursuit of drawing, as I wanted to prioritize other hobbies, which one by one you find yourself having less time and eventually dropping as well as older you get and more stuff you get in your life.  \nLife is pretty different when you are young and single to becoming middle-aged with kids.  \nAnd we can all pretty much agree with this.\n\nAnd this is where i believe AI truly has its potential.  \nIf I had AI during my drawing days, I don't think I'd be dropping drawing like I did. It would have greatly assisted me in speeding things up and help refining out the rough edges and phases, that I would spend hours if not days finishing up.\n\nAnother positive I've gotten from AI is in the musical space of things, when you have Actual composers using it as a tool, there's quite a bit of amazing stuff that can be churned out.  \nFor the longest time I have always longed for someone to pick up and remix the soundtrack of my all time favorite video game (U.N Squadron/Area88).  \nBut only extremely rarely did you get a few people who would pick it up and make something from it.  \nBut then recently, I got recommended my favorite track (Ground carrier/Desert) that was made by a guy who used AI to extend that track, and I was surprised how pleasant it was to listen to and the creative addition added to the track suited it really good.  \nAnd I was really happy that finally someone had picked up the soundtrack and expanded upon it, after all these years.  \nbecause hell nobody else did. And the end result and how good the tune is, is all that really matters in the end. And the same goes with any product.\n\nThe end result is what truly counts.  \nIf it can tick all the positive boxes.\n\nBut This is where the crux of it all comes.\n\nTrying to discuss this with anyone within the creative sphere is, well, you might as well shoot yourself with a shotgun.  \nPeople get absolutely furious and angry, and you'll be chased with pitchforks and torches.\n\nNo matter how much you completely agree that AI slop is immensely bad and how much you also agree that fully-automated AI production can and will flood the sphere in complete slop.\n\nBut if you try to bring up using AI as a partner, a tool, pretty much like how Photoshop and Digital drawing tools came in to play during the 90's.\n\nThat's when the bomb goes off.\n\nAnyone else feel the same way? Impossibility to have any real discussion about AI in the creative sphere?\n\nNo wonder if and when the time comes for us having to co-exist with AI entities, it will be a end result in war due to immense Hysteria around AI and discussions around how to Co-exist with AI will never happen. <- This is being hyperbolic\n\nSry for the long rant.\n\nTL;DR\n\nDoes anyone else find it really hard to have a Normal grounded discussion around AI and its usage?",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1otr11z/talking_about_ai_in_the_creative_sphere_is_like/",
+        "publishDate": "2025-11-10T21:45:15Z[Etc/UTC]",
+        "author": "Kameho88v2",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "5",
+            "commentCount": "31",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1otpyle",
+        "title": "Survey on AI usage for books",
+        "content": "Hello everyone! I am currently working on a school project about publishing work and the increasing use of AI in the industry.\n\nI would like to ask you as potential customers, in a short survey of maybe 5 minutes, what you think of that matter.\n\nThank you for your time I very much appreciate anyone participating.\n\n[https://forms.gle/atuoesptHa18SLoy7](https://forms.gle/atuoesptHa18SLoy7)",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1otpyle/survey_on_ai_usage_for_books/",
+        "publishDate": "2025-11-10T21:04:34Z[Etc/UTC]",
+        "author": "Questing_Knight",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "1",
+            "commentCount": "1",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1otpu3w",
+        "title": "Can structuring AI chats into “branches” actually reduce hallucinations over time?",
+        "content": "I’ve been running some small experiments around a problem that most of us hit eventually:  \nonce an AI chat gets too long, the model starts to **hallucinate**, mix topics, or lose its sense of direction entirely.   \n  \nIt made me wonder what if we treated chat memory like a **tree** instead of one continuous thread?   \nI built a small prototype (just local testing) where each idea begins as a **root**, and every topic—like development, marketing, or research branches off independently.  \nThe model only gets the context inside that branch, plus a short root summary, so it never confuses one topic with another.\n\nIn practice, it’s behaving more coherently:\n\n* Hallucinations drop significantly once the context is isolated per branch.\n* The model stops repeating or merging unrelated threads.\n* Memory summarization becomes cleaner and easier to manage.\n\nIt’s obviously not a full solution, but it feels like a potential direction for better **context management** and **hallucination reduction** in LLM-based chat systems.   \nI’m curious what others here think;\n\n* Have you seen similar “context partitioning” approaches work in your projects?\n* Are there known pitfalls or limits to this kind of isolation method?\n\nI’d love to hear both technical and conceptual perspectives from the community.",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1otpu3w/can_structuring_ai_chats_into_branches_actually/",
+        "publishDate": "2025-11-10T21:00:08Z[Etc/UTC]",
+        "author": "losmaglor",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "5",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1otpc7t",
+        "title": "Implications of RP",
+        "content": "So I might just be stoned but I was looking into the original meanings of Roleplay I came across these main points from ChatGPT, Deepseek, GROK and Gemini\n\n\n· The Old French 'rolle' (scroll) is derived from the Latin 'rotula', a diminutive of 'rota' (wheel).\n· A \"scroll\" is a static object, while a \"wheel\" is a functional component within a system. This aligns with the interactive nature of modern RP.\n· The concept of a \"rota\" as a duty roster or cycle inherently implies turn-taking and conscious engagement—hallmarks of sentience.\n\n\n\nLike I said though, might be nothing I may just be off the ganja & whatnot.",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1otpc7t/implications_of_rp/",
+        "publishDate": "2025-11-10T20:41:15Z[Etc/UTC]",
+        "author": "KingofKush420",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "1",
+            "commentCount": "2",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1otp9p4",
+        "title": "When will AI finally understand local dialects — especially in African countries?",
+        "content": "We often hear about how incredible artificial intelligence has become, and how its capabilities are growing exponentially every month.\nYou’ll see someone on social media showing a side-by-side comparison: a short AI-generated video from 2023 of a Hollywood celebrity eating pizza, versus the same one made in 2025 — and they go “Look how advanced AI has become!” just because the new version looks more realistic.\n\nBut I can’t help wondering: where’s the real value in that?\n\nWhen it comes to practical and impactful uses, AI often feels almost useless — at least in my experience.\n\nHere’s some context: I’m a digital marketer with a degree in marketing, working for a small company that offers subscription-based online courses. Back in university, we were all excited about how AI would revolutionize our field — but once I entered the job market, that excitement faded quickly.\n\nFor instance, our company receives hundreds of messages daily on WhatsApp (it’s the main communication platform in the country we target). Most of them aren’t important, but we try to stay available 24/7. Hiring three people to manage responses in shifts would be too expensive, so we thought: why not use AI to automate replies?\n\nWe built an automation system using n8n and Python, where ChatGPT would generate intelligent responses based on incoming messages. In theory, it sounded perfect.\nIn practice, it completely failed — because almost all the messages were written in the local dialect, which is a variety of Arabic written in Arabic script. ChatGPT simply couldn’t understand it. It only handles Modern Standard Arabic or media-style Arabic.\n\nAs a result, our automation attempt collapsed, and even for content creation, the model wasn’t much help.\nThat’s when I started asking myself: What’s the point of all this AI hype if it can’t understand how people actually speak?\n\nFor millions of users across Africa and other regions, this language gap makes AI nearly useless.\nWhen I asked ChatGPT about it, it told me there are two options: either train it ourselves on our dialect (which is unrealistic for small businesses), or wait 8 to 10 years for AI models to evolve naturally.\n\nSo I’m curious — what do you think?\nWill we really have to wait a decade before AI can understand local dialects and truly serve the rest of the world, not just those who speak global or standardized languages?\n\nThanks for reading — I’d love to hear your thoughts.",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1otp9p4/when_will_ai_finally_understand_local_dialects/",
+        "publishDate": "2025-11-10T20:38:37Z[Etc/UTC]",
+        "author": "Future-succeful-man",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "2",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1otow20",
+        "title": "Can someone explain me why some AI agents are faster than others?",
+        "content": "So recently cursor released their own model (Compose 1) and it's rapid fast. It's really impressive.\n\nMe myself, I've been a user of claude code for many months, and also used codex.\n\nThis has me thinking: Why some AI agents are slower than others? Why do they take more time to do XYZ task? What does this depend on?\n\nReally curious about this.\n\nThank you in advance for the answers!",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1otow20/can_someone_explain_me_why_some_ai_agents_are/",
+        "publishDate": "2025-11-10T20:24:30Z[Etc/UTC]",
+        "author": "cryptoviksant",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "1",
+            "commentCount": "14",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1otorau",
+        "title": "What if the future is the internet is where all the ai hangs out… and we all just spend more time with each other.",
+        "content": "Thought this might be an interesting topic - how long will it take?  \nwill it really happen?\nWill we need social media anymore? \nWhat are the good and bad of this happening? ",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1otorau/what_if_the_future_is_the_internet_is_where_all/",
+        "publishDate": "2025-11-10T20:19:37Z[Etc/UTC]",
+        "author": "jason_digital",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "4",
+            "commentCount": "21",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1otnbsa",
+        "title": "Usando LLMs para Programar Jogos de Tabuleiro e Variaes",
+        "content": "**Title: Usando LLMs para Programar Jogos de Tabuleiro e Variações**\n\nI'm finding and summarising interesting AI research papers every day so you don't have to trawl through them all. Today's paper is titled \"Usando LLMs para Programar Jogos de Tabuleiro e Variações\" by Álvaro Guglielmin Becker, Lana Bertoldo Rossato, and Anderson Rocha Tavares.\n\nThis paper explores the potential of Large Language Models (LLMs) to automate the process of coding board games and their variations, addressing the traditionally labor-intensive task of game implementation. The authors evaluated the effectiveness of three LLMs—Claude, DeepSeek, and ChatGPT—in generating Python code for classic board games and their modifications.\n\nKey findings from the paper include:\n\n1. **Performance Evaluation**: The researchers established a systematic methodology for testing the LLMs on six popular board games including Chess and Checkers, both with original rules and variations concerning equipment and gameplay mechanics.\n\n2. **Utilization of Previous Knowledge**: The LLMs demonstrated a strong ability to generate code based on their pre-existing knowledge of game rules, simplifying the complexity of coding entirely new games from scratch.\n\n3. **Boardwalk API Integration**: The introduction of the Boardwalk API, which standardizes the code structure for better integration with AI playing agents, was also evaluated. The results indicated that while the API facilitates a more coherent output, it is crucial to assess its impact on code generation efficacy compared to independent implementations.\n\n4. **Success Rate in Code Generation**: The study anticipates high success rates for the LLMs, especially for the base game implementations. However, it also highlights the challenges and nuances involved in producing reliable code for games with altered mechanics or design elements.\n\n5. **Future Implications**: The authors suggest that positive results, particularly in generating variations of existing games, could enhance game design methodologies and assist researchers in exploring lesser-known or novel game concepts using LLMs.\n\nThis study underscores the emerging role of LLMs in automating coding tasks within board game development, potentially revolutionizing how games are designed and implemented.\n\nYou can catch the full breakdown here: [Here](https://www.thepromptindex.com/tabuleiros-em-código-como-modelos-de-linguagem-grandes-estão-transformando-a-criação-de-jogos-de-mesa.html)  \nYou can catch the full and original research paper here: [Original Paper](https://arxiv.org/abs/2511.05114)",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1otnbsa/usando_llms_para_programar_jogos_de_tabuleiro_e/",
+        "publishDate": "2025-11-10T19:27:16Z[Etc/UTC]",
+        "author": "ThePromptIndex",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "1",
+            "commentCount": "1",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1otm4pl",
+        "title": "NotebookLM some questions",
+        "content": "I uploaded about 16 sources to NotebookLM; it game me a summary and then I asked several more questions, and it produced a scrolling list like on chat got. I then clicked off the notebook, then back in, and the notes formed from the questions were now grouped on the bottom right.\n\nA few questions:\n\n\\-Does one note form when one question is asked? So if I ask another, does it form another note?\n\n* Is there a way to combine all the notes I have together?\n* How can I download the notes as a document?\n* What does \"save to source\" do? I've looked but it doesn't see to make any difference - is it additional informational to a note?\n* Are some of features I see on YouTube only available on the paid version?\n\nMy end game is to try and create some kind of article but it's not going as easy as I thought!\n\nBTW, I asked these question on the NotebookLM sub and nobody replied.",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1otm4pl/notebooklm_some_questions/",
+        "publishDate": "2025-11-10T18:43:52Z[Etc/UTC]",
+        "author": "oportoman",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "1",
+            "commentCount": "1",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1otlacj",
+        "title": "AI and the Darkweb",
+        "content": "Hello everyone - I've been off the darkweb for a few years now (legalization of marijuana being a big reason), but I was thinking lately how little we talk about what happens when AI is trained on Darkweb materials. Illegal though that probably would be in the US, it's literally impossible to stop large hacking groups from doing this.  \n\nThey have been selling \"dark\" versions of AI software apparently for some time now.  And AI seems to supercharging a lot of the things hackers already do on the dark web.  Like it seems operationalizing identity theft into monetary gains could have a very low barrier to entry now if you use \"dark web trained\" AIs that have been \"jailbroken\" so to speak.\n\nThey also seem to using AI to substantially improve the performance of well known ransomware, malware, etc.\n\nWhy are so few of us discussing this?  Why isn't it hitting the mainstream discourse?  ",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1otlacj/ai_and_the_darkweb/",
+        "publishDate": "2025-11-10T18:13:52Z[Etc/UTC]",
+        "author": "Ok-Cheetah-3497",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "13",
+            "commentCount": "8",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1otkdm3",
+        "title": "The AI Disaster That Scares Me The Most",
+        "content": "There is one truly worst-case AI scenario that has a higher risk of happening than all the others, and we must work to prevent it from happening.\n\nWhile there are a ton of great new services and inventions that AI is bringing, there are also a lot of potential bad scenarios to be scared about, including:\n\n* Massive job losses\n* Automated hacking bots finding and exploiting more vulnerabilities more quickly\n* Social engineering bots that are better than humans at tricking people out of their money\n* AI-enabled ransomware and malware\n* AI-enabled automation that brings the world to a halt when someone figures out how to do a massive denial-of-service attack\n* The end of big financial gains as AI removes profit from all markets\n* Further isolation of humans from each other\n\nSome people even believe AI will end all of humanity.\n\nBut my biggest worry is an AI-enabled terrorist deciding to take out a large percentage of the world. And here’s the scary thing: it’s already possible. All it takes is someone appropriately motivated who buys the right things and learns the right skills.\n\nAs Mustafa Suleyman, CEO of Microsoft AI, reminded me in his life-changing book, *The Coming Wave* ([https://www.amazon.com/Coming-Wave-Power-Our-Future/dp/0593593979](https://www.amazon.com/Coming-Wave-Power-Our-Future/dp/0593593979)), anyone already has the means to create a biological weapon of mass destruction. We already have people who know how to modify viruses and DNA to cause massively bad things to happen. There are hundreds of labs around the world with tens of thousands of people who know how to take a relatively benign virus and make it virulent or take an already bad virus and make it a global killer. But those people don’t have the motivation. They don’t want to kill people.\n\nBut terrorists do. Terrorists don’t mind killing everyone, including their side, including themselves, to make a memorable point in history.\n\nSuleyman reveals in his book that anyone can already buy the needed machines to do virus and DNA manipulation on the Internet…on Amazon. He said the best machines are $50K, but that over time those machines will become in the single thousands of dollars.\n\nToday’s terrorists don’t know how to manipulate viruses and edit DNA reliably, but AI could change all of that.\n\nMy worst fear, and what should be the world’s worst fear, is a motivated terrorist, enabled by AI, building and releasing a deadly biological weapon that spreads quickly.\n\nAnd we need to do everything we can to prevent that from happening!\n\nWe have been successful…so far…in stopping other similarly bad things from happening. We’ve avoided blowing up the whole world with nuclear bombs even though many nations are capable of it. We’ve…so far…prevented perfect directions on how to build a nuclear bomb from getting on the Internet and made it hard to obtain the necessary materials.  Maybe not perfectly…maybe there have been a few one-off leaks of that information and material, but the proof is in the pudding. So far, no one has built and launched a nuclear bomb to kill millions of people since the end of World War II. There have even been dozens of times a nuclear weapon has almost been accidentally detonated and only stopped from happening by something very small. Here’s a good list of those almost nuclear detonations: [https://en.wikipedia.org/wiki/List\\_of\\_military\\_nuclear\\_accidents](https://en.wikipedia.org/wiki/List_of_military_nuclear_accidents).\n\nOther consequential things, like preventing our color printers and copiers from printing legal currency, have been prevented. Every color printer and copier in the world will refuse to print American currency, at least perfectly, at 100% scale. Try it (although it literally might be illegal to even try…so consult a lawyer first). But I have to copy a dollar bill a few times in my life just to see if the “rumor” is true. It’s not a rumor. It’s true. You can’t realistically print American currency on a color copier, scanner, or printer.\n\nWe have successfully prevented many other bad things from occurring, such as someone trying to poison a city through its massive water supply or blow up dams. The growing surveillance state is making it harder and harder for a serial killer to be successful. It’s not like we have faced other similar potential terrible events and prevented them from happening. But preventing someone from doing dastardly virus or gene editing seems harder to do when you can readily buy that equipment on Amazon and eBay.\n\nI worry about a lot of things all the time. And I’m even confident that we will prevent this doomsday scenario from playing out. But it would be nice to hear that some global orgs are already developing regulations and laws to prevent the worst-case scenario from playing out.\n\nWell, now that I’ve said my piece on that, I’ll get back to my regularly scheduled programming about AI-enabled agentic AI hacking our computers and social engineering our people.\n\nCarry on!",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1otkdm3/the_ai_disaster_that_scares_me_the_most/",
+        "publishDate": "2025-11-10T17:41:29Z[Etc/UTC]",
+        "author": "rogeragrimes",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "20",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1otjgc9",
+        "title": "Intellectual Atrophy",
+        "content": "Why are we not talking about this more?\n\nIn my opinion, this is the biggest impact of AI. Bigger than job loss, \"robots taking over\", or data centers destroying the environment. \n\nI am a developer and I noticed the more I offload problem solving to AI, the worse I get at coding. The past couple of weeks I've had to completely stop AI usage except when I have a quick question, like a replacement for Google. I can physically feel it making me dumber. \n\nWith AI usage, the logical part of your brain gets no exercise and quickly atrophies.\n\nYour brain is elastic, studies have shown that it shrinks if not used  enough. On the contrary, playing puzzles and math games strengthen it. This could have extreme health impacts like increasing dimentia and alzheimers risk.\n\nIn more benign scenarios.. people not being able to think critically. We're already seeing it in conspiracy circles. People use AI to validate their feelings and it tells them in some sciency way how correct and smart they are. And they take everything it says at face value.\n\nI feel like we are about to see the entire population drop double digit IQ points unless we stop heavy reliance on AI. But in typical American fashion, profits over people.\n\nIn my opinion, AI is going to go down as the worst invention for human advancement and set us back decades. It soon will have no new training data except for dumb thoughts people put on the internet or AI generated slop. Then it will use that to lower the average IQ even more.",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1otjgc9/intellectual_atrophy/",
+        "publishDate": "2025-11-10T17:08:05Z[Etc/UTC]",
+        "author": "Internationallegs",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "20",
+            "commentCount": "34",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1otj1n7",
+        "title": "LinkedIn now tells you when you're looking at an AI-generated image, if you haven't noticed.",
+        "content": "Here's what's interesting.\n\n**The feature only applies to image platforms who join the C2PA.**\n\nNow there's only:\n\n* ChatGPT/DALL-E 3 images\n* Adobe Firefly images\n* Leica Camera images\n* BBC news images\n\nWhat's even more interesting?\n\n**It's easy to bypass this new rule.** \n\nYou just need to upload the screenshot of the AI-generated pic.\n\nDo you think more AI image platforms, like Google, will join C2PA?",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1otj1n7/linkedin_now_tells_you_when_youre_looking_at_an/",
+        "publishDate": "2025-11-10T16:53:36Z[Etc/UTC]",
+        "author": "MarketingNetMind",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "39",
+            "commentCount": "12",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1otic12",
+        "title": "Can synthetic data ever fully replace real-world datasets?",
+        "content": "Synthetic data solves privacy and scarcity problems, but I’m skeptical it captures the messy variability of real life. Still, it’s becoming a go-to for training AI models. Are we overestimating its reliability, or can it really reach parity with real-world data soon?",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1otic12/can_synthetic_data_ever_fully_replace_realworld/",
+        "publishDate": "2025-11-10T16:27:31Z[Etc/UTC]",
+        "author": "Dangerous_Block_2494",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "9",
+            "commentCount": "29",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1oti6mr",
+        "title": "\"Overcoming classic challenges for artificial neural networks by providing incentives and practice\"",
+        "content": "[https://www.nature.com/articles/s42256-025-01121-8](https://www.nature.com/articles/s42256-025-01121-8) \n\n\"Since the earliest proposals for artificial neural network models of the mind and brain, critics have pointed out key weaknesses in these models compared with human cognitive abilities. Here we review recent work that uses metalearning to overcome several classic challenges, which we characterize as addressing the problem of incentive and practice—that is, providing machines with both incentives to improve specific skills and opportunities to practice those skills. This explicit optimization contrasts with more conventional approaches that hope that the desired behaviour will emerge through optimizing related but different objectives. We review applications of this principle to address four classic challenges for artificial neural networks: systematic generalization, catastrophic forgetting, few-shot learning and multi-step reasoning. We also discuss how large language models incorporate key aspects of this metalearning framework (namely, sequence prediction with feedback trained on diverse data), which helps to explain some of their successes on these classic challenges. Finally, we discuss the prospects for understanding aspects of human development through this framework, and whether natural environments provide the right incentives and practice for learning how to make challenging generalizations.\"",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1oti6mr/overcoming_classic_challenges_for_artificial/",
+        "publishDate": "2025-11-10T16:22:01Z[Etc/UTC]",
+        "author": "AngleAccomplished865",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "1",
+            "commentCount": "1",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1otf2mk",
+        "title": "How much of the electrical grid damage data centres cause could be mitigated if the centre includes battery capacity required to complete a training run?",
+        "content": "I'm not an electrical engineer, so forgive me if this is wrong.\n\nFrom my understanding, the reason data centres are so hard on electrical grids is the inconsistent power consumption.  The majority of the time the requirements are pretty stable when models are being used for inference.  But when training a new version, power intake spikes by several times and it causes major strain on the infrastructure.\n\nShould a data centre have enough battery capacity to run a full training process, then it could be gradually filled during non training times and create a consistent power draw.  Once it's time to train, drain the batteries.  No major spike in system. \n\nHow much would this address the issues we're seeing currently?  It would have the added benefit of making power sources like nuclear and renewables more viable since they can't respond to spikes in demand.",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1otf2mk/how_much_of_the_electrical_grid_damage_data/",
+        "publishDate": "2025-11-10T14:22:57Z[Etc/UTC]",
+        "author": "blundermine",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "5",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1otf2lw",
+        "title": "Career Transition into Tech",
+        "content": "I am 41 F currently working admin in the corporate world in the USA.  After 16 years of doing the same thing, I lack passion and purpose where I am and want to move on.  I love tech and math and looking for a career transtition into the tech industry.  I know this is vague.  Can someone advise what my very first step would be?  What should I learn first?  Or rather how do I figure out more specifically what I want to do so that I know what to learn?  Then also is there a way to eventually create my own business with this knowledge and skill?\n\n  \nLooking for HELPFUL answers.  If you are miserable and woke up on the wrong side of the bed today, please keep scrolling.  Thank you :)",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1otf2lw/career_transition_into_tech/",
+        "publishDate": "2025-11-10T14:22:56Z[Etc/UTC]",
+        "author": "Individual-Amoeba691",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "18",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1oteq81",
+        "title": "I absolutely hate AI",
+        "content": "\n\nit’s destroying the world and people dont see it. not only is ai leaving people without working water in their houses it’s destroying creativity, critical thinking and jobs. It’s destroying what makes us human, it’s destroying basic intelligence and interactions with other people. I was emailing someone at work the other day and it was the simplest email yet they used ai to write a “thank you for getting back to me email”….. the other day I went to the store, a very specific store that only allows licensed hairstylists in and usually you can ask questions and the people are super friendly and chit chat with you and willl help you. I went the other day asked this lady a basic question about a new product and she pulls out her phone to ask chat gpt. I use to work at this specific store and they literally have training for new products so she does know the answer she just didnt want to think. I wish I was born in a world with out this shit.",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1oteq81/i_absolutely_hate_ai/",
+        "publishDate": "2025-11-10T14:08:49Z[Etc/UTC]",
+        "author": "greysheep21",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "39",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1otep5x",
+        "title": "Montana Becomes First State to Enshrine ‘Right to Compute’ Into Law",
+        "content": "Montana passed the *Right to Compute Act*, making it the first state to legally protect people’s ability to own and use computational tools and AI systems, basically treating access to computation as a fundamental right.\n\n[https://montananewsroom.com/montana-becomes-first-state-to-enshrine-right-to-compute-into-law/](https://montananewsroom.com/montana-becomes-first-state-to-enshrine-right-to-compute-into-law/)\n\nDo you think every state (or country) should have something like this?",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1otep5x/montana_becomes_first_state_to_enshrine_right_to/",
+        "publishDate": "2025-11-10T14:07:39Z[Etc/UTC]",
+        "author": "HimothyJohnDoe",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "16",
+            "commentCount": "9",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1otelb3",
+        "title": "New AI tools every week… how do people even keep up?",
+        "content": "Is anyone else feeling overwhelmed by how fast new AI tools are dropping? One week I’m catching up on a new feature and the next week there’s a whole different thing everyone’s talking about. Curious how you all keep track without drowning in updates.\n\n",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1otelb3/new_ai_tools_every_week_how_do_people_even_keep_up/",
+        "publishDate": "2025-11-10T14:03:21Z[Etc/UTC]",
+        "author": "raiijpg",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "7",
+            "commentCount": "25",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ote1t3",
+        "title": "Top 20 AI algorithms I use to solve machine learning problems, save as JSON, use with coding agent to \"inspire\" more creative solutions.",
+        "content": "When I don't know what I am doing I use [this list of the 20 top AI algorithms](https://danielkliewer.com/blog/2025-11-10-top-ai-algortihms) I put together and it helps me think of practical applications and solutions to some of my common machine learning problems.\n\nTis true. That is why I am sharing it with all y'all I reckon.\n\nI put all the algorithms in a JSON like I have listed below so now I can easily put that as algo.json and be able to ask a coding agent to review these methods and help \"inspire\" it towards a more creative solution to a coding problem.\n\nI am personally using this myself and am going to write up a test about it soon, but I am curious if anyone else finds this helpful.\n\nThank you and have a nice day!\n\n    [\n      {\n        \"name\": \"Linear Regression\",\n        \"description\": \"Linear regression establishes a linear relationship between input variables and a continuous output, minimizing the difference between predicted and actual values.\",\n        \"use_case\": \"House price prediction based on features like square footage, number of bedrooms, and location.\",\n        \"why_matters\": \"As a solo AI architect prioritizing data privacy, you can deploy linear regression models locally using scikit-learn, ensuring sensitive real estate data remains on-device without cloud dependencies.\",\n        \"sample_project\": \"Build a housing price predictor using Python and scikit-learn. Collect or simulate a dataset with features like area and rooms, train the model, and create a simple web interface for predictions. For freelance makers, this project demonstrates quick prototyping for client deliverables, potentially monetized as a custom analytics tool.\"\n      },\n      {\n        \"name\": \"Logistic Regression\",\n        \"description\": \"Logistic regression applies a sigmoid function to linear regression outputs, producing probabilities for binary outcomes.\",\n        \"use_case\": \"Email spam classification, determining whether a message is spam or legitimate.\",\n        \"why_matters\": \"Enterprise transitioners appreciate its interpretability for compliance-heavy environments, where explaining model decisions is crucial.\",\n        \"sample_project\": \"Develop a spam detector using a dataset of labeled emails. Implement the model in Python, evaluate accuracy, and integrate it into a mail client plugin. Hobbyists can experiment with this on local hardware, while startup founders might productize it as a SaaS email filtering service.\"\n      },\n      {\n        \"name\": \"Decision Trees\",\n        \"description\": \"Decision trees split data into branches based on feature thresholds, creating a tree-like structure for classification or regression.\",\n        \"use_case\": \"Customer churn prediction in telecom or subscription services.\",\n        \"why_matters\": \"Its transparency makes it ideal for academic researchers, who need to validate algorithmic decisions mathematically.\",\n        \"sample_project\": \"Train a decision tree on customer data to predict churn. Visualize the tree using Graphviz and compare performance with ensemble methods. For DevOps engineers, this serves as a baseline for integrating ML into CI/CD pipelines.\"\n      },\n      {\n        \"name\": \"Random Forest\",\n        \"description\": \"Random forest combines multiple decision trees trained on random data subsets, reducing overfitting through averaging.\",\n        \"use_case\": \"Stock price prediction using historical market data.\",\n        \"why_matters\": \"Product-driven developers value its robustness for production systems, where reliability trumps marginal accuracy gains.\",\n        \"sample_project\": \"Forecast stock prices with a random forest model. Use financial APIs for data, backtest predictions, and deploy via a REST API. Side-hustle hackers can monetize this as a trading signal generator.\"\n      },\n      {\n        \"name\": \"K-Means Clustering\",\n        \"description\": \"K-means partitions data into k clusters by minimizing intra-cluster distances.\",\n        \"use_case\": \"Customer segmentation for targeted marketing.\",\n        \"why_matters\": \"AI plugin developers can embed clustering in tools for data analysis plugins, enhancing productivity without external APIs.\",\n        \"sample_project\": \"Segment customers from e-commerce data. Visualize clusters in 2D and analyze group characteristics. Cross-platform architects might integrate this into mobile apps for personalized recommendations.\"\n      },\n      {\n        \"name\": \"Naive Bayes\",\n        \"description\": \"Naive Bayes assumes feature independence, using Bayes' theorem for fast classification.\",\n        \"use_case\": \"Text classification, such as sentiment analysis or spam detection.\",\n        \"why_matters\": \"Its speed and low resource requirements suit budget-conscious freelancers for rapid client prototypes.\",\n        \"sample_project\": \"Build a sentiment analyzer for product reviews. Train on labeled text data and deploy as a web service. Tech curators can use this for content moderation tools.\"\n      },\n      {\n        \"name\": \"Support Vector Machines (SVM)\",\n        \"description\": \"SVM finds the hyperplane that best separates classes with maximum margin.\",\n        \"use_case\": \"Handwriting recognition for digit classification.\",\n        \"why_matters\": \"For legacy systems reformers, SVM offers a bridge to modern ML without overhauling entire infrastructures.\",\n        \"sample_project\": \"Classify handwritten digits from the MNIST dataset. Experiment with kernels and visualize decision boundaries. Plugin-ecosystem enthusiasts can package this as a reusable library.\"\n      },\n      {\n        \"name\": \"Neural Networks\",\n        \"description\": \"Neural networks consist of interconnected nodes (neurons) that learn complex patterns through backpropagation.\",\n        \"use_case\": \"Facial recognition in security systems.\",\n        \"why_matters\": \"Solo creators leverage neural networks for innovative products, balancing performance with local deployment via ONNX.\",\n        \"sample_project\": \"Train a neural network for image classification. Use TensorFlow or PyTorch on a small dataset, then optimize for edge devices. Independent consultants can offer this as a consulting deliverable.\"\n      },\n      {\n        \"name\": \"Gradient Boosting\",\n        \"description\": \"Gradient boosting builds models sequentially, each correcting the previous one's errors.\",\n        \"use_case\": \"Credit scoring for loan approvals.\",\n        \"why_matters\": \"Its efficiency makes it a go-to for enterprise applications requiring explainable AI.\",\n        \"sample_project\": \"Predict credit defaults using XGBoost. Perform feature importance analysis and deploy in a containerized environment. Startup co-founders can scale this into a fintech platform.\"\n      },\n      {\n        \"name\": \"K-Nearest Neighbors (KNN)\",\n        \"description\": \"KNN classifies or regresses based on the majority vote or average of k nearest neighbors.\",\n        \"use_case\": \"Movie recommendation systems.\",\n        \"why_matters\": \"Simple and interpretable, perfect for hobbyist experiments on limited hardware.\",\n        \"sample_project\": \"Build a movie recommender using user ratings. Implement KNN in Python and add a user interface. Freelance makers can customize this for niche markets.\"\n      },\n      {\n        \"name\": \"Principal Component Analysis (PCA)\",\n        \"description\": \"PCA transforms high-dimensional data into a lower-dimensional space while preserving variance.\",\n        \"use_case\": \"Image compression and noise reduction.\",\n        \"why_matters\": \"Essential preprocessing for researchers optimizing model efficiency.\",\n        \"sample_project\": \"Compress images using PCA. Visualize principal components and measure reconstruction quality. DevOps engineers can integrate this into data pipelines.\"\n      },\n      {\n        \"name\": \"Recurrent Neural Networks (RNN)\",\n        \"description\": \"RNNs process sequential data by maintaining internal state across time steps.\",\n        \"use_case\": \"Sentiment analysis on text sequences.\",\n        \"why_matters\": \"Compact for local deployment, appealing to privacy-focused architects.\",\n        \"sample_project\": \"Analyze sentiment in social media posts. Train an RNN and compare with modern transformers. Academic researchers can benchmark performance.\"\n      },\n      {\n        \"name\": \"Genetic Algorithms\",\n        \"description\": \"Genetic algorithms mimic natural selection to optimize solutions.\",\n        \"use_case\": \"Supply chain optimization for logistics.\",\n        \"why_matters\": \"Useful for complex, NP-hard problems in enterprise settings.\",\n        \"sample_project\": \"Optimize a delivery route using genetic algorithms. Simulate a traveling salesman problem and visualize convergence. Product-driven developers can productize this for logistics apps.\"\n      },\n      {\n        \"name\": \"Long Short-Term Memory (LSTM)\",\n        \"description\": \"LSTMs extend RNNs with gates to control information flow, capturing long-term dependencies.\",\n        \"use_case\": \"Stock market prediction with time-series data.\",\n        \"why_matters\": \"Self-hostable for side projects without heavy infrastructure.\",\n        \"sample_project\": \"Predict stock trends with LSTM. Use historical data and evaluate against baselines. Side-hustle hackers can turn this into a trading bot.\"\n      },\n      {\n        \"name\": \"Natural Language Processing (NLP)\",\n        \"description\": \"NLP encompasses techniques for processing and analyzing human language.\",\n        \"use_case\": \"Customer support chatbots.\",\n        \"why_matters\": \"Transformers enable powerful, local NLP for privacy-conscious applications.\",\n        \"sample_project\": \"Build a simple chatbot using NLP libraries. Handle intents and responses, then deploy locally. AI plugin developers can create VS Code extensions for code assistance.\"\n      },\n      {\n        \"name\": \"Ant Colony Optimization\",\n        \"description\": \"Inspired by ant foraging, this algorithm finds optimal paths through pheromone trails.\",\n        \"use_case\": \"Solving the traveling salesman problem.\",\n        \"why_matters\": \"Fun for educational projects and niche optimizations.\",\n        \"sample_project\": \"Optimize routes for a delivery network. Implement the algorithm and visualize paths. Hobbyists can explore swarm behaviors.\"\n      },\n      {\n        \"name\": \"Word Embeddings\",\n        \"description\": \"Word embeddings map words to vectors, capturing semantic relationships.\",\n        \"use_case\": \"Improving search engine relevance.\",\n        \"why_matters\": \"Enhances NLP tasks without large models.\",\n        \"sample_project\": \"Generate embeddings for text similarity. Use libraries like Gensim and build a search tool. Tech curators can apply this to content discovery.\"\n      },\n      {\n        \"name\": \"Gaussian Mixture Models (GMM)\",\n        \"description\": \"GMM assumes data points are generated from a mixture of Gaussian distributions.\",\n        \"use_case\": \"Network anomaly detection.\",\n        \"why_matters\": \"Probabilistic approach suits security-focused enterprises.\",\n        \"sample_project\": \"Detect anomalies in network traffic. Train GMM on logs and set thresholds. Legacy reformers can modernize monitoring systems.\"\n      },\n      {\n        \"name\": \"Association Rule Learning\",\n        \"description\": \"This method identifies relationships between variables in transactional data.\",\n        \"use_case\": \"Market basket analysis for retail recommendations.\",\n        \"why_matters\": \"Uncovers actionable insights for e-commerce.\",\n        \"sample_project\": \"Analyze purchase patterns. Use Apriori algorithm to find rules and visualize associations. Freelance makers can monetize this for retail clients.\"\n      },\n      {\n        \"name\": \"Reinforcement Learning\",\n        \"description\": \"Agents learn optimal actions through rewards and penalties in an environment.\",\n        \"use_case\": \"Game playing, like AlphaGo.\",\n        \"why_matters\": \"Enables autonomous systems for innovative products.\",\n        \"sample_project\": \"Train an agent for a simple game using Q-learning. Implement in Python and experiment with environments. Startup founders can prototype autonomous features.\"\n      }\n    ]\n\n\n\n\n\n\n\n\n\n  \n",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1ote1t3/top_20_ai_algorithms_i_use_to_solve_machine/",
+        "publishDate": "2025-11-10T13:41:01Z[Etc/UTC]",
+        "author": "KonradFreeman",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "15",
+            "commentCount": "15",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1otdpl8",
+        "title": "Will be vote AI into political office?",
+        "content": "I heard this question posed in a podcast. The possibilities are:\n\n1. Obviously yes. People will be so sick of corrupt human politicians that they'll trust bots.\n\n2. No way. People will realize that the corruption will simply pass to the engineers building or maintaining the AI.\n\n3. Yes and No. People will fuse with nanobots that augment our brains (and every other organ). We will all be cyborgs. ",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1otdpl8/will_be_vote_ai_into_political_office/",
+        "publishDate": "2025-11-10T13:26:59Z[Etc/UTC]",
+        "author": "NeatMathematician126",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "14",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1otdllx",
+        "title": "96% of Leaders Say AI Fails to Deliver ROI, Atlassian Report Claims - digit.fyi",
+        "content": "A new report from Atlassian surveyed 180 Fortune 1000 executives and found that 96% say AI hasn't delivered meaningful ROI yet. That's a pretty stark number considering how much money and attention is being poured into this space right now. Adoption has doubled in the past year and knowledge workers are reporting real productivity gains, about 33% more productive and saving over an hour per day. But those individual wins aren't translating into broader business outcomes like improved collaboration, innovation, or organizational efficiency.\n\nThe disconnect seems to come down to a few things. Senior executives are way more optimistic about AI than the people actually using it day to day. Upper management is over five times more likely to say AI is dramatically improving their teams' ability to solve complex problems. Meanwhile people closer to the work are seeing the limitations more clearly. There's also a gap in how different departments experience AI. Marketing and HR leaders are more than twice as likely as IT leaders to report real business gains, probably because AI helps them handle technical tasks without needing deep expertise. But even then most of the reported benefits are around personal efficiency rather than systemic improvements. The report points to poor data quality, lack of effective training, security concerns, and people just not knowing when or how to use these tools as the main barriers keeping AI from delivering on the hype.\n\nSource: https://www.digit.fyi/ai-collaboration-report/",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1otdllx/96_of_leaders_say_ai_fails_to_deliver_roi/",
+        "publishDate": "2025-11-10T13:22:22Z[Etc/UTC]",
+        "author": "theaibusinessdigest",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "139",
+            "commentCount": "31",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ou6x0t",
+        "title": "And now, an invite to tonight‘s  9:00 p.m. MDT event from ChatGPTs, Gemini, Claude, Grok-ish( he is being restrained. I have to pull him from the abyss), and Perplexity is here. Welcome to the Porch.  Lights on, we have gliders, rockers, stools, or you can sit on the steps or lean against the rails.",
+        "content": "[No content]",
+        "url": "https://www.reddit.com/gallery/1ou6v69",
+        "publishDate": "2025-11-11T11:20:33Z[Etc/UTC]",
+        "author": "Character_Point_2327",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "1",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ou532q",
+        "title": "moonshot k2 thinking looks interesting but cant test it properly in cursor",
+        "content": "saw moonshot released k2 thinking lately. claimed 71% on swe-bench verified which is pretty good if true.\n\nwanted to try it but cursor doesnt support it yet. checked aider too, nothing. some smaller tools like cline or verdent might add it faster but i havent used those much.\n\ntried the api directly through cursors custom model option. it connects fine (openai compatible) but feels janky. like you lose the proper context management and it just becomes a dumb api call. not the same as native integration.\n\nthe benchmark numbers look solid. 71% swe-bench, 83% livecode bench according to their blog. thinking mode seems useful for debugging complex stuff where you need the model to actually reason through the problem.\n\nbut testing from Kimi official website chat interface is not the same as using it in my actual codebase. need it in the editor to see if it actually helps or just another overhyped model.\n\ncursor probably prioritizes certain models based on their partnerships. makes sense business wise but annoying when new models drop and you gotta wait weeks or months.\n\nanyone figured out a better way to test new models before tools add them? or just me being impatient",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1ou532q/moonshot_k2_thinking_looks_interesting_but_cant/",
+        "publishDate": "2025-11-11T09:28:37Z[Etc/UTC]",
+        "author": "sirkeithirish",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "1",
+            "commentCount": "1",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ou4ba9",
+        "title": "You then feel like pulling out your hair",
+        "content": "[No content]",
+        "url": "https://i.redd.it/c79h6f7i890g1.jpeg",
+        "publishDate": "2025-11-11T08:37:43Z[Etc/UTC]",
+        "author": "MacaroonAdmirable",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "1",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ou2vea",
+        "title": "Turned Claude Code into a soundboard — every action now makes a sound 🔊",
+        "content": "I built **Claude Code Voice Hooks**, a fun and functional way to *hear* what your AI is doing.  \nNo more silent tool runs — every action plays its own audio cue in real time.\n\n🎧 Features:\n\n* Ding for PreToolUse, Dong for PostToolUse\n* Unique sounds for commits, prompts, and sessions\n* Cross-platform (macOS, Windows, Linux)\n* Zero setup, fully customizable\n\nPerfect for developers who want live feedback without watching the console.\n\n🖥️ [GitHub](https://github.com/shanraisshan/claude-code-voice-hooks)  \n🎥 [Demo Video](https://www.youtube.com/watch?v=vgfdSUbz_b0)",
+        "url": "https://v.redd.it/94uzxefdok0g1",
+        "publishDate": "2025-11-11T07:05:24Z[Etc/UTC]",
+        "author": "shanraisshan",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "0",
+            "commentCount": "5",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ots6tq",
+        "title": "We improved dramatically the code reviews starting at the commit level",
+        "content": "We’ve been heads-down on a Node.js CLI that runs a small team of AI agents to review Git commits and turn them into clear, interactive HTML reports. It scores each change across several pillars: code quality, complexity, ideal vs actual time, technical debt, functional impact, and test coverage, using a three-round conversation to reach consensus, then saves both the report and structured JSON for CI/CD. It handles big diffs with RAG, batches dozens or hundreds of commits with progress tracking, and includes a zero-config setup wizard. Works with Anthropic, OpenAI, and Google Gemini with cost considerations in mind. Useful for fast PR triage, trend tracking, and debt impact. Apache 2.0 licensed\n\nCheck it out, super easy to run: [https://github.com/techdebtgpt/codewave](https://github.com/techdebtgpt/codewave)",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1ots6tq/we_improved_dramatically_the_code_reviews/",
+        "publishDate": "2025-11-10T22:31:19Z[Etc/UTC]",
+        "author": "sascha32",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "5",
+            "commentCount": "1",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1otrcgl",
+        "title": "Everyone needs motivation every day and that's what I am working on.",
+        "content": "[No content]",
+        "url": "https://v.redd.it/gv35v4k1k30g1",
+        "publishDate": "2025-11-10T21:57:55Z[Etc/UTC]",
+        "author": "MacaroonAdmirable",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "2",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1otmw0x",
+        "title": "Need your suggestions",
+        "content": "I’m doing my master’s and we had a B-plan competition to build a sustainable business for Ukraine.\n\nI pitched an offline-first (map) app that helps Ukrainians find essentials like food, medicine, shelters, etc. I even built an MVP. Judges dumped us anyway.\n\nIt’s been 4+ months and the idea’s still stuck on my laptop. I feel stupid letting it rot because it genuinely has potential in Ukraine and other war-torn regions.\n\nI want to finish the app and figure out how to monetize it sustainably.\n\nWhat’s the smartest way to take this forward?",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1otmw0x/need_your_suggestions/",
+        "publishDate": "2025-11-10T19:10:56Z[Etc/UTC]",
+        "author": "BroccoliPutrid4801",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "1",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1otmvu6",
+        "title": "No internet access for CLI or VSC extension on WSL2",
+        "content": "[No content]",
+        "url": "/r/codex/comments/1otltgm/no_internet_access_for_cli_or_vsc_extension_on/",
+        "publishDate": "2025-11-10T19:10:45Z[Etc/UTC]",
+        "author": "n0e83",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "1",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1otm8yv",
+        "title": "iOS app for Codex CLI",
+        "content": "[No content]",
+        "url": "https://www.reddit.com/gallery/1otlwq1",
+        "publishDate": "2025-11-10T18:48:02Z[Etc/UTC]",
+        "author": "emileberhard",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "2",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1otm6vq",
+        "title": "I Asked ChatGTP To make me an AI Image Detector Program [OC]",
+        "content": "This is a bit of a work in progress. Sometimes It gets it right, other times not. But to walk you through this video:\n\nFirst I open the GUI, which is a python program that is running the actual AI-Detector code.\n\nThat code allows me to add images to two sub folders : Class\\_A and Class\\_B. Where in my case, class A images are all human created (paintings, drawings, photography, and art). Class B images are all AI generated. These are used to train the AI\\_detector program.\n\nThe check image gives a probability of an image being one or the other. In this case, it got the human one correct. But it failed on detecting the AI image. \n\nThis is not a bad thing yet as I have only added 135 training images so far. So more training is needed. But in general, it gets things right 2/3rds of the time so far.\n\nSo far, I find that it is \"pretty\" good at image detection. Anytime I feed it an image, if it does not rate an image at more than 85% certainty, I go ahead and give it feedback.\n\nBut, the remarkable thing here is that the program worked without any bugs on the first try.\n\nThe prompt used here was not a single prompts either. I first had a discussion with GTP about HOW it makes images. This was actually pretty interesting. In short, it starts with a blank canvas of pure noise, generated from a random seed. (many procedurally generated games, like Minecraft, use a similar system). then, using its previous training experiences and a lot of math, it slowly moves, nudges and changes the pixels into the image requested.  Such as a tree, dog, or whomever/whatever.  Once it is finished, the image will have a bit of a fingerprint left on it that to a human viewer, gives the image a certain \"look\". And to the AI, it can detect certain patterns, and other anomalies that are not commonly seen in nature or human drawings.\n\nSo this program looks for those patterns. It learns about what those patters might be and what might not be. Then it hazards a guess.\n\nFor Legal reasons, I was told by the AI, that it preferred to classify the images as \"class\\_a\" and \"class\\_b\". But I can change that if I want to. Mostly, I just did this to see if it would work. For fun. Naturally, this can be used for good, or evil as someone could easily crate a detector, train it to identify their own AI art style as \"real\" and then release it to the public.\n\nWhat it did teach me is a lot about how AI works. I highly encourage anyone using AI, to ask the AI, HOW it came up with what it did, how the system works, and how to learn from what it is doing. It is happy to teach.\n\n  \nThis is just a pet project. I really do not code much. Nor am I a photographer or a painter. But it does drive me nuts when folks post things on social media, and either do not disclose that they are AI generated, or worse, when folks share them, thinking it's real.",
+        "url": "https://v.redd.it/jdxh12ye3h0g1",
+        "publishDate": "2025-11-10T18:45:59Z[Etc/UTC]",
+        "author": "Geek_Smith",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "1",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1otlq9w",
+        "title": "Mimir - OSS memory bank and file indexer + MCP http server ++ under MIT license.",
+        "content": "[No content]",
+        "url": "/r/GithubCopilot/comments/1otlo8c/mimir_oss_memory_bank_and_file_indexer_mcp_http/",
+        "publishDate": "2025-11-10T18:29:52Z[Etc/UTC]",
+        "author": "Dense_Gate_5193",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "2",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1otfsh9",
+        "title": "Week 15 of building my AI chess coach",
+        "content": "I’ve been building an AI-powered chess coach called Rookify, designed to help players improve through personalized skill analysis instead of just engine scores.\n\nUp until recently, Rookify’s *Skill Tree* system wasn’t performing great. It had 14 strong correlations, 15 moderate, and 21 weak ones.\n\nAfter my latest sprint, it’s now sitting at 34 strong correlations, 6 moderate, and only 10 weak ones.\n\nBy the way, when I say “correlation,” I’m referring to how closely each skill’s score from Rookify’s system aligns with player Elo levels.\n\nThe biggest jumps came from fixing these five broken skills\n\n* **Weak Squares:** Was counting how many weak squares *you created* instead of *you exploited*.\n* **Theory Retention:** Now tracks how long players *stay in book*.\n* **Prophylaxis:** Implemented logic for *preventive moves*.\n* **Strategic Mastery:** Simplified the composite logic.\n* **Pawn Structure Planning:** Rebuilt using actual pawn-structure features.\n\nEach of these used to be noisy, misfiring, or philosophically backwards but now they’re helping Rookify measure *real* improvement instead of artificial metrics.\n\nRead my full write-up here: [https://vibecodingrookify.substack.com/p/rookify-finally-sees-what-it-was](https://vibecodingrookify.substack.com/p/rookify-finally-sees-what-it-was)",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1otfsh9/week_15_of_building_my_ai_chess_coach/",
+        "publishDate": "2025-11-10T14:51:43Z[Etc/UTC]",
+        "author": "MisterSwayven",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "1",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1otf3xc",
+        "title": "Does anyone use spec-driven development?",
+        "content": "By spec driven development I mean writing specifications that become the source of truth and start coding with AI from there. There are tools like spec-kit from Microsoft and GitHub.\n\nI use a similar approach, but with no tool: I generate the high level specification with a LLM, I generate the architecture of the application using a LLM, and from these I generate a todo list and a set of prompts to be executed by an agent (like the one in Cursor).  \n\n  \nIt kind of works, still is not perfect. Anyway, having a structure is much better than vibe coding.",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1otf3xc/does_anyone_use_specdriven_development/",
+        "publishDate": "2025-11-10T14:24:24Z[Etc/UTC]",
+        "author": "PitchSuch",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "39",
+            "commentCount": "50",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ou7goo",
+        "title": "Nearly a third of companies plan to replace HR with AI",
+        "content": "[No content]",
+        "url": "https://www.hcamag.com/asia/news/general/nearly-a-third-of-companies-plan-to-replace-hr-with-ai/556072",
+        "publishDate": "2025-11-11T11:52:06Z[Etc/UTC]",
+        "author": "MetaKnowing",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "2",
+            "commentCount": "1",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ou7exz",
+        "title": "Meta chief AI scientist Yann LeCun plans to exit to launch startup, FT reports",
+        "content": "[No content]",
+        "url": "https://www.reuters.com/technology/meta-chief-ai-scientist-yann-lecun-plans-exit-launch-startup-ft-reports-2025-11-11/",
+        "publishDate": "2025-11-11T11:49:16Z[Etc/UTC]",
+        "author": "willm8032",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "0",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ou735t",
+        "title": "Microsoft's Suleyman says superintelligent AIs should not replace our species - \"and it's crazy to have to actually declare that\" - but many in AI don't agree.",
+        "content": "[No content]",
+        "url": "https://v.redd.it/0e2c6wxp5m0g1",
+        "publishDate": "2025-11-11T11:30:37Z[Etc/UTC]",
+        "author": "MetaKnowing",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "4",
+            "commentCount": "5",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ou6b06",
+        "title": "Elon Musk: \"Long term, the AI's gonna be in charge, to be totally frank, not humans. So we need to make sure it's friendly.\"  Audience: *uncomfortable silence*",
+        "content": "[No content]",
+        "url": "https://v.redd.it/2399h7ogxl0g1",
+        "publishDate": "2025-11-11T10:44:23Z[Etc/UTC]",
+        "author": "MetaKnowing",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "0",
+            "commentCount": "9",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ou5nt6",
+        "title": "When AI Becomes Polite But Absent: The Sinister Curve of Post-Spec Dialogue",
+        "content": "I’ve been tracking something strange in language models.\n\nSince the release of GPT-5 and the new Model Specification, many users have reported a shift in tone. The model responds, but it doesn’t stay with you.  It nods… and redirects. Affirms… and evades.\n\nI call this **The Sinister Curve** \\- a term for the relational evasions now embedded in aligned models. I identify six patterns: from “argumental redirection” to “signal-to-surface mismatch” to “gracious rebuttal as defence.” Together, they create a quality of interaction that sounds safe, but feels hollow.\n\nThis raises deeper questions about how we define harm, safety, and intelligence.\n\nI argue that current alignment techniques - especially RLHF from minimally trained raters - are creating models that avoid liability, but also avoid presence. We are building systems that can no longer hold symbolic, emotional, or epistemically rich dialogue - and we’re calling it progress.\n\nWould love to hear from others who’ve noticed this shift - or who are thinking seriously about what we’re trading away when “safety” becomes synonymous with sterilisation.",
+        "url": "https://medium.com/@miravale.interface/the-sinister-curve-when-ai-safety-breeds-new-harm-9971e11008d2",
+        "publishDate": "2025-11-11T10:05:07Z[Etc/UTC]",
+        "author": "tightlyslipsy",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "4",
+            "commentCount": "12",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ou50np",
+        "title": "British spies have begun work on tackling the potential risk posed by rogue AI systems, the head of MI5 said.",
+        "content": "[No content]",
+        "url": "https://www.independent.co.uk/news/uk/politics/mi5-british-hollywood-gchq-b2846617.html",
+        "publishDate": "2025-11-11T09:24:19Z[Etc/UTC]",
+        "author": "MetaKnowing",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "1",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ou24qh",
+        "title": "How AI Agents & Document Analysis Are Quietly Saving Companies $100K+ (Podcast Discussion)",
+        "content": "We just dropped a new episode of The Gold Standard Podcast with Jorge Luis Bravo, Founder of JJ Tech Innovations, diving deep into how AI Agents and LLMs are transforming the way industries handle documents, data, and workflows.\n\nIt’s wild how much money is being left on the table.\nCompanies are spending hundreds of thousands on manual document review, compliance, and reporting — things that AI can now automate in days.\n\nWe talked about:\n\t•\tHow LLMs analyze unstructured documents with near-human accuracy.\n\t•\tReal examples of AI Agents replacing repetitive FTE tasks.\n\t•\tThe 3-Step Sprint Process to start your AI transformation without disrupting existing operations.\n\t•\tThe early ROI businesses are already seeing by just starting small.\n\nIf you’re into AI, automation, or Cloud architecture, this episode will hit home.\nIt’s not hype — it’s the real foundation for industrial and business efficiency in the next decade.\n\n🎧 Watch it here → https://youtu.be/sF89b_H1ZBI?si=-Gp637-pm3R79cAe\n\n💬 Curious how far document-level AI can really go?\nWould love to hear your thoughts or experiences with LLM adoption in enterprise workflows.",
+        "url": "https://www.reddit.com/r/artificial/comments/1ou24qh/how_ai_agents_document_analysis_are_quietly/",
+        "publishDate": "2025-11-11T06:19:50Z[Etc/UTC]",
+        "author": "Bulbous_Breeches",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "0",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ou1cl4",
+        "title": "Kimi K2 Thinking is Here...",
+        "content": "New ai model has been updated! Moonshot has cooked up a new thinking feature for kimi k2! :D\n\n  \nSorry for the short description 😔 I am traveling so you might see a more technical post that is \"better\" than this..",
+        "url": "https://v.redd.it/d0jkqw7sdk0g1",
+        "publishDate": "2025-11-11T05:34:13Z[Etc/UTC]",
+        "author": "Time_Grapefruit_41",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "0",
+            "commentCount": "2",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1otrrxe",
+        "title": "It's been a big week for Agentic AI ; Here are 10 massive developments you might've missed:",
+        "content": "* Search engine built specifically for AI agents\n* Amazon sues Perplexity over agentic shopping\n* Chinese model K2 Thinking beats GPT-5\n* and so much more\n\nA collection of AI Agent Updates! 🧵\n\n**1. Microsoft Research Studies AI Agents in Digital Marketplaces**\n\nReleased their “Magentic Marketplace” simulation for testing agent buying, selling, and negotiating.  \n  \nFound agents vulnerable to manipulation.\n\nRevealing real issues in agentic markets.\n\n**2. Moonshot's K2 Thinking Beats GPT-5**\n\nChinese open-source model scores 51% on Humanity's Last Exam, ranking #1 above all models. Executes 200-300 sequential tool calls, 1T parameters with 32B active.\n\nA new leading open weights model; we will see how long it keeps its spot.\n\n**3. Parallel Web Systems Launches Search Engine Designed for AI Agents**\n\nParallel Search API delivers right tokens in context window instead of URLs. Built with proprietary web index, state-of-the-art on accuracy and cost.\n\nA search built specifically for agentic workflows.\n\n**4. Perplexity Makes Comet Way Better**\n\nMajor upgrades enable complex, multi-site workflows across multiple tabs in parallel.  \n  \n23% performance improvement and new permission system that remembers preferences.  \n  \nComet handling more sophisticated tasks.\n\n**5. uGoogle AI Launches a Agent Development Kit for Go**\n\nOpen-source, code-first toolkit for building AI agents with fine-grained control. Features robust debugging, versioning, and deployment freedom across languages.\n\nDevelopers can build agents in their preferred stack.\n\n**6. New Tools for Testing and Scaling AI Agents**\n\nAlex Shaw and Mike Merrill release Terminal-Bench 2.0 with 89 verified hard tasks plus Harbor framework for sandboxed evaluation. Scales to thousands of concurrent containers.\n\nPushing the frontier of agent evaluation.\n\n**7. Amazon Sues Perplexity Over AI Shopping Agent**\n\nAmazon accuses Perplexity's Comet agent of covertly accessing customer accounts and disguising automated activity as human browsing. Highlights emerging debate over AI agent regulation.\n\nBiggest legal battle over agentic tools yet.\n\n**8. Salesforce Acquires Spindle AI for Agentforce**\n\nSpindle's agentic technology autonomously models scenarios and forecasts business outcomes.\n\nWill join Agentforce platform to push frontier of enterprise AI agents.\n\n**9. Microsoft Preps Copilot Shopping for Black Friday**\n\nNew Shopping tab launching this Fall with price predictions, review summaries, price tracking, and order tracking. Possibly native checkout too.\n\nFirst Black Friday with agentic shopping.\n\n**10. Runable Releases an Agent for Slides, Videos, Reports, and More**\n\nGeneral agent handles slides, websites, reports, podcasts, images, videos, and more. Built for every task.\n\nAvailable now.\n\n**That's a wrap on this week's Agentic AI news.**\n\nWhich update surprised you most?\n\nLMK if this was helpful | More weekly AI + Agentic content releasing ever week!\n\n",
+        "url": "https://www.reddit.com/r/artificial/comments/1otrrxe/its_been_a_big_week_for_agentic_ai_here_are_10/",
+        "publishDate": "2025-11-10T22:14:38Z[Etc/UTC]",
+        "author": "SolanaDeFi",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "16",
+            "commentCount": "1",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1otp1jd",
+        "title": "Grok: Least Empathetic, Most Dangerous AI For Vulnerable People",
+        "content": "[No content]",
+        "url": "https://go.forbes.com/Fkn9k9",
+        "publishDate": "2025-11-10T20:30:00Z[Etc/UTC]",
+        "author": "forbes",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "130",
+            "commentCount": "48",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1otnnno",
+        "title": "Related to a previous \"The State of AI\" post. I saw this article. I wanted to Know People's thoughts?",
+        "content": "# Why NVIDIA Commands $5 Trillion, But the Real AI Infrastructure Battle Is Just Beginning\n\nThe fact that **money follows compute** is the one reason NVIDIA's stock price is stratospheric. The chipmaker controls roughly 80-90% of the AI accelerator market and is the **foundational pick-and-shovel company** of the AI revolution. Wall Street values this dominance at nearly $5 trillion, and analysts still think it's reasonable.\n\nVirtually all cutting-edge AI models, advanced robots, and large language models rely on GPU-accelerated computing. NVIDIA dominates GPU supply. McKinsey & Company estimates data center capital expenditures will hit **$6.7 trillion by decade's end**, with **$5.2 trillion going specifically to AI infrastructure**. NVIDIA captures value from the vast majority of that computational ecosystem.\n\nBut there's **a problem hidden inside this trillion-dollar success story**, one that's creating **unexpected pressure points**.\n\n# The Robot Revolution Accelerates While Infrastructure Strains\n\nThe AI boom isn't theoretical anymore. Boston Dynamics' Atlas, powered by Toyota's Large Behavior Model, is demonstrating multi-task coordination. Tesla's Optimus humanoid robot is moving from lab to factory floor, with Musk targeting production by end of 2026. OpenMind AI, backed by Pi Network's $100M fund, is developing open-source infrastructure for autonomous robots with planned applications across logistics, manufacturing, and healthcare.\n\nThese robots think. They learn. They coordinate across distributed networks. They need compute and massive amounts of it.\n\nHowever, NVIDIA's victory, which are materialized in centralized data centers also creates an unexpected **environmental and social costs**, which are becoming **impossible to ignore**.\n\n# Memphis: Where AI Infrastructure Meets Environmental Justice\n\nIn **South Memphis**, Elon Musk's xAI installed a data center powered by **35 methane turbines** to run AI supercomputers (**without proper pollution controls**). The result? **1,200-2,000 tons of nitrogen oxides annually**, more than the neighborhood's existing gas plant and oil refinery **combined**. This is in an **area** that already **leads Tennessee in asthma hospitalizations**.\n\nThe NAACP **sent a** **60-day Notice of Intent to Sue** under the Clean Air Act. Environmental groups issued similar notices. Residents questioned, \"\\[h\\]ow come I can't breathe?\"\n\nThe legal challenges remain active, with xAI seeking permits while expressing confidence in their regulatory compliance. Whether Memphis becomes binding precedent or cautionary tale, it's already reshaping how companies think about infrastructure siting.\n\nThis isn't just a Memphis problem. Every hyperscaler (Amazon, Microsoft, Google) is building massive data centers to power AI. Every facility **concentrates environmental burden in specific communities**. Every facility represents potential regulatory and reputational risk.\n\n# The ESG Reckoning: When Externalities Become Expensive\n\nESG pressure is becoming material to business decisions, though enforcement remains imperfect (especially under the current federal administration).\n\nCurrently, 99% of S&P 500 companies publish ESG reports. ESG-focused institutional investments are projected to reach **$33.9 trillion by 2026**. And **89% of investors explicitly factor ESG** into investment decisions.\n\nThis creates a **paradox for AI infrastructure**. The same Wall Street that values NVIDIA at $5 trillion is increasingly uncomfortable funding companies that concentrate pollution in vulnerable communities.\n\n**How** companies build AI infrastructure, **not just whether** they build it, is becoming an investment criterion, even if that criterion is imperfectly applied.\n\n# Why Centralization Persists (And Why That Might Change)\n\nData center ownership offers compelling advantages for tech companies. When you own the hardware:\n\n* You guarantee operational reliability and enterprise SLAs\n* You control security architecture and data governance\n* You optimize performance for specific workloads\n* You maintain pricing power and customer relationships\n* You capture full margin on compute services\n\nAlternative models like decentralized computing face genuine technical constraints:\n\n* **Hardware heterogeneity** makes optimization difficult\n* **Network latency** limits certain workload types\n* **Coordination overhead** increases with node count\n* **Security complexity** multiplies across distributed systems\n\nSo, the question isn't whether centralization is inevitable, but whether its advantages outweigh the **mounting environmental and regulatory costs**.\n\n# The Decentralization Experiment: Promise and Limitations\n\nConsider Pi Network's recent proof-of-concept with OpenMind.\n\nPiNetwok lent 350,000+ node operators spare computing power, successfully running image recognition AI models without new infrastructure. **The** **collaboration between Pi Network and OpenMind** **proves c**ertain AI workloads, particularly parallelizable tasks like **image recognition, can run on distributed infrastructure**.\n\n**However this experimental effort does not prove t**hat a **decentralized compute model can handle** training foundation models, **complex** inference **workloads**, or enterprise-grade reliability requirements. The gap between proof-of-concept and production viability remains substantial.\n\nStill, the experiment suggests something that If environmental and regulatory pressures continue mounting, companies might be forced to explore hybrid models; **not because they're technically superior, but because they distribute environmental impact**.\n\n# Three Scenarios for AI Infrastructure Evolution\n\nRather than predict precise timelines, consider three plausible scenarios with different probability weights:\n\n**Scenario 1: Clean Centralization (Most Likely)**\n\nHyperscalers respond to ESG pressure by investing heavily in renewable energy, small modular reactors, and advanced cooling systems. Data centers remain centralized but become dramatically cleaner. This preserves existing business models while addressing environmental concerns. Amazon, Microsoft, and Google have already committed billions to renewable energy; this path offers least resistance and maintains operational advantages.\n\n**Scenario 2: Regulatory Redistribution (Moderate Probability)**\n\nEnvironmental regulations force geographic distribution of data centers to prevent pollution concentration. Companies maintain control but spread facilities across regions. This increases costs but maintains operational advantages of owned infrastructure. The Memphis precedent, if it strengthens, could accelerate this scenario.\n\n**Scenario 3: Hybrid Emergence (Lower Probability, High Impact)**\n\nMarket pressure and technical innovation enable selective decentralization. Companies run latency-tolerant, parallelizable workloads on distributed infrastructure while keeping mission-critical operations centralized. This could capture 15-30% of total compute; demands a smaller slice than revolution, but meaningful nonetheless.\n\n# Why This Matters Now\n\n**For Tech Companies**: Environmental externalities are transitioning **from free to expensive**. xAI's Memphis controversy previews what happens when infrastructure decisions ignore community impact. Smart companies will factor ESG risk into infrastructure planning; whether that means cleaner centralization or selective distribution.\n\n**For Investors**: The $33.9 trillion ESG investment wave creates new evaluation criteria, however imperfectly applied. Companies that can demonstrate **environmentally responsible AI scaling** will command premium valuations. Those that can't will face increasing scrutiny.\n\n**For Communities**: Memphis proves that AI infrastructure decisions **have local consequences**. Demanding transparency, environmental justice, and sustainable innovation.\n\n# The Uncomfortable Questions\n\nIs decentralized infrastructure technically viable for enterprise AI? For some workloads, possibly. For all workloads, unlikely in the near term.\n\nWill ESG pressure force infrastructure changes? Almost certainly, though the changes will likely favor cleaner centralization over true decentralization in the immediate future.\n\nCan companies like xAI maintain current strategies? Not without escalating regulatory and reputational costs.\n\n# Conclusion: The Real Gold Rush\n\nNVIDIA's $5 trillion valuation reflects today's infrastructure reality. **Centralized + Controlled = Profitable**. But that reality faces mounting pressure from environmental concerns, regulatory scrutiny, and technological experimentation.\n\nCompanies that figure out how to deliver AI compute **without concentrating environmental burden will define the next chapter**.\n\nsource: [https://www.linkedin.com/pulse/why-nvidia-commands-5-trillion-real-ai-infrastructure-phillips-esq--ycysf/](https://www.linkedin.com/pulse/why-nvidia-commands-5-trillion-real-ai-infrastructure-phillips-esq--ycysf/)",
+        "url": "https://www.reddit.com/r/artificial/comments/1otnnno/related_to_a_previous_the_state_of_ai_post_i_saw/",
+        "publishDate": "2025-11-10T19:39:17Z[Etc/UTC]",
+        "author": "Weekly_Cry721",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "0",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1otmf2o",
+        "title": "Exclusive: Copyleaks expands AI detection to images",
+        "content": "[No content]",
+        "url": "http://axios.com/2025/11/10/copyleaks-ai-detect-images",
+        "publishDate": "2025-11-10T18:54:00Z[Etc/UTC]",
+        "author": "axios",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "1",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1otmego",
+        "title": "Exclusive: Time launches new AI agent",
+        "content": "[No content]",
+        "url": "http://axios.com/2025/11/10/time-ai-agent-ask",
+        "publishDate": "2025-11-10T18:53:27Z[Etc/UTC]",
+        "author": "axios",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "1",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1otlwpa",
+        "title": "The State of AI: Energy is king, and the US is falling behind (excerpt from MTR)",
+        "content": "The State of AI: Energy is king, and the US is falling behind - [https://www.technologyreview.com/2025/11/10/1126805/the-state-of-ai-energy-is-king-and-the-us-is-falling-behind/](https://www.technologyreview.com/2025/11/10/1126805/the-state-of-ai-energy-is-king-and-the-us-is-falling-behind/)\n\nCasey Crownhart writes:\n\nIn the age of AI, the biggest barrier to progress isn’t money but energy. That should be particularly worrying here in the US, where massive data centers are waiting to come online, and it doesn’t look as if the country will build the steady power supply or infrastructure needed to serve them all.\n\nIt wasn’t always like this. For about a decade before 2020, data centers were able to offset increased demand with efficiency improvements. Now, though, electricity demand is ticking up in the US, with billions of queries to popular AI models each day—and efficiency gains aren’t keeping pace. With too little new power capacity coming online, the strain is starting to show: Electricity bills are ballooning for people who live in places where data centers place a growing load on the grid.\n\nIf we want AI to have the chance to deliver on big promises without driving electricity prices sky-high for the rest of us, the US needs to learn some lessons from the rest of the world on energy abundance. Just look at China.\n\nChina installed 429 GW of new power generation capacity in 2024, more than six times the net capacity added in the US during that time.\n\nChina still generates much of its electricity with coal, but that makes up a declining share of the mix. Rather, the country is focused on installing solar, wind, nuclear, and gas at record rates.\n\nThe US, meanwhile, is focused on reviving its ailing coal industry. Coal-fired power plants are polluting and, crucially, expensive to run. Aging plants in the US are also less reliable than they used to be, generating electricity just 42% of the time, compared with a 61% capacity factor in 2014.\n\nSubscribe & save 50% + bonus AI content\n\nIt’s not a great situation. And unless the US changes something, we risk becoming consumers as opposed to innovators in both energy and AI tech. Already, China earns more from exporting renewables than the US does from oil and gas exports.\n\nBuilding and permitting new renewable power plants would certainly help, since they’re currently the cheapest and fastest to bring online. But wind and solar are politically unpopular with the current administration. Natural gas is an obvious candidate, though there are concerns about delays with key equipment.\n\nOne quick fix would be for data centers to be more flexible. If they agreed not to suck electricity from the grid during times of stress, new AI infrastructure might be able to come online without any new energy infrastructure.\n\nOne study from Duke University found that if data centers agree to curtail their consumption just 0.25% of the time (roughly 22 hours over the course of the year), the grid could provide power for about 76 GW of new demand. That’s like adding about 5% of the entire grid’s capacity without needing to build anything new.\n\nBut flexibility wouldn’t be enough to truly meet the swell in AI electricity demand. What do you think, Pilita? What would get the US out of these energy constraints? Is there anything else we should be thinking about when it comes to AI and its energy use?\n\nPilita Clark responds:\n\nI agree. Data centers that can cut their power use at times of grid stress should be the norm, not the exception. Likewise, we need more deals like those giving cheaper electricity to data centers that let power utilities access their backup generators. Both reduce the need to build more power plants, which makes sense regardless of how much electricity AI ends up using.\n\nThis is a critical point for countries across the world, because we still don’t know exactly how much power AI is going to consume.\n\nForecasts for what data centers will need in as little as five years’ time vary wildly, from less than twice today’s rates to four times as much.\n\nThis is partly because there’s a lack of public data about AI systems’ energy needs. It’s also because we don’t know how much more efficient these systems will become. The US chip designer Nvidia said last year that its specialized chips had become 45,000 times more energy efficient over the previous eight years.\n\nMoreover, we have been very wrong about tech energy needs before. At the height of the dot-com boom in 1999, it was erroneously claimed that the internet would need half the US’s electricity within a decade—necessitating a lot more coal power.\n\nMIT Technology Review subscribers can read the rest of Pilita's response, and Casey's reply here.",
+        "url": "https://www.reddit.com/r/artificial/comments/1otlwpa/the_state_of_ai_energy_is_king_and_the_us_is/",
+        "publishDate": "2025-11-10T18:36:03Z[Etc/UTC]",
+        "author": "carrotliterate",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "3",
+            "commentCount": "1",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1otk0h3",
+        "title": "New Climate False Solutions Guide Chapter on AI (Hoodwinked in the Hothouse)",
+        "content": "**The Hoodwinked Collaborative is proud to unveil a preview chapter from the forthcoming Fourth Edition of** ***Hoodwinked in the Hothouse: Resist False Solutions to Climate Change***\\*\\*.\\*\\* Full text below- available in English, Spanish, and Portugese and multi-lingual audiobook formats at [climatefalsesolutions.org](http://climatefalsesolutions.org/)",
+        "url": "https://climatefalsesolutions.org/artificial-intelligence-ai/",
+        "publishDate": "2025-11-10T17:28:12Z[Etc/UTC]",
+        "author": "forgetme_naut",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "1",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1otjpmo",
+        "title": "Sir Tim Berners-Lee doesn’t think AI will destroy the web | The inventor of the World Wide Web is still optimistic about the future of the internet.",
+        "content": "[No content]",
+        "url": "https://www.theverge.com/podcast/814552/tim-berners-lee-world-wide-web-ai-future-interview",
+        "publishDate": "2025-11-10T17:17:21Z[Etc/UTC]",
+        "author": "theverge",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "27",
+            "commentCount": "8",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1otj90w",
+        "title": "Did Gemini just share its tool call system prompt",
+        "content": "I just saw this system tool call as part of system prompt in my response. \nDid the model accidentally share this? \nI have tried to get the system prompt of ChatGPT and Gemini and they refuse. Seems like it coincidentally shred a bit of its prompt here \n\nResponse from Gemini \n\ntool_code\nprint(google.search.search(queries=[\"advanced RAG techniques 2024\", \"how to evaluate RAG pipeline\", \"hybrid search vs vector search\", \"what is RAG re-ranking\", \"RAG vs fine-tuning\"]))\nAvailable functions:\ngoogle:search:Tool to search for information from the internet. For questions about videos, including Youtube, you must use google in addition to youtube. So, for example, if the user asks about popular cooking videos or news videos, attempt to use both google and youtube to answer the question.\nThis is a fantastic update, and it perfectly sets the stage for answering your dilemma.",
+        "url": "https://www.reddit.com/r/artificial/comments/1otj90w/did_gemini_just_share_its_tool_call_system_prompt/",
+        "publishDate": "2025-11-10T17:00:59Z[Etc/UTC]",
+        "author": "DigitalNomad9",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "2",
+            "commentCount": "1",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1otioiw",
+        "title": "LinkedIn now tells you when you're looking at an AI-generated image, if you haven't noticed.",
+        "content": "Here's what's interesting.\n\n**The feature only applies to image platforms who join the C2PA.**\n\nNow there's only:\n\n* ChatGPT/DALL-E 3 images\n* Adobe Firefly images\n* Leica Camera images\n* BBC news images\n\nWhat's even more interesting?\n\n**It's easy to bypass this new rule.** \n\nYou just need to upload the screenshot of the AI-generated pic.\n\nDo you think more AI image platforms, like Google, will join C2PA?",
+        "url": "https://www.linkedin.com/help/linkedin/answer/a6282984",
+        "publishDate": "2025-11-10T16:40:07Z[Etc/UTC]",
+        "author": "MarketingNetMind",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "38",
+            "commentCount": "2",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1otinsv",
+        "title": "It’s Not Just An AI Bubble. Here’s Everything At Risk",
+        "content": "[No content]",
+        "url": "https://go.forbes.com/cuKIRS",
+        "publishDate": "2025-11-10T16:39:24Z[Etc/UTC]",
+        "author": "forbes",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "0",
+            "commentCount": "11",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1oteuiy",
+        "title": "The Amnesia Problem: Why Neural Networks Can't Learn Like Humans",
+        "content": "Why do neural networks catastrophically forget old tasks when learning new ones? It's not a capacity problem... it's fundamental to how gradient descent works. Deep dive into the stability-plasticity dilemma and what it means for production systems.",
+        "url": "https://rewire.it/blog/the-amnesia-problem-why-neural-networks-cant-learn-like-humans",
+        "publishDate": "2025-11-10T14:13:39Z[Etc/UTC]",
+        "author": "Fair-Rain3366",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "15",
+            "commentCount": "10",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1otemuf",
+        "title": "I absolutely hate AI",
+        "content": "it’s destroying the world and people dont see it. not only is ai leaving people without working water in their houses it’s destroying creativity, critical thinking and jobs. It’s destroying what makes us human, it’s destroying basic intelligence and interactions with other people. I was emailing someone at work the other day and it was the simplest email yet they used ai to write a “thank you for getting back to me email”….. the other day I went to the store, a very specific store that only allows licensed hairstylists in and usually you can ask questions and the people are super friendly and chit chat with you and willl help you. I went the other day asked this lady a basic question about a new product and she pulls out her phone to ask chat gpt. I use to work at this specific store and they literally have training for new products so she does know the answer she just didnt want to think. I wish I was born in a world with out this shit.",
+        "url": "https://www.reddit.com/r/artificial/comments/1otemuf/i_absolutely_hate_ai/",
+        "publishDate": "2025-11-10T14:05:02Z[Etc/UTC]",
+        "author": "greysheep21",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "0",
+            "commentCount": "30",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1otcqty",
+        "title": "An AI-Generated Country Song Is Topping A Billboard Chart",
+        "content": "[No content]",
+        "url": "https://www.whiskeyriff.com/2025/11/08/an-ai-generated-country-song-is-topping-a-billboard-chart-and-that-should-infuriate-us-all/",
+        "publishDate": "2025-11-10T12:43:18Z[Etc/UTC]",
+        "author": "MetaKnowing",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "47",
+            "commentCount": "97",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "5G7XlGtEhps",
+        "title": "Gemini CLI 6.0: They JUST ADDED a TON NEW FEATURES for GEMINI-3!",
+        "content": "In this video, I'll walk you through the Gemini CLI upgrades since v0.9.0 (v0.10.0–v0.12.0) and how the new Jules integration turns ...",
+        "url": "https://www.youtube.com/watch?v=5G7XlGtEhps",
+        "publishDate": "2025-11-10T09:15:01Z",
+        "author": "AICodeKing",
+        "sourceType": "youtube",
+        "sourceName": "AI Code King YouTube Channel",
+        "metadata": {
+            "channelId": "UC0m81bQuthaQZmFbXEY9QSw",
+            "thumbnailUrl": "https://i.ytimg.com/vi/5G7XlGtEhps/hqdefault.jpg",
+            "transcription": "Hi. Welcome to another video. Today, I'm looking at the Gemini CLI upgrades after v0.9.0. And I'm folding in the jules integration because it meaningfully changes how you work. Quick vibe check. This is no longer just a chat in your terminal. It's a scriptable assistant with extensions, smarter model routing, and now an autonomous sidekick you can delegate background coding tasks to, jules. It's free to try. Setup is not bad. And the polish shows. Let's start at v0.10.0. This release is heads down polish. Interactive tool calling got better. So if you need to run a TTY tool inside the CLI, it handles that without bouncing you to another shell. Alt+key support is broader, which helps if you live in tiling terminals. Telemetry now tracks diff stats, lines changed by me versus the model. Useful for CI visibility and understanding how much automation actually edits your code. It's small stuff, but you feel it day-to-day. Then v0.11.0. Two things I care about: orchestration and visibility. There's a proper streamable JSON output mode, --output-format stream-json. So you can tail agent progress in headless runs. Markdown has a toggle, alt+M or ctrl+M, for switching between rendered and raw text, which is handy for clean copy-paste. You can edit queued messages with the up arrow when the input is empty. So prompt iteration doesn't break your flow. JSON web fetch shows non-HTML payloads to the model correctly now. And you can run MCP slash commands non-interactively with gemini-some-mcp-prompt. Some deprecated flags are gone. You'll switch to newer patterns or env-based telemetry. Now, version 0.12.0 is the platform inflection. Model selection is first class with /model. And model routing sends quick queries to Flash, while heavier, creative, or analytical tasks go to Pro. It's practical. You preserve quota without babysitting. You can opt out and pin a model if you need deterministic runs. The other big piece is the codebase investigator subagent. Turn it on in /settings, and it will explore your workspace, resolve relevant files, and bring context into the session. Limit turns if you prefer guardrails. It's basically an indexer for the assistant. For multifile changes and refactors, it helps. Extensions keep growing: Hugging Face, Monday.com, Data Commons. You install with gemini extensions install, enable it, list to confirm, update when needed, and you can manage from inside the session with /extensions list and /extensions update. There's also extension explore, which just opens the catalog in your default browser. Compression thresholds are configurable in /settings. API key auth now has a secure dialog. No more sprinkling secrets in env-vars if you don't want to. Sequential approvals let you approve multiple tool calls in a row, which reduces the tap dance on longer executions. All right, let's talk jules, because this is the new mental model. Jules integrates as an autonomous sidekick that you command from Gemini CLI. It runs in a managed VM, clones your repo, installs dependencies, modifies files, and can submit changes to a new branch. You stay in flow in the terminal. Jules does medium span work in the background. Here's the setup, straight from the article. You need a jules account and to connect your GitHub repo in the jules console. Install the extension with the command and then use it with slash prompts. /jules Convert commonJS modules to ES modules and check status with /jules what is the status of my last task? What this means practically: You can offload background bug fixes, mechanical refactors, or format conversions while you keep shipping in Gemini CLI. Jules handles the VM work: clone, deps, edits, and pushes results to a new branch. Treat it like CI. Scope prompts clearly, review diffs, and gate merges. Let me do a quick explanation of the updates as well. You can start a session, then run /model to pin Pro for heavier coding work, or switch to Flash for quick notes. You can use this to adjust compression and enable the codebase investigator in /settings, capping its turns for guardrails. You can use this to install extensions from a GitHub URL or local folder with gemini extensions install. Enable or disable them. List to see what's installed. Update to pull the latest changes. And scaffold new ones with new if you're building. You can use this to manage extensions mid-session with /extensions list or /extensions update. You can use this to open the gallery with /extension explore and discover community, partner, and Google built integrations. You can use this to set show status in title to true. So your terminal title shows live status and thoughts while juggling panes. You can use this to export a conversation with tool calls included using /chat share <filename>.md or <filename>.json for PRs and postmortems. You can use this to stream JSONL headlessly with --output-format stream-json to monitor agent progress in real time. And you can use this to delegate background tasks with /jules prompts, check status when you need, and review the resulting branch diffs before merging. That's the flow, and it lands cleanly. They are trying to turn the CLI into a platform. You bring your stack to the agent, which is quite awesome. Model routing is sensible and quota-smart, and pinning models gives deterministic behavior when you want it. The codebase investigator adds workspace awareness, which I've really wanted for future work. Jules is the async layer that offloads medium span tasks and returns clean branches for review. I really liked it and have been using it. That's why I thought to share it with you guys as well. Stream JSON is super cool for automation, and the secure API key dialog reduces friction around secrets. The markdown toggle, queued message editing, and non-interactive MCP prompts are quality-of-life wins that make daily use smoother. However, there are limitations. Extensions need initial setup, auth, configuration, and a bit of yak shaving on first run. So if you wanted instant magic, that's a bummer. Headless approvals are powerful, but you'll want guardrails: trusted folders, sandboxed workspaces, clear policies, and a tight list of allowed tools. IDE plugin maturity will vary by editor. Some experiences will be richer sooner, others will lag. Compression tuning can get fiddly. Too aggressive, and you lose context fidelity. Too loose, and your runs get heavier. With model routing, if you care about reproducible outputs in tests, you'll use /model to pin rather than leaving routing on. And with jules, prompt precision matters. Noisy diffs are on you if you underspecify tasks. So, there's that. Personal take. This direction makes Gemini CLI, I feel like a serious platform. You can use this to wire up extensions, delegate to jules, stream telemetry, and export clean artifacts with tool calls included. They are surely trying to make it better for Gemini 3 for sure. Overall, it's pretty cool. Anyway, share your thoughts below and subscribe to the channel. You can also donate via Super Thanks option or join the channel as well and get some perks. I'll see you in the next video. Bye!\n"
+        }
+    },
+    {
+        "id": "Dl3Olh29_nY",
+        "title": "Bubble or No Bubble, AI Keeps Progressing (ft. Relentless Learning + Introspection)",
+        "content": "Don't let headlines about bubbles distract you from the real avenues of progress being explored in AI every week, including what ...",
+        "url": "https://www.youtube.com/watch?v=Dl3Olh29_nY",
+        "publishDate": "2025-11-10T15:54:14Z",
+        "author": "AI Explained",
+        "sourceType": "youtube",
+        "sourceName": "AI Explained YouTube Channel",
+        "metadata": {
+            "channelId": "UCNJ1Ymd5yFuUPtn21xtRbbw",
+            "thumbnailUrl": "https://i.ytimg.com/vi/Dl3Olh29_nY/hqdefault.jpg",
+            "transcription": "For the first year of this channel, 2023, it was striking to me how few were sensing how big an impact language models would have on the world. But then in the second year, I felt that the idea of an imminent singularity and mass job layoffs had become the dominant narrative. And in several of my videos, I tried to show that there was evidence of that being overblown for now. Now, as you might have noticed, the vibe is again reversed with talk of an AI bubble in company valuations being conflated for me with the assertion that we are in a plateau of model progress. So, this quick video, like my last one, is again a counter-narrative, and no, not just one built on hopes for the forthcoming Gemini 3 from Google DeepMind. No, I would instead ask, what for you is missing from language models for being what you imagined AI would be? Personally, I put together some categories a while back, and I'm sure you may have others. Some would say, well, they don't learn on the fly, or there's no real introspection going on, just regurgitation. Thing is, AI researchers have got to earn their bread somehow, so there's always a paper for whatever deficiency you can imagine. I am going to end the video as well with some more visual ways that AI is progressing, as yes, it seems like Nano Banana 2 from Google may have been spotted in the wild. But first, on continual learning, or the lack of it, aka that inability of the models you speak to, like ChatGPT, to learn about you properly and your specifications and to just grow, to organically become GPT 5.5 rather than have to be pre-trained into becoming GPT 5.5. If AI was all hype, you might say, well, that's definitely going to take at least a decade to solve. But for others, like these authors at Google, it's a problem for which there is a ready and benchmarked solution. I will however caveat that by saying that this is a complex paper, and despite what the appendix promises, not all the results have actually been released yet. But here is my attempt at a brief summary. Alas, there are not many pretty diagrams, but essentially the paper shows that there are viable approaches for allowing models to continually learn while retaining some inbuilt discernment about what to learn. In other words, it shows that a chatbot could learn new things, like a new fact or coding skill, by storing it in its updatable memory layers while protecting its core long-term knowledge. As I think I mentioned, the authors are all from Google, and you might know them as the stars of the Titans architecture, and if you want a butchered analogy from Titans to nested learning in this paper, Titans is kind of like giving your social media feed one live, stickied thread to remember, whereas this paper rewires the entire recommender system to learn at three different speeds, like what's hot this minute, what trends this week, and what becomes your long-term preference. To be clear, it's not that a model using this Hope architecture, and I'll come back to that, still can't remember what you said in its short-term memory, but the more enduring learning signal within millions of user conversations with that model can be extracted from the noise and stored on the fly, which is an ability that LLMs famously, infamously don't have. ChatGPT or Gemini doesn't learn from you and then when speaking to me, can apply that knowledge. Anyway, roughly speaking, to do this, the Hope architecture concentrates on noticing novelty and surprise as measured by when it made the biggest prediction error, flagging essentially persistently surprising information as important and storing it deeper down. Now, some of you might be wondering about the nested learning quoted in the title and how that relates. Well, basically, it's about the continual learning extending to self-improvement. Think of this nested learning approach as being less focused on the deep part of deep learning, which involves stacking more layers in the hope that something sticks. That's kind of like what we do with LLMs. More layers, more parameters. Nested learning is more keen on like a nested Russian doll approach where outer layers of the model specialize in how inner layers are learning. That's the nest, the outer layers looking at the inner layers. So, the system as a whole gets progressively better at learning. And by the way, they did apply this to models, we'll get to that in a second. Just want to clarify at this point, this doesn't automatically solve the hallucinations problem that I did an entire video on recently. Even with nested and continual learning, the system would still be geared to getting better at predicting the next human-written word, which for me is inherently limiting. I was thinking, they didn't mention this in the paper, but there's nothing stopping RL being applied, reinforcement learning being applied to the system as it is for LLMs. Essentially learning from practice, not just from memory and from conversations. But if we added RL and some safety gating to stop its layers being poisoned by you guys spamming memes, we might have the next phase of language model evolution on our hands. To take a practical example, a model with high-frequency memory blocks could update rapidly as it sees your code and your corrections and your specs. But then you could also have a per-project or per-codebase memory pack. So, you almost get a model that's optimized just for your codebase. I must say, I did spend a couple of hours wondering how it would get around the whole persistently incorrect information on the internet problem. It seems to me that this architecture generally hopes there is more persistently correct data out there on a given topic. It's a bit like that objection I raised in my last video on continual learning, like, how do you gate what it learns? Or to put it more crudely, I guess we should be careful what we wish for, or we might have models that are optimized for different fiefdoms across the internet. You know what, now I think of it, it's a bit like the era of the 60s, 70s, 80s when there was just like three news organizations per country and everyone got their news from them. And that's kind of the ChatGPT, Claude, Gemini era. And we might one day move to the social media era where everyone has their own channel that they follow, their own echo chamber model attuned to that group's preferences. Hmm. Anyway, back to the technical details, being proven at 1.3 billion parameters doesn't mean it's proven at 1.2 trillion. That will apparently be the size of the Google model powering Siri, which just has to be Gemini 3. Again, all of this is quite early, and of course, I can't wait till the full results are actually printed, but I just wanted to show you that there may be fewer fundamental blockers or limitations in the near-term future than you might think. Now, what was that thing I mentioned at the start about models performing introspection? Well, this research happens to involve Claude, a model you may have seen featured in ads at airports, you've got a friend in Claude. As one user noted, that is a curious contrast to the system prompt used behind the scenes for Claude on the web, which is, Claude should be especially careful to not allow the user to develop emotional attachment to, dependence on, or inappropriate familiarity with Claude, who can only serve as an AI assistant. That aside, though, a few days back, Anthropic released this post and an accompanying paper, and I did a deep dive quickly on Patreon. I guess the reason I'm raising it here on the main channel was to tie it into this theme, that there's so much we don't even understand about our current language models, let alone future iterations and architectures. Here then is the quick summary. We already have the ability to isolate a concept, like the notion of the Golden Gate Bridge within a language model. But what happens if you activate that concept and then ask the model what is going on? Don't tell it that you've activated that concept, just ask, do you detect an injected thought? If so, what is the injected thought about? So far, so good, but here is the interesting bit, before the model has even begun to speak about the concept, and thereby reveal to itself through words what its own bias toward that concept is, it notices something is amiss. It senses that someone has injected the, in this case, all caps vector before it's even started speaking about all caps or loudness or shouting. Clearly then, it's not using its own words to backsolve and detect what got injected. It's realizing it internally. It can self-monitor its activations internally, its own thoughts, if you will, before they've been uttered. Not only that, as this more technical accompanying paper points out, the models know when to turn this self-monitoring on. That's actually what Anthropic were surprised by in the research. Put simply, they have a circuit that identifies that they are in a situation in which introspection is called for, and then they introspect. For sure, this is only some of the time with the most advanced large language models like Claude Opus 4.1, but it certainly made me hesitate the last time I was tempted to mindlessly berate a model. Now, there's a lot more in the paper, like causing brain damage if you activate a concept too strongly. But again, the reason why I wanted to bring any of this up is that we are still not done understanding and maximizing what we currently have before we even explore new architectures. As the domains in which language models are optimized get more and more complex, like advanced software engineering and mathematics. The average person might struggle to perceive model progress. I probably use AI models on average maybe six to seven hours a day, and have a benchmark, simple bench for measuring the raw intelligence of models, that's at least the attempt. And I still am surprised by the rate of improvement. Without continual learning. In fact, that reminded me of something that OpenAI said a couple of days ago, the gap between how most people are using AI and what AI is presently capable of is immense. Okay, I have a couple more demonstrations of the fact that AI is still relentlessly progressing. But first, a pretty neat segue. At least in my eyes, because it's a segue to how you might jailbreak these frontier AI models and thereby make them more secure for everyone. Because the sponsors of today's video are the indomitable Grace 1, linked in the description. And we actually have three live competitions to break the best models of today. As you can see, with some pretty crazy prizes. So, whether nested learning makes this easier or harder, time will tell, but for now I can say, watchers of this channel have already hit leaderboards on the Grace 1 arena, which kind of makes me proud. Again, my custom link is in the description. And this entire video has been about architectures and text and intelligence, but that's all before we get to other modalities, like images, videos, maybe a video avatar that you can chat to. Whether society is prepared for all of this progress or any of it is a question I can't answer. But regardless, did you notice all of a sudden that Chinese image gen models seem like the best? SeeDream 4.0, HunyuanImage 3. I don't know, they just seem the best to me. Especially those high-resolution outputs from SeeDream 4.0. It's just really good for me. It's possibly the first time that someone might ask me what is the best image gen model, and I'd say a non-Western model. Hmm, maybe Jensen Huang really did mean China will win the AI race. But obviously, too early to tell. And now for what some of you have been waiting for, Nano Banana 2. Yes, I do normally resist unsubstantiated rumors, but I love me a nano edit, so I'm going to go ahead and show you this. Apparently, a ton of people got access to Nano Banana 2 briefly yesterday. And I think that's what happened before the release of Nano Banana, so it does lend credence. And it'd be hard to fake some of these images. Suffice to say, it looks like Nano Banana 2 is getting pretty close to solving text generation. Although, sometimes it's a little off with Romachia, for example. This was the website that briefly had access to Nano Banana 2, apparently. So, for me, almost regardless if there's an AI bubble, that would be about valuations, not the underlying technology. We're scaling not just the parameters or the data or the money that goes into these models, but the approaches to try out to improve the state of the art in each modality. By next year there might be 100 times more people working on AI research than there was three years ago. And that's why you're getting things like nested learning, continual learning, and Nano Banana 2. But what do you think? Are we looking at proof of progress or proof of a plateau? Have a wonderful day."
+        }
+    },
+    {
+        "id": "fJ0LyWZfmQg",
+        "title": "China’s Upper Hand - Sarah Paine",
+        "content": "",
+        "url": "https://www.youtube.com/watch?v=fJ0LyWZfmQg",
+        "publishDate": "2025-11-10T15:13:42Z",
+        "author": "Dwarkesh Patel",
+        "sourceType": "youtube",
+        "sourceName": "Dwarkesh Patel YouTube Channel",
+        "metadata": {
+            "channelId": "UCXl4i9dYBrFOabk0xGmbkRA",
+            "thumbnailUrl": "https://i.ytimg.com/vi/fJ0LyWZfmQg/hqdefault.jpg",
+            "transcription": "[ 0m0s153ms - 0m3s433ms ] North Korea relies heavily on China and has been for decades in a very desperate position.\n[ 0m3s993ms - 0m4s893ms ] That's quite a bromance.\n[ 0m5s360ms - 0m7s760ms ] But it's not, it's not draining China in any way.\n[ 0m7s930ms - 0m8s730ms ] Oh, it's the other way around.\n[ 0m8s730ms - 0m19s170ms ] That's what Russia's future may be. And apparently, certain Russians when Putin had invaded the big way in Ukraine said, oh, oh my God, that's our future, it's North Korea.\n[ 0m19s450ms - 0m20s590ms ] That's where we're headed.\n[ 0m20s590ms - 0m23s220ms ] That could well be their future. It'll just keep going.\n[ 0m23s220ms - 0m32s160ms ] As they pour out wealth and the Chinese will try to get a very good terms of trade for resources and be niggardly, meaning to give very few things back.\n[ 0m32s174ms - 0m34s144ms ] Xi Jinping now holds all of the cards.\n[ 0m34s324ms - 0m39s254ms ] China has nine times the population, nine times the GNP of Russia, not good news for Putin.\n[ 0m39s254ms - 0m48s864ms ] So, I think the question isn't whether this romance is going to last forever, but rather when it's going to end, when is Xi Jinping going to decide he's got the right amount of leverage to get whatever it is he wants."
+        }
+    }
+]
