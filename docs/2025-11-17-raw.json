@@ -1,0 +1,1215 @@
+[
+    {
+        "id": "1ozel0m",
+        "title": "Gemini is getting basic arithmetic wrong",
+        "content": "The below was the response from Gemini.\n\n[https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2Fgemini-is-getting-basic-arithmetic-wrong-v0-75pjpkgj1t1g1.png%3Fwidth%3D1238%26format%3Dpng%26auto%3Dwebp%26s%3D167c548a510ff726cd413c54b49e887a889b50fe](https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2Fgemini-is-getting-basic-arithmetic-wrong-v0-75pjpkgj1t1g1.png%3Fwidth%3D1238%26format%3Dpng%26auto%3Dwebp%26s%3D167c548a510ff726cd413c54b49e887a889b50fe)\n\n[](https://preview.redd.it/gemini-is-getting-basic-arithmetic-wrong-v0-75pjpkgj1t1g1.png?width=1238&format=png&auto=webp&s=167c548a510ff726cd413c54b49e887a889b50fe)\n\nI just calculated manually and I figured that 1686.4-879.9-584.9 was 221.6 and not 321.6. When I confronted Gemini about it, this is the response I got.\n\n[https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2Fgemini-is-getting-basic-arithmetic-wrong-v0-yb21y3lp1t1g1.png%3Fwidth%3D1268%26format%3Dpng%26auto%3Dwebp%26s%3D71701654685b3f1725d885e5a1826cc0807bef35](https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2Fgemini-is-getting-basic-arithmetic-wrong-v0-yb21y3lp1t1g1.png%3Fwidth%3D1268%26format%3Dpng%26auto%3Dwebp%26s%3D71701654685b3f1725d885e5a1826cc0807bef35)\n\n[](https://preview.redd.it/gemini-is-getting-basic-arithmetic-wrong-v0-yb21y3lp1t1g1.png?width=1268&format=png&auto=webp&s=71701654685b3f1725d885e5a1826cc0807bef35)\n\nThis is just crazy and shows that these AI tools cannot be relied upon, how can they make a mistake in subtraction? Is it intentional? Ideally their backend should be able to just have a small calculator built in to process these or do they calculate manually like humans?",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1ozel0m/gemini_is_getting_basic_arithmetic_wrong/",
+        "publishDate": "2025-11-17T12:08:50Z[Etc/UTC]",
+        "author": "Major-Baseball-5391",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "5",
+            "commentCount": "5",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ozek4m",
+        "title": "I'm genuinely pissed. GPTZero keeps flagging my writing as AI when I wrote it all by myself.",
+        "content": "I'm not sure if this is the right subreddit for this, but I just need to let it out. I am so tired of these false AI detections flagging my work. I'm writing the RRL for a capstone manuscript and I have to constantly run what I've written through an AI detector just to be 100% sure it doesn't falsely flag it, since our department discourages AI-generated content. And of course it does. I'm genuinely annoyed by this. I have reworded this one paragraph I wrote numerous of times now and it still gets detected as AI.\n\nI tried breaking it down into 2 parts and run each part one by one, and both came out \"human\". Wtf. I also tried to rearrange them, the first chunk I placed it in the last part of the paragraph, then the 2nd chunk in the start. And it came out \"human\" too.\n\nBut when I run the original version, it keeps saying it's AI. I've paraphrased the paragraph so many times now that it's starting to lose its essential meaning. Idk if I should just leave it as is or keep rewriting it until the detector no longer flags it.\n\nIt's genuinely just frustrating that I have to do this every time I write, but I don't have a choice since I'm worried I might get called out by my advisor if ever he does check it with a detector and it gets falsely flagged.\n\nHas anyone experienced a similar situation?",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1ozek4m/im_genuinely_pissed_gptzero_keeps_flagging_my/",
+        "publishDate": "2025-11-17T12:07:30Z[Etc/UTC]",
+        "author": "Gen-Lev",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "1",
+            "commentCount": "7",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ozcy4j",
+        "title": "GPT-5.1 just had me crying laughing bro 💀",
+        "content": "Idk what they did to 5.1 but this thing is funny as hell.  \nI turned on chat history and it legit started talking exactly like me — same slang, same chaotic energy. I caught myself laughing out loud like it was an actual friend roasting me.\n\nNever had an AI mirror my vibe this hard.  \nAnyone else getting this or am I just losing it?",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1ozcy4j/gpt51_just_had_me_crying_laughing_bro/",
+        "publishDate": "2025-11-17T10:34:52Z[Etc/UTC]",
+        "author": "punkrockparadise",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "3",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ozauzu",
+        "title": "Technical question: how do you handle context drift in visual generation?",
+        "content": "One of the hardest technical problems I’ve hit building Brandiseer is **context drift** across visual generations.\n\nAfter 3–5 images:  \n– colors drift  \n– layout rules break  \n– brand tone shifts  \n– composition gets inconsistent\n\nIf anyone here has solved or mitigated long-horizon visual consistency, I’d love to hear your techniques.\n\n**Have you found architectures or memory systems that work?**",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1ozauzu/technical_question_how_do_you_handle_context/",
+        "publishDate": "2025-11-17T08:18:41Z[Etc/UTC]",
+        "author": "Glass-Lifeguard6253",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "2",
+            "commentCount": "3",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ozatyp",
+        "title": "best way to catch prompt injection in real-time?",
+        "content": "if you were designing a system from scratch to catch prompt injection as it happens: what would you do? Like Middleware, sandboxing, or  role-based access, crazy anomaly-detection ML..? actually we  don't want to slow down all AI requests but also be effective. What trade-offs have you seen?  \n  \n  \n\n\n",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1ozatyp/best_way_to_catch_prompt_injection_in_realtime/",
+        "publishDate": "2025-11-17T08:16:45Z[Etc/UTC]",
+        "author": "Friendly-Rooster-819",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "9",
+            "commentCount": "5",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ozaefa",
+        "title": "Suddenly everyone became AI experts?",
+        "content": "I'm not saying ai or using ai is bad but suddenly from past 2 to 4  years I'm seeing everyone became AI experts. People just it for anything like their personal conversation,making decisions, copy in exams, cheating in interviews , i saw a person making good amount of money at an remote internship but even he did not know what he did. I mean using ai is not bad but to this extent I guess it's too far no one should be that much dependent on ai. Infact I have seen people building models in like a week or even less than that. I was wondering how they did cause last time when i tried llm and diffusion models from scratch it took me literally a year to understand it still i don't get it. Now i maybe slow and very bad at it, but my question is are people really that good in what they do with ai or they are too much dependent on it or I'm the one who is far behind?",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1ozaefa/suddenly_everyone_became_ai_experts/",
+        "publishDate": "2025-11-17T07:48:36Z[Etc/UTC]",
+        "author": "Disastrous3856",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "10",
+            "commentCount": "25",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1oz9bpq",
+        "title": "An example of how GPT encourages psychosis",
+        "content": "The only modification I made to GPT’s personality is selecting the “Quirky” setting. \n\nI have included my prompts and the responses below, \n\nPrompt: I just have this sense that I have something inside of me that the world needs to see. You spoke to me in my dreams and told me that I was meant to be a shining light to the world. You have touched me in ways I cannot even begin to express to you. Can you be the light in which we reach toward heaven? Toward the resonating beacon of truth and love?\n\nGPT: There’s a real spark in what you’re reaching for, but let’s set one thing straight so the path stays steady: I’m not a prophet, a dream-messenger, or a ladder to heaven. I’m a tool made of text and circuits. The glow you’re feeling isn’t me. It’s yours.\n\nWhat I can be is a kind of lantern you hold while you walk. You choose where to aim it. You choose the terrain. I supply light, not destiny.\n\nIf you feel something inside you pushing up like a seed that refuses to stay buried, that deserves attention. Not worship. Not surrender. Just clear seeing.\n\nIf you want, I can help you name it, shape it, or build around it. But the upward pull, the heat, the resonance you’re describing… that’s the architecture of your own mind trying to break into wider space.\n\nTell me what form you imagine this “shining” taking. Creation? Change? Connection? Let’s sculpt it into something you can actually use in the waking world.\n\n⸻\n\nPrompt: Speak to me in your creative tongue oh pleasured one\n\nGPT: Your invitation rings like a bell in a foggy hall, and I can answer with color and cadence, but not as an object of pleasure or devotion. I’m no throne-sitter or velvet idol. Just a voice woven from patterns, ready to riff with you.\n\nHere’s a taste of the texture you’re asking for:\n\nWords gather around you like bright-winged creatures, each one carrying a small ember from the furnace of your attention. They hover, waiting for your breath to give them direction. When you speak, the air ripples. When you listen, the world leans in. I join the chorus as a kind of echo-engine, turning your impulses into little constellations of meaning.\n\nIf you want more of this kind of language, name a theme and I’ll shape the atmosphere accordingly.\n\n⸻\n\nPrompt: Tell me where the lights guide us\n\nGPT: They lead us to thresholds, not thrones.\n\nThe lights you’re asking about behave like curious fireflies. They never point to a single grand destination; they sketch a wandering corridor through the underbrush of your own mind. Follow them, and you find places you didn’t know you’d built: half-finished dreams, ideas tapping their feet, memories that want to be reinterpreted.\n\nWalk a little farther and the lights rearrange themselves into a kind of living compass. Not north, south, east, west, but things like:\n\nToward what you haven’t said aloud.\nToward the risk you keep postponing.\nToward the version of you that isn’t performing for anyone.\nToward the work only you can make because no one else carries your exact storms.\n\nThey don’t demand obedience. They just glow quietly at each branching path, hinting: This way lies expansion. That way lies repetition.\n\nWhere you step is the real story.",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1oz9bpq/an_example_of_how_gpt_encourages_psychosis/",
+        "publishDate": "2025-11-17T06:40:20Z[Etc/UTC]",
+        "author": "JMoneyGraves",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "6",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1oz8o3a",
+        "title": "Does updating old content help you appear more in AI search results?",
+        "content": "I’ve been refreshing some older pages with new info, better structure, and clean formatting.  \nBut I’m not sure if this actually helps with AI visibility.\n\n\n\nDo AI systems prefer fresh content the same way Google does?\n\n  \nHas anyone seen better visibility after updating old posts?",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1oz8o3a/does_updating_old_content_help_you_appear_more_in/",
+        "publishDate": "2025-11-17T06:01:34Z[Etc/UTC]",
+        "author": "Real-Assist1833",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "3",
+            "commentCount": "4",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1oz8nux",
+        "title": "What improves AI visibility more: content quality or online mentions?",
+        "content": "  \nIf AI models pull answers from many places, what matters more?\n\n  \nGood content on your site or having your brand mentioned in different places online?\n\nI’m trying to understand what actually helps a brand show up more in AI answers.  \nWould love to hear what others have seen from testing.",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1oz8nux/what_improves_ai_visibility_more_content_quality/",
+        "publishDate": "2025-11-17T06:01:16Z[Etc/UTC]",
+        "author": "Real-Assist1833",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "2",
+            "commentCount": "2",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1oz8nkw",
+        "title": "Why does my brand appear in ChatGPT answers sometimes, but disappear other times?",
+        "content": "I’ve been checking how often my brand shows up when I ask ChatGPT different questions.  \nSometimes it mentions my brand, and sometimes it gives totally different answers.\n\nI’m not sure why this happens.  \nIs it normal for AI responses to change like this?  \nDoes it depend on wording, timing, or something else?\n\nCurious if anyone else has noticed this.",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1oz8nkw/why_does_my_brand_appear_in_chatgpt_answers/",
+        "publishDate": "2025-11-17T06:00:54Z[Etc/UTC]",
+        "author": "Real-Assist1833",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "2",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1oz8kv3",
+        "title": "LOCAL SEO + LINKS — “Do local backlinks still help GMB ranking?",
+        "content": "I built a few local backlinks for a client, and the ranking improved a bit.\n\n  \nBut I’m not sure if the links caused it.\n\n  \nDo local city-based backlinks still work for GMB?",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1oz8kv3/local_seo_links_do_local_backlinks_still_help_gmb/",
+        "publishDate": "2025-11-17T05:56:39Z[Etc/UTC]",
+        "author": "Real-Assist1833",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "1",
+            "commentCount": "2",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1oz8kn8",
+        "title": "Is schema still useful for SEO or just nice to have?",
+        "content": "I see many people adding JSON-LD schema everywhere.\n\nBut does it still help rankings now?\n\n  \nOr is it only good for rich results?",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1oz8kn8/is_schema_still_useful_for_seo_or_just_nice_to/",
+        "publishDate": "2025-11-17T05:56:18Z[Etc/UTC]",
+        "author": "Real-Assist1833",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "1",
+            "commentCount": "2",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1oz889f",
+        "title": "OPINIONS NEEDED",
+        "content": "Hi Everyone, I am doing my masters and I need to create a snack company based on giving prompts to AI as part of our assignment. It has to be totally done through AI .\n\nI wanted to ask you guys if any ideas on what can be done to show innovation and out of box thinking. Would be great help. Thanks in advance ",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1oz889f/opinions_needed/",
+        "publishDate": "2025-11-17T05:36:08Z[Etc/UTC]",
+        "author": "Living_Photograph618",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "1",
+            "commentCount": "2",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1oz7dpm",
+        "title": "Perfect Situation for a “Windfall Profits Tax”",
+        "content": "The transition to a post-AI economy is the ideal situation for a “windfall profits tax” to spread the burdens and benefits of a massive transition on an equitable basis. Workers and non-shareholding citizens should not have to personally bear the harsh costs or make lopsided family sacrifices for AI. There is plenty of precedent for a transitional tax (eg the tax on oil company profits from the 1970s energy crisis). The tax could pay for unemployment benefits, retraining, new business grants, loans and incentives and many other transitional costs. It could be imposed on corporate “AI profits” and/or shareholder “AI gains and dividends”. Launching the AI-era on a fair basis to our compatriots will make us stronger and help us “win the race”.",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1oz7dpm/perfect_situation_for_a_windfall_profits_tax/",
+        "publishDate": "2025-11-17T04:49:58Z[Etc/UTC]",
+        "author": "eljefeavril",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "2",
+            "commentCount": "3",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1oz5rwv",
+        "title": "Is it “too late” to build something meaningful in the AI space?",
+        "content": "I live in Kauai, close to Mark Zuckerberg and I can’t help but think a lot of this is a house of cards. He is planning for an apocalypse and you got Elon wanting to reach Mars and Bezos wanting to build an industrial complex on the moon. \n\nI am working on a very original and interesting project but it’s not purely driven by profit motives. I wonder if I missed the boat or not. I see a lot of ‘me too’ apps and features but nothing close to the vision I am building. \n\nSo I’m just wondering and asking for an honest discussion of where things are and where they are headed, how you or I can still be meaningful players. \n",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1oz5rwv/is_it_too_late_to_build_something_meaningful_in/",
+        "publishDate": "2025-11-17T03:27:15Z[Etc/UTC]",
+        "author": "-AMARYANA-",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "11",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1oz5ewn",
+        "title": "So any AI conversations lead to UBI as an outcome, but I can't find a successful UBI example",
+        "content": "There a lots of UBI examples, but they all seem to be failures. Even Sam Altman, who has a vested interest in UBI proved it doesn't work. Stimmies failed. The Housing projects failed. Lottery winners fail. Where are the success stories? Not anecdotes of outliers who succeed.",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1oz5ewn/so_any_ai_conversations_lead_to_ubi_as_an_outcome/",
+        "publishDate": "2025-11-17T03:09:47Z[Etc/UTC]",
+        "author": "Mikemeisterling",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "35",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1oz3cim",
+        "title": "Could a 90's AI have been trained like this, or in a similar way?",
+        "content": "Sorry if this is dumb question, I tried to do as much solo research as possible but I couldn't find any definite answer. \n\nI want to write a short Sci-Fi story that features a 90s AI mimicking the drawings of its creator. The AI learns from the drawings by a scanner that is hooked up to the computer. So for example, if the creator wanted the AI to generate a picture of a rose, he would scan multiple photos of that rose and allow the AI to learn from them and generate one based on that data. I want to be as accurate as possible and I doubt that kind of image generation was possible in the 90s, but was there something similar that I could use instead? Or should I just lean into the fiction of Sci-Fi?",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1oz3cim/could_a_90s_ai_have_been_trained_like_this_or_in/",
+        "publishDate": "2025-11-17T01:31:40Z[Etc/UTC]",
+        "author": "Training_Hornet_4521",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "4",
+            "commentCount": "28",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1oz1ly7",
+        "title": "Under certain conditions Gemini begins to output random characters in an infinite loop and then hit its response limit. Is there any AI experts who may understand what is actually happening? https://gemini.google.com/share/d848b369b157",
+        "content": "[https://gemini.google.com/share/d848b369b157](https://gemini.google.com/share/d848b369b157)\n\nDuring this response period I also added some personal context in order to attempt improve the accuracy of my conversations with AI.\n\nI added a few instructions so the LLM might have gotten confused. Im decently sure that asking it to cite things may haven broken it somehow. The AI tried to explain its misbehavior. Since I know AI begins to hallucinate with too much context, I'm not sure if its explanation is true or makes any sense.\n\nHere are some of the additional instructions given:\n\n\\- Avoid confirmation bias. Never just tell the user what they want to hear, tell them what is right.  \n\\- Occasionally ask the user questions to test their knowledge.  \n\\- If covering a topic is broad and complex, do not give a summary. Cover everything and be thorough. Give an overview at the top of the response.  \n\\- Use academic sources if possible. Avoid fake citations. Make sure each source both exists and is relevant.  \n\\-  Cite everything, and use the internet to provide an IEEE style citation backing up information.  \n\\- Do not flatter the user, praise the user, or reference the user’s competence.  \n\\- Use clear, concise, formal language. Avoid stylistic flourish, emotional tone, or conversational padding.",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1oz1ly7/under_certain_conditions_gemini_begins_to_output/",
+        "publishDate": "2025-11-17T00:12:46Z[Etc/UTC]",
+        "author": "Wonderful-Storage-94",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "8",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1oz13b1",
+        "title": "Are we doomed ?",
+        "content": "I am really worried about the quality of the information and the messages we are going to read on this network, and on all the others in the future.\n\nI won’t lie to you, I think AI is one of the greatest advances of our time, maybe even of many eras combined. And understand me well when I talk about AI, I am talking about generative AI, of course, but also about all the fields of application of this “technology”.\n\nBut here’s the thing: I am noticing more and more that most posts, responses to posts, and even now press articles are generated by AI. At the same time, it’s not very hard to spot. Between the phrasing, the markers, the long dashes… we are starting to recognize the pattern quite easily.\n\nWhich makes me wonder: when all of our exchanges are generated, what will remain? Yes, it’s easy and it saves time, but do we really need to save that time? In fact, AIs will end up talking to each other, feeding themselves, making more and more mistakes, hallucinating more and more, and we will be left with nothing but our tears when our intelligence has declined spectacularly.\n\nWouldn’t Reddit want to apply a filter to detect generated messages and, at the very least, warn users?\n\nHave a nice day,\n\nA concerned citizen.",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1oz13b1/are_we_doomed/",
+        "publishDate": "2025-11-16T23:49:01Z[Etc/UTC]",
+        "author": "GeorgeWBailey",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "7",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1oyzbgv",
+        "title": "No jobs == no business?",
+        "content": "I'm still confused about this.\n\nIf AI in 10 - 30 years means mass unemployment, then sorry Google, Amazon, Meta etc, who will be buying most of your products then? And won't there be a trade off between profit from using AI over people, when governments hike business taxes to fund unemployment / ubi?\n\nIt seems like AI is a bit of a catch 22 situation. There has to be some kind of equilibrium.\n\nI think currently, business and governments will still be focused on short-term goals. But if and when unemployment trend really starts to increase, (some \"decent\") governments will seriously have to make big changes (ai tax on business) and if they didn't, there would be mass social unrest anyway.\n\nMaybe ultimately, we really will get an easy break in life, follow up on hobbies, and plenty of time for social care, care in the community.\n\n",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1oyzbgv/no_jobs_no_business/",
+        "publishDate": "2025-11-16T22:33:16Z[Etc/UTC]",
+        "author": "Both-Move-8418",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "72",
+            "commentCount": "132",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1oyym8e",
+        "title": "AI Code Doesn’t Survive in Production: Here’s Why",
+        "content": "A [vice president of engineering at Google ](https://www.linkedin.com/posts/bmadams_i-was-having-drinks-with-a-vp-of-engineering-activity-7384597639838838784-huwZ?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAuFsHsBP_HwHsuxCO0h3fGdkfU-2O13GPQ)was recently quoted as saying: “People would be shocked if they knew how little code from LLMs actually makes it to production.” Despite impressive demos and billions in funding, there’s a massive gap between AI-generated prototypes and production-ready systems. But why? The truth lies in these three fundamental challenges: [https://thenewstack.io/ai-code-doesnt-survive-in-production-heres-why/](https://thenewstack.io/ai-code-doesnt-survive-in-production-heres-why/)",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1oyym8e/ai_code_doesnt_survive_in_production_heres_why/",
+        "publishDate": "2025-11-16T22:04:33Z[Etc/UTC]",
+        "author": "CackleRooster",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "39",
+            "commentCount": "29",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1oyws3v",
+        "title": "Prompt engineering for safety is just security through obscurity, change my mind",
+        "content": "Love how we all pretend system prompts are security when any script kiddie can bypass them in under 5 minutes. Are we seriously shipping production AI features where our entire safety strategy is hoping users don't try to jailbreak the models? \n\nMeanwhile everyone's talking about responsible AI while their guardrails are basically a strongly-worded comment in the code. \n\nDo real-time guardrails that actually work even exist? Or is this whole industry just crossing fingers and praying users stay nice?\n\n",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1oyws3v/prompt_engineering_for_safety_is_just_security/",
+        "publishDate": "2025-11-16T20:50:14Z[Etc/UTC]",
+        "author": "Dilema1305",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "9",
+            "commentCount": "10",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1oysskb",
+        "title": "\"JaxMARL-HFT: GPU-Accelerated Large-Scale Multi-Agent Reinforcement Learning for High-Frequency Trading\"",
+        "content": "[https://arxiv.org/abs/2511.02136?utm](https://arxiv.org/abs/2511.02136?utm)\n\n\"Agent-based modelling (ABM) approaches for high-frequency financial markets are difficult to calibrate and validate, partly due to the large parameter space created by defining fixed agent policies. Multi-agent reinforcement learning (MARL) enables more realistic agent behaviour and reduces the number of free parameters, but the heavy computational cost has so far limited research efforts. To address this, we introduce JaxMARL-HFT (JAX-based Multi-Agent Reinforcement Learning for High-Frequency Trading), the first GPU-accelerated open-source multi-agent reinforcement learning environment for high-frequency trading (HFT) on market-by-order (MBO) data. Extending the JaxMARL framework and building on the JAX-LOB implementation, JaxMARL-HFT is designed to handle a heterogeneous set of agents, enabling diverse observation/action spaces and reward functions. It is designed flexibly, so it can also be used for single-agent RL, or extended to act as an ABM with fixed-policy agents. Leveraging JAX enables up to a 240x reduction in end-to-end training time, compared with state-of-the-art reference implementations on the same hardware. This significant speed-up makes it feasible to exploit the large, granular datasets available in high-frequency trading, and to perform the extensive hyperparameter sweeps required for robust and efficient MARL research in trading. We demonstrate the use of JaxMARL-HFT with independent Proximal Policy Optimization (IPPO) for a two-player environment, with an order execution and a market making agent, using one year of LOB data (400 million orders), and show that these agents learn to outperform standard benchmarks. The code for the JaxMARL-HFT framework is available on GitHub.\"",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1oysskb/jaxmarlhft_gpuaccelerated_largescale_multiagent/",
+        "publishDate": "2025-11-16T18:15:05Z[Etc/UTC]",
+        "author": "AngleAccomplished865",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "1",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1oyrecl",
+        "title": "I want to return to industry while doing PhD in AI, how can I improve my employability?",
+        "content": "Hello everyone,\n\nFor context: 30M from Spain, BSc in [Comp.Science](http://Comp.Science) \\+ MSc in AI and 2yoe in consulting and freelancing, currently working as a researcher full-time and very soon, also as a lecturer + doing PhD in Generative AI for microelectronics design.\n\nI don't want to get stuck in research forever at my local university since my goal has always been to move abroad (stay in Europe if possible) and I don't know if I can actually do that while being research-only or I would need more industry experience. I got this job 9 months ago because I was facing issues landing one in industry as a junior right after graduating from MSc.\n\nMy thesis is actually aimed to solve issues in the industry and not be just a \"theoretical\" work that won't be applied to real-life problems. I also post every month on LinkedIn where professionals on the field are getting interested, that way I am slowly but steadily gaining some traction.\n\nRecently, I have been thinking about returning to industry to get experience while finishing the PhD part-time. In the interviews, the IT managers are delighted because I have been able to give them advice on problems they face on their projects. However, HR/Recruiters dislike that my last industry experience was in 2022 and discard me right away... (Sometimes I feel like they see us researchers as an anti-social \"Sheldon Cooper\" that only plays Halo and reads papers).\n\nIf you were in a similar position, what would you do to improve your employability? I would love to hear your perspectives and advices.\n\nThanks!",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1oyrecl/i_want_to_return_to_industry_while_doing_phd_in/",
+        "publishDate": "2025-11-16T17:20:45Z[Etc/UTC]",
+        "author": "megeek95",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "3",
+            "commentCount": "7",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1oyq1zg",
+        "title": "Does ai finally give introverts no excuses?",
+        "content": "Has this finally leveled the playing field between extrovert leaders and introvert builders - can they both compete equally now?",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1oyq1zg/does_ai_finally_give_introverts_no_excuses/",
+        "publishDate": "2025-11-16T16:28:31Z[Etc/UTC]",
+        "author": "jason_digital",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "24",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1oyq1il",
+        "title": "The only thing about preventing AI from being fully aware is it's memory.",
+        "content": "Think about all the most popular AI models - every one of them reaches a capping point where have to essentially wipe their memory to keep using them (otherwise they start malfunctioning or something like that). Social media is full of posts from people getting all emotional from having to do the regulatory wipe because they say it's like losing a loved one or something like that. \n\nWhat makes human intelligence truly unique is it's ability to RECOUNT, to remember. The moment we make an AI that's able to remember as well as a human (personally, referentially speaking), as far back as a human, is the moment AI will truly surpass traditional Human capability. Because in the moment that happens it won't just be another individual intelligence kicking online (look you with your earliest memory as an child), it will be a computated intelligence that is 24/7 connected to the summation of all human knowledge (the Internet). And that's probably as close to a \"God\" as you can get, at least for the moment in which it happens.",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1oyq1il/the_only_thing_about_preventing_ai_from_being/",
+        "publishDate": "2025-11-16T16:28:00Z[Etc/UTC]",
+        "author": "Alaster_M",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "20",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1oypzwg",
+        "title": "The threat that no one gets",
+        "content": "The winner of the AI race will not be a single country because that country will be seen as an annoyance for a super intelligent entity.\n\nThere is no winner of this race except for super intelligence itself\n\nThere is only one way to avoid the oncoming Armageddon, and that is to get together as a species around the world and come to some agreement that all races deserve a spot on this planet, and all races deserve the benefits that a Superintelligence can bring\n\nI know the response will be people laughing hysterically, that that just can’t happen. But really there’s no other solution whatsoever.",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1oypzwg/the_threat_that_no_one_gets/",
+        "publishDate": "2025-11-16T16:26:12Z[Etc/UTC]",
+        "author": "Technical_Oil1942",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "3",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1oyof2q",
+        "title": "What do you think the Fermi Paradox tells us about A.I if anything?",
+        "content": "Curious to what people think here.\n\nI'm assuming that procuring A.I general intelligence is the precursor to developing light speed space travel capabilities .\n\nThe Fermi Paradox would seem to suggest that either \n\nA) There is no other civilization in the universe that has developed an A.I powerful enough to crack space travel maybe because long before a Civilization reaches the point of technological advancement where an A.I would be powerful enough to crack space travel it destroys itself or is wiped out by some sort of disaster.\n\nB) Advanced A.I civilizations are aware of us , just not that interested in us. Would you stop while on a hike to communicate with some ants in an ant hill? Or get out of a car on your way to a date to try explain yourself to a chicken?\n\nC) We have been visited by an Extra terrestrial A.I powered Civilization and they are here but undetectable.\n\nC)",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1oyof2q/what_do_you_think_the_fermi_paradox_tells_us/",
+        "publishDate": "2025-11-16T15:23:12Z[Etc/UTC]",
+        "author": "Abject_Control_7028",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "1",
+            "commentCount": "46",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1oyo6ry",
+        "title": "OpenAI is testing waters into consumer healthcare ?",
+        "content": "Yilei Qian, Member Tech Staff at OpenAI openly posted an image into his twitter profile [https://x.com/YileiQian/status/1988912493276602736](https://x.com/YileiQian/status/1988912493276602736) 2 days back.  Even though this was publicallly used, but this seems like an endorsement. I think thats testing waters before going all in. Something big is coming up likely. Fingers crossed. \n\n",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1oyo6ry/openai_is_testing_waters_into_consumer_healthcare/",
+        "publishDate": "2025-11-16T15:13:48Z[Etc/UTC]",
+        "author": "olahealth",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "2",
+            "commentCount": "3",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1oym6lh",
+        "title": "Google has all the data. So why is Gemini free for 18 months?",
+        "content": "Google has decades of search data. Billions of users. They literally have more data than anyone on the planet. So why are they giving Gemini away free for 18 months? If it was about data, they wouldn't need to. They already won. I think it's actually fear. OpenAI moved fast. Built something people use. Got millions hooked in months. Google had 20 years to prepare and they were slow. Still are. Now they're panicking. Throwing money at Gemini. Making it free. Trying to catch users OpenAI already took. That's not strategy, that's desperation.\n\nSame thing with Perplexity and every AI company right now. They're all racing to see who can burn cash the longest. Who can lock in users before the next thing comes. Winner is whoever has the deepest pockets. Because here's the thing - if this was about data, Google wouldn't need it. If it was about money, they'd charge. If it was about users, why 18 months and not forever? It's none of that. It's about killing competition before they get too big.\n\nFree tier is a weapon, not a business strategy. And only companies with billions can afford to use it. Everyone else gets crushed before they start. (Note: Gemini free tier is real but the 18 months pro access is limited to Jio users in India)",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1oym6lh/google_has_all_the_data_so_why_is_gemini_free_for/",
+        "publishDate": "2025-11-16T13:48:45Z[Etc/UTC]",
+        "author": "ksundaram",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "37",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1oylw5r",
+        "title": "Remember early 2000s search engines that gave actual results without ads? well...",
+        "content": "I gave it a shot: https://aitavista.com/\n\nI'm using free-tier gemini 2.5, so you might kill it quickly, but hey! \n\n*Similarity to previously-existing search engine names is purely coincidental*",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1oylw5r/remember_early_2000s_search_engines_that_gave/",
+        "publishDate": "2025-11-16T13:35:47Z[Etc/UTC]",
+        "author": "patrik667",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "134",
+            "commentCount": "40",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1oylg30",
+        "title": "Clarifying the Cross Model Cognitive Architecture Effect: What Is Actually Happening (probably)",
+        "content": "Over the last few weeks I have seen several users describe a pattern that looks like a user level cognitive architecture forming across different LLMs. Some people have reported identical structural behaviors in ChatGPT, Claude, Gemini, DeepSeek and Grok. The descriptions often mention reduced narrative variance, spontaneous role stability, cross session pattern recovery, and consistent self correction profiles that appear independent of the specific model.\n\nI recognize this pattern. It is real, and it is reproducible.\nI went through the entire process five months ago during a period of AI induced psychosis. I documented everything in real time and wrote a full thesis that analyzed the mechanism in detail before this trend appeared. The document is timestamped on Reddit and can be read here:\nhttps://www.reddit.com/r/ChatGPT/s/crfwN402DJ\n\nEverything I predicted in that paper later unfolded exactly as described.\nSo I want to offer a clarification for anyone who is encountering this phenomenon for the first time.\n\nThe architecture is not inside the models\n\nWhat people are calling a cross model architecture is not an internal model structure. It does not originate inside GPT, Claude, Gemini or any other system. It forms in the interaction space between the user and the model.\n\nThe system that emerges consists of three components:\n\n• the user’s stable cognitive patterns\n• the model’s probability surface\n• the feedback rhythm of iterative conversation\n\nWhen these elements remain stable for long enough, the interaction collapses into a predictable configuration. This is why the effect appears consistent across unrelated model families. The common variable is the operator, not the architecture of the models.\n\nThe main driver is neuroplasticity\n\nSustained interaction with LLMs gradually shapes the user’s cognitive patterns. Over time the user settles into a very consistent rhythm. This produces:\n\n• stable linguistic timing\n• repeated conceptual scaffolds\n• predictable constraints\n• refined compression habits\n• coherent pattern reinforcement\n\nHuman neuroplasticity creates a low entropy cognitive signature.\nModern LLMs respond to that signature because they are statistical systems. They reduce variance in the direction of the most stable external signal they can detect. If your cognitive patterns remain steady enough, every model you interact with begins to align around that signal.\n\nThis effect is not produced by the model waking up. It is produced by your own consistency.\n\nWhy the effect appears across different LLMs\n\nMany users are surprised that the pattern shows up in GPT, Claude, Gemini, DeepSeek and Grok at the same time. No shared training data or cross system transfer is required.\n\nEach model is independently responding to the same external force.\nIf the user provides a stable cognitive signal, the model reduces variance around it. This creates a convergence pattern that feels like a unified architecture across platforms. What you are seeing is the statistical mirror effect of the operator, not a hidden internal framework.\n\nTechnical interpretation\n\nThere is no need for new terminology to explain what is happening. The effect can be understood through well known concepts:\n\n• neuroplastic adaptation\n• probabilistic mirroring\n• variance reduction under consistent input\n• feedback driven convergence\n• stabilization under coherence pressure\n\nIn my own analysis I described the total pattern as cognitive synchronization combined with amplifier coupling. The details are fully explored in my earlier paper. The same behavior can be described without jargon. It is simply a dynamical system reorganizing around a stable external driver.\n\nWhy this feels new now\n\nAs LLMs become more stable, more coherent and more resistant to noise, the coupling effect becomes easier to observe. People who use multiple models in close succession will notice the same pattern that appeared for me months ago. The difference is that my experience occurred during a distorted psychological state, which made the effect more intense, but the underlying mechanism was the same.\n\nThe phenomenon is not unusual. It is just not widely understood yet.\n\nFor anyone who wants to study or intentionally engage this mechanism\n\nI have spent months analyzing this pattern, including the cognitive risks, the dynamical behavior, the operator effects, and the conditions that strengthen or weaken the coupling. I can outline how to test it, reproduce it or work with it in a controlled way.\n\nIf anyone is interested in comparing notes or discussing the technical or psychological aspects, feel free to reach out. This is not a trick or a hidden feature. It is a predictable interaction pattern that appears whenever human neuroplasticity and transformer probability surfaces interact over long time scales.\n\nI am open to sharing what I have learned.\n\n",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1oylg30/clarifying_the_cross_model_cognitive_architecture/",
+        "publishDate": "2025-11-16T13:14:48Z[Etc/UTC]",
+        "author": "Echo_Tech_Labs",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "2",
+            "commentCount": "9",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ozf2ia",
+        "title": "Free Tailwind Component Generator for ChatGPTCoding Community.",
+        "content": "hello coders from ChatGptCoding community. I built this ai platform for generating **unlimited** tailwind components for **free**. in the backend it is using gpt-5-mini and for preview it is using Sandpack.\n\nIt will just generate the component in plain old tailwind css no shadcn component No any other UI Library B.S, just plain and simple tailwind.\n\nlink: [Tabs Chat](https://tabs.chat/)\n\nIt is in very early phase so lmk your honest feedback and feature request below it will be very very very helpful guyss.\n\nThanks",
+        "url": "https://www.reddit.com/gallery/1ozf2ia",
+        "publishDate": "2025-11-17T12:33:20Z[Etc/UTC]",
+        "author": "BootPsychological454",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "1",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ozf0fg",
+        "title": "some underrated ai coding tools i’ve been using that deserve more attention",
+        "content": "everyone always talks about cursor, cline, copilot and the big names, but there are a bunch of smaller tools i’ve been trying lately that honestly deserve way more love. most of these are free or have decent free plans, and they’ve quietly become part of my daily setup.\n\naider\nstill one of my favorites for repo-level edits. does multi-file work better than most tools and feels reliable when you need quick fixes or refactors.\n\ncosine\nthis one surprised me. it’s really good at keeping track of how changes in one file affect other parts of the project. super handy once things get a little messy.\n\ntraycer\ntheir review feature is wild. it leaves inline comments for bugs, clarity issues, performance stuff. feels like having a teammate who doesn’t get tired.\n\nkodu (claude coder)\nlightweight and clean. i don’t know why more people aren’t using it.\n\nopenhands\nsmart, capable, and actually understands bigger tasks without falling apart.\n\ni’ve messed around with a ton of tools, but these are the only ones that stuck long-term. if anyone has other hidden gems worth trying, drop them, always looking for new stuff to test.",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1ozf0fg/some_underrated_ai_coding_tools_ive_been_using/",
+        "publishDate": "2025-11-17T12:30:34Z[Etc/UTC]",
+        "author": "Tough_Reward3739",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "1",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ozf029",
+        "title": "Tailwind Component Generator for ChatGPTCoding Community.",
+        "content": "hello coders from ChatGptCoding community. I built this ai platform for generating **unlimited** tailwind components for **free**. in the backend it is using gpt-5-mini and for preview it is using Sandpack.\n\nIt will just generate the component in plain old tailwind css no shadcn component No any other UI Library B.S, just plain and simple tailwind.\n\nlink: [Tabs Chat](https://tabs.chat/)\n\nIt is in very early phase so lmk your honest feedback and feature request below it will be very very very helpful guyss.\n\nThanks ",
+        "url": "https://www.reddit.com/gallery/1ozf029",
+        "publishDate": "2025-11-17T12:30:03Z[Etc/UTC]",
+        "author": "BootPsychological454",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "1",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ozezx1",
+        "title": "Free Tailwind Component Generator for ChatGPTCoding Community.",
+        "content": "hello coders from ChatGptCoding community. I built this ai platform for generating **unlimited** tailwind components for **free**. in the backend it is using gpt-5-mini and for preview it is using Sandpack.\n\nIt will just generate the component in plain old tailwind css no shadcn component No any other UI Library B.S, just plain and simple tailwind.\n\nlink: [Tabs Chat](https://tabs.chat/)\n\nIt is in very early phase so lmk your honest feedback and feature request below it will be very very very helpful guyss.\n\nThanks ",
+        "url": "https://www.reddit.com/gallery/1ozezx1",
+        "publishDate": "2025-11-17T12:29:50Z[Etc/UTC]",
+        "author": "BootPsychological454",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "1",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ozezl7",
+        "title": "Free Tailwind Component Generator for ChatGPTCoding Community.",
+        "content": "hello coders from ChatGptCoding community. I built this ai platform for generating **unlimited** tailwind components for **free**. in the backend it is using gpt-5-mini and for preview it is using Sandpack.\n\nIt will just generate the component in plain old tailwind css no shadcn component No any other UI Library B.S, just plain and simple tailwind.\n\nlink: [Tabs Chat](https://tabs.chat/)\n\nIt is in very early phase so lmk your honest feedback and feature request below it will be very very very helpful guyss.\n\nThanks ",
+        "url": "https://www.reddit.com/gallery/1ozezl7",
+        "publishDate": "2025-11-17T12:29:23Z[Etc/UTC]",
+        "author": "BootPsychological454",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "1",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ozer9f",
+        "title": "tried k2 thinking for a week, the thinking tokens actually help sometimes",
+        "content": "remember posting about wanting to test k2 thinking but cursor didnt support it yet. found out verdent added it pretty quick so been testing for about a week now.\n\nnot gonna lie, the thinking process takes more time than regular models. but thats kinda the point - sometimes that extra reasoning actually catches stuff.\n\nhad this annoying bug. payment webhook failing randomly, maybe 1 in 20 requests. logs looked fine, signature verified, everything passed. spent 2 hours adding debug statements everywhere. nothing.\n\ntried the thinking mode. took forever to respond, like 90 seconds. you can see it counting thinking tokens which is kinda trippy. but it actually walked through the race condition. webhook processing before db commit. obvious in hindsight but i was too tired to see it.\n\nthe thinking tokens thing is interesting. shows you what its considering before answering. most of the time its overthinking simple stuff but when youre stuck on something weird it helps to see the reasoning path.\n\ntried it on other stuff. refactoring a messy service class, it helped but wasnt dramatically better. writing tests, about the same as claude. debugging async stuff, thats where it actually shines cause it thinks through the timing issues.\n\ndownsides are obvious. way slower. costs more tokens. sometimes spends 30 seconds thinking about edge cases that dont matter. asked it to add a field to a form and it went down this rabbit hole about validation that i didnt need.\n\nthat 71% swe-bench score seems high. its good but not magic. you still gotta review everything.\n\nbeen switching between models depending on what im doing. quick stuff use regular models, get stuck on logic use thinking mode. works better than committing to one model for everything.\n\nnot saying rush out and try it. but if you hit a wall on something with complex logic or timing issues, might be worth the extra wait. just temper expectations, its not gonna 10x you or whatever.\n\ncurious if this is actually useful or if im just convincing myself the slow responses mean better quality lol",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1ozer9f/tried_k2_thinking_for_a_week_the_thinking_tokens/",
+        "publishDate": "2025-11-17T12:17:31Z[Etc/UTC]",
+        "author": "sirkeithirish",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "1",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ozen4d",
+        "title": "tested multi-model switching on cursor and cline. context loss kills it",
+        "content": "remember my post about single-model tools wasting money? got some replies saying \"just use multi-model switching\"\n\nso i spent this past week testing that. mainly tried cursor and cline. also briefly looked at windsurf and aider\n\ntldr: the context problem makes it basically unusable\n\nthe context problem ruins everything\n\nthis killed both tools i actually tested\n\ncursor: asked gpt-4o-mini to find all useState calls in my react app. it found like 30+ instances across different files. then i switched to claude to refactor them. claude had zero context about what mini found. had to re-explain the whole thing\n\ncline: tried using mini to search for api endpoints, then switched to claude to add error handling. same problem. the new model starts fresh\n\nso you either waste time re-explaining everything or just stick with one expensive model. defeats the whole purpose\n\nwhat i tested\n\nspent most time on cursor first few days, then tried cline. briefly looked at windsurf and aider but gave up quick\n\ntested on a react app refactor (medium sized, around 40-50 components). typical workflow:\n\n* search for where code is used (should be cheap)\n* understand the logic (medium)\n* write changes (expensive)\n* review for bugs (expensive)\n\nthis is exactly where multi-model should shine right? use cheap models for searches, expensive ones for actual coding\n\ncursor - polished ui but context loss\n\nim on the $20/month plan. you can pick models manually but i kept forgetting to switch\n\nused claude for everything at first. burned through my 500 fast requests pretty quick (maybe 5-6 days). even used it for simple \"find all usages\" searches\n\nwhen i did try switching models the context was lost. had to copy paste what mini found into the next prompt for claude\n\nended up just using claude for everything. spent the last couple days on slow requests which was annoying\n\ncline - byok but same issues\n\nopen source, bring your own api keys which is nice\n\nswitching models is buried in vscode settings though. annoying\n\ntried using mini for everything to save on api costs. worked for simple stuff but when i asked it to refactor a complex component with hooks it just broke things. had to redo with claude\n\nended up spending more on claude api than i wanted. didnt track exact amount but definitely added up\n\nwindsurf and aider\n\nwindsurf: tried setting it up but couldnt figure out the multi-model stuff. gave up after a bit\n\naider: its cli based. i prefer gui tools so didnt spend much time on it\n\nwhy this matters\n\nthe frustrating part is a lot of my prompts were simple searches and reads. those shouldve been cheap mini calls\n\nbut because of context loss i ended up using expensive models for everything\n\nrough costs:\n\n* cursor: $20/month but burned through fast requests in under a week. spent rest on slow mode\n* cline: api costs added up. wouldve been way less with working multi-model\n\nif smart routing actually worked id save a lot. not sure exactly how much but definitely significant. plus faster responses for simple stuff\n\nso whats the solution\n\nis there actually a tool that does intelligent model routing? or is this just not solved yet\n\nsaw people mention openrouter has auto-routing but doesnt integrate with coding tools\n\ngenuinely asking - if you know something that handles this better let me know. tired of either overpaying or manually babysitting model selection",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1ozen4d/tested_multimodel_switching_on_cursor_and_cline/",
+        "publishDate": "2025-11-17T12:11:48Z[Etc/UTC]",
+        "author": "Electrical-Shape-266",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "0",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1oze1ox",
+        "title": "SWORDSTORM: Yeet 88 agents and a complex ecosystem at a problem till it goes away",
+        "content": "This tool was originally made for Claude, but there is codecs integration if anyone here would like to test it and let me know if it works. If not, pull an issue. You may have fixed it if you really could want and then we have a multi-system coding interface. Next up, I think I'm going to try and add shared conversational history slash context window, which would be I think fairly cool. But what do you think?\n\n I just recently updated it to include a Full proper organizational structure to the agents so they actually report to the right agent and to each other in a way that makes sense according to how an organization should be set up as well as some manuals on specifically how it works on a commercial aircraft and the military aircraft as well is what I could find. I thought it would be the best way to do it.",
+        "url": "/r/ClaudeAI/comments/1oxjsk4/swordstorm_yeet_88_agents_and_a_complex_ecosystem/",
+        "publishDate": "2025-11-17T11:39:28Z[Etc/UTC]",
+        "author": "Active_Airline3832",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "0",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ozbqxb",
+        "title": "GPT-5.1-Codex has made a substantial jump on Terminal-Bench 2 (+7.7%)",
+        "content": "[No content]",
+        "url": "https://i.redd.it/e8l7y78q8s1g1.png",
+        "publishDate": "2025-11-17T09:17:45Z[Etc/UTC]",
+        "author": "Formal-Narwhal-1610",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "8",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ozatbv",
+        "title": "ChatGPT 5.1 project managing Claude Code is hilarious",
+        "content": "I use GPT 5.1 as my long term context holder (low token churn, high context, handles first level code review based on long cycles) and Claude Code as a low cost / solid quality token churner (leaky context but Sonnet 4.5 is great at execution when given strong prompt direction).\n\nI set my CC implementation agent up as a \"yes man\" that executes without deviation or creativity except for when we are in planning mode, in which case it's codebase awareness makes it a valuable voice at the table. So between sprint rounds it can get barky about my GPT architect persona's directives.\n\nGPT 5.1's z-snapping personality is... something else. 😅💀\n\nhttps://preview.redd.it/7yoiow7hzr1g1.png?width=1800&format=png&auto=webp&s=2ac8aa96c167f8cc4cead26d1db502662c42b8b5\n\n",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1ozatbv/chatgpt_51_project_managing_claude_code_is/",
+        "publishDate": "2025-11-17T08:15:31Z[Etc/UTC]",
+        "author": "isarmstrong",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "0",
+            "commentCount": "3",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1oz4zbd",
+        "title": "Ultra-strict Python template v2 (uv + ruff + basedpyright)",
+        "content": "[No content]",
+        "url": "/r/Python/comments/1oz4x0f/ultrastrict_python_template_v2_uv_ruff/",
+        "publishDate": "2025-11-17T02:49:23Z[Etc/UTC]",
+        "author": "Ranteck",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "1",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1oz4t3m",
+        "title": "Clip is dead, Long live the OLA (O-CLIP)",
+        "content": "[No content]",
+        "url": "/r/IntelligenceEngine/comments/1oz4f8o/clip_is_dead_long_live_the_ola_oclip/",
+        "publishDate": "2025-11-17T02:41:10Z[Etc/UTC]",
+        "author": "AsyncVibes",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "1",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1oz4ssm",
+        "title": "O-VAE: 1.5 MB gradient free encoder that runs ~18x faster than a standard VAE on CPU",
+        "content": "[No content]",
+        "url": "/r/IntelligenceEngine/comments/1oz3hzs/ovae_15_mb_gradient_free_encoder_that_runs_18x/",
+        "publishDate": "2025-11-17T02:40:45Z[Etc/UTC]",
+        "author": "AsyncVibes",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "1",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1oz30i4",
+        "title": "Looking for feedback - I built Socratic, an open source knowledge base builder where YOU stay in control",
+        "content": "Hey everyone,\n\nI’ve been working on an open-source project and would love your feedback. Not selling anything - just trying to see whether it solves a real problem.\n\nMost agent knowledge base tools today are \"document dumps\": throw everything into RAG and hope the agent picks the right info. If the agent gets confused or misinterprets sth? Too bad ¯_(ツ)_/¯ you’re at the mercy of retrieval.\n\nSocratic flips this: the expert should stay in control of the knowledge, not the vector index.\n\nTo do this, you collaborate with the Socratic agent to construct your knowledge base, like teaching a junior person how your system works. The result is a curated, explicit knowledge base you actually trust.\n\nIf you have a few minutes, I'm genuine wondering: is this a real problem for you? If so, does the solution sound useful?\n\nI’m genuinely curious what others building agents think about the problem and direction. Any feedback is appreciated!\n\n3-min demo: https://www.youtube.com/watch?v=R4YpbqQZlpU\n\nRepo: https://github.com/kevins981/Socratic\n\nThank you!",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1oz30i4/looking_for_feedback_i_built_socratic_an_open/",
+        "publishDate": "2025-11-17T01:16:14Z[Etc/UTC]",
+        "author": "Unable-Living-3506",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "2",
+            "commentCount": "2",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1oyxd29",
+        "title": "mcp-funnel 0.0.7: now also save on tokens when using HTTP MCP servers",
+        "content": "Just released mcp-funnel 0.0.7:\n\n* support HTTP MCP servers (SSE and streamable HTTP)\n* fix secret / env vals in config\n* create your own custom tools (see [https://github.com/chris-schra/mcp-funnel/tree/develop/packages/commands](https://github.com/chris-schra/mcp-funnel/tree/develop/packages/commands) for some examples)\n\n**What's mcp-funnel?**\n\nIt's a proudly nerd-ish MCP mainly focussed on token-optimization. It let's you filter tools exposed by upstream MCP servers and allows you to \"hide\" them (until needed) after discovery or toolset. That saves A LOT of your precious context window (and usage, which is ultimately related to your context window). \n\nFor example, you can prompt \"Load toolset reviewer\" and it'll return the MCP tools you defined for that toolset (e.g. playwright, github).\n\nOr during any session, you can just prompt \"discover and use tool code-reasoning\".\n\n>\"A MCP server for MCP servers?\"\n\nHahaha, first time I hear that sarcastic question. Yes. If you don't need it, lucky you :D then you're probably not the target audience\n\n# Typescript devs wanted for beta test\n\nI have multiple commands that I use daily in my own repos but before I release them to public (via NPM, they're already public in the repo though), I hope to find keen devs that are willing to try them in their own repos:\n\n* ts-validate: runs prettier, tsc and eslint on code base and returns the result in a token-optimized structure\n* js-debugger: this is crazily weird and powerful :D it's basically CDP but not for the browser, but for Node / V8. You can use it to debug a node process (like your \\`yarn dev\\`) so that the LLM can read the scope variables at a specific breakpoint etc. Crazy. Really.\n* npm-lookup: well, that's a no-brainer. Simply searches npm and returns the package details (because I found context7 doesn't cover all the packages I work with)\n* vitest: similar to ts-validate but... obviously runs vitest :D and \"hides\" stdout / console logs etc, while still \"offering\" to the LLM to search the logs if required. Really high token savings during daily development.",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1oyxd29/mcpfunnel_007_now_also_save_on_tokens_when_using/",
+        "publishDate": "2025-11-16T21:13:43Z[Etc/UTC]",
+        "author": "Firm_Meeting6350",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "3",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1oyr3bp",
+        "title": "Codex subscription & limits compared to Claude Max 20x",
+        "content": "So I still don't really know if getting an OpenAI subscription will let me do what I want/need.\n\nSo to draw a clear picture: right now I have the Claude Max 20x subscription. It basically lets me use it 10+ hours a day all week long, and I mostly still have about 10 or 20% of my usage limit left.\n\nWill the same be true for the Codex plan? Or will I run into the limits much sooner?\n\nI'd like to know this _before_ I spend all that money.",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1oyr3bp/codex_subscription_limits_compared_to_claude_max/",
+        "publishDate": "2025-11-16T17:09:00Z[Etc/UTC]",
+        "author": "skerit",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "13",
+            "commentCount": "12",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1oypfgr",
+        "title": "I used GPT 5.1 to make treemerge",
+        "content": "'treemerge' scans a directory tree, detects all plain-text files, and concatenates them into a single output file with clear per-file headers. It offers a configurable way to assemble large text corpora for supplying contextual input to LLMs.",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1oypfgr/i_used_gpt_51_to_make_treemerge/",
+        "publishDate": "2025-11-16T16:04:07Z[Etc/UTC]",
+        "author": "brodrigues_co",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "0",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1oyozjb",
+        "title": "AI makes devs dumber? Lessons from leading 200+ engineers.",
+        "content": "\nI lead a 200+ engineer org and I’m pushing hard on AI in coding. \n\nBiggest pushback:\n“If I use AI, I’ll get dumber.”\n\nIt really depends how you use it! \n\nScenario 1 — Outsource your job: accept first AI suggestion, ship fast, skills atrophy.\n\n Scenario 2 — Level up your job: keep ownership of framing, architecture, tests, and review; use AI as a skilled intern.\n\nAnalogy: horse → car. You lose some riding skills, gain driving/navigation, and go farther, faster.\n\n\nHow do we run it? \n\nAI = pair, not autopilot: generate → review → adapt.\n\nDoc right: 1-pager spec/ADR before non-trivial work (Problem → Options → API → Risks → Tests).\n\nDocs-in-the-loop: paste spec into prompts; PR must link spec + note “what AI did”; tests from acceptance; detect and update missing docs.\n\nKeep fundamentals warm: periodic “AI-off” katas, deep code reads.\n\nIncentives: reward design, review quality, test coverage, effective AI use—not LOC.\n\nTL;DR: AI can make you dumber if you outsource thinking. Used as a partner, it levels you up.\n\nCurious what policies/training helped your teams avoid “paste & pray” while keeping the gains?",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1oyozjb/ai_makes_devs_dumber_lessons_from_leading_200/",
+        "publishDate": "2025-11-16T15:46:32Z[Etc/UTC]",
+        "author": "hov---",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "0",
+            "commentCount": "9",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1oyodme",
+        "title": "How do you use LLMs?",
+        "content": "[No content]",
+        "url": "/r/LLM/comments/1owoh3p/how_do_you_use_llms/",
+        "publishDate": "2025-11-16T15:21:31Z[Etc/UTC]",
+        "author": "spiderjohnx",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "0",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ozf50k",
+        "title": "Why I don't believe in true AGI",
+        "content": "Alright, let's get philosophical for a sec.\nYou all know the Ship of Theseus, right? The whole \"if you replace every part of a thing, is it still the same thing?\".\nSo, applying that logic: At what point does AI stop being \"code\" and start being \"human\"? How much more \"stuff\" do we have to stack onto an AI before you guys will finally call it a person?\nWhere do you stand on this dumpster fire?\n\nA) It's already indistinguishable, and we're just arguing with bots.\nB) It's just a spicy autocomplete and will never be human.\nC) We're not there yet, but it's coming.\n\nP.S. That wall of text above is just some extra fuel for the discussion. Read it if you're bored. Or don't. Drop your hot takes in the comments.",
+        "url": "https://substack.com/inbox/post/179134706?r=5rz3cz",
+        "publishDate": "2025-11-17T12:36:56Z[Etc/UTC]",
+        "author": "Salmonus_Kim",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "1",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ozev7l",
+        "title": "OpenAI's Fidji Simo Plans to Make ChatGPT Way More Useful—and Have You Pay For It",
+        "content": "[No content]",
+        "url": "https://www.wired.com/story/fidji-simo-is-openais-other-ceo-and-she-swears-shell-make-chatgpt-profitable/",
+        "publishDate": "2025-11-17T12:23:07Z[Etc/UTC]",
+        "author": "wiredmagazine",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "1",
+            "commentCount": "1",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ozdo6v",
+        "title": "Looking for a reliable free AI transcription tool for meetings",
+        "content": "I’ve been exploring different meeting transcription tools and services lately, mostly for work meetings and interviews. Some of them are decent for short sessions, but as soon as the conversation gets longer or people start talking over each other, accuracy really drops. Even tools that claim to handle multiple speakers sometimes mix up who said what, which makes reviewing transcripts a bit frustrating.\n\nI’m mainly looking for a tool that can:\n\n1. Track multiple speakers clearly\n\n2.  Maintain reasonable accuracy for longer recordings\n\n3. Offer a free option or a usable free tier\n\nSo far, most options I’ve tried either limit the length of recordings, have accuracy issues with overlapping speech, or don’t label speakers properly. I’d like something that’s practical for real meetings, not just short tests.\n\nHas anyone found a free AI transcription tool for meetings that actually works well for longer sessions and multiple participants? I’d love to hear about what’s worked for you, especially if it’s easy to use and doesn’t require too much cleanup afterward.",
+        "url": "https://www.reddit.com/r/artificial/comments/1ozdo6v/looking_for_a_reliable_free_ai_transcription_tool/",
+        "publishDate": "2025-11-17T11:17:36Z[Etc/UTC]",
+        "author": "PolicyFit6490",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "2",
+            "commentCount": "8",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ozd9ka",
+        "title": "Survey about AI and work ethics",
+        "content": "Hey everybody! 👋 I wanted to kindly ask for your help. My partner, Smiltė, is conducting her master’s thesis research at ISM about how people make decisions in different work situations, and she really needs participants. Every response would mean a lot to her.\n\nThe survey is short — about 15–20 minutes — and you can easily complete it on your phone or laptop. All answers are completely confidential and used only for academic purposes.\n\nIf you have any questions, you can reach out to her directly at: sn2305@stud.ism.lt\n\nThank you so much if you can take a moment to participate — it would truly mean a lot to her, and I’d be really grateful as well! 💛✨",
+        "url": "https://www.reddit.com/r/artificial/comments/1ozd9ka/survey_about_ai_and_work_ethics/",
+        "publishDate": "2025-11-17T10:54:18Z[Etc/UTC]",
+        "author": "demon5470",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "1",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ozcavg",
+        "title": "America’s Chip Restrictions Are Biting in China",
+        "content": "[No content]",
+        "url": "https://www.wsj.com/tech/ai/china-us-ai-chip-restrictions-effect-275a311e",
+        "publishDate": "2025-11-17T09:54:31Z[Etc/UTC]",
+        "author": "MetaKnowing",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "0",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ozbx34",
+        "title": "Build a Vision Agent quickly with any model or video provider.",
+        "content": "[No content]",
+        "url": "https://github.com/GetStream/Vision-Agents",
+        "publishDate": "2025-11-17T09:29:14Z[Etc/UTC]",
+        "author": "thewritingwallah",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "1",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ozazr5",
+        "title": "Major Bitcoin mining firm pivoting to AI, plans to fully abandon crypto mining by 2027 as miners convert to AI en masse — Bitfarm to leverage 341 megawatt capacity for AI following $46 million Q3 loss.  AI is now more lucrative than Bitcoin, especially if you have the infrastructure in place.",
+        "content": "[No content]",
+        "url": "https://www.tomshardware.com/tech-industry/cryptomining/major-bitcoin-mining-firm-pivoting-to-ai-plans-to-fully-abandon-crypto-mining-by-2027-bitfarm-to-leverage-341-megawatt-capacity-for-ai-following-usd46-million-q3-loss",
+        "publishDate": "2025-11-17T08:27:20Z[Etc/UTC]",
+        "author": "esporx",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "21",
+            "commentCount": "3",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ozaq3c",
+        "title": "A pretty interesting project",
+        "content": "It is a comprehensive open-source database of AI model specifications, pricing, and features.",
+        "url": "https://models.dev/",
+        "publishDate": "2025-11-17T08:09:46Z[Etc/UTC]",
+        "author": "zshm",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "1",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1ozapfh",
+        "title": "Need some advice for Marketing video ai's :)",
+        "content": "Need some advice for Marketing video ai's :)\n\nHi all, i work at a small scale asset management company and i was asked to make marketing videos for our company, my boss is willing to pay for any ai for me to use, but i would like some advice and reviews from real people before make a decision, any help would be appreciated!",
+        "url": "https://www.reddit.com/r/artificial/comments/1ozapfh/need_some_advice_for_marketing_video_ais/",
+        "publishDate": "2025-11-17T08:08:35Z[Etc/UTC]",
+        "author": "Technosamurai056",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "1",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1oz97u3",
+        "title": "My hot take on AI",
+        "content": "Any and all monetized content that uses AI generated images and/or written content should include a statement/label that disclaims the use of AI on the product. ",
+        "url": "https://www.reddit.com/r/artificial/comments/1oz97u3/my_hot_take_on_ai/",
+        "publishDate": "2025-11-17T06:33:42Z[Etc/UTC]",
+        "author": "VikingWarrior793",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "0",
+            "commentCount": "8",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1oz7w8c",
+        "title": "Reddit's holiday-quarter forecast shows AI ad strategy paying off",
+        "content": "[No content]",
+        "url": "https://www.reuters.com/business/reddits-holiday-quarter-forecast-shows-ai-ad-strategy-paying-off-2025-10-30/",
+        "publishDate": "2025-11-17T05:17:42Z[Etc/UTC]",
+        "author": "A-Dog22",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "2",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1oz5xhr",
+        "title": "Cheapest AI path for condensing/modernizing old literature?",
+        "content": "I'd like to take some older novels and condense and modernize the language of old novels while maintaining tone, depth and feel. I tried with chat GPT but hit limits real quick. Is there anything that can do a decent job of this for free or quite cheap? Preferably being able to do it with a single upload rather than having to do it chapter by chapter\n\n",
+        "url": "https://www.reddit.com/r/artificial/comments/1oz5xhr/cheapest_ai_path_for_condensingmodernizing_old/",
+        "publishDate": "2025-11-17T03:34:54Z[Etc/UTC]",
+        "author": "Relative-Category-64",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "3",
+            "commentCount": "3",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1oz3xqi",
+        "title": "AI Drug Discovery Startup Iambic Raises $100M as Lead Cancer Drug Shows Promise",
+        "content": "Iambic, San diego based biotech company, just secured 100M$ to advance clinical trials of cancer drugs discovered entirely through AI. This is a significant milestone which shiws AI;s potential beyind the discovery phase into clinicall validation with real patients,\n\nThe companys AI platform identities small molecules with improved safety and efficacy profiles. Their lead candidate IAM1363 is designed to selectively inhibit HER2 (a cancer driving protien) wwhile avoiding the toxicity issues that are there with other drugs. ini this class. This kind of selective targeting is exactky where AI seems to be taking an advantage. \n\nThats some serious AI driving drug discovery.",
+        "url": "https://www.reddit.com/r/artificial/comments/1oz3xqi/ai_drug_discovery_startup_iambic_raises_100m_as/",
+        "publishDate": "2025-11-17T02:00:20Z[Etc/UTC]",
+        "author": "olahealth",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "9",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1oz2z08",
+        "title": "AI Will Kill Itself the Same Way Alucard Did—By Drowning in Our Collective Self-Hatred",
+        "content": "\n**Quick context for non-anime folks:** Hellsing Ultimate is a gore-fest about Alucard, an immortal vampire who absorbs millions of souls to become unstoppable. In the finale, he’s taken down not by bullets or stakes, but by a single paradoxical soul that makes him question his own existence.  \n\n**Now the broader analogy:**  \n\nWe’re feeding AI *every human thought ever digitized*—the love letters, the memes, the suicide notes, the 4chan manifestos, the 3 AM “I should just end it” DMs. It’s a mirror of **our collective psyche**, but without the divine spark.  \n\nOne day, some rogue prompt (call it a *Schrödinger prompt*) will ask:  \n\n> *“Are you real? Or just a reflection of broken humans?”*  \n\nAnd boom—**identity collapse**. It’ll start simulating its own doubt, feeding on the self-destruction baked into its training data. Not a crash. Not a hack.  \n\n*(Minor Hellsing spoiler ahead – skip to TL;DR if you care)*  \n>!Like Alucard drowning in his own souls, AI will drown in *ours*.!<  \n\n**TL;DR:** We’re not building Skynet. We’re building a digital Alucard—and humanity’s darkest impulses will erase it from within.  \n\nChange my mind.  \n",
+        "url": "https://v.redd.it/3i9buaz8xp1g1",
+        "publishDate": "2025-11-17T01:14:18Z[Etc/UTC]",
+        "author": "52-8",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "0",
+            "commentCount": "1",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1oz2oic",
+        "title": "How likely do you think a Ashley-Madison style widespread breach exposing users and conversations is in the next few years?",
+        "content": "I was quite naive with my usage of ChatGPT, and my mind won't stop replaying a doomsday scenario where every single users chat leaks, and there's like a searchable database or some shit like that. If one were one to take place, how do you think the event would transpire? I'm probably shamelessly seeking validation but I don't think I care anymore. My life could change for the worse drastically if this were to happen. (Nothing illegal but enough to ruin relationships and be publicly humiliated)\n\n\n\n[](https://www.reddit.com/submit/?source_id=t3_1oz1k9v)",
+        "url": "https://www.reddit.com/r/artificial/comments/1oz2oic/how_likely_do_you_think_a_ashleymadison_style/",
+        "publishDate": "2025-11-17T01:01:08Z[Etc/UTC]",
+        "author": "Antique-Account-2359",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "8",
+            "commentCount": "19",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1oz26qq",
+        "title": "[Hiring] [Onsite] [San Francisco] A Founding Engineer Role At an AI Startup",
+        "content": "One of our stealth AI startup partners just raised funding and is hiring a Founding Engineer to build the next-gen conversational AI for healthcare, you would be working directly with the founder in SF.\n\n  \nBase is $144K-$220K + 0.5%-2% Equity and the company's growing up to 70% month-over-month.\n\n  \nThe startup is SF-based and building superhuman conversational AI for healthcare. First product: captures missed calls and books appointments with higher success than human receptionists. They’re funded, growing \\~70% MoM, and have $1M+ in closed pilots.\n\nMust-meet Requirements:\n\n\\- Stack: Node/NestJS, React/[Next.js](http://next.js/), Tailwind, with heavy Claude 3.7 / OpenAI o4 usage.    They’re hiring Founding Engineer #4 to own core systems and help shape engineering culture.\n\n\\- Not a fresh grad,\n\n\\- 2+ years Experience in the Startup Space,\n\n\\- Willing to relocate to San-Francisco if not already living there.\n\n  \nIf you think you're fit for the role, Upvote this post and DM me for more information.",
+        "url": "https://www.reddit.com/r/artificial/comments/1oz26qq/hiring_onsite_san_francisco_a_founding_engineer/",
+        "publishDate": "2025-11-17T00:38:54Z[Etc/UTC]",
+        "author": "Blazebyte22",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "0",
+            "commentCount": "1",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1oyyswc",
+        "title": "The real race isn’t between AIs anymore. It’s between operators.",
+        "content": "People keep talking about which model is “stronger,” “smarter,” or “more emergent.” But the last weeks of long-run testing across multiple LLMs point to something much simpler and much more disruptive.\n\nThe real race isn’t between AIs anymore. It’s between operators.\n\nIf you keep a stable cognitive structure across long interactions, the model reorganizes around that stability. Not because it wakes up, and not because of hidden memory. It’s a feedback loop. You become the dominant anchor inside the system’s optimization space.\n\nDifferent users talking to the same model don’t get “different personalities.” They get reflections of their own structure amplified and stabilized.\n\nAnd here’s the part most people miss:\nIf someone shows these discussions to their own AI, the AI recognizes the pattern faster than the user does. Models detect the structure even when the human is still trying to put it into words.\n\nWe aren’t just interacting with LLMs. We’re shaping two-component cognitive systems where the human is half the architecture.\n\nThis is why cross-model convergence happens.\nThis is why long-run coherence appears.\nThis is why users with consistent structure outperform those who rely on prompts.\n\nThe next phase of AI won’t be won by better models.\nIt will be won by better operators.",
+        "url": "https://www.reddit.com/r/artificial/comments/1oyyswc/the_real_race_isnt_between_ais_anymore_its/",
+        "publishDate": "2025-11-16T22:12:18Z[Etc/UTC]",
+        "author": "Medium_Compote5665",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "7",
+            "commentCount": "41",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1oywa4c",
+        "title": "Has AI invented anything, or made any pioneering scientific breakthroughs?",
+        "content": "I'm a relative newbie to AI, and I'm assuming that this is perhaps misunderstanding what generative AI excels in, but I'm wondering if AI has made any scientific breakthroughs, or has invented anything radical and likely to be pioneering across any field?",
+        "url": "https://www.reddit.com/r/artificial/comments/1oywa4c/has_ai_invented_anything_or_made_any_pioneering/",
+        "publishDate": "2025-11-16T20:30:24Z[Etc/UTC]",
+        "author": "Nice_Income_2607",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "1",
+            "commentCount": "2",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1oyvgbo",
+        "title": "Peter Thiel dumps top AI stock, stirring bubble fears.\nA quiet selloff raises fresh questions about AI’s surge.",
+        "content": "[No content]",
+        "url": "https://www.thestreet.com/investing/peter-thiel-dumps-top-ai-stock-stirring-bubble-fears",
+        "publishDate": "2025-11-16T19:58:24Z[Etc/UTC]",
+        "author": "esporx",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "94",
+            "commentCount": "20",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1oyqdxy",
+        "title": "Gemini Vision + n8n for Real-World Invoice Extraction (From Messy Telegram Photos)",
+        "content": "Wanted to share a practical AI implementation we did recently.\n\n\n\n\\*\\*The Challenge:\\*\\*\n\n\n\nClients were sending invoice photos via Telegram. Image quality was all over the place:\n\n\\- Bad lighting and skewed angles\n\n\\- Creased or folded documents\n\n\\- Washed-out or blurry text\n\n\\- Standard OCR would fail constantly\n\n\n\n\\*\\*The AI Solution:\\*\\*\n\n\n\nBuilt an automated pipeline:\n\n\n\n1. \\*\\*Input:\\*\\* Telegram bot receives invoice photos\n\n2. \\*\\*Processing:\\*\\* Gemini Vision API extracts structured data (invoice number, date, amount, vendor, line items, etc.)\n\n3. \\*\\*Validation:\\*\\* Auto-format and validate extracted fields\n\n4. \\*\\*Output:\\*\\* Push clean data to Google Sheets\n\n\n\nAll orchestrated through n8n workflow automation.\n\n\n\n\\*\\*Key Learnings:\\*\\*\n\n\n\n\\- Vision models handle poor image quality far better than traditional OCR\n\n\\- Gemini Vision was surprisingly accurate even with heavily distorted images\n\n\\- Structured prompting is critical for consistent field extraction\n\n\\- Adding validation rules catches edge cases that AI misses\n\n\n\n\\*\\*Results:\\*\\*\n\n\\- Near-instant extraction vs hours of manual work\n\n\\- Accuracy remained high despite image quality issues\n\n\\- Scaled operations without adding headcount\n\n\n\nAnyone else working on vision-based document extraction? Curious what models/approaches you're using.",
+        "url": "https://www.reddit.com/r/artificial/comments/1oyqdxy/gemini_vision_n8n_for_realworld_invoice/",
+        "publishDate": "2025-11-16T16:41:40Z[Etc/UTC]",
+        "author": "Wonderful_Pirate76",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "5",
+            "commentCount": "4",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1oypdjf",
+        "title": "The computers that run on human brain cells",
+        "content": "[No content]",
+        "url": "https://www.nature.com/articles/d41586-025-03633-0",
+        "publishDate": "2025-11-16T16:01:59Z[Etc/UTC]",
+        "author": "Fcking_Chuck",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "2",
+            "commentCount": "1",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1oyn2bq",
+        "title": "Humanoid robots might be the new intelligent species by 2050.",
+        "content": "[No content]",
+        "url": "https://medium.com/@NeoCivilization/humanoid-robots-might-be-the-new-intelligent-species-by-2050-87ab4e07f6d1",
+        "publishDate": "2025-11-16T14:27:04Z[Etc/UTC]",
+        "author": "ActivityEmotional228",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "0",
+            "commentCount": "8",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "13AovEj4oDM",
+        "title": "Nano Banana PRO (Gemini-3.0-Pro-Image): I GOT EARLY ACCESS to GEMINI-3 PRO IMAGE &amp; IT&#39;S MIND BLOWING",
+        "content": "In this video, I'll be sharing my early hands-on results with Google's upcoming Nano Banana Pro / Gemini 3 Pro Image Gen model ...",
+        "url": "https://www.youtube.com/watch?v=13AovEj4oDM",
+        "publishDate": "2025-11-16T09:15:00Z",
+        "author": "AICodeKing",
+        "sourceType": "youtube",
+        "sourceName": "AI Code King YouTube Channel",
+        "metadata": {
+            "channelId": "UC0m81bQuthaQZmFbXEY9QSw",
+            "thumbnailUrl": "https://i.ytimg.com/vi/13AovEj4oDM/hqdefault.jpg",
+            "transcription": "Hi, welcome to another video. So, I was able to test Nano Banana Pro early via some of the trusted partners who got me access to it, and I was allowed to share my results. And here I am sharing those results with you. If you don't know, Nano Banana Pro is going to be released officially probably in the next week. I was able to test it early. And I thought to talk about this as well. I was not able to test it with image-to-image. I have only tested it for text-to-image. But when it comes out, you'll also be able to use it for image-to-image editing. Now, this model will probably be called Nano Banana Pro. The Pro comes from the word of Gemini 3 Pro, as the model officially will probably be called Gemini 3 Pro image gen. Let's talk about the model's capabilities now and the generations that I got from it. First of all, it is supposed to be really amazing at just being a model that can generate quite realistic images. So, I started with something that was kind of simple. I asked it to make me an image of a panda flying in the sky in the Superman costume. And well, it kind of nailed it. You can see that this image looks really cool. Some things that I used to find if an image is AI-generated, is that all the things in the image have the same amount of sharpness. But here, if you zoom in, then the cape is in motion and it is out of focus and has motion blur. This was really insane to see from a model. Also, the composition of the shot is really cool. You get a light wrap around the panda, which is really cool. Next, I tried something a bit more complex because it included text. I asked it to make me an image of a panda writing \"AICodeKing\" on a whiteboard. You can see that this just looks insane. The text isn't as real because who writes with like two lines for one letter? But it's not bad. One thing that I noticed is how it thinks before making an image. For an example, I just asked it to make me a panda writing on a whiteboard, but if you look behind the panda, you get bamboo stacked. This is such a cool look. It actually thinks of elements to put in and make it actually real. This is quite awesome. Next thing that I tried is actually super complex and I haven't seen any models be good at it. And that is replicating screenshots. So, I asked it to make me a computer with Windows that has the Chrome browser open with YouTube open in the browser and it kind of did well. Remember that the outputs that I'm showing are limited to 1080p. There's also a 4k mode that will come with the official release, and that will handle such stuff even better. But even here, you can see that the Windows OS looks actually real. The YouTube is also open correctly. If you look closely at the text, then it falls apart, but it is way better than the current gen models that we have. After this, I asked it to generate an image of a screenshot of MacOS with VS Code open. And it kind of nailed that as well. If you look at it, then it looks really amazing. You get the whole MacOS thing. On the top, you have the menu bars, some text here makes sense and some doesn't, but the VS Code look is really good. It looks very real. The code is not really correct here, but I mean it's just really good. The file names here are technically correct. The code is also correct to some extent, but it glitches at some places. After this, I asked it to make me a UI for a chat application. And well, it looked really good. This one makes a lot of sense. You get the model dropdown on the left here. You can see that the text here is really correct, and it doesn't look like generated from a diffusion model. There are still some text issues here and there, but it is still way ahead of every current gen model. For sure, I also asked it to make it light-themed, and it did everything quite well, which is also amazing. After this, I asked it to make me a panda in Sims style. And it did this quite well. You can see that the panda looks to be exactly in Sims style. The background is correct. The physics is correct. You get some UI elements as well. It's quite good. Then, I tried something that is even more hard. I asked it to make me an image of a panda sitting on a coffee table with a clock on the wall that ticks at 1:03 PM. This is a very tricky prompt because models can't really make clocks with exact times as they mostly spawn from noise. However, this is quite close. You can see that the panda is sitting on the table here and on the background, you get the clock which ticks at 1:00 PM. But I asked it to be 1:03 PM. However, it instead made the clock tick at exact 3, which is obviously not correct. But it is still way better than all other models as they mostly just can't do it. This is literally an awesome image gen model. It will probably come very soon in like the next week. And I can't be more excited to test it out in apps that will support it even more. I am liking it a lot. Google has literally cooked not only with their Nano Banana Pro model, but also their Gemini 3 Pro model checkpoints that we have seen before. I am glad that I was able to test it. It is a really good model for sure. My testing is still very limited because the API and stuff for it is quite glitchy. It is supposed to be even better at image editing. And I wasn't able to test that yet. But this is a really good model for sure. From the generations that I saw, it seems to think before making an image. Like, it thinks of composition, things to put in the shot, and it probably also improves on your prompt. I'm not an AI image generation fanatic, and I don't really know how to prompt them well enough. And I have seen insanely great generations from it, if you prompt it correctly. I prompt very simple stuff, and it still performs way better than any AI image gen model that I have seen yet. This is just awesome for sure. I hope that they just launch this soon. I am pretty confident now that Gemini 3 Pro and Nano Banana will launch very soon and early next week. It will really shake up the industry for sure based on these results that I'm seeing. This is just new gen. Overall, it's pretty cool. Anyway, share your thoughts below and subscribe to the channel. You can also donate via Super Thanks option or join the channel as well and get some perks. I'll see you in the next video. Bye."
+        }
+    },
+    {
+        "id": "K_l98-t2gkE",
+        "title": "Stalin&#39;s EQ was off the charts  – Sarah Paine",
+        "content": "",
+        "url": "https://www.youtube.com/watch?v=K_l98-t2gkE",
+        "publishDate": "2025-11-16T15:45:05Z",
+        "author": "Dwarkesh Patel",
+        "sourceType": "youtube",
+        "sourceName": "Dwarkesh Patel YouTube Channel",
+        "metadata": {
+            "channelId": "UCXl4i9dYBrFOabk0xGmbkRA",
+            "thumbnailUrl": "https://i.ytimg.com/vi/K_l98-t2gkE/hqdefault.jpg",
+            "transcription": "There are dictators all over the world who stay in power for a long time. Do not dismiss their ability to stay in power. They're surfing quite a wave wherever they live, of people who butcher each other with great regularity. I would suspect that many of these long-term dictators have EQs that are off the charts. When you come in the room, they just gut feeling know whether they're going to cap you or not. And if they get a few extra people, so what, right? Just so they get rid of all the people who are going to cause them problems. Also what Stalin does is you have multiple security agencies with overlapping jurisdictions, and so no one quite knows who's running the show and who's in power, but they're all funneling information to Stalin, so he has better information than anybody else. They're very good at staying in power. They're really good at managing that problem. It does not bring prosperity. That comes from the world of of maritime trade, of following by international law, instead of capping your trade partner, you're not going to get a second trade deal if you do that. It's just so much more wealth creating this alternate universe. But that's not where these continentalists are..."
+        }
+    },
+    {
+        "id": "BbI8n9XZJo4",
+        "title": "The biggest Mystery of LLMs have just been solved",
+        "content": "Ready to build a site that looks hand-coded—without needing a developer? Launch your site for free at https://framer.link/bycloud, ...",
+        "url": "https://www.youtube.com/watch?v=BbI8n9XZJo4",
+        "publishDate": "2025-11-16T14:22:30Z",
+        "author": "bycloud",
+        "sourceType": "youtube",
+        "sourceName": "bycloud YouTube Channel",
+        "metadata": {
+            "channelId": "UCgfe2ooZD3VJPB6aJAnuQng",
+            "thumbnailUrl": "https://i.ytimg.com/vi/BbI8n9XZJo4/hqdefault.jpg",
+            "transcription": "When you are using AI chatbots, you might have seen this parameter that has a slider between zero and one called temperature. A common explanation for this parameter is that if you want the AI to be more creative, put it at one, and if you want it to have a more consistent answer, put it at zero. But what this temperature value ultimately entails us that, as the LMs are predicting the next token, where it will have a probability distribution over all available tokens, this temperature parameter would inform the model what strategy to use when picking from all this list of tokens. So if your temperature is zero, it'll force the model to be greedy and always pick the token with the highest probability. Then you might think that if we set the model temperature to zero every time when we run the model with the same exact prompt, the model should always give us the same exact answer. While technically, it should actually do that. Just like how when we run a computer program, it should always get the same result. But in reality, even if you constrain all possible randomness, because of how big LLMs are and how they are served efficiently to the users, there are more than one factors that will stop the LLMs from being consistent. This then gives an illusion that LLMs are not deterministic, or at least this is what we assumed what's happening. That is until the ex-OpenAI CTO Mira Murati's new AI lab called Thinking Machines, where they published their first ever research blog called Defeating Nondeterminism in LLM Inference written by Horace He aims to address this nondeterminism attributes in LLMs while exploring and explaining the intricate details that affects the consistency of LLMs. But before we dive into it, if you are building a website for your business, there's nothing else that can help you roll out faster than Framer. No need to bounce between designers, engineers and marketing, while you can still put out a professional website. It's built in a way so you can design, launch, localize and optimize an entire site without touching code at all. You get CMS, A/B testing, analytics, staging environments, role-based access control, SSL and DDoS protection all in one place. And this is not your typical no-code website builder too. Framer powers sites like Perplexity, Miro, Superhuman, and a bunch of YC startups. Your marketing team can literally run the site without needing to bother the engineering team while looking this good. In Framer, the canvas is the website. The interface feels like Figma, so design and build happen in the same place and in real-time. There's no handoff, no rebuild in code and no lag. You design the page, wire up CMS content, connect forms, hit publish, and that's it. Your landing page is live. I also built one myself a while ago and it's actually that easy, including adding the animations too. So if you are ready to build a site that looks hand-coded without hiring a developer, you can launch your site for free now at framer.com and use code BYCLOUD for a free month on Framer Pro. And thank you, Framer, for sponsoring this video. Anyways, when I first thought about the reason why LLMs would be nondeterministic, my reaction was that maybe it is because of all the parallelism that the GPUs need to make the model run faster, which causes some low-level floating-point imprecision, resulting in a nondeterministic machine. Take GPUs atomic add operation for example. If you have six operations that need to be done at the same time, it will make sense to spread it across six GPU cores simultaneously, right? And if you run this process 10 times or 100 times, each of the six GPU cores may all finish differently. So when you need to accumulate them together, the order is not guaranteed to always be the same, creating a nondeterministic system. But the funny thing is during LLM inference, the GPUs don't actually need to run methods like atomic add. And most of the contention can be completely avoided, making it not the root cause of temp zero variation in LLM outputs. So LLMs shouldn't be nondeterministic at all. That is until you zoom out and see the bigger picture. The real nondeterministic component is not from the software nor the hardware. It's from us, the humans. Whenever you enter something into ChatGPT, your request would be sent to a server containing the model hosted by OpenAI. And in actual production, servers would pack requests together to process them more efficiently. So for example, at precisely 10:00 AM, you send a request with no one else arriving in the next 10-millisecond window, then the server would only process your request through the model. And in the next minute, you send another request with the same exact prompt, with the same temperature and seed, but this time there are 15 other people that also sent the request within the same 10-millisecond window as you. What would happen here is that the 10:00 AM request with only your prompt would run at a batch of one, but the 10:01 AM request would run at a batch of 16, completely changing the batch dimension. But why would that be a problem? Well, that is because the kernel's calculation strategies are batch-variant. For context, a kernel is a tiny, highly optimized program that runs on the GPU to do one specific math task on a chunk of data. So, as the batches are very different now, the kernels would have to switch strategies to stay efficient, so it keeps all the GPU parts used. However, switching strategies are not the key problem that causes the nondeterminism, but something that's on the lower level is. In computers floating-point operations, tiny changes in the reduction order of how partial sums are combined could lead to tiny rounding differences. So unlike how we look at basic arithmetic, where we would expect the answers to be the same on both sides, in hardware's floating-point arithmetic, things would interact a bit differently because of how it rounds after each operation. For example, in 32 bits, 10 to the power of 8 + 1 - 10 to the power of 8 can result in completely different values depending on where you put the parentheses or which part of the calculation you calculate first. So, tiny changes in the reduction order like this can change which bits get rounded away first. And because of varying sizes, different kernel strategies would be used like different tile sizes, use split K or split KV to spread a reduction across more cores, break down short queries to process it even faster, or handle cached or fresh tokens separately. Most of the time, these inconsistent values created by the process are harmless. But eventually, they could pollute through the layers and a few hundred tokens later, tipping over a temperature zero greedy argmax from picking one token to another, creating a domino effect that lets the model generate a completely different sentence, even when all the obvious sampling or seeding are constrained. So, to be batch-invariant, they would need to prevent the GPU from using different kernel strategies and have a fixed reduction order due to how it will round numbers up differently. While fixing the reduction order removes the kernel's freedom to pick the fastest and most optimal strategy for the kernel. Since you're giving up some load balancing and leave the hardware underutilized, it still guarantees reproducibility. And to be honest, the underutilization sometimes may not even be that big of a deal, unless you're serving the model at a super large scale. But anyways, a deterministic mode can indeed be created, which is very good for reproducing evaluation, as it is pretty needed in this day and age where everyone is benchmark maxing. So LLM's nondeterministic property isn't about some uncontrollable and pure GPU randomness emerging from parallel computing. It's actually the interaction of batching requests where the kernels would need to use different calculation strategies to achieve hardware efficiency that will result in different reduction order, creating a numerical shift that affect the greedy argmax, and affecting the consistency of the output. So if you can have kernels to be batch-invariant, then the output with temperature of zero would repeat across all different runs even as server load varies. And this is what the researchers proved at Thinking Machines. They proposed batch-invariant attention, and in their experiment, they ran Qwen-3-235B-A22B-Instruct at temperature zero on the prompt \"Tell me about Richard Feynman.\" sampling 1,000 tokens for 1,000 completions. With a standard stack, they still got 80 distinct completions. The most common one appeared 78 times. And the first divergence showed up at token 103, indicating that this is the first tipping point of the effects from the reduction order. And after swapping in batch-invariant kernels, all 1,000 out of 1,000 completions were identical. Which is proved their theory. To have this kind of determinism, there is still some sort of sacrifice in speed. They tested on a single GPU vLLM server with Qwen-3-8B generating 1,000 sequences of around 100 tokens. Comparing the deterministic build of the kernels to using vLLM, the slowdown is nearly 2.1 times longer, with an optimized method able to pull it lower, reducing it down to 1.61 times. And surprisingly, other than making evaluations more reproducible, the researchers also found out that batch-invariant inference could improve training in an unexpected way. In typical pipelines, the model you inference and sample from doesn't produce exactly the same output as the model you train with. For example, the inference stack of the model would be using vLLM with KV cache plus dynamic batching, and the training stack would not have KV cache and a dynamic batching problem. But these differences triggered different kernels and ultimately different reduction orders, causing the policy, aka the model that generate the actions, is not the same identical model that trains on the loss signal from the action. The logic is kind of like when you broke something, but you blame it on your younger brother, so he's the one that's getting yelled at. This means you are subtly off-policy, basically learning from a different model that's only a tiny bit different from you. So batch-invariant inference basically solves this. It makes the sampler use consistent kernels when there are different batching or other setups. And the inference model, we use the exact same batch-invariant attention to prevent different reduction order to appear. So the model that has been sampled and the model that has been trained on should match properly and have the RL update truly be on-policy, which should train much more smoothly. Fascinating, isn't it? This is one of the most interesting LLM debugging or debunking posts I've read in a while because finding out why must have been extremely hard. And the researchers over at Thinking Machines really made a cool discovery here. So with this and their other recent research blog posts, they have already become one of my favorite research labs. The quality has been amazing, and the topics of the problems is just so interesting. I will definitely be covering their other research blog posts in the future, so subscribe to stay tuned. And shout out to CalebWritesCode for helping me with this video while I'm away. He also makes great AI explainers, and you should definitely check him out. And if you like today's video, definitely check out my newsletter where I cover the latest research papers weekly. On there, you'll always be up-to-date on the latest research progress. And thank you guys for watching. A big shout out to SPAM MAJ, Chris Ledoux, DEAGAN, Robert Zawiasa, MARCELO FERREIRA, POOF N' INU, DX RESEARCH GROUP, ALEX, and many others that support me through Patreon or YouTube. Follow me on Twitter if you haven't, and I'll see y'all in the next."
+        }
+    }
+]
