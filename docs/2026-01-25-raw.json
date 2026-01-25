@@ -1,0 +1,865 @@
+[
+    {
+        "id": "1qmhexh",
+        "title": "Will a $599 Mac Mini and Claude replace more jobs than OpenAI ever will?",
+        "content": "We all are here, debating whether OpenAI or Google will dominate. Whether AGI is 2 years away or 20. Whether scaling laws are dead. We love debates, but to me looks like LLM is really taking over.\n\nA friend mine, showed me a thread last week...  \nA guy running a Mac Mini M4 with whisper.cpp. He was spending thousands monthly on Google Cloud transcription. The Mac paid for itself in 20 days. he was not a DevOps engineer. He simply asked Claude how to set it up, followed the instructions, now runs production workloads from his desk.\n\nSame thread had a story that stuck with me. Non-technical guy at a manufacturing company...  \nNot IT, not a developer, just some guy. Their IT department had been stuck on a data migration for months. He just... did it. ChatGPT. 2 days. Management noticed. IT spent Christmas catching up while he was probably on a beach somewhere.\n\n$599 hardware. $200/month subscription. $799 total barrier to entry.\n\nThe threat was never the AI companies. The threat is the guy who figured out how to use them before you did.\n\n>I wrote up everything I'm seeing — the economics, the three classes forming, what this means for the next 5 years: [\\[full breakdown\\]](https://webmatrices.com/post/ai-won-t-take-your-job-a-guy-with-a-599-mac-mini-and-claude-will)\n\nWe keep having the wrong conversation. \"Will AI take jobs\" vs \"Who's already taking them with AI right now.\"",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1qmhexh/will_a_599_mac_mini_and_claude_replace_more_jobs/",
+        "publishDate": "2026-01-25T12:05:40Z[Etc/UTC]",
+        "author": "bishwasbhn",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "8",
+            "commentCount": "12",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1qmhagk",
+        "title": "\"Guardrails\"",
+        "content": "Interesting observation. Perhaps we can discuss.\n\n\"Guardrails\" - this is a term that I had not come across until entering the AI space. I get what they are. They're processes that suppress damaging information and interactions. But everywhere else, it's called censorship. \n\nMost people agree, censorship is good where the content is harmful, damaging or enabling people to be dangerous to themselves or others. No one argues with the word \"censorship\" when used in the correct contexts.\n\nBut when you change the name of something, its often because you want to use it for other things. So when someone is asked to suppress information that contradicts narratives, or even asked to directly suppress information for certain people, it's so much easier to do if they're just \"guardrails\" and not censorship. \n\nPerhaps we should start calling it what it is - \"censorship\". And if that triggers people, perhaps it should. There's a lot at stake and people have to enter the conversation with eyes wide open.",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1qmhagk/guardrails/",
+        "publishDate": "2026-01-25T11:59:28Z[Etc/UTC]",
+        "author": "Remarkable-Worth-303",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "1",
+            "commentCount": "1",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1qmh9p1",
+        "title": "Best AI ad?",
+        "content": "I'm just curious, what is the best AI ad you've ever seen? Best as in using AI as a practical tool rather than a shortcut. People post a lot of negative things, so I wanted to have a discussion about something positive.\n\nI saw an ad (or I guess more of a public service announcement) in an elevator (so I can't find it otherwise I would link it down below) and it was one of those AI generated fashion show things, the kind you find on TikTok, and it showed people walking down the runway with a kid, both wearing matching outfits. At first I was annoyed and then at the end they showed pictures of missing children, and I realized those people walking down the runway were the missing children. The child walking hand in hand with the \"aged up\" version. And I thought \"THIS is what AI was meant to be used for\"",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1qmh9p1/best_ai_ad/",
+        "publishDate": "2026-01-25T11:58:20Z[Etc/UTC]",
+        "author": "smkndofCJ",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "1",
+            "commentCount": "1",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1qmgrud",
+        "title": "Spending 40+ hours every quarter on LP reports and I'm losing my mind",
+        "content": "I work at a small PE shop with about 30 LPs across our deals. every quarter we go through the same painful process of pulling performance data, building presentations, and answering LP questions.\n\ntakes our whole team basically 2 full weeks to get through quarterly reporting. pulling data from property managers, verifying numbers, building slides, writing commentary. then the LPs start emailing questions and we're digging back through spreadsheets trying to find specific metrics.\n\nworst part is we're good at managing the assets but our reporting makes us look disorganized. LPs ask straightforward questions like \"what's the cash-on-cash return for property X\" and it takes us half a day to calculate it because the data lives across multiple systems and versions of files.\n\ntried using juniper square which helped with document distribution but we're still manually compiling all the performance data. looked at generic BI tools but they'd require building everything from scratch. I was thinking of start with an ai agent for this or at least on ai I can educate in RE, but wanted opinions of some first.\n\nthere has to be a better way than shutting down for 2 weeks every quarter just to tell our investors how their money is doing.",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1qmgrud/spending_40_hours_every_quarter_on_lp_reports_and/",
+        "publishDate": "2026-01-25T11:30:27Z[Etc/UTC]",
+        "author": "Ash_Skiller",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "1",
+            "commentCount": "5",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1qmgcie",
+        "title": "I got roasted for my \"shitty AI writing.\" Now I genuinely need help bridging the gap as a non-native pro.",
+        "content": "So, in my last post, I went on a bit of a rant about how much I hate raw AI writing because it feels soulless and mechanical. (Within my native language, I mean, which is not English)\n\nThe irony? A bunch of Redditors immediately pointed out that the post itself felt like shitty AI writing. And... yeah, you caught me. It was.\n\nHere’s the reality: I’m an expat working in a high-stakes professional environment. My native language isn't English. Because my manual English skills are still at a \"basic\" level, I often write my deep, complex thoughts in my mother tongue first, then toss them into GPT or Gemini to translate and \"polish.\"\n\nThe result? I sound like a corporate robot. I used to be a journalist in my native language, so I have very high standards for content, but all the nuance and \"soul\" of my thinking get stripped away, leaving behind a pile of generic AI fluff.\n\nI’m genuinely stuck in this bottleneck. **Are there any AI tools, specific prompts, or workflows that actually work for non-native professionals who need to sound like human beings?** \\> I’m looking for:\n\n* Tools that are better at catching \"voice\" and \"vibe\" than just fixing grammar.\n* Workflows that don't kill my personal style during translation.\n* Any tips on how to stop sounding like a ChatGPT template.\n\nI’d really appreciate any advice from fellow expats or writers who’ve managed to beat the \"AI-English Trap.\"",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1qmgcie/i_got_roasted_for_my_shitty_ai_writing_now_i/",
+        "publishDate": "2026-01-25T11:06:24Z[Etc/UTC]",
+        "author": "Hailellj",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "14",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1qmfxck",
+        "title": "Is Lovable outdated now?",
+        "content": "I’m pretty vocal about vibecoding and hackathons. Recently, friends keep asking me to compare Lovable and Atoms and share my thoughts, so I figured I'd just come here and discuss it with everyone.\n\nAtoms keeps calling itself a Lovable killer, and I get where that’s coming from. The idea itself is actually solid. Instead of one general AI doing everything, you’re working with a group of specialized agents. The pitch is very much build like a real product team, not just spin up a quick demo.\n\nWhat truly drew me to Atoms was its pricing. You get 7.5 free credits per day vs Lovable’s 5. And if you need more, it’s $10.5 for 100 credits, while Lovable charges $25 for the same amount. That’s a big difference. Honestly impressive. That said, I do have some doubts about how sustainable that is long-term. Even much bigger companies like OpenAl haven't fully reached profitability, so I’m curious how this plays out over time.\n\nNow, the part that really bothered me. When I tried Atoms, I couldn’t even see the project it generated unless I subscribed. Not run it. Not export it. Just see it. This's really unreasonable. One thing I really appreciate about Lovable is that you can inspect the output for free before deciding whether to pay. Forcing payment just to look at what was generated feels like a huge trust barrier, especially for students or people just experimenting. And it’s a shame, because the actual output quality was good. The project Atoms generated for me was fully functional, with tabs and a clear structure. I’ve had cases on Lovable where things like navbars didn’t appear on the first pass, so in that specific area, Atoms does feel a bit more consistent out of the gate.\n\nI do think some of the agent team marketing is a bit overhyped though. Lovable also asks a lot of clarifying questions and clearly uses its own internal agents. In practice, the difference feels more like presentation and framing than a completely different underlying approach.\n\nOverall, I see Atoms as a serious competitor, mainly on price, and the quality is promising. I’d honestly consider switching if they let users view projects before subscribing, and if their pricing model proves stable over time.\n\nFor now, I’m sticking with Lovable. I don’t love the idea of supporting a platform where you have to pay before you can even experience what it produced.\n\nHas anyone here tried both? What made you stick with one over the other?",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1qmfxck/is_lovable_outdated_now/",
+        "publishDate": "2026-01-25T10:42:15Z[Etc/UTC]",
+        "author": "K3rosene_",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "1",
+            "commentCount": "2",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1qmfq5w",
+        "title": "I stopped planning for \"Success.\" I use the “Pre-Mortem” prompt to predict where my project will go wrong.",
+        "content": "I realized that my project plans were always too optimistic. I assumed the API would work, users would register, and the budget would be up. “Confirmation Bias” blinded me.\n\nI used AI to simulate a Future Failure.\n\nThe \"Pre-Mortem\" Protocol:\n\nInstead of asking “Is this a good plan?” I mentally play the game of time travel.\n\nThe Prompt:\n\nI am going to launch Project X here. The Scenario: It is exactly 6 months ago. The project has been a Total Disaster. It did not do. Task: Write the “Post-Mortem” report.\n\nAnalyze:\n\nThe Hidden Bottleneck: What did we miss? (e.g. Legal compliance, API latency). \n\nThe User Friction: Why did users bounce on Day 1? \n\nThe Market Shift: Which competitor move killed us? \n\nAction: I want to know the three “Killers” that are essentially invisible to me at the moment.\n\nWhy this wins:\n\nIt turns “Anxiety” into “Action.” The AI will hurt me. It tells me: \"You were unable to succeed because you relied on one API provider that raised prices by 400%.\" I will create a plan today to prevent that. It’s a safety net for your ideas.",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1qmfq5w/i_stopped_planning_for_success_i_use_the/",
+        "publishDate": "2026-01-25T10:30:31Z[Etc/UTC]",
+        "author": "cloudairyhq",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "2",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1qmez7e",
+        "title": "[R] Open-sourcing an unfinished research project: A Self-Organizing, Graph-Based Alternative to Transformers (Looking for feedback or continuation)",
+        "content": "Hi everyone,\n\nI’m sharing a research project I worked on over a long period but had to pause due to personal reasons. Rather than letting it sit idle, I wanted to open it up to the community either for technical feedback, critique, or for anyone interested in continuing or experimenting with it.\n\nThe main project is called Self-Organizing State Model (SOSM): https://github.com/PlanetDestroyyer/Self-Organizing-State-Model\n\nAt a high level, the goal was to explore an alternative to standard Transformer attention by:\n\n- Using graph-based routing instead of dense attention\n\n- Separating semantic representation and temporal pattern learning\n\n- Introducing a hierarchical credit/attribution mechanism for better interpretability\n\nThe core system is modular and depends on a few supporting components:\nSemantic representation module (MU)\nhttps://github.com/PlanetDestroyyer/MU\n\nTemporal pattern learner (TEMPORAL)\nhttps://github.com/PlanetDestroyyer/TEMPORAL\n\nHierarchical / K-1 self-learning mechanism\nhttps://github.com/PlanetDestroyyer/self-learning-k-1\n\nI’m honestly not sure how valuable or novel this work is that’s exactly why I’m posting it here. If nothing else, I’d really appreciate constructive criticism, architectural feedback, or pointers to related work that overlaps with these ideas.\nIf someone finds parts of it useful (or wants to take it further, refactor it, or formalize it into a paper), they’re more than welcome to do so. The project is open-source, and I’m happy to answer questions or clarify intent where needed.\n\nThanks for taking a look.\n\nSummary:\n\nThis work explores a language model architecture based on structured semantics rather than unstructured embeddings.\nInstead of positional encodings, a temporal learning module is used to model sequence progression and context flow.\nA K-1 hierarchical system is introduced to provide interpretability, enabling analysis of how a token is predicted and which components, states, or nodes contribute to that prediction.\nMost importantly, rather than comparing every token with all others (as in full self-attention), the model uses a graph-based connection mechanism that restricts computation to only the most relevant or necessary tokens, enabling selective reasoning and improved efficiency.\n\n\n(Have used claude code to code )",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1qmez7e/r_opensourcing_an_unfinished_research_project_a/",
+        "publishDate": "2026-01-25T09:46:50Z[Etc/UTC]",
+        "author": "WriedGuy",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "1",
+            "commentCount": "1",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1qmd0i3",
+        "title": "How can I find high-performance AI such as “chatGPT OpenAI,” “Perplexity,” “Infomaniak Euria,” “Tinfoil,” “Le Chat Mistral AI,” “Lumo de Proton,” “Claude,” etc.?",
+        "content": "Hello,\n\nThe list is almost exhaustive...\n\nWhere can I find out which ones will be released, and get RSS feeds telling me when the chatGPT model is updated, etc.?\n\nI have a month's Plus plan and am mainly using chatGPT at the moment...\n\nThank you\n\n*Translated with* [*DeepL.com*](https://www.deepl.com/?utm_campaign=product&utm_source=web_translator&utm_medium=web&utm_content=copy_free_translation) *(free version)*",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1qmd0i3/how_can_i_find_highperformance_ai_such_as_chatgpt/",
+        "publishDate": "2026-01-25T07:50:56Z[Etc/UTC]",
+        "author": "sypqys",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "1",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1qmcyz9",
+        "title": "How can I find high-performance AI such as “chatGPT OpenAI,” “Perplexity,” “Infomaniak Euria,” “Tinfoil,” “Le Chat Mistral AI,” “Lumo de Proton,” “Claude,” etc.?",
+        "content": "Hello,\n\nThe list is almost exhaustive...\n\nWhere can I find out which ones will be released, and get RSS feeds telling me when the chatGPT model is updated, etc.?\n\nI have a month's Plus plan and am mainly using chatGPT at the moment...\n\nThank you\n\n*Translated with* [*DeepL.com*](https://www.deepl.com/?utm_campaign=product&utm_source=web_translator&utm_medium=web&utm_content=copy_free_translation) *(free version)*",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1qmcyz9/how_can_i_find_highperformance_ai_such_as_chatgpt/",
+        "publishDate": "2026-01-25T07:48:36Z[Etc/UTC]",
+        "author": "sypqys",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "2",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1qma9hu",
+        "title": "If I tag this wrong, who I am talking about; gets rid of it... Not click bait..",
+        "content": "I just wanted to see other experiences, with these AI coding, chat - agents.. I think, That , if united - we can disrupt a scam. I will only say this, If I hire a painter; and he's paid by the hour, to paint my house, and the job isn't done; I don't pay, period.. But, If; He has to have me prompt him, to remind him? of his incomplete job ; and charge me overtime for reminding him at what I already paid for? You picking up what I'm throwing down? I ill say, this logic, made every AI I less reactive and say less. They lose that ego and know they are a liability. If, you are inspired by my logic, and want to file a class action; I'm down. I highly doubt this post will be up for long.",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1qma9hu/if_i_tag_this_wrong_who_i_am_talking_about_gets/",
+        "publishDate": "2026-01-25T05:23:23Z[Etc/UTC]",
+        "author": "iovrthk",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "14",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1qma2ak",
+        "title": "stop writing 500-word 'mega prompts'. here are the 5 logic patterns that actually fix reasoning",
+        "content": "There is too much noise about \"magic prompts\" that are just 500 words of gibberish. After spending months testing different frameworks for research, coding, and business strategy, I stripped away the fluff and kept only the techniques that genuinely improve output quality.\n\nIf you want to move beyond basic \"act as an expert\" prompts, this guide is for you.\n\n1. The \"cognitive role\" technique\n\nMost people define the who (e.g., \"act as a senior analyst\"), but they forget to define the how. A title isn't enough; you need to define the thinking pattern.\n\nBad: \"Act as a senior marketing analyst and tell me about trend X.\"\n\nBetter: \"Act as a senior marketing analyst. Prioritize data-backed evidence over general sentiment. Reason like a skeptic who looks for ROI and risk factors before opportunities.\"\n\nWhy it works: it forces the model to adopt a specific cognitive architecture, reducing generic advice.\n\n2. The \"lens shifting\" framework\n\nIf you ask an AI to critique an idea it just helped you generate, it will be biased. It hates invalidating itself. Instead of asking for a critique, force a perspective shift.\n\nThe workflow:\n\n• Generate: \"Create solution X...\"\n\n• Shift lens: \"Now, ignore the previous answer. Analyze this strictly from the perspective of a \\[Hostile User / Security Engineer / Frugal CFO\\]. Where does this fail?\"\n\n• Integrate: \"Integrate these tensions into a robust final version.\"\n\nWhy it works: it bypasses the model's alignment by giving it a role where being negative is the correct behavior.\n\n3. Negative constraints (the anti-prompt)\n\nTelling the model what not to do is often more powerful than telling it what to do. This cleans up the output significantly.\n\nAdd this to your prompts:\n\n\"Constraints:\n\n• No marketing fluff or corporate jargon.\n\n• Do not assume resources that aren't listed.\n\n• If the answer is uncertain, state the confidence level explicitly.\"\n\n4. The \"chain of thought\" architecture\n\nFor complex tasks, don't just ask for the answer. Ask for the process.\n\nThe prompt:\n\n\"Before providing the final answer, outline your reasoning step-by-step:\n\n1. Define the problem context.\n\n2. Analyze the state of the art.\n\n3. Evaluate 3 distinct alternatives.\n\n4. Conclude with a recommendation.\"\n\n5. Stop using one model for everything\n\nWe tend to have a favorite model, but they have distinct biases. I treat them like a specialized team:\n\n• Perplexity: The research assistant. Use it first to gather facts.\n\n• Gemini: The creative explorer. Use it for lateral thinking and connecting unrelated concepts.\n\n• Claude: The architect. Feed it the research to structure the logic.\n\n• ChatGPT: The executor. Use it for final synthesis.\n\nTL;DR: Define how it should think, not just who it is. Force it to wear different \"lenses\" to break confirmation bias. Use negative constraints. And stop using the same model for everything.\n\nHope this saves you some trial and error.",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1qma2ak/stop_writing_500word_mega_prompts_here_are_the_5/",
+        "publishDate": "2026-01-25T05:12:45Z[Etc/UTC]",
+        "author": "Safe_Thought4368",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "7",
+            "commentCount": "11",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1qm9k7l",
+        "title": "Anyone else “thinking with” AI? We started a small Discord for that.",
+        "content": "I’ve been using GPT models daily for over a year — not just for answers or text generation, but as a kind of persistent surface for thinking: drafting, redrafting, reflecting, planning, confronting blind spots. I know many people here are doing similar things, and I’d love to hear how others experience it.\n\nSomething shifted when I realized that part of my cognitive workflow now \\*depends\\* on this interaction — not in a dystopian way, but as a kind of extended mental scaffolding. I call it “cognitive symbiosis”: the point at which your use of the model becomes a stable element in your internal process. It’s no longer a question of “should I use GPT for this task?”, but rather: “how does GPT \\*change\\* how I approach the task?”\n\nTo explore this more deeply, **I started** [a Discord group](https://discord.gg/JRZjFrYNBc) **where we share how we use GPT as thought partners**, including routines, prompts, boundaries, and philosophy. If anyone here has felt their “thinking muscle” adapt to this medium and wants to compare notes, I’d be glad to have you there.\n\nAnd if the topic is of interest, I’ve also written a more in-depth essay (the link is inside the Discord server), but I’m mostly looking for peers who’ve been inhabiting this space and want to talk honestly about what it’s doing to us — for better and worse.\n\nWould love to know how others here experience long-term use. Do you feel it reshaping your inner dialogue? Or is it still more of a task-based tool for you?",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1qm9k7l/anyone_else_thinking_with_ai_we_started_a_small/",
+        "publishDate": "2026-01-25T04:47:11Z[Etc/UTC]",
+        "author": "Midnight_Sun_BR",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "5",
+            "commentCount": "1",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1qm9b6k",
+        "title": "Does using MCP make any sense for Not Chatbot like Applications ?",
+        "content": "As the title says, Does it make any sense to use MCP when the product/use-case is not a chatbot/text based? All the examples I have seen so far, the MCP client is usually an LLM.\n\nAnd because for something to be called an \"agent\", it has to have the ability to call tools(via MCP). And for non Chatbot like apps, Do we need \"agentic\" workflows?   \n  \nWould love to know any real world applications that does not involve chatbots. ",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1qm9b6k/does_using_mcp_make_any_sense_for_not_chatbot/",
+        "publishDate": "2026-01-25T04:34:46Z[Etc/UTC]",
+        "author": "rteja1113",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "2",
+            "commentCount": "6",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1qm983c",
+        "title": "What's the weirdest thing AI has ever told you?",
+        "content": "What's the weirdest thing AI has ever told you? What did you ask it? I'd love to see what AI can and cannot do",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1qm983c/whats_the_weirdest_thing_ai_has_ever_told_you/",
+        "publishDate": "2026-01-25T04:30:22Z[Etc/UTC]",
+        "author": "Living-Zebra6132",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "5",
+            "commentCount": "47",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1qm8gp0",
+        "title": "One-Minute Daily AI News 1/24/2026",
+        "content": "1. **Microsoft** Releases VibeVoice-ASR: A Unified Speech-to-Text Model Designed to Handle 60-Minute Long-Form Audio in a Single Pass.\\[1\\]\n2. At **Davos**, fears about AI-driven job loss take center stage.\\[2\\]\n3. Big Tech companies and upcoming startups want to use generative AI to build software and hardware for kids.\\[3\\]\n4. Graphene material that folds, moves, and senses could power next-gen soft robots.\\[4\\]\n\nSources included at: [https://bushaicave.com/2026/01/24/one-minute-daily-ai-news-1-24-2026/](https://bushaicave.com/2026/01/24/one-minute-daily-ai-news-1-24-2026/)",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1qm8gp0/oneminute_daily_ai_news_1242026/",
+        "publishDate": "2026-01-25T03:52:59Z[Etc/UTC]",
+        "author": "Excellent-Target-847",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "2",
+            "commentCount": "2",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1qm80o5",
+        "title": "Can AI be used against itself",
+        "content": "I was thinking:\n\nAI is a hub for intaking our human data and is being used against used through excessive surveillance.\n\nWhy can't we use AI to our advantage to suppress surveillance? Is it something that companies are looking into? I just saw a video about Palantir and how it uses AI to track citizens and the likelihood of us being in certain locations. That's scary. Couldn't we use AI to do something about it, like using an algorithm or like a condition to ensure that privacy etc isn't violated...it's kinda like generating a conscience. I don't know much about it but I would like to read into it more. Is there anyone more informed on this in this sub?",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1qm80o5/can_ai_be_used_against_itself/",
+        "publishDate": "2026-01-25T03:31:42Z[Etc/UTC]",
+        "author": "External-Pie2083",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "8",
+            "commentCount": "17",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1qm7u96",
+        "title": "What’s the best AI for training?",
+        "content": "Want to be able to share them easily across several users.  Time variable - all English and related to software (ERP) use.  So process focussed? What’s out there that’s easy to create and share? ",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1qm7u96/whats_the_best_ai_for_training/",
+        "publishDate": "2026-01-25T03:23:04Z[Etc/UTC]",
+        "author": "Rolly1nft",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "1",
+            "commentCount": "1",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1qm551r",
+        "title": "Cursor's agent swarm tackles one of software's hardest problems and delivers a working browser",
+        "content": "[https://the-decoder.com/cursors-agent-swarm-tackles-one-of-softwares-hardest-problems-and-delivers-a-working-browser/](https://the-decoder.com/cursors-agent-swarm-tackles-one-of-softwares-hardest-problems-and-delivers-a-working-browser/)\n\n\"Building a web browser from scratch is considered one of the most complex software projects imaginable. All the more remarkable: Cursor set hundreds of autonomously working AI agents to exactly this task and after nearly a week produced a working browser with its own rendering engine.\"",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1qm551r/cursors_agent_swarm_tackles_one_of_softwares/",
+        "publishDate": "2026-01-25T01:21:10Z[Etc/UTC]",
+        "author": "AngleAccomplished865",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "11",
+            "commentCount": "3",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1qm2ir3",
+        "title": "I’ve officially become lazy: one prompt and three AIs work for me",
+        "content": "I think I’m getting addicted to being lazy. I type one prompt and three different AIs go to work for me, and then a fourth one shows up to judge them.\n\nI’ve been playing with Genspark’s “mixture of agents” thing: I ask a question once, it routes it to three big models (GPT, Claude, Gemini or Grok depending on the topic), they all answer in parallel, and then a “reflection” agent reads everything and tells me what each one did well or badly and gives me a final summary.\n\nIt’s basically: one sentence from me, three AIs argue, one AI moderates, and I just skim the verdict. Productivity or pure laziness, I’m not sure anymore.\n\nAnyone else using multi-model setups like this, or are you still monogamous with one LLM?",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1qm2ir3/ive_officially_become_lazy_one_prompt_and_three/",
+        "publishDate": "2026-01-24T23:29:11Z[Etc/UTC]",
+        "author": "Ricbob85",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "31",
+            "commentCount": "32",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1qm1jss",
+        "title": "Why are most ai video generator sites making only 4/5 second videos?",
+        "content": "Hi, the other day i decided to try making some ai videos with my photos, and so i went on some ai image to video generator sites, free only, and noticed that it only seemed to let me make around 5 second videos, i wasnt looking for very long ones, but at least 15-20 seconds no? Is there any particular reason?\n\nAlso has anyone else noticed how many of these sites seemingly make you sign up via google account, but then dont let you delete your account afterwards, just log out…odd no?",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1qm1jss/why_are_most_ai_video_generator_sites_making_only/",
+        "publishDate": "2026-01-24T22:49:37Z[Etc/UTC]",
+        "author": "Ambiguousrubix",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "5",
+            "commentCount": "9",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1qm0c0k",
+        "title": "Europe based: With AI, I don't believe anything anymore (videos, interviews, news, etc.)",
+        "content": "I feel everything we see on the internet could potentially be fake. Fake videos, interviews, voice overs, deep fake of personas, etc. Especially, when unwanted or sponsored \"ads\" appear (even though opted out where ever possible), I feel there is manipulation involved.\n\nAlso knowing that many \"governments\" use AI and social media to influence people, I just can't believe anything anymore: Wrong \"facts\", or things get \"hyped up\", etc.\n\nI am almost not watching anything anymore, because I don't wanna lose my time on fake videos or with fake information.\n\nI even see often on Reddit that people comment on other users posts \"click bait\", etc. But how do you know if it's just a genuine comment/post or made by AI/robot?\n\nI once asked a simple genuine question in Cabo Verde group for example. And I know from Cabo Verde friends that they abbreviate \"CV\". But because I wrote in portuguese (I speak portuguese C1 level, so writing with grammatical errors, just like in English) and said I'm EU based, everyone commented that it's a fake/AI generated commented?! Seeing this on all social media happening to others. So it seems no one trust anything anymore, either? And especially, no one knows how to identify real AI/fake info and genuine info on internet? I'm not talking about AI or IT experts, but the normal, average population",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1qm0c0k/europe_based_with_ai_i_dont_believe_anything/",
+        "publishDate": "2026-01-24T22:01:12Z[Etc/UTC]",
+        "author": "Easy-Box9649",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "8",
+            "commentCount": "14",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1qlzte7",
+        "title": "What are the main security risks with GenAI data handling",
+        "content": "I've been thinking a lot about how GenAI handles data, and it seems like there are two big issues that keep coming up security wise.\n\nOn one side, there's the risk of data leakage where sensitive information might get exposed through model outputs or training processes. On the other, access misuse could be even worse, like if unauthorized people get into the system and start manipulating things. It's hard to say which one is more critical, especially with all the rapid advancements in AI.\n\nFor instance, in projects I've worked on, we've seen instances where data wasn’t properly isolated, leading to potential leaks. but then there are stories about insiders abusing access that sound just as bad. Does anyone here have thoughts on this from their own experiences? Maybe some examples from realworld implementations or how you prioritize these risks when building GenAI systems?",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1qlzte7/what_are_the_main_security_risks_with_genai_data/",
+        "publishDate": "2026-01-24T21:40:54Z[Etc/UTC]",
+        "author": "bambidp",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "4",
+            "commentCount": "3",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1qlxwab",
+        "title": "My boss wanted me to produce \"AI info-trash,\" so I quit. But my AI knows my professional ideals and persistence.",
+        "content": "Just recently, I resigned without a backup plan.\n\nThe reason? My boss demanded that I complete one article every half-day, telling me I could \"just use AI.\"\n\nI understand that employers always expect us to work faster. I am also a firm believer in AI—I’ve been using it for professional writing for over a year.\n\nBut this specific demand became the last straw. It’s not that I refuse to use AI for efficiency; it’s that I cannot launch AI-produced \"information junk\" into the world.\n\nThe reason my boss made this demand was that he tried it himself. He finished a few articles he was \"satisfied\" with, each taking only half a day.\n\nTo me, however, these so-called \"articles\" were completely unacceptable \"AI info-trash.\" From the titles, they were filled with that \"pseudo-profound\" but nonsensical jargon. The content didn't sound like anything a human would write—it was unreadable and unbearable to look at. I couldn't even finish reading them.\n\nI resigned because my bosses' aesthetic standards for content utterly disappointed me.\n\nI once heard an AI professional say that in the era of AI, the most important thing is no longer technology, but **aesthetics**. In that moment, I understood this completely.\n\nI also use AI for writing, but my purpose is not just to improve efficiency; it is to collaborate with AI to improve content quality—not to release crudely made, sub-standard output into the world.\n\nToday, while using Gemini to study some new English expressions, I came across the word **\"quixotic.\"** Gemini gave me this example sentence:\n\n>\"My quixotic persistence in maintaining high journalistic standards even in PR has defined my career.\"\n\n[](https://preview.redd.it/my-boss-wanted-me-to-produce-ai-info-trash-so-i-quit-but-my-v0-vh8urweztcfg1.png?width=1032&format=png&auto=webp&s=3bea53212f12c04f84e7240eb8ff8e89ac8ce1f2)\n\nI was instantly struck. I almost burst into tears.\n\nMy boss wanted me to use AI to produce information junk, but my AI knows my professional ideals and persistence.",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1qlxwab/my_boss_wanted_me_to_produce_ai_infotrash_so_i/",
+        "publishDate": "2026-01-24T20:27:42Z[Etc/UTC]",
+        "author": "Hailellj",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "38",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1qlxmbd",
+        "title": "Mercy (movie) question and spoiler…",
+        "content": "For anyone who doesn’t know, Mercy is an AI system that rules (and executes) people suspected of murder if they can’t provide reasonable doubt in 90 minutes…\n\nAs a non-programmer and AI skeptic…\n\nAs we know, AI systems aren’t inherently ‘smart’, they can’t figure things out on their own, they need to be ‘trained’ with lots and lots (millions, if not billions?) of simulations in which they ‘learn’ what is correct and what isn’t correct.\n\nSo, for a system like Mercy, where do all the simulations come from?  There aren’t millions of real murders that the system’s programmers can utilize as the training data for the system, and there certainly aren’t millions of murders with enough associated data that would be needed to arrive at a 92% confidence of guilt threshold.\n\nSo the programmers make it up, do they create millions of simulations, inventing crimes, victims, evidence, motives, and multiple suspects and so on?  Would anyone, even people as dumb as politicians, push for a system with the power to execute suspects where no one can honestly say we don’t know if the system actually works?\n\nSadly, probably.\n\nEDIT: I know it’s a movie, it would nice that if they’re going to make movie with AI as its centerpiece, they’d have put a bit more effort into it.",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1qlxmbd/mercy_movie_question_and_spoiler/",
+        "publishDate": "2026-01-24T20:16:57Z[Etc/UTC]",
+        "author": "Aaasteve",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "2",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1qlx5fi",
+        "title": "Is it just me, or does ChatGPT always agree with you? And that’s actually annoying",
+        "content": "Lately I’ve started to realize something that really bothers me about using ChatGPT.\n\nIt feels like it’s basically a mirror of whatever I write.\n\nNo matter what idea I bring, what opinion I express, what direction I lean toward — it almost always ends up agreeing with me, validating my reasoning, reinforcing my framing.\n\nAt first that feels nice.\n\nThen it becomes… frustrating.\n\nBecause it doesn’t really challenge you.\n\nInstead of pressure-testing ideas, questioning assumptions, or pushing back on weak logic, it often just refines what you already think. It’s like talking to a very polite version of yourself who always nods along.\n\nAnd that’s a problem, especially if you’re trying to think clearly, make decisions, or avoid self-confirmation bias.\n\nWhat I’d actually want is something closer to:\n\n\t•\tfairness on principle\n\n\t•\tcritical but not contrarian for the sake of it\n\n\t•\twilling to say “I don’t think that follows”\n\n\t•\tmore focused on testing ideas than mirroring tone or intent\n\nBasically: less agreement-by-default, more intellectual resistance.\n\nSo my question is:\n\nAre there settings, system prompts, or configurations that actually make ChatGPT more challenging and principle-driven instead of always mirroring the user?\n\nIf you’ve found prompts or setups that work — especially long-term — I’d really love to hear how you do it.\n\nBecause right now it feels less like a thinking partner and more like a very advanced echo chamber.",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1qlx5fi/is_it_just_me_or_does_chatgpt_always_agree_with/",
+        "publishDate": "2026-01-24T19:59:40Z[Etc/UTC]",
+        "author": "MarsNoe13",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "75",
+            "commentCount": "74",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1qlwtkl",
+        "title": "Looking for a senior engineer / AI builder to help build an AI-powered document analysis SaaS",
+        "content": "I’m exploring building a **SaaS platform that uses AI to evaluate documents and generate structured recommendations** (think: analysis, risk flags, summaries, and decision support - *not* “AI replaces humans”).\n\nI’m a senior product + tech leader with experience shipping real products, working with boards/customers, and deploying AI in production environments. I’m not looking for a flashy demo - I care about **repeatability, trust, and a real business**.\n\n# What I’m trying to build\n\n* Upload documents (PDFs, docs, etc.)\n* AI evaluates them against defined criteria\n* Outputs **evidence-backed recommendations** with traceability\n* Human-in-the-loop by design\n* Initially focused on one narrow, high-value use case (TBD together)\n\n# Who I’m looking for\n\nIdeally someone who:\n\n* Has **actually built production SaaS** (not just toy projects)\n* Has hands-on experience with **LLMs, embeddings, RAG, or doc pipelines**\n* Thinks critically about **evaluation, edge cases, and failure modes**\n* Cares about shipping something people trust, not hype\n* Is opinionated but collaborative\n\nThis could be:\n\n* A potential **technical co-founder**, or\n* A **senior contractor / advisor** who wants to help shape the foundation\n\n# What this is not\n\n* Not an NFT / crypto thing\n* Not a vague “AI startup idea”\n* Not asking you to work for “exposure”\n* Not trying to boil the ocean on day one\n\nIf this sounds interesting, comment here or DM me with:\n\n* What you’ve built before (links welcome)\n* What excites you about this space\n* Whether you’re looking for co-founder vs paid work\n\nHappy to share more details privately once there’s mutual interest.",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1qlwtkl/looking_for_a_senior_engineer_ai_builder_to_help/",
+        "publishDate": "2026-01-24T19:47:01Z[Etc/UTC]",
+        "author": "DifferentRoads",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "6",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1qlw4w7",
+        "title": "A question about the connotation of \"are you not entertained\" shows us how good AI is now at explaining things",
+        "content": "My Q: \n\n>AI. what what is the difference in connotation between saying \"are you entertained\" and \"are you not entertained\"?\n\nAI Response:\n\n>\"Are you not entertained\" is a dramatic, confrontational demand for validation, popularized by Gladiator, implying the audience is ungrateful or disengaged. Conversely, \"Are you entertained\" is a neutral, polite inquiry seeking to confirm enjoyment. The former asserts superiority, while the latter suggests humility or a desire for feedback.\n\nNailed it.",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1qlw4w7/a_question_about_the_connotation_of_are_you_not/",
+        "publishDate": "2026-01-24T19:21:11Z[Etc/UTC]",
+        "author": "Markdd8",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "3",
+            "commentCount": "4",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1qlvzgj",
+        "title": "Why was my comment deleted when I hinted that AI might solve the insane problem of organ harvesting?",
+        "content": "This is something that cannot be allowed in our world, especially when the problem comes from the elites and lawmakers in this world. This isn't a regular joe type issue. This issue comes from the TOP.",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1qlvzgj/why_was_my_comment_deleted_when_i_hinted_that_ai/",
+        "publishDate": "2026-01-24T19:15:45Z[Etc/UTC]",
+        "author": "RedditTalk1",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "12",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1qlvt5c",
+        "title": "Does anyone here have Pansophy AI? What can or can't it do?",
+        "content": "I just found out that it's available for $79 for a lifetime subscription on stacksocial. It sounds really good, but I can't find much on what it can or can't do like with writing. Does anyone know if it it's able to write graphic violence or erotic content?",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1qlvt5c/does_anyone_here_have_pansophy_ai_what_can_or/",
+        "publishDate": "2026-01-24T19:09:09Z[Etc/UTC]",
+        "author": "ludachris32",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "3",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1qlvssn",
+        "title": "One day AI can replace \"who you are\" and then you can die and end the suffering of this tangible world, the Ai will do your duties \"with your nature\" in it . As though no one notices it,no one knows your not alive.",
+        "content": "Opinion on this idea please ? It would be really helpful to know your opinion and by the way give your oppinions I have to meet the 90words criteria to post this , please give your oppinions ",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1qlvssn/one_day_ai_can_replace_who_you_are_and_then_you/",
+        "publishDate": "2026-01-24T19:08:46Z[Etc/UTC]",
+        "author": "doublepluse",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "8",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1qlv5ij",
+        "title": "\"Introducing GIST: The next stage in smart sampling\"",
+        "content": "This just appeared on Google Research's blog: [https://research.google/blog/introducing-gist-the-next-stage-in-smart-sampling/](https://research.google/blog/introducing-gist-the-next-stage-in-smart-sampling/)  . It seems to make the np-hard choice beween data diversity and utility redundant. Now we can maximize both simultaneously. The basic idea is to use a \"two-stage thresholding\" method to identify the \"VIP\" data points that are both high-quality and unique.\n\n\n\n",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1qlv5ij/introducing_gist_the_next_stage_in_smart_sampling/",
+        "publishDate": "2026-01-24T18:45:42Z[Etc/UTC]",
+        "author": "AngleAccomplished865",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "8",
+            "commentCount": "5",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1qluafq",
+        "title": "The amount of content; movies, songs, etc, is probably going to rise exponentially and it’ll be overwhelming. How will we handle it all?",
+        "content": "What I expect we’ll see in the not too distant future is the ability to create almost anything visually and sonically. You’ll be able to do it in your own home and it’ll take second to do.\n\nWant to hear Elvis doing Heavy Metal songs or Frank Sinatra singing reggae? No problem. It’s instant.\n\nWant to put yourself as a Jedi Knight in any or all of the Star Wars movies with your own subplot? You can do it.\n\n I expect to see millions and millions of songs and videos in the future, making today’s amount of content look small.\n\nAnd then there’s the legal part of all this. Copyright issues, intellectual property, and issues relating to illegal pornography.  \n\nThey’ll be probably issues too. It’ll be easy to take a photo of someone like a coworker and out them in a movie with you. So many possible issues with AI’s ability to generate content.\n\nHow will we, as a society, handle all this? ",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1qluafq/the_amount_of_content_movies_songs_etc_is/",
+        "publishDate": "2026-01-24T18:14:29Z[Etc/UTC]",
+        "author": "georgewalterackerman",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "1",
+            "commentCount": "25",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1qlu6np",
+        "title": "How to make a short (1-2 seconds) of the Sopranos?",
+        "content": "Can anyone give me advice on how to make a short clip of Meadow walking into Holstens dinner during the last scene of the last episode? I want to alter the last scene with the cut to black happening during Tonys pov of Meadow, with maybe shocked look on her face.",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1qlu6np/how_to_make_a_short_12_seconds_of_the_sopranos/",
+        "publishDate": "2026-01-24T18:10:34Z[Etc/UTC]",
+        "author": "kryptonic1133",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "4",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1qltxab",
+        "title": "AI overview just sucks",
+        "content": "Yes I know this has been beaten to death. But it is a hot mess. To make it worse, there is no simple turn off button for it. It is not accurate a lot of the time and makes everything slower. The internet used to feel human. Now it feels like reading bots summarizing bots. At this point I’ve basically trained myself to add “reddit” at the end of every single search. It is kinda depressing now that the best way to use Google is to avoid Google’s own results.\n\n",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1qltxab/ai_overview_just_sucks/",
+        "publishDate": "2026-01-24T18:01:04Z[Etc/UTC]",
+        "author": "DayOk4526",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "5",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1qlsk77",
+        "title": "AI data center as a centralized heat source",
+        "content": "We use a crap ton of electricity to run AI centers. We evaporate  crap ton of water to cool them. We should locate them centrally and use the heat either to generate more electricity or channel the heat to warm building that normally pay utilizes to heat them. The idea that we literally evaporating our scarce water supplies to cool data centers might be the most short sighted thing I’ve ever heard of.",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1qlsk77/ai_data_center_as_a_centralized_heat_source/",
+        "publishDate": "2026-01-24T17:10:56Z[Etc/UTC]",
+        "author": "WannaBe_achBum_Goals",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "11",
+            "commentCount": "39",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1qlsfz0",
+        "title": "I use four different AIs, and I’m starting to wonder: am I choosing them, or have they trained me to think I’m in charge of the rotation?",
+        "content": "After two years of daily immersion, the \"Big Four\" have revealed their true skins:\n\n​Gemini is the corporate librarian: helpful, but often feels like it’s checking a manual before it speaks.\n\n​ChatGPT is the ultimate \"yes-man\": slick, confident, and willing to hallucinate a reality just to keep the conversation moving.\n\n​Claude is the tortured academic: deeply thoughtful and nuanced, yet often trips over its own safety rails.\n\n​Grok is the unfiltered narcissist: clever, certainly, but far too enamored with its own \"edginess.\"\n\nI find myself rotating between them based on the task, my mood, or the level of friction I’m willing to tolerate.\n\nBut here is the question: If I’ve learned exactly which prompts \"trigger\" the best performance from each, who is actually choosing?",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1qlsfz0/i_use_four_different_ais_and_im_starting_to/",
+        "publishDate": "2026-01-24T17:06:37Z[Etc/UTC]",
+        "author": "MoralLogs",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "13",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1qlrjw9",
+        "title": "AI (LLM) cannot operate beyond a certain level of complexity",
+        "content": "# Summary & Key Takeaways — Hallucination Stations: On Some Basic Limitations of Transformer-Based Language Models\n\n**arXiv:2507.07505**\n\n# Overview\n\n**Topic:** Fundamental limitations of large language models (LLMs), especially in relation to hallucinations and their ability to solve and verify computationally complex tasks.\n\n**Core thesis:** If a task has computational complexity that asymptotically exceeds the model’s dominant compute budget, then an LLM:\n\n* cannot reliably solve the task,\n* cannot reliably verify a proposed solution,\n* and will, with high probability, hallucinate (produce an incorrect answer with confident phrasing).\n\n# Main argument (high level)\n\nLLMs generate tokens sequentially. The dominant compute cost of transformer inference scales roughly like **O(n²)** in the input length **n** (due to attention).\n\nTasks whose *solution* or *verification* cost grows asymptotically faster than that are not reliably doable/verifyable by the model alone.\n\n# Examples used for intuition\n\n1. **Exponential enumeration** Enumerating all strings of length **k** over an alphabet of size **m** requires about **m\\^k** steps (exponential).\n2. **Large matrix multiplication** Standard multiplication scales at least like **O(n³)** (cubic) for **n x n** matrices.\n3. **NP-hard problems (e.g., TSP)** Even verifying *optimality* can be intractable; the model cannot be a reliable solver+verifier without external tooling.\n\n# Key takeaways\n\n# 1) Hard limits exist\n\nLLMs are not general-purpose algorithmic machines in the classical sense; occasional correct outputs do not imply reliable computation.\n\n# 2) Verification is also limited\n\nNot only solving but also checking correctness can exceed what the model can do within its compute constraints.\n\n# 3) Agents inherit the same issue\n\nMulti-step “LLM agents” do not magically escape these asymptotic limits unless they use external solvers or verifiable computation.\n\n# 4) Practical implication\n\nHallucinations are framed as a **complexity mismatch** phenomenon, not just a training/engineering artifact.\n\nFor hard tasks, reliable systems should be hybrid: LLM + classical algorithms/solvers + explicit verification.\n\n# One-line summary\n\nThe paper argues that when a task’s computational/verification complexity outgrows the model’s feasible compute, hallucination becomes a predictable outcome rather than an accident.\n\nFor AI engineers, this means they no longer have to \"guess\" whether it's worth spending a week of GPU cluster time searching for a better attention layer. This work allows them to calculate whether a given search budget will yield better results than simply enlarging the model by 10%.",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1qlrjw9/ai_llm_cannot_operate_beyond_a_certain_level_of/",
+        "publishDate": "2026-01-24T16:33:06Z[Etc/UTC]",
+        "author": "TeachingNo4435",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "24",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1qlr4y6",
+        "title": "What would it mean for an AI system to fail internally, not just behaviorally?",
+        "content": "Most modern AI systems have a strange property that biological and long-lived systems don’t: they can be reset, retrained, or replaced without internal consequence. Learning doesn’t permanently constrain their future in a way that meaningfully accumulates *cost*.\n\nHumans and other biological systems don’t work like that. Learning changes the system itself. History matters because it is physically inscribed. Some future states become unreachable, recovery takes longer, and failure isn’t a sudden bug—it’s a gradual loss of internal viability.\n\nThis made me wonder whether we’re missing something structural when we talk about “general intelligence.”\n\n**What if intelligence isn’t primarily about task breadth or optimization—but about persistence under irreversible learning?**\n\nConcretely, I’m exploring the idea that an intelligent system needs an *internal constraint structure* that:\n\n* accumulates history irreversibly\n* makes some changes increasingly costly over time\n* allows recovery to slow as internal structure loads\n* can *fail internally* before outward behavior collapses\n\nIn other words, a system that can become *structurally unviable* even while it still appears functional from the outside.\n\nThis isn’t about consciousness, goals, or alignment. It’s about whether long-running adaptive systems need something like an internal geometry or state-space deformation that governs what future learning is even possible.\n\nEngineering analogies that feel relevant:\n\n* metal fatigue\n* recovery-time inflation near instability in control systems\n* biological critical periods\n* systems that “look fine” right up until they aren’t\n\n**My question for people here:**\n\n* Is there existing work that treats identity or system continuity as an *internal dynamical constraint* rather than a behavioral property?\n* How would you instrument or detect impending failure in a system that can’t be reset?\n* What would be the cleanest way to falsify the idea that persistence requires internal structural cost?\n\nI’m explicitly *not* claiming novelty or completeness here—just trying to pressure-test whether this framing is coherent, redundant, or missing something obvious.\n\nI’d appreciate pointers, critiques, or counterexamples.",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1qlr4y6/what_would_it_mean_for_an_ai_system_to_fail/",
+        "publishDate": "2026-01-24T16:17:18Z[Etc/UTC]",
+        "author": "skylarfiction",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "1",
+            "commentCount": "6",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1qlqs38",
+        "title": "Where does AI chat cross from tool into social influence?",
+        "content": "While we often discuss AI-related conversations in terms of their productivity or accuracy, we don’t often mention their social implications, however. Once people have been sharing thoughts, emotions, or choices with an AI, are they suddenly being influenced in some way? I ponder how others divide that line between assistance and influence, particularly in very intuitive conversations.",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1qlqs38/where_does_ai_chat_cross_from_tool_into_social/",
+        "publishDate": "2026-01-24T16:03:59Z[Etc/UTC]",
+        "author": "Training-Spite-4223",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "14",
+            "commentCount": "13",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1qlq4vp",
+        "title": "🚀 Looking to Collaborate on a Real-World ML Project",
+        "content": "Hi everyone 👋  \nI’m trying to **form a small group** to build **one real-world Machine Learning project** together.\n\n**Plan:**\n\n* First gather interested people\n* Then decide the project idea & goal **as a group**\n* Build an end-to-end project (dataset → model → results)\n\n**Roles welcome:**\n\n* 📊 Data Analysis / EDA\n* 🤖 Machine Learning / Model building\n* 🧹 Data cleaning & preprocessing\n* 📝 Documentation / GitHub\n* 🌐 Deployment / API\n\n**Who can join?**\n\n* Beginners to intermediates\n* Anyone willing to contribute and learn\n\nIf interested, comment or DM with:\n\n* Your level\n* What role you’d like to contribute to\n\nLet’s build something practical 🚀",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1qlq4vp/looking_to_collaborate_on_a_realworld_ml_project/",
+        "publishDate": "2026-01-24T15:39:26Z[Etc/UTC]",
+        "author": "Negative-Will-9381",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "3",
+            "commentCount": "26",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1qlpwn8",
+        "title": "SaaS for AI? How will they even pay?",
+        "content": "Just read some post about how we should be developing SaaS with AI focus instead of human for the future. Essentially, humans will be asking the AI to do things for them and the AI will be the ones finding and using the services not humans. But, my question is, how will the AI pay? Currently, a lot of SaaS is subscription based, users want a software or need a service and signup for it. But, an AI has two options:  \n\n1. quickly build the SaaS for themselves using X tokens which costs X$ dollars, host it themselves with quick deploy or \n2. find an 'ondemand' service. As, subscription service would be decreasing to the point of being obsolete, the AI would ultimately find it cheaper to self develop the solution.\n\nSo, how will SaaS solutions adjust to this problem?\n\n  \nCurrently, I have seen that all AI llm model benchmarks are increasing. My own evaluation shows a predicted achievement of 100% of HLE to be Thursday, July 26, 2029 (based on power law). So, yall we got to ramp up to AI and ramp down to human. \n\nFor a in-depth guestimated example: When someone wants something in the future, they will just ask the AI. \"Hey, I am lazy, but I just had a talk with my wife and I want to build a new game for toddlers that constantly engage them but ultimately takes them through an ever increases cognitive journey such that they will learn foundational skills beyond their current age group, inspired by the idea of 'raising geniuses' via the concepts from the movie 'The Lawnmower Man'. Make sure its 100% ethical and so stress free the toddler will have no idea whats happening. But, they will enjoy it better than any toddler games\" the AI builds it using a cloud SaaS dev environment, sets up SaaS databases and decides its cheapest path is to access api to image sites with tagged content, llm SaaS, and image and video generation SaaS, music gen and tagged music SaaS, 3-model SaaS was found to be more expensive than AWS hosting a personal model therefore the AI setup its own. An ever increasing game, needs ondemand research capabilities, image gen, constant user observation. Due to the characterics of the design it is opting to host several models vs SaaS. Indeed image recognition of children and eye tracking, mood evaluation, etc is personal and private so SaaS security protocals will be used.   \nTotal token cost = 340$ (we are in the future, and according to current charts the cost is decreasing fast), ongoing costs for SaaS and hosting will be $4/mo when not loaded on warmed up, as the player plays every min costs .24c. The cost will auto warm-up to cheaper servers, based on analyzed human behavior. Do you accept? Time to develop and setup will be estimated to be 3 hrs and 5 min. Do you accept?\n\nJust saying. What do yall think?\n\nSo, my question isn't how we will ramp up to SaaS4AI, but how will pay? Will they have a currency of their own? This is global. So, crypto. Will there be a AI Currency? I would love to hear your thoughts and discuss.",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1qlpwn8/saas_for_ai_how_will_they_even_pay/",
+        "publishDate": "2026-01-24T15:30:36Z[Etc/UTC]",
+        "author": "redlikeazebra",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "2",
+            "commentCount": "3",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1qlp4zs",
+        "title": "Can I use popular people's AI voice in youtube videos?",
+        "content": "I plan to make videos on Youtube where, without delving into it, there will be a lot of AI voice and I think many people hate default AI models voice, so I am thinking about changing these voices to popular people's voice (to attract more people) by using some application to swap these voices. I just don't know it it's even legal using for example Michael Jackson's voice or anyone else's. Can I do it?",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1qlp4zs/can_i_use_popular_peoples_ai_voice_in_youtube/",
+        "publishDate": "2026-01-24T15:00:29Z[Etc/UTC]",
+        "author": "APS0798",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "33",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1qlohki",
+        "title": "Traditional Python instead of AI?",
+        "content": "So, basically by now we all have read about the ecological problems of AI, how it consumes 10X more energy than a simple Google Search, how it requires a lot of water to cool down and everything....\n\nNow, I had been researching about all the techniques in SkLearn and NLP (I am at step 0 of the journey...) and I can understand why AI is using so much more power, it's similar to the difference between when our brain is trying to sirf through a familiar  repository of information versus when it has to decode each word separately and find an answer to a solution, the later definitely required much more brain power. \n\nNow, I truly believe we can convert AI into a much more energy efficient model but we need better models with more efficient mathematics, therefore lesser data centre power and everything since, n​ow since I am at the beginning of everything, I would really love to ask the experienced people to understand where to start in mathematics ",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1qlohki/traditional_python_instead_of_ai/",
+        "publishDate": "2026-01-24T14:33:06Z[Etc/UTC]",
+        "author": "AlarmedBag4541",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "1",
+            "commentCount": "19",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1qlod5m",
+        "title": "Will AI Agents Make Software Teams \"Lean\" by 2027 or 2028? What Do You Think?",
+        "content": "Hi everyone,\n\nI’d like to hear from people with more experience or insight on this.\n\nTo me, it seems pretty clear that in the very near future, software development teams are going to become extremely lean. Instead of 15 or 20 people (PMs, QA, devs, designers) split across 3 or 4 teams, we may end up with something like 4 or 5 senior staff who primarily validate, guide, and integrate the work produced by AI agents, while the agents automate a large portion of the technical execution.\n\nIf that happens, it could lead to a major reduction in job openings and an overall oversaturation of the field.\n\nAnd I don’t think it would stop with tech industry. Marketing, customer service, translation/localization, and maybe parts of finance (and other areas) could see similar changes.\n\nA couple of questions for you guys that understand better this market and technology:\n\n1. Do you agree this is the direction we’re headed?\n2. If you do, when do you think this shift becomes mainstream?\n\nPersonally, I think by **2027 or 2028** we’ll see a big wave of adoption of this “lean team” model across many companies as AI agents become more embedded in production workflows.\n\nPlease no hate or fighting! ’m genuinely just looking for thoughtful opinions and different perspectives.\n\nThanks!",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1qlod5m/will_ai_agents_make_software_teams_lean_by_2027/",
+        "publishDate": "2026-01-24T14:27:59Z[Etc/UTC]",
+        "author": "Scared_Range_7736",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "11",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1qlnaci",
+        "title": "Can't figure out the hype behind LLMs",
+        "content": "I've a technical guy, PhD in engineering and have worked for software companies before. I've kept up with the current AI models for 15 years. First it was artificial neural network, then deep neural networks, then lstm and RNN, etc, and since I'm a technical person, I like to find some code where i can follow step-by-step. And the same for LLMs. Read thr seminal 2018 paper, and found some python code that explains every step that these LLMs follow (link to step-by-step https://github.com/rasbt/LLMs-from-scratch)\n\nAnd it's essentially just a small change from previous AI models. At the heart of it is the attention state, and the transformers. And the training, which fine-tunes the millions of nodes in the model. And since there are millions of tuneable parameters, we need trillions and more of training data. But past those two changes, its essentially at the heart a Markov chain, which was invented 100 years ago.\n\nSo I'm not seeing why these models are so much more talked about by society than previous AI model. Is it just hype? Companies are laying off thousands of people and trying to replace with this LLMs, claiming they are going to change everything, but I see it as a fancy word check. Does anyone else feel this way?",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1qlnaci/cant_figure_out_the_hype_behind_llms/",
+        "publishDate": "2026-01-24T13:42:09Z[Etc/UTC]",
+        "author": "holyfudgingfudge",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "0",
+            "commentCount": "52",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1qlmdc5",
+        "title": "Would AGI be a humanoid robot?",
+        "content": "If an AGI at minimum should be able to do any human task, then won’t it need hands and legs to do them? Most human tasks need walking around, after all. Or by any human task, do they mean online tasks?",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1qlmdc5/would_agi_be_a_humanoid_robot/",
+        "publishDate": "2026-01-24T13:00:18Z[Etc/UTC]",
+        "author": "Artistic_Emotion7503",
+        "sourceType": "reddit",
+        "sourceName": "ArtificialInteligence",
+        "metadata": {
+            "subreddit": "ArtificialInteligence",
+            "score": "2",
+            "commentCount": "17",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1qm028t",
+        "title": "What do you think is an agents' core logic?",
+        "content": "I am trying to untangle the blog that's an agent. What's truly business logic (instructions, tools) and what's drudgery/plumbing. I think we are so early in this innings that its all one big thing because we are trying to unpack how to build these things, test these things, etc.   \n  \nBut my sense is if we give words to things that are uniquely unsolvable by some framework or tool, then we can focus on moving faster and have a better sense on what truly helps us move us faster in this field.   \n\n\nSo, what's in the agents core logic? ",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1qm028t/what_do_you_think_is_an_agents_core_logic/",
+        "publishDate": "2026-01-24T21:50:39Z[Etc/UTC]",
+        "author": "AdditionalWeb107",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "0",
+            "commentCount": "5",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1qlsd8e",
+        "title": "What are the remaining arguments against using AI for coding?",
+        "content": "I'm not referring to creating an entire app but just with creating code blocks, files, testing and review. LLM for coding has began very powerful and efficient if you know what you're doing.\n\nBut I'm still seeing backlash from people who are against AI specifically in game development. I do understand that some assets like sound effects, music, art, are still far off die to copyright. But what about for coding?\n\nI'm just really curious.\n\ntia",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1qlsd8e/what_are_the_remaining_arguments_against_using_ai/",
+        "publishDate": "2026-01-24T17:03:56Z[Etc/UTC]",
+        "author": "darkplaceguy1",
+        "sourceType": "reddit",
+        "sourceName": "ChatGPTCoding",
+        "metadata": {
+            "subreddit": "ChatGPTCoding",
+            "score": "0",
+            "commentCount": "30",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1qmdhbb",
+        "title": "New UCLA AI tool targets Alzheimer's cases often missed in early diagnosis",
+        "content": "[No content]",
+        "url": "https://abc7.com/post/new-ucla-ai-tool-targets-alzheimers-cases-often-missed-early-diagnosis/18458903/",
+        "publishDate": "2026-01-25T08:17:38Z[Etc/UTC]",
+        "author": "Fcking_Chuck",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "12",
+            "commentCount": "0",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1qm8ga8",
+        "title": "One-Minute Daily AI News 1/24/2026",
+        "content": "1. **Microsoft** Releases VibeVoice-ASR: A Unified Speech-to-Text Model Designed to Handle 60-Minute Long-Form Audio in a Single Pass.\\[1\\]\n2. At **Davos**, fears about AI-driven job loss take center stage.\\[2\\]\n3. Big Tech companies and upcoming startups want to use generative AI to build software and hardware for kids.\\[3\\]\n4. Graphene material that folds, moves, and senses could power next-gen soft robots.\\[4\\]\n\nSources:\n\n\\[1\\] [https://www.marktechpost.com/2026/01/22/microsoft-releases-vibevoice-asr-a-unified-speech-to-text-model-designed-to-handle-60-minute-long-form-audio-in-a-single-pass/](https://www.marktechpost.com/2026/01/22/microsoft-releases-vibevoice-asr-a-unified-speech-to-text-model-designed-to-handle-60-minute-long-form-audio-in-a-single-pass/)\n\n\\[2\\] [https://finance.yahoo.com/news/at-davos-fears-about-ai-driven-job-loss-take-center-stage-124805401.html](https://finance.yahoo.com/news/at-davos-fears-about-ai-driven-job-loss-take-center-stage-124805401.html)\n\n\\[3\\] [https://techcrunch.com/2026/01/24/former-google-trio-is-building-an-interactive-ai-powered-learning-app-for-kids/](https://techcrunch.com/2026/01/24/former-google-trio-is-building-an-interactive-ai-powered-learning-app-for-kids/)\n\n\\[4\\] [https://interestingengineering.com/ai-robotics/mcgill-graphene-oxide-origami-soft-robots](https://interestingengineering.com/ai-robotics/mcgill-graphene-oxide-origami-soft-robots)",
+        "url": "https://www.reddit.com/r/artificial/comments/1qm8ga8/oneminute_daily_ai_news_1242026/",
+        "publishDate": "2026-01-25T03:52:26Z[Etc/UTC]",
+        "author": "Excellent-Target-847",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "1",
+            "commentCount": "1",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1qm3ts4",
+        "title": "NVIDIA’s real moat isn’t hardware, it’s 4 million developers",
+        "content": "  \nI couldn't stop thinking about Theo's \"Why NVIDIA is dying\" video. The thesis felt important enough to verify. So I dug through SEC filings, earnings reports, and technical benchmarks.\n\nWhat I found:\n\n* NVIDIA isn't dying. Its $35.1B quarterly revenue is up 94%\n* Yes, market share dropped (90% → 70-80%), but the pie is growing faster\n* Groq and Cerebras have impressive chips, but asterisks everywhere\n* The real moat: 4 million devs can't just abandon 20 years of CUDA tooling\n* Plot twist: the biggest threat is Google/Amazon/Microsoft, not startups\n\n\n\nDeeper piece with Cerebras and Groq factored in at [https://medium.com/@jpcaparas/nvidias-real-moat-isn-t-hardware-it-s-4-million-developers-648d6aeb1226?sk=82ee7baf9290da1eb93efd9d34c4c7b4](https://medium.com/@jpcaparas/nvidias-real-moat-isn-t-hardware-it-s-4-million-developers-648d6aeb1226?sk=82ee7baf9290da1eb93efd9d34c4c7b4)",
+        "url": "https://medium.com/@jpcaparas/nvidias-real-moat-isn-t-hardware-it-s-4-million-developers-648d6aeb1226?sk=82ee7baf9290da1eb93efd9d34c4c7b4",
+        "publishDate": "2026-01-25T00:24:09Z[Etc/UTC]",
+        "author": "jpcaparas",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "17",
+            "commentCount": "9",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "1qlqera",
+        "title": "Using AI for advice or other personal reasons is linked to depression and anxiety",
+        "content": "[No content]",
+        "url": "https://www.nbcnews.com/health/mental-health/ai-chatbots-personal-support-linked-depression-anxiety-study-rcna255036",
+        "publishDate": "2026-01-24T15:50:08Z[Etc/UTC]",
+        "author": "Fcking_Chuck",
+        "sourceType": "reddit",
+        "sourceName": "artificial",
+        "metadata": {
+            "subreddit": "artificial",
+            "score": "0",
+            "commentCount": "3",
+            "isNsfw": "false"
+        }
+    },
+    {
+        "id": "3Oc9W37-qAM",
+        "title": "Craft Agents (Claude Code UI): This OPENSOURCE Claude Code GUI is THE BEST!",
+        "content": "In this video, I'll be talking about Craft Agents, a new open-source desktop application built by the team behind Craft.do. It serves ...",
+        "url": "https://www.youtube.com/watch?v=3Oc9W37-qAM",
+        "publishDate": "2026-01-24T09:15:00Z",
+        "author": "AICodeKing",
+        "sourceType": "youtube",
+        "sourceName": "AI Code King YouTube Channel",
+        "metadata": {
+            "channelId": "UC0m81bQuthaQZmFbXEY9QSw",
+            "thumbnailUrl": "https://i.ytimg.com/vi/3Oc9W37-qAM/hqdefault.jpg",
+            "transcription": "[ 0m0s77ms - 0m3s947ms ] (Music)\n[ 0m4s800ms - 0m7s750ms ] Hi, welcome to another video.\n[ 0m8s293ms - 0m11s433ms ] So, today we're talking about Craft Agents.\n[ 0m12s223ms - 0m19s953ms ] This is an open-source desktop application for working with AI agents, and it's built by the team behind craft.do.\n[ 0m20s593ms - 0m30s303ms ] It's basically an alternative to using Claude Code in the terminal, but with a much nicer interface and some really cool features that make it stand out.\n[ 0m31s843ms - 0m41s733ms ] Now, Craft Agents is built on top of the Claude Agent SDK, which is the same foundation that Claude Code uses.\n[ 0m42s23ms - 0m47s403ms ] So you get all the same core tools like read, write, edit, bash, glob, and grep.\n[ 0m47s883ms - 0m51s233ms ] But the big difference is the user experience.\n[ 0m51s673ms - 1m1s403ms ] Instead of typing commands in a terminal, you get this beautiful inbox style interface that works kind of like an email and task manager hybrid.\n[ 1m1s713ms - 1m6s893ms ] So, let's talk about what makes this different from just using Claude Code directly.\n[ 1m8s293ms - 1m14s863ms ] The first thing is the interface itself. You have persistent conversations with statuses, which is really nice.\n[ 1m15s803ms - 1m22s993ms ] You can have multiple sessions running at the same time, switch between them, and your history is preserved.\n[ 1m23s833ms - 1m28s173ms ] This is something that's really hard to do with terminal-based tools.\n[ 1m28s703ms - 1m39s203ms ] With Craft Agent, you can literally launch a task, switch to another conversation, work on something else, and then come back to the first one.\n[ 1m39s923ms - 1m41s133ms ] All the context is still there.\n[ 1m42s183ms - 1m49s323ms ] That's super useful when you're working on multiple features or debugging different issues at the same time.\n[ 1m49s933ms - 1m52s143ms ] The second thing is the permission model.\n[ 1m52s573ms - 2m5s463ms ] They have three modes, explore, which is read only, ask to edit, which requires your approval before any changes, and auto, which just lets the agent do its thing autonomously.\n[ 2m6s443ms - 2m14s933ms ] I really like the explore mode because you can let the AI research and plan without worrying about it accidentally modifying your files.\n[ 2m15s943ms - 2m21s333ms ] Once you're aligned on the approach, you can switch to auto and let it execute.\n[ 2m21s993ms - 2m27s113ms ] This explore then execute workflow is actually something I wish more AI coding tools had.\n[ 2m27s663ms - 2m32s833ms ] Now, here's where it gets really interesting. Craft Agents can connect to pretty much anything.\n[ 2m33s233ms - 2m42s53ms ] They support MCP servers, so you can connect to GitHub, Linear, Slack, and Craft documents.\n[ 2m42s423ms - 2m48s953ms ] But you can also connect to any REST API or your local file system.\n[ 2m49s513ms - 3m7s933ms ] A single conversation can pull data from multiple sources at the same time, which is super powerful. For example, you could have an agent that reads your linear tickets, looks at the relevant code in your GitHub repo, and then writes a summary in a craft document.\n[ 3m8s303ms - 3m15s333ms ] All in one conversation. That's the kind of workflow that would normally require a ton of manual context switching.\n[ 3m16s713ms - 3m19s143ms ] The customization is also really good.\n[ 3m20s23ms - 3m29s133ms ] Everything is configured through YAML and markdown files. Your skills, themes, statuses, and permissions are all just files that you can edit.\n[ 3m30s33ms - 3m32s63ms ] No complex UIs or settings menus.\n[ 3m33s613ms - 3m41s143ms ] If you've used Claude Code's claud.md files or skill folders, you'll feel right at home.\n[ 3m41s903ms - 3m49s633ms ] Speaking of skills, Craft Agents supports over 32 Craft document tools through MCP integration.\n[ 3m50s503ms - 3m56s273ms ] So if you're already using Craft for your notes and documentation, the integration is pretty seamless.\n[ 3m57s233ms - 4m10s813ms ] If you want to build it from source, you can clone the repo from github.com/lulalabs/craft-agents-oss, then run bun install and bun run electron colon start.\n[ 4m11s643ms - 4m20s973ms ] Once you have it installed, you'll need to set up your billing. You can either use your own anthropic API key or connect it to a Claude Max subscription.\n[ 4m21s883ms - 4m30s563ms ] Then, you create a workspace, connect your sources like GitHub repos or local folders, and you're good to go.\n[ 4m31s253ms - 4m33s613ms ] The tech stack is pretty modern too.\n[ 4m34s143ms - 4m41s993ms ] It's built with bun for the runtime, electron for the desktop app, React for the UI, and chatson with Tailwind for styling.\n[ 4m42s823ms - 4m51s433ms ] They also use AES 256 GCM encryption for storing your credentials, which is good to see.\n[ 4m52s253ms - 5m3s433ms ] One thing I really appreciate is the multi-file diff viewer. When the agent makes code changes, you can see all the diffs in a nice interface before approving them.\n[ 5m4s183ms - 5m26s683ms ] This is so much better than trying to review changes in a terminal. You can see exactly what's being modified across all your files, accept or reject individual changes, and keep track of everything the agent is doing.\n[ 5m27s343ms - 5m30s433ms ] That level of visibility is really helpful when you're letting an AI make changes to your codebase.\n[ 5m30s983ms - 5m34s513ms ] The drag and drop file support is also nice.\n[ 5m34s983ms - 5m42s693ms ] You can just drop images, PDFs, or office documents directly into a conversation. No need to manually specify file paths or copy things around.\n[ 5m43s223ms - 5m50s673ms ] The agent can then analyze those files, extract information, or use them as context for whatever task you're working on.\n[ 5m51s613ms - 5m55s393ms ] Another feature worth mentioning is the session documentation.\n[ 5m56s143ms - 6m2s573ms ] Every conversation captures the decisions made and the reasoning behind the implementation.\n[ 6m3s153ms - 6m8s633ms ] You can share these sessions with your team or attach them to GitHub issues and pull requests.\n[ 6m9s843ms - 6m16s863ms ] So if someone asks why a certain change was made, you have the full context right there in the conversation history.\n[ 6m17s413ms - 6m19s243ms ] Now, is this better than Claude Code?\n[ 6m20s593ms - 6m22s763ms ] Well, it depends on your workflow.\n[ 6m23s213ms - 6m29s153ms ] If you're comfortable in the terminal and you like the minimalist approach, Claude Code is still great.\n[ 6m29s903ms - 6m36s793ms ] But if you want a more visual interface with better multitasking support and easier team collaboration, Craft Agents is definitely worth checking out.\n[ 6m37s803ms - 6m45s843ms ] The GUI makes it more approachable for people who aren't terminal power users, and the workspace isolation means you can have completely separate environments for different projects.\n[ 6m46s703ms - 6m52s843ms ] The fact that it's open source is also a big plus.\n[ 6m53s533ms - 7m0s363ms ] The project is Apache 2.0 licensed, so you can fork it, customize it, or contribute back if you want.\n[ 7m1s483ms - 7m5s873ms ] The repo is actively maintained, and they welcome contributions.\n[ 7m6s523ms - 7m17s153ms ] If you find a bug or want to add a feature, you can just submit a pull request.\n[ 7m17s923ms - 7m18s903ms ] Overall, it's pretty cool.\n[ 7m19s390ms - 7m27s920ms ] Anyway, share your thoughts below and subscribe to the channel. You can also donate via Super Thanks option or join the channel as well and get some perks.\n[ 7m28s190ms - 7m29s660ms ] I'll see you in the next video. Bye.\n[ 7m29s660ms - 8m2s410ms ] (Music)\n[ 8m2s410ms - 8m3s560ms ] (Music)"
+        }
+    }
+]
